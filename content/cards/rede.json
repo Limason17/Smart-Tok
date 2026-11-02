@@ -256,20 +256,46 @@
     },
     "slides": [
       {
-        "de": { "title": "1. Ausgangslage", "body": "Wer, wo, wann, in wenigen Sätzen. Gerade so viel, dass man sich die Szene vorstellen kann. \"Letzten Winter, 6 Uhr morgens, ich stand mit meinem Auto auf dem Pass.\"" },
-        "en": { "title": "1. Setting", "body": "Who, where, when, in a few sentences. Just enough to picture the scene. \"Last winter, 6 am, I was stuck in my car on the mountain pass.\"" }
+        "de": {
+          "title": "1. Ausgangslage",
+          "body": "Wer, wo, wann, in wenigen Sätzen. Gerade so viel, dass man sich die Szene vorstellen kann. \"Letzten Winter, 6 Uhr morgens, ich stand mit meinem Auto auf dem Pass.\""
+        },
+        "en": {
+          "title": "1. Setting",
+          "body": "Who, where, when, in a few sentences. Just enough to picture the scene. \"Last winter, 6 am, I was stuck in my car on the mountain pass.\""
+        }
       },
       {
-        "de": { "title": "2. Konflikt", "body": "Etwas geht schief, etwas steht auf dem Spiel. Ohne Problem keine Spannung. Das ist der Teil, den die meisten weglassen, und genau darum langweilen ihre Geschichten." },
-        "en": { "title": "2. Conflict", "body": "Something goes wrong, something is at stake. No problem, no tension. This is the part most people leave out, and that's exactly why their stories bore." }
+        "de": {
+          "title": "2. Konflikt",
+          "body": "Etwas geht schief, etwas steht auf dem Spiel. Ohne Problem keine Spannung. Das ist der Teil, den die meisten weglassen, und genau darum langweilen ihre Geschichten."
+        },
+        "en": {
+          "title": "2. Conflict",
+          "body": "Something goes wrong, something is at stake. No problem, no tension. This is the part most people leave out, and that's exactly why their stories bore."
+        }
       },
       {
-        "de": { "title": "3. Wendepunkt", "body": "Was hast du entschieden oder getan? Was ist passiert? Hier liegt der Moment, in dem sich alles dreht. Erzähl ihn langsam und mit einem konkreten Detail." },
-        "en": { "title": "3. Turning point", "body": "What did you decide or do? What happened? This is the moment everything turns. Tell it slowly and with one concrete detail." }
+        "de": {
+          "title": "3. Wendepunkt",
+          "body": "Was hast du entschieden oder getan? Was ist passiert? Hier liegt der Moment, in dem sich alles dreht. Erzähl ihn langsam und mit einem konkreten Detail."
+        },
+        "en": {
+          "title": "3. Turning point",
+          "body": "What did you decide or do? What happened? This is the moment everything turns. Tell it slowly and with one concrete detail."
+        }
       },
       {
-        "de": { "title": "4. Erkenntnis", "body": "Was hast du daraus gelernt, und was bedeutet das für die Zuhörer? Ein Satz genügt. Die Erkenntnis macht aus einer Anekdote eine Botschaft.", "apply": "Bau eine Erfahrung aus deiner Woche in diese vier Schritte und erzähl sie heute jemandem." },
-        "en": { "title": "4. Insight", "body": "What did you learn, and what does it mean for your listeners? One sentence is enough. The insight turns an anecdote into a message.", "apply": "Fit one experience from this week into these four steps and tell it to someone today." }
+        "de": {
+          "title": "4. Erkenntnis",
+          "body": "Was hast du daraus gelernt, und was bedeutet das für die Zuhörer? Ein Satz genügt. Die Erkenntnis macht aus einer Anekdote eine Botschaft.",
+          "apply": "Bau eine Erfahrung aus deiner Woche in diese vier Schritte und erzähl sie heute jemandem."
+        },
+        "en": {
+          "title": "4. Insight",
+          "body": "What did you learn, and what does it mean for your listeners? One sentence is enough. The insight turns an anecdote into a message.",
+          "apply": "Fit one experience from this week into these four steps and tell it to someone today."
+        }
       }
     ]
   },
@@ -386,14 +412,14 @@
     "level": 1,
     "de": {
       "title": "Streich die Weichmacher",
-      "body": "\"Ich würde mal sagen, dass wir vielleicht eventuell früher anfangen könnten.\"\n\nJedes dieser Wörter schwächt deine Aussage: **würde, mal, vielleicht, eventuell, eigentlich, irgendwie, nur, ein bisschen**. Zusammen klingt es, als würdest du dich für deine eigene Meinung entschuldigen.\n\n\"Lass uns früher anfangen.\" Gleicher Inhalt, doppelte Wirkung. Höflich bleiben kannst du trotzdem, mit Ton und einem \"bitte\", nicht mit Unsicherheit.",
+      "body": "\"Ich würde mal sagen, dass wir vielleicht eventuell früher anfangen könnten.\"\n\nJedes dieser Wörter schwächt deine Aussage: **würde, mal, vielleicht, eventuell, eigentlich, irgendwie, nur, ein bisschen**. Zusammen klingt es, als würdest du dich für deine eigene Meinung entschuldigen.\n\n\"Lass uns früher anfangen.\" Gleicher Inhalt, doppelte Wirkung. Höflich bleiben kannst du trotzdem, mit Ton und einem \"bitte\", nicht mit Unsicherheit.\n\nEin Mann, der meint, was er sagt, braucht keine Polster.",
       "apply": "Lies deine letzte längere Nachricht und streich alle Weichmacher.",
       "more": "Sprachforscher nennen solche Wörter \"Hedges\" (Absicherungen). In Studien zu Überzeugungskraft wurden Sprecher mit vielen Hedges als weniger kompetent und glaubwürdig bewertet. In der Wissenschaft sind sie dagegen oft angebracht, wenn etwas wirklich unsicher ist. Ehrliche Unsicherheit ist gut, gewohnheitsmässige nicht.",
       "source": "Blankenship & Holtgraves: The role of different markers of linguistic powerlessness in persuasion, Journal of Language and Social Psychology (2005)"
     },
     "en": {
       "title": "Cut the softeners",
-      "body": "\"I would just kind of say that maybe we could possibly start a bit earlier.\"\n\nEach of these words weakens your statement: **would, just, kind of, maybe, possibly, actually, a bit**. Together it sounds as if you're apologising for your own opinion.\n\n\"Let's start earlier.\" Same content, twice the impact. You can still be polite, through tone and a \"please\", not through uncertainty.",
+      "body": "\"I would just kind of say that maybe we could possibly start a bit earlier.\"\n\nEach of these words weakens your statement: **would, just, kind of, maybe, possibly, actually, a bit**. Together it sounds as if you're apologising for your own opinion.\n\n\"Let's start earlier.\" Same content, twice the impact. You can still be polite, through tone and a \"please\", not through uncertainty.\n\nA man who means what he says needs no padding.",
       "apply": "Reread your last long message and delete every softener.",
       "more": "Linguists call these words \"hedges\". In persuasion studies, speakers who used many hedges were rated as less competent and credible. In science, hedges are often appropriate when something truly is uncertain. Honest uncertainty is good; habitual uncertainty isn't.",
       "source": "Blankenship & Holtgraves: The role of different markers of linguistic powerlessness in persuasion, Journal of Language and Social Psychology (2005)"
@@ -449,14 +475,14 @@
     "level": 1,
     "de": {
       "title": "Übe laut, nicht im Kopf",
-      "body": "Eine Rede im Kopf durchgehen fühlt sich wie Üben an, ist es aber kaum. Im Kopf klingt alles flüssig. Laut merkst du sofort, wo du stockst, wo ein Satz zu lang ist und wo der Übergang fehlt.\n\nDie besten Redner proben ihre wichtigen Auftritte **mehrmals laut**, idealerweise stehend und mit Zeitmessung, und mindestens einmal vor einem echten Menschen.",
+      "body": "Eine Rede im Kopf durchgehen fühlt sich wie Üben an, ist es aber kaum. Im Kopf klingt alles flüssig. Laut merkst du sofort, wo du stockst, wo ein Satz zu lang ist und wo der Übergang fehlt.\n\nDie besten Redner proben ihre wichtigen Auftritte **mehrmals laut**, idealerweise stehend und mit Zeitmessung, und mindestens einmal vor einem echten Menschen.\n\nSouveränität ist kein Talent. Sie ist das Ergebnis von Übung, die niemand sieht.",
       "apply": "Sprich die ersten 60 Sekunden deines nächsten wichtigen Gesprächs einmal laut durch.",
       "more": "Steve Jobs galt als spontaner Redner, probte seine Keynotes aber tagelang. In \"TED Talks\" schreibt Chris Anderson, dass fast alle herausragenden Talks auswendig gelernt und sehr oft geprobt wurden, bis sie wieder natürlich klangen.",
       "source": "Carmine Gallo: The Presentation Secrets of Steve Jobs (2009); Chris Anderson: TED Talks (2016)"
     },
     "en": {
       "title": "Practise out loud, not in your head",
-      "body": "Going through a speech in your head feels like practice but barely counts. In your head, everything flows. Out loud, you notice right away where you stumble, where a sentence is too long and where a transition is missing.\n\nThe best speakers rehearse important talks **out loud several times**, ideally standing and timed, and at least once in front of a real person.",
+      "body": "Going through a speech in your head feels like practice but barely counts. In your head, everything flows. Out loud, you notice right away where you stumble, where a sentence is too long and where a transition is missing.\n\nThe best speakers rehearse important talks **out loud several times**, ideally standing and timed, and at least once in front of a real person.\n\nComposure isn't a talent. It's the result of practice nobody sees.",
       "apply": "Say the first 60 seconds of your next important conversation out loud once.",
       "more": "Steve Jobs was seen as a natural speaker, but he rehearsed his keynotes for days. In \"TED Talks\" Chris Anderson writes that nearly all outstanding talks were memorised and rehearsed many times until they sounded natural again.",
       "source": "Carmine Gallo: The Presentation Secrets of Steve Jobs (2009); Chris Anderson: TED Talks (2016)"
@@ -470,14 +496,14 @@
     "level": 1,
     "de": {
       "title": "Fang nicht mit einer Entschuldigung an",
-      "body": "\"Ich bin kein guter Redner, aber …\" \"Ich halte es kurz …\" \"Ich hatte nicht viel Zeit zur Vorbereitung …\"\n\nDie ersten Sekunden entscheiden, ob dir jemand zuhört. Wer mit einer Entschuldigung startet, sagt dem Publikum: Erwartet nicht viel.\n\nStarte stattdessen mit etwas, das sofort fesselt: **einer Frage, einer überraschenden Zahl oder einem Satz aus einer Geschichte**. \"Vor drei Jahren hätte ich fast alles verloren.\"",
+      "body": "\"Ich bin kein guter Redner, aber …\" \"Ich halte es kurz …\" \"Ich hatte nicht viel Zeit zur Vorbereitung …\"\n\nDie ersten Sekunden entscheiden, ob dir jemand zuhört. Wer mit einer Entschuldigung startet, sagt dem Publikum: Erwartet nicht viel.\n\nStarte stattdessen mit etwas, das sofort fesselt: **einer Frage, einer überraschenden Zahl oder einem Satz aus einer Geschichte**. \"Vor drei Jahren hätte ich fast alles verloren.\"\n\nWer sich vor dem ersten Satz kleinmacht, wird danach nicht grösser. Steh hin und fang stark an.",
       "apply": "Formuliere für deinen nächsten Auftritt einen ersten Satz, der neugierig macht.",
       "more": "Rednertrainer sprechen vom \"Hook\", dem Haken, der die Aufmerksamkeit fängt. Höfliche Floskeln und Dankesreden am Anfang sind nicht falsch, aber sie sollten kurz sein und nicht den Einstieg ersetzen.",
       "source": "Nancy Duarte: Resonate (2010)"
     },
     "en": {
       "title": "Don't open with an apology",
-      "body": "\"I'm not a great speaker, but …\" \"I'll keep it short …\" \"I didn't have much time to prepare …\"\n\nThe first seconds decide whether people listen. Start with an apology and you tell your audience: don't expect much.\n\nInstead, open with something that grabs attention immediately: **a question, a surprising number or a line from a story**. \"Three years ago I almost lost everything.\"",
+      "body": "\"I'm not a great speaker, but …\" \"I'll keep it short …\" \"I didn't have much time to prepare …\"\n\nThe first seconds decide whether people listen. Start with an apology and you tell your audience: don't expect much.\n\nInstead, open with something that grabs attention immediately: **a question, a surprising number or a line from a story**. \"Three years ago I almost lost everything.\"\n\nIf you make yourself small before your first sentence, you won't grow after it. Stand tall and start strong.",
       "apply": "Write an opening line for your next talk that makes people curious.",
       "more": "Speaking coaches call it the \"hook\". Polite phrases and thank-yous at the start aren't wrong, but they should be brief and not replace the opening.",
       "source": "Nancy Duarte: Resonate (2010)"
@@ -491,7 +517,11 @@
     "level": 2,
     "de": {
       "title": "Die Macht des Kontrasts",
-      "quote": { "text": "Fragt nicht, was euer Land für euch tun kann. Fragt, was ihr für euer Land tun könnt.", "author": "John F. Kennedy", "source": "Antrittsrede, 20. Januar 1961" },
+      "quote": {
+        "text": "Fragt nicht, was euer Land für euch tun kann. Fragt, was ihr für euer Land tun könnt.",
+        "author": "John F. Kennedy",
+        "source": "Antrittsrede, 20. Januar 1961"
+      },
       "body": "Einer der berühmtesten Sätze des 20. Jahrhunderts lebt von einer einfachen Figur: dem **Kontrast**. Zwei Satzhälften, fast gleich gebaut, mit umgekehrtem Sinn.\n\nKontraste machen Aussagen scharf und merkbar, weil das Gehirn den Unterschied sofort erkennt. \"Nicht X, sondern Y\" ist eine der stärksten Formen, eine Botschaft zu setzen.",
       "apply": "Formuliere deine wichtigste Aussage dieser Woche als \"Nicht …, sondern …\".",
       "more": "In der Rhetorik heisst diese Figur \"Antithese\", die Umkehrung der Wortreihenfolge \"Chiasmus\". Kennedys Redenschreiber Ted Sorensen setzte sie gezielt ein. Auch Martin Luther King nutzte Kontraste: Seine Kinder sollten nicht nach ihrer Hautfarbe, sondern nach ihrem Charakter beurteilt werden.",
@@ -499,7 +529,11 @@
     },
     "en": {
       "title": "The power of contrast",
-      "quote": { "text": "Ask not what your country can do for you — ask what you can do for your country.", "author": "John F. Kennedy", "source": "Inaugural Address, 20 January 1961" },
+      "quote": {
+        "text": "Ask not what your country can do for you — ask what you can do for your country.",
+        "author": "John F. Kennedy",
+        "source": "Inaugural Address, 20 January 1961"
+      },
       "body": "One of the most famous lines of the 20th century runs on a simple device: **contrast**. Two halves, built almost identically, with the meaning reversed.\n\nContrasts make statements sharp and memorable because the brain spots the difference instantly. \"Not X, but Y\" is one of the strongest ways to land a message.",
       "apply": "Phrase your most important point this week as \"Not …, but …\".",
       "more": "In rhetoric this figure is called \"antithesis\"; reversing the word order is called \"chiasmus\". Kennedy's speechwriter Ted Sorensen used it deliberately. Martin Luther King used contrast too: his children should be judged not by the colour of their skin but by the content of their character.",

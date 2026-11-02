@@ -70,14 +70,14 @@
     "level": 1,
     "de": {
       "title": "Bezahl zuerst dich selbst",
-      "body": "Die meisten sparen, was am Monatsende übrig bleibt. Meistens bleibt nichts übrig.\n\nDreh die Reihenfolge um: **Am Tag, an dem der Lohn kommt**, geht automatisch ein fester Betrag auf ein Spar- oder Anlagekonto. Mit dem Rest lebst du. Weil du das Geld nie auf dem Alltagskonto siehst, vermisst du es kaum.\n\nAnfangen ist wichtiger als die Höhe. 5 % sind ein guter Start, 10 bis 20 % ein starkes Ziel.",
+      "body": "Die meisten sparen, was am Monatsende übrig bleibt. Meistens bleibt nichts übrig.\n\nDreh die Reihenfolge um: **Am Tag, an dem der Lohn kommt**, geht automatisch ein fester Betrag auf ein Spar- oder Anlagekonto. Mit dem Rest lebst du. Weil du das Geld nie auf dem Alltagskonto siehst, vermisst du es kaum.\n\nAnfangen ist wichtiger als die Höhe. 5 % sind ein guter Start, 10 bis 20 % ein starkes Ziel.\n\nDas ist keine Rechenfrage, sondern Disziplin: Du entscheidest, bevor die Versuchung kommt.",
       "apply": "Richte heute einen Dauerauftrag ein, der am Zahltag einen festen Betrag weglegt.",
       "more": "Der Grundsatz stammt aus George Clasons Klassiker \"Der reichste Mann von Babylon\" (1926): Ein Zehntel von allem, was du verdienst, gehört dir. Verhaltensökonomen wie Richard Thaler zeigten später, dass automatische Sparpläne viel besser funktionieren als gute Vorsätze.",
       "source": "George S. Clason: The Richest Man in Babylon (1926); Thaler & Benartzi: Save More Tomorrow (2004)"
     },
     "en": {
       "title": "Pay yourself first",
-      "body": "Most people save whatever is left at the end of the month. Usually nothing is left.\n\nReverse the order: **on payday**, a fixed amount automatically goes into a savings or investment account. You live on the rest. Because you never see that money in your everyday account, you hardly miss it.\n\nStarting matters more than the amount. 5% is a good start; 10 to 20% a strong goal.",
+      "body": "Most people save whatever is left at the end of the month. Usually nothing is left.\n\nReverse the order: **on payday**, a fixed amount automatically goes into a savings or investment account. You live on the rest. Because you never see that money in your everyday account, you hardly miss it.\n\nStarting matters more than the amount. 5% is a good start; 10 to 20% a strong goal.\n\nThis isn't a maths problem, it's discipline: you decide before the temptation shows up.",
       "apply": "Set up a standing order today that moves a fixed amount on payday.",
       "more": "The principle comes from George Clason's classic \"The Richest Man in Babylon\" (1926): a part of all you earn is yours to keep, at least a tenth. Behavioural economists like Richard Thaler later showed that automatic savings plans work far better than good intentions.",
       "source": "George S. Clason: The Richest Man in Babylon (1926); Thaler & Benartzi: Save More Tomorrow (2004)"
@@ -91,14 +91,14 @@
     "level": 1,
     "de": {
       "title": "Zuerst der Notgroschen",
-      "body": "Bevor du investierst, brauchst du ein Polster für Unerwartetes: Autoreparatur, Zahnarzt, Jobverlust. Faustregel: **drei bis sechs Monatsausgaben** auf einem separaten Konto, jederzeit verfügbar.\n\nDer Notgroschen ist kein Investment, er bringt kaum Zins. Er ist eine Versicherung. Ohne ihn musst du im dümmsten Moment Aktien mit Verlust verkaufen oder Schulden machen. Mit ihm bleibst du ruhig, wenn etwas schiefgeht.",
+      "body": "Bevor du investierst, brauchst du ein Polster für Unerwartetes: Autoreparatur, Zahnarzt, Jobverlust. Faustregel: **drei bis sechs Monatsausgaben** auf einem separaten Konto, jederzeit verfügbar.\n\nDer Notgroschen ist kein Investment, er bringt kaum Zins. Er ist eine Versicherung. Ohne ihn musst du im dümmsten Moment Aktien mit Verlust verkaufen oder Schulden machen. Mit ihm bleibst du ruhig, wenn etwas schiefgeht.\n\nEin Polster ist auch Verantwortung: Wenn etwas passiert, bist du vorbereitet und musst nicht gerettet werden.",
       "apply": "Rechne aus, wie viel du im Monat zum Leben brauchst, und mal drei: Das ist dein erstes Sparziel.",
       "more": "Wer einen unsicheren Job hat, selbstständig ist oder eine Familie versorgt, plant eher mit sechs Monaten oder mehr. Wer sehr sicher angestellt ist, kommt mit weniger aus. Wichtig ist, das Geld getrennt vom Alltagskonto zu halten, damit es nicht langsam im Konsum verschwindet.",
       "source": "Gängige Empfehlung von Verbraucherzentralen und Finanzplanern"
     },
     "en": {
       "title": "Emergency fund first",
-      "body": "Before you invest, you need a cushion for the unexpected: car repairs, the dentist, losing your job. Rule of thumb: **three to six months of expenses** in a separate account, available at any time.\n\nAn emergency fund isn't an investment; it earns little. It's insurance. Without it, you'll have to sell shares at a loss or take on debt at the worst moment. With it, you stay calm when something goes wrong.",
+      "body": "Before you invest, you need a cushion for the unexpected: car repairs, the dentist, losing your job. Rule of thumb: **three to six months of expenses** in a separate account, available at any time.\n\nAn emergency fund isn't an investment; it earns little. It's insurance. Without it, you'll have to sell shares at a loss or take on debt at the worst moment. With it, you stay calm when something goes wrong.\n\nA cushion is also responsibility: when something happens, you're prepared and don't need rescuing.",
       "apply": "Work out what you need per month to live and multiply by three: that's your first savings goal.",
       "more": "If your job is insecure, you're self-employed or you support a family, plan for six months or more. Very secure employees can get by with less. Keep the money separate from your everyday account so it doesn't slowly disappear into spending.",
       "source": "Common recommendation of consumer advice centres and financial planners"
@@ -248,14 +248,14 @@
     "level": 1,
     "de": {
       "title": "Die Lohnerhöhungsfalle",
-      "body": "Mehr Lohn, grössere Wohnung, besseres Auto, teurere Ferien. Ein paar Jahre später verdienst du doppelt so viel und hast trotzdem nichts auf der Seite.\n\nDas heisst **Lifestyle-Inflation**: Die Ausgaben wachsen automatisch mit dem Einkommen. Ein einfacher Schutz: Wenn du mehr verdienst, geht **mindestens die Hälfte der Erhöhung** direkt in Sparen und Investieren. Du lebst trotzdem besser als vorher, aber dein Vermögen wächst mit.",
+      "body": "Mehr Lohn, grössere Wohnung, besseres Auto, teurere Ferien. Ein paar Jahre später verdienst du doppelt so viel und hast trotzdem nichts auf der Seite.\n\nDas heisst **Lifestyle-Inflation**: Die Ausgaben wachsen automatisch mit dem Einkommen. Ein einfacher Schutz: Wenn du mehr verdienst, geht **mindestens die Hälfte der Erhöhung** direkt in Sparen und Investieren. Du lebst trotzdem besser als vorher, aber dein Vermögen wächst mit.\n\nWer jede Lohnerhöhung sofort ausgibt, arbeitet für sein Image. Wer einen Teil behält, arbeitet für seine Freiheit.",
       "apply": "Leg jetzt fest, welchen Anteil deiner nächsten Lohnerhöhung du automatisch sparst.",
       "more": "Der Effekt ist auch als \"hedonische Tretmühle\" bekannt: Menschen gewöhnen sich schnell an einen höheren Lebensstandard, und das Glücksgefühl kehrt auf das alte Niveau zurück. Was bleibt, sind die höheren Fixkosten.",
       "source": "Brickman & Campbell: Hedonic relativism (1971); Morgan Housel: The Psychology of Money (2020)"
     },
     "en": {
       "title": "The pay-rise trap",
-      "body": "Higher pay, bigger flat, nicer car, pricier holidays. A few years later you earn twice as much and still have nothing put aside.\n\nThat's **lifestyle inflation**: spending automatically grows with income. A simple safeguard: when you earn more, **at least half of the raise** goes straight into saving and investing. You still live better than before, but your wealth grows too.",
+      "body": "Higher pay, bigger flat, nicer car, pricier holidays. A few years later you earn twice as much and still have nothing put aside.\n\nThat's **lifestyle inflation**: spending automatically grows with income. A simple safeguard: when you earn more, **at least half of the raise** goes straight into saving and investing. You still live better than before, but your wealth grows too.\n\nSpend every raise and you work for your image. Keep part of it and you work for your freedom.",
       "apply": "Decide now what share of your next raise you'll save automatically.",
       "more": "The effect is also known as the \"hedonic treadmill\": people quickly get used to a higher standard of living, and happiness drifts back to its old level. What stays are the higher fixed costs.",
       "source": "Brickman & Campbell: Hedonic relativism (1971); Morgan Housel: The Psychology of Money (2020)"
@@ -269,14 +269,14 @@
     "level": 2,
     "de": {
       "title": "Der Millionär von nebenan",
-      "body": "Wie sieht ein Millionär aus? Sportwagen, Rolex, Villa? Die Forscher Thomas Stanley und William Danko befragten Tausende US-Millionäre und fanden meist das Gegenteil.\n\nViele fuhren gebrauchte Autos, lebten seit Jahrzehnten im gleichen Haus und gaben deutlich weniger aus, als sie verdienten. Wer reich **aussieht**, ist oft nur gut verdienend und hoch verschuldet. Wer reich **ist**, sieht oft unauffällig aus.\n\nVermögen ist das Geld, das du **nicht** ausgibst.",
+      "body": "Wie sieht ein Millionär aus? Sportwagen, Rolex, Villa? Die Forscher Thomas Stanley und William Danko befragten Tausende US-Millionäre und fanden meist das Gegenteil.\n\nViele fuhren gebrauchte Autos, lebten seit Jahrzehnten im gleichen Haus und gaben deutlich weniger aus, als sie verdienten. Wer reich **aussieht**, ist oft nur gut verdienend und hoch verschuldet. Wer reich **ist**, sieht oft unauffällig aus.\n\nVermögen ist das Geld, das du **nicht** ausgibst.\n\nEchter Wohlstand ist leise. Er entsteht aus Disziplin, nicht aus Show.",
       "apply": "Frag dich bei deiner nächsten grösseren Anschaffung: Kaufe ich das für mich oder für den Eindruck?",
       "more": "\"The Millionaire Next Door\" erschien 1996 und wurde ein Bestseller. Eine ihrer Faustregeln: Dein erwartetes Nettovermögen ist dein Alter mal dein Jahreseinkommen geteilt durch 10. Wer deutlich darüber liegt, gehört zu den \"Vermögensaufbauern\", wer deutlich darunter liegt, zu den \"Vermögensverbrauchern\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     },
     "en": {
       "title": "The millionaire next door",
-      "body": "What does a millionaire look like? Sports car, Rolex, mansion? Researchers Thomas Stanley and William Danko surveyed thousands of US millionaires and mostly found the opposite.\n\nMany drove used cars, had lived in the same house for decades and spent far less than they earned. People who **look** rich are often just high earners with high debt. People who **are** rich often look unremarkable.\n\nWealth is the money you **don't** spend.",
+      "body": "What does a millionaire look like? Sports car, Rolex, mansion? Researchers Thomas Stanley and William Danko surveyed thousands of US millionaires and mostly found the opposite.\n\nMany drove used cars, had lived in the same house for decades and spent far less than they earned. People who **look** rich are often just high earners with high debt. People who **are** rich often look unremarkable.\n\nWealth is the money you **don't** spend.\n\nReal wealth is quiet. It comes from discipline, not from show.",
       "apply": "Before your next big purchase, ask: am I buying this for me or for the impression?",
       "more": "\"The Millionaire Next Door\" came out in 1996 and became a bestseller. One of its rules of thumb: your expected net worth is your age times your annual income divided by 10. Those well above it are \"prodigious accumulators of wealth\", those well below are \"under accumulators\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
@@ -290,14 +290,14 @@
     "level": 1,
     "de": {
       "title": "Sparen hat eine Grenze, Verdienen nicht",
-      "body": "Beim Sparen gibt es eine Untergrenze: Irgendwann kannst du nicht mehr weniger ausgeben. Beim Einkommen gibt es nach oben viel mehr Spielraum.\n\nDie beste Investition in jungen Jahren ist oft nicht die Aktie, sondern **du selbst**: eine Fähigkeit, die gefragt und selten ist. Programmieren, Verkaufen, Führen, ein Handwerk auf Meisterniveau, eine Fremdsprache. Jede Stunde, die du in so eine Fähigkeit steckst, kann sich über Jahrzehnte auszahlen.",
+      "body": "Beim Sparen gibt es eine Untergrenze: Irgendwann kannst du nicht mehr weniger ausgeben. Beim Einkommen gibt es nach oben viel mehr Spielraum.\n\nDie beste Investition in jungen Jahren ist oft nicht die Aktie, sondern **du selbst**: eine Fähigkeit, die gefragt und selten ist. Programmieren, Verkaufen, Führen, ein Handwerk auf Meisterniveau, eine Fremdsprache. Jede Stunde, die du in so eine Fähigkeit steckst, kann sich über Jahrzehnte auszahlen.\n\nDie beste Investition bist du selbst: Fähigkeiten, die dir niemand nehmen kann.",
       "apply": "Schreib eine Fähigkeit auf, die dein Einkommen in fünf Jahren deutlich erhöhen könnte, und plane diese Woche eine Stunde dafür ein.",
       "more": "Ökonomen sprechen von \"Humankapital\": dem Wert deines Wissens und Könnens. Für die meisten jungen Menschen ist es weit grösser als ihr Finanzvermögen. Wichtig ist beides: Einkommen steigern **und** einen Teil davon sparen, sonst greift die Lohnerhöhungsfalle.",
       "source": "Gary Becker: Human Capital (1964)"
     },
     "en": {
       "title": "Saving has a floor, earning doesn't",
-      "body": "Saving has a lower limit: at some point you can't spend any less. Income has far more room on the upside.\n\nThe best investment when you're young is often not a stock but **yourself**: a skill that's in demand and rare. Coding, selling, leading, a trade at master level, a foreign language. Every hour you put into such a skill can pay off for decades.",
+      "body": "Saving has a lower limit: at some point you can't spend any less. Income has far more room on the upside.\n\nThe best investment when you're young is often not a stock but **yourself**: a skill that's in demand and rare. Coding, selling, leading, a trade at master level, a foreign language. Every hour you put into such a skill can pay off for decades.\n\nThe best investment is you: skills no one can take from you.",
       "apply": "Write down one skill that could raise your income a lot within five years, and schedule one hour for it this week.",
       "more": "Economists call it \"human capital\": the value of your knowledge and skills. For most young people it's far larger than their financial wealth. Both matter: raise your income **and** save part of it, or the pay-rise trap kicks in.",
       "source": "Gary Becker: Human Capital (1964)"
@@ -311,14 +311,14 @@
     "level": 1,
     "de": {
       "title": "Teure Schulden zuerst weg",
-      "body": "Ein Konsumkredit für das neue Auto, ein offener Kreditkartensaldo, ein Leasing für das Handy: Solche Schulden kosten oft **10 % Zins und mehr** pro Jahr.\n\nKeine Geldanlage bringt dir sicher 10 % pro Jahr. Eine Schuld mit 10 % Zins abzuzahlen, ist aber genau das: eine **garantierte Rendite von 10 %**. Darum gilt: Teure Schulden zuerst tilgen, dann investieren.\n\nUnd für die Zukunft: Was du dir nicht leisten kannst, ohne Kredit zu nehmen, kannst du dir meistens nicht leisten.",
+      "body": "Ein Konsumkredit für das neue Auto, ein offener Kreditkartensaldo, ein Leasing für das Handy: Solche Schulden kosten oft **10 % Zins und mehr** pro Jahr.\n\nKeine Geldanlage bringt dir sicher 10 % pro Jahr. Eine Schuld mit 10 % Zins abzuzahlen, ist aber genau das: eine **garantierte Rendite von 10 %**. Darum gilt: Teure Schulden zuerst tilgen, dann investieren.\n\nUnd für die Zukunft: Was du dir nicht leisten kannst, ohne Kredit zu nehmen, kannst du dir meistens nicht leisten.\n\nJeder Kredit für etwas, das du nicht brauchst, verkauft ein Stück deiner Freiheit.",
       "apply": "Liste alle deine Schulden mit Zinssatz auf und tilge die teuerste zuerst.",
       "more": "In der Schweiz liegt der gesetzliche Höchstzins für Konsumkredite derzeit bei 10 %, für Kreditkarten-Überziehungen bei 12 %. In vielen anderen Ländern sind Kreditkartenzinsen von 20 % und mehr üblich. Bei Leasing wird der Zins oft im Kleingedruckten als \"effektiver Jahreszins\" angegeben.",
       "source": "Verordnung zum Konsumkreditgesetz (VKKG), Art. 1"
     },
     "en": {
       "title": "Pay off expensive debt first",
-      "body": "A consumer loan for the new car, an unpaid credit card balance, a lease on your phone: such debts often cost **10% interest or more** a year.\n\nNo investment reliably earns you 10% a year. Paying off a 10% debt is exactly that: a **guaranteed 10% return**. So: clear expensive debt first, then invest.\n\nAnd going forward: if you can't afford it without a loan, you usually can't afford it.",
+      "body": "A consumer loan for the new car, an unpaid credit card balance, a lease on your phone: such debts often cost **10% interest or more** a year.\n\nNo investment reliably earns you 10% a year. Paying off a 10% debt is exactly that: a **guaranteed 10% return**. So: clear expensive debt first, then invest.\n\nAnd going forward: if you can't afford it without a loan, you usually can't afford it.\n\nEvery loan for something you don't need sells off a piece of your freedom.",
       "apply": "List all your debts with their interest rates and pay off the most expensive one first.",
       "more": "In Switzerland the legal maximum rate is currently 10% for consumer loans and 12% for credit card overdrafts. In many other countries credit card rates of 20% and more are common. With leases, the rate is often hidden in the small print as the \"effective annual rate\".",
       "source": "Swiss Consumer Credit Ordinance (VKKG), Art. 1"
@@ -340,24 +340,56 @@
     },
     "slides": [
       {
-        "de": { "title": "1. Wissen, wohin das Geld geht", "body": "Schreib einen Monat lang alle Ausgaben auf oder schau dir die Bankauszüge an. Die meisten unterschätzen ihre Ausgaben für Essen auswärts, Abos und Kleinkram deutlich." },
-        "en": { "title": "1. Know where the money goes", "body": "Track every expense for a month or go through your bank statements. Most people seriously underestimate what they spend on eating out, subscriptions and small stuff." }
+        "de": {
+          "title": "1. Wissen, wohin das Geld geht",
+          "body": "Schreib einen Monat lang alle Ausgaben auf oder schau dir die Bankauszüge an. Die meisten unterschätzen ihre Ausgaben für Essen auswärts, Abos und Kleinkram deutlich."
+        },
+        "en": {
+          "title": "1. Know where the money goes",
+          "body": "Track every expense for a month or go through your bank statements. Most people seriously underestimate what they spend on eating out, subscriptions and small stuff."
+        }
       },
       {
-        "de": { "title": "2. Notgroschen", "body": "Drei Monatsausgaben auf einem separaten Konto. Er schützt dich davor, bei der ersten Überraschung Schulden zu machen." },
-        "en": { "title": "2. Emergency fund", "body": "Three months of expenses in a separate account. It keeps the first surprise from pushing you into debt." }
+        "de": {
+          "title": "2. Notgroschen",
+          "body": "Drei Monatsausgaben auf einem separaten Konto. Er schützt dich davor, bei der ersten Überraschung Schulden zu machen."
+        },
+        "en": {
+          "title": "2. Emergency fund",
+          "body": "Three months of expenses in a separate account. It keeps the first surprise from pushing you into debt."
+        }
       },
       {
-        "de": { "title": "3. Teure Schulden tilgen", "body": "Kreditkarte, Konsumkredit, Leasing: alles mit hohem Zins zuerst weg. Jeder getilgte Franken bringt dir sicher den Zinssatz als Rendite." },
-        "en": { "title": "3. Kill expensive debt", "body": "Credit card, consumer loan, leasing: clear everything with high interest first. Every unit you pay off earns you the interest rate as a guaranteed return." }
+        "de": {
+          "title": "3. Teure Schulden tilgen",
+          "body": "Kreditkarte, Konsumkredit, Leasing: alles mit hohem Zins zuerst weg. Jeder getilgte Franken bringt dir sicher den Zinssatz als Rendite."
+        },
+        "en": {
+          "title": "3. Kill expensive debt",
+          "body": "Credit card, consumer loan, leasing: clear everything with high interest first. Every unit you pay off earns you the interest rate as a guaranteed return."
+        }
       },
       {
-        "de": { "title": "4. Automatisch investieren", "body": "Ein fester Betrag pro Monat, breit gestreut, günstig, langfristig. Am Zahltag per Dauerauftrag, damit du nicht jedes Mal neu entscheiden musst." },
-        "en": { "title": "4. Invest automatically", "body": "A fixed monthly amount, broadly diversified, low-cost, long-term. On payday by standing order, so you don't have to decide every time." }
+        "de": {
+          "title": "4. Automatisch investieren",
+          "body": "Ein fester Betrag pro Monat, breit gestreut, günstig, langfristig. Am Zahltag per Dauerauftrag, damit du nicht jedes Mal neu entscheiden musst."
+        },
+        "en": {
+          "title": "4. Invest automatically",
+          "body": "A fixed monthly amount, broadly diversified, low-cost, long-term. On payday by standing order, so you don't have to decide every time."
+        }
       },
       {
-        "de": { "title": "5. Einkommen steigern", "body": "Investiere in Fähigkeiten, verhandle deinen Lohn, bau dir eine zweite Einnahmequelle auf. Und spar mindestens die Hälfte jeder Erhöhung.", "apply": "Bestimme, auf welcher der fünf Stufen du gerade stehst, und mach den nächsten Schritt diese Woche." },
-        "en": { "title": "5. Grow your income", "body": "Invest in skills, negotiate your salary, build a second source of income. And save at least half of every raise.", "apply": "Figure out which of the five steps you're on and take the next one this week." }
+        "de": {
+          "title": "5. Einkommen steigern",
+          "body": "Investiere in Fähigkeiten, verhandle deinen Lohn, bau dir eine zweite Einnahmequelle auf. Und spar mindestens die Hälfte jeder Erhöhung.",
+          "apply": "Bestimme, auf welcher der fünf Stufen du gerade stehst, und mach den nächsten Schritt diese Woche."
+        },
+        "en": {
+          "title": "5. Grow your income",
+          "body": "Invest in skills, negotiate your salary, build a second source of income. And save at least half of every raise.",
+          "apply": "Figure out which of the five steps you're on and take the next one this week."
+        }
       }
     ]
   },

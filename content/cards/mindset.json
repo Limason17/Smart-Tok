@@ -7,15 +7,15 @@
     "level": 1,
     "de": {
       "title": "Kreis des Einflusses",
-      "body": "Stell dir zwei Kreise vor. Der grosse ist alles, was dich **beschäftigt**: Wirtschaft, Politik, was andere über dich denken. Der kleine darin ist alles, was du **beeinflussen** kannst: deine Arbeit, dein Training, wie du heute mit Menschen redest.\n\nWer seine Energie in den grossen Kreis steckt, wird zum Opfer der Umstände und fühlt sich ohnmächtig. Wer sie in den kleinen steckt, sieht ihn wachsen: Mehr Können, mehr Vertrauen, mehr Einfluss.",
-      "apply": "Nimm deine grösste Sorge von heute und schreib einen Schritt auf, der wirklich in deiner Hand liegt.",
+      "body": "Stell dir zwei Kreise vor. Der grosse ist alles, was dich **beschäftigt**: Wirtschaft, Politik, was andere über dich denken. Der kleine darin ist alles, was du **beeinflussen** kannst: deine Arbeit, dein Training, wie du heute mit Menschen redest.\n\nWer seine Energie in den grossen Kreis steckt, wird zum Opfer der Umstände und fühlt sich ohnmächtig. Wer sie in den kleinen steckt, sieht ihn wachsen: Mehr Können, mehr Vertrauen, mehr Einfluss.\n\nDas ist der Unterschied zwischen einem Mann, der sich beklagt, und einem, der baut.",
+      "apply": "Schreib deine grösste Sorge auf, dann einen Schritt, der wirklich in deiner Hand liegt. Mach ihn heute, nicht morgen.",
       "more": "Das Modell stammt aus Stephen Coveys erstem Weg der Effektivität: \"Proaktiv sein\". Proaktive Menschen konzentrieren sich auf das, was sie tun können. Reaktive Menschen konzentrieren sich auf die Schwächen anderer und auf Umstände, die sie nicht ändern können. Covey beobachtete, dass der Kreis des Einflusses wächst, wenn man in ihm arbeitet, und schrumpft, wenn man nur klagt.",
       "source": "Stephen R. Covey: Die 7 Wege zur Effektivität (1989), Weg 1"
     },
     "en": {
       "title": "Circle of influence",
-      "body": "Picture two circles. The big one holds everything you **care about**: the economy, politics, what others think of you. The small one inside it holds what you can **actually affect**: your work, your training, how you talk to people today.\n\nPut your energy into the big circle and you become a victim of circumstances. Put it into the small one and you watch it grow: more skill, more trust, more influence.",
-      "apply": "Take your biggest worry today and write down one step that is truly in your hands.",
+      "body": "Picture two circles. The big one holds everything you **care about**: the economy, politics, what others think of you. The small one inside it holds what you can **actually affect**: your work, your training, how you talk to people today.\n\nPut your energy into the big circle and you become a victim of circumstances. Put it into the small one and you watch it grow: more skill, more trust, more influence.\n\nThat's the difference between a man who complains and a man who builds.",
+      "apply": "Write down your biggest worry, then one step that is truly in your hands. Take it today, not tomorrow.",
       "more": "The model comes from Stephen Covey's first habit, \"Be proactive\". Proactive people focus on what they can do. Reactive people focus on the weaknesses of others and on circumstances they cannot change. Covey observed that the circle of influence grows when you work inside it and shrinks when you only complain.",
       "source": "Stephen R. Covey: The 7 Habits of Highly Effective People (1989), Habit 1"
     }
@@ -38,32 +38,76 @@
     },
     "slides": [
       {
-        "de": { "title": "1. Proaktiv sein", "body": "Zwischen Reiz und Reaktion liegt ein Raum. In diesem Raum wählst du. Du bist nicht das Produkt deiner Umstände, sondern deiner Entscheidungen. Statt \"Ich muss\" sagst du \"Ich entscheide mich\"." },
-        "en": { "title": "1. Be proactive", "body": "Between stimulus and response there is a space. In that space you choose. You are not the product of your circumstances but of your decisions. Instead of \"I have to\" you say \"I choose to\"." }
+        "de": {
+          "title": "1. Proaktiv sein",
+          "body": "Zwischen Reiz und Reaktion liegt ein Raum. In diesem Raum wählst du. Du bist nicht das Produkt deiner Umstände, sondern deiner Entscheidungen. Statt \"Ich muss\" sagst du \"Ich entscheide mich\"."
+        },
+        "en": {
+          "title": "1. Be proactive",
+          "body": "Between stimulus and response there is a space. In that space you choose. You are not the product of your circumstances but of your decisions. Instead of \"I have to\" you say \"I choose to\"."
+        }
       },
       {
-        "de": { "title": "2. Das Ende im Sinn haben", "body": "Wisse, wohin du willst, bevor du losläufst. Covey schlägt vor, dir deine eigene Beerdigung vorzustellen: Was sollen Familie, Freunde und Kollegen über dich sagen? Daraus wird dein persönliches Leitbild." },
-        "en": { "title": "2. Begin with the end in mind", "body": "Know where you want to go before you start running. Covey suggests imagining your own funeral: what should family, friends and colleagues say about you? That becomes your personal mission statement." }
+        "de": {
+          "title": "2. Das Ende im Sinn haben",
+          "body": "Wisse, wohin du willst, bevor du losläufst. Covey schlägt vor, dir deine eigene Beerdigung vorzustellen: Was sollen Familie, Freunde und Kollegen über dich sagen? Daraus wird dein persönliches Leitbild."
+        },
+        "en": {
+          "title": "2. Begin with the end in mind",
+          "body": "Know where you want to go before you start running. Covey suggests imagining your own funeral: what should family, friends and colleagues say about you? That becomes your personal mission statement."
+        }
       },
       {
-        "de": { "title": "3. Das Wichtigste zuerst", "body": "Die meisten leben im Dringenden. Die grössten Fortschritte liegen aber bei dem, was **wichtig, aber nicht dringend** ist: Training, Beziehungen, Lernen, Planung. Plane diese Dinge zuerst in deine Woche, den Rest danach." },
-        "en": { "title": "3. Put first things first", "body": "Most people live in the urgent. The biggest gains lie in what is **important but not urgent**: training, relationships, learning, planning. Schedule those into your week first, everything else after." }
+        "de": {
+          "title": "3. Das Wichtigste zuerst",
+          "body": "Die meisten leben im Dringenden. Die grössten Fortschritte liegen aber bei dem, was **wichtig, aber nicht dringend** ist: Training, Beziehungen, Lernen, Planung. Plane diese Dinge zuerst in deine Woche, den Rest danach."
+        },
+        "en": {
+          "title": "3. Put first things first",
+          "body": "Most people live in the urgent. The biggest gains lie in what is **important but not urgent**: training, relationships, learning, planning. Schedule those into your week first, everything else after."
+        }
       },
       {
-        "de": { "title": "4. Gewinn/Gewinn denken", "body": "Suche Lösungen, bei denen beide Seiten gewinnen. Nicht aus Nettigkeit, sondern weil langfristige Beziehungen nur so halten. Wenn kein fairer Deal möglich ist, ist \"kein Deal\" die stärkere Option als ein schlechter." },
-        "en": { "title": "4. Think win-win", "body": "Look for solutions where both sides win. Not out of niceness, but because long-term relationships only last that way. If no fair deal is possible, \"no deal\" is stronger than a bad one." }
+        "de": {
+          "title": "4. Gewinn/Gewinn denken",
+          "body": "Suche Lösungen, bei denen beide Seiten gewinnen. Nicht aus Nettigkeit, sondern weil langfristige Beziehungen nur so halten. Wenn kein fairer Deal möglich ist, ist \"kein Deal\" die stärkere Option als ein schlechter."
+        },
+        "en": {
+          "title": "4. Think win-win",
+          "body": "Look for solutions where both sides win. Not out of niceness, but because long-term relationships only last that way. If no fair deal is possible, \"no deal\" is stronger than a bad one."
+        }
       },
       {
-        "de": { "title": "5. Erst verstehen, dann verstanden werden", "body": "Die meisten hören zu, um zu antworten. Höre zu, um zu verstehen. Fasse in eigenen Worten zusammen, was der andere meint, bevor du deine Sicht bringst. Dann hört er dir auch zu." },
-        "en": { "title": "5. Seek first to understand, then to be understood", "body": "Most people listen to reply. Listen to understand. Sum up in your own words what the other person means before you give your view. Then they will listen to you too." }
+        "de": {
+          "title": "5. Erst verstehen, dann verstanden werden",
+          "body": "Die meisten hören zu, um zu antworten. Höre zu, um zu verstehen. Fasse in eigenen Worten zusammen, was der andere meint, bevor du deine Sicht bringst. Dann hört er dir auch zu."
+        },
+        "en": {
+          "title": "5. Seek first to understand, then to be understood",
+          "body": "Most people listen to reply. Listen to understand. Sum up in your own words what the other person means before you give your view. Then they will listen to you too."
+        }
       },
       {
-        "de": { "title": "6. Synergien schaffen", "body": "Unterschiede sind kein Problem, sondern Rohstoff. Zwei Menschen, die sich wirklich verstehen, finden oft eine dritte Lösung, die besser ist als beide Ausgangsideen." },
-        "en": { "title": "6. Synergize", "body": "Differences are not a problem but raw material. Two people who truly understand each other often find a third solution that beats both starting ideas." }
+        "de": {
+          "title": "6. Synergien schaffen",
+          "body": "Unterschiede sind kein Problem, sondern Rohstoff. Zwei Menschen, die sich wirklich verstehen, finden oft eine dritte Lösung, die besser ist als beide Ausgangsideen."
+        },
+        "en": {
+          "title": "6. Synergize",
+          "body": "Differences are not a problem but raw material. Two people who truly understand each other often find a third solution that beats both starting ideas."
+        }
       },
       {
-        "de": { "title": "7. Die Säge schärfen", "body": "Ein Holzfäller, der nie seine Säge schärft, arbeitet immer härter für immer weniger. Pflege regelmässig Körper, Geist, Beziehungen und Seele. Das ist keine verlorene Zeit, sondern der Grund, warum alles andere funktioniert.", "apply": "Wähle einen der sieben Wege und achte heute nur auf ihn." },
-        "en": { "title": "7. Sharpen the saw", "body": "A lumberjack who never sharpens his saw works ever harder for ever less. Regularly care for your body, mind, relationships and spirit. That is not lost time but the reason everything else works.", "apply": "Pick one of the seven habits and focus only on it today." }
+        "de": {
+          "title": "7. Die Säge schärfen",
+          "body": "Ein Holzfäller, der nie seine Säge schärft, arbeitet immer härter für immer weniger. Pflege regelmässig Körper, Geist, Beziehungen und Seele. Das ist keine verlorene Zeit, sondern der Grund, warum alles andere funktioniert.",
+          "apply": "Wähle einen der sieben Wege und achte heute nur auf ihn."
+        },
+        "en": {
+          "title": "7. Sharpen the saw",
+          "body": "A lumberjack who never sharpens his saw works ever harder for ever less. Regularly care for your body, mind, relationships and spirit. That is not lost time but the reason everything else works.",
+          "apply": "Pick one of the seven habits and focus only on it today."
+        }
       }
     ]
   },
@@ -76,14 +120,14 @@
     "de": {
       "title": "Selbstvertrauen ist gehaltenes Wort",
       "body": "Selbstvertrauen ist wörtlich Vertrauen in dich selbst. Und Vertrauen entsteht bei dir genau wie bei anderen Menschen: durch **gehaltene Versprechen**.\n\nJedes Mal, wenn du dir etwas vornimmst und es nicht tust, lernt dein Kopf: \"Auf den ist kein Verlass.\" Jedes Mal, wenn du es durchziehst, auch im Kleinen, sammelst du einen Beweis für das Gegenteil.\n\nDarum ist der Trick nicht, dir mehr vorzunehmen, sondern **weniger, und das dann sicher**.",
-      "apply": "Gib dir heute ein kleines Versprechen, das du garantiert halten kannst, und halte es.",
+      "apply": "Gib dir heute ein kleines Versprechen und halte es, auch wenn du keine Lust hast. Genau dann zählt es.",
       "more": "Psychologen nennen den Glauben an die eigene Wirksamkeit \"Selbstwirksamkeit\" (Albert Bandura). Die stärkste Quelle dafür sind laut Bandura eigene Erfolgserlebnisse, also Situationen, in denen du etwas geschafft hast. Zuspruch von anderen wirkt deutlich schwächer.",
       "source": "Albert Bandura: Self-Efficacy: The Exercise of Control (1997)"
     },
     "en": {
       "title": "Confidence is a kept promise",
       "body": "Self-confidence literally means trusting yourself. And that trust is built exactly like trust with other people: through **kept promises**.\n\nEvery time you plan something and don't do it, your mind learns: \"He can't be relied on.\" Every time you follow through, even in small things, you collect proof of the opposite.\n\nSo the trick is not to promise yourself more, but **less, and then deliver for sure**.",
-      "apply": "Make yourself one small promise today that you can definitely keep, and keep it.",
+      "apply": "Make yourself one small promise today and keep it, even when you don't feel like it. That's when it counts.",
       "more": "Psychologists call the belief in your own ability to act \"self-efficacy\" (Albert Bandura). According to Bandura, the strongest source of it is mastery experience: situations where you actually pulled something off. Encouragement from others is a much weaker source.",
       "source": "Albert Bandura: Self-Efficacy: The Exercise of Control (1997)"
     }
@@ -95,14 +139,14 @@
     "style": "fakt",
     "level": 2,
     "de": {
-      "title": "Sprich mit dir wie mit einem Freund",
+      "title": "Sprich mit dir wie ein Trainer",
       "body": "Vor einer schwierigen Rede oder einem wichtigen Gespräch hilft ein überraschend einfacher Trick: Rede mit dir selbst nicht in der Ich-Form, sondern **mit deinem Namen oder in der Du-Form**. \"Lukas, du hast dich vorbereitet. Du schaffst das.\"\n\nIn Studien waren Menschen damit weniger ängstlich und wurden von anderen als souveräner erlebt. Der Abstand zu dir selbst lässt dich die Lage sehen wie ein Coach von aussen, statt mitten im Gefühl zu stecken.",
       "apply": "Sag dir vor deiner nächsten Herausforderung einen Satz mit deinem eigenen Namen.",
       "more": "Ethan Kross und Kollegen liessen Probanden vor einer Rede entweder in der Ich-Form oder mit dem eigenen Namen über ihre Gefühle nachdenken. Die zweite Gruppe hatte weniger Angst, grübelte danach weniger und hielt laut Beurteilern die bessere Rede. Kross nennt das \"distanziertes Selbstgespräch\".",
       "source": "Kross et al.: Self-talk as a regulatory mechanism, Journal of Personality and Social Psychology (2014)"
     },
     "en": {
-      "title": "Talk to yourself like a friend",
+      "title": "Talk to yourself like a coach",
       "body": "Before a tough speech or an important conversation, a surprisingly simple trick helps: talk to yourself not as \"I\" but **by your name or as \"you\"**. \"Luke, you prepared. You can do this.\"\n\nIn studies, people who did this were less anxious and came across as more composed. The distance lets you see the situation like a coach from the outside instead of being stuck inside the feeling.",
       "apply": "Before your next challenge, say one sentence to yourself using your own name.",
       "more": "Ethan Kross and colleagues had participants reflect on their feelings before a speech either as \"I\" or using their own name. The second group felt less anxious, ruminated less afterwards and, according to raters, gave the better speech. Kross calls this \"distanced self-talk\".",
@@ -159,14 +203,14 @@
     "level": 2,
     "de": {
       "title": "Werde der Typ, nicht nur das Ziel",
-      "body": "Zwei Männer wollen mit dem Rauchen aufhören. Man bietet beiden eine Zigarette an. Der erste sagt: \"Nein danke, ich versuche aufzuhören.\" Der zweite sagt: \"Nein danke, ich rauche nicht.\"\n\nDer erste sieht sich noch als Raucher, der gegen sich kämpft. Der zweite hat seine **Identität** geändert. Er braucht keinen Willen mehr, er handelt einfach wie der, der er ist.\n\nJede Handlung ist eine Stimme für den Menschen, der du werden willst. Ein Training macht dich nicht fit, aber es ist eine Stimme für \"Ich bin einer, der trainiert\".",
+      "body": "Zwei Männer wollen mit dem Rauchen aufhören. Man bietet beiden eine Zigarette an. Der erste sagt: \"Nein danke, ich versuche aufzuhören.\" Der zweite sagt: \"Nein danke, ich rauche nicht.\"\n\nDer erste sieht sich noch als Raucher, der gegen sich kämpft. Der zweite hat seine **Identität** geändert. Er braucht keinen Willen mehr, er handelt einfach wie der, der er ist.\n\nJede Handlung ist eine Stimme für den Menschen, der du werden willst. Ein Training macht dich nicht fit, aber es ist eine Stimme für \"Ich bin einer, der trainiert\".\n\nDu wirst nicht als dieser Mann geboren. Du baust ihn, eine Handlung nach der anderen.",
       "apply": "Formuliere dein Ziel als Identität: nicht \"Ich will 10 kg abnehmen\", sondern \"Ich bin einer, der auf seinen Körper achtet\".",
       "more": "James Clear unterscheidet drei Ebenen der Veränderung: Ergebnisse (was du erreichst), Prozesse (was du tust) und Identität (was du glaubst). Die meisten setzen bei den Ergebnissen an. Dauerhafte Gewohnheiten entstehen laut Clear, wenn man bei der Identität beginnt.",
       "source": "James Clear: Atomic Habits (2018), Kapitel 2"
     },
     "en": {
       "title": "Become the type, not just the goal",
-      "body": "Two men want to quit smoking. Both are offered a cigarette. The first says: \"No thanks, I'm trying to quit.\" The second says: \"No thanks, I don't smoke.\"\n\nThe first still sees himself as a smoker fighting himself. The second has changed his **identity**. He no longer needs willpower; he simply acts like who he is.\n\nEvery action is a vote for the person you want to become. One workout does not make you fit, but it is a vote for \"I'm someone who trains\".",
+      "body": "Two men want to quit smoking. Both are offered a cigarette. The first says: \"No thanks, I'm trying to quit.\" The second says: \"No thanks, I don't smoke.\"\n\nThe first still sees himself as a smoker fighting himself. The second has changed his **identity**. He no longer needs willpower; he simply acts like who he is.\n\nEvery action is a vote for the person you want to become. One workout does not make you fit, but it is a vote for \"I'm someone who trains\".\n\nYou aren't born that man. You build him, one action at a time.",
       "apply": "Rephrase your goal as an identity: not \"I want to lose 10 kg\" but \"I'm someone who takes care of his body\".",
       "more": "James Clear distinguishes three layers of change: outcomes (what you get), processes (what you do) and identity (what you believe). Most people start with outcomes. According to Clear, lasting habits come from starting with identity.",
       "source": "James Clear: Atomic Habits (2018), chapter 2"
@@ -222,14 +266,14 @@
     "level": 2,
     "de": {
       "title": "Deep Work: Die seltenste Fähigkeit",
-      "body": "Konzentriert und ohne jede Ablenkung an einer schwierigen Sache arbeiten: Cal Newport nennt das **Deep Work**. Seine These: Diese Fähigkeit wird immer wertvoller und gleichzeitig immer seltener, weil fast alle dauernd zwischen Nachrichten, Mails und Feeds springen.\n\nWer sich tief konzentrieren kann, lernt schwierige Dinge schneller und liefert Arbeit auf einem Niveau, das andere nicht erreichen.\n\nNewport empfiehlt feste Blöcke von 60 bis 90 Minuten: Handy weg, ein Ziel, keine Unterbrechung.",
+      "body": "Konzentriert und ohne jede Ablenkung an einer schwierigen Sache arbeiten: Cal Newport nennt das **Deep Work**. Seine These: Diese Fähigkeit wird immer wertvoller und gleichzeitig immer seltener, weil fast alle dauernd zwischen Nachrichten, Mails und Feeds springen.\n\nWer sich tief konzentrieren kann, lernt schwierige Dinge schneller und liefert Arbeit auf einem Niveau, das andere nicht erreichen.\n\nNewport empfiehlt feste Blöcke von 60 bis 90 Minuten: Handy weg, ein Ziel, keine Unterbrechung.\n\nKonzentration ist ein Muskel. Wer ihn trainiert, hat einen Vorteil, den man nicht kaufen kann.",
       "apply": "Plane morgen einen 60-Minuten-Block für deine schwierigste Aufgabe und schalte alles andere aus.",
       "more": "Newport unterscheidet Deep Work von \"Shallow Work\": logistische Aufgaben, die man auch abgelenkt erledigen kann (Mails beantworten, Termine koordinieren). Shallow Work fühlt sich produktiv an, bringt aber selten echten Fortschritt. Anfänger schaffen oft nur eine Stunde Deep Work am Tag, Geübte bis zu vier.",
       "source": "Cal Newport: Deep Work (2016)"
     },
     "en": {
       "title": "Deep work: the rarest skill",
-      "body": "Working on something hard with full focus and zero distraction: Cal Newport calls it **deep work**. His thesis: this skill is becoming more valuable and rarer at the same time, because almost everyone keeps jumping between messages, emails and feeds.\n\nThose who can concentrate deeply learn hard things faster and produce work at a level others don't reach.\n\nNewport recommends fixed blocks of 60 to 90 minutes: phone away, one goal, no interruptions.",
+      "body": "Working on something hard with full focus and zero distraction: Cal Newport calls it **deep work**. His thesis: this skill is becoming more valuable and rarer at the same time, because almost everyone keeps jumping between messages, emails and feeds.\n\nThose who can concentrate deeply learn hard things faster and produce work at a level others don't reach.\n\nNewport recommends fixed blocks of 60 to 90 minutes: phone away, one goal, no interruptions.\n\nFocus is a muscle. Train it, and you have an edge that money can't buy.",
       "apply": "Plan a 60-minute block tomorrow for your hardest task and switch everything else off.",
       "more": "Newport contrasts deep work with \"shallow work\": logistical tasks you can do while distracted (answering emails, scheduling). Shallow work feels productive but rarely creates real progress. Beginners often manage only one hour of deep work per day; trained people up to four.",
       "source": "Cal Newport: Deep Work (2016)"
@@ -328,14 +372,14 @@
     "de": {
       "title": "Motivation kommt nach dem Anfangen",
       "body": "Viele warten darauf, motiviert zu sein, bevor sie anfangen. Meistens läuft es umgekehrt: **Erst die Handlung, dann die Motivation.**\n\nDie ersten fünf Minuten im Gym, die erste Seite eines Berichts, der erste Anruf sind die schwersten. Danach trägt dich der Schwung. Disziplin heisst nicht, dass du dich immer gut fühlst. Sie heisst, dass du anfängst, obwohl du keine Lust hast.",
-      "apply": "Nimm dir etwas vor, auf das du keine Lust hast, und versprich dir nur die ersten fünf Minuten.",
+      "apply": "Nimm dir etwas vor, auf das du keine Lust hast, und versprich dir nur die ersten fünf Minuten. Fang jetzt an.",
       "more": "Psychologen sprechen vom \"Zeigarnik-Effekt\": Angefangene Aufgaben bleiben im Kopf präsent und ziehen uns zurück, bis sie fertig sind. Wer anfängt, nutzt diesen Sog für sich. Auch in der Verhaltenstherapie gilt: Handeln verändert Gefühle oft schneller, als Nachdenken es tut.",
       "source": "Bluma Zeigarnik (1927); Verhaltensaktivierung in der kognitiven Verhaltenstherapie"
     },
     "en": {
       "title": "Motivation comes after starting",
       "body": "Many people wait to feel motivated before they begin. Usually it works the other way round: **action first, motivation second.**\n\nThe first five minutes at the gym, the first page of a report, the first phone call are the hardest. After that, momentum carries you. Discipline doesn't mean you always feel good. It means you start even when you don't feel like it.",
-      "apply": "Pick something you don't feel like doing and commit only to the first five minutes.",
+      "apply": "Pick something you don't feel like doing and commit to just the first five minutes. Start now.",
       "more": "Psychologists speak of the \"Zeigarnik effect\": unfinished tasks stay present in the mind and pull us back until they're done. Starting puts that pull to work for you. Behavioural therapy relies on the same idea: action often changes feelings faster than thinking does.",
       "source": "Bluma Zeigarnik (1927); behavioural activation in cognitive behavioural therapy"
     }
@@ -370,7 +414,11 @@
     "de": {
       "title": "Was in deiner Macht steht",
       "body": "Der Grundsatz der Stoiker in einem Satz: Manche Dinge stehen in unserer Macht, andere nicht.\n\n**In deiner Macht:** dein Urteil, deine Absicht, dein Handeln.\n**Nicht in deiner Macht:** dein Ruf, dein Besitz, das Wetter, was andere tun.\n\nUnglücklich wird, wer sein Glück an Dinge hängt, die er nicht kontrolliert. Ruhig und stark wird, wer seine Kraft dort einsetzt, wo sie wirkt, und den Rest gelassen nimmt.",
-      "quote": { "text": "Von den Dingen stehen die einen in unserer Macht, die anderen nicht.", "author": "Epiktet", "source": "Handbüchlein der Moral, 1" },
+      "quote": {
+        "text": "Von den Dingen stehen die einen in unserer Macht, die anderen nicht.",
+        "author": "Epiktet",
+        "source": "Handbüchlein der Moral, 1"
+      },
       "apply": "Sortiere deine nächste Sorge: Liegt sie in deiner Macht? Wenn nein, lass sie los. Wenn ja, handle.",
       "more": "Epiktet war ein freigelassener Sklave, der im 1. und 2. Jahrhundert in Nikopolis eine Philosophenschule leitete. Sein Schüler Arrian schrieb seine Lehren auf. Das \"Handbüchlein\" (Enchiridion) beginnt mit genau diesem Gedanken. Die moderne kognitive Verhaltenstherapie beruft sich ausdrücklich auf ihn.",
       "source": "Epiktet: Handbüchlein der Moral (um 125 n. Chr.), Kapitel 1"
@@ -378,7 +426,11 @@
     "en": {
       "title": "What is in your power",
       "body": "The Stoic principle in one sentence: some things are in our power, others are not.\n\n**In your power:** your judgement, your intentions, your actions.\n**Not in your power:** your reputation, your possessions, the weather, what others do.\n\nWhoever ties his happiness to things he doesn't control becomes miserable. Whoever puts his strength where it works, and takes the rest calmly, becomes steady and strong.",
-      "quote": { "text": "Of things, some are in our power, and others are not.", "author": "Epictetus", "source": "Enchiridion, 1" },
+      "quote": {
+        "text": "Of things, some are in our power, and others are not.",
+        "author": "Epictetus",
+        "source": "Enchiridion, 1"
+      },
       "apply": "Sort your next worry: is it in your power? If not, let it go. If yes, act.",
       "more": "Epictetus was a freed slave who ran a school of philosophy in Nicopolis in the 1st and 2nd centuries. His student Arrian wrote down his teachings. The \"Enchiridion\" (handbook) opens with exactly this idea. Modern cognitive behavioural therapy explicitly cites him as an influence.",
       "source": "Epictetus: Enchiridion (c. 125 AD), chapter 1"
@@ -392,7 +444,11 @@
     "level": 2,
     "de": {
       "title": "Das Hindernis ist der Weg",
-      "quote": { "text": "Was dem Handeln im Weg steht, fördert das Handeln. Was im Weg steht, wird zum Weg.", "author": "Marc Aurel", "source": "Selbstbetrachtungen 5,20" },
+      "quote": {
+        "text": "Was dem Handeln im Weg steht, fördert das Handeln. Was im Weg steht, wird zum Weg.",
+        "author": "Marc Aurel",
+        "source": "Selbstbetrachtungen 5,20"
+      },
       "body": "Marc Aurel war der mächtigste Mann der Welt und schrieb diese Zeilen nur für sich selbst, mitten in Kriegen und einer Seuche.\n\nSein Gedanke: Jedes Hindernis ist eine Gelegenheit, eine Tugend zu üben. Ein schwieriger Kollege trainiert deine Geduld. Ein Rückschlag trainiert deine Ausdauer. Du kannst nicht wählen, was passiert, aber du kannst wählen, **was du daraus machst**.",
       "apply": "Frag dich bei deinem aktuellen Problem: Welche Stärke kann ich genau hier trainieren?",
       "more": "Die \"Selbstbetrachtungen\" sind ein Tagebuch, das Marc Aurel (121 bis 180 n. Chr.) auf Griechisch führte, vermutlich während der Feldzüge an der Donau. Ryan Holiday machte den Gedanken mit seinem Buch \"The Obstacle Is the Way\" (2014) bei Sportlern und Unternehmern bekannt.",
@@ -400,7 +456,11 @@
     },
     "en": {
       "title": "The obstacle is the way",
-      "quote": { "text": "What stands in the way of action advances action. What stands in the way becomes the way.", "author": "Marcus Aurelius", "source": "Meditations 5.20" },
+      "quote": {
+        "text": "What stands in the way of action advances action. What stands in the way becomes the way.",
+        "author": "Marcus Aurelius",
+        "source": "Meditations 5.20"
+      },
       "body": "Marcus Aurelius was the most powerful man in the world and wrote these lines only for himself, in the middle of wars and a plague.\n\nHis idea: every obstacle is a chance to practise a virtue. A difficult colleague trains your patience. A setback trains your endurance. You can't choose what happens, but you can choose **what you make of it**.",
       "apply": "Ask yourself about your current problem: which strength can I train right here?",
       "more": "The \"Meditations\" are a journal Marcus Aurelius (121 to 180 AD) kept in Greek, probably during the campaigns on the Danube. Ryan Holiday popularised the idea among athletes and entrepreneurs with his book \"The Obstacle Is the Way\" (2014).",
@@ -447,16 +507,24 @@
     "de": {
       "title": "Trainiere freiwilliges Unbehagen",
       "body": "Seneca riet einem reichen Freund, sich ein paar Tage lang mit dem einfachsten Essen und grober Kleidung zu begnügen und sich dabei zu fragen: \"Ist es das, wovor ich mich gefürchtet habe?\"\n\nWer sich regelmässig **freiwillig** Unbequemem aussetzt, kalter Dusche, Fasten, Sport bei Regen, schwierigen Gesprächen, verliert die Angst davor. Härte im Kleinen macht dich ruhig, wenn das Leben im Grossen hart wird.",
-      "quote": { "text": "Ist dies der Zustand, den ich gefürchtet habe?", "author": "Seneca", "source": "Briefe an Lucilius 18" },
-      "apply": "Wähle für diese Woche eine kleine, freiwillige Härte und zieh sie dreimal durch.",
+      "quote": {
+        "text": "Ist dies der Zustand, den ich gefürchtet habe?",
+        "author": "Seneca",
+        "source": "Briefe an Lucilius 18"
+      },
+      "apply": "Wähle für diese Woche eine freiwillige Härte, etwa eine kalte Dusche am Morgen, und zieh sie dreimal durch. Ohne Ausnahme.",
       "more": "Im 18. Brief an Lucilius schreibt Seneca, man solle gerade in guten Zeiten Armut üben, damit man in schlechten Zeiten gefasst ist. Die Idee taucht heute in Ansätzen wie \"Hormesis\" auf: Kleine, dosierte Belastungen machen Körper und Psyche widerstandsfähiger.",
       "source": "Seneca: Briefe an Lucilius, Brief 18"
     },
     "en": {
       "title": "Train voluntary discomfort",
       "body": "Seneca advised a wealthy friend to live for a few days on the plainest food and in rough clothes, asking himself: \"Is this the condition that I feared?\"\n\nIf you **voluntarily** expose yourself to discomfort on a regular basis, cold showers, fasting, training in the rain, hard conversations, you lose your fear of it. Toughness in small things keeps you calm when life gets hard in big ones.",
-      "quote": { "text": "Is this the condition that I feared?", "author": "Seneca", "source": "Letters to Lucilius 18" },
-      "apply": "Pick one small, voluntary hardship for this week and do it three times.",
+      "quote": {
+        "text": "Is this the condition that I feared?",
+        "author": "Seneca",
+        "source": "Letters to Lucilius 18"
+      },
+      "apply": "Choose one voluntary hardship for this week, such as a cold shower in the morning, and do it three times. No exceptions.",
       "more": "In his 18th letter to Lucilius, Seneca writes that you should practise poverty precisely in good times so you stay composed in bad times. The idea shows up today in concepts like \"hormesis\": small, dosed stressors make body and mind more resilient.",
       "source": "Seneca: Letters to Lucilius, Letter 18 (trans. R. M. Gummere, 1917)"
     }
@@ -525,14 +593,14 @@
     "level": 2,
     "de": {
       "title": "Zwei Wege zu Respekt",
-      "body": "Forscher unterscheiden zwei Arten, wie Menschen in einer Gruppe nach oben kommen.\n\n**Dominanz:** durch Einschüchterung, Druck und Angst. Funktioniert kurzfristig, aber die Leute folgen nur, solange sie müssen.\n\n**Prestige:** durch Können, Wissen und Grosszügigkeit. Andere folgen freiwillig, weil sie von dir lernen wollen.\n\nBeide Wege führen zu Einfluss. Aber nur Prestige bringt echten Respekt, Loyalität und eine Aura, die auch dann wirkt, wenn du nicht im Raum bist.",
+      "body": "Forscher unterscheiden zwei Arten, wie Menschen in einer Gruppe nach oben kommen.\n\n**Dominanz:** durch Einschüchterung, Druck und Angst. Funktioniert kurzfristig, aber die Leute folgen nur, solange sie müssen.\n\n**Prestige:** durch Können, Wissen und Grosszügigkeit. Andere folgen freiwillig, weil sie von dir lernen wollen.\n\nBeide Wege führen zu Einfluss. Aber nur Prestige bringt echten Respekt, Loyalität und eine Aura, die auch dann wirkt, wenn du nicht im Raum bist.\n\nRespekt, den du dir mit Können verdienst, kann dir niemand nehmen.",
       "apply": "Teile heute etwas, das du gut kannst, mit jemandem, ohne etwas dafür zu wollen.",
       "more": "Joey Cheng und Jessica Tracy zeigten in Gruppenexperimenten, dass beide Strategien zu Einfluss führen. Dominante Personen wurden aber weniger gemocht. Prestige-Personen wurden als kompetent und angenehm erlebt, und ihr Rat wurde eher angenommen.",
       "source": "Cheng, Tracy et al.: Journal of Personality and Social Psychology (2013)"
     },
     "en": {
       "title": "Two paths to respect",
-      "body": "Researchers distinguish two ways people rise in a group.\n\n**Dominance:** through intimidation, pressure and fear. It works short term, but people only follow as long as they have to.\n\n**Prestige:** through skill, knowledge and generosity. Others follow freely because they want to learn from you.\n\nBoth paths lead to influence. But only prestige brings real respect, loyalty and a presence that works even when you're not in the room.",
+      "body": "Researchers distinguish two ways people rise in a group.\n\n**Dominance:** through intimidation, pressure and fear. It works short term, but people only follow as long as they have to.\n\n**Prestige:** through skill, knowledge and generosity. Others follow freely because they want to learn from you.\n\nBoth paths lead to influence. But only prestige brings real respect, loyalty and a presence that works even when you're not in the room.\n\nRespect you earn through skill is respect no one can take from you.",
       "apply": "Share something you're good at with someone today without wanting anything back.",
       "more": "Joey Cheng and Jessica Tracy showed in group experiments that both strategies lead to influence. Dominant individuals, however, were liked less. Prestigious individuals were seen as competent and pleasant, and their advice was more readily taken.",
       "source": "Cheng, Tracy et al.: Journal of Personality and Social Psychology (2013)"
@@ -650,20 +718,46 @@
     },
     "slides": [
       {
-        "de": { "title": "1. Fühlen, aber befristet", "body": "Ärger und Enttäuschung sind normal. Gib ihnen bewusst Raum, aber mit Ablaufdatum: \"Heute Abend darf ich mich darüber ärgern, morgen schaue ich nach vorn.\" Wer Gefühle unterdrückt, schleppt sie länger mit." },
-        "en": { "title": "1. Feel it, but with a deadline", "body": "Anger and disappointment are normal. Give them room deliberately, but with an expiry date: \"Tonight I can be upset about it; tomorrow I look ahead.\" Suppressed feelings get carried around longer." }
+        "de": {
+          "title": "1. Fühlen, aber befristet",
+          "body": "Ärger und Enttäuschung sind normal. Gib ihnen bewusst Raum, aber mit Ablaufdatum: \"Heute Abend darf ich mich darüber ärgern, morgen schaue ich nach vorn.\" Wer Gefühle unterdrückt, schleppt sie länger mit."
+        },
+        "en": {
+          "title": "1. Feel it, but with a deadline",
+          "body": "Anger and disappointment are normal. Give them room deliberately, but with an expiry date: \"Tonight I can be upset about it; tomorrow I look ahead.\" Suppressed feelings get carried around longer."
+        }
       },
       {
-        "de": { "title": "2. Ehrlich analysieren", "body": "Was lag in meiner Hand, was nicht? Teile die Ursachen sauber auf. Weder alles auf dich nehmen (\"Ich bin unfähig\") noch alles abschieben (\"Die anderen sind schuld\")." },
-        "en": { "title": "2. Analyse honestly", "body": "What was in my hands and what wasn't? Separate the causes cleanly. Neither take everything on yourself (\"I'm useless\") nor push everything away (\"It's everyone else's fault\")." }
+        "de": {
+          "title": "2. Ehrlich analysieren",
+          "body": "Was lag in meiner Hand, was nicht? Teile die Ursachen sauber auf. Weder alles auf dich nehmen (\"Ich bin unfähig\") noch alles abschieben (\"Die anderen sind schuld\")."
+        },
+        "en": {
+          "title": "2. Analyse honestly",
+          "body": "What was in my hands and what wasn't? Separate the causes cleanly. Neither take everything on yourself (\"I'm useless\") nor push everything away (\"It's everyone else's fault\")."
+        }
       },
       {
-        "de": { "title": "3. Eine Lektion, ein Schritt", "body": "Leite genau eine Lektion ab und mach daraus eine konkrete Handlung. Nicht \"Ich muss besser werden\", sondern \"Ich übe die Präsentation beim nächsten Mal zweimal vor jemandem\"." },
-        "en": { "title": "3. One lesson, one step", "body": "Draw exactly one lesson and turn it into a concrete action. Not \"I need to get better\" but \"Next time I'll rehearse the presentation twice in front of someone\"." }
+        "de": {
+          "title": "3. Eine Lektion, ein Schritt",
+          "body": "Leite genau eine Lektion ab und mach daraus eine konkrete Handlung. Nicht \"Ich muss besser werden\", sondern \"Ich übe die Präsentation beim nächsten Mal zweimal vor jemandem\"."
+        },
+        "en": {
+          "title": "3. One lesson, one step",
+          "body": "Draw exactly one lesson and turn it into a concrete action. Not \"I need to get better\" but \"Next time I'll rehearse the presentation twice in front of someone\"."
+        }
       },
       {
-        "de": { "title": "4. Schnell wieder in Bewegung", "body": "Je länger du nach einem Rückschlag stillstehst, desto grösser wird er im Kopf. Mach innerhalb von 48 Stunden einen kleinen Schritt in die richtige Richtung. Bewegung ist das beste Mittel gegen Grübeln.", "apply": "Denk an deinen letzten Rückschlag: Welche eine Lektion und welcher eine Schritt gehören dazu?" },
-        "en": { "title": "4. Get moving again fast", "body": "The longer you stand still after a setback, the bigger it grows in your mind. Take one small step in the right direction within 48 hours. Movement is the best cure for brooding.", "apply": "Think of your last setback: which one lesson and which one step belong to it?" }
+        "de": {
+          "title": "4. Schnell wieder in Bewegung",
+          "body": "Je länger du nach einem Rückschlag stillstehst, desto grösser wird er im Kopf. Mach innerhalb von 48 Stunden einen kleinen Schritt in die richtige Richtung. Bewegung ist das beste Mittel gegen Grübeln.",
+          "apply": "Denk an deinen letzten Rückschlag: Welche eine Lektion und welcher eine Schritt gehören dazu?"
+        },
+        "en": {
+          "title": "4. Get moving again fast",
+          "body": "The longer you stand still after a setback, the bigger it grows in your mind. Take one small step in the right direction within 48 hours. Movement is the best cure for brooding.",
+          "apply": "Think of your last setback: which one lesson and which one step belong to it?"
+        }
       }
     ]
   },
@@ -697,14 +791,14 @@
     "de": {
       "title": "Extreme Ownership",
       "body": "Bei einem Einsatz im Irak kam es zu einem Feuergefecht zwischen zwei eigenen Einheiten. Ein Soldat starb. Bei der Nachbesprechung suchten alle die Schuld bei anderen.\n\nDann stand der Kommandant Jocko Willink auf und sagte: **\"Es ist meine Schuld.\"** Als Führer war er für alles verantwortlich, was in seinem Bereich geschieht.\n\nStatt ihn abzusetzen, vertrauten ihm seine Vorgesetzten danach mehr. Wer Verantwortung übernimmt, statt Ausreden zu suchen, kann Probleme lösen. Wer Schuld verteilt, bleibt machtlos.",
-      "apply": "Übernimm heute bei einem Problem die volle Verantwortung für deinen Anteil, ohne ein \"aber\".",
+      "apply": "Übernimm heute bei einem Problem die volle Verantwortung für deinen Anteil. Ohne \"aber\", ohne Ausrede.",
       "more": "Willink und Leif Babin beschreiben den Vorfall im ersten Kapitel von \"Extreme Ownership\" (2015). Der Kern: Es gibt keine schlechten Teams, nur schlechte Führung. Auch wer nicht Chef ist, kann Ownership leben: für seine Aufgaben, seine Fehler und seinen Einfluss auf andere.",
       "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), Kapitel 1"
     },
     "en": {
       "title": "Extreme ownership",
       "body": "During an operation in Iraq, two friendly units ended up in a firefight with each other. A soldier died. In the debrief everyone looked for someone else to blame.\n\nThen commander Jocko Willink stood up and said: **\"It's my fault.\"** As the leader, he was responsible for everything in his area.\n\nInstead of removing him, his superiors trusted him more afterwards. Whoever takes ownership instead of making excuses can solve problems. Whoever hands out blame stays powerless.",
-      "apply": "With one problem today, take full ownership of your part, without a \"but\".",
+      "apply": "With one problem today, take full ownership of your part. No \"but\", no excuse.",
       "more": "Willink and Leif Babin describe the incident in the first chapter of \"Extreme Ownership\" (2015). The core message: there are no bad teams, only bad leaders. You don't have to be the boss to live ownership: for your tasks, your mistakes and your influence on others.",
       "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), chapter 1"
     }
@@ -739,7 +833,11 @@
     "de": {
       "title": "Memento mori",
       "body": "\"Bedenke, dass du sterben wirst.\" Klingt düster, ist bei den Stoikern aber eine Übung für **mehr Leben**.\n\nWer sich bewusst macht, dass seine Zeit begrenzt ist, verschiebt weniger, streitet seltener über Kleinigkeiten und sagt Menschen eher, was sie ihm bedeuten. Marc Aurel ermahnte sich, jede Handlung so zu tun, als wäre sie die letzte seines Lebens.",
-      "quote": { "text": "Du könntest jetzt gleich aus dem Leben scheiden. Danach richte jedes Tun, Reden und Denken.", "author": "Marc Aurel", "source": "Selbstbetrachtungen 2,11" },
+      "quote": {
+        "text": "Du könntest jetzt gleich aus dem Leben scheiden. Danach richte jedes Tun, Reden und Denken.",
+        "author": "Marc Aurel",
+        "source": "Selbstbetrachtungen 2,11"
+      },
       "apply": "Frag dich heute Abend: Was würde ich bereuen, wenn heute mein letzter Tag gewesen wäre?",
       "more": "Der Ausdruck \"memento mori\" stammt aus späterer, christlicher Zeit, der Gedanke ist aber alt. Die Stoiker nutzten ihn nicht, um Angst zu machen, sondern um Prioritäten zu klären. Auch in der christlichen Tradition ist er verbreitet: Mönche grüssten sich angeblich mit diesem Satz.",
       "source": "Marc Aurel: Selbstbetrachtungen 2,11 (eigene Übersetzung)"
@@ -747,10 +845,119 @@
     "en": {
       "title": "Memento mori",
       "body": "\"Remember that you will die.\" It sounds grim, but for the Stoics it was an exercise in **living more**.\n\nWhoever stays aware that his time is limited postpones less, fights less over trivia and is quicker to tell people what they mean to him. Marcus Aurelius reminded himself to do every action as if it were the last of his life.",
-      "quote": { "text": "You could leave life right now. Let that determine what you do and say and think.", "author": "Marcus Aurelius", "source": "Meditations 2.11" },
+      "quote": {
+        "text": "You could leave life right now. Let that determine what you do and say and think.",
+        "author": "Marcus Aurelius",
+        "source": "Meditations 2.11"
+      },
       "apply": "Ask yourself tonight: what would I regret if today had been my last day?",
       "more": "The phrase \"memento mori\" comes from later, Christian times, but the idea is old. The Stoics didn't use it to create fear but to clarify priorities. It's common in Christian tradition too: monks are said to have greeted each other with it.",
       "source": "Marcus Aurelius: Meditations 2.11 (own translation)"
+    }
+  },
+  {
+    "id": "bau-den-mann",
+    "area": "mindset",
+    "sub": "verantwortung",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Du wirst nicht geboren, du wirst gebaut",
+      "body": "Warum lieben so viele Männer Batman? Er hat keine Superkräfte. Superman wurde mit ihnen geboren, Thor ist ein Gott. Batman ist **nur ein Mann**.\n\nEr ist reich, aber dafür bewundert ihn niemand. Bewundert wird, was er sich selbst erarbeitet hat: **Mut, Disziplin, Wissen und mentale Härte**. Er hat seinen Schmerz in einen Auftrag verwandelt.\n\nGenau darin liegt die Botschaft: Du wirst nicht als der Mann geboren, der du sein willst. Du musst ihn bauen.",
+      "apply": "Schreib eine Eigenschaft auf, die der Mann haben soll, der du werden willst. Dann tu heute eine Sache, die genau diese Eigenschaft trainiert.",
+      "more": "Batman erschien zum ersten Mal 1939. Anders als die meisten Superhelden hat er keine übernatürlichen Fähigkeiten. Seine Stärke ist Training, Planung und ein Wille, der nicht bricht. Darum funktioniert er als Vorbild: Alles, was ihn ausmacht, ist im Prinzip für jeden erreichbar. Nicht in seiner Form, aber in seiner Haltung.",
+      "source": "Batman: erstmals in Detective Comics #27 (1939)"
+    },
+    "en": {
+      "title": "You aren't born, you're built",
+      "body": "Why do so many men love Batman? He has no superpowers. Superman was born with them, Thor is a god. Batman is **just a man**.\n\nHe's wealthy, but that's not what anyone admires. What men admire is what he built himself: **courage, discipline, knowledge and mental toughness**. He turned his pain into purpose.\n\nThat's the message: you aren't born the man you want to become. You have to build him.",
+      "apply": "Write down one trait the man you want to become should have. Then do one thing today that trains exactly that trait.",
+      "more": "Batman first appeared in 1939. Unlike most superheroes, he has no supernatural abilities. His strength is training, planning and a will that does not break. That is why he works as a role model: everything that defines him is, in principle, within anyone's reach. Not in his form, but in his attitude.",
+      "source": "Batman: first appearance in Detective Comics #27 (1939)"
+    }
+  },
+  {
+    "id": "selbstbeherrschung-sagt-voraus",
+    "area": "mindset",
+    "sub": "disziplin",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Selbstbeherrschung prägt dein ganzes Leben",
+      "body": "Forscher in Neuseeland begleiteten rund **1'000 Kinder** von der Geburt bis zum Alter von 32 Jahren. Sie massen früh, wie gut sich die Kinder beherrschen konnten: warten, Impulse bremsen, dranbleiben.\n\nDas Ergebnis war deutlich: Wer als Kind mehr Selbstbeherrschung zeigte, war als Erwachsener **gesünder, hatte mehr Geld und geriet seltener mit dem Gesetz in Konflikt**. Und zwar auch dann, wenn man Intelligenz und Herkunft herausrechnete.\n\nDie gute Nachricht: Selbstbeherrschung ist kein Schicksal. Sie wächst mit jeder Entscheidung, bei der du das Richtige statt das Bequeme wählst.",
+      "apply": "Wähle heute einen Impuls, dem du sonst sofort nachgibst (Handy, Snack, Widerworte), und halte ihn einmal bewusst zurück.",
+      "more": "Die Dunedin-Studie gehört zu den gründlichsten Langzeitstudien der Welt. Auffällig war auch: Kinder, deren Selbstbeherrschung sich im Lauf der Jugend verbesserte, hatten als Erwachsene bessere Ergebnisse. Selbstbeherrschung lässt sich also verändern.",
+      "source": "Moffitt et al.: A gradient of childhood self-control predicts health, wealth, and public safety. PNAS, 2011"
+    },
+    "en": {
+      "title": "Self-control shapes your whole life",
+      "body": "Researchers in New Zealand followed about **1,000 children** from birth to age 32. Early on, they measured how well the children could control themselves: wait, curb impulses, keep going.\n\nThe result was clear: children with more self-control were, as adults, **healthier, wealthier and less often in trouble with the law**. That held even after accounting for intelligence and family background.\n\nThe good news: self-control isn't fate. It grows with every decision where you choose what's right over what's easy.",
+      "apply": "Pick one impulse today that you usually give in to straight away (phone, snack, talking back) and hold it back once, on purpose.",
+      "more": "The Dunedin study is one of the most thorough long-term studies in the world. Notably, children whose self-control improved during their teens had better outcomes as adults. Self-control can change.",
+      "source": "Moffitt et al.: A gradient of childhood self-control predicts health, wealth, and public safety. PNAS, 2011"
+    }
+  },
+  {
+    "id": "durchhalten-west-point",
+    "area": "mindset",
+    "sub": "mentalitaet",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Wer durchhält, schlägt oft das Talent",
+      "body": "Die Militärakademie West Point wählt ihre Kadetten mit einem aufwendigen Punktesystem aus: Noten, Fitness, Führungserfahrung. Trotzdem brechen manche schon im harten ersten Sommer ab.\n\nDie Psychologin Angela Duckworth fand: Wer durchhielt, liess sich mit einem einfachen Fragebogen zu **Ausdauer und Leidenschaft für langfristige Ziele** besser vorhersagen als mit dem offiziellen Auswahlwert. Sie nannte das **Grit**.\n\nEhrlich gesagt: Spätere grosse Auswertungen zeigen, dass Grit nicht alles erklärt. Aber eines bleibt: Wer weitermacht, wenn es hart wird, kommt weiter als viele, die mehr Talent hatten und aufgegeben haben.",
+      "apply": "Denk an ein Ziel, das du bei der ersten Schwierigkeit fallen gelassen hast. Nimm es heute wieder auf, mit einem kleinen Schritt.",
+      "more": "Duckworths Studien von 2007 umfassten auch Teilnehmer eines Buchstabier-Wettbewerbs und Studenten. Eine Meta-Analyse von Credé und Kollegen (2017) zeigte später, dass Grit stark mit Gewissenhaftigkeit zusammenhängt und Leistung nur mässig vorhersagt. Die Ausdauer-Komponente war dabei aussagekräftiger als die Leidenschaft.",
+      "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017"
+    },
+    "en": {
+      "title": "Persistence often beats talent",
+      "body": "West Point selects its cadets with an elaborate scoring system: grades, fitness, leadership experience. Even so, some drop out in the gruelling first summer.\n\nPsychologist Angela Duckworth found that a short questionnaire on **perseverance and passion for long-term goals** predicted who stayed better than the official admission score. She called it **grit**.\n\nTo be honest: later large reviews show grit doesn't explain everything. But one thing stands: whoever keeps going when it gets hard gets further than many who had more talent and quit.",
+      "apply": "Think of a goal you dropped at the first obstacle. Pick it up again today with one small step.",
+      "more": "Duckworth's 2007 studies also included spelling bee contestants and students. A later meta-analysis by Credé and colleagues (2017) found that grit overlaps strongly with conscientiousness and predicts performance only moderately. The perseverance part was more telling than the passion part.",
+      "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017"
+    }
+  },
+  {
+    "id": "schmerz-wird-auftrag",
+    "area": "mindset",
+    "sub": "rueckschlaege",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Mach aus Schmerz einen Auftrag",
+      "body": "Verlust, Trennung, Krankheit, Scheitern: Schmerz trifft jeden Mann irgendwann. Die Frage ist nicht, ob er kommt, sondern **was du daraus machst**.\n\nPsychologen nennen es **posttraumatisches Wachstum**: Viele Menschen berichten nach schweren Krisen, dass sie stärker geworden sind, klarer wissen, was zählt, und tiefere Beziehungen haben. Das Leid war nicht gut. Aber sie haben es genutzt.\n\nDie Frage \"Warum ich?\" hält dich fest. Die Frage \"Wofür kann ich das einsetzen?\" bringt dich vorwärts.",
+      "apply": "Denk an einen Schmerz aus deiner Vergangenheit. Schreib einen Satz auf: Was kann ich wegen dieser Erfahrung heute besser als vorher?",
+      "more": "Der Begriff stammt von den Psychologen Richard Tedeschi und Lawrence Calhoun (1996). Wachstum heisst nicht, dass Schmerz verschwindet oder dass man ihn suchen sollte. Wer mit einer schweren Belastung kämpft, sollte sich Hilfe holen. Das ist keine Schwäche, sondern Verantwortung.",
+      "source": "Tedeschi & Calhoun: The Posttraumatic Growth Inventory. Journal of Traumatic Stress, 1996"
+    },
+    "en": {
+      "title": "Turn pain into purpose",
+      "body": "Loss, breakup, illness, failure: pain hits every man at some point. The question isn't whether it comes, but **what you make of it**.\n\nPsychologists call it **post-traumatic growth**: after severe crises, many people report that they became stronger, see more clearly what matters and have deeper relationships. The suffering wasn't good. But they used it.\n\nThe question \"Why me?\" keeps you stuck. The question \"What can I use this for?\" moves you forward.",
+      "apply": "Think of a past pain. Write one sentence: what can I do better today because of that experience?",
+      "more": "The term comes from psychologists Richard Tedeschi and Lawrence Calhoun (1996). Growth doesn't mean the pain disappears or that you should seek it out. If you're struggling with something heavy, get help. That isn't weakness, it's responsibility.",
+      "source": "Tedeschi & Calhoun: The Posttraumatic Growth Inventory. Journal of Traumatic Stress, 1996"
+    }
+  },
+  {
+    "id": "wofuer-stehst-du-auf",
+    "area": "mindset",
+    "sub": "verantwortung",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Wofür stehst du morgens auf?",
+      "body": "Ein Mann ohne Ziel treibt. Ein Mann mit einem Auftrag hält Druck, Rückschläge und Müdigkeit aus.\n\nDas ist nicht nur ein Gefühl. In einer US-Studie mit über **6'000 Erwachsenen** hatten Menschen mit einem stärkeren Sinn im Leben über 14 Jahre ein **geringeres Sterberisiko**, unabhängig vom Alter.\n\nSinn muss nicht gross klingen. Deine Familie versorgen, in deinem Handwerk der Beste werden, für andere da sein: Wichtig ist, dass du ihn kennst und jeden Tag dafür arbeitest.",
+      "apply": "Schreib in einem Satz auf, wofür du lebst. Häng ihn dorthin, wo du ihn jeden Morgen siehst.",
+      "more": "Die Studie von Patrick Hill und Nicholas Turiano (2014) nutzte Daten der amerikanischen MIDUS-Studie. Der Zusammenhang blieb auch bestehen, wenn man andere Faktoren wie Stimmung und Gesundheit berücksichtigte. Ein Zusammenhang ist noch kein Beweis für eine Ursache, aber er passt zu vielen ähnlichen Befunden.",
+      "source": "Hill & Turiano: Purpose in life as a predictor of mortality across adulthood. Psychological Science, 2014"
+    },
+    "en": {
+      "title": "What gets you out of bed?",
+      "body": "A man without a goal drifts. A man with a mission can handle pressure, setbacks and fatigue.\n\nThat's not just a feeling. In a US study of more than **6,000 adults**, people with a stronger sense of purpose had a **lower risk of dying** over 14 years, regardless of age.\n\nPurpose doesn't have to sound grand. Providing for your family, becoming the best at your craft, being there for others: what matters is that you know it and work for it every day.",
+      "apply": "Write down in one sentence what you live for. Put it where you'll see it every morning.",
+      "more": "The study by Patrick Hill and Nicholas Turiano (2014) used data from the US MIDUS study. The link held even when other factors such as mood and health were taken into account. A link is not proof of cause, but it fits many similar findings.",
+      "source": "Hill & Turiano: Purpose in life as a predictor of mortality across adulthood. Psychological Science, 2014"
     }
   }
 ]
