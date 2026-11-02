@@ -450,7 +450,7 @@
         "source": "Selbstbetrachtungen 5,20"
       },
       "body": "Marc Aurel war der mächtigste Mann der Welt und schrieb diese Zeilen nur für sich selbst, mitten in Kriegen und einer Seuche.\n\nSein Gedanke: Jedes Hindernis ist eine Gelegenheit, eine Tugend zu üben. Ein schwieriger Kollege trainiert deine Geduld. Ein Rückschlag trainiert deine Ausdauer. Du kannst nicht wählen, was passiert, aber du kannst wählen, **was du daraus machst**.",
-      "apply": "Frag dich bei deinem aktuellen Problem: Welche Stärke kann ich genau hier trainieren?",
+      "apply": "Nimm dein aktuelles Problem, benenne die Stärke, die du genau daran trainieren kannst, und trainiere sie heute.",
       "more": "Die \"Selbstbetrachtungen\" sind ein Tagebuch, das Marc Aurel (121 bis 180 n. Chr.) auf Griechisch führte, vermutlich während der Feldzüge an der Donau. Ryan Holiday machte den Gedanken mit seinem Buch \"The Obstacle Is the Way\" (2014) bei Sportlern und Unternehmern bekannt.",
       "source": "Marc Aurel: Selbstbetrachtungen, Buch 5, 20 (eigene Übersetzung)"
     },
@@ -462,7 +462,7 @@
         "source": "Meditations 5.20"
       },
       "body": "Marcus Aurelius was the most powerful man in the world and wrote these lines only for himself, in the middle of wars and a plague.\n\nHis idea: every obstacle is a chance to practise a virtue. A difficult colleague trains your patience. A setback trains your endurance. You can't choose what happens, but you can choose **what you make of it**.",
-      "apply": "Ask yourself about your current problem: which strength can I train right here?",
+      "apply": "Take your current problem, name the strength you can train on exactly this, and train it today.",
       "more": "The \"Meditations\" are a journal Marcus Aurelius (121 to 180 AD) kept in Greek, probably during the campaigns on the Danube. Ryan Holiday popularised the idea among athletes and entrepreneurs with his book \"The Obstacle Is the Way\" (2014).",
       "source": "Marcus Aurelius: Meditations, Book 5, 20 (own translation)"
     }
@@ -838,7 +838,7 @@
         "author": "Marc Aurel",
         "source": "Selbstbetrachtungen 2,11"
       },
-      "apply": "Frag dich heute Abend: Was würde ich bereuen, wenn heute mein letzter Tag gewesen wäre?",
+      "apply": "Schreib heute Abend eine Sache auf, die du bereuen würdest, wenn heute dein letzter Tag gewesen wäre, und erledige sie morgen.",
       "more": "Der Ausdruck \"memento mori\" stammt aus späterer, christlicher Zeit, der Gedanke ist aber alt. Die Stoiker nutzten ihn nicht, um Angst zu machen, sondern um Prioritäten zu klären. Auch in der christlichen Tradition ist er verbreitet: Mönche grüssten sich angeblich mit diesem Satz.",
       "source": "Marc Aurel: Selbstbetrachtungen 2,11 (eigene Übersetzung)"
     },
@@ -850,7 +850,7 @@
         "author": "Marcus Aurelius",
         "source": "Meditations 2.11"
       },
-      "apply": "Ask yourself tonight: what would I regret if today had been my last day?",
+      "apply": "Tonight, write down one thing you'd regret if today had been your last day, and do it tomorrow.",
       "more": "The phrase \"memento mori\" comes from later, Christian times, but the idea is old. The Stoics didn't use it to create fear but to clarify priorities. It's common in Christian tradition too: monks are said to have greeted each other with it.",
       "source": "Marcus Aurelius: Meditations 2.11 (own translation)"
     }
@@ -958,6 +958,279 @@
       "apply": "Write down in one sentence what you live for. Put it where you'll see it every morning.",
       "more": "The study by Patrick Hill and Nicholas Turiano (2014) used data from the US MIDUS study. The link held even when other factors such as mood and health were taken into account. A link is not proof of cause, but it fits many similar findings.",
       "source": "Hill & Turiano: Purpose in life as a predictor of mortality across adulthood. Psychological Science, 2014"
+    }
+  },
+  {
+    "id": "demut-ist-staerke",
+    "area": "mindset",
+    "sub": "aura",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Wer nichts beweisen muss, hat Aura",
+      "body": "Der laute Typ, der jedem erklärt, wie gut er ist, wirkt selten stark. Er wirkt, als hätte er etwas zu beweisen.\n\nForscher untersuchten Teams in Unternehmen. Anführer, die **Demut** zeigten, also eigene Grenzen zugaben, die Stärken anderer anerkannten und offen fürs Lernen waren, hatten Teams mit **mehr Engagement** und weniger Kündigungen.\n\nDemut ist nicht Schwäche. Sie ist das Zeichen eines Mannes, der so sicher ist, dass er nichts vorspielen muss.",
+      "apply": "Lobe heute vor anderen jemanden, der etwas besser kann als du. Ohne Einschränkung, ohne \"aber\".",
+      "more": "Bradley Owens und David Hekman beschreiben drei Kennzeichen demütiger Führung: Fehler zugeben, die Stärken anderer hervorheben und Lernbereitschaft vorleben. Demut wirkt besonders, wenn sie mit Kompetenz zusammenkommt.",
+      "source": "Owens, Johnson & Mitchell: Expressed humility in organizations. Organization Science, 2013"
+    },
+    "en": {
+      "title": "Not needing to prove anything is presence",
+      "body": "The loud guy who tells everyone how good he is rarely seems strong. He seems like he has something to prove.\n\nResearchers studied teams in companies. Leaders who showed **humility**, admitting their limits, recognising others' strengths and staying open to learning, had teams with **more engagement** and fewer people quitting.\n\nHumility isn't weakness. It's the sign of a man so secure he has nothing to fake.",
+      "apply": "Praise someone today in front of others for something they do better than you. No qualifier, no \"but\".",
+      "more": "Bradley Owens and David Hekman describe three marks of humble leadership: admitting mistakes, spotlighting others' strengths and modelling teachability. Humility works best when it comes with competence.",
+      "source": "Owens, Johnson & Mitchell: Expressed humility in organizations. Organization Science, 2013"
+    }
+  },
+  {
+    "id": "kleidung-verhandlung",
+    "area": "mindset",
+    "sub": "aura",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Kleide dich wie der Mann, der du sein willst",
+      "body": "Kleidung verändert nicht nur, wie andere dich sehen. Sie verändert, wie du **auftrittst**.\n\nIn einem Experiment verhandelten Männer über den Verkauf einer Fabrik, einmal im **Anzug**, einmal in **Trainerhose und Plastiklatschen**. Die Männer im Anzug erzielten deutlich bessere Ergebnisse. Ihre Gegenüber gaben eher nach.\n\nEs geht nicht um teure Marken. Es geht darum, gepflegt und passend gekleidet zu sein. Wer sich ernst nimmt, wird ernst genommen.",
+      "apply": "Zieh dich morgen eine Stufe besser an, als es nötig wäre, und achte darauf, wie du dich bewegst und sprichst.",
+      "more": "Michael Kraus und Wendy Berry Mendes veröffentlichten die Studie 2014. Andere Forschung zeigt, dass formelle Kleidung auch abstraktes, strategisches Denken fördern kann. Die Effekte sind nicht riesig, aber im Alltag spürbar.",
+      "source": "Kraus & Mendes: Sartorial symbols of social class elicit class-consistent behavioral and physiological responses. Journal of Experimental Psychology: General, 2014"
+    },
+    "en": {
+      "title": "Dress like the man you want to be",
+      "body": "Clothes don't just change how others see you. They change how you **carry yourself**.\n\nIn an experiment, men negotiated the sale of a factory, once in a **suit**, once in **sweatpants and plastic sandals**. The men in suits got clearly better deals. Their counterparts were more likely to give in.\n\nIt's not about expensive brands. It's about being well-groomed and dressed for the occasion. Take yourself seriously and others will too.",
+      "apply": "Dress one level better than necessary tomorrow and notice how you move and speak.",
+      "more": "Michael Kraus and Wendy Berry Mendes published the study in 2014. Other research shows formal clothing can also encourage more abstract, strategic thinking. The effects aren't huge, but noticeable in daily life.",
+      "source": "Kraus & Mendes: Sartorial symbols of social class elicit class-consistent behavioral and physiological responses. Journal of Experimental Psychology: General, 2014"
+    }
+  },
+  {
+    "id": "blick-beim-sprechen",
+    "area": "mindset",
+    "sub": "aura",
+    "style": "tipp",
+    "level": 2,
+    "de": {
+      "title": "Schau hin, wenn du sprichst",
+      "body": "Die meisten Menschen schauen beim **Zuhören** mehr in die Augen als beim **Sprechen**. Beim Reden wandert der Blick weg, zur Seite, nach unten.\n\nForscher fanden: Menschen mit Macht und Status machen es anders. Sie halten den Blick beim Sprechen etwa genauso lang wie beim Zuhören. Beobachter schätzen sie dadurch als dominanter und sicherer ein.\n\nDas heisst nicht starren. Es heisst: Wenn du etwas sagst, das dir wichtig ist, steh mit deinem Blick dahinter.",
+      "apply": "Halte heute bei einem wichtigen Satz den Blickkontakt, bis der Satz zu Ende ist. Erst dann schau weg.",
+      "more": "John Dovidio und Steve Ellyson nannten das Verhältnis von Blick beim Sprechen zu Blick beim Zuhören die \"visuelle Dominanzrate\". Sie ist in vielen Studien ein verlässlicher Hinweis auf Status. Freundliche Mimik verhindert, dass der Blick bedrohlich wirkt.",
+      "source": "Dovidio & Ellyson: Decoding visual dominance. Social Psychology Quarterly, 1982"
+    },
+    "en": {
+      "title": "Look at them when you speak",
+      "body": "Most people make more eye contact while **listening** than while **speaking**. When they talk, their eyes drift away, to the side, down.\n\nResearchers found that people with power and status do it differently. They hold eye contact about as long when speaking as when listening. Observers rate them as more dominant and confident.\n\nThat doesn't mean staring. It means: when you say something that matters to you, back it with your eyes.",
+      "apply": "When you say something important today, hold eye contact until the sentence is finished. Only then look away.",
+      "more": "John Dovidio and Steve Ellyson called the ratio of looking while speaking to looking while listening the \"visual dominance ratio\". In many studies it's a reliable cue to status. A friendly expression keeps the gaze from seeming threatening.",
+      "source": "Dovidio & Ellyson: Decoding visual dominance. Social Psychology Quarterly, 1982"
+    }
+  },
+  {
+    "id": "stockdale-paradox",
+    "area": "mindset",
+    "sub": "mentalitaet",
+    "style": "geschichte",
+    "level": 2,
+    "de": {
+      "title": "Das Stockdale-Paradox: Glaub an den Sieg, sieh die Wahrheit",
+      "body": "Admiral **James Stockdale** war über **sieben Jahre** in einem vietnamesischen Kriegsgefangenenlager, wurde gefoltert und hatte keine Ahnung, ob er je freikommen würde.\n\nGefragt, wer nicht überlebte, sagte er: **die Optimisten**. Sie sagten: \"Bis Weihnachten sind wir draussen.\" Weihnachten kam und ging. Dann Ostern. Sie starben an gebrochenem Herzen.\n\nStockdale überlebte mit einer doppelten Haltung: dem festen Glauben, dass er am Ende siegen würde, **und** der Disziplin, den brutalen Tatsachen der Gegenwart ins Auge zu sehen.",
+      "apply": "Schreib zu deiner grössten Herausforderung zwei Sätze: Woran glaubst du fest? Und was ist die harte Wahrheit, der du dich heute stellen musst?",
+      "more": "Der Autor Jim Collins sprach mit Stockdale für sein Buch \"Der Weg zu den Besten\" und machte die Haltung als \"Stockdale-Paradox\" bekannt. Stockdale hatte sich im Lager an der stoischen Philosophie von Epiktet festgehalten.",
+      "source": "Jim Collins: Der Weg zu den Besten (Good to Great, 2001)"
+    },
+    "en": {
+      "title": "The Stockdale Paradox: believe you'll win, face the truth",
+      "body": "Admiral **James Stockdale** spent more than **seven years** in a Vietnamese prisoner-of-war camp, was tortured and had no idea whether he'd ever get out.\n\nAsked who didn't make it, he said: **the optimists**. They said: \"We'll be out by Christmas.\" Christmas came and went. Then Easter. They died of a broken heart.\n\nStockdale survived with a double stance: unwavering faith that he would prevail in the end, **and** the discipline to confront the brutal facts of his current reality.",
+      "apply": "Write two sentences about your biggest challenge: what do you firmly believe? And what hard truth do you need to face today?",
+      "more": "Author Jim Collins spoke with Stockdale for his book \"Good to Great\" and made the stance famous as the \"Stockdale Paradox\". In the camp, Stockdale had held on to the Stoic philosophy of Epictetus.",
+      "source": "Jim Collins: Good to Great (2001)"
+    }
+  },
+  {
+    "id": "du-hast-mehr-im-tank",
+    "area": "mindset",
+    "sub": "mentalitaet",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Wenn du nicht mehr kannst, hast du noch Reserven",
+      "body": "Der frühere Navy SEAL David Goggins spricht von einer **40-Prozent-Regel**: Wenn dein Kopf sagt \"Ich kann nicht mehr\", hast du erst etwa 40 % deiner Kraft verbraucht. Die Zahl ist kein Messwert, sondern ein Bild. Aber die Wissenschaft stützt den Kern.\n\nDer Sportphysiologe Tim Noakes beschreibt das Gehirn als **Schutzschalter**: Es meldet Erschöpfung, lange bevor die Muskeln wirklich am Ende sind. Darum können Läufer am Ende eines Rennens plötzlich wieder sprinten, wenn sie die Ziellinie sehen.\n\nDas Gefühl \"Ich kann nicht\" ist ein Vorschlag, kein Befehl.",
+      "apply": "Wenn du heute im Training aufhören willst: Mach noch eine Wiederholung, noch eine Minute, sauber und sicher.",
+      "more": "Noakes nennt das Modell \"zentraler Regulator\". Es ist unter Forschern umstritten, aber gut belegt ist, dass Motivation, Belohnung und sogar Mundspülungen mit Zuckerwasser die Leistung kurzfristig erhöhen können. Echte Warnsignale wie Schmerzen in Brust oder Gelenken solltest du nie ignorieren.",
+      "source": "Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can't Hurt Me (2018)"
+    },
+    "en": {
+      "title": "When you think you're done, you have reserves",
+      "body": "Former Navy SEAL David Goggins talks about a **40 percent rule**: when your mind says \"I can't go on\", you've only used about 40% of your capacity. The number isn't a measurement, it's an image. But science backs the core.\n\nExercise physiologist Tim Noakes describes the brain as a **safety switch**: it signals exhaustion long before the muscles are really finished. That's why runners can suddenly sprint at the end of a race when they see the finish line.\n\nThe feeling \"I can't\" is a suggestion, not a command.",
+      "apply": "When you want to stop training today, do one more rep, one more minute, clean and safe.",
+      "more": "Noakes calls the model the \"central governor\". It's debated among researchers, but it's well established that motivation, reward and even rinsing the mouth with a sugar drink can briefly raise performance. Never ignore real warning signs like chest or joint pain.",
+      "source": "Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can't Hurt Me (2018)"
+    }
+  },
+  {
+    "id": "jordan-nicht-ins-team",
+    "area": "mindset",
+    "sub": "rueckschlaege",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Michael Jordan kam nicht ins Team",
+      "body": "Mit 15 Jahren wollte **Michael Jordan** ins Basketball-Team seiner Highschool. Er schaffte es nicht in die erste Mannschaft. Der Trainer setzte einen grösseren Mitschüler ein, Jordan musste ins Juniorenteam.\n\nEr ging nach Hause, schloss sich in seinem Zimmer ein und weinte. Dann trainierte er, wie er noch nie trainiert hatte. Ein Jahr später war er in der ersten Mannschaft.\n\nJahre später sagte er in einer Werbung: \"Ich habe über **9'000 Würfe** verfehlt. Ich habe fast 300 Spiele verloren. Ich bin immer und immer wieder gescheitert. Und darum habe ich Erfolg.\"",
+      "apply": "Denk an eine Absage, die dich getroffen hat. Was ist der nächste Trainingsschritt, damit du beim nächsten Mal dabei bist?",
+      "more": "Die Geschichte wird oft übertrieben erzählt, als sei Jordan ganz aus dem Team geflogen. Tatsächlich kam er ins zweite Team. Doch er selbst sagte, die Enttäuschung habe ihn angetrieben. Er gewann später sechs NBA-Meisterschaften.",
+      "source": "Nike-Werbespot \"Failure\" (1997); Roland Lazenby: Michael Jordan: The Life (2014)"
+    },
+    "en": {
+      "title": "Michael Jordan didn't make the team",
+      "body": "At 15, **Michael Jordan** tried out for his high school basketball team. He didn't make varsity. The coach picked a taller classmate, and Jordan had to play junior varsity.\n\nHe went home, locked himself in his room and cried. Then he trained like he never had before. A year later he was on varsity.\n\nYears later he said in an ad: \"I've missed more than **9,000 shots** in my career. I've lost almost 300 games. I've failed over and over and over again in my life. And that is why I succeed.\"",
+      "apply": "Think of a rejection that hit you. What's the next training step so you make it next time?",
+      "more": "The story is often exaggerated, as if Jordan was cut entirely. In fact he made the second team. But he himself said the disappointment drove him. He went on to win six NBA championships.",
+      "source": "Nike ad \"Failure\" (1997); Roland Lazenby: Michael Jordan: The Life (2014)"
+    }
+  },
+  {
+    "id": "rowling-12-absagen",
+    "area": "mindset",
+    "sub": "rueckschlaege",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Zwölf Verlage lehnten Harry Potter ab",
+      "body": "Anfang der 1990er-Jahre war **J. K. Rowling** alleinerziehend, arbeitslos und lebte von Sozialhilfe. Nebenbei schrieb sie an einem Buch über einen jungen Zauberer.\n\n**Zwölf Verlage** lehnten das Manuskript ab. Der dreizehnte, Bloomsbury, nahm es 1997 an, mit einer kleinen Erstauflage. Heute sind die Bücher über **500 Millionen** Mal verkauft.\n\nIn einer Rede in Harvard sagte sie später: Der Tiefpunkt sei das **feste Fundament** geworden, auf dem sie ihr Leben neu aufbaute.",
+      "apply": "Wenn du gerade eine Absage bekommen hast: Schick dein Projekt heute an die nächste Adresse.",
+      "more": "Rowling sagte in ihrer Rede 2008, das Scheitern habe ihr alles Unwesentliche genommen. Sie habe aufgehört, so zu tun, als sei sie etwas anderes, und ihre ganze Energie in das gesteckt, was ihr wirklich wichtig war.",
+      "source": "J. K. Rowling: The Fringe Benefits of Failure. Rede an der Harvard University, 2008"
+    },
+    "en": {
+      "title": "Twelve publishers rejected Harry Potter",
+      "body": "In the early 1990s, **J. K. Rowling** was a single mother, unemployed and living on welfare. On the side, she was writing a book about a young wizard.\n\n**Twelve publishers** turned down the manuscript. The thirteenth, Bloomsbury, accepted it in 1997, with a small first print run. Today the books have sold more than **500 million** copies.\n\nIn a speech at Harvard she later said rock bottom became the **solid foundation** on which she rebuilt her life.",
+      "apply": "If you've just been rejected, send your project to the next address today.",
+      "more": "In her 2008 speech, Rowling said failure stripped away everything inessential. She stopped pretending to be anything other than what she was and put all her energy into what really mattered to her.",
+      "source": "J. K. Rowling: The Fringe Benefits of Failure. Harvard commencement speech, 2008"
+    }
+  },
+  {
+    "id": "vergleich-mit-gestern",
+    "area": "mindset",
+    "sub": "selbstvertrauen",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Vergleich dich mit gestern, nicht mit anderen",
+      "body": "Du scrollst durch Social Media und siehst nur die besten Momente anderer: den Body, das Auto, den Urlaub. Danach fühlst du dich kleiner.\n\nDas ist kein Zufall. In Studien senkten Vergleiche mit Menschen, die auf Social Media besser dastanden, das **Selbstwertgefühl** der Teilnehmer messbar.\n\nDer einzige faire Vergleich ist der mit dir selbst. Bist du heute stärker, klüger, disziplinierter als vor einem Jahr? Das ist die Frage, die zählt.",
+      "apply": "Schreib drei Dinge auf, in denen du heute besser bist als vor einem Jahr.",
+      "more": "Erin Vogel und Kollegen untersuchten 2014 die Nutzung von Facebook. Wer häufiger nach oben verglich, hatte ein tieferes Selbstwertgefühl. Andere Profile zeigen eine geschönte Auswahl, kein echtes Leben.",
+      "source": "Vogel, Rose, Roberts & Eckles: Social comparison, social media, and self-esteem. Psychology of Popular Media Culture, 2014"
+    },
+    "en": {
+      "title": "Compare yourself to yesterday, not to others",
+      "body": "You scroll through social media and see only other people's best moments: the body, the car, the holiday. Afterwards you feel smaller.\n\nThat's no accident. In studies, comparing yourself to people who looked better off on social media measurably lowered participants' **self-esteem**.\n\nThe only fair comparison is with yourself. Are you stronger, smarter, more disciplined today than a year ago? That's the question that counts.",
+      "apply": "Write down three things you're better at today than a year ago.",
+      "more": "Erin Vogel and colleagues studied Facebook use in 2014. Those who compared upward more often had lower self-esteem. Other profiles show a polished selection, not real life.",
+      "source": "Vogel, Rose, Roberts & Eckles: Social comparison, social media, and self-esteem. Psychology of Popular Media Culture, 2014"
+    }
+  },
+  {
+    "id": "kleine-siege",
+    "area": "mindset",
+    "sub": "selbstvertrauen",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Kleine Siege bauen grosses Selbstvertrauen",
+      "body": "Harvard-Professorin Teresa Amabile liess Mitarbeiter in sieben Firmen jeden Abend ein kurzes Tagebuch führen. Am Ende hatte sie fast **12'000** Einträge.\n\nIhr wichtigster Befund: Nichts hob Stimmung, Motivation und Selbstvertrauen so stark wie das Gefühl, bei einer sinnvollen Aufgabe **vorangekommen** zu sein, auch nur ein kleines Stück.\n\nSelbstvertrauen entsteht nicht durch Sprüche vor dem Spiegel. Es entsteht durch Beweise. Und jeder kleine Sieg ist ein Beweis.",
+      "apply": "Schreib heute Abend auf, was du heute vorangebracht hast, auch wenn es klein war.",
+      "more": "Amabile und Steven Kramer nennen das das \"Fortschrittsprinzip\". Rückschläge wirkten in den Tagebüchern sogar stärker als Fortschritte. Darum lohnt es sich, grosse Ziele in kleine, erreichbare Schritte zu zerlegen.",
+      "source": "Teresa Amabile & Steven Kramer: The Progress Principle (2011)"
+    },
+    "en": {
+      "title": "Small wins build big confidence",
+      "body": "Harvard professor Teresa Amabile had employees at seven companies keep a short diary every evening. In the end she had almost **12,000** entries.\n\nHer key finding: nothing lifted mood, motivation and confidence as much as the feeling of having **made progress** on meaningful work, even a little.\n\nConfidence doesn't come from slogans in the mirror. It comes from proof. And every small win is proof.",
+      "apply": "Tonight, write down what you moved forward today, even if it was small.",
+      "more": "Amabile and Steven Kramer call this the \"progress principle\". In the diaries, setbacks hit even harder than progress helped. That's why it pays to break big goals into small, reachable steps.",
+      "source": "Teresa Amabile & Steven Kramer: The Progress Principle (2011)"
+    }
+  },
+  {
+    "id": "66-tage",
+    "area": "mindset",
+    "sub": "disziplin",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Eine Gewohnheit braucht im Schnitt 66 Tage",
+      "body": "\"In 21 Tagen zur neuen Gewohnheit.\" Das liest man oft. Die Forschung sagt etwas anderes.\n\nIn einer Studie am University College London übten Teilnehmer eine neue Gewohnheit täglich ein, etwa ein Glas Wasser zum Frühstück oder 50 Sit-ups. Bis sie **automatisch** lief, dauerte es im Schnitt **66 Tage**. Je nach Person und Gewohnheit zwischen 18 und 254 Tagen.\n\nDie gute Nachricht: Ein verpasster Tag machte keinen Unterschied. Disziplin heisst nicht, perfekt zu sein. Es heisst, wieder anzufangen.",
+      "apply": "Markier dir heute in deinem Kalender den Tag in 66 Tagen. Bis dahin ziehst du deine wichtigste neue Gewohnheit durch.",
+      "more": "Phillippa Lally und Kollegen beobachteten 96 Teilnehmer über zwölf Wochen. Einfache Gewohnheiten wie Wasser trinken wurden schneller automatisch als anstrengende wie Sport.",
+      "source": "Lally et al.: How are habits formed. European Journal of Social Psychology, 2010"
+    },
+    "en": {
+      "title": "A habit takes 66 days on average",
+      "body": "\"A new habit in 21 days.\" You read that a lot. Research says something else.\n\nIn a study at University College London, participants practised a new habit every day, such as a glass of water with breakfast or 50 sit-ups. Until it ran **automatically** took **66 days** on average. Depending on person and habit, anywhere from 18 to 254 days.\n\nThe good news: missing one day made no difference. Discipline doesn't mean being perfect. It means starting again.",
+      "apply": "Mark the date 66 days from now in your calendar today. Until then, you stick to your most important new habit.",
+      "more": "Phillippa Lally and colleagues followed 96 participants over twelve weeks. Simple habits like drinking water became automatic faster than demanding ones like exercise.",
+      "source": "Lally et al.: How are habits formed. European Journal of Social Psychology, 2010"
+    }
+  },
+  {
+    "id": "multitasking-mythos",
+    "area": "mindset",
+    "sub": "fokus",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Multitasking macht dich schlechter in allem",
+      "body": "Musik, drei Tabs, das Handy daneben, und nebenbei arbeiten. Viele halten das für effizient.\n\nForscher der Stanford University verglichen Menschen, die ständig mehrere Medien gleichzeitig nutzen, mit solchen, die das selten tun. Die Dauer-Multitasker waren **schlechter** darin, Unwichtiges auszublenden, und sogar langsamer beim Wechseln zwischen Aufgaben. Genau das, worin sie gut sein wollten.\n\nDein Gehirn kann nicht zwei anspruchsvolle Dinge gleichzeitig tun. Es springt nur hin und her, und jeder Sprung kostet.",
+      "apply": "Arbeite heute 45 Minuten an genau einer Aufgabe: ein Fenster offen, Handy in einem anderen Raum.",
+      "more": "Eyal Ophir, Clifford Nass und Anthony Wagner veröffentlichten die Studie 2009. Nass sagte danach: Multitasker seien \"Fans von Irrelevantem\". Spätere Studien bestätigten die Tendenz, wenn auch nicht alle gleich stark.",
+      "source": "Ophir, Nass & Wagner: Cognitive control in media multitaskers. PNAS, 2009"
+    },
+    "en": {
+      "title": "Multitasking makes you worse at everything",
+      "body": "Music, three tabs, phone on the desk, and work on the side. Many think that's efficient.\n\nStanford researchers compared people who constantly use several media at once with people who rarely do. The heavy multitaskers were **worse** at filtering out irrelevant information, and even slower at switching between tasks. Exactly what they thought they were good at.\n\nYour brain can't do two demanding things at once. It just jumps back and forth, and every jump costs.",
+      "apply": "Work on exactly one task for 45 minutes today: one window open, phone in another room.",
+      "more": "Eyal Ophir, Clifford Nass and Anthony Wagner published the study in 2009. Afterwards Nass said multitaskers are \"suckers for irrelevancy\". Later studies confirmed the trend, though not all as strongly.",
+      "source": "Ophir, Nass & Wagner: Cognitive control in media multitaskers. PNAS, 2009"
+    }
+  },
+  {
+    "id": "schlaf-nach-dem-lernen",
+    "area": "mindset",
+    "sub": "lernen",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Du lernst, während du schläfst",
+      "body": "Wer die Nacht vor einer Prüfung durchlernt, sabotiert sich selbst.\n\nIm Schlaf spielt das Gehirn das Gelernte des Tages noch einmal ab und **verankert** es im Langzeitgedächtnis. Studien zeigen: Wer nach dem Lernen schläft, erinnert sich am nächsten Tag deutlich besser als jemand, der dieselbe Zeit wach bleibt. Besonders der Tiefschlaf festigt Fakten, der REM-Schlaf eher Fähigkeiten und Zusammenhänge.\n\nLernen am Abend, dann schlafen: Das ist kein Faulsein. Das ist die Methode.",
+      "apply": "Wiederhole heute Abend kurz vor dem Schlafen in fünf Minuten das Wichtigste, was du heute gelernt hast.",
+      "more": "Susanne Diekelmann und Jan Born fassten die Forschung 2010 zusammen. Schon ein kurzer Mittagsschlaf kann Gelerntes festigen. Schlafmangel dagegen verschlechtert sowohl das Aufnehmen als auch das Behalten.",
+      "source": "Diekelmann & Born: The memory function of sleep. Nature Reviews Neuroscience, 2010"
+    },
+    "en": {
+      "title": "You learn while you sleep",
+      "body": "Pulling an all-nighter before an exam is self-sabotage.\n\nDuring sleep, the brain replays what you learned that day and **anchors** it in long-term memory. Studies show that people who sleep after learning remember much better the next day than those who stay awake for the same time. Deep sleep mainly locks in facts, REM sleep more skills and connections.\n\nStudy in the evening, then sleep: that's not laziness. That's the method.",
+      "apply": "Tonight, spend five minutes just before bed going over the most important thing you learned today.",
+      "more": "Susanne Diekelmann and Jan Born summarised the research in 2010. Even a short nap can consolidate learning. Sleep deprivation, on the other hand, impairs both taking in and keeping information.",
+      "source": "Diekelmann & Born: The memory function of sleep. Nature Reviews Neuroscience, 2010"
+    }
+  },
+  {
+    "id": "seneca-abendrueckblick",
+    "area": "mindset",
+    "sub": "stoizismus",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Senecas Fragen vor dem Einschlafen",
+      "body": "Jeden Abend, wenn das Licht gelöscht war und seine Frau schwieg, ging Seneca seinen Tag durch. Er stellte sich drei Fragen:\n\n**Welche Schwäche habe ich heute geheilt?** Welchem Fehler habe ich widerstanden? **Worin bin ich besser geworden?**\n\nEr verschwieg sich nichts. Wo er zu hart gesprochen hatte, nahm er sich vor, es morgen besser zu machen. Dann schlief er, wie er schreibt, ruhig und tief. Ein Mann, der sich jeden Abend ehrlich prüft, muss sich vor niemandem verstecken.",
+      "apply": "Stell dir heute Abend vor dem Einschlafen Senecas drei Fragen und beantworte sie ehrlich.",
+      "more": "Seneca übernahm die Übung von seinem Lehrer Sextius. Ganz ähnlich ist das Examen des heiligen Ignatius, ein christlicher Tagesrückblick vor Gott. Beide verbinden Ehrlichkeit mit dem Entschluss, morgen besser zu handeln.",
+      "source": "Seneca: Über den Zorn (De ira), Buch 3, 36"
+    },
+    "en": {
+      "title": "Seneca's questions before sleep",
+      "body": "Every evening, when the light was out and his wife had fallen silent, Seneca went through his day. He asked himself three questions:\n\n**What bad habit have I cured today?** What fault have I resisted? **In what way am I better?**\n\nHe hid nothing from himself. Where he had spoken too harshly, he resolved to do better tomorrow. Then he slept, as he writes, calmly and deeply. A man who examines himself honestly every evening has nothing to hide from anyone.",
+      "apply": "Ask yourself Seneca's three questions tonight before you fall asleep, and answer them honestly.",
+      "more": "Seneca took the practice from his teacher Sextius. The Examen of Saint Ignatius, a Christian review of the day before God, is very similar. Both combine honesty with the resolve to act better tomorrow.",
+      "source": "Seneca: On Anger (De ira), Book 3, 36"
     }
   }
 ]

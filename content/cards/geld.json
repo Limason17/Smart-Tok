@@ -270,14 +270,14 @@
     "de": {
       "title": "Der Millionär von nebenan",
       "body": "Wie sieht ein Millionär aus? Sportwagen, Rolex, Villa? Die Forscher Thomas Stanley und William Danko befragten Tausende US-Millionäre und fanden meist das Gegenteil.\n\nViele fuhren gebrauchte Autos, lebten seit Jahrzehnten im gleichen Haus und gaben deutlich weniger aus, als sie verdienten. Wer reich **aussieht**, ist oft nur gut verdienend und hoch verschuldet. Wer reich **ist**, sieht oft unauffällig aus.\n\nVermögen ist das Geld, das du **nicht** ausgibst.\n\nEchter Wohlstand ist leise. Er entsteht aus Disziplin, nicht aus Show.",
-      "apply": "Frag dich bei deiner nächsten grösseren Anschaffung: Kaufe ich das für mich oder für den Eindruck?",
+      "apply": "Schieb deine nächste grössere Anschaffung eine Woche auf und kauf sie nur, wenn du sie auch ohne Publikum willst.",
       "more": "\"The Millionaire Next Door\" erschien 1996 und wurde ein Bestseller. Eine ihrer Faustregeln: Dein erwartetes Nettovermögen ist dein Alter mal dein Jahreseinkommen geteilt durch 10. Wer deutlich darüber liegt, gehört zu den \"Vermögensaufbauern\", wer deutlich darunter liegt, zu den \"Vermögensverbrauchern\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     },
     "en": {
       "title": "The millionaire next door",
       "body": "What does a millionaire look like? Sports car, Rolex, mansion? Researchers Thomas Stanley and William Danko surveyed thousands of US millionaires and mostly found the opposite.\n\nMany drove used cars, had lived in the same house for decades and spent far less than they earned. People who **look** rich are often just high earners with high debt. People who **are** rich often look unremarkable.\n\nWealth is the money you **don't** spend.\n\nReal wealth is quiet. It comes from discipline, not from show.",
-      "apply": "Before your next big purchase, ask: am I buying this for me or for the impression?",
+      "apply": "Put off your next big purchase for a week and buy it only if you'd want it with no one watching.",
       "more": "\"The Millionaire Next Door\" came out in 1996 and became a bestseller. One of its rules of thumb: your expected net worth is your age times your annual income divided by 10. Those well above it are \"prodigious accumulators of wealth\", those well below are \"under accumulators\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     }
@@ -402,14 +402,14 @@
     "de": {
       "title": "Was es wirklich kostet",
       "body": "Jede Entscheidung hat einen versteckten Preis: das, was du **stattdessen** hättest tun können. Ökonomen nennen das **Opportunitätskosten**.\n\nEin Auto für 40'000 Franken kostet nicht nur 40'000. Es kostet auch das, was dieses Geld in 20 Jahren investiert geworden wäre. Ein Abend vor Netflix kostet nicht nur Zeit, sondern das Buch, das Training oder das Gespräch, das nicht stattfand.\n\nWer so denkt, trifft nicht weniger Entscheidungen, aber bewusstere.",
-      "apply": "Frag dich bei deiner nächsten grösseren Ausgabe: Was wäre die beste Alternative für dieses Geld?",
+      "apply": "Schreib bei deiner nächsten grösseren Ausgabe die beste Alternative für dieses Geld daneben und entscheide erst dann.",
       "more": "Der Begriff geht auf den österreichischen Ökonomen Friedrich von Wieser (1914) zurück. Studien zeigen, dass Menschen Opportunitätskosten oft vergessen, wenn man sie nicht ausdrücklich daran erinnert. Schon der Satz \"Du könntest das Geld auch für etwas anderes ausgeben\" verändert Kaufentscheidungen.",
       "source": "Frederick et al.: Opportunity cost neglect, Journal of Consumer Research (2009)"
     },
     "en": {
       "title": "What it really costs",
       "body": "Every decision has a hidden price: what you could have done **instead**. Economists call it **opportunity cost**.\n\nA 40,000 car doesn't just cost 40,000. It also costs what that money would have become invested over 20 years. An evening of Netflix doesn't just cost time but the book, the workout or the conversation that didn't happen.\n\nThinking this way doesn't mean making fewer decisions, just more deliberate ones.",
-      "apply": "Before your next big purchase, ask: what's the best alternative use of this money?",
+      "apply": "For your next big expense, write down the best alternative use of that money next to it, and only then decide.",
       "more": "The term goes back to Austrian economist Friedrich von Wieser (1914). Studies show people often ignore opportunity costs unless reminded. Simply saying \"you could also spend this money on something else\" changes purchase decisions.",
       "source": "Frederick et al.: Opportunity cost neglect, Journal of Consumer Research (2009)"
     }
@@ -676,6 +676,258 @@
       "apply": "If you're self-employed or want to be: make a simple list of expected income and expenses for the next 12 weeks.",
       "more": "\"Profit is an opinion, cash is a fact\" is a well-known saying among finance chiefs. Profit depends on accounting rules (when revenue and costs are booked); the bank balance doesn't. Good remedies: ask for deposits, short payment terms, invoice immediately.",
       "source": "Standard corporate finance practice"
+    }
+  },
+  {
+    "id": "kunden-halten",
+    "area": "geld",
+    "sub": "business",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Einen Kunden halten bringt mehr als einen gewinnen",
+      "body": "Viele Firmen jagen ständig neue Kunden und vergessen die, die sie schon haben.\n\nFrederick Reichheld von der Beratungsfirma Bain fand: Wenn ein Unternehmen nur **5 % mehr** seiner Kunden hält, steigt der Gewinn je nach Branche um **25 bis 85 %**. Treue Kunden kaufen mehr, sind günstiger zu betreuen und empfehlen dich weiter.\n\nDas gilt auch im Kleinen: Der Kunde, der Kollege, der Freund, den du schon hast, verdient deine beste Arbeit.",
+      "apply": "Melde dich heute bei einem bestehenden Kunden oder Partner, nur um zu fragen, was du besser machen kannst.",
+      "more": "Reichheld und W. Earl Sasser veröffentlichten die Untersuchung 1990 in der Harvard Business Review. Reichheld entwickelte später den Net Promoter Score, der misst, wie wahrscheinlich Kunden eine Firma weiterempfehlen.",
+      "source": "Reichheld & Sasser: Zero defections: quality comes to services. Harvard Business Review, 1990"
+    },
+    "en": {
+      "title": "Keeping a customer beats winning one",
+      "body": "Many companies chase new customers constantly and forget the ones they already have.\n\nFrederick Reichheld of the consulting firm Bain found that if a company keeps just **5% more** of its customers, profits rise by **25 to 85%** depending on the industry. Loyal customers buy more, cost less to serve and recommend you.\n\nIt holds on a small scale too: the customer, colleague or friend you already have deserves your best work.",
+      "apply": "Contact an existing customer or partner today just to ask what you could do better.",
+      "more": "Reichheld and W. Earl Sasser published the research in Harvard Business Review in 1990. Reichheld later developed the Net Promoter Score, which measures how likely customers are to recommend a company.",
+      "source": "Reichheld & Sasser: Zero defections: quality comes to services. Harvard Business Review, 1990"
+    }
+  },
+  {
+    "id": "break-even",
+    "area": "geld",
+    "sub": "business",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Ab wann verdienst du wirklich Geld?",
+      "body": "Du verkaufst T-Shirts für 30 Franken, die dich 12 kosten. Pro Stück verdienst du 18. Aber du zahlst jeden Monat 900 Franken für Miete, Website und Versicherung, egal ob du etwas verkaufst.\n\nDie Rechnung: 900 geteilt durch 18 ergibt **50**. Erst ab dem 51. Shirt pro Monat verdienst du Geld. Das ist dein **Break-even-Punkt**.\n\nWer ihn kennt, weiss, wie viel er verkaufen muss, und merkt sofort, ob eine Idee trägt oder nur Arbeit macht.",
+      "apply": "Rechne für ein Projekt, einen Nebenverdienst oder eine Geschäftsidee heute den Break-even aus: Fixkosten geteilt durch Gewinn pro Stück.",
+      "more": "Der Gewinn pro Stück heisst Deckungsbeitrag. Viele kleine Firmen scheitern, weil sie die Fixkosten unterschätzen. Senkst du sie oder erhöhst du den Preis, sinkt der Break-even, und du bist schneller in der Gewinnzone.",
+      "source": "Grundlagen der Betriebswirtschaftslehre; Kostenrechnung"
+    },
+    "en": {
+      "title": "When do you actually make money?",
+      "body": "You sell T-shirts for 30 that cost you 12. You make 18 per shirt. But you pay 900 a month for rent, website and insurance, whether you sell anything or not.\n\nThe maths: 900 divided by 18 is **50**. Only from the 51st shirt each month do you make money. That's your **break-even point**.\n\nKnow it and you know how much you need to sell, and you see immediately whether an idea carries itself or is just work.",
+      "apply": "Work out the break-even for a project, side hustle or business idea today: fixed costs divided by profit per unit.",
+      "more": "The profit per unit is called the contribution margin. Many small businesses fail because they underestimate fixed costs. Lower them or raise the price and the break-even falls, so you reach profit sooner.",
+      "source": "Basic business economics; cost accounting"
+    }
+  },
+  {
+    "id": "nettovermoegen",
+    "area": "geld",
+    "sub": "finanzen",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Kenne deine wichtigste Zahl",
+      "body": "Lohn, Kontostand, Kreditkartenrechnung: Viele schauen auf diese Zahlen. Die wichtigste übersehen sie: dein **Nettovermögen**.\n\nSo rechnest du: Alles, was du besitzt (Konto, Anlagen, Pensionskasse, 3a, Wert von Auto oder Wohnung) **minus** alles, was du schuldest (Kredite, Hypothek, offene Rechnungen).\n\nDie Zahl kann am Anfang klein oder sogar negativ sein. Egal. Entscheidend ist, dass sie Jahr für Jahr **steigt**. Was du misst, kannst du verbessern.",
+      "apply": "Nimm dir heute 20 Minuten und rechne dein Nettovermögen aus. Trag das Datum ein und wiederhole es in drei Monaten.",
+      "more": "Die Autoren von \"The Millionaire Next Door\" fanden, dass Menschen mit hohem Einkommen oft wenig Vermögen haben, weil sie es ausgeben. Das Nettovermögen zeigt, was wirklich übrig bleibt. Viele Finanzplaner empfehlen, es einmal pro Quartal zu berechnen.",
+      "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
+    },
+    "en": {
+      "title": "Know your most important number",
+      "body": "Salary, account balance, credit card bill: many people watch these numbers. They miss the most important one: your **net worth**.\n\nHere's how: everything you own (accounts, investments, pension, the value of your car or home) **minus** everything you owe (loans, mortgage, unpaid bills).\n\nThe number may be small or even negative at first. Doesn't matter. What matters is that it **rises** year after year. What you measure, you can improve.",
+      "apply": "Take 20 minutes today and work out your net worth. Note the date and repeat in three months.",
+      "more": "The authors of \"The Millionaire Next Door\" found that many high earners have little wealth because they spend it. Net worth shows what's really left. Many financial planners recommend calculating it every quarter.",
+      "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
+    }
+  },
+  {
+    "id": "geschichten-verkaufen",
+    "area": "geld",
+    "sub": "marketing",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Ramsch für 129 Dollar, mit Geschichte für 3'612",
+      "body": "Zwei Journalisten kauften 2009 auf Flohmärkten 100 wertlose Gegenstände, für insgesamt rund **129 Dollar**: eine Plastikfigur, einen Löffel, eine Schneekugel.\n\nDann liessen sie Schriftsteller zu jedem Gegenstand eine kurze, erfundene **Geschichte** schreiben und verkauften alles auf eBay, mit Geschichte statt Beschreibung. Erlös: über **3'600 Dollar**.\n\nMenschen kaufen nicht nur Dinge. Sie kaufen Bedeutung. Wer erzählen kann, verkauft besser.",
+      "apply": "Beschreib das nächste Produkt, das du verkaufst oder präsentierst, mit einer kurzen Geschichte statt mit einer Liste von Merkmalen.",
+      "more": "Das Projekt hiess \"Significant Objects\" und stammte von Rob Walker und Joshua Glenn. Die Käufer wussten, dass die Geschichten erfunden waren. Trotzdem zahlten sie im Schnitt fast das 28-Fache.",
+      "source": "Rob Walker & Joshua Glenn: Significant Objects (2012)"
+    },
+    "en": {
+      "title": "Junk for $129, with stories for $3,612",
+      "body": "In 2009 two journalists bought 100 worthless items at flea markets for about **$129** in total: a plastic figure, a spoon, a snow globe.\n\nThen they had writers create a short, made-up **story** for each item and sold everything on eBay, with the story instead of a description. Revenue: more than **$3,600**.\n\nPeople don't just buy things. They buy meaning. If you can tell a story, you sell better.",
+      "apply": "Describe the next product you sell or present with a short story instead of a list of features.",
+      "more": "The project was called \"Significant Objects\" and was run by Rob Walker and Joshua Glenn. Buyers knew the stories were fiction. Still they paid almost 28 times as much on average.",
+      "source": "Rob Walker & Joshua Glenn: Significant Objects (2012)"
+    }
+  },
+  {
+    "id": "lockvogel-effekt",
+    "area": "geld",
+    "sub": "marketing",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Das Angebot, das niemand kaufen soll",
+      "body": "Die Zeitschrift The Economist bot drei Abos an: **Online** für 59 Dollar, **Print** für 125 Dollar, **Print und Online** für 125 Dollar.\n\nNiemand wählt nur Print. Wozu ist es da? Der Verhaltensökonom Dan Ariely testete es mit Studenten. Mit allen drei Optionen wählten **84 %** das teure Kombi-Abo. Ohne die Print-Option wählten **68 %** das günstige Online-Abo.\n\nDas mittlere Angebot ist ein **Lockvogel**: Es soll nicht verkauft werden. Es lässt das teure wie ein Schnäppchen aussehen.",
+      "apply": "Achte beim nächsten Kauf mit drei Preisstufen darauf: Welche Option ist nur da, damit eine andere gut aussieht?",
+      "more": "Fachleute nennen das den Ködereffekt (Decoy-Effekt). Er wird bei Kinokarten, Kaffeegrössen und Software-Abos eingesetzt. Wer ihn kennt, kann ihn bei eigenen Angeboten nutzen und sich als Käufer davor schützen.",
+      "source": "Dan Ariely: Denken hilft zwar, nützt aber nichts (Predictably Irrational, 2008), Kapitel 1"
+    },
+    "en": {
+      "title": "The offer nobody is meant to buy",
+      "body": "The Economist offered three subscriptions: **web** for $59, **print** for $125, **print and web** for $125.\n\nNobody chooses print alone. So why is it there? Behavioural economist Dan Ariely tested it with students. With all three options, **84%** chose the expensive combo. Without the print option, **68%** chose the cheap web subscription.\n\nThe middle offer is a **decoy**: it's not meant to sell. It makes the expensive one look like a bargain.",
+      "apply": "Next time you buy something with three price tiers, ask: which option is only there to make another look good?",
+      "more": "Experts call this the decoy effect. It's used for cinema tickets, coffee sizes and software subscriptions. Know it and you can use it in your own offers and protect yourself as a buyer.",
+      "source": "Dan Ariely: Predictably Irrational (2008), Chapter 1"
+    }
+  },
+  {
+    "id": "empfehlungen-verkaufen",
+    "area": "geld",
+    "sub": "sales",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Die stärkste Werbung ist eine Empfehlung",
+      "body": "Werbung im Fernsehen, auf Instagram, auf Plakaten: Wir sehen täglich Hunderte Anzeigen und glauben den meisten nicht.\n\nIn einer weltweiten Umfrage von Nielsen mit über **30'000 Menschen** vertrauten **83 %** Empfehlungen von Menschen, die sie kennen. Das war die glaubwürdigste aller Werbeformen, vor jeder bezahlten Anzeige.\n\nDarum ist dein bester Verkäufer ein zufriedener Kunde. Und der einfachste Weg zu Empfehlungen ist, aussergewöhnlich gute Arbeit zu machen und dann **danach zu fragen**.",
+      "apply": "Frag heute einen zufriedenen Kunden, Arbeitgeber oder Kollegen, ob er dich weiterempfehlen würde, und wem.",
+      "more": "Die Studie heisst \"Global Trust in Advertising\" und erschien 2015. Online-Bewertungen anderer Kunden lagen bei 66 %. Viele Verkäufer fragen nie nach Empfehlungen, obwohl die meisten zufriedenen Kunden gern helfen würden.",
+      "source": "Nielsen: Global Trust in Advertising Report, 2015"
+    },
+    "en": {
+      "title": "The strongest advertising is a recommendation",
+      "body": "TV ads, Instagram, billboards: we see hundreds of ads every day and believe most of them not at all.\n\nIn a global Nielsen survey of more than **30,000 people**, **83%** trusted recommendations from people they know. That was the most credible form of advertising, ahead of every paid ad.\n\nSo your best salesperson is a satisfied customer. And the easiest way to get recommendations is to do exceptional work and then **ask for them**.",
+      "apply": "Ask a satisfied customer, employer or colleague today whether they'd recommend you, and to whom.",
+      "more": "The study is called \"Global Trust in Advertising\" and came out in 2015. Online reviews by other customers were at 66%. Many salespeople never ask for referrals, even though most satisfied customers would gladly help.",
+      "source": "Nielsen: Global Trust in Advertising Report, 2015"
+    }
+  },
+  {
+    "id": "48-stunden-regel",
+    "area": "geld",
+    "sub": "sparen",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Die 48-Stunden-Regel gegen Impulskäufe",
+      "body": "Du siehst etwas, willst es sofort und hast es mit zwei Klicks gekauft. Eine Woche später liegt es in der Ecke.\n\nImpulskäufe leben vom Moment. Darum hilft eine einfache Regel: Alles, was nicht geplant ist und mehr als einen bestimmten Betrag kostet, zum Beispiel 50 Franken, kommt auf eine Liste. Du kaufst es frühestens nach **48 Stunden**.\n\nDie meisten Wünsche sind dann verschwunden. Was bleibt, war wirklich gewollt. Das ist keine Askese. Es ist Selbstbeherrschung mit dem Portemonnaie.",
+      "apply": "Leg heute eine Wunschliste an und setz dir eine Grenze, ab der jeder spontane Kauf 48 Stunden warten muss.",
+      "more": "Online-Shops arbeiten mit Countdown-Uhren und \"nur noch 2 auf Lager\", damit du keine Zeit zum Nachdenken hast. Wartezeit bricht genau diesen Druck. Viele Finanzberater empfehlen bei grossen Käufen sogar 30 Tage.",
+      "source": "Gängige Empfehlung von Budgetberatungen; Thaler & Sunstein: Nudge (2008)"
+    },
+    "en": {
+      "title": "The 48-hour rule against impulse buys",
+      "body": "You see something, want it right away and buy it in two clicks. A week later it's lying in a corner.\n\nImpulse buys live off the moment. So a simple rule helps: anything unplanned costing more than a set amount, say 50, goes on a list. You buy it **48 hours** later at the earliest.\n\nMost wants have vanished by then. What's left was truly wanted. That's not asceticism. It's self-control with your wallet.",
+      "apply": "Start a wish list today and set a limit above which every spontaneous purchase has to wait 48 hours.",
+      "more": "Online shops use countdown timers and \"only 2 left in stock\" so you don't have time to think. Waiting breaks exactly that pressure. Many financial advisers even suggest 30 days for big purchases.",
+      "source": "Common budgeting advice; Thaler & Sunstein: Nudge (2008)"
+    }
+  },
+  {
+    "id": "grosse-posten-zuerst",
+    "area": "geld",
+    "sub": "sparen",
+    "style": "tipp",
+    "level": 2,
+    "de": {
+      "title": "Spar zuerst bei den grossen Posten",
+      "body": "Viele Spartipps drehen sich um den Kaffee unterwegs. Der macht im Jahr vielleicht ein paar Hundert Franken aus. Das ist nicht nichts. Aber die grossen Hebel liegen woanders.\n\nIn der Schweiz geben Haushalte laut Bundesamt für Statistik vom Bruttoeinkommen am meisten für **Wohnen und Energie** aus, dahinter folgen Verkehr und Essen. Wer bei der Miete, beim Auto oder bei Versicherungen klug entscheidet, spart oft mehr als mit hundert kleinen Verzichten.\n\nDenk zuerst über die drei grössten Ausgaben nach. Dann über den Kaffee.",
+      "apply": "Liste heute deine drei grössten monatlichen Ausgaben auf und prüfe für jede, ob es eine günstigere, gleich gute Lösung gibt.",
+      "more": "Bei Versicherungen, Handyabos und Krankenkassen-Franchisen lohnt sich ein jährlicher Vergleich. Beim Auto zählen nicht nur der Kaufpreis, sondern auch Wertverlust, Versicherung, Unterhalt und Parkplatz.",
+      "source": "Bundesamt für Statistik: Haushaltsbudgeterhebung (HABE)"
+    },
+    "en": {
+      "title": "Save on the big items first",
+      "body": "Many saving tips focus on your takeaway coffee. That might add up to a few hundred a year. Not nothing. But the big levers are elsewhere.\n\nIn most households the largest share of income goes to **housing and energy**, followed by transport and food. Smart choices on rent, the car or insurance often save more than a hundred small sacrifices.\n\nThink about your three biggest expenses first. Then about the coffee.",
+      "apply": "List your three biggest monthly expenses today and check each for a cheaper, equally good option.",
+      "more": "Insurance, phone plans and health insurance deductibles are worth comparing every year. With a car, count not only the purchase price but also depreciation, insurance, maintenance and parking.",
+      "source": "Swiss Federal Statistical Office: Household Budget Survey (HBS)"
+    }
+  },
+  {
+    "id": "gruender-alter",
+    "area": "geld",
+    "sub": "unternehmertum",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Erfolgreiche Gründer sind im Schnitt 45",
+      "body": "Man stellt sich den typischen Gründer als 22-Jährigen im Kapuzenpulli vor, der das Studium abgebrochen hat.\n\nForscher werteten Daten von **2,7 Millionen** Firmengründern in den USA aus. Das Durchschnittsalter bei der Gründung der am schnellsten wachsenden Firmen lag bei **45 Jahren**. Ein 50-Jähriger hatte fast doppelt so hohe Chancen auf einen grossen Erfolg wie ein 30-Jähriger.\n\nErfahrung, Netzwerk und Branchenwissen zählen. Es ist nie zu spät, etwas aufzubauen.",
+      "apply": "Schreib auf, welches Wissen aus deinem Beruf oder Leben eine Firma oder ein Nebenprojekt tragen könnte.",
+      "more": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim und Javier Miranda veröffentlichten die Studie 2020. Besonders erfolgreich waren Gründer mit mehrjähriger Erfahrung in derselben Branche.",
+      "source": "Azoulay, Jones, Kim & Miranda: Age and high-growth entrepreneurship. American Economic Review: Insights, 2020"
+    },
+    "en": {
+      "title": "Successful founders are 45 on average",
+      "body": "We picture the typical founder as a 22-year-old college dropout in a hoodie.\n\nResearchers analysed data on **2.7 million** company founders in the US. The average age at founding of the fastest-growing companies was **45**. A 50-year-old was almost twice as likely to build a big success as a 30-year-old.\n\nExperience, network and industry knowledge count. It's never too late to build something.",
+      "apply": "Write down what knowledge from your job or life could carry a company or side project.",
+      "more": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim and Javier Miranda published the study in 2020. Founders with several years of experience in the same industry were especially successful.",
+      "source": "Azoulay, Jones, Kim & Miranda: Age and high-growth entrepreneurship. American Economic Review: Insights, 2020"
+    }
+  },
+  {
+    "id": "nebenbei-gruenden",
+    "area": "geld",
+    "sub": "unternehmertum",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Gründe nebenbei, bevor du kündigst",
+      "body": "Alles auf eine Karte setzen, Job kündigen, Brücken abbrechen: Das klingt mutig. Die Daten sprechen für einen anderen Weg.\n\nZwei Forscher untersuchten Tausende Gründer in den USA. Wer seine Firma zuerst **neben dem Job** aufbaute und erst später ganz einstieg, hatte ein um rund **33 % geringeres Risiko**, zu scheitern, als wer sofort alles hinwarf.\n\nMut heisst nicht, unvernünftig zu sein. Teste deine Idee, während dein Lohn die Miete zahlt. Spring, wenn der Boden trägt.",
+      "apply": "Plane diese Woche zwei feste Abende, an denen du an deinem Nebenprojekt arbeitest.",
+      "more": "Joseph Raffiee und Jie Feng veröffentlichten die Studie 2014. Auch bekannte Firmen begannen nebenbei: Steve Wozniak arbeitete noch bei Hewlett-Packard, als er den ersten Apple-Computer baute.",
+      "source": "Raffiee & Feng: Should I quit my day job? Academy of Management Journal, 2014"
+    },
+    "en": {
+      "title": "Start on the side before you quit",
+      "body": "Going all in, quitting your job, burning bridges: it sounds brave. The data point to another path.\n\nTwo researchers studied thousands of founders in the US. Those who first built their company **alongside their job** and went full-time later had about a **33% lower risk** of failing than those who quit right away.\n\nCourage doesn't mean being reckless. Test your idea while your salary pays the rent. Jump when the ground holds.",
+      "apply": "Plan two fixed evenings this week to work on your side project.",
+      "more": "Joseph Raffiee and Jie Feng published the study in 2014. Well-known companies started on the side too: Steve Wozniak was still working at Hewlett-Packard when he built the first Apple computer.",
+      "source": "Raffiee & Feng: Should I quit my day job? Academy of Management Journal, 2014"
+    }
+  },
+  {
+    "id": "geld-und-glueck",
+    "area": "geld",
+    "sub": "vermoegen",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Macht Geld glücklich? Die ehrliche Antwort",
+      "body": "Lange hiess es: Ab rund 75'000 Dollar Jahreseinkommen macht mehr Geld nicht glücklicher. Neuere Daten zeigen ein genaueres Bild.\n\nIn einer Studie mit über **33'000** berufstätigen Amerikanern stieg das Wohlbefinden mit dem Einkommen **weiter an**, auch über 75'000 Dollar hinaus. Nur bei den unglücklichsten Menschen flachte es ab: Ihnen half mehr Geld ab einem Punkt nicht mehr.\n\nGeld kann vieles leichter machen. Aber es repariert keine Beziehungen, keinen fehlenden Sinn und keinen Charakter.",
+      "apply": "Schreib auf, wofür du mehr Geld willst. Prüfe dann: Löst Geld dieses Problem wirklich, oder nur scheinbar?",
+      "more": "Matthew Killingsworth und Daniel Kahneman, die zuvor zu unterschiedlichen Ergebnissen gekommen waren, werteten die Daten 2023 gemeinsam neu aus. Sie fanden: Für die meisten steigt das Glück mit dem Einkommen, für eine unglückliche Minderheit stösst es an eine Grenze.",
+      "source": "Killingsworth, Kahneman & Mellers: Income and emotional well-being: A conflict resolved. PNAS, 2023"
+    },
+    "en": {
+      "title": "Does money make you happy? The honest answer",
+      "body": "For a long time the line was: beyond about $75,000 a year, more money doesn't make you happier. Newer data show a sharper picture.\n\nIn a study of more than **33,000** working Americans, well-being **kept rising** with income, including beyond $75,000. Only among the unhappiest people did it level off: past a point, more money didn't help them.\n\nMoney can make many things easier. But it doesn't fix relationships, a lack of purpose or character.",
+      "apply": "Write down what you want more money for. Then check: does money really solve that problem, or only seem to?",
+      "more": "Matthew Killingsworth and Daniel Kahneman, who had earlier reached different results, re-analysed the data together in 2023. They found that for most people happiness rises with income, while for an unhappy minority it hits a ceiling.",
+      "source": "Killingsworth, Kahneman & Mellers: Income and emotional well-being: A conflict resolved. PNAS, 2023"
+    }
+  },
+  {
+    "id": "genug",
+    "area": "geld",
+    "sub": "vermoegen",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Was Joseph Heller hatte und der Milliardär nicht",
+      "body": "Die Schriftsteller **Kurt Vonnegut** und **Joseph Heller** waren auf einer Party bei einem Milliardär auf Long Island. Vonnegut fragte: \"Joe, wie fühlt es sich an, dass unser Gastgeber gestern vielleicht mehr verdient hat als dein Buch in seiner ganzen Geschichte?\"\n\nHeller antwortete: \"Ich habe etwas, das er nie haben wird.\" \"Was denn?\" \"Das Wissen, dass ich **genug** habe.\"\n\nWer nie weiss, wann es genug ist, wird nie reich, egal wie viel er besitzt. Er bleibt immer hungrig, immer im Vergleich.",
+      "apply": "Schreib auf, was für dich \"genug\" bedeutet: welches Einkommen, welches Vermögen, welcher Lebensstil. Ohne diese Zahl gibt es kein Ziel.",
+      "more": "Vonnegut erzählte die Geschichte in einem kurzen Gedicht, das 2005 im Magazin The New Yorker erschien. John Bogle, Gründer der Fondsgesellschaft Vanguard, machte sie zum Ausgangspunkt seines Buches \"Enough\".",
+      "source": "Kurt Vonnegut: Joe Heller. The New Yorker, 2005; John C. Bogle: Enough (2009)"
+    },
+    "en": {
+      "title": "What Joseph Heller had that the billionaire didn't",
+      "body": "Writers **Kurt Vonnegut** and **Joseph Heller** were at a party given by a billionaire on Long Island. Vonnegut asked: \"Joe, how does it feel that our host may have made more money yesterday than your novel has earned in its entire history?\"\n\nHeller replied: \"I've got something he can never have.\" \"What on earth could that be?\" \"The knowledge that I've got **enough**.\"\n\nWhoever never knows when it's enough will never be rich, however much he owns. He stays hungry, always comparing.",
+      "apply": "Write down what \"enough\" means for you: what income, what wealth, what lifestyle. Without that number there's no goal.",
+      "more": "Vonnegut told the story in a short poem published in The New Yorker in 2005. John Bogle, founder of the fund company Vanguard, made it the starting point of his book \"Enough\".",
+      "source": "Kurt Vonnegut: Joe Heller. The New Yorker, 2005; John C. Bogle: Enough (2009)"
     }
   }
 ]

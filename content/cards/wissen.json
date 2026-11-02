@@ -1,0 +1,842 @@
+[
+  {
+    "id": "himmel-blau",
+    "area": "wissen",
+    "sub": "allgemein",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Warum der Himmel blau ist",
+      "body": "Sonnenlicht sieht weiss aus, enthält aber alle Farben des Regenbogens. Wenn es durch die Luft fällt, stösst es auf winzige Teilchen, vor allem Stickstoff und Sauerstoff.\n\nDiese Teilchen **streuen** kurzwelliges, blaues Licht viel stärker als langwelliges, rotes. Das blaue Licht wird kreuz und quer über den ganzen Himmel verteilt und kommt aus allen Richtungen zu deinem Auge.\n\nBeim Sonnenuntergang muss das Licht einen viel längeren Weg durch die Luft nehmen. Das Blau ist dann schon weggestreut, und übrig bleiben **Orange und Rot**.",
+      "apply": "Erklär heute jemandem, warum der Himmel blau und der Sonnenuntergang rot ist. Wer es erklären kann, hat es verstanden.",
+      "more": "Der Effekt heisst Rayleigh-Streuung, nach dem britischen Physiker Lord Rayleigh, der ihn 1871 beschrieb. Dass der Himmel nicht violett ist, obwohl Violett noch stärker gestreut wird, liegt daran, dass das Sonnenlicht weniger Violett enthält und unsere Augen dafür weniger empfindlich sind.",
+      "source": "Lord Rayleigh: On the light from the sky. Philosophical Magazine, 1871"
+    },
+    "en": {
+      "title": "Why the sky is blue",
+      "body": "Sunlight looks white but contains every colour of the rainbow. As it passes through the air, it hits tiny particles, mainly nitrogen and oxygen.\n\nThese particles **scatter** short-wave blue light much more strongly than long-wave red light. The blue light gets spread all over the sky and reaches your eye from every direction.\n\nAt sunset, light has to travel a much longer path through the air. By then the blue has been scattered away, leaving **orange and red**.",
+      "apply": "Explain to someone today why the sky is blue and the sunset is red. If you can explain it, you've understood it.",
+      "more": "The effect is called Rayleigh scattering, after British physicist Lord Rayleigh, who described it in 1871. The sky isn't violet, even though violet scatters even more, because sunlight contains less violet and our eyes are less sensitive to it.",
+      "source": "Lord Rayleigh: On the light from the sky. Philosophical Magazine, 1871"
+    }
+  },
+  {
+    "id": "licht-acht-minuten",
+    "area": "wissen",
+    "sub": "allgemein",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Die Sonne, die du siehst, ist 8 Minuten alt",
+      "body": "Licht ist das Schnellste im Universum: rund **300'000 Kilometer pro Sekunde**. In einer Sekunde könnte es siebenmal um die Erde.\n\nTrotzdem braucht es von der Sonne bis zu uns etwa **8 Minuten und 20 Sekunden**. Wenn du die Sonne anschaust (bitte nicht direkt), siehst du sie also so, wie sie vor über acht Minuten war.\n\nBei den Sternen ist es noch extremer: Manches Sternenlicht ist Tausende Jahre unterwegs. Der Nachthimmel ist ein Blick in die Vergangenheit.",
+      "apply": "Schau heute Abend in den Himmel und such den hellsten Stern. Sein Licht ist älter als du.",
+      "more": "Die Entfernung Erde–Sonne beträgt im Mittel rund 150 Millionen Kilometer. Der nächste Stern nach der Sonne, Proxima Centauri, ist etwa 4,2 Lichtjahre entfernt. Sein Licht ist also über vier Jahre zu uns unterwegs.",
+      "source": "NASA; Internationale Astronomische Union"
+    },
+    "en": {
+      "title": "The sun you see is 8 minutes old",
+      "body": "Light is the fastest thing in the universe: about **300,000 kilometres per second**. In one second it could circle the earth seven times.\n\nStill, it takes about **8 minutes and 20 seconds** to get from the sun to us. When you look at the sun (please don't stare), you see it as it was over eight minutes ago.\n\nWith stars it's even more extreme: some starlight has been travelling for thousands of years. The night sky is a look into the past.",
+      "apply": "Look up at the sky tonight and find the brightest star. Its light is older than you.",
+      "more": "The average distance from earth to sun is about 150 million kilometres. The nearest star after the sun, Proxima Centauri, is about 4.2 light years away, so its light takes over four years to reach us.",
+      "source": "NASA; International Astronomical Union"
+    }
+  },
+  {
+    "id": "37-billionen-zellen",
+    "area": "wissen",
+    "sub": "allgemein",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Du bestehst aus rund 37 Billionen Zellen",
+      "body": "Wie viele Zellen hat ein Mensch? Lange gab es nur grobe Schätzungen, von Milliarden bis Billiarden.\n\n2013 rechneten Forscher es Organ für Organ durch und kamen auf etwa **37 Billionen**, also 37'000 Milliarden. Den grössten Teil machen die **roten Blutkörperchen** aus. Und jeden Tag ersetzt dein Körper Hunderte Milliarden Zellen.\n\nDu bist nicht einfach da. Du wirst jeden Tag neu gebaut.",
+      "apply": "Behandle deinen Körper heute wie eine Baustelle, die jeden Tag weiterläuft: Schlaf, Bewegung und gutes Essen sind das Baumaterial.",
+      "more": "Eva Bianconi und Kollegen aus Italien kamen auf 3,72 mal 10 hoch 13 Zellen. Dazu kommen ungefähr gleich viele Bakterien, vor allem im Darm. Eine Studie von 2021 schätzte, dass der Körper täglich rund 330 Milliarden Zellen ersetzt.",
+      "source": "Bianconi et al.: An estimation of the number of cells in the human body. Annals of Human Biology, 2013; Sender & Milo, Nature Medicine, 2021"
+    },
+    "en": {
+      "title": "You're made of about 37 trillion cells",
+      "body": "How many cells does a human have? For a long time there were only rough guesses, from billions to quadrillions.\n\nIn 2013 researchers calculated it organ by organ and arrived at about **37 trillion**. Most of them are **red blood cells**. And every day your body replaces hundreds of billions of cells.\n\nYou don't just exist. You're being rebuilt every day.",
+      "apply": "Treat your body today like a building site that never stops: sleep, movement and good food are the materials.",
+      "more": "Eva Bianconi and colleagues in Italy arrived at 3.72 × 10^13 cells. On top come roughly as many bacteria, mainly in the gut. A 2021 study estimated the body replaces about 330 billion cells a day.",
+      "source": "Bianconi et al.: An estimation of the number of cells in the human body. Annals of Human Biology, 2013; Sender & Milo, Nature Medicine, 2021"
+    }
+  },
+  {
+    "id": "meeresboden-unbekannt",
+    "area": "wissen",
+    "sub": "allgemein",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Wir kennen den Mond besser als den Meeresboden",
+      "body": "Rund **71 %** der Erdoberfläche sind Wasser. Doch wie der Boden darunter aussieht, wissen wir erstaunlich schlecht.\n\nDas internationale Projekt Seabed 2030 will bis 2030 den ganzen Meeresboden genau kartieren. Stand heute ist erst rund **ein Viertel** in hoher Auflösung vermessen. Die Oberfläche von Mond und Mars ist dagegen fast vollständig kartiert.\n\nAuf unserem eigenen Planeten gibt es noch riesige weisse Flecken. Die Zeit der Entdecker ist nicht vorbei.",
+      "apply": "Such dir heute ein Thema, über das du fast nichts weisst, und lies zehn Minuten darüber.",
+      "more": "Satelliten können den Meeresboden nur grob abschätzen, weil Wasser Radarwellen schluckt. Für genaue Karten braucht es Schiffe mit Echolot, und die Meere sind riesig. Viele Tiefseearten sind noch nicht beschrieben.",
+      "source": "The Nippon Foundation-GEBCO Seabed 2030 Project; NOAA"
+    },
+    "en": {
+      "title": "We know the moon better than the seafloor",
+      "body": "About **71%** of the earth's surface is water. Yet we know surprisingly little about what the floor beneath it looks like.\n\nThe international Seabed 2030 project aims to map the entire seafloor in detail by 2030. So far only about **a quarter** has been mapped at high resolution. The surfaces of the moon and Mars, by contrast, are almost fully mapped.\n\nOur own planet still has huge blank spots. The age of explorers isn't over.",
+      "apply": "Pick a topic you know almost nothing about and read about it for ten minutes today.",
+      "more": "Satellites can only roughly estimate the seafloor, because water absorbs radar waves. Detailed maps need ships with sonar, and the oceans are vast. Many deep-sea species have not yet been described.",
+      "source": "The Nippon Foundation-GEBCO Seabed 2030 Project; NOAA"
+    }
+  },
+  {
+    "id": "schaltjahr-regel",
+    "area": "wissen",
+    "sub": "allgemein",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Warum 1900 kein Schaltjahr war",
+      "body": "Ein Jahr dauert nicht 365 Tage, sondern rund **365,2422**. Darum gibt es alle vier Jahre einen 29. Februar. Doch das ist leicht zu viel.\n\nDarum gilt seit dem **Gregorianischen Kalender von 1582**: Jahrhundertjahre sind keine Schaltjahre, ausser sie sind durch 400 teilbar. 1900 war also kein Schaltjahr, 2000 schon.\n\nDer alte Julianische Kalender hatte sich bis 1582 um zehn Tage verschoben. Papst Gregor XIII. strich sie einfach: Auf den 4. Oktober folgte direkt der 15. Oktober.",
+      "apply": "Rechne aus, ob 2100 ein Schaltjahr sein wird. Die Antwort steht in der Regel oben.",
+      "more": "Katholische Gebiete übernahmen den Kalender schnell, protestantische zögerten. In der Schweiz galten über zwei Jahrhunderte zwei Kalender nebeneinander, und einige Gemeinden in Graubünden stellten erst zu Beginn des 19. Jahrhunderts um.",
+      "source": "Päpstliche Bulle Inter gravissimas (1582)"
+    },
+    "en": {
+      "title": "Why 1900 wasn't a leap year",
+      "body": "A year isn't 365 days long but about **365.2422**. That's why there's a 29 February every four years. But that's slightly too much.\n\nSo since the **Gregorian calendar of 1582**, century years are not leap years unless they're divisible by 400. 1900 wasn't a leap year, 2000 was.\n\nBy 1582 the old Julian calendar had drifted by ten days. Pope Gregory XIII simply deleted them: 4 October was followed directly by 15 October.",
+      "apply": "Work out whether 2100 will be a leap year. The answer is in the rule above.",
+      "more": "Catholic regions adopted the calendar quickly, Protestant ones hesitated. Britain only switched in 1752. In Switzerland, two calendars existed side by side for over two centuries, and some communities in Graubünden switched only in the early 19th century.",
+      "source": "Papal bull Inter gravissimas (1582)"
+    }
+  },
+  {
+    "id": "gewaltenteilung",
+    "area": "wissen",
+    "sub": "politik",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Warum Macht geteilt werden muss",
+      "body": "Wer alle Macht hat, missbraucht sie früher oder später. Das wusste der französische Philosoph **Montesquieu**, als er 1748 \"Vom Geist der Gesetze\" schrieb.\n\nSeine Lösung: Teile die Macht in drei. Die **Legislative** macht die Gesetze (Parlament). Die **Exekutive** führt sie aus (Regierung). Die **Judikative** urteilt darüber (Gerichte). Jede Gewalt kontrolliert die anderen.\n\nFast jede Demokratie der Welt ist nach diesem Bauplan gebaut. Wo eine Gewalt die anderen schluckt, beginnt die Diktatur.",
+      "apply": "Finde heraus, wer in deinem Land oder Kanton die drei Gewalten verkörpert, und wie sie sich gegenseitig kontrollieren.",
+      "more": "Montesquieu stützte sich auf John Locke und auf seine Beobachtung der englischen Verfassung. Die Gründerväter der USA übernahmen seine Ideen direkt. Die Schweiz kennt zusätzlich eine starke Kontrolle durch das Volk über Initiativen und Referenden.",
+      "source": "Montesquieu: Vom Geist der Gesetze (1748)"
+    },
+    "en": {
+      "title": "Why power has to be divided",
+      "body": "Whoever holds all the power will sooner or later abuse it. French philosopher **Montesquieu** knew this when he wrote \"The Spirit of the Laws\" in 1748.\n\nHis solution: split power three ways. The **legislature** makes the laws (parliament). The **executive** carries them out (government). The **judiciary** rules on them (courts). Each branch checks the others.\n\nAlmost every democracy in the world follows this blueprint. Where one branch swallows the others, dictatorship begins.",
+      "apply": "Find out who represents the three branches in your country, and how they check each other.",
+      "more": "Montesquieu drew on John Locke and his observations of the English constitution. The founders of the United States adopted his ideas directly. Switzerland adds strong control by the people through initiatives and referendums.",
+      "source": "Montesquieu: The Spirit of the Laws (1748)"
+    }
+  },
+  {
+    "id": "direkte-demokratie-schweiz",
+    "area": "wissen",
+    "sub": "politik",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "100'000 Unterschriften verändern die Verfassung",
+      "body": "In fast keinem Land haben Bürger so viel direkte Macht wie in der Schweiz.\n\nMit einer **Volksinitiative** können sie eine Änderung der Bundesverfassung verlangen: **100'000 Unterschriften** in 18 Monaten, dann stimmt das ganze Land ab. Angenommen ist sie nur mit der Mehrheit des Volkes **und** der Kantone.\n\nMit einem **Referendum** können sie ein neues Gesetz des Parlaments stoppen: 50'000 Unterschriften in 100 Tagen genügen für eine Abstimmung.",
+      "apply": "Schau nach, worüber als Nächstes abgestimmt wird, und bilde dir zu einer Vorlage eine begründete Meinung.",
+      "more": "Die Volksinitiative auf Bundesebene gibt es seit 1891. Seitdem wurden über 200 Initiativen zur Abstimmung gebracht, angenommen wurde nur etwa jede zehnte. Viele wirken trotzdem, weil das Parlament einen Gegenvorschlag ausarbeitet.",
+      "source": "Bundesverfassung der Schweizerischen Eidgenossenschaft, Art. 139 und 141; Bundeskanzlei"
+    },
+    "en": {
+      "title": "100,000 signatures can change the constitution",
+      "body": "In almost no other country do citizens have as much direct power as in Switzerland.\n\nWith a **popular initiative** they can demand a change to the federal constitution: **100,000 signatures** in 18 months, then the whole country votes. It passes only with a majority of the people **and** of the cantons.\n\nWith a **referendum** they can stop a new law passed by parliament: 50,000 signatures in 100 days are enough to force a vote.",
+      "apply": "Look up what your country votes on next, or what your representatives decide, and form a reasoned opinion on one issue.",
+      "more": "The federal popular initiative has existed since 1891. Since then more than 200 initiatives have gone to a vote, and only about one in ten passed. Many still have an effect, because parliament drafts a counter-proposal.",
+      "source": "Federal Constitution of the Swiss Confederation, Art. 139 and 141; Federal Chancellery"
+    }
+  },
+  {
+    "id": "eu-wer-entscheidet",
+    "area": "wissen",
+    "sub": "politik",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Wer in der EU eigentlich entscheidet",
+      "body": "Die Europäische Union hat **27 Mitgliedstaaten** und mehrere Organe, die oft verwechselt werden.\n\nDie **Kommission** schlägt Gesetze vor und wacht über ihre Einhaltung. Das **Europäische Parlament**, direkt von den Bürgern gewählt, und der **Rat der EU**, in dem die Minister der Mitgliedstaaten sitzen, beschliessen die Gesetze gemeinsam. Der **Europäische Rat**, die Staats- und Regierungschefs, gibt die grosse Richtung vor.\n\nWer die EU versteht, versteht auch, warum Entscheidungen oft lange dauern: Viele müssen zustimmen.",
+      "apply": "Lies eine aktuelle Nachricht über die EU und finde heraus, welches der vier Organe gerade handelt.",
+      "more": "Daneben gibt es den Europäischen Gerichtshof und die Europäische Zentralbank. Die Schweiz ist nicht Mitglied, aber über bilaterale Verträge eng mit der EU verbunden, etwa beim freien Personenverkehr und beim Binnenmarkt.",
+      "source": "Vertrag über die Europäische Union (Vertrag von Lissabon, 2007)"
+    },
+    "en": {
+      "title": "Who actually decides in the EU",
+      "body": "The European Union has **27 member states** and several bodies that people often mix up.\n\nThe **Commission** proposes laws and makes sure they're followed. The **European Parliament**, elected directly by citizens, and the **Council of the EU**, where ministers of the member states sit, pass laws together. The **European Council**, the heads of state and government, sets the overall direction.\n\nUnderstand the EU and you understand why decisions often take long: many have to agree.",
+      "apply": "Read a current news item about the EU and work out which of the four bodies is acting.",
+      "more": "There's also the Court of Justice and the European Central Bank. Switzerland isn't a member but is closely tied to the EU through bilateral agreements, for example on free movement of people and the single market.",
+      "source": "Treaty on European Union (Treaty of Lisbon, 2007)"
+    }
+  },
+  {
+    "id": "links-und-rechts",
+    "area": "wissen",
+    "sub": "politik",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Warum es links und rechts heisst",
+      "body": "Im Sommer 1789, mitten in der Französischen Revolution, stritt die Nationalversammlung in Paris darüber, wie viel Macht der König behalten soll.\n\nDie Anhänger von König und Tradition setzten sich auf die **rechte** Seite des Saals, die Befürworter radikaler Veränderung auf die **linke**. Aus der Sitzordnung wurden Begriffe, die bis heute die Politik der ganzen Welt prägen.\n\nIm Kern ging es schon damals um zwei Fragen: Wie viel soll bewahrt werden? Und wie viel soll sich ändern?",
+      "apply": "Nimm ein politisches Thema, bei dem du eine feste Meinung hast, und formuliere das beste Argument der anderen Seite.",
+      "more": "Was als links und rechts gilt, hat sich seither stark verschoben und unterscheidet sich von Land zu Land. Viele Politikwissenschaftler arbeiten heute mit mindestens zwei Achsen, etwa wirtschaftlich (Staat oder Markt) und gesellschaftlich (liberal oder konservativ).",
+      "source": "Marcel Gauchet: La droite et la gauche (1992)"
+    },
+    "en": {
+      "title": "Why we say left and right",
+      "body": "In the summer of 1789, in the middle of the French Revolution, the National Assembly in Paris argued over how much power the king should keep.\n\nSupporters of the king and tradition sat on the **right** side of the hall, advocates of radical change on the **left**. The seating plan became terms that still shape politics around the world.\n\nAt the core, it was already about two questions: how much should be preserved? And how much should change?",
+      "apply": "Take a political issue you feel strongly about and phrase the best argument of the other side.",
+      "more": "What counts as left and right has shifted a lot since then and differs from country to country. Many political scientists now use at least two axes, such as economic (state or market) and social (liberal or conservative).",
+      "source": "Marcel Gauchet: La droite et la gauche (1992)"
+    }
+  },
+  {
+    "id": "uno-sicherheitsrat",
+    "area": "wissen",
+    "sub": "politik",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Fünf Länder können die UNO blockieren",
+      "body": "Der **UNO-Sicherheitsrat** ist das mächtigste Gremium der Vereinten Nationen. Nur er kann für alle Mitglieder verbindliche Beschlüsse fassen, etwa Sanktionen oder Militäreinsätze.\n\nEr hat 15 Mitglieder. Zehn werden für **zwei Jahre** gewählt. Fünf sind **ständig** dabei und haben ein **Vetorecht**: die USA, Russland, China, Grossbritannien und Frankreich, die Siegermächte des Zweiten Weltkriegs.\n\nEin einziges Veto stoppt jeden Beschluss. Darum ist der Rat bei vielen Konflikten gelähmt.",
+      "apply": "Lies nach, bei welchem aktuellen Konflikt der Sicherheitsrat blockiert ist, und von wem.",
+      "more": "Die Schweiz trat der UNO erst 2002 bei, nach einer Volksabstimmung. 2023 und 2024 sass sie zum ersten Mal als gewähltes Mitglied im Sicherheitsrat. Über eine Reform des Rates wird seit Jahrzehnten diskutiert.",
+      "source": "Charta der Vereinten Nationen (1945), Kapitel V; Eidgenössisches Departement für auswärtige Angelegenheiten"
+    },
+    "en": {
+      "title": "Five countries can block the UN",
+      "body": "The **UN Security Council** is the most powerful body of the United Nations. Only it can make decisions binding on all members, such as sanctions or military action.\n\nIt has 15 members. Ten are elected for **two years**. Five are **permanent** and have a **veto**: the US, Russia, China, the UK and France, the victors of the Second World War.\n\nA single veto stops any decision. That's why the council is paralysed in many conflicts.",
+      "apply": "Read up on which current conflict the Security Council is blocked on, and by whom.",
+      "more": "Switzerland only joined the UN in 2002, after a popular vote. In 2023 and 2024 it sat on the Security Council as an elected member for the first time. Reform of the council has been debated for decades.",
+      "source": "Charter of the United Nations (1945), Chapter V; Swiss Federal Department of Foreign Affairs"
+    }
+  },
+  {
+    "id": "bits-und-bytes",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Alles im Computer ist 0 oder 1",
+      "body": "Jedes Foto, jede Nachricht, jedes Video auf deinem Handy besteht am Ende aus nur zwei Zuständen: **Strom an oder aus**, also 1 oder 0. Ein solcher Zustand heisst **Bit**.\n\nAcht Bits ergeben ein **Byte**. Damit lassen sich 2 hoch 8, also **256** verschiedene Werte darstellen, genug für alle Buchstaben, Ziffern und Zeichen einer Tastatur.\n\nEin Handyfoto hat ein paar Millionen Bytes. Ein Film Milliarden. Aber alles ist aus demselben einfachen Baustein gemacht.",
+      "apply": "Rechne aus, wie viele Werte 16 Bits darstellen können. Tipp: Jedes Bit verdoppelt die Zahl.",
+      "more": "Die Idee, Logik mit nur zwei Zuständen zu rechnen, geht auf den Mathematiker George Boole (1854) zurück. Claude Shannon zeigte 1937, dass sich Boolesche Logik mit elektrischen Schaltungen umsetzen lässt. Das war die Grundlage aller modernen Computer.",
+      "source": "Claude Shannon: A Symbolic Analysis of Relay and Switching Circuits (1937)"
+    },
+    "en": {
+      "title": "Everything in a computer is 0 or 1",
+      "body": "Every photo, message and video on your phone comes down to just two states: **power on or off**, 1 or 0. One such state is called a **bit**.\n\nEight bits make a **byte**. That gives 2 to the power of 8, or **256** different values, enough for every letter, digit and symbol on a keyboard.\n\nA phone photo is a few million bytes. A film is billions. But it's all made from the same simple building block.",
+      "apply": "Work out how many values 16 bits can represent. Hint: each bit doubles the number.",
+      "more": "The idea of calculating logic with just two states goes back to mathematician George Boole (1854). In 1937 Claude Shannon showed that Boolean logic can be built with electrical circuits. That became the foundation of every modern computer.",
+      "source": "Claude Shannon: A Symbolic Analysis of Relay and Switching Circuits (1937)"
+    }
+  },
+  {
+    "id": "mooresches-gesetz",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Alle zwei Jahre doppelt so viele Transistoren",
+      "body": "1965 machte Gordon Moore, später Mitgründer von Intel, eine kühne Vorhersage: Die Zahl der Transistoren auf einem Chip werde sich regelmässig **verdoppeln**. 1975 präzisierte er: etwa **alle zwei Jahre**.\n\nEr lag erstaunlich lange richtig. Ein Chip von 1971 hatte rund 2'300 Transistoren. Ein moderner Handychip hat **über 10 Milliarden**.\n\nDarum ist dein Handy heute leistungsstärker als die Computer, mit denen die NASA 1969 auf den Mond flog. Viele Millionen Mal.",
+      "apply": "Überleg dir, in welchem Bereich deines Lebens kleine Verbesserungen sich verdoppeln könnten, wenn du sie jedes Jahr wiederholst.",
+      "more": "Das \"Gesetz\" ist kein Naturgesetz, sondern eine Beobachtung, die sich die Industrie zum Ziel setzte. Seit einigen Jahren verlangsamt sich das Tempo, weil Transistoren nur noch wenige Atome breit sind und an physikalische Grenzen stossen.",
+      "source": "Gordon Moore: Cramming more components onto integrated circuits. Electronics, 1965"
+    },
+    "en": {
+      "title": "Twice as many transistors every two years",
+      "body": "In 1965 Gordon Moore, later a co-founder of Intel, made a bold prediction: the number of transistors on a chip would keep **doubling**. In 1975 he refined it: about **every two years**.\n\nHe was right for a surprisingly long time. A chip from 1971 had about 2,300 transistors. A modern phone chip has **over 10 billion**.\n\nThat's why your phone today is millions of times more powerful than the computers NASA used to fly to the moon in 1969.",
+      "apply": "Think about which area of your life could double through small improvements repeated every year.",
+      "more": "The \"law\" isn't a law of nature but an observation the industry adopted as a target. In recent years the pace has slowed, because transistors are only a few atoms wide and are hitting physical limits.",
+      "source": "Gordon Moore: Cramming more components onto integrated circuits. Electronics, 1965"
+    }
+  },
+  {
+    "id": "internet-pakete",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Wie deine Nachricht durchs Internet reist",
+      "body": "Wenn du ein Foto verschickst, reist es nicht am Stück. Es wird in Tausende kleine **Pakete** zerlegt.\n\nJedes Paket trägt eine Adresse und eine Nummer. Es sucht sich seinen eigenen Weg durch das Netz, über Router auf verschiedenen Kontinenten. Am Ziel werden die Pakete wieder in die richtige Reihenfolge gebracht. Fehlt eines, wird es neu angefordert.\n\nDie Regeln dafür heissen **TCP/IP**. Vint Cerf und Bob Kahn entwarfen sie 1974. Am 1. Januar 1983 wurde das Vorläufernetz ARPANET darauf umgestellt, oft gilt das als Geburtstag des Internets.",
+      "apply": "Lies heute nach, durch welche Unterseekabel das Internet zwischen Europa und Amerika läuft. Die Karte überrascht.",
+      "more": "Das Paketprinzip machte das Netz robust: Fällt eine Leitung aus, nehmen die Pakete einfach einen anderen Weg. Über 95 % des interkontinentalen Datenverkehrs laufen heute über Glasfaserkabel am Meeresboden, nicht über Satelliten.",
+      "source": "Cerf & Kahn: A Protocol for Packet Network Intercommunication. IEEE Transactions on Communications, 1974"
+    },
+    "en": {
+      "title": "How your message travels across the internet",
+      "body": "When you send a photo, it doesn't travel in one piece. It's split into thousands of small **packets**.\n\nEach packet carries an address and a number. It finds its own route through the network, via routers on different continents. At the destination the packets are put back in order. If one is missing, it's requested again.\n\nThe rules for this are called **TCP/IP**. Vint Cerf and Bob Kahn designed them in 1974. On 1 January 1983 the predecessor network ARPANET switched over, often seen as the internet's birthday.",
+      "apply": "Look up today which undersea cables carry the internet between Europe and America. The map is surprising.",
+      "more": "The packet principle made the network robust: if a line fails, packets simply take another route. Over 95% of intercontinental data traffic today runs through fibre-optic cables on the seabed, not via satellites.",
+      "source": "Cerf & Kahn: A Protocol for Packet Network Intercommunication. IEEE Transactions on Communications, 1974"
+    }
+  },
+  {
+    "id": "passwort-laenge",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Lange Passwörter schlagen komplizierte",
+      "body": "\"P@ssw0rt!\" sieht sicher aus. Für einen Computer ist es leicht zu knacken, weil solche Ersetzungen bekannt sind.\n\nDas US-Normungsinstitut NIST hat seine Empfehlungen 2017 grundlegend geändert: **Länge** zählt mehr als Sonderzeichen. Ein Satz aus mehreren zufälligen Wörtern ist stärker und leichter zu merken. Und Passwörter muss man nicht mehr regelmässig ändern, nur wenn sie gestohlen wurden.\n\nAm wichtigsten: Nutze **nie** dasselbe Passwort zweimal. Ein Passwortmanager nimmt dir die Arbeit ab.",
+      "apply": "Aktiviere heute bei deinem wichtigsten Konto (E-Mail oder Bank) die Zwei-Faktor-Anmeldung.",
+      "more": "Die Richtlinie heisst NIST Special Publication 800-63B. Sie empfiehlt auch, neue Passwörter mit Listen bereits gestohlener Passwörter abzugleichen. Die Zwei-Faktor-Anmeldung schützt selbst dann, wenn ein Passwort in falsche Hände gerät.",
+      "source": "National Institute of Standards and Technology: Digital Identity Guidelines, SP 800-63B (2017)"
+    },
+    "en": {
+      "title": "Long passwords beat complicated ones",
+      "body": "\"P@ssw0rd!\" looks secure. For a computer it's easy to crack, because such substitutions are well known.\n\nThe US standards institute NIST changed its guidance fundamentally in 2017: **length** matters more than special characters. A phrase of several random words is stronger and easier to remember. And you no longer need to change passwords regularly, only when they've been stolen.\n\nMost important: **never** use the same password twice. A password manager does the work for you.",
+      "apply": "Turn on two-factor sign-in today for your most important account (email or bank).",
+      "more": "The guideline is NIST Special Publication 800-63B. It also recommends checking new passwords against lists of already stolen ones. Two-factor sign-in protects you even if a password falls into the wrong hands.",
+      "source": "National Institute of Standards and Technology: Digital Identity Guidelines, SP 800-63B (2017)"
+    }
+  },
+  {
+    "id": "binaere-suche",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Eine Million Einträge in 20 Schritten",
+      "body": "Du suchst einen Namen in einem Telefonbuch mit einer Million Einträgen. Seite für Seite würde das ewig dauern.\n\nKlüger: Schlag die **Mitte** auf. Ist der Name weiter vorne, vergiss die hintere Hälfte. Schlag die Mitte des Rests auf. Und so weiter. Jeder Schritt **halbiert** die Suche. Nach höchstens **20 Schritten** hast du den Namen, denn 2 hoch 20 ist mehr als eine Million.\n\nDas ist ein **Algorithmus**: ein klares Vorgehen, das ein Problem löst. Gute Algorithmen sind der Grund, warum Google in Sekundenbruchteilen antwortet.",
+      "apply": "Spiel heute mit jemandem \"Ich denke an eine Zahl zwischen 1 und 1'000\". Mit der Halbierungsmethode brauchst du höchstens zehn Fragen.",
+      "more": "Informatiker beschreiben die Geschwindigkeit von Algorithmen mit der sogenannten O-Notation. Die binäre Suche hat einen logarithmischen Aufwand: Verdoppelt sich die Datenmenge, braucht sie nur einen Schritt mehr. Voraussetzung ist, dass die Daten sortiert sind.",
+      "source": "Donald Knuth: The Art of Computer Programming, Band 3 (1973)"
+    },
+    "en": {
+      "title": "A million entries in 20 steps",
+      "body": "You're looking for a name in a phone book with a million entries. Page by page would take forever.\n\nSmarter: open it in the **middle**. If the name comes earlier, forget the back half. Open the middle of what's left. And so on. Each step **halves** the search. After at most **20 steps** you have the name, because 2 to the power of 20 is more than a million.\n\nThat's an **algorithm**: a clear procedure that solves a problem. Good algorithms are why Google answers in a fraction of a second.",
+      "apply": "Play \"I'm thinking of a number between 1 and 1,000\" with someone today. Using halving, you need at most ten questions.",
+      "more": "Computer scientists describe the speed of algorithms with so-called big-O notation. Binary search has logarithmic cost: when the data doubles, it needs only one more step. The data must be sorted.",
+      "source": "Donald Knuth: The Art of Computer Programming, Vol. 3 (1973)"
+    }
+  },
+  {
+    "id": "angebot-nachfrage",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Preise sind Signale",
+      "body": "Warum kostet ein Flug in den Ferien das Dreifache? Weil viele fliegen wollen und die Plätze begrenzt sind.\n\nDas ist das Grundgesetz der Wirtschaft: **Angebot und Nachfrage**. Wollen mehr Menschen etwas, als vorhanden ist, steigt der Preis. Gibt es mehr, als gewollt wird, sinkt er.\n\nPreise sind dabei mehr als Zahlen. Sie sind **Signale**: Ein hoher Preis sagt Herstellern \"Produziert mehr!\" und Käufern \"Spart hier!\". So koordinieren Millionen Menschen ihr Handeln, ohne dass jemand es plant.",
+      "apply": "Achte heute bei einem Preis, der dich ärgert, darauf: Was sagt mir dieser Preis über Angebot und Nachfrage?",
+      "more": "Der Ökonom Friedrich August von Hayek beschrieb 1945, wie Preise verstreutes Wissen bündeln, das keine zentrale Behörde je sammeln könnte. Darum funktionieren Planwirtschaften so schlecht: Ihnen fehlen die Signale.",
+      "source": "Friedrich A. Hayek: The Use of Knowledge in Society. American Economic Review, 1945"
+    },
+    "en": {
+      "title": "Prices are signals",
+      "body": "Why does a flight cost three times as much in the holidays? Because many people want to fly and seats are limited.\n\nThat's the basic law of economics: **supply and demand**. When more people want something than exists, the price rises. When there's more than people want, it falls.\n\nPrices are more than numbers. They're **signals**: a high price tells producers \"make more!\" and buyers \"save here!\". That's how millions of people coordinate without anyone planning it.",
+      "apply": "When a price annoys you today, ask: what is this price telling me about supply and demand?",
+      "more": "Economist Friedrich August von Hayek described in 1945 how prices bundle scattered knowledge that no central authority could ever gather. That's why planned economies work so badly: they lack the signals.",
+      "source": "Friedrich A. Hayek: The Use of Knowledge in Society. American Economic Review, 1945"
+    }
+  },
+  {
+    "id": "zentralbank-zinsen",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Wie die Nationalbank die Inflation bremst",
+      "body": "Steigen die Preise zu schnell, hat die Nationalbank ein starkes Werkzeug: den **Leitzins**.\n\nErhöht sie ihn, werden Kredite für Banken teurer. Die Banken geben das an Firmen und Haushalte weiter: Hypotheken, Kredite, Investitionen werden teurer. Es wird weniger gekauft und gebaut, und die Preise steigen langsamer. Senkt sie den Zins, passiert das Gegenteil.\n\nDie Schweizerische Nationalbank strebt eine Teuerung zwischen **0 und 2 %** an. Die Europäische Zentralbank peilt **2 %** an.",
+      "apply": "Schau nach, wie hoch der Leitzins der SNB oder der EZB gerade ist, und überleg, was das für deine Hypothek oder dein Sparkonto bedeutet.",
+      "more": "Zinsänderungen wirken verzögert, oft erst nach ein bis zwei Jahren. Darum müssen Zentralbanken vorausschauend handeln. 2015 führte die SNB negative Zinsen ein, 2022 beendete sie sie wieder, als die Inflation weltweit stark anstieg.",
+      "source": "Schweizerische Nationalbank: Geldpolitische Strategie; Europäische Zentralbank"
+    },
+    "en": {
+      "title": "How the central bank slows inflation",
+      "body": "When prices rise too fast, the central bank has a powerful tool: the **policy interest rate**.\n\nIf it raises the rate, borrowing gets more expensive for banks. Banks pass this on to companies and households: mortgages, loans and investments cost more. People buy and build less, and prices rise more slowly. Cutting the rate does the opposite.\n\nThe Swiss National Bank aims for inflation between **0 and 2%**. The European Central Bank and the US Federal Reserve target **2%**.",
+      "apply": "Look up your central bank's current rate and think about what it means for your mortgage or savings.",
+      "more": "Rate changes work with a delay, often one to two years. That's why central banks have to act ahead of time. In 2015 the SNB introduced negative rates, and ended them in 2022 when inflation rose sharply worldwide.",
+      "source": "Swiss National Bank: Monetary policy strategy; European Central Bank; Federal Reserve"
+    }
+  },
+  {
+    "id": "bip-erklaert",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Was das BIP misst und was nicht",
+      "body": "Das **Bruttoinlandprodukt (BIP)** ist der Wert aller Waren und Dienstleistungen, die ein Land in einem Jahr herstellt. Es ist die wichtigste Zahl, um Wirtschaften zu vergleichen. Wächst es, geht es der Wirtschaft meist gut.\n\nAber das BIP hat blinde Flecken. Ein Autounfall erhöht es, weil Reparaturen bezahlt werden. Ein Vater, der seine Kinder selbst erzieht, zählt nicht. Ein gesunder Wald zählt nicht, ein abgeholzter schon.\n\nDas BIP misst Aktivität, nicht Glück. Ein wichtiger Unterschied.",
+      "apply": "Überleg dir, was in deinem Leben viel Wert hat, aber in keiner Statistik auftaucht.",
+      "more": "Der Ökonom Simon Kuznets, der das Konzept in den 1930er-Jahren für die USA entwickelte, warnte selbst davor, das BIP mit Wohlstand gleichzusetzen. Robert Kennedy sagte 1968, es messe alles, ausser dem, was das Leben lebenswert macht.",
+      "source": "Simon Kuznets: National Income, 1929–1932. Bericht an den US-Senat, 1934"
+    },
+    "en": {
+      "title": "What GDP measures and what it doesn't",
+      "body": "**Gross domestic product (GDP)** is the value of all goods and services a country produces in a year. It's the key number for comparing economies. When it grows, the economy is usually doing well.\n\nBut GDP has blind spots. A car crash raises it, because repairs get paid for. A father raising his own children doesn't count. A healthy forest doesn't count, a felled one does.\n\nGDP measures activity, not happiness. An important difference.",
+      "apply": "Think about what has great value in your life but appears in no statistic.",
+      "more": "Economist Simon Kuznets, who developed the concept for the US in the 1930s, himself warned against equating GDP with welfare. Robert Kennedy said in 1968 that it measures everything except that which makes life worthwhile.",
+      "source": "Simon Kuznets: National Income, 1929–1932. Report to the US Senate, 1934"
+    }
+  },
+  {
+    "id": "komparativer-vorteil",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Handel lohnt sich sogar für den Besseren",
+      "body": "England und Portugal stellen Tuch und Wein her. Portugal kann **beides** günstiger. Lohnt sich Handel trotzdem? Ja, sagt der Ökonom David Ricardo 1817.\n\nEntscheidend ist nicht, wer etwas absolut besser kann, sondern wer **relativ** am wenigsten aufgibt. Portugal ist beim Wein besonders stark, England beim Tuch nur etwas schwächer. Spezialisiert sich jedes Land auf seine relative Stärke und beide tauschen, haben **beide mehr**.\n\nDas gilt auch für dich: Mach selbst, was du relativ am besten kannst, und überlass anderen den Rest.",
+      "apply": "Schreib eine Aufgabe auf, die du gut kannst, die dich aber von deiner grössten Stärke abhält. Wer könnte sie für dich übernehmen?",
+      "more": "Ricardos Theorie des komparativen Vorteils gilt als eine der wenigen Ideen der Ökonomie, die zugleich wahr und nicht offensichtlich sind, wie der Nobelpreisträger Paul Samuelson sagte. Sie erklärt, warum Arbeitsteilung und Handel den Wohlstand steigern.",
+      "source": "David Ricardo: Über die Grundsätze der politischen Ökonomie und der Besteuerung (1817), Kapitel 7"
+    },
+    "en": {
+      "title": "Trade pays off even for the better one",
+      "body": "England and Portugal make cloth and wine. Portugal can make **both** more cheaply. Is trade still worth it? Yes, said economist David Ricardo in 1817.\n\nWhat matters isn't who is absolutely better, but who gives up the **least** relatively. Portugal is especially strong in wine, England only slightly weaker in cloth. If each specialises in its relative strength and they trade, **both have more**.\n\nThis applies to you too: do what you're relatively best at yourself, and leave the rest to others.",
+      "apply": "Write down a task you're good at that keeps you from your greatest strength. Who could take it over?",
+      "more": "Ricardo's theory of comparative advantage is one of the few ideas in economics that is both true and not obvious, as Nobel laureate Paul Samuelson put it. It explains why division of labour and trade raise prosperity.",
+      "source": "David Ricardo: On the Principles of Political Economy and Taxation (1817), Chapter 7"
+    }
+  },
+  {
+    "id": "stecknadelfabrik",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Zehn Männer, 48'000 Nadeln am Tag",
+      "body": "1776 beschrieb Adam Smith in seinem Werk \"Der Wohlstand der Nationen\" eine kleine Fabrik für Stecknadeln.\n\nEin einzelner Arbeiter, der alles selbst macht, schafft vielleicht **eine Nadel** am Tag, höchstens 20. In der Fabrik teilten sich **zehn Männer** die Arbeit in rund 18 Schritte auf: Einer zieht den Draht, einer schneidet, einer spitzt. Zusammen machten sie rund **48'000 Nadeln** pro Tag.\n\nDas ist **Arbeitsteilung**, und sie ist der Motor unseres Wohlstands. Wer sich spezialisiert und übt, wird schneller und besser.",
+      "apply": "Wähle eine Fähigkeit, in der du dich spezialisieren willst, und investiere diese Woche bewusst drei Stunden nur in sie.",
+      "more": "Smith sah auch die Schattenseite: Wer sein Leben lang nur einen Handgriff wiederholt, kann geistig verkümmern. Darum forderte er öffentliche Bildung für die Arbeiter. Sein Buch gilt als Gründungswerk der modernen Volkswirtschaftslehre.",
+      "source": "Adam Smith: Der Wohlstand der Nationen (1776), Buch 1, Kapitel 1"
+    },
+    "en": {
+      "title": "Ten men, 48,000 pins a day",
+      "body": "In 1776 Adam Smith described a small pin factory in his work \"The Wealth of Nations\".\n\nA single worker doing everything himself might make **one pin** a day, twenty at most. In the factory, **ten men** split the work into about 18 steps: one draws the wire, one cuts it, one sharpens it. Together they made about **48,000 pins** a day.\n\nThat's **division of labour**, and it's the engine of our prosperity. Whoever specialises and practises gets faster and better.",
+      "apply": "Choose a skill you want to specialise in and deliberately invest three hours in it alone this week.",
+      "more": "Smith also saw the downside: a man who repeats one motion all his life can stagnate mentally. So he called for public education for workers. His book is considered the founding work of modern economics.",
+      "source": "Adam Smith: The Wealth of Nations (1776), Book 1, Chapter 1"
+    }
+  },
+  {
+    "id": "eratosthenes",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Wie ein Grieche mit einem Stab die Erde vermass",
+      "body": "Um **240 v. Chr.** hörte Eratosthenes, der Leiter der Bibliothek von Alexandria, von einem Brunnen in Syene, dem heutigen Assuan. Am Mittag des längsten Tages schien die Sonne dort senkrecht hinein.\n\nIn Alexandria, weiter nördlich, warf ein senkrechter Stab zur selben Zeit einen kleinen Schatten: rund **7 Grad**, etwa ein Fünfzigstel eines Kreises. Also, folgerte er, ist der Erdumfang **fünfzigmal** die Strecke zwischen den Städten.\n\nSein Ergebnis lag je nach Umrechnung nur wenige Prozent neben dem heutigen Wert von rund **40'000 km**. Mit einem Stab, Geometrie und klarem Denken.",
+      "apply": "Nimm ein Problem, das zu gross wirkt, und frag wie Eratosthenes: Welche einfache Messung bringt mich weiter?",
+      "more": "Die Entfernung zwischen den Städten schätzte er auf 5'000 Stadien. Wie lang ein Stadion genau war, ist umstritten, darum schwankt die Einschätzung seiner Genauigkeit. Sein Denkweg aber gilt als Meisterstück der Wissenschaft.",
+      "source": "Kleomedes: Die Kreisbewegung der Himmelskörper (überliefert); Carl Sagan: Cosmos (1980)"
+    },
+    "en": {
+      "title": "How a Greek measured the earth with a stick",
+      "body": "Around **240 BC**, Eratosthenes, head of the Library of Alexandria, heard about a well in Syene, today's Aswan. At noon on the longest day, the sun shone straight down into it.\n\nIn Alexandria, further north, an upright stick cast a small shadow at the same moment: about **7 degrees**, roughly one fiftieth of a circle. So, he reasoned, the earth's circumference is **fifty times** the distance between the cities.\n\nDepending on the conversion, his result was within a few percent of today's value of about **40,000 km**. With a stick, geometry and clear thinking.",
+      "apply": "Take a problem that seems too big and ask like Eratosthenes: what simple measurement gets me further?",
+      "more": "He estimated the distance between the cities at 5,000 stadia. How long a stadion was exactly is disputed, so estimates of his accuracy vary. But his line of reasoning is considered a masterpiece of science.",
+      "source": "Cleomedes: On the Circular Motions of the Celestial Bodies; Carl Sagan: Cosmos (1980)"
+    }
+  },
+  {
+    "id": "falsifizierbarkeit",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Eine gute Theorie kann scheitern",
+      "body": "Wie unterscheidet man Wissenschaft von blosser Behauptung? Der Philosoph Karl Popper gab 1934 eine berühmte Antwort: Eine wissenschaftliche Aussage muss **widerlegbar** sein.\n\n\"Alle Schwäne sind weiss\" ist wissenschaftlich: Ein einziger schwarzer Schwan widerlegt den Satz. \"Alles geschieht aus einem guten Grund\" dagegen kann durch nichts widerlegt werden, egal was passiert.\n\nWer eine Theorie hat, die jede mögliche Beobachtung erklärt, hat keine starke Theorie. Er hat eine, die nichts riskiert.",
+      "apply": "Prüf eine deiner Überzeugungen: Was müsste passieren, damit du zugibst, dass sie falsch ist?",
+      "more": "Popper entwickelte die Idee in \"Logik der Forschung\". Schwarze Schwäne gibt es übrigens tatsächlich, in Australien. Europäer hielten sie lange für unmöglich, bis sie 1697 welche sahen.",
+      "source": "Karl Popper: Logik der Forschung (1934)"
+    },
+    "en": {
+      "title": "A good theory can fail",
+      "body": "How do you tell science from mere claims? In 1934 philosopher Karl Popper gave a famous answer: a scientific statement must be **falsifiable**.\n\n\"All swans are white\" is scientific: a single black swan disproves it. \"Everything happens for a reason\", on the other hand, can't be disproved by anything, whatever happens.\n\nA theory that explains every possible observation isn't a strong theory. It's one that risks nothing.",
+      "apply": "Test one of your beliefs: what would have to happen for you to admit it's wrong?",
+      "more": "Popper developed the idea in \"The Logic of Scientific Discovery\". Black swans really do exist, in Australia. Europeans long thought them impossible, until they saw some in 1697.",
+      "source": "Karl Popper: The Logic of Scientific Discovery (1934)"
+    }
+  },
+  {
+    "id": "placebo-offen",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Placebos wirken sogar, wenn man es weiss",
+      "body": "Ein Placebo ist eine Scheinbehandlung ohne Wirkstoff. Dass es trotzdem wirken kann, weil man daran glaubt, ist bekannt. Aber was, wenn man weiss, dass es ein Placebo ist?\n\nForscher in Harvard gaben Patienten mit Reizdarm Pillen und sagten ihnen offen: **Das sind Zuckerpillen.** Nach drei Wochen ging es diesen Patienten deutlich besser als einer Gruppe ohne Behandlung.\n\nErwartung, Ritual und Zuwendung beeinflussen den Körper messbar. Der Kopf ist kein Zuschauer.",
+      "apply": "Achte heute darauf, mit welcher Erwartung du an eine schwierige Aufgabe gehst. Sie färbt das Ergebnis.",
+      "more": "Ted Kaptchuk und Kollegen untersuchten 80 Patienten. Placebos wirken vor allem auf Beschwerden wie Schmerzen, Übelkeit oder Müdigkeit, nicht auf Tumore oder Infektionen. Sie ersetzen keine echte Behandlung.",
+      "source": "Kaptchuk et al.: Placebos without deception. PLoS ONE, 2010"
+    },
+    "en": {
+      "title": "Placebos work even when you know",
+      "body": "A placebo is a fake treatment with no active ingredient. It's well known that it can work because people believe in it. But what if they know it's a placebo?\n\nHarvard researchers gave patients with irritable bowel syndrome pills and told them openly: **these are sugar pills.** After three weeks, these patients were clearly better off than a group with no treatment.\n\nExpectation, ritual and care affect the body measurably. The mind isn't a bystander.",
+      "apply": "Notice today what expectation you bring to a hard task. It colours the result.",
+      "more": "Ted Kaptchuk and colleagues studied 80 patients. Placebos work mainly on symptoms like pain, nausea or fatigue, not on tumours or infections. They don't replace real treatment.",
+      "source": "Kaptchuk et al.: Placebos without deception. PLoS ONE, 2010"
+    }
+  },
+  {
+    "id": "dna-doppelhelix",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "geschichte",
+    "level": 2,
+    "de": {
+      "title": "Das Foto, das die DNA verriet",
+      "body": "1953 veröffentlichten James Watson und Francis Crick die Struktur der DNA: eine **Doppelhelix**, wie eine verdrehte Strickleiter. Sie bekamen dafür 1962 den Nobelpreis.\n\nEin entscheidender Beweis kam aber von **Rosalind Franklin**. Ihr Röntgenbild \"Foto 51\" zeigte das typische Kreuzmuster einer Helix. Watson sah es, ohne dass sie davon wusste. Franklin starb 1958 mit 37 Jahren und erlebte den Nobelpreis nicht mehr.\n\nÜbrigens: Die DNA zweier Menschen ist zu rund **99,9 %** identisch. Alles, was uns unterscheidet, steckt im Rest.",
+      "apply": "Denk an jemanden, dessen Beitrag zu einem gemeinsamen Erfolg übersehen wurde, und sag es ihm oder anderen heute.",
+      "more": "Das menschliche Erbgut hat rund 3 Milliarden Basenpaare. Ausgerollt wäre die DNA einer einzigen Zelle etwa zwei Meter lang. Das Humangenomprojekt entschlüsselte das Erbgut bis 2003.",
+      "source": "Watson & Crick: Molecular structure of nucleic acids. Nature, 1953; National Human Genome Research Institute"
+    },
+    "en": {
+      "title": "The photo that gave away DNA",
+      "body": "In 1953 James Watson and Francis Crick published the structure of DNA: a **double helix**, like a twisted rope ladder. They won the Nobel Prize for it in 1962.\n\nBut a crucial piece of evidence came from **Rosalind Franklin**. Her X-ray image \"Photo 51\" showed the typical cross pattern of a helix. Watson saw it without her knowledge. Franklin died in 1958 at 37 and didn't live to see the prize.\n\nBy the way: the DNA of any two people is about **99.9%** identical. Everything that makes us different is in the rest.",
+      "apply": "Think of someone whose part in a shared success was overlooked, and tell them or others today.",
+      "more": "The human genome has about 3 billion base pairs. Stretched out, the DNA of a single cell would be about two metres long. The Human Genome Project finished decoding it in 2003.",
+      "source": "Watson & Crick: Molecular structure of nucleic acids. Nature, 1953; National Human Genome Research Institute"
+    }
+  },
+  {
+    "id": "taxifahrer-gehirn",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Londoner Taxifahrer haben ein anderes Gehirn",
+      "body": "Wer in London ein schwarzes Taxi fahren will, muss \"The Knowledge\" bestehen: rund **25'000 Strassen** und Tausende Orte auswendig kennen. Die Vorbereitung dauert oft drei bis vier Jahre.\n\nForscher untersuchten die Gehirne dieser Fahrer im MRI. Ein Teil des **Hippocampus**, der für räumliches Gedächtnis zuständig ist, war bei ihnen grösser als bei anderen Männern. Und je länger einer Taxi fuhr, desto grösser war er.\n\nDein Gehirn ist kein fertiges Organ. Es baut sich um, je nachdem, was du von ihm verlangst.",
+      "apply": "Lern heute etwas auswendig, statt es nachzuschlagen: eine Telefonnummer, einen Bibelvers, einen Weg ohne Navi.",
+      "more": "Eleanor Maguire und Kollegen veröffentlichten die Studie im Jahr 2000. Eine spätere Studie begleitete angehende Fahrer über Jahre: Nur bei denen, die die Prüfung bestanden, wuchs der Hippocampus. Fachleute nennen diese Anpassungsfähigkeit Neuroplastizität.",
+      "source": "Maguire et al.: Navigation-related structural change in the hippocampi of taxi drivers. PNAS, 2000"
+    },
+    "en": {
+      "title": "London taxi drivers have different brains",
+      "body": "To drive a black cab in London, you have to pass \"The Knowledge\": memorising about **25,000 streets** and thousands of places. Preparation often takes three to four years.\n\nResearchers scanned these drivers' brains. Part of the **hippocampus**, which handles spatial memory, was larger in them than in other men. And the longer someone had driven a taxi, the larger it was.\n\nYour brain isn't a finished organ. It rebuilds itself according to what you demand of it.",
+      "apply": "Memorise something today instead of looking it up: a phone number, a Bible verse, a route without satnav.",
+      "more": "Eleanor Maguire and colleagues published the study in 2000. A later study followed trainee drivers for years: only in those who passed the exam did the hippocampus grow. Experts call this adaptability neuroplasticity.",
+      "source": "Maguire et al.: Navigation-related structural change in the hippocampi of taxi drivers. PNAS, 2000"
+    }
+  },
+  {
+    "id": "sprachmodell-naechstes-wort",
+    "area": "wissen",
+    "sub": "ki",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Was ein Sprachmodell eigentlich tut",
+      "body": "Chatbots wie ChatGPT oder Gemini wirken, als würden sie denken. Im Kern machen sie etwas überraschend Einfaches: Sie sagen das **nächste Wortstück** voraus.\n\nSie wurden mit riesigen Mengen Text trainiert und haben dabei Muster gelernt: Grammatik, Fakten, Argumente, Stil. Bei jeder Antwort berechnen sie, welches Wortstück am wahrscheinlichsten folgt, dann das nächste, und so weiter.\n\nAus diesem einfachen Prinzip entstehen erstaunliche Fähigkeiten. Aber auch Fehler: Was plausibel klingt, muss nicht stimmen.",
+      "apply": "Nutze eine KI heute für eine echte Aufgabe, und prüfe danach eine Aussage aus der Antwort mit einer zweiten Quelle.",
+      "more": "Die Wortstücke heissen Tokens. Die Modelle beruhen auf der Transformer-Architektur, die Google-Forscher 2017 vorstellten. Nach dem Grundtraining werden sie mit menschlichem Feedback weiter trainiert, damit sie hilfreicher und sicherer antworten.",
+      "source": "Vaswani et al.: Attention Is All You Need (2017)"
+    },
+    "en": {
+      "title": "What a language model actually does",
+      "body": "Chatbots like ChatGPT or Gemini seem to think. At their core they do something surprisingly simple: they predict the **next piece of a word**.\n\nThey were trained on huge amounts of text and learned patterns along the way: grammar, facts, arguments, style. For each answer they calculate which piece is most likely to come next, then the next one, and so on.\n\nAmazing abilities emerge from this simple principle. But so do mistakes: what sounds plausible isn't necessarily true.",
+      "apply": "Use an AI for a real task today, then check one claim from the answer against a second source.",
+      "more": "The word pieces are called tokens. The models are based on the transformer architecture Google researchers introduced in 2017. After the base training, they're trained further with human feedback to make their answers more helpful and safer.",
+      "source": "Vaswani et al.: Attention Is All You Need (2017)"
+    }
+  },
+  {
+    "id": "turing-test",
+    "area": "wissen",
+    "sub": "ki",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Die Frage, die Alan Turing 1950 stellte",
+      "body": "\"Können Maschinen denken?\" Mit dieser Frage beginnt ein Aufsatz, den der britische Mathematiker **Alan Turing** 1950 veröffentlichte.\n\nWeil \"denken\" schwer zu definieren ist, schlug er einen Test vor, das **Imitationsspiel**: Ein Mensch chattet schriftlich mit einem Menschen und einer Maschine. Kann er nicht zuverlässig sagen, wer wer ist, hat die Maschine bestanden.\n\nTuring hatte im Zweiten Weltkrieg geholfen, die deutsche Enigma-Verschlüsselung zu knacken. Er gilt als einer der Väter der Informatik.",
+      "apply": "Überleg dir eine Frage, mit der du heute einen Chatbot von einem Menschen unterscheiden würdest.",
+      "more": "Turing sagte voraus, dass Computer um das Jahr 2000 Menschen in kurzen Gesprächen oft täuschen würden. Moderne Sprachmodelle erreichen das in manchen Studien inzwischen. Viele Forscher halten den Test heute für zu schwach, um echtes Verstehen zu messen.",
+      "source": "Alan Turing: Computing Machinery and Intelligence. Mind, 1950"
+    },
+    "en": {
+      "title": "The question Alan Turing asked in 1950",
+      "body": "\"Can machines think?\" That question opens an essay British mathematician **Alan Turing** published in 1950.\n\nBecause \"thinking\" is hard to define, he proposed a test, the **imitation game**: a person chats in writing with a human and a machine. If he can't reliably tell which is which, the machine has passed.\n\nIn the Second World War, Turing had helped crack the German Enigma code. He's considered one of the fathers of computer science.",
+      "apply": "Think of a question you'd use today to tell a chatbot from a human.",
+      "more": "Turing predicted that around the year 2000 computers would often fool people in short conversations. Modern language models now achieve this in some studies. Many researchers today consider the test too weak to measure real understanding.",
+      "source": "Alan Turing: Computing Machinery and Intelligence. Mind, 1950"
+    }
+  },
+  {
+    "id": "ki-erfindet-quellen",
+    "area": "wissen",
+    "sub": "ki",
+    "style": "geschichte",
+    "level": 2,
+    "de": {
+      "title": "Der Anwalt, der der KI blind vertraute",
+      "body": "2023 reichte ein New Yorker Anwalt bei Gericht eine Klageschrift ein. Darin zitierte er sechs frühere Urteile, die seine Position stützten. Das Problem: **Keines davon existierte.**\n\nEr hatte die Fälle von ChatGPT recherchieren lassen und sie nie überprüft. Die KI hatte sie erfunden, mit Namen, Aktenzeichen und Zitaten. Der Richter verhängte eine Busse von **5'000 Dollar**, und der Fall ging um die Welt.\n\nKI-Modelle können Dinge erfinden, die völlig echt klingen. Fachleute nennen das **Halluzinieren**. Die Verantwortung bleibt bei dir.",
+      "apply": "Wenn dir eine KI heute eine Zahl, ein Zitat oder eine Quelle nennt: Prüfe sie, bevor du sie weitergibst.",
+      "more": "Der Fall heisst Mata gegen Avianca. Die Anwälte gaben an, nicht gewusst zu haben, dass ChatGPT Inhalte erfinden kann. Seither haben viele Gerichte Regeln für den Einsatz von KI erlassen.",
+      "source": "Mata v. Avianca, Inc., US District Court for the Southern District of New York, Juni 2023"
+    },
+    "en": {
+      "title": "The lawyer who trusted AI blindly",
+      "body": "In 2023 a New York lawyer filed a brief in court. In it he cited six earlier rulings that supported his case. The problem: **none of them existed.**\n\nHe had let ChatGPT research the cases and never checked them. The AI had made them up, with names, docket numbers and quotes. The judge imposed a **$5,000** fine, and the case made headlines worldwide.\n\nAI models can invent things that sound completely real. Experts call it **hallucinating**. The responsibility stays with you.",
+      "apply": "If an AI gives you a number, a quote or a source today, check it before you pass it on.",
+      "more": "The case is Mata v. Avianca. The lawyers said they hadn't known ChatGPT could make up content. Since then many courts have issued rules for using AI.",
+      "source": "Mata v. Avianca, Inc., US District Court for the Southern District of New York, June 2023"
+    }
+  },
+  {
+    "id": "alphago-zug-37",
+    "area": "wissen",
+    "sub": "ki",
+    "style": "geschichte",
+    "level": 2,
+    "de": {
+      "title": "Zug 37: Als eine Maschine kreativ wurde",
+      "body": "Im März 2016 spielte das Programm **AlphaGo** in Seoul gegen Lee Sedol, einen der besten Go-Spieler der Welt. Go galt als zu komplex für Computer: Es gibt mehr mögliche Stellungen als Atome im Universum.\n\nIm zweiten Spiel machte AlphaGo seinen **37. Zug** an einer Stelle, die kein Profi gewählt hätte. Kommentatoren hielten ihn für einen Fehler. Er entschied die Partie. AlphaGo gewann 4 zu 1.\n\nDas Programm hatte Go nicht aus Regeln gelernt, sondern aus Millionen Partien und Spielen gegen sich selbst.",
+      "apply": "Such dir heute in deinem Fachgebiet eine Gewohnheit, die alle so machen, und frag: Ist das wirklich der beste Zug?",
+      "more": "AlphaGo wurde von DeepMind entwickelt. Nach eigener Berechnung schätzte es die Wahrscheinlichkeit, dass ein Mensch Zug 37 spielt, auf 1 zu 10'000. Lee Sedol gewann das vierte Spiel mit einem genialen Zug, den man später \"Gottes Zug\" nannte.",
+      "source": "Silver et al.: Mastering the game of Go with deep neural networks and tree search. Nature, 2016"
+    },
+    "en": {
+      "title": "Move 37: when a machine became creative",
+      "body": "In March 2016 the program **AlphaGo** played Lee Sedol in Seoul, one of the best Go players in the world. Go was considered too complex for computers: there are more possible positions than atoms in the universe.\n\nIn the second game, AlphaGo played its **37th move** in a spot no professional would have chosen. Commentators thought it was a mistake. It decided the game. AlphaGo won 4 to 1.\n\nThe program hadn't learned Go from rules, but from millions of games and games against itself.",
+      "apply": "Find a habit in your field that everyone follows and ask: is this really the best move?",
+      "more": "AlphaGo was developed by DeepMind. By its own estimate, the chance of a human playing move 37 was 1 in 10,000. Lee Sedol won the fourth game with a brilliant move later dubbed \"God's move\".",
+      "source": "Silver et al.: Mastering the game of Go with deep neural networks and tree search. Nature, 2016"
+    }
+  },
+  {
+    "id": "ki-hilft-und-schadet",
+    "area": "wissen",
+    "sub": "ki",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "KI macht dich besser, bis sie dich schlechter macht",
+      "body": "Harvard-Forscher gaben **758 Beratern** der Boston Consulting Group realistische Aufgaben, mit und ohne KI.\n\nBei Aufgaben, die die KI gut beherrschte, erledigten die Berater mit KI **12 % mehr** Aufgaben, **25 % schneller** und mit **über 40 % besserer** Qualität. Bei einer Aufgabe knapp ausserhalb ihrer Fähigkeiten lagen sie mit KI dagegen deutlich **öfter falsch** als ohne.\n\nKI ist ein starkes Werkzeug. Aber nur, wer selbst denkt, merkt, wann es versagt.",
+      "apply": "Lös heute eine Aufgabe zuerst selbst, und frag erst dann die KI. Vergleiche die Antworten.",
+      "more": "Fabrizio Dell'Acqua und Kollegen nannten das die \"zackige Grenze\" der KI: Sie ist bei manchen Aufgaben brillant und bei ähnlich schweren überraschend schwach. Am meisten profitierten die schwächeren Berater.",
+      "source": "Dell'Acqua et al.: Navigating the Jagged Technological Frontier. Harvard Business School Working Paper, 2023"
+    },
+    "en": {
+      "title": "AI makes you better, until it makes you worse",
+      "body": "Harvard researchers gave **758 consultants** at Boston Consulting Group realistic tasks, with and without AI.\n\nOn tasks the AI handled well, consultants with AI completed **12% more** tasks, **25% faster** and at **over 40% higher** quality. But on a task just outside its abilities, they were clearly **wrong more often** with AI than without.\n\nAI is a powerful tool. But only someone who thinks for himself notices when it fails.",
+      "apply": "Solve a task yourself first today, and only then ask the AI. Compare the answers.",
+      "more": "Fabrizio Dell'Acqua and colleagues called this AI's \"jagged frontier\": brilliant at some tasks and surprisingly weak at others of similar difficulty. The weaker consultants benefited most.",
+      "source": "Dell'Acqua et al.: Navigating the Jagged Technological Frontier. Harvard Business School Working Paper, 2023"
+    }
+  },
+  {
+    "id": "nil-oder-amazonas",
+    "area": "wissen",
+    "sub": "geografie",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Nil oder Amazonas: Welcher Fluss ist länger?",
+      "body": "In fast jedem Schulbuch steht: Der **Nil** ist mit rund **6'650 km** der längste Fluss der Welt. Doch Forscher streiten darüber.\n\nDas Problem ist die **Quelle**. Wo genau ein Fluss beginnt, ist schwer festzulegen: Welcher Bach im Gebirge zählt? Brasilianische Forscher massen den Amazonas 2007 neu und kamen auf rund **6'800 km**. Andere halten an den alten Zahlen fest.\n\nSicher ist: Der Amazonas führt mit Abstand **am meisten Wasser**, mehr als die nächsten sieben Flüsse zusammen.",
+      "apply": "Such heute bei einer Zahl, die du für sicher hältst, nach, wie sie eigentlich gemessen wurde.",
+      "more": "Auch die Länge von Küsten ist schwer zu messen: Je genauer man misst, desto länger werden sie. Der Mathematiker Benoît Mandelbrot beschrieb dieses Küstenparadoxon 1967.",
+      "source": "Encyclopaedia Britannica; Instituto Nacional de Pesquisas Espaciais (Brasilien), 2007"
+    },
+    "en": {
+      "title": "Nile or Amazon: which river is longer?",
+      "body": "Almost every school book says the **Nile**, at about **6,650 km**, is the longest river in the world. But researchers disagree.\n\nThe problem is the **source**. Where exactly a river begins is hard to pin down: which mountain stream counts? Brazilian researchers re-measured the Amazon in 2007 and got about **6,800 km**. Others stick with the old figures.\n\nWhat's certain: the Amazon carries by far **the most water**, more than the next seven rivers combined.",
+      "apply": "Look up how a number you consider certain was actually measured.",
+      "more": "Coastlines are hard to measure too: the more precisely you measure, the longer they get. Mathematician Benoît Mandelbrot described this coastline paradox in 1967.",
+      "source": "Encyclopaedia Britannica; Brazilian National Institute for Space Research, 2007"
+    }
+  },
+  {
+    "id": "schweiz-in-zahlen",
+    "area": "wissen",
+    "sub": "geografie",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Die Schweiz in fünf Zahlen",
+      "body": "**26** Kantone, jeder mit eigener Verfassung, Regierung und Steuern.\n\n**4** Landessprachen: Deutsch, Französisch, Italienisch und Rätoromanisch.\n\n**4'634 m**: die Dufourspitze im Monte-Rosa-Massiv, der höchste Punkt des Landes. Der tiefste liegt am Lago Maggiore auf **193 m**.\n\n**1848**: Gründung des modernen Bundesstaates.\n\n**Rund 9 Millionen** Einwohner, davon gut ein Viertel ohne Schweizer Pass.\n\nEin kleines Land, das zeigt, wie Vielfalt, Föderalismus und direkte Demokratie zusammen funktionieren können.",
+      "apply": "Nenn aus dem Kopf alle 26 Kantone. Welche fehlen dir?",
+      "more": "Die Schweiz hat keine offizielle Hauptstadt. Bern ist \"Bundesstadt\", Sitz von Regierung und Parlament. Rund 60 % der Fläche sind Alpen. Seit 1815 ist die Schweiz international als neutral anerkannt.",
+      "source": "Bundesamt für Statistik; swisstopo"
+    },
+    "en": {
+      "title": "Switzerland in five numbers",
+      "body": "**26** cantons, each with its own constitution, government and taxes.\n\n**4** national languages: German, French, Italian and Romansh.\n\n**4,634 m**: the Dufourspitze in the Monte Rosa massif, the country's highest point. The lowest is at Lake Maggiore, **193 m**.\n\n**1848**: founding of the modern federal state.\n\n**About 9 million** people, a good quarter of them without a Swiss passport.\n\nA small country that shows how diversity, federalism and direct democracy can work together.",
+      "apply": "Name all 26 cantons from memory. Which ones are you missing?",
+      "more": "Switzerland has no official capital. Bern is the \"federal city\", seat of government and parliament. About 60% of the land is Alps. Since 1815 Switzerland has been internationally recognised as neutral.",
+      "source": "Swiss Federal Statistical Office; swisstopo"
+    }
+  },
+  {
+    "id": "marianengraben",
+    "area": "wissen",
+    "sub": "geografie",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Ein Schweizer am tiefsten Punkt der Erde",
+      "body": "Der **Marianengraben** im Pazifik ist an seiner tiefsten Stelle, dem Challenger-Tief, fast **11'000 Meter** tief. Würde man den Mount Everest hineinstellen, lägen über seinem Gipfel noch zwei Kilometer Wasser.\n\nAm 23. Januar 1960 tauchten der Schweizer **Jacques Piccard** und der Amerikaner Don Walsh mit dem Tauchboot Trieste hinab. Der Abstieg dauerte fast fünf Stunden. Unterwegs zersprang eine Scheibe. Sie tauchten weiter.\n\nUnten blieben sie 20 Minuten. Erst 52 Jahre später gelang wieder einem Menschen dieser Tauchgang.",
+      "apply": "Wo in deinem Leben gibt es eine Scheibe, die gesprungen ist, und du hörst deshalb auf? Mach heute trotzdem den nächsten Schritt.",
+      "more": "Die Trieste wurde von Jacques Piccards Vater Auguste konstruiert, der schon 1931 als erster Mensch mit einem Ballon in die Stratosphäre aufgestiegen war. 2012 tauchte der Regisseur James Cameron allein ins Challenger-Tief.",
+      "source": "NOAA; Jacques Piccard & Robert Dietz: Seven Miles Down (1961)"
+    },
+    "en": {
+      "title": "A Swiss man at the deepest point on earth",
+      "body": "The **Mariana Trench** in the Pacific is almost **11,000 metres** deep at its deepest point, the Challenger Deep. Put Mount Everest in it and there'd still be two kilometres of water above the summit.\n\nOn 23 January 1960, Swiss **Jacques Piccard** and American Don Walsh descended in the submersible Trieste. The dive took almost five hours. On the way down, a window cracked. They kept going.\n\nThey stayed at the bottom for 20 minutes. Only 52 years later did another person make that dive.",
+      "apply": "Where in your life is there a cracked window that makes you want to stop? Take the next step anyway today.",
+      "more": "The Trieste was designed by Jacques Piccard's father Auguste, who in 1931 had become the first person to reach the stratosphere in a balloon. In 2012 film director James Cameron dived solo to the Challenger Deep.",
+      "source": "NOAA; Jacques Piccard & Robert Dietz: Seven Miles Down (1961)"
+    }
+  },
+  {
+    "id": "indien-ueberholt-china",
+    "area": "wissen",
+    "sub": "geografie",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Indien hat China überholt",
+      "body": "Über Jahrhunderte war China das bevölkerungsreichste Land der Erde. 2023 hat **Indien** es überholt, nach Schätzungen der Vereinten Nationen mit über **1,4 Milliarden** Menschen.\n\nDer Unterschied liegt im Alter: In Indien ist rund die Hälfte der Menschen unter 30. Chinas Bevölkerung schrumpft dagegen bereits, auch eine Folge der Ein-Kind-Politik von 1980 bis 2015.\n\nInsgesamt leben heute über **8 Milliarden** Menschen auf der Erde. Die Marke wurde im November 2022 überschritten.",
+      "apply": "Lies heute einen Artikel über Indien. Das Land wird deine Zukunft wirtschaftlich und politisch mitprägen.",
+      "more": "Laut UNO wird die Weltbevölkerung voraussichtlich in den 2080er-Jahren mit rund 10,3 Milliarden ihren Höhepunkt erreichen. In vielen Ländern, auch in Europa, liegt die Geburtenrate längst unter den rund 2,1 Kindern pro Frau, die es für eine stabile Bevölkerung braucht.",
+      "source": "UN Department of Economic and Social Affairs: World Population Prospects 2022 und 2024"
+    },
+    "en": {
+      "title": "India has overtaken China",
+      "body": "For centuries China was the most populous country on earth. In 2023 **India** overtook it, with more than **1.4 billion** people according to UN estimates.\n\nThe difference is age: in India about half the people are under 30. China's population is already shrinking, partly a result of the one-child policy from 1980 to 2015.\n\nIn total, more than **8 billion** people now live on earth. The mark was passed in November 2022.",
+      "apply": "Read an article about India today. The country will help shape your future economically and politically.",
+      "more": "According to the UN, world population is expected to peak in the 2080s at about 10.3 billion. In many countries, including in Europe, the birth rate has long been below the roughly 2.1 children per woman needed for a stable population.",
+      "source": "UN Department of Economic and Social Affairs: World Population Prospects 2022 and 2024"
+    }
+  },
+  {
+    "id": "kontinentaldrift",
+    "area": "wissen",
+    "sub": "geografie",
+    "style": "geschichte",
+    "level": 2,
+    "de": {
+      "title": "Der Mann, den alle auslachten",
+      "body": "1912 stellte der deutsche Meteorologe **Alfred Wegener** eine verrückte Idee vor: Die Kontinente **wandern**. Einst waren sie ein einziger Urkontinent, den er Pangäa nannte. Als Beweis zeigte er, wie die Küsten von Südamerika und Afrika zusammenpassen, und dass auf beiden dieselben Fossilien liegen.\n\nDie Fachwelt lachte. Wegener konnte nicht erklären, was die Kontinente antreibt. Er starb 1930 auf einer Grönlandexpedition.\n\nErst in den 1960er-Jahren bewies die Plattentektonik, dass er recht hatte. Der Atlantik wird jedes Jahr um rund **2,5 cm** breiter.",
+      "apply": "Wenn du von einer Sache überzeugt bist und alle lachen: Sammle Beweise und bleib dran.",
+      "more": "Angetrieben werden die Platten von Strömungen im heissen Erdmantel. Wo sie auseinanderdriften, entsteht neuer Meeresboden, wo sie zusammenstossen, Gebirge wie die Alpen und der Himalaya. Auch die Alpen wachsen noch, um rund einen Millimeter pro Jahr.",
+      "source": "Alfred Wegener: Die Entstehung der Kontinente und Ozeane (1915)"
+    },
+    "en": {
+      "title": "The man everyone laughed at",
+      "body": "In 1912 German meteorologist **Alfred Wegener** presented a crazy idea: the continents **move**. Once they were a single supercontinent he called Pangaea. As evidence he showed how the coasts of South America and Africa fit together, and that the same fossils are found on both.\n\nThe experts laughed. Wegener couldn't explain what drives the continents. He died in 1930 on an expedition in Greenland.\n\nOnly in the 1960s did plate tectonics prove him right. The Atlantic gets about **2.5 cm** wider every year.",
+      "apply": "If you're convinced of something and everyone laughs: gather evidence and keep going.",
+      "more": "The plates are driven by currents in the hot mantle. Where they drift apart, new seafloor forms; where they collide, mountains rise, like the Alps and the Himalayas. The Alps are still growing, by about a millimetre a year.",
+      "source": "Alfred Wegener: The Origin of Continents and Oceans (1915)"
+    }
+  },
+  {
+    "id": "hoehlengleichnis",
+    "area": "wissen",
+    "sub": "philosophie",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Platons Höhle: Was, wenn du nur Schatten siehst?",
+      "body": "Platon beschreibt Menschen, die seit ihrer Geburt in einer Höhle gefesselt sind. Sie sehen nur eine Wand, auf die Schatten von Gegenständen fallen. Für sie sind die **Schatten** die ganze Wirklichkeit.\n\nEiner wird befreit. Zuerst blendet ihn das Licht, es tut weh. Dann sieht er die echte Welt draussen. Als er zurückkehrt, um die anderen zu befreien, lachen sie ihn aus und wollen ihn töten.\n\nDie Frage an dich: Welche Schatten hältst du für die Wirklichkeit? Und hast du den Mut, ans Licht zu gehen, auch wenn es zuerst wehtut?",
+      "apply": "Such dir heute eine Quelle, die nicht in deine gewohnte Blase passt, und lies sie ernsthaft.",
+      "more": "Das Gleichnis steht im siebten Buch von Platons \"Politeia\", um 375 v. Chr. Es spielt auch auf seinen Lehrer Sokrates an, der für seine unbequemen Fragen zum Tod verurteilt wurde.",
+      "source": "Platon: Politeia, Buch VII"
+    },
+    "en": {
+      "title": "Plato's cave: what if you only see shadows?",
+      "body": "Plato describes people chained in a cave since birth. They see only a wall on which the shadows of objects fall. For them, the **shadows** are all of reality.\n\nOne is set free. At first the light blinds him, it hurts. Then he sees the real world outside. When he goes back to free the others, they laugh at him and want to kill him.\n\nThe question for you: which shadows do you take for reality? And do you have the courage to step into the light, even if it hurts at first?",
+      "apply": "Find a source today that doesn't fit your usual bubble and read it seriously.",
+      "more": "The allegory is in Book VII of Plato's \"Republic\", around 375 BC. It also alludes to his teacher Socrates, who was sentenced to death for his uncomfortable questions.",
+      "source": "Plato: Republic, Book VII"
+    }
+  },
+  {
+    "id": "aristoteles-mitte",
+    "area": "wissen",
+    "sub": "philosophie",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Mut liegt zwischen zwei Fehlern",
+      "body": "Für Aristoteles ist jede Tugend eine **Mitte zwischen zwei Extremen**. Mut liegt zwischen **Feigheit** (zu viel Angst) und **Tollkühnheit** (zu wenig Angst). Grosszügigkeit liegt zwischen Geiz und Verschwendung.\n\nDiese Mitte ist kein lauwarmer Kompromiss. Sie ist das **Richtige** in der jeweiligen Lage: zur richtigen Zeit, gegenüber den richtigen Menschen, aus dem richtigen Grund.\n\nUnd man findet sie nicht durch Nachdenken allein, sondern durch Übung. Mutig wird man, indem man mutig handelt.",
+      "apply": "Wähl eine Tugend, an der du arbeitest. Auf welche Seite kippst du eher, und was wäre heute die Mitte?",
+      "more": "Aristoteles entwickelt die Lehre in der \"Nikomachischen Ethik\", benannt nach seinem Sohn Nikomachos. Das Ziel des Lebens ist für ihn Eudaimonia, oft mit \"Glück\" übersetzt, eher aber gemeint als ein gelungenes, tugendhaftes Leben.",
+      "source": "Aristoteles: Nikomachische Ethik, Buch II"
+    },
+    "en": {
+      "title": "Courage lies between two faults",
+      "body": "For Aristotle, every virtue is a **mean between two extremes**. Courage lies between **cowardice** (too much fear) and **recklessness** (too little fear). Generosity lies between stinginess and wastefulness.\n\nThis mean isn't a lukewarm compromise. It's what is **right** in each situation: at the right time, toward the right people, for the right reason.\n\nAnd you don't find it by thinking alone, but by practice. You become brave by acting bravely.",
+      "apply": "Pick a virtue you're working on. Which way do you tend to tip, and what would the mean be today?",
+      "more": "Aristotle develops the idea in the \"Nicomachean Ethics\", named after his son Nicomachus. For him the goal of life is eudaimonia, often translated as \"happiness\", but meaning rather a flourishing, virtuous life.",
+      "source": "Aristotle: Nicomachean Ethics, Book II"
+    }
+  },
+  {
+    "id": "kategorischer-imperativ",
+    "area": "wissen",
+    "sub": "philosophie",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Kants Test für jede Entscheidung",
+      "body": "Immanuel Kant suchte eine Regel, die für **jeden** Menschen gilt, egal welche Gefühle oder Wünsche er hat. 1785 formulierte er den **kategorischen Imperativ**.\n\nVereinfacht: Handle nur so, dass du wollen kannst, dass **alle** so handeln. Darf ich lügen, um mir einen Vorteil zu verschaffen? Wenn alle das täten, würde niemand mehr einem Wort glauben. Also nein.\n\nEine zweite Form: Behandle Menschen **nie nur als Mittel** zum Zweck, sondern immer auch als Zweck an sich. Benutze niemanden.",
+      "apply": "Prüf heute eine Entscheidung mit Kants Frage: Was wäre, wenn das jeder täte?",
+      "more": "Kant formulierte den Imperativ in der \"Grundlegung zur Metaphysik der Sitten\". Er lebte sein ganzes Leben in Königsberg und war für seine Pünktlichkeit berühmt: Angeblich stellten Nachbarn ihre Uhren nach seinem Spaziergang.",
+      "source": "Immanuel Kant: Grundlegung zur Metaphysik der Sitten (1785)"
+    },
+    "en": {
+      "title": "Kant's test for every decision",
+      "body": "Immanuel Kant searched for a rule that applies to **every** person, whatever their feelings or desires. In 1785 he formulated the **categorical imperative**.\n\nSimplified: act only in a way you could want **everyone** to act. May I lie to gain an advantage? If everyone did, no one would believe a word anymore. So no.\n\nA second form: treat people **never merely as a means** to an end, but always also as an end in themselves. Don't use anyone.",
+      "apply": "Test one decision today with Kant's question: what if everyone did this?",
+      "more": "Kant set out the imperative in the \"Groundwork of the Metaphysics of Morals\". He lived his whole life in Königsberg and was famous for his punctuality: neighbours supposedly set their clocks by his daily walk.",
+      "source": "Immanuel Kant: Groundwork of the Metaphysics of Morals (1785)"
+    }
+  },
+  {
+    "id": "ockhams-rasiermesser",
+    "area": "wissen",
+    "sub": "philosophie",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Die einfachste Erklärung zuerst",
+      "body": "Dein Kollege antwortet nicht auf deine Nachricht. Ist er wütend auf dich? Plant er etwas gegen dich? Oder hat er sie einfach noch nicht gelesen?\n\nDer englische Mönch und Philosoph **Wilhelm von Ockham** lebte im 14. Jahrhundert. Nach ihm ist ein Denkprinzip benannt: Wenn mehrere Erklärungen möglich sind, bevorzuge die, die mit den **wenigsten Annahmen** auskommt.\n\nDas \"Rasiermesser\" schneidet unnötige Annahmen weg. Es spart dir Sorgen, Streit und viel verschwendete Energie.",
+      "apply": "Wenn du dir heute eine dramatische Erklärung für etwas zurechtlegst: Such zuerst die einfachste.",
+      "more": "Der berühmte Satz \"Entitäten dürfen nicht über das Notwendige hinaus vermehrt werden\" stammt so nicht wörtlich von Ockham, fasst aber sein Denken gut zusammen. Das Prinzip ist eine Faustregel, kein Beweis: Manchmal ist die Wahrheit kompliziert.",
+      "source": "Wilhelm von Ockham: Summa logicae (um 1323)"
+    },
+    "en": {
+      "title": "The simplest explanation first",
+      "body": "Your colleague hasn't replied to your message. Is he angry with you? Plotting against you? Or has he simply not read it yet?\n\nEnglish friar and philosopher **William of Ockham** lived in the 14th century. A thinking principle is named after him: when several explanations are possible, prefer the one with the **fewest assumptions**.\n\nThe \"razor\" cuts away unnecessary assumptions. It saves you worry, conflict and a lot of wasted energy.",
+      "apply": "When you catch yourself building a dramatic explanation today, look for the simplest one first.",
+      "more": "The famous line \"entities must not be multiplied beyond necessity\" isn't literally Ockham's, but sums up his thinking well. The principle is a rule of thumb, not proof: sometimes the truth is complicated.",
+      "source": "William of Ockham: Summa logicae (c. 1323)"
+    }
+  },
+  {
+    "id": "descartes-zweifel",
+    "area": "wissen",
+    "sub": "philosophie",
+    "style": "geschichte",
+    "level": 2,
+    "de": {
+      "title": "Ich denke, also bin ich",
+      "body": "René Descartes wollte wissen, worauf er sich **ganz sicher** verlassen kann. Also zweifelte er an allem: an seinen Sinnen, die ihn täuschen können, an der Welt, die ein Traum sein könnte, sogar an der Mathematik.\n\nAm Ende blieb eine Sache übrig, an der er nicht zweifeln konnte: dass **er** es war, der zweifelte. Wer zweifelt, denkt. Wer denkt, existiert. \"Ich denke, also bin ich.\"\n\nVon diesem einen festen Punkt aus baute er sein Denken neu auf. So geht Klarheit: alles prüfen, bis man festen Boden findet.",
+      "apply": "Nimm eine Annahme, auf der eine wichtige Entscheidung von dir beruht, und prüfe heute, ob sie wirklich fest ist.",
+      "more": "Der Satz erschien 1637 auf Französisch im \"Discours de la méthode\" und später auf Latein als \"Cogito, ergo sum\". Descartes war zugleich Mathematiker: Das Koordinatensystem, mit dem du in der Schule Graphen zeichnest, geht auf ihn zurück.",
+      "source": "René Descartes: Discours de la méthode (1637)"
+    },
+    "en": {
+      "title": "I think, therefore I am",
+      "body": "René Descartes wanted to know what he could rely on with **complete certainty**. So he doubted everything: his senses, which can deceive him, the world, which might be a dream, even mathematics.\n\nIn the end one thing remained that he couldn't doubt: that it was **he** who was doubting. Whoever doubts, thinks. Whoever thinks, exists. \"I think, therefore I am.\"\n\nFrom this one fixed point he rebuilt his thinking. That's how clarity works: test everything until you find solid ground.",
+      "apply": "Take an assumption one of your important decisions rests on, and check today whether it's really solid.",
+      "more": "The sentence appeared in French in 1637 in the \"Discourse on Method\" and later in Latin as \"Cogito, ergo sum\". Descartes was also a mathematician: the coordinate system you used for graphs at school goes back to him.",
+      "source": "René Descartes: Discourse on Method (1637)"
+    }
+  }
+]

@@ -13,7 +13,7 @@
         "**Pathos**: Gefühl. Was löst du beim Publikum aus? Eine Geschichte, ein Bild, eine Sorge.",
         "**Logos**: Logik. Welche Gründe, Zahlen und Beispiele stützen deine Aussage?"
       ],
-      "apply": "Prüf deinen nächsten Vorschlag: Hast du alle drei drin, oder nur Logos?",
+      "apply": "Bau in deinen nächsten Vorschlag alle drei ein: wer du bist (Ethos), ein Gefühl (Pathos) und ein Argument (Logos).",
       "more": "Aristoteles beschreibt die drei Überzeugungsmittel in seiner \"Rhetorik\", Buch 1. Er hielt Ethos für das stärkste: Menschen glauben eher einem, den sie für anständig und kompetent halten. Die meisten technischen Präsentationen bestehen fast nur aus Logos und überzeugen deshalb weniger, als sie könnten.",
       "source": "Aristoteles: Rhetorik, Buch 1, Kapitel 2"
     },
@@ -25,7 +25,7 @@
         "**Pathos**: emotion. What do you make the audience feel? A story, an image, a concern.",
         "**Logos**: logic. Which reasons, numbers and examples back up your point?"
       ],
-      "apply": "Check your next proposal: does it have all three, or only logos?",
+      "apply": "Build all three into your next proposal: who you are (ethos), a feeling (pathos) and an argument (logos).",
       "more": "Aristotle describes the three modes of persuasion in his \"Rhetoric\", Book 1. He considered ethos the strongest: people are more likely to believe someone they see as decent and competent. Most technical presentations are almost pure logos, which is why they persuade less than they could.",
       "source": "Aristotle: Rhetoric, Book 1, chapter 2"
     }
@@ -622,6 +622,216 @@
       "apply": "On your next phone call, speak a bit slower on purpose and notice how the other person responds.",
       "more": "For presentations, about 130 to 150 words per minute is considered comfortable; in casual conversation people are often faster. Audiobooks are usually narrated at around 150 to 160 words per minute. More important than a fixed pace is variation: slower at key points, a little faster in stories.",
       "source": "National Center for Voice and Speech; common speech training"
+    }
+  },
+  {
+    "id": "aufrecht-sitzen",
+    "area": "rede",
+    "sub": "koerpersprache",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Aufrecht sitzen hilft dir unter Druck",
+      "body": "Deine Haltung sendet nicht nur Signale an andere. Sie wirkt auch auf dich.\n\nIn einer Studie in Neuseeland mussten Teilnehmer eine stressige Aufgabe lösen: eine Rede halten, die bewertet wird. Eine Gruppe sass dabei **aufrecht**, die andere **zusammengesackt**. Die Aufrechten berichteten mehr Selbstwert, bessere Stimmung und weniger Angst. Sie sprachen auch mehr.\n\nDie Effekte sind nicht riesig. Aber eine aufrechte Haltung kostet nichts und hilft dir, wenn es zählt.",
+      "apply": "Kontrolliere heute dreimal deine Haltung: Brust auf, Schultern locker, Kopf gerade. Halte sie zwei Minuten bewusst.",
+      "more": "Shwetha Nair und Kollegen veröffentlichten die Studie 2015. Im Unterschied zum umstrittenen \"Power-Posing\" geht es hier nicht um Hormone, sondern um Stimmung und Selbstwahrnehmung. Diese Effekte gelten als besser belegt.",
+      "source": "Nair, Sagar, Sollers, Consedine & Broadbent: Do slumped and upright postures affect stress responses? Health Psychology, 2015"
+    },
+    "en": {
+      "title": "Sitting upright helps you under pressure",
+      "body": "Your posture doesn't only send signals to others. It also works on you.\n\nIn a study in New Zealand, participants faced a stressful task: giving a speech that would be judged. One group sat **upright**, the other **slumped**. The upright group reported higher self-esteem, better mood and less fear. They also talked more.\n\nThe effects aren't huge. But upright posture costs nothing and helps you when it counts.",
+      "apply": "Check your posture three times today: chest open, shoulders loose, head level. Hold it consciously for two minutes.",
+      "more": "Shwetha Nair and colleagues published the study in 2015. Unlike the disputed \"power posing\", this isn't about hormones but about mood and self-perception. Those effects are considered better supported.",
+      "source": "Nair, Sagar, Sollers, Consedine & Broadbent: Do slumped and upright postures affect stress responses? Health Psychology, 2015"
+    }
+  },
+  {
+    "id": "reagan-alter",
+    "area": "rede",
+    "sub": "schlagfertigkeit",
+    "style": "geschichte",
+    "level": 1,
+    "de": {
+      "title": "Reagans Antwort, die eine Wahl entschied",
+      "body": "1984 war Ronald Reagan 73 Jahre alt, der älteste US-Präsident bis dahin. Im ersten Fernsehduell hatte er unsicher gewirkt. Alle fragten sich: Ist er zu alt?\n\nIm zweiten Duell kam die Frage direkt. Reagan antwortete ruhig: \"Ich werde das Alter in diesem Wahlkampf nicht zum Thema machen. Ich werde die **Jugend und Unerfahrenheit** meines Gegners nicht für politische Zwecke ausnutzen.\"\n\nDas Publikum lachte, sogar sein 56-jähriger Gegner Walter Mondale. Das Thema war erledigt. Reagan gewann 49 von 50 Staaten.",
+      "apply": "Überleg dir für eine Schwäche, auf die man dich oft anspricht, eine ruhige, humorvolle Antwort. Schreib sie auf.",
+      "more": "Mondale sagte später, er habe in diesem Moment gewusst, dass er die Wahl verloren hatte. Der Satz wirkte, weil er vorbereitet, kurz und gelassen war, und weil Reagan nicht verteidigte, sondern das Thema umdrehte.",
+      "source": "Zweites Präsidentschaftsduell Reagan–Mondale, 21. Oktober 1984, Commission on Presidential Debates"
+    },
+    "en": {
+      "title": "Reagan's answer that decided an election",
+      "body": "In 1984 Ronald Reagan was 73, the oldest US president up to then. In the first TV debate he had seemed shaky. Everyone wondered: is he too old?\n\nIn the second debate, the question came straight at him. Reagan answered calmly: \"I will not make age an issue of this campaign. I am not going to exploit, for political purposes, my opponent's **youth and inexperience**.\"\n\nThe audience laughed, even his 56-year-old opponent Walter Mondale. The issue was dead. Reagan won 49 of 50 states.",
+      "apply": "For a weakness people often bring up about you, think of a calm, humorous answer. Write it down.",
+      "more": "Mondale later said he knew in that moment he had lost the election. The line worked because it was prepared, short and relaxed, and because Reagan didn't defend but turned the issue around.",
+      "source": "Second Reagan–Mondale presidential debate, 21 October 1984, Commission on Presidential Debates"
+    }
+  },
+  {
+    "id": "schlagfertigkeit-vorbereiten",
+    "area": "rede",
+    "sub": "schlagfertigkeit",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Schlagfertigkeit ist vorbereitet",
+      "body": "Mark Twain soll gesagt haben: \"Ich brauche meist mehr als drei Wochen, um eine gute Stegreifrede vorzubereiten.\"\n\nDas ist das Geheimnis schlagfertiger Menschen: Sie sind nicht schneller im Kopf. Sie haben **vorgedacht**. Die meisten Sticheleien, die du hörst, wiederholen sich: über dein Alter, deinen Job, deinen Glauben, deine Figur.\n\nSchreib sie auf. Überleg dir in Ruhe eine kurze, souveräne Antwort. Wenn der Satz das nächste Mal kommt, bist du bereit.",
+      "apply": "Schreib heute die drei Sprüche auf, die dich am häufigsten treffen, und zu jedem eine ruhige Antwort in einem Satz.",
+      "more": "Ob Twain den Satz genau so gesagt hat, ist nicht gesichert, er wird ihm aber seit über hundert Jahren zugeschrieben. Rhetoriktrainer empfehlen dasselbe Prinzip für Vorstellungsgespräche und Verhandlungen: Die schwierigsten Fragen vorher durchspielen.",
+      "source": "Mark Twain zugeschrieben; Matthias Pöhm: Nicht auf den Mund gefallen! (1998)"
+    },
+    "en": {
+      "title": "Quick wit is prepared",
+      "body": "Mark Twain is said to have remarked: \"It usually takes me more than three weeks to prepare a good impromptu speech.\"\n\nThat's the secret of quick-witted people: they aren't faster thinkers. They've **thought ahead**. Most of the jabs you hear repeat themselves: about your age, your job, your faith, your build.\n\nWrite them down. Calmly come up with a short, confident answer. Next time the line comes, you're ready.",
+      "apply": "Today, write down the three remarks that get to you most often, each with a calm one-sentence reply.",
+      "more": "Whether Twain said it exactly like that isn't certain, but it has been attributed to him for over a hundred years. Speaking coaches recommend the same principle for job interviews and negotiations: rehearse the hardest questions in advance.",
+      "source": "Attributed to Mark Twain"
+    }
+  },
+  {
+    "id": "kurze-saetze",
+    "area": "rede",
+    "sub": "sprache",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Kurze Sätze werden verstanden",
+      "body": "Je länger ein Satz, desto weniger Menschen verstehen ihn. Das klingt banal, aber die Zahlen sind deutlich.\n\nNach Untersuchungen des American Press Institute verstanden Leser Sätze mit **acht Wörtern** fast vollständig. Bei **14 Wörtern** waren es noch rund 90 %. Bei über **40 Wörtern** weniger als jeder Zehnte.\n\nKurze Sätze wirken nicht dumm. Sie wirken **klar**. Und Klarheit ist eine Form von Respekt vor dem Zuhörer.",
+      "apply": "Nimm die nächste wichtige Nachricht, die du schreibst, und teile jeden Satz mit mehr als 20 Wörtern in zwei.",
+      "more": "Der Journalist Wolf Schneider, Lehrer ganzer Generationen deutscher Journalisten, predigte dasselbe: Hauptsätze, kurze Wörter, das Verb früh. Auch beim Sprechen gilt: Wer in kurzen Sätzen redet, wirkt sicherer und wird besser behalten.",
+      "source": "American Press Institute, zitiert nach Ann Wylie; Wolf Schneider: Deutsch für Profis (1982)"
+    },
+    "en": {
+      "title": "Short sentences get understood",
+      "body": "The longer a sentence, the fewer people understand it. Sounds obvious, but the numbers are striking.\n\nAccording to research by the American Press Institute, readers understood sentences of **eight words** almost completely. At **14 words**, about 90%. At over **40 words**, fewer than one in ten.\n\nShort sentences don't sound stupid. They sound **clear**. And clarity is a form of respect for your listener.",
+      "apply": "Take the next important message you write and split every sentence over 20 words into two.",
+      "more": "Great editors have preached the same for generations: main clauses, short words, the verb early. When speaking too, short sentences make you sound more confident and get remembered better.",
+      "source": "American Press Institute, as cited by Ann Wylie"
+    }
+  },
+  {
+    "id": "wortschatz-durch-lesen",
+    "area": "rede",
+    "sub": "sprache",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Dein Wortschatz wächst durch Lesen, nicht durch Reden",
+      "body": "Wer gut sprechen will, muss lesen. Der Grund ist überraschend.\n\nForscher verglichen, wie viele **seltene Wörter** in verschiedenen Quellen vorkommen. Ergebnis: Selbst Kinderbücher enthalten mehr seltene Wörter als die meisten Fernsehsendungen für Erwachsene oder Gespräche unter gebildeten Erwachsenen. Zeitungen und Sachbücher liegen noch weit darüber.\n\nIm Alltag verwenden wir immer dieselben paar Tausend Wörter. Neue findest du fast nur auf Papier.",
+      "apply": "Lies heute 20 Minuten in einem anspruchsvollen Buch und schreib dir ein neues Wort heraus. Benutze es noch diese Woche.",
+      "more": "Anne Cunningham und Keith Stanovich fassten die Forschung 1998 im Artikel \"What reading does for the mind\" zusammen. Wer viel liest, baut über Jahre einen deutlich grösseren Wortschatz auf, und dieser Vorsprung wächst mit der Zeit.",
+      "source": "Cunningham & Stanovich: What reading does for the mind. American Educator, 1998"
+    },
+    "en": {
+      "title": "Your vocabulary grows by reading, not talking",
+      "body": "If you want to speak well, you have to read. The reason is surprising.\n\nResearchers compared how many **rare words** appear in different sources. Result: even children's books contain more rare words than most adult TV shows or conversations between educated adults. Newspapers and non-fiction are far higher still.\n\nIn daily life we use the same few thousand words. New ones you find almost only on paper.",
+      "apply": "Read a demanding book for 20 minutes today and note one new word. Use it this week.",
+      "more": "Anne Cunningham and Keith Stanovich summarised the research in 1998 in the article \"What reading does for the mind\". People who read a lot build a much larger vocabulary over the years, and the lead grows over time.",
+      "source": "Cunningham & Stanovich: What reading does for the mind. American Educator, 1998"
+    }
+  },
+  {
+    "id": "eigene-stimme-fremd",
+    "area": "rede",
+    "sub": "stimme",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Warum deine Stimme auf Aufnahmen fremd klingt",
+      "body": "Fast jeder zuckt zusammen, wenn er seine Stimme auf einer Aufnahme hört. \"So klinge ich doch nicht!\" Doch, genau so hören dich alle anderen.\n\nWenn du sprichst, hörst du dich auf zwei Wegen: über die Luft und über die **Knochen deines Schädels**. Die Knochen leiten vor allem tiefe Töne. Darum klingt deine Stimme für dich voller und tiefer, als sie ist.\n\nDie Aufnahme ist die Wahrheit. Und genau darum ist sie das beste Trainingswerkzeug.",
+      "apply": "Nimm dich heute zwei Minuten lang auf, wie du etwas erklärst. Hör es dir an und achte auf Tempo, Füllwörter und Satzenden.",
+      "more": "Die Psychologen Philip Holzman und Clyde Rousey untersuchten das Phänomen schon 1966. Interessant: In einer späteren Studie bewerteten Menschen ihre eigene Stimme sogar positiver als fremde, wenn sie nicht wussten, dass es ihre war.",
+      "source": "Holzman & Rousey: The voice as a percept. Journal of Personality and Social Psychology, 1966"
+    },
+    "en": {
+      "title": "Why your voice sounds strange on recordings",
+      "body": "Almost everyone cringes on hearing their voice on a recording. \"I don't sound like that!\" Yes you do. That's exactly how everyone else hears you.\n\nWhen you speak, you hear yourself two ways: through the air and through the **bones of your skull**. Bone carries mainly low tones. That's why your voice sounds fuller and deeper to you than it is.\n\nThe recording is the truth. And that's exactly why it's the best training tool.",
+      "apply": "Record yourself explaining something for two minutes today. Listen back and pay attention to pace, filler words and sentence endings.",
+      "more": "Psychologists Philip Holzman and Clyde Rousey studied the phenomenon back in 1966. Interestingly, in a later study people rated their own voice more positively than others' when they didn't know it was theirs.",
+      "source": "Holzman & Rousey: The voice as a percept. Journal of Personality and Social Psychology, 1966"
+    }
+  },
+  {
+    "id": "bauchatmung-stimme",
+    "area": "rede",
+    "sub": "stimme",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Eine starke Stimme kommt aus dem Bauch",
+      "body": "Wenn du nervös bist, atmest du flach in die Brust. Die Stimme wird dünn, höher und bricht leichter.\n\nSänger, Schauspieler und Sprecher trainieren darum die **Zwerchfellatmung**: Beim Einatmen weitet sich der Bauch, die Schultern bleiben unten. So hast du mehr Luft, mehr Ruhe und eine Stimme, die tragen kann, ohne zu schreien.\n\nDer Test: Leg eine Hand auf den Bauch, eine auf die Brust. Beim Einatmen sollte sich vor allem die untere Hand bewegen.",
+      "apply": "Atme heute vor einem wichtigen Gespräch dreimal tief in den Bauch, vier Sekunden ein, sechs Sekunden aus.",
+      "more": "Das Zwerchfell ist der wichtigste Atemmuskel. Langsames Ausatmen beruhigt zusätzlich das Nervensystem. Stimmtrainer üben oft mit einem langen \"Sss\" auf einem Atemzug: Je länger du gleichmässig zischen kannst, desto besser kontrollierst du deinen Atem.",
+      "source": "Gängige Stimm- und Sprechausbildung; Deutsche Gesellschaft für Sprechwissenschaft und Sprecherziehung"
+    },
+    "en": {
+      "title": "A strong voice comes from the belly",
+      "body": "When you're nervous, you breathe shallowly into your chest. Your voice gets thin, higher and cracks more easily.\n\nSingers, actors and broadcasters therefore train **diaphragmatic breathing**: as you breathe in, your belly expands and your shoulders stay down. That gives you more air, more calm and a voice that carries without shouting.\n\nThe test: one hand on your belly, one on your chest. When you breathe in, mainly the lower hand should move.",
+      "apply": "Before an important conversation today, take three deep belly breaths: four seconds in, six seconds out.",
+      "more": "The diaphragm is the main breathing muscle. Slow exhaling also calms the nervous system. Voice coaches often practise with a long \"sss\" on one breath: the longer you can hiss evenly, the better your breath control.",
+      "source": "Standard voice and speech training"
+    }
+  },
+  {
+    "id": "geschichten-synchronisieren",
+    "area": "rede",
+    "sub": "storytelling",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Eine gute Geschichte synchronisiert Gehirne",
+      "body": "Forscher der Princeton University massen die Hirnaktivität einer Frau, während sie eine Geschichte erzählte. Dann massen sie die Gehirne von Zuhörern, die die Aufnahme hörten.\n\nDas Ergebnis: Die Gehirnmuster der Zuhörer **folgten** denen der Erzählerin, mit kurzer Verzögerung. Je stärker diese Kopplung war, desto besser hatten die Zuhörer die Geschichte **verstanden**.\n\nMit Fakten informierst du. Mit einer Geschichte nimmst du Menschen mit, buchstäblich.",
+      "apply": "Erzähl beim nächsten Mal, wenn du jemanden überzeugen willst, zuerst eine kurze, wahre Geschichte und erst dann die Zahlen.",
+      "more": "Greg Stephens, Lauren Silbert und Uri Hasson veröffentlichten die Studie 2010. Bei Zuhörern, die eine Geschichte in einer fremden Sprache hörten, fand sich keine solche Kopplung. Es geht also um Verstehen, nicht um Klang.",
+      "source": "Stephens, Silbert & Hasson: Speaker–listener neural coupling underlies successful communication. PNAS, 2010"
+    },
+    "en": {
+      "title": "A good story syncs brains",
+      "body": "Princeton researchers measured a woman's brain activity while she told a story. Then they measured the brains of listeners hearing the recording.\n\nThe result: the listeners' brain patterns **followed** the speaker's, with a short delay. The stronger this coupling, the better the listeners had **understood** the story.\n\nWith facts you inform. With a story you take people along, literally.",
+      "apply": "Next time you want to persuade someone, tell a short true story first and only then the numbers.",
+      "more": "Greg Stephens, Lauren Silbert and Uri Hasson published the study in 2010. Listeners hearing a story in a language they didn't know showed no such coupling. So it's about understanding, not sound.",
+      "source": "Stephens, Silbert & Hasson: Speaker–listener neural coupling underlies successful communication. PNAS, 2010"
+    }
+  },
+  {
+    "id": "mitten-in-der-szene",
+    "area": "rede",
+    "sub": "storytelling",
+    "style": "tipp",
+    "level": 1,
+    "de": {
+      "title": "Fang mitten in der Szene an",
+      "body": "\"Also, das war so, letztes Jahr im Sommer, ich glaube es war Juli...\" Bis die Geschichte beginnt, hören die Leute schon nicht mehr zu.\n\nDer römische Dichter Horaz lobte vor über 2'000 Jahren Erzähler, die **mitten ins Geschehen** springen: \"in medias res\". \"Der Motor ging aus. Wir standen auf dem Gotthard, minus 15 Grad, kein Netz.\" Jetzt will jeder wissen, wie es weitergeht.\n\nDen Hintergrund kannst du nachliefern. Die Aufmerksamkeit nicht.",
+      "apply": "Erzähl heute eine Geschichte aus deinem Leben und beginne sie mit dem spannendsten Moment.",
+      "more": "Horaz schrieb das in seiner \"Ars Poetica\" über Homer, dessen Ilias nicht mit dem Beginn des Trojanischen Krieges anfängt, sondern mitten in seinem zehnten Jahr. Filme und Serien nutzen das Prinzip bis heute in fast jeder Eröffnungsszene.",
+      "source": "Horaz: Ars Poetica (um 19 v. Chr.), Vers 148"
+    },
+    "en": {
+      "title": "Start in the middle of the scene",
+      "body": "\"So, it was like this, last summer, I think it was July...\" By the time the story starts, people have stopped listening.\n\nOver 2,000 years ago the Roman poet Horace praised storytellers who jump **into the middle of the action**: \"in medias res\". \"The engine died. We were stuck on the Gotthard Pass, minus 15 degrees, no signal.\" Now everyone wants to know what happened next.\n\nYou can fill in the background later. You can't get back their attention.",
+      "apply": "Tell a story from your life today and start it with the most exciting moment.",
+      "more": "Horace wrote this in his \"Ars Poetica\" about Homer, whose Iliad doesn't begin at the start of the Trojan War but in the middle of its tenth year. Films and series still use the principle in almost every opening scene.",
+      "source": "Horace: Ars Poetica (c. 19 BC), line 148"
+    }
+  },
+  {
+    "id": "pratfall-effekt",
+    "area": "rede",
+    "sub": "wirkung",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Ein kleiner Fehler macht dich sympathischer",
+      "body": "Der Psychologe Elliot Aronson spielte Studenten Tonbänder eines Kandidaten für ein Quiz vor. In einer Version war der Kandidat brillant und beantwortete fast alles richtig. In einer anderen war er genauso brillant, verschüttete aber am Ende **Kaffee über seinen Anzug**.\n\nDer brillante Kandidat mit dem Missgeschick wurde **sympathischer** bewertet als der perfekte.\n\nDie Lehre: Wer kompetent ist, muss nicht makellos wirken. Ein offen zugegebener kleiner Fehler macht dich menschlich. Aber Vorsicht: Der Effekt gilt nur, wenn die Kompetenz feststeht.",
+      "apply": "Wenn dir heute ein kleiner Fehler passiert: Steh mit einem Lächeln dazu, statt ihn zu vertuschen.",
+      "more": "Aronson nannte das den \"Pratfall-Effekt\", nach dem englischen Wort für einen Ausrutscher. Bei einem durchschnittlich kompetenten Kandidaten machte dasselbe Missgeschick ihn weniger sympathisch. Erst Können, dann Lockerheit.",
+      "source": "Aronson, Willerman & Floyd: The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 1966"
+    },
+    "en": {
+      "title": "A small blunder makes you more likeable",
+      "body": "Psychologist Elliot Aronson played students tapes of a quiz contestant. In one version the contestant was brilliant and answered almost everything correctly. In another he was just as brilliant but at the end **spilled coffee over his suit**.\n\nThe brilliant contestant with the mishap was rated **more likeable** than the flawless one.\n\nThe lesson: if you're competent, you don't need to seem perfect. An openly admitted small mistake makes you human. But careful: the effect only works when your competence is established.",
+      "apply": "If you make a small mistake today, own it with a smile instead of covering it up.",
+      "more": "Aronson called it the \"pratfall effect\". With an averagely competent contestant, the same mishap made him less likeable. First skill, then ease.",
+      "source": "Aronson, Willerman & Floyd: The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 1966"
     }
   }
 ]
