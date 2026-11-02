@@ -35,7 +35,7 @@ jobs:
               echo "::error::$sha has author '$an' / committer '$cn'"; fail=1
             fi
           done < <(git log --no-merges --format='%h|%an|%cn' "$range")
-          if git log --no-merges --format='%B' "$range" | grep -qiE '^(co-authored-by|claude-session):'; then
+          if git log --no-merges --format='%B' "$range" | grep -qiE '^(co-authored-by|[a-z]+-session):'; then
             echo "::error::a commit message contains a co-author line"; fail=1
           fi
           exit $fail

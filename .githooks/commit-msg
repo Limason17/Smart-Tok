@@ -2,8 +2,8 @@
 # Smart-Tok: every commit is authored by Limason17 only.
 # Rejects co-author trailers and foreign author identities.
 msg_file="$1"
-if grep -qiE '^(co-authored-by|claude-session):' "$msg_file"; then
-  echo "commit-msg: Co-Authored-By / Claude-Session lines are not allowed in this repo." >&2
+if grep -qiE '^(co-authored-by|[a-z]+-session):' "$msg_file"; then
+  echo "commit-msg: co-author and session trailer lines are not allowed in this repo." >&2
   exit 1
 fi
 author_name="$(git var GIT_AUTHOR_IDENT | sed -E 's/ <.*//')"

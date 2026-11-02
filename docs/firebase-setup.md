@@ -23,7 +23,7 @@ Diese Regeln sorgen dafür, dass jedes Konto nur seine eigenen Daten lesen und �
 1. Zahnrad oben links → **Projekteinstellungen** → unten bei „Meine Apps“ das Symbol **`</>`** (Web).
 2. Name `Smart-Tok`, Hosting **nicht** ankreuzen → **App registrieren**.
 3. Firebase zeigt einen Block `const firebaseConfig = { apiKey: …, authDomain: …, projectId: …, … }`.
-   Diesen Block kopieren und Claude schicken (oder in `src/sync/config.ts` bei `PROJECT_CONFIG` eintragen).
+   Diesen Block in `src/sync/config.ts` bei `PROJECT_CONFIG` eintragen.
 
 Die Werte darin sind kein Geheimnis: Jede Web-App liefert sie an den Browser aus. Geschützt werden die Daten durch die Regeln aus Schritt 3.
 

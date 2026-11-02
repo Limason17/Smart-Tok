@@ -1,6 +1,6 @@
 # Routine: Aktuelles und Konto-Auswertung
 
-Läuft zweimal täglich (etwa 06:00 und 18:00 Uhr Zürich) als geplante Claude-Aufgabe in diesem Repository.
+Läuft zweimal täglich (etwa 06:00 und 18:00 Uhr Zürich) als geplante Aufgabe in diesem Repository.
 Jeder Lauf macht zwei Dinge: neue **Aktuelles-Karten** für alle und eine **Auswertung aller Konten**.
 Dieses Dokument ist die Anleitung, der jeder Lauf folgt.
 
@@ -41,6 +41,6 @@ Die Auswertung meldet sich mit einem eigenen Konto an, das alle Konten **lesen**
 1. Firebase-Konsole → Projekt `smart-tok-29d06` → **Authentication → Users → Add user**: eine eigene E-Mail (z. B. eine Gmail-Variante mit `+analyse`) und ein langes, zufälliges Passwort. Die angezeigte **User UID** kopieren.
 2. **Firestore Database → Rules**: den Inhalt von [`firestore.rules`](../firestore.rules) einfügen und **Publish**.
 3. **Firestore Database → Data → Start collection**: Collection-ID `analysts`, Document-ID = die kopierte User UID, ein beliebiges Feld (z. B. `note` = `routine`). Speichern.
-4. In der Cloud-Umgebung von Claude (Projekteinstellungen → Cloud-Umgebung → Zahnrad) zwei Umgebungsvariablen anlegen: `SMARTTOK_ANALYSIS_EMAIL` und `SMARTTOK_ANALYSIS_PASSWORD`. Das Passwort nie in den Chat schreiben.
+4. In der Umgebung, in der die Routine läuft, zwei Umgebungsvariablen anlegen: `SMARTTOK_ANALYSIS_EMAIL` und `SMARTTOK_ANALYSIS_PASSWORD`. Das Passwort nie in den Chat schreiben.
 
 Abschalten: das Dokument in `analysts` löschen; der Zugang ist dann sofort weg.
