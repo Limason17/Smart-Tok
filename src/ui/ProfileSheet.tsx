@@ -4,6 +4,8 @@ import { AREA_BY_ID, STYLE_LABELS, STYLES, subtopicLabel, type Lang } from '../c
 import {
   areaShares,
   longMultiplier,
+  REVIEW_STEPS,
+  reviewDue,
   sessionMultiplier,
   type Adjust,
   type Exploration,
@@ -276,13 +278,28 @@ function Saved({ onOpenCard }: { onOpenCard: (id: string) => void }) {
     .filter((r) => r.saved && CARD_BY_ID[r.id])
     .sort((a, b) => (b.savedAt ?? b.updatedAt) - (a.savedAt ?? a.updatedAt));
   if (!saved.length) return <Empty icon="bookmark" text={tr('savedEmpty')} />;
+  const now = Date.now();
+  const dueCount = saved.filter((r) => (reviewDue(r) ?? Infinity) <= now).length;
   return (
-    <div className="list">
-      {saved.map((r) => (
-        <CardRow key={r.id} cardId={r.id} record={r} meta={ago(r.savedAt ?? r.updatedAt, tr.lang)} onOpen={onOpenCard} />
-      ))}
-    </div>
+    <>
+      <p className="hint review-hint">
+        {tr('reviewHint')}
+        {dueCount > 0 && <b> {dueCount === 1 ? tr('reviewDueOne') : tr('reviewDueMany').replace('{n}', String(dueCount))}</b>}
+      </p>
+      <div className="list">
+        {saved.map((r) => (
+          <CardRow key={r.id} cardId={r.id} record={r} meta={`${ago(r.savedAt ?? r.updatedAt, tr.lang)} · ${reviewLabel(r, now, tr)}`} onOpen={onOpenCard} />
+        ))}
+      </div>
+    </>
   );
+}
+
+function reviewLabel(r: CardRecord, now: number, tr: ReturnType<typeof useT>): string {
+  const step = r.reviewStep ?? 0;
+  if (step >= REVIEW_STEPS) return tr('reviewDone');
+  const label = `${tr('reviewed')} ${step}/${REVIEW_STEPS}`;
+  return (reviewDue(r) ?? Infinity) <= now ? `${label} · ${tr('reviewDueShort')}` : label;
 }
 
 type Filter = 'all' | 'liked' | 'disliked';

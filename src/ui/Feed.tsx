@@ -19,6 +19,8 @@ import { Icon } from './Icon';
 interface FeedEntry {
   key: string;
   cardId: string;
+  /** A saved card shown again for its spaced review. */
+  due?: boolean;
 }
 
 const BATCH = 3;
@@ -29,11 +31,15 @@ function nextEntries(existing: FeedEntry[], count: number): FeedEntry[] {
   const seen = seenMap(s.cards);
   const recent = existing.map((e) => e.cardId);
   const out: FeedEntry[] = [];
+  const lastDue = existing.map((e) => !!e.due).lastIndexOf(true);
+  // Without an earlier review in this feed, the first one can come as the third card, never first.
+  let sinceReview = lastDue < 0 ? existing.length + 2 : existing.length - 1 - lastDue;
   for (let i = 0; i < count; i++) {
-    const pick = pickNext({ cards: CARDS, seen, prefs: s.prefs, algo: s.algo, recent, now: Date.now() });
+    const pick = pickNext({ cards: CARDS, seen, prefs: s.prefs, algo: s.algo, recent, sinceReview, now: Date.now() });
     if (!pick) break;
     recent.push(pick.card.id);
-    out.push({ key: `${pick.card.id}-${entryCounter++}`, cardId: pick.card.id });
+    sinceReview = pick.due ? 0 : sinceReview + 1;
+    out.push({ key: `${pick.card.id}-${entryCounter++}`, cardId: pick.card.id, due: pick.due });
   }
   return out;
 }

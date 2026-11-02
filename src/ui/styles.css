@@ -1019,3 +1019,7 @@ input, textarea { font: inherit; color: inherit; }
 @media (min-width: 700px) {
   .feed-item { padding-top: calc(var(--safe-top) + 16px); padding-bottom: calc(var(--safe-bottom) + 16px); }
 }
+
+/* spaced review note above the saved list */
+.review-hint { margin-top: 14px; }
+.review-hint b { font-weight: 600; color: var(--accent); }

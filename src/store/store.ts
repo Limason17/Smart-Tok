@@ -3,11 +3,14 @@ import { CARD_BY_ID } from '../content';
 import type { Card } from '../content/card';
 import type { Lang } from '../content/taxonomy';
 import {
+  afterView,
   applySignal,
   DEFAULT_PREFS,
   emptyAlgo,
   ensureSession,
   foldSession,
+  nextReviewDue,
+  reviewDue,
   type Adjust,
   type AlgoState,
   type Prefs,
@@ -223,7 +226,7 @@ export function streak(days: Record<string, number>, now = Date.now()): number {
 export function seenMap(cards: Record<string, CardRecord>): Record<string, SeenInfo> {
   const out: Record<string, SeenInfo> = {};
   for (const [id, r] of Object.entries(cards)) {
-    if (r.views > 0) out[id] = { lastSeen: r.lastSeen, views: r.views, reaction: r.reaction, saved: r.saved };
+    if (r.views > 0) out[id] = { lastSeen: r.lastSeen, views: r.views, reaction: r.reaction, saved: r.saved, due: reviewDue(r) };
   }
   return out;
 }
@@ -275,6 +278,7 @@ export function recordView(cardId: string, dwellMs: number) {
     views: prev.views + 1,
     dwellMs: prev.dwellMs + Math.min(dwellMs, 15 * 60 * 1000),
     lang: state.settings.lang,
+    ...afterView(prev, now),
     updatedAt: now,
   });
   if (firstToday) {
@@ -319,7 +323,13 @@ export function toggleSave(cardId: string) {
   const card = CARD_BY_ID[cardId];
   if (!card) return;
   const on = !state.cards[cardId]?.saved;
-  updateCard(cardId, () => ({ saved: on, savedAt: on ? Date.now() : undefined }));
+  const now = Date.now();
+  updateCard(cardId, () => ({
+    saved: on,
+    savedAt: on ? now : undefined,
+    reviewStep: on ? 0 : undefined,
+    reviewDue: on ? nextReviewDue(0, now) : undefined,
+  }));
   signal(card, { type: 'save', on });
   logEvent(cardId, 'save', on ? 1 : 0);
 }

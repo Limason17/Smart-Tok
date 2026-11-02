@@ -7,8 +7,12 @@ import type { Stamps, SyncData, SyncSection } from '../store/store';
 
 export const DOC_VERSION = 1;
 
-/** A card record as a short array: [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt]. */
-export type PackedCard = [number, number, number, number, -1 | 0 | 1, 0 | 1, number, 0 | 1, 0 | 1, 'de' | 'en', number];
+/**
+ * A card record as a short array:
+ * [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt, reviewStep, reviewDue].
+ * reviewStep is -1 when unset; the last two entries are missing in documents written before reviews existed.
+ */
+export type PackedCard = [number, number, number, number, -1 | 0 | 1, 0 | 1, number, 0 | 1, 0 | 1, 'de' | 'en', number, number?, number?];
 
 export interface AccountDoc {
   v: number;
@@ -23,11 +27,11 @@ export interface AccountDoc {
 }
 
 export function packCard(r: CardRecord): PackedCard {
-  return [r.firstSeen, r.lastSeen, r.views, Math.round(r.dwellMs), r.reaction, r.saved ? 1 : 0, r.savedAt ?? 0, r.more ? 1 : 0, r.shared ? 1 : 0, r.lang, r.updatedAt];
+  return [r.firstSeen, r.lastSeen, r.views, Math.round(r.dwellMs), r.reaction, r.saved ? 1 : 0, r.savedAt ?? 0, r.more ? 1 : 0, r.shared ? 1 : 0, r.lang, r.updatedAt, r.reviewStep ?? -1, r.reviewDue ?? 0];
 }
 
 export function unpackCard(id: string, p: PackedCard): CardRecord {
-  const [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt] = p;
+  const [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt, reviewStep, reviewDue] = p;
   return {
     id,
     firstSeen,
@@ -41,6 +45,8 @@ export function unpackCard(id: string, p: PackedCard): CardRecord {
     shared: shared === 1,
     lang: lang === 'en' ? 'en' : 'de',
     updatedAt,
+    reviewStep: typeof reviewStep === 'number' && reviewStep >= 0 ? reviewStep : undefined,
+    reviewDue: reviewDue || undefined,
   };
 }
 

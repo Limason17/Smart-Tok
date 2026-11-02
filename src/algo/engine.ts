@@ -61,6 +61,8 @@ export interface SeenInfo {
   views: number;
   reaction: -1 | 0 | 1;
   saved: boolean;
+  /** When a saved card is next due for review (undefined: not saved or all reviews done). */
+  due?: number;
 }
 
 export const TUNING = {
@@ -86,7 +88,51 @@ export const TUNING = {
   recentWindow: 12,
   /** In review mode, prefer cards not seen for this long. */
   reviewCooldownMs: 12 * 60 * 60 * 1000,
+  /** Days between the reviews of a saved card: 1, 3, 7 and 21 days. */
+  reviewDays: [1, 3, 7, 21],
+  /** At least this many other cards between two due reviews, so reviews stay a small share. */
+  reviewGap: 4,
 };
+
+// ---------------------------------------------------------------- spaced review
+
+const DAY_MS = 86_400_000;
+
+/** Review state of a card record (the fields the spaced review needs). */
+export interface ReviewFields {
+  saved: boolean;
+  savedAt?: number;
+  lastSeen: number;
+  reviewStep?: number;
+  reviewDue?: number;
+}
+
+/** Number of reviews a saved card gets. */
+export const REVIEW_STEPS = TUNING.reviewDays.length;
+
+/** When the next review is due after `step` finished reviews, counted from `from`. */
+export function nextReviewDue(step: number, from: number): number | undefined {
+  const days = TUNING.reviewDays[step];
+  return days === undefined ? undefined : from + days * DAY_MS;
+}
+
+/**
+ * When a saved card is due again. Cards saved before reviews existed have no step yet;
+ * their first review counts from the time they were saved.
+ */
+export function reviewDue(r: ReviewFields): number | undefined {
+  if (!r.saved) return undefined;
+  if (r.reviewStep === undefined) return nextReviewDue(0, r.savedAt ?? r.lastSeen);
+  return r.reviewDue;
+}
+
+/** Applies a view of the card: a view while due counts as a review and schedules the next one. */
+export function afterView(r: ReviewFields, now: number): Pick<ReviewFields, 'reviewStep' | 'reviewDue'> {
+  const due = reviewDue(r);
+  const step = r.reviewStep ?? 0;
+  if (!r.saved || due === undefined || now < due) return { reviewStep: r.reviewStep, reviewDue: r.reviewDue };
+  return { reviewStep: step + 1, reviewDue: nextReviewDue(step + 1, now) };
+}
 
 // ---------------------------------------------------------------- features
 
@@ -224,6 +270,8 @@ export interface PickContext {
   algo: AlgoState;
   /** Ids already in the feed, most recent last. */
   recent: string[];
+  /** Feed items since the last review pick (Infinity when there was none). */
+  sinceReview?: number;
   now: number;
   rng?: () => number;
 }
@@ -231,7 +279,10 @@ export interface PickContext {
 export interface FeedPick {
   card: Card;
   explored: boolean;
+  /** Older card shown again because nothing unread is left. */
   review: boolean;
+  /** Saved card that is due for its spaced review. */
+  due?: boolean;
 }
 
 function weightedChoice<T>(items: T[], weight: (t: T) => number, rng: () => number): T | undefined {
@@ -272,6 +323,20 @@ export function pickNext(ctx: PickContext): FeedPick | null {
   const recent = new Set(ctx.recent.slice(-TUNING.recentWindow));
   const eligible = ctx.cards.filter((c) => isEligible(c, prefs, now));
   if (!eligible.length) return null;
+
+  // Saved cards come back after 1, 3, 7 and 21 days, most overdue first, spaced out between other cards.
+  if ((ctx.sinceReview ?? Infinity) >= TUNING.reviewGap) {
+    let dueCard: Card | undefined;
+    let dueAt = Infinity;
+    for (const c of eligible) {
+      const at = seen[c.id]?.due;
+      if (at !== undefined && at <= now && at < dueAt && !recent.has(c.id)) {
+        dueCard = c;
+        dueAt = at;
+      }
+    }
+    if (dueCard) return { card: dueCard, explored: false, review: true, due: true };
+  }
 
   const unread = eligible.filter((c) => !seen[c.id] && !recent.has(c.id));
   let pool = unread;

@@ -11,6 +11,9 @@ export interface CardRecord {
   reaction: -1 | 0 | 1;
   saved: boolean;
   savedAt?: number;
+  /** Spaced review of saved cards: reviews done so far (0 to 4) and when the next one is due. */
+  reviewStep?: number;
+  reviewDue?: number;
   more: boolean;
   shared: boolean;
   /** Language the card was last read in. */

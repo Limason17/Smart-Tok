@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { deriveCard, type Card } from '../content/card';
 import {
+  afterView,
   applySignal,
   areaShares,
   DEFAULT_PREFS,
@@ -9,7 +10,9 @@ import {
   featureMultiplier,
   foldSession,
   freshness,
+  nextReviewDue,
   pickNext,
+  reviewDue,
   sessionMultiplier,
   signalValue,
   TUNING,
@@ -203,5 +206,53 @@ describe('news freshness', () => {
     expect(freshness(news, Date.parse('2026-11-06T00:00:00Z'))).toBeLessThan(0.5);
     expect(freshness(news, Date.parse('2026-11-08T00:00:01Z'))).toBe(0);
     expect(freshness({}, T0)).toBe(1);
+  });
+});
+
+describe('spaced review of saved cards', () => {
+  const DAY = 86_400_000;
+
+  it('schedules reviews 1, 3, 7 and 21 days apart, then stops', () => {
+    let r = { saved: true, savedAt: T0, lastSeen: T0, reviewStep: 0, reviewDue: nextReviewDue(0, T0) };
+    expect(r.reviewDue).toBe(T0 + DAY);
+    // A view before the card is due changes nothing.
+    expect(afterView(r, T0 + DAY / 2)).toEqual({ reviewStep: 0, reviewDue: T0 + DAY });
+    let t = T0;
+    for (const gap of [1, 3, 7, 21]) {
+      t += gap * DAY;
+      r = { ...r, ...afterView(r, t), lastSeen: t } as typeof r;
+    }
+    expect(r.reviewStep).toBe(4);
+    expect(r.reviewDue).toBeUndefined();
+    expect(reviewDue(r)).toBeUndefined();
+  });
+
+  it('gives cards saved before reviews existed a first review one day after saving', () => {
+    expect(reviewDue({ saved: true, savedAt: T0, lastSeen: T0 })).toBe(T0 + DAY);
+    expect(reviewDue({ saved: false, lastSeen: T0 })).toBeUndefined();
+  });
+
+  it('puts a due saved card into the feed, spaced out and not twice in a row', () => {
+    const seen: Record<string, SeenInfo> = {};
+    for (const c of deck.slice(0, 10)) seen[c.id] = { lastSeen: T0, views: 1, reaction: 0, saved: false };
+    seen['faith-0'] = { lastSeen: T0, views: 1, reaction: 0, saved: true, due: T0 + DAY };
+    const base = { cards: deck, seen, prefs: DEFAULT_PREFS, algo: emptyAlgo(T0), rng: rng() };
+
+    // Not due yet: never picked as a review.
+    expect(pickNext({ ...base, recent: [], now: T0 })!.due).toBeFalsy();
+    // Due: picked when enough other cards came since the last review.
+    const now = T0 + 2 * DAY;
+    const pick = pickNext({ ...base, recent: [], now, sinceReview: TUNING.reviewGap })!;
+    expect(pick).toMatchObject({ due: true, card: { id: 'faith-0' } });
+    // Too soon after another review, or already in the feed: normal pick.
+    expect(pickNext({ ...base, recent: [], now, sinceReview: 1 })!.due).toBeFalsy();
+    expect(pickNext({ ...base, recent: ['faith-0'], now, sinceReview: 10 })!.due).toBeFalsy();
+  });
+
+  it('skips due cards from areas the user switched off', () => {
+    const seen: Record<string, SeenInfo> = { 'faith-0': { lastSeen: T0, views: 1, reaction: 0, saved: true, due: T0 } };
+    const prefs = { ...DEFAULT_PREFS, disabledAreas: ['glaube'] };
+    const pick = pickNext({ cards: deck, seen, prefs, algo: emptyAlgo(T0), recent: [], now: T0 + 1, sinceReview: 10, rng: rng() })!;
+    expect(pick.due).toBeFalsy();
   });
 });
