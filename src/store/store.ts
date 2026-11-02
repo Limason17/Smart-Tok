@@ -35,8 +35,29 @@ export interface Suggestion {
   createdAt: number;
 }
 
+/** Sections of the state that sync as a whole; the newer one wins. */
+export type SyncSection = 'settings' | 'prefs' | 'suggestions' | 'algo';
+export type Stamps = Record<SyncSection, number>;
+const SYNC_SECTIONS: SyncSection[] = ['settings', 'prefs', 'suggestions', 'algo'];
+
+export interface Account {
+  uid: string;
+  email: string;
+  name: string;
+}
+
+export interface SyncStatus {
+  state: 'off' | 'syncing' | 'ok' | 'error';
+  at?: number;
+  error?: string;
+}
+
 export interface State {
   ready: boolean;
+  stamps: Stamps;
+  /** Signed-in account, if any (comes from the sync module). */
+  account: Account | null;
+  sync: SyncStatus;
   settings: Settings;
   prefs: Prefs;
   algo: AlgoState;
@@ -63,8 +84,13 @@ const defaultSettings = (): Settings => ({
   onboarded: false,
 });
 
+const emptyStamps = (): Stamps => ({ settings: 0, prefs: 0, suggestions: 0, algo: 0 });
+
 let state: State = {
   ready: false,
+  stamps: emptyStamps(),
+  account: null,
+  sync: { state: 'off' },
   settings: defaultSettings(),
   prefs: DEFAULT_PREFS,
   algo: emptyAlgo(),
@@ -107,6 +133,11 @@ async function safe<T>(fn: () => Promise<T>): Promise<T | undefined> {
 
 const kvTimers = new Map<string, ReturnType<typeof setTimeout>>();
 function persistKv(key: string, value: unknown, delay = 400) {
+  if ((SYNC_SECTIONS as string[]).includes(key)) {
+    const stamps = { ...state.stamps, [key]: Date.now() };
+    set({ stamps });
+    void safe(() => db.kv.put({ key: 'stamps', value: stamps }));
+  }
   clearTimeout(kvTimers.get(key));
   kvTimers.set(
     key,
@@ -153,6 +184,7 @@ export async function init(): Promise<void> {
       // A session idle for 30+ minutes is folded into the long-term profile on start.
       algo: ensureSession(algo, now),
       suggestions: (loaded.kv.suggestions as Suggestion[] | undefined) ?? [],
+      stamps: { ...emptyStamps(), ...(loaded.kv.stamps as Partial<Stamps> | undefined) },
       cards: Object.fromEntries(loaded.cards.map((c) => [c.id, c])),
       days: Object.fromEntries(loaded.days.map((d) => [d.date, d.count])),
     });
@@ -389,6 +421,87 @@ export function endSession() {
 /** Interaction events in a time range, oldest first. */
 export async function eventsBetween(start: number, end: number): Promise<EventRecord[]> {
   return (await safe(() => db.events.where('t').between(start, end, true, false).toArray())) ?? [];
+}
+
+// ---------------------------------------------------------------- sync support
+
+/** Everything that is synced to the account. */
+export interface SyncData {
+  cards: Record<string, CardRecord>;
+  days: Record<string, number>;
+  settings: Settings;
+  prefs: Prefs;
+  algo: AlgoState;
+  suggestions: Suggestion[];
+  stamps: Stamps;
+}
+
+export function getSyncData(): SyncData {
+  const { cards, days, settings, prefs, algo, suggestions, stamps } = state;
+  return { cards, days, settings, prefs, algo, suggestions, stamps };
+}
+
+/** Replaces local data with merged data from the account (does not touch the stamps' meaning). */
+export async function applySyncData(data: SyncData): Promise<void> {
+  const changedCards = Object.values(data.cards).filter((r) => state.cards[r.id]?.updatedAt !== r.updatedAt || !state.cards[r.id]);
+  const changedDays = Object.entries(data.days).filter(([d, n]) => state.days[d] !== n);
+  set({
+    cards: data.cards,
+    days: data.days,
+    settings: { ...defaultSettings(), ...data.settings, onboarded: true },
+    prefs: { ...DEFAULT_PREFS, ...data.prefs },
+    algo: ensureSession(data.algo, Date.now()),
+    suggestions: data.suggestions,
+    stamps: data.stamps,
+  });
+  await safe(() =>
+    db.transaction('rw', db.cards, db.days, db.kv, async () => {
+      if (changedCards.length) await db.cards.bulkPut(changedCards);
+      if (changedDays.length) await db.days.bulkPut(changedDays.map(([date, count]) => ({ date, count })));
+      await db.kv.bulkPut([
+        { key: 'algo', value: state.algo },
+        { key: 'prefs', value: state.prefs },
+        { key: 'settings', value: state.settings },
+        { key: 'suggestions', value: state.suggestions },
+        { key: 'stamps', value: state.stamps },
+      ]);
+    }),
+  );
+}
+
+/** After signing out: removes history and personal settings from this device; keeps language and look. */
+export async function clearLocalData(): Promise<void> {
+  const { lang, theme, fontSize } = state.settings;
+  set({
+    cards: {},
+    days: {},
+    prefs: DEFAULT_PREFS,
+    algo: ensureSession(emptyAlgo(), Date.now()),
+    suggestions: [],
+    stamps: emptyStamps(),
+    settings: { ...defaultSettings(), lang, theme, fontSize, onboarded: true, installHintDismissed: state.settings.installHintDismissed },
+  });
+  await safe(async () => {
+    await Promise.all([db.cards.clear(), db.days.clear(), db.events.clear(), db.kv.clear()]);
+    await db.kv.put({ key: 'settings', value: state.settings });
+  });
+}
+
+export function setAccount(account: Account | null) {
+  set({ account });
+}
+
+export function setSyncStatus(sync: SyncStatus) {
+  set({ sync });
+}
+
+/** Small key-value values that are not part of the state (e.g. which account this device last synced with). */
+export async function readKv<T>(key: string): Promise<T | undefined> {
+  return (await safe(() => db.kv.get(key)))?.value as T | undefined;
+}
+
+export async function writeKv(key: string, value: unknown): Promise<void> {
+  await safe(() => db.kv.put({ key, value }));
 }
 
 export async function allEvents(): Promise<EventRecord[]> {

@@ -6,8 +6,9 @@ import '@fontsource-variable/literata/wght-italic.css';
 import './ui/styles.css';
 import { App } from './ui/App';
 import { init } from './store/store';
+import { startAccounts } from './sync/account';
 
-void init();
+void init().then(startAccounts);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

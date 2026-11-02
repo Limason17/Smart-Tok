@@ -1,0 +1,29 @@
+rules_version = '2';
+
+// Smart-Tok: every account has exactly one document, users/{uid}.
+// Only the signed-in owner can read or change it. Nothing else is readable.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      function isOwner() {
+        return request.auth != null && request.auth.uid == uid;
+      }
+
+      function validDoc() {
+        let d = request.resource.data;
+        return d.keys().hasOnly(['v', 'name', 'cards', 'days', 'settings', 'prefs', 'algo', 'suggestions', 'stamps', 'updatedAt'])
+          && d.v is int
+          && d.name is string && d.name.size() <= 30
+          && d.cards is map && d.days is map
+          && d.suggestions is list && d.suggestions.size() <= 200;
+      }
+
+      allow read, delete: if isOwner();
+      allow create, update: if isOwner() && validDoc();
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

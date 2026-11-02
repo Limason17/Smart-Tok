@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useT } from '../i18n/strings';
 import { setSettings, useStore } from '../store/store';
+import { AccountSheet } from './AccountSheet';
 import { CardSheet, MoreSheet } from './CardSheet';
 import { Feed } from './Feed';
 import { Icon } from './Icon';
@@ -13,6 +14,7 @@ type Panel =
   | { kind: 'topics' }
   | { kind: 'settings'; fromProfile?: boolean }
   | { kind: 'profile' }
+  | { kind: 'account' }
   | { kind: 'card'; cardId: string }
   | { kind: 'more'; cardId: string }
   | null;
@@ -105,9 +107,11 @@ export function App() {
           onOpenCard={(cardId) => setPanel({ kind: 'card', cardId })}
           onOpenSettings={() => setPanel({ kind: 'settings', fromProfile: true })}
           onOpenTopics={openTopics}
+          onOpenAccount={() => setPanel({ kind: 'account' })}
           onToast={setToast}
         />
       )}
+      {panel?.kind === 'account' && <AccountSheet onClose={openProfile} onToast={setToast} />}
       {panel?.kind === 'card' && <CardSheet cardId={panel.cardId} onClose={openProfile} />}
       {panel?.kind === 'more' && <MoreSheet cardId={panel.cardId} onClose={close} />}
       <InstallHint />

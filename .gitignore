@@ -1,5 +1,7 @@
 node_modules/
 dist/
+dist-emu/
+*.log
 dev-dist/
 coverage/
 test-results/

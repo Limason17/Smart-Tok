@@ -11,6 +11,7 @@ import {
 import { useT, type StringKey } from '../i18n/strings';
 import { eventsBetween, localDate, resetAlgorithm, setAdjust, setPrefs, streak, useStore } from '../store/store';
 import type { CardRecord } from '../store/db';
+import { AccountCard } from './AccountSheet';
 import { Icon } from './Icon';
 import { Segmented, Sheet } from './Sheet';
 
@@ -25,10 +26,11 @@ export interface ProfileSheetProps {
   onOpenCard: (cardId: string) => void;
   onOpenSettings: () => void;
   onOpenTopics: () => void;
+  onOpenAccount: () => void;
   onToast: (text: string) => void;
 }
 
-export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics, onToast }: ProfileSheetProps) {
+export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics, onOpenAccount, onToast }: ProfileSheetProps) {
   const tr = useT();
   const [tab, setTab] = useState<Tab>(lastTab);
   useEffect(() => {
@@ -48,7 +50,7 @@ export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics
         ]}
         onChange={setTab}
       />
-      {tab === 'overview' && <Overview onOpenCard={onOpenCard} onOpenSettings={onOpenSettings} />}
+      {tab === 'overview' && <Overview onOpenCard={onOpenCard} onOpenSettings={onOpenSettings} onOpenAccount={onOpenAccount} />}
       {tab === 'saved' && <Saved onOpenCard={onOpenCard} />}
       {tab === 'history' && <History onOpenCard={onOpenCard} />}
       {tab === 'algo' && <MyAlgorithm onOpenTopics={onOpenTopics} onToast={onToast} />}
@@ -100,7 +102,15 @@ function CardRow({ cardId, record, meta, onOpen }: { cardId: string; record?: Ca
 
 // ---------------------------------------------------------------- overview
 
-function Overview({ onOpenCard, onOpenSettings }: { onOpenCard: (id: string) => void; onOpenSettings: () => void }) {
+function Overview({
+  onOpenCard,
+  onOpenSettings,
+  onOpenAccount,
+}: {
+  onOpenCard: (id: string) => void;
+  onOpenSettings: () => void;
+  onOpenAccount: () => void;
+}) {
   const tr = useT();
   const cards = useStore((s) => s.cards);
   const days = useStore((s) => s.days);
@@ -115,6 +125,7 @@ function Overview({ onOpenCard, onOpenSettings }: { onOpenCard: (id: string) => 
 
   return (
     <>
+      <AccountCard onOpen={onOpenAccount} />
       <div className="stats">
         <Stat value={read} label={tr('statRead')} />
         <Stat value={streak(days)} label={tr('statStreak')} icon="flame" />
