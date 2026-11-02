@@ -1023,3 +1023,7 @@ input, textarea { font: inherit; color: inherit; }
 /* spaced review note above the saved list */
 .review-hint { margin-top: 14px; }
 .review-hint b { font-weight: 600; color: var(--accent); }
+
+/* "Alles zurücksetzen" panel in the settings */
+.reset-box { margin-top: 12px; padding: 14px 16px; border-radius: 14px; border: 1px solid color-mix(in srgb, var(--like) 35%, transparent); }
+.reset-keep { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 12px 0 4px; font-size: 15px; font-weight: 600; }

@@ -112,15 +112,24 @@ const SECTIONS: SyncSection[] = ['settings', 'prefs', 'suggestions', 'algo'];
  * synced with this account takes them from the account, so a fresh install doesn't overwrite them.
  */
 export function mergeData(local: SyncData, remote: SyncData, preferRemote: boolean): SyncData {
-  const cards: Record<string, CardRecord> = { ...remote.cards };
-  for (const [id, r] of Object.entries(local.cards)) cards[id] = cards[id] ? mergeCard(r, cards[id]) : r;
+  // After "Alles zurücksetzen" only data from the resetting side, or newer than the reset, survives.
+  const localReset = local.stamps.reset ?? 0;
+  const remoteReset = remote.stamps.reset ?? 0;
+  const cutoff = Math.max(localReset, remoteReset);
+  const keep = (sideReset: number) => (r: CardRecord) => sideReset === cutoff || r.updatedAt > cutoff;
 
-  const days: Record<string, number> = { ...remote.days };
-  for (const [d, n] of Object.entries(local.days)) days[d] = Math.max(n, days[d] ?? 0);
+  const cards: Record<string, CardRecord> = {};
+  for (const r of Object.values(remote.cards).filter(keep(remoteReset))) cards[r.id] = r;
+  for (const r of Object.values(local.cards).filter(keep(localReset))) cards[r.id] = cards[r.id] ? mergeCard(r, cards[r.id]) : r;
 
-  const out: SyncData = { ...local, cards, days, stamps: { ...local.stamps } };
+  const days: Record<string, number> = remoteReset === cutoff ? { ...remote.days } : {};
+  if (localReset === cutoff) for (const [d, n] of Object.entries(local.days)) days[d] = Math.max(n, days[d] ?? 0);
+
+  const out: SyncData = { ...local, cards, days, stamps: { ...local.stamps, ...(cutoff ? { reset: cutoff } : {}) } };
   for (const section of SECTIONS) {
-    const remoteWins = preferRemote ? remote.stamps[section] > 0 : remote.stamps[section] > local.stamps[section];
+    const remoteStale = remoteReset < localReset;
+    const remoteWins =
+      preferRemote && !remoteStale ? remote.stamps[section] > 0 : remote.stamps[section] > local.stamps[section];
     if (remoteWins) {
       (out as unknown as Record<SyncSection, unknown>)[section] = remote[section];
       out.stamps[section] = remote.stamps[section];

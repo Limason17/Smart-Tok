@@ -77,6 +77,11 @@ export function App() {
     return () => clearTimeout(t);
   }, [toast]);
 
+  // After "Alles zurücksetzen" the introduction runs again; no sheet should pop up behind it.
+  useEffect(() => {
+    if (!onboarded) setPanel(null);
+  }, [onboarded]);
+
   const close = useCallback(() => setPanel(null), []);
   const openTopics = useCallback(() => setPanel({ kind: 'topics' }), []);
   const onMore = useCallback((cardId: string) => setPanel({ kind: 'more', cardId }), []);

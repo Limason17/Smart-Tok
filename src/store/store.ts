@@ -40,7 +40,8 @@ export interface Suggestion {
 
 /** Sections of the state that sync as a whole; the newer one wins. */
 export type SyncSection = 'settings' | 'prefs' | 'suggestions' | 'algo';
-export type Stamps = Record<SyncSection, number>;
+/** When each section last changed; `reset` is when the whole account was last reset ("Alles zurücksetzen"). */
+export type Stamps = Record<SyncSection, number> & { reset?: number };
 const SYNC_SECTIONS: SyncSection[] = ['settings', 'prefs', 'suggestions', 'algo'];
 
 export interface Account {
@@ -455,6 +456,9 @@ export function getSyncData(): SyncData {
 export async function applySyncData(data: SyncData): Promise<void> {
   const changedCards = Object.values(data.cards).filter((r) => state.cards[r.id]?.updatedAt !== r.updatedAt || !state.cards[r.id]);
   const changedDays = Object.entries(data.days).filter(([d, n]) => state.days[d] !== n);
+  // After a reset on another device, records this device still has must go too.
+  const goneCards = Object.keys(state.cards).filter((id) => !data.cards[id]);
+  const goneDays = Object.keys(state.days).filter((d) => !(d in data.days));
   set({
     cards: data.cards,
     days: data.days,
@@ -466,6 +470,8 @@ export async function applySyncData(data: SyncData): Promise<void> {
   });
   await safe(() =>
     db.transaction('rw', db.cards, db.days, db.kv, async () => {
+      if (goneCards.length) await db.cards.bulkDelete(goneCards);
+      if (goneDays.length) await db.days.bulkDelete(goneDays);
       if (changedCards.length) await db.cards.bulkPut(changedCards);
       if (changedDays.length) await db.days.bulkPut(changedDays.map(([date, count]) => ({ date, count })));
       await db.kv.bulkPut([
@@ -495,6 +501,58 @@ export async function clearLocalData(): Promise<void> {
     await Promise.all([db.cards.clear(), db.days.clear(), db.events.clear(), db.kv.clear()]);
     await db.kv.put({ key: 'settings', value: state.settings });
   });
+}
+
+/**
+ * "Alles zurücksetzen": turns this into a fresh account. Clears history, likes, streak, topic choices,
+ * algorithm tweaks and suggestions, and shows the introduction again. Language and look stay.
+ * With keepSaved, saved cards stay saved, including their review schedule.
+ * The reset time is synced, so other devices drop their old data too.
+ */
+export async function resetAll(keepSaved: boolean): Promise<void> {
+  const now = Date.now();
+  const kept: Record<string, CardRecord> = {};
+  if (keepSaved) {
+    for (const r of Object.values(state.cards)) {
+      if (!r.saved) continue;
+      kept[r.id] = {
+        ...blankRecord(r.id, now),
+        firstSeen: r.firstSeen || now,
+        lastSeen: r.lastSeen || now,
+        views: 1,
+        saved: true,
+        savedAt: r.savedAt ?? now,
+        reviewStep: r.reviewStep,
+        reviewDue: r.reviewDue,
+        lang: r.lang,
+      };
+    }
+  }
+  for (const t of kvTimers.values()) clearTimeout(t);
+  kvTimers.clear();
+  const { lang, theme, fontSize, installHintDismissed } = state.settings;
+  set({
+    cards: kept,
+    days: {},
+    prefs: DEFAULT_PREFS,
+    algo: ensureSession(emptyAlgo(now), now),
+    suggestions: [],
+    stamps: { settings: now, prefs: now, suggestions: now, algo: now, reset: now },
+    settings: { ...defaultSettings(), lang, theme, fontSize, installHintDismissed, onboarded: false },
+  });
+  await safe(() =>
+    db.transaction('rw', db.cards, db.days, db.events, db.kv, async () => {
+      await Promise.all([db.cards.clear(), db.days.clear(), db.events.clear()]);
+      if (keepSaved) await db.cards.bulkPut(Object.values(kept));
+      await db.kv.bulkPut([
+        { key: 'algo', value: state.algo },
+        { key: 'prefs', value: state.prefs },
+        { key: 'settings', value: state.settings },
+        { key: 'suggestions', value: state.suggestions },
+        { key: 'stamps', value: state.stamps },
+      ]);
+    }),
+  );
 }
 
 export function setAccount(account: Account | null) {

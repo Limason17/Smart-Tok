@@ -1,6 +1,7 @@
 import 'fake-indexeddb/auto';
 import { describe, expect, it } from 'vitest';
-import { addSuggestion, getState, localDate, sanitizeText, setAdjust, streak } from './store';
+import { CARDS } from '../content';
+import { addSuggestion, getState, localDate, resetAll, sanitizeText, setAdjust, streak, toggleLike, toggleSave } from './store';
 
 describe('topic suggestions', () => {
   it('strips control characters, links and markup and caps the length', () => {
@@ -42,5 +43,27 @@ describe('algorithm tweaks', () => {
     expect(getState().prefs.adjust['st:zitat']).toBe('more');
     setAdjust('st:zitat', 'normal');
     expect('st:zitat' in getState().prefs.adjust).toBe(false);
+  });
+});
+
+describe('reset everything', () => {
+  it('makes a fresh account and can keep saved cards', async () => {
+    setAdjust('st:zitat', 'more');
+    addSuggestion('Verhandeln');
+    const [a, b] = CARDS;
+    toggleSave(a.id);
+    toggleLike(b.id);
+    await resetAll(true);
+    const s = getState();
+    expect(Object.keys(s.cards)).toEqual([a.id]);
+    expect(s.cards[a.id]).toMatchObject({ saved: true, reaction: 0, views: 1 });
+    expect(s.prefs.adjust).toEqual({});
+    expect(s.suggestions).toEqual([]);
+    expect(s.days).toEqual({});
+    expect(s.settings.onboarded).toBe(false);
+    expect(s.stamps.reset).toBeGreaterThan(0);
+
+    await resetAll(false);
+    expect(getState().cards).toEqual({});
   });
 });

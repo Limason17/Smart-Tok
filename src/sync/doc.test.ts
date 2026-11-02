@@ -78,4 +78,25 @@ describe('merging devices', () => {
     expect(mergeData(local, remote, true).prefs.exploration).toBe('low');
     expect(mergeData(local, data(), true).prefs.exploration).toBe('high');
   });
+
+  it('drops data from before a reset on the other device', () => {
+    // The phone reset everything at 5000 and kept one saved card.
+    const phone = data({
+      cards: { kept: rec('kept', { saved: true, updatedAt: 5000 }) },
+      stamps: { settings: 5000, prefs: 5000, suggestions: 5000, algo: 5000, reset: 5000 },
+    });
+    // The tablet still has old history, plus one card read after the reset.
+    const tablet = data({
+      cards: { old: rec('old', { updatedAt: 3000 }), after: rec('after', { updatedAt: 6000 }) },
+      days: { '2026-11-01': 4 },
+      prefs: { ...DEFAULT_PREFS, exploration: 'high' },
+      stamps: { settings: 1000, prefs: 1000, suggestions: 1000, algo: 1000 },
+    });
+    for (const merged of [mergeData(tablet, phone, false), mergeData(phone, tablet, true)]) {
+      expect(Object.keys(merged.cards).sort()).toEqual(['after', 'kept']);
+      expect(merged.days).toEqual({});
+      expect(merged.prefs.exploration).toBe('normal');
+      expect(merged.stamps.reset).toBe(5000);
+    }
+  });
 });
