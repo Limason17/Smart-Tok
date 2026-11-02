@@ -175,6 +175,7 @@ function AuthForm() {
           {mode === 'signup' && <small>{tr('passwordHint')}</small>}
         </label>
       )}
+      {mode === 'signup' && <p className="hint">{tr('dataNote')}</p>}
       {error && (
         <p className="form-error" role="alert">
           {error}

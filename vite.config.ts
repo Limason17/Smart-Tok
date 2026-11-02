@@ -34,8 +34,16 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
-        globIgnores: ['**/*cyrillic*', '**/*greek*', '**/*vietnamese*'],
+        globIgnores: ['**/*cyrillic*', '**/*greek*', '**/*vietnamese*', '**/news-archive/**'],
         navigateFallback: 'index.html',
+        // Archived news (public/news-archive) is only fetched when a saved news card needs it.
+        runtimeCaching: [
+          {
+            urlPattern: /\/news-archive\/\d{4}-\d{2}\.json$/,
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'news-archive' },
+          },
+        ],
       },
     }),
   ],

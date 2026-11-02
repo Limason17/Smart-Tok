@@ -1,9 +1,16 @@
 rules_version = '2';
 
 // Smart-Tok: every account has exactly one document, users/{uid}.
-// Only the signed-in owner can read or change it. Nothing else is readable.
+// Only the signed-in owner can read or change it.
+// The analysis account of the routine (docs/routine.md) may READ all accounts, never write.
+// It is enabled by a document analysts/{its uid}, which only the project owner can create
+// in the Firebase console; nobody can read or write analysts/ through the app.
 service cloud.firestore {
   match /databases/{database}/documents {
+    function isAnalyst() {
+      return request.auth != null && exists(/databases/$(database)/documents/analysts/$(request.auth.uid));
+    }
+
     match /users/{uid} {
       function isOwner() {
         return request.auth != null && request.auth.uid == uid;
@@ -18,7 +25,8 @@ service cloud.firestore {
           && d.suggestions is list && d.suggestions.size() <= 200;
       }
 
-      allow read, delete: if isOwner();
+      allow get, delete: if isOwner();
+      allow get, list: if isAnalyst();
       allow create, update: if isOwner() && validDoc();
     }
 

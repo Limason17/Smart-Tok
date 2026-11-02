@@ -80,7 +80,12 @@ function Meta({ card }: { card: Card }) {
       <span className="crumb">
         {area.label[tr.lang]} <span>· {subtopicLabel(card.area, card.sub, tr.lang)}</span>
       </span>
-      <span className="chip">{STYLE_LABELS[card.style][tr.lang]}</span>
+      <span className="chip">
+        {card.publishedAt
+          ? // News show their date instead of the card style.
+            new Date(card.publishedAt).toLocaleDateString(tr.lang === 'de' ? 'de-CH' : 'en-US', { day: 'numeric', month: 'short' })
+          : STYLE_LABELS[card.style][tr.lang]}
+      </span>
     </header>
   );
 }

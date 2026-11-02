@@ -14,7 +14,8 @@ export interface FirebaseConfig {
 }
 
 function fromEnv(): FirebaseConfig | null {
-  const raw = import.meta.env.VITE_FIREBASE_CONFIG as string | undefined;
+  // import.meta.env only exists in Vite builds; the routine scripts run this file in plain Node.
+  const raw = import.meta.env?.VITE_FIREBASE_CONFIG as string | undefined;
   if (!raw) return null;
   try {
     return JSON.parse(raw) as FirebaseConfig;

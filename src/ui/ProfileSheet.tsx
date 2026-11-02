@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useState, type CSSProperties } from 'react';
+import { useEffect, useMemo, useState, useSyncExternalStore, type CSSProperties } from 'react';
+import { archiveVersion, loadArchived, onArchive } from '../content/archive';
 import { ACTIVE_AREAS, CARD_BY_ID, CARDS } from '../content';
 import { AREA_BY_ID, STYLE_LABELS, STYLES, subtopicLabel, type Lang } from '../content/taxonomy';
 import {
@@ -38,6 +39,10 @@ export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics
   useEffect(() => {
     lastTab = tab;
   }, [tab]);
+  // Saved news cards that already left the app are fetched from the archive.
+  const records = useStore((s) => s.cards);
+  useEffect(() => loadArchived(Object.keys(records)), [records]);
+  useSyncExternalStore(onArchive, archiveVersion);
   return (
     <Sheet title={tr('profile')} onClose={onClose}>
       <Segmented<Tab>
@@ -308,6 +313,7 @@ const PAGE = 40;
 function History({ onOpenCard }: { onOpenCard: (id: string) => void }) {
   const tr = useT();
   const records = useStore((s) => s.cards);
+  const archived = useSyncExternalStore(onArchive, archiveVersion);
   const [filter, setFilter] = useState<Filter>('all');
   const [limit, setLimit] = useState(PAGE);
   const list = useMemo(
@@ -316,7 +322,7 @@ function History({ onOpenCard }: { onOpenCard: (id: string) => void }) {
         .filter((r) => r.views > 0 && CARD_BY_ID[r.id])
         .filter((r) => (filter === 'liked' ? r.reaction === 1 : filter === 'disliked' ? r.reaction === -1 : true))
         .sort((a, b) => b.lastSeen - a.lastSeen),
-    [records, filter],
+    [records, filter, archived],
   );
   const anyRead = Object.values(records).some((r) => r.views > 0);
   if (!anyRead) return <Empty icon="history" text={tr('historyEmpty')} />;

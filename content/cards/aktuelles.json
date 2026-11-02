@@ -1,0 +1,56 @@
+[
+  {
+    "id": "news-2026-11-02-us-zwischenwahlen",
+    "area": "aktuelles",
+    "sub": "termine",
+    "style": "erklaerung",
+    "level": 1,
+    "publishedAt": "2026-11-02T17:00:00Z",
+    "expiresAt": "2026-11-05T17:00:00Z",
+    "de": {
+      "title": "USA wählen am Dienstag den Kongress neu",
+      "body": "Am 3. November sind in den USA Zwischenwahlen. Gewählt werden **alle 435 Sitze** im Repräsentantenhaus, 35 der 100 Senatssitze und 36 Gouverneure.\n\nWarum es wichtig ist: Im Senat haben die Republikaner derzeit 53 zu 47 Sitze, im Repräsentantenhaus eine knappe Mehrheit. Gewinnen die Demokraten eine der beiden Kammern, kann der Präsident Gesetze kaum noch ohne sie durchbringen. Bei knappen Rennen kann das Endergebnis mehrere Tage dauern.",
+      "more": "Zwischenwahlen (Midterms) finden in der Mitte der vierjährigen Amtszeit des Präsidenten statt. Das Repräsentantenhaus wird alle zwei Jahre komplett neu gewählt, der Senat jeweils zu einem Drittel. Im Senat brauchen die Demokraten einen Nettogewinn von vier Sitzen für die Mehrheit. Bis zum 30. Oktober wurden laut AP schon über 43 Millionen Stimmen vorzeitig abgegeben.",
+      "source": "Vanderbilt Report und Fulcrum Macro, 2. November 2026"
+    },
+    "en": {
+      "title": "The US elects a new Congress on Tuesday",
+      "body": "The US holds its midterm elections on November 3. On the ballot: **all 435 seats** in the House, 35 of the 100 Senate seats and 36 governorships.\n\nWhy it matters: Republicans currently hold the Senate 53 to 47 and a narrow House majority. If Democrats win either chamber, the president can hardly pass laws without them. In close races the final result can take several days.",
+      "more": "Midterms fall in the middle of the president's four-year term. The whole House is elected every two years, the Senate a third at a time. Democrats need a net gain of four seats to control the Senate. By October 30, more than 43 million early ballots had been cast, according to AP.",
+      "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
+    }
+  },
+  {
+    "id": "news-2026-11-02-zinswoche",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "fakt",
+    "level": 2,
+    "publishedAt": "2026-11-02T17:00:00Z",
+    "expiresAt": "2026-11-07T17:00:00Z",
+    "de": {
+      "title": "Eine Woche voller Zinsentscheide",
+      "body": "Diese Woche entscheiden mehrere Notenbanken über ihre Leitzinsen. Warum es wichtig ist: Leitzinsen bestimmen, was Kredite kosten und was Sparen bringt, und sie bewegen Währungen und Aktienkurse weit über das jeweilige Land hinaus.",
+      "points": [
+        "Dienstag: Australien (RBA)",
+        "Mittwoch: Schweden (Riksbank) und Brasilien",
+        "Donnerstag: Bank of England, Norwegen und Mexiko",
+        "Freitag: US-Arbeitsmarktbericht für Oktober"
+      ],
+      "more": "Der US-Arbeitsmarktbericht gilt als wichtigste Konjunkturzahl der Welt: Er zeigt, wie viele Stellen neu entstanden sind, und beeinflusst, wie die US-Notenbank im Dezember entscheidet. Die Bank of England legt zusammen mit dem Entscheid ihren Bericht zur Geldpolitik vor.",
+      "source": "Vanderbilt Report und Fulcrum Macro, 2. November 2026"
+    },
+    "en": {
+      "title": "A week full of rate decisions",
+      "body": "Several central banks set their interest rates this week. Why it matters: policy rates decide what loans cost and what saving earns, and they move currencies and stock prices far beyond the country itself.",
+      "points": [
+        "Tuesday: Australia (RBA)",
+        "Wednesday: Sweden (Riksbank) and Brazil",
+        "Thursday: Bank of England, Norway and Mexico",
+        "Friday: US jobs report for October"
+      ],
+      "more": "The US jobs report is often called the most important economic number in the world: it shows how many jobs were added and shapes what the Federal Reserve does in December. The Bank of England publishes its Monetary Policy Report together with the decision.",
+      "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
+    }
+  }
+]
