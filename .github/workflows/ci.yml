@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate cards
+        run: npm run validate
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Tests
+        run: npm test
+      - name: Build
+        run: npx vite build
+      - name: Only Limason17 as author
+        if: github.event_name == 'pull_request'
+        run: |
+          range="origin/${{ github.base_ref }}..${{ github.event.pull_request.head.sha }}"
+          fail=0
+          while IFS='|' read -r sha an cn; do
+            if [ "$an" != "Limason17" ] || { [ "$cn" != "Limason17" ] && [ "$cn" != "GitHub" ]; }; then
+              echo "::error::$sha has author '$an' / committer '$cn'"; fail=1
+            fi
+          done < <(git log --no-merges --format='%h|%an|%cn' "$range")
+          if git log --no-merges --format='%B' "$range" | grep -qiE '^(co-authored-by|claude-session):'; then
+            echo "::error::a commit message contains a co-author line"; fail=1
+          fi
+          exit $fail

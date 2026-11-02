@@ -1,0 +1,20 @@
+[
+  {
+    "id": "zitat-seneca-zeit",
+    "area": "zitate",
+    "sub": "stoiker",
+    "style": "zitat",
+    "de": {
+      "title": "Seneca über die Zeit",
+      "quote": { "text": "Es ist nicht wenig Zeit, die wir haben, sondern es ist viel Zeit, die wir nicht nutzen.", "author": "Seneca", "source": "Von der Kürze des Lebens" },
+      "body": "Seneca dreht die Klage um.",
+      "apply": "Schreib heute auf, wofür deine ersten zwei Stunden draufgehen."
+    },
+    "en": {
+      "title": "Seneca on time",
+      "quote": { "text": "It is not that we have a short time to live, but that we waste a lot of it.", "author": "Seneca", "source": "On the Shortness of Life" },
+      "body": "Seneca flips the complaint.",
+      "apply": "Write down where your first two hours go today."
+    }
+  }
+]

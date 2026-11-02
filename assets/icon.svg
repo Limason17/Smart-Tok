@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d1f26"/>
+      <stop offset="1" stop-color="#0d0e11"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#f0cf8d"/>
+      <stop offset="1" stop-color="#c9963e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#dcb46c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#dcb46c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <g id="mark">
+    <rect x="160" y="112" width="200" height="268" rx="34" fill="#353845" transform="rotate(-9 260 246)"/>
+    <rect x="152" y="132" width="208" height="276" rx="34" fill="url(#gold)"/>
+    <rect x="186" y="178" width="96" height="16" rx="8" fill="#1a1408" opacity="0.88"/>
+    <rect x="186" y="214" width="140" height="11" rx="5.5" fill="#1a1408" opacity="0.5"/>
+    <rect x="186" y="238" width="128" height="11" rx="5.5" fill="#1a1408" opacity="0.5"/>
+    <rect x="186" y="262" width="140" height="11" rx="5.5" fill="#1a1408" opacity="0.5"/>
+    <path d="M256 368 l-20 -20 M256 368 l20 -20 M256 368 v-48" stroke="#1a1408" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85" transform="rotate(180 256 344)"/>
+  </g>
+</svg>
