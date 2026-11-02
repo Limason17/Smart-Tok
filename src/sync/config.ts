@@ -24,6 +24,13 @@ function fromEnv(): FirebaseConfig | null {
 }
 
 /** Filled in once the Firebase project exists (see docs/firebase-setup.md). */
-const PROJECT_CONFIG: FirebaseConfig | null = null;
+const PROJECT_CONFIG: FirebaseConfig | null = {
+  apiKey: 'AIzaSyBI5O9xh_dHi30_hYICkdQFdoZtzsI73UQ',
+  authDomain: 'smart-tok-29d06.firebaseapp.com',
+  projectId: 'smart-tok-29d06',
+  storageBucket: 'smart-tok-29d06.firebasestorage.app',
+  messagingSenderId: '285805374385',
+  appId: '1:285805374385:web:468ff785456b4bfdd9ab90',
+};
 
 export const FIREBASE_CONFIG: FirebaseConfig | null = fromEnv() ?? PROJECT_CONFIG;
