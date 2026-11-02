@@ -838,5 +838,299 @@
       "more": "The sentence appeared in French in 1637 in the \"Discourse on Method\" and later in Latin as \"Cogito, ergo sum\". Descartes was also a mathematician: the coordinate system you used for graphs at school goes back to him.",
       "source": "René Descartes: Discourse on Method (1637)"
     }
+  },
+  {
+    "id": "kleopatra-mondlandung",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Kleopatra, die Pyramiden und die Mondlandung",
+      "body": "Die grosse Pyramide von Gizeh wurde um **2560 vor Christus** gebaut. Kleopatra starb **30 vor Christus**. Zwischen ihnen liegen rund 2500 Jahre.\n\nVon Kleopatra bis zur ersten Mondlandung **1969** sind es \"nur\" rund 2000 Jahre.\n\nFür Kleopatra waren die Pyramiden schon uraltes Erbe. Das zeigt, wie unvorstellbar lang die Geschichte Ägyptens ist und wie kurz unsere eigene Epoche dagegen.",
+      "apply": "Erzähl diesen Fakt heute jemandem und frag, ob er schätzen kann, welcher Abstand grösser ist.",
+      "more": "Die Cheops-Pyramide war rund 3800 Jahre lang das höchste Bauwerk der Welt, bis die Kathedrale von Lincoln in England sie im 14. Jahrhundert übertraf.",
+      "source": "Encyclopaedia Britannica: Great Pyramid of Giza; Cleopatra"
+    },
+    "en": {
+      "title": "Cleopatra, the pyramids and the Moon landing",
+      "body": "The Great Pyramid of Giza was built around **2560 BC**. Cleopatra died in **30 BC**. About 2,500 years separate them.\n\nFrom Cleopatra to the first Moon landing in **1969** is \"only\" about 2,000 years.\n\nTo Cleopatra the pyramids were already ancient heritage. It shows how unimaginably long Egypt's history is, and how short our own era is by comparison.",
+      "apply": "Tell someone this fact today and ask them to guess which gap is bigger.",
+      "more": "The Great Pyramid was the tallest structure in the world for about 3,800 years, until Lincoln Cathedral in England surpassed it in the 14th century.",
+      "source": "Encyclopaedia Britannica: Great Pyramid of Giza; Cleopatra"
+    }
+  },
+  {
+    "id": "oxford-aelter-als-azteken",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Oxford ist älter als das Aztekenreich",
+      "body": "An der Universität Oxford wird seit **1096** unterrichtet. Die Azteken gründeten ihre Hauptstadt Tenochtitlan erst **1325**, über 200 Jahre später.\n\nWir denken bei den Azteken an eine uralte, fremde Welt und bei Oxford an Studenten mit Laptops. Dabei war Oxford schon eine alte Institution, als das Aztekenreich entstand.\n\nGeschichte verläuft nicht ordentlich nacheinander. Vieles passiert gleichzeitig.",
+      "apply": "Such dir ein Ereignis, das dich interessiert, und schau nach, was zur gleichen Zeit auf einem anderen Kontinent passierte.",
+      "more": "Tenochtitlan lag auf einer Insel im Texcoco-See, wo heute Mexiko-Stadt steht. 1521 eroberten die Spanier unter Hernán Cortés die Stadt. Oxford gilt als älteste Universität im englischsprachigen Raum.",
+      "source": "University of Oxford: Introduction and history; Encyclopaedia Britannica: Tenochtitlan"
+    },
+    "en": {
+      "title": "Oxford is older than the Aztec Empire",
+      "body": "Teaching has existed at Oxford since **1096**. The Aztecs founded their capital Tenochtitlan only in **1325**, more than 200 years later.\n\nWe think of the Aztecs as an ancient, distant world and of Oxford as students with laptops. Yet Oxford was already an old institution when the Aztec Empire arose.\n\nHistory doesn't run neatly in sequence. Much of it happens at the same time.",
+      "apply": "Pick an event that interests you and look up what was happening at the same time on another continent.",
+      "more": "Tenochtitlan stood on an island in Lake Texcoco, where Mexico City is today. In 1521 the Spanish under Hernán Cortés conquered the city. Oxford is the oldest university in the English-speaking world.",
+      "source": "University of Oxford: Introduction and history; Encyclopaedia Britannica: Tenochtitlan"
+    }
+  },
+  {
+    "id": "haie-aelter-als-baeume",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Haie gibt es länger als Bäume",
+      "body": "Die ersten Haie schwammen vor rund **450 Millionen Jahren** durch die Meere. Die ersten echten Bäume wuchsen erst vor rund **385 Millionen Jahren**.\n\nHaie haben fünf grosse Massenaussterben überlebt, auch das, das die Dinosaurier auslöschte.\n\nIhr Bauplan war so gut, dass sich in Hunderten Millionen Jahren wenig ändern musste. Manchmal ist das Einfache, das funktioniert, stärker als das Neue.",
+      "apply": "Erzähl diesen Fakt heute jemandem beim Essen.",
+      "more": "Die frühesten Haie kennt man vor allem von fossilen Schuppen, weil ihr Skelett aus Knorpel besteht und selten erhalten bleibt. Als einer der ersten Bäume gilt Archaeopteris aus dem Devon.",
+      "source": "Natural History Museum London: Sharks; Stein et al., Nature (2007)"
+    },
+    "en": {
+      "title": "Sharks are older than trees",
+      "body": "The first sharks swam the seas about **450 million years ago**. The first true trees grew only about **385 million years ago**.\n\nSharks have survived five mass extinctions, including the one that wiped out the dinosaurs.\n\nTheir design was so good that little had to change in hundreds of millions of years. Sometimes the simple thing that works is stronger than the new.",
+      "apply": "Tell someone this fact over a meal today.",
+      "more": "The earliest sharks are known mainly from fossil scales, because their skeleton is cartilage and rarely preserved. One of the first trees was Archaeopteris from the Devonian.",
+      "source": "Natural History Museum London: Sharks; Stein et al., Nature (2007)"
+    }
+  },
+  {
+    "id": "venus-tag-laenger-als-jahr",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Ein Venustag ist länger als ein Venusjahr",
+      "body": "Die Venus dreht sich extrem langsam um sich selbst: Eine Umdrehung dauert **243 Erdtage**. Um die Sonne braucht sie nur **225 Erdtage**.\n\nEin Tag auf der Venus ist also länger als ihr Jahr. Und sie dreht sich auch noch in die falsche Richtung: Dort geht die Sonne im Westen auf.\n\nDazu ist sie mit rund 465 Grad der heisseste Planet, heisser als der Merkur, obwohl der näher an der Sonne liegt. Schuld ist ihre dichte Atmosphäre aus Kohlendioxid.",
+      "apply": "Schau heute Abend oder morgen früh, ob du die Venus am Himmel siehst. Sie ist nach dem Mond das hellste Objekt am Nachthimmel.",
+      "more": "Warum sich die Venus rückwärts dreht, ist nicht sicher geklärt. Eine Theorie ist ein gewaltiger Einschlag in ihrer Frühzeit. Die Venus wird auch Morgen- oder Abendstern genannt, weil sie oft kurz vor Sonnenaufgang oder nach Sonnenuntergang leuchtet.",
+      "source": "NASA: Venus Facts"
+    },
+    "en": {
+      "title": "On Venus a day lasts longer than a year",
+      "body": "Venus spins extremely slowly: one rotation takes **243 Earth days**. It orbits the Sun in just **225 Earth days**.\n\nSo a day on Venus is longer than its year. And it spins the wrong way: there the Sun rises in the west.\n\nOn top of that it's the hottest planet at about 465 degrees, hotter than Mercury even though Mercury is closer to the Sun. The cause is its dense carbon dioxide atmosphere.",
+      "apply": "Look out tonight or tomorrow morning to see if you can spot Venus. After the Moon it's the brightest object in the night sky.",
+      "more": "Why Venus spins backwards isn't settled. One theory is a huge impact early in its history. Venus is called the morning or evening star because it often shines just before sunrise or after sunset.",
+      "source": "NASA: Venus Facts"
+    }
+  },
+  {
+    "id": "oktopus-drei-herzen",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Ein Oktopus hat drei Herzen und blaues Blut",
+      "body": "Zwei Herzen pumpen Blut durch die Kiemen, ein drittes durch den restlichen Körper. Sein Blut ist **blau**, weil es Sauerstoff mit Kupfer statt mit Eisen transportiert.\n\nUnd das ist noch nicht alles: Rund zwei Drittel seiner Nervenzellen sitzen nicht im Kopf, sondern in den **Armen**. Jeder Arm kann tasten, schmecken und teilweise selbst entscheiden.\n\nOktopusse öffnen Schraubgläser, entkommen aus Aquarien und erkennen einzelne Menschen wieder. Intelligenz kann ganz anders aussehen, als wir denken.",
+      "apply": "Erzähl diesen Fakt heute jemandem, der Tiere mag.",
+      "more": "Beim Schwimmen hört das Körperherz auf zu schlagen. Darum kriechen Oktopusse lieber, als zu schwimmen: Schwimmen erschöpft sie schnell.",
+      "source": "Smithsonian Ocean: Octopuses; Godfrey-Smith: Other Minds (2016)"
+    },
+    "en": {
+      "title": "An octopus has three hearts and blue blood",
+      "body": "Two hearts pump blood through the gills, a third through the rest of the body. Its blood is **blue** because it carries oxygen with copper instead of iron.\n\nAnd that's not all: about two thirds of its neurons sit not in its head but in its **arms**. Each arm can touch, taste and partly decide on its own.\n\nOctopuses open screw-top jars, escape from aquariums and recognise individual people. Intelligence can look very different from what we expect.",
+      "apply": "Tell this fact today to someone who likes animals.",
+      "more": "When an octopus swims, its body heart stops beating. That's why octopuses prefer crawling: swimming tires them quickly.",
+      "source": "Smithsonian Ocean: Octopuses; Peter Godfrey-Smith: Other Minds (2016)"
+    }
+  },
+  {
+    "id": "bananen-sind-beeren",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Bananen sind Beeren, Erdbeeren nicht",
+      "body": "Botanisch ist eine **Beere** eine Frucht, die aus einem einzigen Fruchtknoten entsteht und deren Samen im Fruchtfleisch sitzen. Nach dieser Definition sind Bananen, Tomaten, Gurken und sogar Kürbisse Beeren.\n\nDie **Erdbeere** dagegen ist keine Beere. Die kleinen gelben Punkte auf ihrer Oberfläche sind die eigentlichen Früchte, kleine Nüsschen. Das Rote ist der aufgeblähte Blütenboden.\n\nAlltagssprache und Wissenschaft benennen die Welt oft verschieden. Wer genau hinschaut, entdeckt mehr.",
+      "apply": "Frag heute jemanden, ob eine Banane eine Beere ist, und erklär ihm die Antwort.",
+      "more": "Auch Himbeeren und Brombeeren sind botanisch keine Beeren, sondern Sammelsteinfrüchte. Zu den echten Beeren zählen dagegen Heidelbeeren, Trauben und Peperoni.",
+      "source": "Encyclopaedia Britannica: Berry (plant reproductive body)"
+    },
+    "en": {
+      "title": "Bananas are berries, strawberries aren't",
+      "body": "Botanically, a **berry** is a fruit that develops from a single ovary with its seeds inside the flesh. By that definition bananas, tomatoes, cucumbers and even pumpkins are berries.\n\nThe **strawberry**, on the other hand, isn't a berry. The little yellow dots on its surface are the actual fruits, tiny nuts. The red part is the swollen base of the flower.\n\nEveryday language and science often name the world differently. Look closely and you discover more.",
+      "apply": "Ask someone today whether a banana is a berry, and explain the answer.",
+      "more": "Raspberries and blackberries aren't true berries either: they're aggregate fruits. Real berries include blueberries, grapes and peppers.",
+      "source": "Encyclopaedia Britannica: Berry (plant reproductive body)"
+    }
+  },
+  {
+    "id": "schweiz-schutzraeume",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Die Schweiz hat Bunker für alle",
+      "body": "Kein Land der Welt ist so gut auf den Ernstfall vorbereitet: Die Schweiz hat über **360'000 Schutzräume** in Häusern, Schulen und Spitälern, genug Plätze für die gesamte Bevölkerung.\n\nSeit 1963 verlangt das Gesetz, dass für jeden Einwohner ein Schutzplatz in der Nähe seines Wohnorts bereitsteht. Viele Keller in Schweizer Häusern sind darum mit dicken Betonwänden und schweren Stahltüren gebaut.\n\nVorsorge ist unspektakulär. Aber wer vorbereitet ist, muss im Ernstfall nicht in Panik geraten.",
+      "apply": "Finde heute heraus, wo dein zugewiesener Schutzraum ist. Deine Gemeinde gibt dir Auskunft.",
+      "more": "Die Schutzräume sind gegen Druckwellen, Trümmer und radioaktiven Niederschlag ausgelegt. Viele dienen im Alltag als Keller oder Lagerräume. Das Bundesamt für Bevölkerungsschutz BABS ist für das System zuständig.",
+      "source": "Bundesamt für Bevölkerungsschutz BABS: Schutzräume"
+    },
+    "en": {
+      "title": "Switzerland has shelters for everyone",
+      "body": "No country is better prepared for an emergency: Switzerland has more than **360,000 shelters** in homes, schools and hospitals, with enough places for the entire population.\n\nSince 1963 the law has required a shelter place for every resident near where they live. That's why many cellars in Swiss houses have thick concrete walls and heavy steel doors.\n\nPreparation is unspectacular. But if you're prepared, you don't have to panic when it counts.",
+      "apply": "Find out today where your assigned shelter is. Your local council can tell you.",
+      "more": "The shelters are designed to withstand blast waves, debris and radioactive fallout. Many serve as cellars or storerooms in daily life. The Federal Office for Civil Protection (FOCP) is responsible for the system.",
+      "source": "Swiss Federal Office for Civil Protection (FOCP): Shelters"
+    }
+  },
+  {
+    "id": "honig-verdirbt-nicht",
+    "area": "wissen",
+    "sub": "random-facts",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Honig verdirbt fast nie",
+      "body": "In ägyptischen Gräbern fanden Archäologen Töpfe mit Honig, der Tausende Jahre alt war und noch immer nicht verdorben.\n\nDer Grund: Honig enthält sehr **wenig Wasser** und sehr viel Zucker. Bakterien wird darin regelrecht das Wasser entzogen. Dazu ist Honig sauer, und ein Enzym der Bienen erzeugt kleine Mengen **Wasserstoffperoxid**, ein natürliches Desinfektionsmittel.\n\nRichtig verschlossen hält Honig praktisch unbegrenzt. Wenn er fest wird, ist er nicht schlecht, nur kristallisiert.",
+      "apply": "Wenn dein Honig fest geworden ist: Stell das Glas heute in warmes Wasser, statt ihn wegzuwerfen.",
+      "more": "Für ein Kilo Honig fliegen Bienen zusammen eine Strecke, die mehrere Erdumrundungen entspricht, und besuchen Millionen Blüten. Wegen seiner keimhemmenden Wirkung wurde Honig schon im alten Ägypten auf Wunden gestrichen.",
+      "source": "Smithsonian Magazine: The Science Behind Honey's Eternal Shelf Life (2013)"
+    },
+    "en": {
+      "title": "Honey almost never spoils",
+      "body": "In Egyptian tombs, archaeologists found pots of honey thousands of years old that still hadn't spoiled.\n\nThe reason: honey contains very **little water** and a lot of sugar. It literally draws the water out of bacteria. On top of that honey is acidic, and an enzyme from the bees produces small amounts of **hydrogen peroxide**, a natural disinfectant.\n\nSealed properly, honey keeps practically forever. If it goes solid, it isn't bad, just crystallised.",
+      "apply": "If your honey has gone solid, put the jar in warm water today instead of throwing it out.",
+      "more": "To make a kilo of honey, bees together fly a distance equal to several trips around the Earth and visit millions of flowers. Because it inhibits germs, honey was already spread on wounds in ancient Egypt.",
+      "source": "Smithsonian Magazine: The Science Behind Honey's Eternal Shelf Life (2013)"
+    }
+  },
+  {
+    "id": "ein-prozent-besser",
+    "area": "wissen",
+    "sub": "wirkung",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "1 % besser pro Tag ergibt das 37-Fache",
+      "body": "Wenn du jeden Tag nur **1 % besser** wirst, bist du nach einem Jahr rund **37-mal** so gut wie am Anfang. Rechnung: 1,01 hoch 365 ergibt 37,8.\n\nWirst du jeden Tag 1 % schlechter, bleiben nach einem Jahr **3 %** übrig: 0,99 hoch 365 ergibt 0,03.\n\nEin einzelner Tag fühlt sich nie entscheidend an. Genau darum unterschätzen wir, was kleine Gewohnheiten über Monate anrichten, im Guten wie im Schlechten.",
+      "apply": "Wähle eine Fähigkeit und mach heute einen kleinen Schritt, der sie um 1 % verbessert. Wiederhole es morgen.",
+      "more": "James Clear machte die Rechnung mit seinem Buch \"Atomic Habits\" bekannt. Er verweist auf das britische Radsportteam: Trainer Dave Brailsford verbesserte Hunderte Kleinigkeiten um je 1 %, von Kissen bis Händewaschen. Britische Radfahrer gewannen danach mehrfach die Tour de France und zahlreiche Olympiamedaillen.",
+      "source": "James Clear: Atomic Habits (2018), Kapitel 1"
+    },
+    "en": {
+      "title": "1% better a day makes you 37 times better",
+      "body": "If you get just **1% better** every day, after a year you're about **37 times** as good as when you started. Maths: 1.01 to the power of 365 is 37.8.\n\nGet 1% worse every day and after a year **3%** is left: 0.99 to the power of 365 is 0.03.\n\nA single day never feels decisive. That's exactly why we underestimate what small habits do over months, for good or bad.",
+      "apply": "Pick one skill and take a small step today that makes it 1% better. Repeat tomorrow.",
+      "more": "James Clear popularised the calculation in \"Atomic Habits\". He points to British Cycling: coach Dave Brailsford improved hundreds of small things by 1% each, from pillows to handwashing. British riders went on to win the Tour de France several times and many Olympic medals.",
+      "source": "James Clear: Atomic Habits (2018), Chapter 1"
+    }
+  },
+  {
+    "id": "handy-lebenszeit",
+    "area": "wissen",
+    "sub": "wirkung",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Drei Stunden Handy am Tag sind elf wache Jahre",
+      "body": "Rechne selbst: **3 Stunden** pro Tag, von 20 bis 80. Das sind 60 Jahre mal 365 Tage mal 3 Stunden, also **65'700 Stunden**.\n\nDas entspricht **7,5 Jahren** rund um die Uhr. Gemessen an deiner wachen Zeit von etwa 16 Stunden pro Tag sind es über **11 Jahre**.\n\nElf Jahre, in denen du eine Sprache, ein Instrument, ein Handwerk oder ein Geschäft hättest lernen können. Das Handy ist nicht böse. Aber es kostet mehr, als es sich anfühlt.",
+      "apply": "Schau heute in den Einstellungen nach, wie lange du dein Handy gestern genutzt hast, und rechne die Zahl auf ein Jahr hoch.",
+      "more": "Die meisten Smartphones zeigen die Bildschirmzeit in den Einstellungen an. Studien zur Handynutzung kommen für junge Erwachsene oft auf drei bis fünf Stunden pro Tag. Die Rechnung oben ist bewusst einfach gehalten.",
+      "source": "Eigene Berechnung"
+    },
+    "en": {
+      "title": "Three hours of phone daily: eleven waking years",
+      "body": "Do the maths: **3 hours** a day, from age 20 to 80. That's 60 years times 365 days times 3 hours, or **65,700 hours**.\n\nThat's **7.5 years** round the clock. Measured against your waking time of about 16 hours a day, it's more than **11 years**.\n\nEleven years in which you could have learned a language, an instrument, a craft or a business. The phone isn't evil. But it costs more than it feels like.",
+      "apply": "Check your settings today to see how long you used your phone yesterday, and scale that number up to a year.",
+      "more": "Most smartphones show screen time in the settings. Studies of phone use often find three to five hours a day for young adults. The calculation above is deliberately simple.",
+      "source": "Own calculation"
+    }
+  },
+  {
+    "id": "4000-wochen",
+    "area": "wissen",
+    "sub": "wirkung",
+    "style": "erklaerung",
+    "level": 1,
+    "de": {
+      "title": "Du hast etwa 4000 Wochen",
+      "body": "Wenn du 80 Jahre alt wirst, lebst du rund **4170 Wochen**. Mit 25 hast du schon über 1300 davon hinter dir.\n\nIn Jahren klingt das Leben lang. In Wochen wird es greifbar, fast erschreckend. Der Autor Oliver Burkeman machte daraus ein Buch: Du wirst nie alles schaffen. Darum musst du entscheiden, was **wirklich zählt**, und den Rest bewusst liegen lassen.\n\nDas ist kein Grund für Angst, sondern für Klarheit.",
+      "apply": "Rechne aus, wie viele Wochen du schon gelebt hast, und schreib auf, wofür du die nächste Woche einsetzen willst.",
+      "more": "Burkemans Buch \"Four Thousand Weeks\" erschien 2021. Ähnliche Gedanken finden sich schon bei Seneca: Nicht das Leben ist kurz, wir machen es kurz. Viele Menschen hängen sich ein Raster mit ihren Lebenswochen auf und streichen jede vergangene Woche durch.",
+      "source": "Oliver Burkeman: Four Thousand Weeks (2021)"
+    },
+    "en": {
+      "title": "You have about 4,000 weeks",
+      "body": "If you live to 80, you get about **4,170 weeks**. At 25 you've already used more than 1,300 of them.\n\nIn years, life sounds long. In weeks it becomes tangible, almost frightening. Author Oliver Burkeman turned this into a book: you'll never get everything done. So you have to decide what **really matters** and deliberately let the rest go.\n\nThat's not a reason for fear, but for clarity.",
+      "apply": "Work out how many weeks you've already lived, and write down what you want to use next week for.",
+      "more": "Burkeman's \"Four Thousand Weeks\" came out in 2021. Seneca had similar thoughts: life isn't short, we make it short. Many people put up a grid of their life in weeks and cross off each one that passes.",
+      "source": "Oliver Burkeman: Four Thousand Weeks (2021)"
+    }
+  },
+  {
+    "id": "vorsaetze-wirken",
+    "area": "wissen",
+    "sub": "wirkung",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Wer sich etwas vornimmt, schafft es zehnmal öfter",
+      "body": "Neujahrsvorsätze gelten als Witz: Alle nehmen sich etwas vor, niemand hält durch. Die Forschung sieht das anders.\n\nDer Psychologe John Norcross begleitete Menschen, die etwas an sich ändern wollten. Nach **sechs Monaten** waren von denen, die sich einen klaren Vorsatz gesetzt hatten, **46 %** noch erfolgreich. Von denen, die es nur \"irgendwann\" ändern wollten, waren es **4 %**.\n\nEin bewusster Entschluss ist kein Garant. Aber er verzehnfacht deine Chance.",
+      "apply": "Schreib heute einen konkreten Vorsatz auf, mit Startdatum, und sag ihn einem Menschen, dem du vertraust.",
+      "more": "Die Studie erschien 2002 im Journal of Clinical Psychology. Am erfolgreichsten waren Teilnehmer, die mit Rückfällen rechneten und danach sofort weitermachten, statt aufzugeben.",
+      "source": "Norcross, Mrykalo & Blagys: Auld lang syne. Journal of Clinical Psychology (2002)"
+    },
+    "en": {
+      "title": "Making a resolution makes success ten times likelier",
+      "body": "New Year's resolutions are a joke: everyone makes one, no one sticks with it. Research sees it differently.\n\nPsychologist John Norcross followed people who wanted to change something about themselves. After **six months**, **46%** of those who had set a clear resolution were still succeeding. Of those who only meant to change \"someday\", it was **4%**.\n\nA deliberate decision is no guarantee. But it multiplies your chances tenfold.",
+      "apply": "Write down one concrete resolution today with a start date, and tell someone you trust.",
+      "more": "The study appeared in the Journal of Clinical Psychology in 2002. The most successful participants expected slip-ups and carried on right away instead of giving up.",
+      "source": "Norcross, Mrykalo & Blagys: Auld lang syne. Journal of Clinical Psychology (2002)"
+    }
+  },
+  {
+    "id": "dankbarkeit-wirkt",
+    "area": "wissen",
+    "sub": "wirkung",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Dankbarkeit verändert messbar dein Leben",
+      "body": "Zwei Psychologen teilten Menschen in Gruppen ein. Die eine schrieb **zehn Wochen** lang einmal pro Woche fünf Dinge auf, für die sie dankbar war. Die andere notierte Ärgernisse oder einfach Ereignisse.\n\nDie Dankbaren waren am Ende **optimistischer**, zufriedener mit ihrem Leben, hatten weniger körperliche Beschwerden und trieben rund **anderthalb Stunden mehr Sport** pro Woche.\n\nDankbarkeit ist kein weiches Gefühl. Sie ist ein Training für den Blick, und der Blick bestimmt, wie du handelst.",
+      "apply": "Schreib heute Abend fünf konkrete Dinge auf, für die du dankbar bist. Mach es jeden Sonntag, zehn Wochen lang.",
+      "more": "Robert Emmons und Michael McCullough veröffentlichten die Studie 2003. Spätere Untersuchungen bestätigten kleinere, aber echte Effekte. In der christlichen Tradition ist Dankbarkeit Teil des täglichen Gebets, etwa im Examen des Ignatius.",
+      "source": "Emmons & McCullough: Counting blessings versus burdens. Journal of Personality and Social Psychology (2003)"
+    },
+    "en": {
+      "title": "Gratitude measurably changes your life",
+      "body": "Two psychologists split people into groups. One wrote down five things they were grateful for once a week for **ten weeks**. The others noted hassles or just events.\n\nBy the end, the grateful group was more **optimistic**, more satisfied with life, had fewer physical complaints and exercised about **an hour and a half more** per week.\n\nGratitude isn't a soft feeling. It trains how you see, and how you see shapes how you act.",
+      "apply": "Tonight, write down five concrete things you're grateful for. Do it every Sunday for ten weeks.",
+      "more": "Robert Emmons and Michael McCullough published the study in 2003. Later research confirmed smaller but real effects. In the Christian tradition gratitude is part of daily prayer, for example in the examen of Ignatius.",
+      "source": "Emmons & McCullough: Counting blessings versus burdens. Journal of Personality and Social Psychology (2003)"
+    }
+  },
+  {
+    "id": "kalt-duschen",
+    "area": "wissen",
+    "sub": "wirkung",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Kalt duschen: was es wirklich bringt",
+      "body": "In den Niederlanden machten über **3000 Menschen** einen Versuch: 30 Tage lang beendeten sie ihre warme Dusche mit 30, 60 oder 90 Sekunden **kaltem Wasser**.\n\nDas Ergebnis: Sie meldeten sich danach rund **29 % weniger krank** bei der Arbeit. Interessant: Krank waren sie ungefähr gleich oft. Aber sie fühlten sich weniger eingeschränkt und gingen trotzdem arbeiten.\n\nDie kalte Dusche ist keine Wunderwaffe. Aber sie ist ein tägliches Training, etwas Unangenehmes freiwillig zu tun.",
+      "apply": "Beende morgen deine Dusche mit 30 Sekunden kaltem Wasser. Atme ruhig und zähl die Sekunden.",
+      "more": "Die Studie von Geert Buijze und Kollegen erschien 2016 in PLOS ONE. Die Dauer der kalten Dusche spielte keine grosse Rolle: 30 Sekunden wirkten ähnlich wie 90. Wer Herzprobleme hat, sollte vorher ärztlichen Rat einholen.",
+      "source": "Buijze et al.: The effect of cold showering on health and work. PLOS ONE (2016)"
+    },
+    "en": {
+      "title": "Cold showers: what they really do",
+      "body": "In the Netherlands more than **3,000 people** took part in a trial: for 30 days they ended their warm shower with 30, 60 or 90 seconds of **cold water**.\n\nThe result: they took about **29% fewer sick days** from work. Interestingly, they were ill about as often. But they felt less held back and went to work anyway.\n\nA cold shower isn't a miracle cure. But it's daily training in doing something uncomfortable by choice.",
+      "apply": "End your shower tomorrow with 30 seconds of cold water. Breathe calmly and count the seconds.",
+      "more": "The study by Geert Buijze and colleagues appeared in PLOS ONE in 2016. The length of the cold shower didn't matter much: 30 seconds worked about as well as 90. If you have heart problems, get medical advice first.",
+      "source": "Buijze et al.: The effect of cold showering on health and work. PLOS ONE (2016)"
+    }
   }
 ]

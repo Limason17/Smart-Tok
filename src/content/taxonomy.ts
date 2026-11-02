@@ -85,6 +85,8 @@ export const AREAS: Area[] = [
       s('sales', 'Sales', 'Sales'),
       s('unternehmertum', 'Unternehmertum', 'Entrepreneurship'),
       s('marketing', 'Marketing', 'Marketing'),
+      s('millionaer-mindset', 'Millionärs-Mindset', 'Millionaire mindset'),
+      s('milliardaer-mindset', 'Milliardärs-Mindset', 'Billionaire mindset'),
     ],
   },
   {
@@ -115,6 +117,8 @@ export const AREAS: Area[] = [
       s('ki', 'KI & Technologie', 'AI & technology'),
       s('geografie', 'Geografie', 'Geography'),
       s('philosophie', 'Philosophie', 'Philosophy'),
+      s('random-facts', 'Random Facts', 'Random facts'),
+      s('wirkung', 'Fakten mit Wirkung', 'Facts that matter'),
     ],
   },
   {
