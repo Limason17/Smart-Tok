@@ -12,7 +12,7 @@ export function smartQuotes(text: string, lang: Lang): string {
 }
 
 /** Renders `**bold**` inside a paragraph. */
-function inline(raw: string, lang: Lang): ReactNode {
+export function inline(raw: string, lang: Lang): ReactNode {
   const text = smartQuotes(raw, lang);
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
   return parts.map((p, i) =>
@@ -148,6 +148,21 @@ export function CardView({ card }: { card: Card }) {
           <CardContent t={card[tr.lang]} quoteFirst={card.format === 'zitat'} isLast applyLabel={tr('apply')} lang={tr.lang} />
         </div>
       )}
+    </article>
+  );
+}
+
+/** A whole card in one scrollable column, for the profile (saved cards, history). */
+export function CardDetail({ card }: { card: Card }) {
+  const tr = useT();
+  const area = AREA_BY_ID[card.area];
+  const parts: CardText[] = [card[tr.lang], ...(card.slides ?? []).map((s) => s[tr.lang])];
+  return (
+    <article className={`detail card--${card.format}`} style={{ '--area': area.color } as CSSProperties}>
+      <Meta card={card} />
+      {parts.map((t, i) => (
+        <CardContent key={i} t={t} quoteFirst={card.format === 'zitat'} isLast={i === parts.length - 1} applyLabel={tr('apply')} lang={tr.lang} />
+      ))}
     </article>
   );
 }

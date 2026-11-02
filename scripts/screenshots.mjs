@@ -24,24 +24,62 @@ try {
     const page = await ctx.newPage();
     page.on('pageerror', (e) => console.error(`[${t.name}] page error:`, e.message));
     await page.goto('http://localhost:4173/');
+    const shot = (name) => page.screenshot({ path: `${out}/${t.name}-${name}.png` });
+    const next = () => page.click('.onb-actions .btn:last-child');
+    // onboarding
+    await page.waitForSelector('.onb');
+    await page.waitForTimeout(400);
+    await shot('0a-onboarding');
+    await next();
+    await page.waitForTimeout(400);
+    await shot('0b-onboarding-topics');
+    await next();
+    await page.waitForTimeout(400);
+    await shot('0c-onboarding-how');
+    await next();
+    // feed
     await page.waitForSelector('.card');
     await page.waitForTimeout(600);
-    await page.screenshot({ path: `${out}/${t.name}-1-feed.png` });
-    // next cards
+    await shot('1-feed');
     for (let i = 2; i <= 4; i++) {
       await page.evaluate(() => document.querySelector('.feed').scrollBy(0, window.innerHeight));
-      await page.waitForTimeout(900);
-      await page.screenshot({ path: `${out}/${t.name}-${i}-feed.png` });
+      await page.waitForTimeout(1400);
+      if (i === 3) await page.click('.rail-btn >> nth=2'); // save
+      await shot(`${i}-feed`);
     }
-    await page.click('.rail-btn >> nth=0');
+    await page.click('.rail-btn >> nth=0'); // like
     await page.waitForTimeout(300);
     await page.click('[aria-label="Themen"], [aria-label="Topics"]');
-    await page.waitForTimeout(700);
-    await page.screenshot({ path: `${out}/${t.name}-5-topics.png` });
+    await page.waitForTimeout(900);
+    await shot('5-topics');
     await page.keyboard.press('Escape');
-    await page.click('[aria-label="Einstellungen"], [aria-label="Settings"]');
+    // profile
+    await page.click('[aria-label="Profil"], [aria-label="Profile"]');
     await page.waitForTimeout(500);
-    await page.screenshot({ path: `${out}/${t.name}-6-settings.png` });
+    await page.click('.cal-day.today');
+    await page.waitForTimeout(500);
+    await shot('6-profile');
+    await page.click('.sheet .segmented button >> nth=1');
+    await page.waitForTimeout(300);
+    await shot('7-saved');
+    await page.click('.sheet .row >> nth=0');
+    await page.waitForTimeout(500);
+    await shot('8-card');
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(300);
+    await page.click('.sheet .segmented button >> nth=2');
+    await page.waitForTimeout(300);
+    await shot('9-history');
+    await page.click('.sheet .segmented button >> nth=3');
+    await page.waitForTimeout(500);
+    await shot('10-algorithm');
+    await page.evaluate(() => document.querySelector('.sheet-body').scrollBy(0, 700));
+    await page.waitForTimeout(300);
+    await shot('11-algorithm-tweaks');
+    await page.click('.sheet .segmented button >> nth=0');
+    await page.click('.btn-row .btn.ghost');
+    await page.waitForTimeout(500);
+    await shot('12-settings');
     await ctx.close();
   }
 } finally {

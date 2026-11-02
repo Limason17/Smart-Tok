@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { deriveCard, type Card } from '../content/card';
 import {
   applySignal,
+  areaShares,
   DEFAULT_PREFS,
   emptyAlgo,
   ensureSession,
@@ -172,6 +173,26 @@ describe('pickNext', () => {
   it('returns null when every topic is switched off', () => {
     const prefs = { ...DEFAULT_PREFS, disabledAreas: ['geld', 'mindset', 'glaube'] };
     expect(pickNext({ cards: deck, seen: {}, prefs, algo: emptyAlgo(T0), recent: [], now: T0 })).toBeNull();
+  });
+});
+
+describe('area shares', () => {
+  it('match what the picker actually does', () => {
+    let algo = ensureSession(emptyAlgo(T0), T0);
+    for (let i = 0; i < 3; i++) algo = applySignal(algo, deck[0], { type: 'save', on: true }, T0);
+    const shares = areaShares(deck, DEFAULT_PREFS, algo, T0);
+    expect(Object.values(shares).reduce((a, b) => a + b, 0)).toBeCloseTo(1);
+    expect(shares.geld).toBeGreaterThan(shares.mindset);
+    const counts = sample(DEFAULT_PREFS, algo, 4000);
+    const geld = ((counts['geld/investment'] ?? 0) + (counts['geld/sales'] ?? 0)) / 4000;
+    expect(Math.abs(geld - shares.geld)).toBeLessThan(0.04);
+  });
+
+  it('leave out switched-off areas and respect hidden card styles', () => {
+    const prefs: Prefs = { ...DEFAULT_PREFS, disabledAreas: ['glaube'] };
+    expect(areaShares(deck, prefs, emptyAlgo(T0), T0).glaube).toBeUndefined();
+    const hidden: Prefs = { ...DEFAULT_PREFS, adjust: { 'st:tipp': 'hidden' } };
+    expect(pickNext({ cards: deck, seen: {}, prefs: hidden, algo: emptyAlgo(T0), recent: [], now: T0 })).toBeNull();
   });
 });
 

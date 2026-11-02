@@ -81,14 +81,16 @@ export function Segmented<T extends string>({
   options,
   onChange,
   small,
+  className = '',
 }: {
+  className?: string;
   value: T;
   options: { value: T; label: string }[];
   onChange: (v: T) => void;
   small?: boolean;
 }) {
   return (
-    <div className={`segmented ${small ? 'small' : ''}`} role="radiogroup">
+    <div className={`segmented ${small ? 'small' : ''} ${className}`} role="radiogroup">
       {options.map((o) => (
         <button key={o.value} role="radio" aria-checked={value === o.value} className={value === o.value ? 'on' : ''} onClick={() => onChange(o.value)}>
           {o.label}

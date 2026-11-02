@@ -1,15 +1,21 @@
 import { useCallback, useEffect, useState } from 'react';
-import { CARD_BY_ID } from '../content';
 import { useT } from '../i18n/strings';
 import { setSettings, useStore } from '../store/store';
-import { Paragraphs } from './CardView';
+import { CardSheet, MoreSheet } from './CardSheet';
 import { Feed } from './Feed';
 import { Icon } from './Icon';
+import { Onboarding } from './Onboarding';
+import { ProfileSheet } from './ProfileSheet';
 import { SettingsSheet } from './SettingsSheet';
-import { Sheet } from './Sheet';
 import { TopicSheet } from './TopicSheet';
 
-type Panel = { kind: 'topics' } | { kind: 'settings' } | { kind: 'more'; cardId: string } | null;
+type Panel =
+  | { kind: 'topics' }
+  | { kind: 'settings'; fromProfile?: boolean }
+  | { kind: 'profile' }
+  | { kind: 'card'; cardId: string }
+  | { kind: 'more'; cardId: string }
+  | null;
 
 function useThemeAttributes() {
   const { theme, fontSize, lang } = useStore((s) => s.settings);
@@ -28,32 +34,6 @@ function useThemeAttributes() {
     mq.addEventListener('change', apply);
     return () => mq.removeEventListener('change', apply);
   }, [theme, fontSize, lang]);
-}
-
-function MoreSheet({ cardId, onClose }: { cardId: string; onClose: () => void }) {
-  const tr = useT();
-  const card = CARD_BY_ID[cardId];
-  const parts = [card[tr.lang], ...(card.slides ?? []).map((s) => s[tr.lang])].filter((t) => t.more || t.source);
-  return (
-    <Sheet title={tr('more')} onClose={onClose}>
-      {parts.length === 0 && <p className="hint">{tr('noMore')}</p>}
-      {parts.map((t, i) => (
-        <div key={i} style={{ marginTop: i ? 22 : 4 }}>
-          {parts.length > 1 && <div className="section-label">{t.title}</div>}
-          {t.more && (
-            <div className="more-text">
-              <Paragraphs text={t.more} lang={tr.lang} />
-            </div>
-          )}
-          {t.source && (
-            <p className="more-source">
-              <b>{tr('source')}:</b> {t.source}
-            </p>
-          )}
-        </div>
-      ))}
-    </Sheet>
-  );
 }
 
 const isIos = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
@@ -84,6 +64,7 @@ function InstallHint() {
 export function App() {
   const tr = useT();
   const ready = useStore((s) => s.ready);
+  const onboarded = useStore((s) => s.settings.onboarded);
   const [panel, setPanel] = useState<Panel>(null);
   const [toast, setToast] = useState<string | null>(null);
   useThemeAttributes();
@@ -97,8 +78,11 @@ export function App() {
   const close = useCallback(() => setPanel(null), []);
   const openTopics = useCallback(() => setPanel({ kind: 'topics' }), []);
   const onMore = useCallback((cardId: string) => setPanel({ kind: 'more', cardId }), []);
+  const openProfile = useCallback(() => setPanel({ kind: 'profile' }), []);
 
   if (!ready) return null;
+  // The feed is built after onboarding, so the first cards already follow the picked topics.
+  if (!onboarded) return <Onboarding />;
 
   return (
     <>
@@ -108,13 +92,23 @@ export function App() {
           <button className="glass-btn" aria-label={tr('topics')} onClick={openTopics}>
             <Icon name="layers" size={20} />
           </button>
-          <button className="glass-btn" aria-label={tr('settings')} onClick={() => setPanel({ kind: 'settings' })}>
-            <Icon name="settings" size={20} />
+          <button className="glass-btn" aria-label={tr('profile')} onClick={openProfile}>
+            <Icon name="user" size={20} />
           </button>
         </div>
       </div>
       {panel?.kind === 'topics' && <TopicSheet onClose={close} />}
-      {panel?.kind === 'settings' && <SettingsSheet onClose={close} />}
+      {panel?.kind === 'settings' && <SettingsSheet onClose={panel.fromProfile ? openProfile : close} />}
+      {panel?.kind === 'profile' && (
+        <ProfileSheet
+          onClose={close}
+          onOpenCard={(cardId) => setPanel({ kind: 'card', cardId })}
+          onOpenSettings={() => setPanel({ kind: 'settings', fromProfile: true })}
+          onOpenTopics={openTopics}
+          onToast={setToast}
+        />
+      )}
+      {panel?.kind === 'card' && <CardSheet cardId={panel.cardId} onClose={openProfile} />}
       {panel?.kind === 'more' && <MoreSheet cardId={panel.cardId} onClose={close} />}
       <InstallHint />
       {toast && <div className="toast">{toast}</div>}

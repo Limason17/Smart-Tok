@@ -211,6 +211,7 @@ export function isEligible(card: Card, prefs: Prefs, now: number): boolean {
   if (prefs.disabledAreas.includes(card.area)) return false;
   if (prefs.disabledSubs.includes(`${card.area}/${card.sub}`)) return false;
   if (prefs.adjust[`s:${card.area}/${card.sub}`] === 'hidden') return false;
+  if (prefs.adjust[`st:${card.style}`] === 'hidden') return false;
   return freshness(card, now) > 0;
 }
 
@@ -344,4 +345,24 @@ export function insights(state: AlgoState, prefs: Prefs): FeatureInsight[] {
       multiplier: featureMultiplier(state, prefs, key),
     }))
     .sort((a, b) => b.multiplier - a.multiplier);
+}
+
+/**
+ * Expected share of each area in the feed (0..1), as the picker would choose right now.
+ * Mirrors pickNext: exploration picks areas evenly, otherwise by the learned multiplier.
+ */
+export function areaShares(cards: Card[], prefs: Prefs, algo: AlgoState, now: number): Record<string, number> {
+  const areas = [...new Set(cards.filter((c) => isEligible(c, prefs, now)).map((c) => c.area))];
+  if (!areas.length) return {};
+  const frame = (a: string) => (prefs.mix === 'custom' ? TUNING.areaWeight[prefs.areaWeight[a] ?? 'normal'] : 1);
+  const e = explorationShare(prefs);
+  const frameSum = areas.reduce((sum, a) => sum + frame(a), 0);
+  const learned = areas.map((a) => frame(a) * featureMultiplier(algo, prefs, `a:${a}`));
+  const learnedSum = learned.reduce((sum, w) => sum + w, 0);
+  const out: Record<string, number> = {};
+  areas.forEach((a, i) => {
+    const exploit = learnedSum > 0 ? learned[i] / learnedSum : frame(a) / frameSum;
+    out[a] = (1 - e) * exploit + e * (frame(a) / frameSum);
+  });
+  return out;
 }

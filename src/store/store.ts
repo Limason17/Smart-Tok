@@ -8,6 +8,7 @@ import {
   emptyAlgo,
   ensureSession,
   foldSession,
+  type Adjust,
   type AlgoState,
   type Prefs,
   type SeenInfo,
@@ -23,6 +24,8 @@ export interface Settings {
   theme: Theme;
   fontSize: FontSize;
   installHintDismissed: boolean;
+  /** Set once the first-start introduction is done. */
+  onboarded: boolean;
 }
 
 export interface Suggestion {
@@ -52,7 +55,13 @@ function detectLang(): Lang {
   return langs.some((l) => l?.toLowerCase().startsWith('de')) || !langs.length ? 'de' : 'en';
 }
 
-const defaultSettings = (): Settings => ({ lang: detectLang(), theme: 'dark', fontSize: 'm', installHintDismissed: false });
+const defaultSettings = (): Settings => ({
+  lang: detectLang(),
+  theme: 'dark',
+  fontSize: 'm',
+  installHintDismissed: false,
+  onboarded: false,
+});
 
 let state: State = {
   ready: false,
@@ -136,8 +145,10 @@ export async function init(): Promise<void> {
   const now = Date.now();
   if (loaded) {
     const algo = (loaded.kv.algo as AlgoState | undefined) ?? emptyAlgo(now);
+    const stored = loaded.kv.settings as Partial<Settings> | undefined;
     set({
-      settings: { ...defaultSettings(), ...(loaded.kv.settings as Partial<Settings> | undefined) },
+      // People who used the app before onboarding existed skip it.
+      settings: { ...defaultSettings(), ...stored, onboarded: stored?.onboarded ?? loaded.cards.length > 0 },
       prefs: { ...DEFAULT_PREFS, ...(loaded.kv.prefs as Partial<Prefs> | undefined) },
       // A session idle for 30+ minutes is folded into the long-term profile on start.
       algo: ensureSession(algo, now),
@@ -163,6 +174,18 @@ export function localDate(t: number): string {
   const m = String(d.getMonth() + 1).padStart(2, '0');
   const day = String(d.getDate()).padStart(2, '0');
   return `${d.getFullYear()}-${m}-${day}`;
+}
+
+/** Days in a row with at least one card read, ending today (or yesterday, so the streak survives until tonight). */
+export function streak(days: Record<string, number>, now = Date.now()): number {
+  const d = new Date(now);
+  if (!days[localDate(d.getTime())]) d.setDate(d.getDate() - 1);
+  let n = 0;
+  while (days[localDate(d.getTime())]) {
+    n++;
+    d.setDate(d.getDate() - 1);
+  }
+  return n;
 }
 
 export function seenMap(cards: Record<string, CardRecord>): Record<string, SeenInfo> {
@@ -295,6 +318,20 @@ export function setPrefs(patch: Partial<Prefs>) {
   persistKv('prefs', prefs, 0);
 }
 
+/** "Mein Algorithmus": less, normal, more or hidden for a feature key such as "st:zitat" or "s:geld/investment". */
+export function setAdjust(key: string, value: Adjust) {
+  const adjust = { ...state.prefs.adjust };
+  if (value === 'normal') delete adjust[key];
+  else adjust[key] = value;
+  setPrefs({ adjust });
+}
+
+/** Ends the first-start introduction with the topics the person picked. */
+export function finishOnboarding(areas: string[], allAreas: string[]) {
+  setPrefs({ disabledAreas: allAreas.filter((a) => !areas.includes(a)) });
+  setSettings({ onboarded: true });
+}
+
 export function toggleArea(areaId: string) {
   const off = state.prefs.disabledAreas.includes(areaId);
   setPrefs({
@@ -347,6 +384,11 @@ export function endSession() {
   const algo = foldSession(state.algo, Date.now());
   set({ algo });
   persistKv('algo', algo, 0);
+}
+
+/** Interaction events in a time range, oldest first. */
+export async function eventsBetween(start: number, end: number): Promise<EventRecord[]> {
+  return (await safe(() => db.events.where('t').between(start, end, true, false).toArray())) ?? [];
 }
 
 export async function allEvents(): Promise<EventRecord[]> {
