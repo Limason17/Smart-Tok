@@ -1081,6 +1081,93 @@ input, textarea { font: inherit; color: inherit; }
   .feed-item { padding-top: calc(var(--safe-top) + 16px); padding-bottom: calc(var(--safe-bottom) + 16px); }
 }
 
+/* ------------------------------------------------------------ computer */
+
+.page-prev,
+.feed-nav { display: none; }
+.page-prev {
+  position: absolute;
+  left: calc(var(--pad-x) - 8px);
+  bottom: 4px;
+  align-items: center;
+  gap: 2px;
+  min-height: 30px;
+  padding: 4px 8px;
+  border: 0;
+  background: none;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-3);
+}
+.page-prev svg { transform: rotate(180deg); }
+
+/* Mouse or trackpad: hover feedback, a back button and clickable page bars */
+@media (hover: hover) and (pointer: fine) {
+  .page-prev { display: inline-flex; }
+  .page-next:hover, .page-prev:hover { color: var(--text); }
+  .bar-btn:not([disabled]):hover { background: color-mix(in srgb, var(--text) 8%, transparent); color: var(--text); }
+  .bar-btn.on-like:hover { color: var(--like); }
+  .bar-btn.on-save:hover { color: var(--accent); }
+  .glass-btn:not([disabled]):hover { background: color-mix(in srgb, var(--text) 14%, var(--glass)); }
+  .pager-bars i { overflow: visible; cursor: pointer; }
+  .pager-bars i::after { border-radius: 3px; }
+  .pager-bars i::before { content: ''; position: absolute; inset: -9px 0; }
+  .pager-bars i:hover { background: color-mix(in srgb, var(--text) 28%, transparent); }
+  .menu-row:hover, .onb-topic:hover { border-color: color-mix(in srgb, var(--text) 22%, var(--line)); }
+}
+
+/* Computer screens: a wider card, buttons beside it to move between cards, sheets as centred dialogs */
+@media (min-width: 900px) and (min-height: 600px) {
+  :root { --card-w: 600px; }
+  .card, .topbar-inner { max-width: var(--card-w); }
+  .feed-item { padding-top: 20px; padding-bottom: 20px; }
+  .topbar { top: 30px; }
+  .swipe-hint { bottom: 88px; }
+
+  .feed-nav {
+    position: fixed;
+    z-index: 15;
+    top: 50%;
+    left: calc(50% + var(--card-w) / 2 + 24px);
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .feed-nav .glass-btn { width: 46px; height: 46px; }
+  .feed-nav .glass-btn[disabled] { opacity: 0.35; cursor: default; }
+  .feed-nav .glass-btn:first-child svg { transform: rotate(-90deg); }
+  .feed-nav .glass-btn:last-child svg { transform: rotate(90deg); }
+
+  .sheet-backdrop { -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
+  .sheet {
+    inset: 0;
+    margin: auto;
+    height: fit-content;
+    max-width: var(--card-w);
+    max-height: min(88dvh, 940px);
+    border-bottom: 1px solid var(--line);
+    border-radius: 24px;
+    animation: dialog-in 0.22s cubic-bezier(0.2, 0.9, 0.3, 1);
+  }
+  .sheet-head { padding-top: 16px; }
+  .sheet-head::before { display: none; }
+  .sheet-body { padding-bottom: 26px; }
+
+  .onb { justify-content: center; max-width: 600px; }
+  .onb-dots { position: absolute; top: 28px; left: 0; right: 0; }
+  .onb-step { flex: 0 1 auto; max-height: calc(100dvh - 200px); }
+  .onb-actions { margin-top: 28px; }
+}
+@keyframes dialog-in { from { opacity: 0; transform: translateY(14px) scale(0.98); } to { opacity: 1; transform: none; } }
+
+/* Big screens: a little more room and a slightly larger reading size */
+@media (min-width: 1280px) and (min-height: 860px) {
+  :root { --card-w: 640px; }
+  :root:not([data-font='s']):not([data-font='l']) { --fs-read: 20px; --fs-title: 29px; }
+  .card { --pad-x: 30px; }
+}
+
 /* spaced review note above the saved list */
 .review-hint { margin-top: 14px; }
 .review-hint b { font-weight: 600; color: var(--accent); }

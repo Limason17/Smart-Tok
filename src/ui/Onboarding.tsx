@@ -5,7 +5,15 @@ import { useT, type StringKey } from '../i18n/strings';
 import { finishOnboarding, setSettings, useStore } from '../store/store';
 import { inline } from './CardView';
 import { Icon } from './Icon';
+import { useDesktop } from './useDesktop';
 import { Segmented } from './Sheet';
+
+/** On a computer, the gestures are explained as scrolling, keys and clicks. */
+const DESKTOP_KEYS: Partial<Record<StringKey, StringKey>> = {
+  onbSwipeUp: 'onbSwipeUpDesktop',
+  onbSwipeSide: 'onbSwipeSideDesktop',
+  onbLike: 'onbLikeDesktop',
+};
 
 const GESTURES: { icon: string; key: StringKey }[] = [
   { icon: 'arrowUp', key: 'onbSwipeUp' },
@@ -23,6 +31,7 @@ export function Onboarding() {
   const lang = useStore((s) => s.settings.lang);
   const disabled = useStore((s) => s.prefs.disabledAreas);
   const [step, setStep] = useState(0);
+  const desktop = useDesktop();
   const [picked, setPicked] = useState<string[]>(() => ACTIVE_AREAS.map((a) => a.id).filter((id) => !disabled.includes(id)));
   const toggle = (id: string) => setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
   const done = () => finishOnboarding(picked, ACTIVE_AREAS.map((a) => a.id));
@@ -95,7 +104,7 @@ export function Onboarding() {
                 <span className="onb-g-icon">
                   <Icon name={g.icon} size={20} />
                 </span>
-                <span>{inline(tr(g.key), lang)}</span>
+                <span>{inline(tr((desktop && DESKTOP_KEYS[g.key]) || g.key), lang)}</span>
               </li>
             ))}
           </ul>

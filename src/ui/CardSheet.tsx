@@ -64,7 +64,7 @@ export function CardSheet({ cardId, onClose }: { cardId: string; onClose: () => 
           <Icon name="bookmark" filled={record?.saved} size={18} />
           {record?.saved ? tr('saved') : tr('save')}
         </button>
-        {record?.planDone ? (
+        {!card.de.act && !record?.planAt ? null : record?.planDone ? (
           <button className="pill on-done" onClick={() => setPlanDone(cardId, false)}>
             <Icon name="targetDone" size={18} />
             {tr('planDone')}

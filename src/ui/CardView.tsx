@@ -399,7 +399,7 @@ export function CardView({ card, active, actions, banner, badge, onPage }: CardV
           <>
             <div className="pager-bars">
               {Array.from({ length: count }, (_, i) => (
-                <i key={i} className={i <= index ? 'on' : ''} />
+                <i key={i} className={i <= index ? 'on' : ''} onClick={() => go(i)} />
               ))}
             </div>
             <span className="pager-count">
@@ -423,6 +423,12 @@ export function CardView({ card, active, actions, banner, badge, onPage }: CardV
                     <BlockView key={bi} b={blocks[bi]} lang={tr.lang} exampleLabel={exampleLabel} first={j === 0} />
                   ))}
                 </div>
+                {p > 0 && (
+                  <button className="page-prev" onClick={() => go(p - 1)} aria-label={tr('prevPage')}>
+                    <Icon name="chevron" size={16} />
+                    <span>{tr('prevPage')}</span>
+                  </button>
+                )}
                 {p < count - 1 && (
                   <button className="page-next" onClick={() => go(p + 1)} aria-label={tr('nextPage')}>
                     {p === 0 && <span>{tr('pageHint')}</span>}

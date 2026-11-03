@@ -18,6 +18,7 @@ import {
 } from '../store/store';
 import { CardView } from './CardView';
 import { Icon } from './Icon';
+import { useDesktop } from './useDesktop';
 
 interface FeedEntry {
   key: string;
@@ -119,6 +120,26 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
       if (more.length) setEntries((prev) => [...prev, ...more]);
     }
   }, [active, entries]);
+
+  // --- computer: arrow keys, Page Up/Down and j/k move between cards
+  const desktop = useDesktop();
+  const step = useCallback((dir: 1 | -1) => {
+    const feed = feedRef.current;
+    if (feed) feed.scrollBy({ top: dir * feed.clientHeight, behavior: 'smooth' });
+  }, []);
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+      if (document.querySelector('.sheet, .onb')) return;
+      if ((e.target as HTMLElement | null)?.closest?.('input, textarea, select, [contenteditable]')) return;
+      const dir = { ArrowDown: 1, PageDown: 1, j: 1, ArrowUp: -1, PageUp: -1, k: -1 }[e.key] as 1 | -1 | undefined;
+      if (!dir) return;
+      e.preventDefault();
+      step(dir);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [step]);
 
   // --- topic changes apply right away to the cards after the current one
   const firstPrefs = useRef(true);
@@ -223,9 +244,19 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
       {!scrolled && active === 0 && (
         <div className="swipe-hint" aria-hidden="true">
           <Icon name="chevron" size={18} />
-          {tr('swipeHint')}
+          {tr(desktop ? 'swipeHintDesktop' : 'swipeHint')}
         </div>
       )}
+
+      {/* computer: buttons beside the card to move between cards */}
+      <div className="feed-nav">
+        <button className="glass-btn" onClick={() => step(-1)} disabled={active === 0} aria-label={tr('prevCard')}>
+          <Icon name="chevron" size={20} />
+        </button>
+        <button className="glass-btn" onClick={() => step(1)} aria-label={tr('nextCard')}>
+          <Icon name="chevron" size={20} />
+        </button>
+      </div>
 
       {burst && (
         <div key={burst.id} className="burst" style={{ left: burst.x, top: burst.y }} onAnimationEnd={() => setBurst(null)}>
@@ -253,6 +284,8 @@ const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMor
   const record = useStore((s) => s.cards[card.id]);
   const [checkIn, setCheckIn] = useState<'ask' | 'done' | 'later' | null>(entry.checkIn ? 'ask' : null);
   const hasMore = !!(card.de.more || card.de.source || card.slides?.some((s) => s.de.more || s.de.source));
+  // News have nothing to put into practice, so they get no "Umsetzen" button.
+  const hasAct = !!card.de.act;
   const planned = !!record?.planAt && !record.planDone;
   const done = !!record?.planDone;
 
@@ -324,6 +357,7 @@ const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMor
       >
         <Icon name="bookmark" filled={!!record?.saved} />
       </button>
+      {hasAct && (
       <button
         className={`bar-btn bar-plan ${planned ? 'on-plan' : ''} ${done ? 'on-done' : ''} ${pop === 'plan' ? 'pop' : ''}`}
         aria-label={done ? tr('planDone') : planned ? tr('planOn') : tr('plan')}
@@ -337,6 +371,7 @@ const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMor
         <Icon name={done ? 'targetDone' : 'target'} />
         <span>{done ? tr('planDoneShort') : planned ? tr('planOnShort') : tr('planShort')}</span>
       </button>
+      )}
       <span className="bar-gap" />
       <button
         className="bar-btn"
