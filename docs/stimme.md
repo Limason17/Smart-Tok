@@ -26,8 +26,21 @@ Das Leitbild: Batman hat keine Superkräfte. Er ist reich, aber dafür bewundert
 
 1. **Titel**: eine klare Aussage oder ein Versprechen, höchstens 9 Wörter.
 2. **Einstieg**: ein Satz, der trifft. Eine Situation, die jeder Mann kennt, oder eine harte Wahrheit.
-3. **Kern**: das Wissen, belegt und korrekt. Zahlen, Studien und Zitate mit Quelle.
-4. **„Heute anwenden“**: eine konkrete Aufgabe für heute, als Herausforderung formuliert. Messbar, machbar, unbequem genug, dass sie etwas aufbaut.
+3. **Kern** (`body`): das Wissen, belegt und korrekt. Zahlen, Studien und Zitate mit Quelle. `## ` setzt eine Zwischenüberschrift, `---` erzwingt eine neue Seite.
+4. **Beispiel** (`example`, optional): eine konkrete Szene aus dem Alltag, wenn sie das Prinzip greifbarer macht. Lieber ein gutes Beispiel als drei Absätze Theorie.
+5. **Abschluss** (`act` mit `actKind`): passt zum Inhalt, nicht jede Karte ist eine Aufgabe für heute.
+   - `heute`: Heute anwenden. Eine konkrete Aufgabe, machbar und unbequem genug, dass sie etwas aufbaut.
+   - `so`: So wendest du es an. Schritte; jede Zeile mit `- ` wird ein nummerierter Schritt.
+   - `achte`: Achte darauf. Woran man es im Alltag erkennt.
+   - `langfristig`: Über längere Zeit. Eine Gewohnheit über Wochen.
+   - `merke`: Merk dir. Der Kern in ein bis zwei Sätzen, gut für Fakten.
+   - `frage`: Frag dich. Eine ehrliche Frage zum Nachdenken.
+   - `gebet`: Im Gebet. Für Glaubenskarten.
+6. **Genauer betrachtet** (`deep`, optional): Hintergrund für alle, die mehr wissen wollen. Steht auf den letzten Seiten.
+
+Die App teilt jede Karte in Seiten, die ohne Scrollen auf den Bildschirm passen; weiter geht es mit einem Wisch zur Seite. Eine Karte darf darum auch länger sein, wenn das Thema es braucht. Ziel ist Lernen, nicht Länge: kurz, wo kurz reicht, ausführlich, wo es mehr Erklärung oder Beispiele braucht.
+
+Was der Leser umsetzen will, legt er mit „Umsetzen“ auf seine Liste. Die App fragt nach 2, 7 und 17 Tagen nach, ob er es getan hat. Der Abschluss soll darum so formuliert sein, dass man ihn wirklich tun und abhaken kann.
 
 ## Grenzen
 

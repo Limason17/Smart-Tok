@@ -36,41 +36,32 @@ export function errorText(code: string, tr: ReturnType<typeof useT>): string {
   return tr(ERRORS[code] ?? 'errUnknown');
 }
 
-/** Account box at the top of the profile. */
+/** Compact account row at the top of the profile. */
 export function AccountCard({ onOpen }: { onOpen: () => void }) {
   const tr = useT();
   const account = useStore((s) => s.account);
-  if (!accountsEnabled) {
-    return (
-      <div className="account-card">
-        <Icon name="user" size={22} />
-        <p>{tr('accountSoon')}</p>
-      </div>
-    );
-  }
   if (!account) {
     return (
-      <div className="account-card">
-        <Icon name="user" size={22} />
-        <div>
-          <p>{tr('accountPitch')}</p>
-          <button className="btn" onClick={onOpen}>
-            {tr('signIn')} / {tr('signUp')}
-          </button>
-        </div>
-      </div>
+      <button className="me" onClick={onOpen} disabled={!accountsEnabled}>
+        <span className="avatar guest">
+          <Icon name="user" size={20} />
+        </span>
+        <span className="me-text">
+          <b>{tr('guest')}</b>
+          <small>{accountsEnabled ? tr('guestSub') : tr('accountSoon')}</small>
+        </span>
+        {accountsEnabled && <span className="me-cta">{tr('signIn')}</span>}
+      </button>
     );
   }
   return (
-    <button className="account-card signed-in" onClick={onOpen}>
+    <button className="me" onClick={onOpen}>
       <span className="avatar">{(account.name || account.email).slice(0, 1).toUpperCase()}</span>
-      <span className="account-text">
-        <b>
-          {tr('hello')} {account.name || account.email}
-        </b>
+      <span className="me-text">
+        <b>{account.name || account.email}</b>
         <SyncLine />
       </span>
-      <Icon name="chevron" size={18} />
+      <Icon name="chevron" size={18} className="me-chev" />
     </button>
   );
 }

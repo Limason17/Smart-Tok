@@ -6,14 +6,15 @@ import { CardSheet, MoreSheet } from './CardSheet';
 import { Feed } from './Feed';
 import { Icon } from './Icon';
 import { Onboarding } from './Onboarding';
-import { ProfileSheet } from './ProfileSheet';
+import { AlgoSheet, ProfileSheet } from './ProfileSheet';
 import { SettingsSheet } from './SettingsSheet';
 import { TopicSheet } from './TopicSheet';
 
 type Panel =
-  | { kind: 'topics' }
+  | { kind: 'topics'; fromProfile?: boolean }
   | { kind: 'settings'; fromProfile?: boolean }
   | { kind: 'profile' }
+  | { kind: 'algo' }
   | { kind: 'account' }
   | { kind: 'card'; cardId: string }
   | { kind: 'more'; cardId: string }
@@ -104,17 +105,20 @@ export function App() {
           </button>
         </div>
       </div>
-      {panel?.kind === 'topics' && <TopicSheet onClose={close} />}
+      {panel?.kind === 'topics' && <TopicSheet onClose={panel.fromProfile ? openProfile : close} />}
       {panel?.kind === 'settings' && <SettingsSheet onClose={panel.fromProfile ? openProfile : close} />}
       {panel?.kind === 'profile' && (
         <ProfileSheet
           onClose={close}
           onOpenCard={(cardId) => setPanel({ kind: 'card', cardId })}
           onOpenSettings={() => setPanel({ kind: 'settings', fromProfile: true })}
-          onOpenTopics={openTopics}
+          onOpenTopics={() => setPanel({ kind: 'topics', fromProfile: true })}
           onOpenAccount={() => setPanel({ kind: 'account' })}
-          onToast={setToast}
+          onOpenAlgo={() => setPanel({ kind: 'algo' })}
         />
+      )}
+      {panel?.kind === 'algo' && (
+        <AlgoSheet onClose={openProfile} onOpenTopics={() => setPanel({ kind: 'topics', fromProfile: true })} onToast={setToast} />
       )}
       {panel?.kind === 'account' && <AccountSheet onClose={openProfile} onToast={setToast} />}
       {panel?.kind === 'card' && <CardSheet cardId={panel.cardId} onClose={openProfile} />}

@@ -9,10 +9,14 @@ export const DOC_VERSION = 1;
 
 /**
  * A card record as a short array:
- * [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt, reviewStep, reviewDue].
- * reviewStep is -1 when unset; the last two entries are missing in documents written before reviews existed.
+ * [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt, reviewStep, reviewDue,
+ *  planAt, planDone, planStep, planDue].
+ * reviewStep is -1 when unset; 0 stands for "not set" in the time fields. Older documents miss the trailing entries.
  */
-export type PackedCard = [number, number, number, number, -1 | 0 | 1, 0 | 1, number, 0 | 1, 0 | 1, 'de' | 'en', number, number?, number?];
+export type PackedCard = [
+  number, number, number, number, -1 | 0 | 1, 0 | 1, number, 0 | 1, 0 | 1, 'de' | 'en', number,
+  number?, number?, number?, number?, number?, number?,
+];
 
 export interface AccountDoc {
   v: number;
@@ -27,11 +31,11 @@ export interface AccountDoc {
 }
 
 export function packCard(r: CardRecord): PackedCard {
-  return [r.firstSeen, r.lastSeen, r.views, Math.round(r.dwellMs), r.reaction, r.saved ? 1 : 0, r.savedAt ?? 0, r.more ? 1 : 0, r.shared ? 1 : 0, r.lang, r.updatedAt, r.reviewStep ?? -1, r.reviewDue ?? 0];
+  return [r.firstSeen, r.lastSeen, r.views, Math.round(r.dwellMs), r.reaction, r.saved ? 1 : 0, r.savedAt ?? 0, r.more ? 1 : 0, r.shared ? 1 : 0, r.lang, r.updatedAt, r.reviewStep ?? -1, r.reviewDue ?? 0, r.planAt ?? 0, r.planDone ?? 0, r.planStep ?? 0, r.planDue ?? 0];
 }
 
 export function unpackCard(id: string, p: PackedCard): CardRecord {
-  const [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt, reviewStep, reviewDue] = p;
+  const [firstSeen, lastSeen, views, dwellMs, reaction, saved, savedAt, more, shared, lang, updatedAt, reviewStep, reviewDue, planAt, planDone, planStep, planDue] = p;
   return {
     id,
     firstSeen,
@@ -47,6 +51,10 @@ export function unpackCard(id: string, p: PackedCard): CardRecord {
     updatedAt,
     reviewStep: typeof reviewStep === 'number' && reviewStep >= 0 ? reviewStep : undefined,
     reviewDue: reviewDue || undefined,
+    planAt: planAt || undefined,
+    planDone: planDone || undefined,
+    planStep: planAt ? (planStep ?? 0) : undefined,
+    planDue: planDue || undefined,
   };
 }
 
@@ -59,7 +67,7 @@ export function encodeDoc(data: SyncData, name: string): AccountDoc {
   const cards: Record<string, PackedCard> = {};
   for (const r of Object.values(data.cards)) {
     // Cards that were only scrolled past without a view, reaction or save carry nothing worth syncing.
-    if (r.views > 0 || r.saved || r.reaction !== 0 || r.more || r.shared) cards[r.id] = packCard(r);
+    if (r.views > 0 || r.saved || r.planAt || r.reaction !== 0 || r.more || r.shared) cards[r.id] = packCard(r);
   }
   return plain({
     v: DOC_VERSION,

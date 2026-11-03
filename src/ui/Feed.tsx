@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useRef, useState, type PointerEvent as RPointerEvent } from 'react';
+import { memo, useCallback, useEffect, useRef, useState, type PointerEvent as RPointerEvent } from 'react';
+import type { Card } from '../content/card';
 import { CARD_BY_ID, CARDS } from '../content';
 import { pickNext } from '../algo/engine';
 import { useT } from '../i18n/strings';
@@ -8,8 +9,10 @@ import {
   markShared,
   recordView,
   seenMap,
+  setPlanDone,
   toggleDislike,
   toggleLike,
+  togglePlan,
   toggleSave,
   useStore,
 } from '../store/store';
@@ -21,6 +24,8 @@ interface FeedEntry {
   cardId: string;
   /** A saved card shown again for its spaced review. */
   due?: boolean;
+  /** A card from the "Umsetzen" list, shown again to ask whether it was done. */
+  checkIn?: boolean;
 }
 
 const BATCH = 3;
@@ -39,7 +44,7 @@ function nextEntries(existing: FeedEntry[], count: number): FeedEntry[] {
     if (!pick) break;
     recent.push(pick.card.id);
     sinceReview = pick.due ? 0 : sinceReview + 1;
-    out.push({ key: `${pick.card.id}-${entryCounter++}`, cardId: pick.card.id, due: pick.due });
+    out.push({ key: `${pick.card.id}-${entryCounter++}`, cardId: pick.card.id, due: pick.due, checkIn: pick.checkIn });
   }
   return out;
 }
@@ -64,8 +69,6 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
   const entriesRef = useRef(entries);
   entriesRef.current = entries;
 
-  const activeCardId = entries[active]?.cardId;
-  const record = useStore((s) => (activeCardId ? s.cards[activeCardId] : undefined));
 
   // --- dwell tracking: the active card is the one crossing the middle of the screen
   const flushDwell = useCallback(() => {
@@ -153,10 +156,10 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
     return () => clearTimeout(t);
   }, [pop]);
 
-  const share = async (cardId: string) => {
+  const share = useCallback(async (cardId: string) => {
     const card = CARD_BY_ID[cardId];
     const t = card[tr.lang];
-    const text = [t.title, t.body, t.quote ? `„${t.quote.text}“ — ${t.quote.author}` : '', t.apply ?? '']
+    const text = [t.title, t.body.replace(/^---$/gm, ''), t.quote ? `„${t.quote.text}“ — ${t.quote.author}` : '', t.act ?? '']
       .filter(Boolean)
       .join('\n\n')
       .replace(/\*\*/g, '');
@@ -171,7 +174,15 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
     } catch {
       /* user cancelled the share sheet */
     }
-  };
+  }, [tr, onToast]);
+
+  const onPlan = useCallback(
+    (cardId: string) => {
+      const on = togglePlan(cardId);
+      onToast(on ? tr('planAdded') : tr('planRemoved'));
+    },
+    [onToast, tr],
+  );
 
   if (!entries.length) {
     return (
@@ -186,67 +197,28 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
     );
   }
 
-  const card = activeCardId ? CARD_BY_ID[activeCardId] : undefined;
-  const hasMore = !!card && !!(card.de.more || card.de.source || card.slides?.some((s) => s.de.more || s.de.source));
-
   return (
     <>
       <div className="feed" ref={feedRef}>
         {entries.map((e, i) => (
           <div key={e.key} className="feed-item" data-index={i} onPointerUp={(ev) => onPointerUp(ev, e.cardId)}>
-            {Math.abs(i - active) <= 3 ? <CardView card={CARD_BY_ID[e.cardId]} /> : <div className="card" />}
+            {Math.abs(i - active) <= 3 ? (
+              <FeedCard
+                card={CARD_BY_ID[e.cardId]}
+                entry={e}
+                active={i === active}
+                pop={i === active ? pop : null}
+                onPop={setPop}
+                onMore={onMore}
+                onShare={share}
+                onPlan={onPlan}
+              />
+            ) : (
+              <div className="card" />
+            )}
           </div>
         ))}
       </div>
-
-      {card && (
-        <nav className="rail" aria-label="Aktionen">
-          <button
-            className={`rail-btn ${record?.reaction === 1 ? 'on-like' : ''} ${pop === 'like' ? 'pop' : ''}`}
-            aria-label={tr('like')}
-            aria-pressed={record?.reaction === 1}
-            onClick={() => {
-              if (record?.reaction !== 1) setPop('like');
-              toggleLike(card.id);
-            }}
-          >
-            <Icon name="heart" filled={record?.reaction === 1} />
-          </button>
-          <button
-            className={`rail-btn ${record?.reaction === -1 ? 'on-dislike' : ''}`}
-            aria-label={tr('dislike')}
-            aria-pressed={record?.reaction === -1}
-            onClick={() => toggleDislike(card.id)}
-          >
-            <Icon name="dislike" filled={record?.reaction === -1} />
-          </button>
-          <button
-            className={`rail-btn ${record?.saved ? 'on-save' : ''} ${pop === 'save' ? 'pop' : ''}`}
-            aria-label={record?.saved ? tr('saved') : tr('save')}
-            aria-pressed={!!record?.saved}
-            onClick={() => {
-              if (!record?.saved) setPop('save');
-              toggleSave(card.id);
-            }}
-          >
-            <Icon name="bookmark" filled={!!record?.saved} />
-          </button>
-          <button
-            className="rail-btn"
-            aria-label={tr('more')}
-            disabled={!hasMore}
-            onClick={() => {
-              markMore(card.id);
-              onMore(card.id);
-            }}
-          >
-            <Icon name="info" />
-          </button>
-          <button className="rail-btn" aria-label={tr('share')} onClick={() => void share(card.id)}>
-            <Icon name="share" />
-          </button>
-        </nav>
-      )}
 
       {!scrolled && active === 0 && (
         <div className="swipe-hint" aria-hidden="true">
@@ -263,3 +235,133 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
     </>
   );
 }
+
+interface FeedCardProps {
+  card: Card;
+  entry: FeedEntry;
+  active: boolean;
+  pop: string | null;
+  onPop: (what: string) => void;
+  onMore: (cardId: string) => void;
+  onShare: (cardId: string) => Promise<void>;
+  onPlan: (cardId: string) => void;
+}
+
+/** One card in the feed with its own action bar. */
+const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMore, onShare, onPlan }: FeedCardProps) {
+  const tr = useT();
+  const record = useStore((s) => s.cards[card.id]);
+  const [checkIn, setCheckIn] = useState<'ask' | 'done' | 'later' | null>(entry.checkIn ? 'ask' : null);
+  const hasMore = !!(card.de.more || card.de.source || card.slides?.some((s) => s.de.more || s.de.source));
+  const planned = !!record?.planAt && !record.planDone;
+  const done = !!record?.planDone;
+
+  const banner =
+    checkIn === 'ask' ? (
+      <div className="checkin">
+        <p>
+          <Icon name="target" size={16} />
+          {tr('checkInQuestion')}
+        </p>
+        <div className="checkin-btns">
+          <button
+            className="btn small"
+            onClick={() => {
+              setPlanDone(card.id, true);
+              setCheckIn('done');
+            }}
+          >
+            <Icon name="check" size={16} />
+            {tr('checkInDone')}
+          </button>
+          <button className="btn small ghost" onClick={() => setCheckIn('later')}>
+            {tr('checkInLater')}
+          </button>
+        </div>
+      </div>
+    ) : checkIn === 'done' ? (
+      <div className="checkin done">
+        <p>
+          <Icon name="check" size={16} />
+          {tr('checkInDoneNote')}
+        </p>
+      </div>
+    ) : checkIn === 'later' ? (
+      <div className="checkin">
+        <p>{tr('checkInLaterNote')}</p>
+      </div>
+    ) : undefined;
+
+  const actions = (
+    <nav className="card-bar" aria-label={tr('actions')}>
+      <button
+        className={`bar-btn ${record?.reaction === 1 ? 'on-like' : ''} ${pop === 'like' ? 'pop' : ''}`}
+        aria-label={tr('like')}
+        aria-pressed={record?.reaction === 1}
+        onClick={() => {
+          if (record?.reaction !== 1) onPop('like');
+          toggleLike(card.id);
+        }}
+      >
+        <Icon name="heart" filled={record?.reaction === 1} />
+      </button>
+      <button
+        className={`bar-btn ${record?.reaction === -1 ? 'on-dislike' : ''}`}
+        aria-label={tr('dislike')}
+        aria-pressed={record?.reaction === -1}
+        onClick={() => toggleDislike(card.id)}
+      >
+        <Icon name="dislike" filled={record?.reaction === -1} />
+      </button>
+      <button
+        className={`bar-btn ${record?.saved ? 'on-save' : ''} ${pop === 'save' ? 'pop' : ''}`}
+        aria-label={record?.saved ? tr('saved') : tr('save')}
+        aria-pressed={!!record?.saved}
+        onClick={() => {
+          if (!record?.saved) onPop('save');
+          toggleSave(card.id);
+        }}
+      >
+        <Icon name="bookmark" filled={!!record?.saved} />
+      </button>
+      <button
+        className={`bar-btn bar-plan ${planned ? 'on-plan' : ''} ${done ? 'on-done' : ''} ${pop === 'plan' ? 'pop' : ''}`}
+        aria-label={done ? tr('planDone') : planned ? tr('planOn') : tr('plan')}
+        aria-pressed={planned || done}
+        disabled={done}
+        onClick={() => {
+          if (!planned) onPop('plan');
+          onPlan(card.id);
+        }}
+      >
+        <Icon name={done ? 'targetDone' : 'target'} />
+        <span>{done ? tr('planDoneShort') : planned ? tr('planOnShort') : tr('planShort')}</span>
+      </button>
+      <span className="bar-gap" />
+      <button
+        className="bar-btn"
+        aria-label={tr('more')}
+        disabled={!hasMore}
+        onClick={() => {
+          markMore(card.id);
+          onMore(card.id);
+        }}
+      >
+        <Icon name="info" />
+      </button>
+      <button className="bar-btn" aria-label={tr('share')} onClick={() => void onShare(card.id)}>
+        <Icon name="share" />
+      </button>
+    </nav>
+  );
+
+  return (
+    <CardView
+      card={card}
+      active={active}
+      actions={actions}
+      banner={banner}
+      badge={entry.due && !entry.checkIn ? tr('reviewBadge') : entry.checkIn ? tr('checkInBadge') : undefined}
+    />
+  );
+});

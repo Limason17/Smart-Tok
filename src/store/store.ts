@@ -3,8 +3,11 @@ import { CARD_BY_ID } from '../content';
 import type { Card } from '../content/card';
 import type { Lang } from '../content/taxonomy';
 import {
+  afterPlanView,
   afterView,
   applySignal,
+  nextPlanDue,
+  planDue,
   DEFAULT_PREFS,
   emptyAlgo,
   ensureSession,
@@ -227,7 +230,8 @@ export function streak(days: Record<string, number>, now = Date.now()): number {
 export function seenMap(cards: Record<string, CardRecord>): Record<string, SeenInfo> {
   const out: Record<string, SeenInfo> = {};
   for (const [id, r] of Object.entries(cards)) {
-    if (r.views > 0) out[id] = { lastSeen: r.lastSeen, views: r.views, reaction: r.reaction, saved: r.saved, due: reviewDue(r) };
+    // A card saved or planned before its view was counted (the view is recorded on leaving it) still comes back.
+    if (r.views > 0 || r.saved || r.planAt) out[id] = { lastSeen: r.lastSeen, views: r.views, reaction: r.reaction, saved: r.saved, due: reviewDue(r), checkIn: planDue(r) };
   }
   return out;
 }
@@ -280,6 +284,7 @@ export function recordView(cardId: string, dwellMs: number) {
     dwellMs: prev.dwellMs + Math.min(dwellMs, 15 * 60 * 1000),
     lang: state.settings.lang,
     ...afterView(prev, now),
+    ...afterPlanView(prev, now),
     updatedAt: now,
   });
   if (firstToday) {
@@ -333,6 +338,37 @@ export function toggleSave(cardId: string) {
   }));
   signal(card, { type: 'save', on });
   logEvent(cardId, 'save', on ? 1 : 0);
+}
+
+/** Adds a card to the "Umsetzen" list (or takes it off). The feed checks back after a few days. */
+export function togglePlan(cardId: string, force?: boolean): boolean {
+  const card = CARD_BY_ID[cardId];
+  if (!card) return false;
+  const was = !!state.cards[cardId]?.planAt;
+  const on = force ?? !was;
+  if (on === was) return on;
+  const now = Date.now();
+  updateCard(cardId, () =>
+    on
+      ? { planAt: now, planDone: undefined, planStep: 0, planDue: nextPlanDue(0, now) }
+      : { planAt: undefined, planDone: undefined, planStep: undefined, planDue: undefined },
+  );
+  signal(card, { type: 'plan', on });
+  logEvent(cardId, 'plan', on ? 1 : 0);
+  return on;
+}
+
+/** Marks a planned card as done (umgesetzt) or opens it again. */
+export function setPlanDone(cardId: string, done: boolean) {
+  if (!CARD_BY_ID[cardId]) return;
+  const now = Date.now();
+  updateCard(cardId, (r) => ({
+    planAt: r.planAt ?? now,
+    planDone: done ? now : undefined,
+    planStep: done ? r.planStep : 0,
+    planDue: done ? undefined : nextPlanDue(0, now),
+  }));
+  logEvent(cardId, 'done', done ? 1 : 0);
 }
 
 export function markMore(cardId: string) {
@@ -526,6 +562,14 @@ export async function resetAll(keepSaved: boolean): Promise<void> {
         reviewDue: r.reviewDue,
         lang: r.lang,
       };
+    }
+  }
+  // The "Umsetzen" list stays together with saved cards.
+  if (keepSaved) {
+    for (const r of Object.values(state.cards)) {
+      if (!r.planAt) continue;
+      const base = kept[r.id] ?? { ...blankRecord(r.id, now), firstSeen: r.firstSeen || now, lastSeen: r.lastSeen || now, views: 1, lang: r.lang };
+      kept[r.id] = { ...base, planAt: r.planAt, planDone: r.planDone, planStep: r.planStep, planDue: r.planDue };
     }
   }
   for (const t of kvTimers.values()) clearTimeout(t);

@@ -14,6 +14,11 @@ export interface CardRecord {
   /** Spaced review of saved cards: reviews done so far (0 to 4) and when the next one is due. */
   reviewStep?: number;
   reviewDue?: number;
+  /** "Umsetzen" list: when added, when marked done, check-ins done so far and when the next is due. */
+  planAt?: number;
+  planDone?: number;
+  planStep?: number;
+  planDue?: number;
   more: boolean;
   shared: boolean;
   /** Language the card was last read in. */
@@ -32,7 +37,7 @@ export interface EventRecord {
   id: string;
   t: number;
   card: string;
-  type: 'view' | 'like' | 'dislike' | 'save' | 'more' | 'share';
+  type: 'view' | 'like' | 'dislike' | 'save' | 'plan' | 'done' | 'more' | 'share';
   value?: number;
 }
 

@@ -1,7 +1,7 @@
 import 'fake-indexeddb/auto';
 import { describe, expect, it } from 'vitest';
 import { CARDS } from '../content';
-import { addSuggestion, getState, localDate, resetAll, sanitizeText, setAdjust, streak, toggleLike, toggleSave } from './store';
+import { addSuggestion, getState, localDate, resetAll, sanitizeText, seenMap, setAdjust, setPlanDone, streak, toggleLike, togglePlan, toggleSave } from './store';
 
 describe('topic suggestions', () => {
   it('strips control characters, links and markup and caps the length', () => {
@@ -65,5 +65,41 @@ describe('reset everything', () => {
 
     await resetAll(false);
     expect(getState().cards).toEqual({});
+  });
+});
+
+describe('"Umsetzen" list', () => {
+  it('adds, completes, reopens and removes a card', async () => {
+    await resetAll(false);
+    const id = CARDS[2].id;
+    expect(togglePlan(id)).toBe(true);
+    const r = getState().cards[id];
+    expect(r.planAt).toBeGreaterThan(0);
+    expect(r.planStep).toBe(0);
+    expect(r.planDue).toBeGreaterThan(r.planAt!);
+
+    setPlanDone(id, true);
+    expect(getState().cards[id]).toMatchObject({ planDone: expect.any(Number), planDue: undefined });
+    setPlanDone(id, false);
+    expect(getState().cards[id]).toMatchObject({ planDone: undefined, planStep: 0 });
+
+    expect(togglePlan(id, true)).toBe(true);
+    expect(togglePlan(id)).toBe(false);
+    expect(getState().cards[id]?.planAt).toBeUndefined();
+  });
+
+  it('brings a planned card back even before its view was counted', async () => {
+    await resetAll(false);
+    const id = CARDS[4].id;
+    togglePlan(id);
+    expect(seenMap(getState().cards)[id]?.checkIn).toBe(getState().cards[id].planDue);
+  });
+
+  it('survives a reset that keeps saved cards', async () => {
+    await resetAll(false);
+    const id = CARDS[3].id;
+    togglePlan(id);
+    await resetAll(true);
+    expect(getState().cards[id]?.planAt).toBeGreaterThan(0);
   });
 });

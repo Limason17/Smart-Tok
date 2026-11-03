@@ -4,6 +4,19 @@
 export type Lang = 'de' | 'en';
 export type Label = Record<Lang, string>;
 
+/** Closing sections of a card. Not every card ends with a task for today. */
+export const ACT_KINDS = ['heute', 'so', 'achte', 'langfristig', 'merke', 'frage', 'gebet'] as const;
+export type ActKind = (typeof ACT_KINDS)[number];
+export const ACT_LABELS: Record<ActKind, Label> = {
+  heute: { de: 'Heute anwenden', en: 'Try it today' },
+  so: { de: 'So wendest du es an', en: 'How to use it' },
+  achte: { de: 'Achte darauf', en: 'Watch for it' },
+  langfristig: { de: 'Über längere Zeit', en: 'Over time' },
+  merke: { de: 'Merk dir', en: 'Remember' },
+  frage: { de: 'Frag dich', en: 'Ask yourself' },
+  gebet: { de: 'Im Gebet', en: 'In prayer' },
+};
+
 export interface Subtopic {
   id: string;
   label: Label;

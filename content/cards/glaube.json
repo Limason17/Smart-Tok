@@ -5,6 +5,7 @@
     "sub": "mann-gottes",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Seid mutig, seid stark",
       "quote": {
@@ -13,8 +14,8 @@
         "source": "1 Kor 16,13"
       },
       "body": "Paulus schreibt diese Zeilen am Ende seines ersten Briefes an die Gemeinde in Korinth, einer reichen Hafenstadt voller Versuchungen und Streit.\n\nEs sind vier kurze Befehle, fast wie von einem Offizier: **wachsam** bleiben, **fest** stehen, **mutig** sein, **stark** sein. Und direkt im nächsten Vers fügt er hinzu: \"Alles, was ihr tut, geschehe in Liebe.\" Stärke und Liebe gehören für Paulus zusammen. Ein Mann Gottes ist nicht weich, aber auch nicht hart, sondern stark für andere.",
-      "apply": "Steh diese Woche einmal offen zu deinem Glauben oder deinen Werten, auch wenn es dich etwas kostet.",
-      "more": "Der erste Korintherbrief entstand um das Jahr 55 in Ephesus. Korinth war bekannt für seinen Wohlstand und seine Ausschweifung. Die Gemeinde stritt über Parteien, Moral und Gottesdienst. Der Vers 16,14 lautet: \"Alles, was ihr tut, geschehe in Liebe!\"",
+      "act": "Steh diese Woche einmal offen zu deinem Glauben oder deinen Werten, auch wenn es dich etwas kostet.",
+      "deep": "Der erste Korintherbrief entstand um das Jahr 55 in Ephesus. Korinth war bekannt für seinen Wohlstand und seine Ausschweifung. Die Gemeinde stritt über Parteien, Moral und Gottesdienst. Der Vers 16,14 lautet: \"Alles, was ihr tut, geschehe in Liebe!\"",
       "source": "1 Kor 16,13-14 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -25,8 +26,8 @@
         "source": "1 Cor 16:13"
       },
       "body": "Paul writes these lines at the end of his first letter to the church in Corinth, a wealthy port city full of temptation and quarrels.\n\nThey're four short commands, almost like an officer's: stay **alert**, stand **firm**, be **courageous**, be **strong**. And in the very next verse he adds: \"Your every act should be done with love.\" For Paul, strength and love belong together. A man of God isn't soft, but not harsh either: he is strong for others.",
-      "apply": "Stand up openly for your faith or your values once this week, even if it costs you something.",
-      "more": "First Corinthians was written around the year 55 in Ephesus. Corinth was known for its wealth and its excess. The church there argued about factions, morals and worship. Verse 16:14 reads: \"Your every act should be done with love.\"",
+      "act": "Stand up openly for your faith or your values once this week, even if it costs you something.",
+      "deep": "First Corinthians was written around the year 55 in Ephesus. Corinth was known for its wealth and its excess. The church there argued about factions, morals and worship. Verse 16:14 reads: \"Your every act should be done with love.\"",
       "source": "1 Cor 16:13-14 (New American Bible, Revised Edition)"
     }
   },
@@ -36,6 +37,7 @@
     "sub": "mann-gottes",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Nicht ein Geist der Verzagtheit",
       "quote": {
@@ -44,8 +46,8 @@
         "source": "2 Tim 1,7"
       },
       "body": "Timotheus war jung und leitete eine Gemeinde, in der ältere Männer das Sagen haben wollten. Paulus schreibt ihm aus dem Gefängnis, kurz vor seinem eigenen Tod.\n\nDrei Dinge stellt er der Angst gegenüber: **Kraft**, um zu handeln. **Liebe**, damit die Kraft dient statt verletzt. **Besonnenheit**, also Selbstbeherrschung und klares Denken. Genau diese drei zusammen machen einen reifen Mann aus.",
-      "apply": "Wähle, was dir am meisten fehlt, Kraft, Liebe oder Besonnenheit, und übe es heute in einer konkreten Situation.",
-      "more": "Der zweite Timotheusbrief gilt in der Tradition als letzter Brief des Paulus, geschrieben in römischer Haft. Das griechische Wort für Besonnenheit, sophronismos, bedeutet so viel wie gesunder, beherrschter Verstand.",
+      "act": "Bitte Gott heute um das, was dir von den dreien am meisten fehlt: Kraft, Liebe oder Besonnenheit. Dann übe es in einer konkreten Situation.",
+      "deep": "Der zweite Timotheusbrief gilt in der Tradition als letzter Brief des Paulus, geschrieben in römischer Haft. Das griechische Wort für Besonnenheit, sophronismos, bedeutet so viel wie gesunder, beherrschter Verstand.",
       "source": "2 Tim 1,7 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -56,8 +58,8 @@
         "source": "2 Tim 1:7"
       },
       "body": "Timothy was young and led a church where older men wanted to call the shots. Paul writes to him from prison, shortly before his own death.\n\nHe sets three things against fear: **power** to act. **Love**, so that power serves rather than wounds. **Self-control**, meaning discipline and clear thinking. These three together make a mature man.",
-      "apply": "Pick the one you lack most, power, love or self-control, and practise it today in one concrete situation.",
-      "more": "Tradition holds Second Timothy to be Paul's last letter, written in Roman custody. The Greek word for self-control, sophronismos, means something like a sound, disciplined mind.",
+      "act": "Ask God today for the one of the three you lack most: power, love or self-control. Then practise it in one concrete situation.",
+      "deep": "Tradition holds Second Timothy to be Paul's last letter, written in Roman custody. The Greek word for self-control, sophronismos, means something like a sound, disciplined mind.",
       "source": "2 Tim 1:7 (New American Bible, Revised Edition)"
     }
   },
@@ -67,6 +69,7 @@
     "sub": "mann-gottes",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Grösse heisst dienen",
       "quote": {
@@ -75,8 +78,8 @@
         "source": "Mk 10,45"
       },
       "body": "Zwei Jünger, Jakobus und Johannes, wollen sich die besten Plätze neben Jesus sichern. Die anderen sind empört. Jesus ruft sie zusammen und dreht die Vorstellung von Macht um: Wer bei euch gross sein will, soll der Diener aller sein.\n\nFührung im christlichen Sinn heisst nicht, über anderen zu stehen, sondern **Verantwortung für sie zu tragen**. Ein Vater, ein Chef, ein Kapitän: Der Beste von ihnen dient.",
-      "apply": "Diene heute jemandem in deiner Familie oder deinem Team, ohne es anzukündigen.",
-      "more": "Die Szene steht in Mk 10,35-45. Kurz darauf zieht Jesus in Jerusalem ein, wo er gekreuzigt wird. Seine Worte über das Dienen hat er also mit seinem eigenen Leben ausgelegt. In der Fusswaschung (Joh 13) zeigt er dasselbe noch einmal sichtbar.",
+      "act": "Diene heute jemandem in deiner Familie oder deinem Team, ohne es anzukündigen.",
+      "deep": "Die Szene steht in Mk 10,35-45. Kurz darauf zieht Jesus in Jerusalem ein, wo er gekreuzigt wird. Seine Worte über das Dienen hat er also mit seinem eigenen Leben ausgelegt. In der Fusswaschung (Joh 13) zeigt er dasselbe noch einmal sichtbar.",
       "source": "Mk 10,35-45 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -87,8 +90,8 @@
         "source": "Mk 10:45"
       },
       "body": "Two disciples, James and John, try to secure the best seats next to Jesus. The others are indignant. Jesus calls them together and turns the idea of power upside down: whoever wishes to be great among you will be the servant of all.\n\nLeadership in the Christian sense doesn't mean standing above others but **bearing responsibility for them**. A father, a boss, a captain: the best of them serve.",
-      "apply": "Serve someone in your family or team today without announcing it.",
-      "more": "The scene is in Mk 10:35-45. Shortly afterwards Jesus enters Jerusalem, where he is crucified. He explained his words on serving with his own life. In the washing of the feet (Jn 13) he shows the same thing once more, visibly.",
+      "act": "Serve someone in your family or team today without announcing it.",
+      "deep": "The scene is in Mk 10:35-45. Shortly afterwards Jesus enters Jerusalem, where he is crucified. He explained his words on serving with his own life. In the washing of the feet (Jn 13) he shows the same thing once more, visibly.",
       "source": "Mk 10:35-45 (New American Bible, Revised Edition)"
     }
   },
@@ -98,6 +101,7 @@
     "sub": "werte",
     "style": "bibelvers",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Lieben wie Christus",
       "quote": {
@@ -106,8 +110,8 @@
         "source": "Eph 5,25"
       },
       "body": "Dieser Vers wird oft überlesen, weil die Verse davor über die Frauen sprechen. Dabei ist er der **anspruchsvollste** Teil.\n\nDer Massstab für die Liebe eines Mannes ist nicht Gefühl oder Leidenschaft, sondern Christus, der sein Leben hingegeben hat. Das heisst: ihre Würde schützen, Verantwortung übernehmen, die eigenen Wünsche zurückstellen, wenn es ihr Wohl verlangt. Nicht herrschen, sondern sich hingeben.",
-      "apply": "Überleg dir, wie du heute deine Frau, Freundin oder künftige Partnerin auf diese Weise ehren kannst.",
-      "more": "Die katholische Kirche versteht die Ehe als Sakrament, als Zeichen der Liebe zwischen Christus und der Kirche. Papst Johannes Paul II. betonte in seiner \"Theologie des Leibes\", dass Eph 5 eine gegenseitige Hingabe beschreibt: Vers 21 beginnt mit \"Einer ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus\".",
+      "act": "Wie kann ich heute meine Frau, Freundin oder künftige Partnerin so ehren, dass es mich etwas kostet: Zeit, Bequemlichkeit oder Stolz?",
+      "deep": "Die katholische Kirche versteht die Ehe als Sakrament, als Zeichen der Liebe zwischen Christus und der Kirche. Papst Johannes Paul II. betonte in seiner \"Theologie des Leibes\", dass Eph 5 eine gegenseitige Hingabe beschreibt: Vers 21 beginnt mit \"Einer ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus\".",
       "source": "Eph 5,21-33 (Einheitsübersetzung 2016); Johannes Paul II.: Theologie des Leibes (1979-1984)"
     },
     "en": {
@@ -118,8 +122,8 @@
         "source": "Eph 5:25"
       },
       "body": "This verse is often skipped because the verses before it speak to wives. Yet it's the **most demanding** part.\n\nThe standard for a man's love isn't feeling or passion but Christ, who gave his life. That means protecting her dignity, taking responsibility, putting your own wishes aside when her good requires it. Not ruling, but giving yourself.",
-      "apply": "Think about how you could honour your wife, girlfriend or future partner this way today.",
-      "more": "The Catholic Church understands marriage as a sacrament, a sign of the love between Christ and the Church. In his \"Theology of the Body\", Pope John Paul II stressed that Eph 5 describes mutual self-giving: verse 21 opens with \"Be subordinate to one another out of reverence for Christ\".",
+      "act": "How can I honour my wife, girlfriend or future partner today in a way that costs me something: time, comfort or pride?",
+      "deep": "The Catholic Church understands marriage as a sacrament, a sign of the love between Christ and the Church. In his \"Theology of the Body\", Pope John Paul II stressed that Eph 5 describes mutual self-giving: verse 21 opens with \"Be subordinate to one another out of reverence for Christ\".",
       "source": "Eph 5:21-33 (New American Bible, Revised Edition); John Paul II: Theology of the Body (1979-1984)"
     }
   },
@@ -129,6 +133,7 @@
     "sub": "werte",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Wem viel gegeben wurde",
       "quote": {
@@ -137,8 +142,8 @@
         "source": "Lk 12,48"
       },
       "body": "Talent, Gesundheit, Bildung, Geld, eine gute Familie: Nichts davon hast du dir ganz allein verdient. Jesus sagt: Wer viel bekommen hat, trägt auch **viel Verantwortung**.\n\nDas ist kein Grund für ein schlechtes Gewissen, sondern ein Auftrag. Deine Gaben sind nicht nur für dich da, sondern dafür, dass du mit ihnen etwas Gutes in die Welt bringst.",
-      "apply": "Schreib drei Dinge auf, die dir gegeben wurden, und eine Art, wie du eines davon diese Woche für andere einsetzt.",
-      "more": "Der Vers steht am Ende eines Gleichnisses über treue und untreue Verwalter, die auf die Rückkehr ihres Herrn warten. Die Botschaft ist dieselbe wie im Gleichnis von den Talenten (Mt 25): Gott vertraut uns etwas an und erwartet, dass wir es nutzen.",
+      "act": "Welche drei Dinge wurden dir gegeben, die du dir nicht allein verdient hast? Schreib sie auf und setz eines davon diese Woche für andere ein.",
+      "deep": "Der Vers steht am Ende eines Gleichnisses über treue und untreue Verwalter, die auf die Rückkehr ihres Herrn warten. Die Botschaft ist dieselbe wie im Gleichnis von den Talenten (Mt 25): Gott vertraut uns etwas an und erwartet, dass wir es nutzen.",
       "source": "Lk 12,41-48 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -149,8 +154,8 @@
         "source": "Lk 12:48"
       },
       "body": "Talent, health, education, money, a good family: you didn't earn any of these entirely on your own. Jesus says: whoever has received much also carries **much responsibility**.\n\nThat's no reason for guilt but a mission. Your gifts aren't only for you; they're for bringing something good into the world.",
-      "apply": "Write down three things you've been given and one way you'll use one of them for others this week.",
-      "more": "The verse closes a parable about faithful and unfaithful stewards waiting for their master's return. The message matches the parable of the talents (Mt 25): God entrusts us with something and expects us to use it.",
+      "act": "Which three things were given to you that you didn't earn alone? Write them down and use one of them for others this week.",
+      "deep": "The verse closes a parable about faithful and unfaithful stewards waiting for their master's return. The message matches the parable of the talents (Mt 25): God entrusts us with something and expects us to use it.",
       "source": "Lk 12:41-48 (New American Bible, Revised Edition)"
     }
   },
@@ -160,6 +165,7 @@
     "sub": "nt",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Das Neue Testament in einer Minute",
       "body": "Das Neue Testament besteht aus **27 Büchern**, geschrieben etwa zwischen den Jahren 50 und 100, ursprünglich auf Griechisch.",
@@ -169,8 +175,8 @@
         "**21 Briefe**, die meisten von Paulus, dazu Petrus, Jakobus, Johannes und Judas: Glauben im Alltag.",
         "**Offenbarung des Johannes**: Bilder vom Kampf zwischen Gut und Böse und vom Sieg Christi."
       ],
-      "apply": "Lies diese Woche das kürzeste Evangelium, Markus. Es hat nur 16 Kapitel.",
-      "more": "Die ältesten Schriften des Neuen Testaments sind die Briefe des Paulus, vor allem der erste Thessalonicherbrief (um 50). Das älteste Evangelium ist nach Meinung der meisten Forscher Markus (um 70). Die Liste der 27 Bücher war im 4. Jahrhundert weitgehend festgelegt und wurde für die katholische Kirche auf dem Konzil von Trient (1546) verbindlich bestätigt.",
+      "act": "Lies diese Woche das kürzeste Evangelium, Markus. Es hat nur 16 Kapitel, also zwei bis drei pro Tag.",
+      "deep": "Die ältesten Schriften des Neuen Testaments sind die Briefe des Paulus, vor allem der erste Thessalonicherbrief (um 50). Das älteste Evangelium ist nach Meinung der meisten Forscher Markus (um 70). Die Liste der 27 Bücher war im 4. Jahrhundert weitgehend festgelegt und wurde für die katholische Kirche auf dem Konzil von Trient (1546) verbindlich bestätigt.",
       "source": "Katechismus der Katholischen Kirche, Nr. 120 und 124-127"
     },
     "en": {
@@ -182,8 +188,8 @@
         "**21 letters**, most by Paul, plus Peter, James, John and Jude: faith in daily life.",
         "**Revelation**: images of the battle between good and evil and of Christ's victory."
       ],
-      "apply": "This week, read the shortest Gospel, Mark. It has only 16 chapters.",
-      "more": "The oldest New Testament writings are Paul's letters, above all First Thessalonians (around 50). Most scholars consider Mark the oldest Gospel (around 70). The list of 27 books was largely settled by the 4th century and was formally confirmed for the Catholic Church at the Council of Trent (1546).",
+      "act": "This week, read the shortest Gospel, Mark. It has only 16 chapters, so two or three a day.",
+      "deep": "The oldest New Testament writings are Paul's letters, above all First Thessalonians (around 50). Most scholars consider Mark the oldest Gospel (around 70). The list of 27 books was largely settled by the 4th century and was formally confirmed for the Catholic Church at the Council of Trent (1546).",
       "source": "Catechism of the Catholic Church, nos. 120 and 124-127"
     }
   },
@@ -193,6 +199,7 @@
     "sub": "nt",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Vier Evangelien, vier Blickwinkel",
       "body": "Warum gibt es vier Evangelien statt einem? Weil jedes Jesus aus einem anderen Blickwinkel zeigt, wie vier Zeugen desselben Ereignisses. Die Tradition gibt jedem ein Symbol:",
@@ -202,8 +209,8 @@
         "**Lukas** (Stier): Jesus als Retter der Armen, Kranken und Sünder. Hier stehen der verlorene Sohn und der barmherzige Samariter.",
         "**Johannes** (Adler): tief und betrachtend. Jesus als das ewige Wort Gottes, das Mensch wurde."
       ],
-      "apply": "Lies den Anfang aller vier Evangelien (jeweils die ersten Verse) und vergleiche, wie unterschiedlich sie beginnen.",
-      "more": "Die Symbole gehen auf die vier Wesen in Ez 1 und Offb 4 zurück und wurden vom heiligen Hieronymus (um 400) den Evangelisten zugeordnet. Matthäus, Markus und Lukas ähneln sich stark und heissen darum \"synoptische\" Evangelien (griechisch für \"zusammenschauen\").",
+      "act": "Lies den Anfang aller vier Evangelien (jeweils die ersten Verse) und vergleiche, wie unterschiedlich sie beginnen.",
+      "deep": "Die Symbole gehen auf die vier Wesen in Ez 1 und Offb 4 zurück und wurden vom heiligen Hieronymus (um 400) den Evangelisten zugeordnet. Matthäus, Markus und Lukas ähneln sich stark und heissen darum \"synoptische\" Evangelien (griechisch für \"zusammenschauen\").",
       "source": "Katechismus der Katholischen Kirche, Nr. 125-127; Hieronymus: Kommentar zu Matthäus"
     },
     "en": {
@@ -215,8 +222,8 @@
         "**Luke** (ox): Jesus as saviour of the poor, sick and sinners. The prodigal son and the good Samaritan are here.",
         "**John** (eagle): deep and contemplative. Jesus as the eternal Word of God made flesh."
       ],
-      "apply": "Read the opening verses of all four Gospels and compare how differently they begin.",
-      "more": "The symbols go back to the four living creatures in Ezek 1 and Rev 4 and were assigned to the evangelists by St Jerome (around 400). Matthew, Mark and Luke are very similar and are called the \"synoptic\" Gospels (Greek for \"seeing together\").",
+      "act": "Read the opening verses of all four Gospels and compare how differently they begin.",
+      "deep": "The symbols go back to the four living creatures in Ezek 1 and Rev 4 and were assigned to the evangelists by St Jerome (around 400). Matthew, Mark and Luke are very similar and are called the \"synoptic\" Gospels (Greek for \"seeing together\").",
       "source": "Catechism of the Catholic Church, nos. 125-127; Jerome: Commentary on Matthew"
     }
   },
@@ -226,6 +233,7 @@
     "sub": "nt",
     "style": "bibelvers",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Die Seligpreisungen",
       "quote": {
@@ -234,8 +242,8 @@
         "source": "Mt 5,9"
       },
       "body": "Die Bergpredigt beginnt mit acht \"Seligpreisungen\". Jesus nennt Menschen glücklich, die die Welt meist übersieht: die Armen im Geist, die Trauernden, die Sanftmütigen, die nach Gerechtigkeit hungern, die Barmherzigen, die reinen Herzens sind, die Frieden stiften, die verfolgt werden.\n\nFrieden **stiften** ist dabei aktiv gemeint. Nicht einfach Streit vermeiden, sondern dazwischengehen, versöhnen, den ersten Schritt machen. Das braucht oft mehr Mut als jeder Kampf.",
-      "apply": "Mach heute in einem Streit in deinem Umfeld den ersten Schritt zur Versöhnung: eine Nachricht, ein Anruf, ein ehrliches Wort.",
-      "more": "Die Bergpredigt steht in Mt 5-7 und gilt als Kern der Lehre Jesu. \"Sanftmütig\" heisst in der Bibel nicht schwach, sondern beherrscht: Das griechische Wort praus wurde auch für ein gezähmtes, starkes Pferd benutzt.",
+      "act": "Mach heute in einem Streit in deinem Umfeld den ersten Schritt zur Versöhnung: eine Nachricht, ein Anruf, ein ehrliches Wort.",
+      "deep": "Die Bergpredigt steht in Mt 5-7 und gilt als Kern der Lehre Jesu. \"Sanftmütig\" heisst in der Bibel nicht schwach, sondern beherrscht: Das griechische Wort praus wurde auch für ein gezähmtes, starkes Pferd benutzt.",
       "source": "Mt 5,3-12 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -246,8 +254,8 @@
         "source": "Mt 5:9"
       },
       "body": "The Sermon on the Mount opens with eight \"Beatitudes\". Jesus calls people blessed whom the world usually overlooks: the poor in spirit, those who mourn, the meek, those who hunger for righteousness, the merciful, the clean of heart, the peacemakers, the persecuted.\n\nPeace**making** is meant actively. Not just avoiding conflict, but stepping in, reconciling, taking the first step. That often takes more courage than any fight.",
-      "apply": "Take the first step towards reconciliation today in a quarrel around you: a message, a call, an honest word.",
-      "more": "The Sermon on the Mount is in Mt 5-7 and is seen as the heart of Jesus' teaching. In the Bible, \"meek\" doesn't mean weak but controlled: the Greek word praus was also used for a tamed, powerful horse.",
+      "act": "Take the first step towards reconciliation today in a quarrel around you: a message, a call, an honest word.",
+      "deep": "The Sermon on the Mount is in Mt 5-7 and is seen as the heart of Jesus' teaching. In the Bible, \"meek\" doesn't mean weak but controlled: the Greek word praus was also used for a tamed, powerful horse.",
       "source": "Mt 5:3-12 (New American Bible, Revised Edition)"
     }
   },
@@ -257,6 +265,7 @@
     "sub": "nt",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die Goldene Regel",
       "quote": {
@@ -265,8 +274,8 @@
         "source": "Mt 7,12"
       },
       "body": "Viele Kulturen kennen die Regel in der verneinenden Form: \"Was du nicht willst, dass man dir tu, das füg auch keinem andern zu.\"\n\nJesus formuliert sie **positiv**, und das ist ein grosser Unterschied. Es reicht nicht, niemandem zu schaden. Du sollst aktiv das Gute tun, das du dir selbst wünschen würdest: Hilfe, Respekt, Geduld, eine zweite Chance.",
-      "apply": "Was wünschst du dir gerade von anderen? Tu genau das heute für jemanden.",
-      "more": "Die verneinende Form findet sich schon im Buch Tobit (Tob 4,15), beim jüdischen Lehrer Hillel und bei Konfuzius. Jesus fasst mit der positiven Form das ganze Gesetz zusammen, ähnlich wie im doppelten Gebot der Gottes- und Nächstenliebe (Mt 22,37-40).",
+      "act": "Was wünschst du dir gerade von anderen? Tu genau das heute für jemanden.",
+      "deep": "Die verneinende Form findet sich schon im Buch Tobit (Tob 4,15), beim jüdischen Lehrer Hillel und bei Konfuzius. Jesus fasst mit der positiven Form das ganze Gesetz zusammen, ähnlich wie im doppelten Gebot der Gottes- und Nächstenliebe (Mt 22,37-40).",
       "source": "Mt 7,12 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -277,8 +286,8 @@
         "source": "Mt 7:12"
       },
       "body": "Many cultures know the rule in its negative form: \"Don't do to others what you wouldn't want done to you.\"\n\nJesus phrases it **positively**, and that makes a big difference. It isn't enough to harm no one. You're to actively do the good you'd wish for yourself: help, respect, patience, a second chance.",
-      "apply": "What do you wish others would do for you right now? Do exactly that for someone today.",
-      "more": "The negative form appears in the Book of Tobit (Tob 4:15), in the Jewish teacher Hillel and in Confucius. With the positive form Jesus sums up the whole law, much as in the double commandment of love of God and neighbour (Mt 22:37-40).",
+      "act": "What do you wish others would do for you right now? Do exactly that for someone today.",
+      "deep": "The negative form appears in the Book of Tobit (Tob 4:15), in the Jewish teacher Hillel and in Confucius. With the positive form Jesus sums up the whole law, much as in the double commandment of love of God and neighbour (Mt 22:37-40).",
       "source": "Mt 7:12 (New American Bible, Revised Edition)"
     }
   },
@@ -288,6 +297,7 @@
     "sub": "nt",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Sorgt euch nicht um morgen",
       "quote": {
@@ -296,8 +306,8 @@
         "source": "Mt 6,34"
       },
       "body": "Jesus spricht hier nicht gegen Planung, sondern gegen das **Grübeln**: das endlose Durchspielen von Dingen, die vielleicht nie passieren.\n\nKurz davor zeigt er auf die Vögel und die Lilien. Sie arbeiten nicht ängstlich, und Gott versorgt sie trotzdem. Sein Rat: \"Sucht zuerst sein Reich und seine Gerechtigkeit; dann wird euch alles andere dazugegeben.\" Tu heute, was heute dran ist, und vertraue den Rest Gott an.",
-      "apply": "Wenn dich heute eine Sorge über morgen packt: Sprich ein kurzes Gebet und kehr dann zur Aufgabe von heute zurück.",
-      "more": "Die Stelle steht in der Bergpredigt (Mt 6,25-34). Die Stoiker kannten einen ähnlichen Gedanken: nur in der Gegenwart leben. Bei Jesus kommt das Vertrauen auf einen liebenden Vater dazu, der weiss, was wir brauchen (Mt 6,32).",
+      "act": "Wenn dich heute eine Sorge über morgen packt: Sprich sie in einem kurzen Gebet aus, übergib sie Gott und kehr dann zur Aufgabe von heute zurück.",
+      "deep": "Die Stelle steht in der Bergpredigt (Mt 6,25-34). Die Stoiker kannten einen ähnlichen Gedanken: nur in der Gegenwart leben. Bei Jesus kommt das Vertrauen auf einen liebenden Vater dazu, der weiss, was wir brauchen (Mt 6,32).",
       "source": "Mt 6,25-34 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -308,8 +318,8 @@
         "source": "Mt 6:34"
       },
       "body": "Jesus isn't speaking against planning here but against **brooding**: endlessly replaying things that may never happen.\n\nJust before, he points to the birds and the lilies. They don't work anxiously, and God provides for them anyway. His advice: \"Seek first the kingdom of God and his righteousness, and all these things will be given you besides.\" Do what today calls for, and entrust the rest to God.",
-      "apply": "When a worry about tomorrow grabs you today, say a short prayer and then return to today's task.",
-      "more": "The passage is part of the Sermon on the Mount (Mt 6:25-34). The Stoics had a similar idea: live only in the present. With Jesus, trust in a loving Father who knows what we need (Mt 6:32) is added.",
+      "act": "When a worry about tomorrow grabs you today: say it in a short prayer, hand it to God, and return to today's task.",
+      "deep": "The passage is part of the Sermon on the Mount (Mt 6:25-34). The Stoics had a similar idea: live only in the present. With Jesus, trust in a loving Father who knows what we need (Mt 6:32) is added.",
       "source": "Mt 6:25-34 (New American Bible, Revised Edition)"
     }
   },
@@ -319,6 +329,7 @@
     "sub": "nt",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Liebe ist ein Tun",
       "quote": {
@@ -327,8 +338,8 @@
         "source": "1 Kor 13,4"
       },
       "body": "Das \"Hohelied der Liebe\" wird bei fast jeder Hochzeit gelesen. Schaut man genau hin, fällt etwas auf: Paulus beschreibt die Liebe fast nur mit **Verben und Handlungen**, nicht mit Gefühlen.\n\nSie ist geduldig, gütig, sie ereifert sich nicht, prahlt nicht, sucht nicht ihren Vorteil, trägt das Böse nicht nach, erträgt alles.\n\nLiebe ist also nicht in erster Linie etwas, das man fühlt, sondern etwas, das man **tut**, auch an Tagen, an denen das Gefühl fehlt.",
-      "apply": "Setz deinen Namen in den Satz \"Die Liebe ist langmütig\" ein, finde die Stelle, die noch nicht stimmt, und arbeite heute genau daran.",
-      "more": "Paulus schreibt 1 Kor 13 an eine Gemeinde, die über geistliche Gaben stritt und sich für besonders erleuchtet hielt. Seine Antwort: Ohne Liebe sind selbst Prophetie, Wissen und starker Glaube nichts. Das griechische Wort für diese Liebe ist agape: die selbstlose Liebe, die das Wohl des anderen will.",
+      "act": "Setz deinen Namen ein: \"[Name] ist langmütig, [Name] ist gütig …\" An welcher Stelle stimmt der Satz noch nicht? Genau daran arbeitest du heute.",
+      "deep": "Paulus schreibt 1 Kor 13 an eine Gemeinde, die über geistliche Gaben stritt und sich für besonders erleuchtet hielt. Seine Antwort: Ohne Liebe sind selbst Prophetie, Wissen und starker Glaube nichts. Das griechische Wort für diese Liebe ist agape: die selbstlose Liebe, die das Wohl des anderen will.",
       "source": "1 Kor 13,1-13 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -339,8 +350,8 @@
         "source": "1 Cor 13:4"
       },
       "body": "The \"hymn to love\" is read at almost every wedding. Look closely and something stands out: Paul describes love almost entirely with **verbs and actions**, not feelings.\n\nIt is patient, kind, not jealous, not pompous, does not seek its own interests, does not brood over injury, bears all things.\n\nSo love is not first something you feel but something you **do**, including on days when the feeling is missing.",
-      "apply": "Put your name into \"Love is patient\", find the line that doesn't fit yet and work on exactly that today.",
-      "more": "Paul writes 1 Cor 13 to a church that argued about spiritual gifts and thought itself especially enlightened. His answer: without love, even prophecy, knowledge and strong faith are nothing. The Greek word for this love is agape: selfless love that wills the good of the other.",
+      "act": "Put your own name in: \"[Name] is patient, [Name] is kind …\" Where does the sentence not ring true yet? That's what you work on today.",
+      "deep": "Paul writes 1 Cor 13 to a church that argued about spiritual gifts and thought itself especially enlightened. His answer: without love, even prophecy, knowledge and strong faith are nothing. The Greek word for this love is agape: selfless love that wills the good of the other.",
       "source": "1 Cor 13:1-13 (New American Bible, Revised Edition)"
     }
   },
@@ -350,6 +361,7 @@
     "sub": "werte",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "achte",
     "de": {
       "title": "Besiege das Böse durch das Gute",
       "quote": {
@@ -358,8 +370,8 @@
         "source": "Röm 12,21"
       },
       "body": "Wenn dich jemand ungerecht behandelt, gibt es zwei naheliegende Reaktionen: zurückschlagen oder einknicken. Paulus zeigt einen dritten Weg.\n\nWer Böses mit Bösem vergilt, hat schon verloren, denn er wird dem anderen ähnlich. Wer Gutes zurückgibt, bleibt **frei** und behält die Führung. Das ist keine Schwäche, sondern die stärkste Position: Du lässt dir von niemandem vorschreiben, wer du bist.",
-      "apply": "Antworte auf die nächste unfreundliche Nachricht oder Bemerkung bewusst ruhig und freundlich.",
-      "more": "Kurz davor zitiert Paulus das Buch der Sprichwörter: Wenn dein Feind Hunger hat, gib ihm zu essen (Röm 12,20; Spr 25,21). Martin Luther King berief sich auf diesen Gedanken für seinen gewaltlosen Widerstand in der US-Bürgerrechtsbewegung.",
+      "act": "Achte heute auf den Moment, in dem du zurückschlagen willst: eine spitze Nachricht, eine unfaire Bemerkung. Antworte genau dort bewusst ruhig und freundlich.",
+      "deep": "Kurz davor zitiert Paulus das Buch der Sprichwörter: Wenn dein Feind Hunger hat, gib ihm zu essen (Röm 12,20; Spr 25,21). Martin Luther King berief sich auf diesen Gedanken für seinen gewaltlosen Widerstand in der US-Bürgerrechtsbewegung.",
       "source": "Röm 12,14-21 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -370,8 +382,8 @@
         "source": "Rom 12:21"
       },
       "body": "When someone treats you unfairly, there are two obvious reactions: hit back or cave in. Paul shows a third way.\n\nRepay evil with evil and you've already lost, because you become like the other person. Return good and you stay **free** and keep the upper hand. That's not weakness but the strongest position: you let no one dictate who you are.",
-      "apply": "Answer the next unfriendly message or remark deliberately calmly and kindly.",
-      "more": "Just before, Paul quotes Proverbs: if your enemy is hungry, feed him (Rom 12:20; Prov 25:21). Martin Luther King drew on this idea for nonviolent resistance in the US civil rights movement.",
+      "act": "Watch today for the moment you want to hit back: a sharp message, an unfair remark. Right there, answer calmly and kindly on purpose.",
+      "deep": "Just before, Paul quotes Proverbs: if your enemy is hungry, feed him (Rom 12:20; Prov 25:21). Martin Luther King drew on this idea for nonviolent resistance in the US civil rights movement.",
       "source": "Rom 12:14-21 (New American Bible, Revised Edition)"
     }
   },
@@ -381,18 +393,19 @@
     "sub": "personen",
     "style": "geschichte",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Petrus: Vom Verleugner zum Fels",
       "body": "Petrus war Fischer, impulsiv, mutig mit dem Mund. Beim letzten Abendmahl schwört er, er werde Jesus nie verlassen. Wenige Stunden später sagt er dreimal: \"Ich kenne diesen Menschen nicht.\" Dann kräht der Hahn, und Petrus weint bitterlich.\n\nNach der Auferstehung fragt Jesus ihn am See **dreimal**: \"Liebst du mich?\" Dreimal antwortet Petrus mit Ja. Jesus macht genau diesen Mann, der versagt hat, zum Hirten seiner Kirche.\n\nDein schlimmster Fehler ist nicht das Ende deiner Geschichte.",
-      "apply": "Wenn dich ein eigener Fehler belastet: Bring ihn zu Gott, etwa in der Beichte, und fang neu an.",
-      "more": "Jesus gab Simon den Namen Kephas, aramäisch für Fels, griechisch Petros (Mt 16,18). Die Verleugnung steht in allen vier Evangelien, die dreifache Frage in Joh 21,15-17. Die katholische Kirche sieht in Petrus den ersten Papst. Er starb um das Jahr 64 in Rom als Märtyrer, der Überlieferung nach kopfüber gekreuzigt.",
+      "act": "Wenn dich ein eigener Fehler belastet: Bring ihn heute im Gebet zu Gott, nimm dir die Beichte vor, und fang dann neu an, wie Petrus.",
+      "deep": "Jesus gab Simon den Namen Kephas, aramäisch für Fels, griechisch Petros (Mt 16,18). Die Verleugnung steht in allen vier Evangelien, die dreifache Frage in Joh 21,15-17. Die katholische Kirche sieht in Petrus den ersten Papst. Er starb um das Jahr 64 in Rom als Märtyrer, der Überlieferung nach kopfüber gekreuzigt.",
       "source": "Lk 22,54-62; Joh 21,15-19; Mt 16,18 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "Peter: from denier to rock",
       "body": "Peter was a fisherman, impulsive, bold with his words. At the Last Supper he swears he'll never leave Jesus. A few hours later he says three times: \"I do not know the man.\" Then the cock crows, and Peter weeps bitterly.\n\nAfter the resurrection, by the lake, Jesus asks him **three times**: \"Do you love me?\" Three times Peter says yes. Jesus makes this very man who failed the shepherd of his Church.\n\nYour worst mistake is not the end of your story.",
-      "apply": "If one of your own failures weighs on you, bring it to God, for example in confession, and start again.",
-      "more": "Jesus gave Simon the name Kephas, Aramaic for rock, Greek Petros (Mt 16:18). The denial appears in all four Gospels, the threefold question in Jn 21:15-17. The Catholic Church sees Peter as the first pope. He died a martyr in Rome around the year 64, by tradition crucified upside down.",
+      "act": "If one of your failures weighs on you: bring it to God in prayer today, plan to go to confession, and then start again, like Peter.",
+      "deep": "Jesus gave Simon the name Kephas, Aramaic for rock, Greek Petros (Mt 16:18). The denial appears in all four Gospels, the threefold question in Jn 21:15-17. The Catholic Church sees Peter as the first pope. He died a martyr in Rome around the year 64, by tradition crucified upside down.",
       "source": "Lk 22:54-62; Jn 21:15-19; Mt 16:18 (New American Bible, Revised Edition)"
     }
   },
@@ -402,18 +415,19 @@
     "sub": "personen",
     "style": "geschichte",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Paulus: Der Verfolger wird Apostel",
       "body": "Saulus war ein hochgebildeter, strenggläubiger Jude und verfolgte die ersten Christen mit voller Überzeugung. Er war dabei, als Stephanus gesteinigt wurde.\n\nAuf dem Weg nach Damaskus, wo er weitere Christen verhaften wollte, umstrahlt ihn ein Licht. Er stürzt zu Boden und hört: \"Saul, Saul, warum verfolgst du mich?\" Drei Tage ist er blind.\n\nDanach wird der grösste Gegner der Kirche ihr grösster Missionar. Er reist Tausende Kilometer, gründet Gemeinden und schreibt fast die Hälfte der Bücher des Neuen Testaments.",
-      "apply": "Bete heute für einen Menschen, den du innerlich schon abgeschrieben hast.",
-      "more": "Die Bekehrung wird dreimal in der Apostelgeschichte erzählt (Apg 9; 22; 26). Paulus war römischer Bürger und stammte aus Tarsus in der heutigen Türkei. 13 Briefe im Neuen Testament tragen seinen Namen. Er starb um das Jahr 64 bis 67 in Rom als Märtyrer, als römischer Bürger durch das Schwert.",
+      "act": "Bete heute für einen Menschen, den du innerlich schon abgeschrieben hast.",
+      "deep": "Die Bekehrung wird dreimal in der Apostelgeschichte erzählt (Apg 9; 22; 26). Paulus war römischer Bürger und stammte aus Tarsus in der heutigen Türkei. 13 Briefe im Neuen Testament tragen seinen Namen. Er starb um das Jahr 64 bis 67 in Rom als Märtyrer, als römischer Bürger durch das Schwert.",
       "source": "Apg 7,58; 9,1-22 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "Paul: the persecutor becomes apostle",
       "body": "Saul was a highly educated, devout Jew who persecuted the first Christians with full conviction. He was present when Stephen was stoned.\n\nOn the road to Damascus, where he meant to arrest more Christians, a light flashes around him. He falls to the ground and hears: \"Saul, Saul, why are you persecuting me?\" For three days he is blind.\n\nAfterwards, the Church's greatest enemy becomes its greatest missionary. He travels thousands of kilometres, founds churches and writes nearly half the books of the New Testament.",
-      "apply": "Pray today for someone you've already written off inside.",
-      "more": "The conversion is told three times in Acts (Acts 9; 22; 26). Paul was a Roman citizen from Tarsus in today's Turkey. Thirteen New Testament letters bear his name. He died a martyr in Rome around 64 to 67, beheaded by the sword as a Roman citizen.",
+      "act": "Pray today for someone you've already written off inside.",
+      "deep": "The conversion is told three times in Acts (Acts 9; 22; 26). Paul was a Roman citizen from Tarsus in today's Turkey. Thirteen New Testament letters bear his name. He died a martyr in Rome around 64 to 67, beheaded by the sword as a Roman citizen.",
       "source": "Acts 7:58; 9:1-22 (New American Bible, Revised Edition)"
     }
   },
@@ -423,18 +437,21 @@
     "sub": "personen",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Josef: Der Mann ohne ein Wort",
       "body": "In der ganzen Bibel ist kein einziger Satz von Josef überliefert. Und doch ist er einer der grössten Männer der Heilsgeschichte.\n\nAls Maria schwanger ist, will er sie nicht blossstellen. Ein Engel spricht im Traum zu ihm, und er **handelt**: nimmt Maria zu sich, flieht nachts mit dem Kind nach Ägypten, kehrt zurück, arbeitet als Handwerker und zieht Jesus gross.\n\nJosef zeigt: Ein Mann Gottes beweist sich nicht durch grosse Worte, sondern durch Treue, Schutz und tägliche Arbeit.",
-      "apply": "Erledige heute eine Pflicht für deine Familie oder dein Umfeld still und gründlich, ohne Lob zu erwarten.",
-      "more": "Die Kirche verehrt Josef als Schutzpatron der Weltkirche, der Arbeiter und der Familien und feiert ihn am 19. März und als \"Josef der Arbeiter\" am 1. Mai. Papst Franziskus widmete ihm 2020 das Apostolische Schreiben \"Patris corde\" und rief ein Jahr des heiligen Josef aus.",
+      "example": "Den Abfall rausbringen, bevor jemand fragen muss. Das Auto der Mutter zum Service bringen. Dem Kind bei den Hausaufgaben sitzen, statt am Handy zu sein. Niemand applaudiert. Genau darum zählt es.",
+      "act": "Erledige heute eine Pflicht für deine Familie oder dein Umfeld still und gründlich, ohne Lob zu erwarten.",
+      "deep": "Die Kirche verehrt Josef als Schutzpatron der Weltkirche, der Arbeiter und der Familien und feiert ihn am 19. März und als \"Josef der Arbeiter\" am 1. Mai. Papst Franziskus widmete ihm 2020 das Apostolische Schreiben \"Patris corde\" und rief ein Jahr des heiligen Josef aus.",
       "source": "Mt 1,18-25; 2,13-23 (Einheitsübersetzung 2016); Papst Franziskus: Patris corde (2020)"
     },
     "en": {
       "title": "Joseph: the man without a word",
       "body": "In the whole Bible, not a single sentence of Joseph's is recorded. Yet he is one of the greatest men in salvation history.\n\nWhen Mary is pregnant, he doesn't want to expose her to shame. An angel speaks to him in a dream, and he **acts**: takes Mary into his home, flees by night with the child to Egypt, returns, works as a craftsman and raises Jesus.\n\nJoseph shows that a man of God proves himself not through big words but through faithfulness, protection and daily work.",
-      "apply": "Today, do one duty for your family or those around you quietly and thoroughly, without expecting praise.",
-      "more": "The Church honours Joseph as patron of the universal Church, of workers and of families, celebrating him on 19 March and as \"Joseph the Worker\" on 1 May. In 2020 Pope Francis dedicated the apostolic letter \"Patris corde\" to him and proclaimed a Year of St Joseph.",
+      "example": "Taking out the trash before anyone has to ask. Taking your mother's car in for service. Sitting with your kid over homework instead of on your phone. Nobody applauds. That's exactly why it counts.",
+      "act": "Today, do one duty for your family or those around you quietly and thoroughly, without expecting praise.",
+      "deep": "The Church honours Joseph as patron of the universal Church, of workers and of families, celebrating him on 19 March and as \"Joseph the Worker\" on 1 May. In 2020 Pope Francis dedicated the apostolic letter \"Patris corde\" to him and proclaimed a Year of St Joseph.",
       "source": "Mt 1:18-25; 2:13-23 (New American Bible, Revised Edition); Pope Francis: Patris corde (2020)"
     }
   },
@@ -444,6 +461,7 @@
     "sub": "personen",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Marias Ja",
       "quote": {
@@ -452,8 +470,8 @@
         "source": "Lk 1,38"
       },
       "body": "Ein junges Mädchen in Nazaret, verlobt, aber noch nicht verheiratet. Ein Engel verkündet ihr, dass sie den Sohn Gottes gebären wird. Sie weiss, was das für ihren Ruf und ihre Verlobung bedeuten kann.\n\nSie fragt nach, wie das geschehen soll, und dann sagt sie **Ja**. Ohne den ganzen Plan zu kennen, ohne Garantien.\n\nGlaube heisst nicht, alles zu verstehen. Es heisst, Gott genug zu vertrauen, um den nächsten Schritt zu gehen.",
-      "apply": "Sag heute Ja zu einer Aufgabe, vor der du dich drückst, und vertrau den Rest Gott an.",
-      "more": "Das lateinische Wort für \"mir geschehe\" ist \"fiat\", darum spricht man vom \"Fiat Mariens\". Die Szene heisst Verkündigung des Herrn und wird am 25. März gefeiert, neun Monate vor Weihnachten. Im Angelus-Gebet, das traditionell morgens, mittags und abends gebetet wird, erinnert die Kirche täglich an dieses Ja.",
+      "act": "Sag heute Ja zu einer Aufgabe, vor der du dich drückst, und vertrau den Rest Gott an.",
+      "deep": "Das lateinische Wort für \"mir geschehe\" ist \"fiat\", darum spricht man vom \"Fiat Mariens\". Die Szene heisst Verkündigung des Herrn und wird am 25. März gefeiert, neun Monate vor Weihnachten. Im Angelus-Gebet, das traditionell morgens, mittags und abends gebetet wird, erinnert die Kirche täglich an dieses Ja.",
       "source": "Lk 1,26-38 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -464,8 +482,8 @@
         "source": "Lk 1:38"
       },
       "body": "A young girl in Nazareth, betrothed but not yet married. An angel announces that she will bear the Son of God. She knows what that could mean for her reputation and her engagement.\n\nShe asks how this will happen, and then she says **yes**. Without knowing the whole plan, without guarantees.\n\nFaith doesn't mean understanding everything. It means trusting God enough to take the next step.",
-      "apply": "Say yes today to a task you've been avoiding, and entrust the rest to God.",
-      "more": "The Latin word for \"may it be done\" is \"fiat\", which is why people speak of Mary's \"fiat\". The scene is called the Annunciation and is celebrated on 25 March, nine months before Christmas. In the Angelus prayer, traditionally said morning, noon and evening, the Church recalls this yes every day.",
+      "act": "Say yes today to a task you've been avoiding, and entrust the rest to God.",
+      "deep": "The Latin word for \"may it be done\" is \"fiat\", which is why people speak of Mary's \"fiat\". The scene is called the Annunciation and is celebrated on 25 March, nine months before Christmas. In the Angelus prayer, traditionally said morning, noon and evening, the Church recalls this yes every day.",
       "source": "Lk 1:26-38 (New American Bible, Revised Edition)"
     }
   },
@@ -475,18 +493,19 @@
     "sub": "personen",
     "style": "geschichte",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Thomas: Zweifel ist erlaubt",
       "body": "Die anderen Apostel erzählen Thomas, dass sie den auferstandenen Jesus gesehen haben. Thomas glaubt es nicht: Erst wenn er die Wunden mit eigenen Händen berührt, will er glauben.\n\nEine Woche später steht Jesus wieder da und sagt zu ihm: Streck deine Hand aus. Jesus schimpft nicht, er **kommt dem Zweifler entgegen**. Und Thomas spricht das stärkste Bekenntnis der Evangelien: \"Mein Herr und mein Gott!\"\n\nEhrliche Fragen trennen dich nicht von Gott. Sie können der Weg zu einem tieferen Glauben sein.",
-      "apply": "Schreib eine ehrliche Glaubensfrage auf, die dich beschäftigt, und such diese Woche nach einer Antwort, im Gespräch mit einem Priester oder im Katechismus.",
-      "more": "Die Szene steht in Joh 20,24-29. Jesus sagt danach: \"Selig sind, die nicht sehen und doch glauben.\" Der Tradition nach brachte Thomas das Evangelium bis nach Indien. Die Thomaschristen in Kerala führen ihre Gemeinden bis heute auf ihn zurück.",
+      "act": "Schreib eine ehrliche Glaubensfrage auf, die dich beschäftigt, und such diese Woche nach einer Antwort, im Gespräch mit einem Priester oder im Katechismus.",
+      "deep": "Die Szene steht in Joh 20,24-29. Jesus sagt danach: \"Selig sind, die nicht sehen und doch glauben.\" Der Tradition nach brachte Thomas das Evangelium bis nach Indien. Die Thomaschristen in Kerala führen ihre Gemeinden bis heute auf ihn zurück.",
       "source": "Joh 20,24-29 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "Thomas: doubt is allowed",
       "body": "The other apostles tell Thomas they've seen the risen Jesus. Thomas doesn't believe it: only if he touches the wounds with his own hands will he believe.\n\nA week later Jesus stands among them again and says to him: put out your hand. Jesus doesn't scold; he **meets the doubter halfway**. And Thomas makes the strongest confession in the Gospels: \"My Lord and my God!\"\n\nHonest questions don't separate you from God. They can be the path to deeper faith.",
-      "apply": "Write down one honest question about faith that's on your mind, and look for an answer this week, with a priest or in the Catechism.",
-      "more": "The scene is in Jn 20:24-29. Jesus then says: \"Blessed are those who have not seen and have believed.\" Tradition holds that Thomas took the Gospel as far as India. The St Thomas Christians of Kerala trace their communities back to him to this day.",
+      "act": "Write down one honest question about faith that's on your mind, and look for an answer this week, with a priest or in the Catechism.",
+      "deep": "The scene is in Jn 20:24-29. Jesus then says: \"Blessed are those who have not seen and have believed.\" Tradition holds that Thomas took the Gospel as far as India. The St Thomas Christians of Kerala trace their communities back to him to this day.",
       "source": "Jn 20:24-29 (New American Bible, Revised Edition)"
     }
   },
@@ -496,18 +515,19 @@
     "sub": "personen",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Zachäus steigt vom Baum",
       "body": "Zachäus war Oberzöllner in Jericho: reich, verhasst, als Betrüger bekannt. Und klein. Als Jesus durch die Stadt kommt, klettert er auf einen Maulbeerfeigenbaum, um ihn zu sehen.\n\nJesus bleibt genau dort stehen, schaut hoch und sagt: \"Zachäus, komm schnell herunter! Denn ich muss heute in deinem Haus bleiben.\" Die Menge murrt.\n\nZachäus verändert sich sofort: Die Hälfte seines Vermögens gibt er den Armen, und wen er betrogen hat, dem zahlt er das Vierfache zurück. **Echte Umkehr zeigt sich im Handeln**, auch beim Geld.",
-      "apply": "Mach diese Woche eine Schuld gut, die du jemandem gegenüber hast: Geld, eine Entschuldigung oder ein Versprechen.",
-      "more": "Die Geschichte steht nur bei Lukas (Lk 19,1-10). Zöllner arbeiteten für die römische Besatzung und schlugen oft eigene Gebühren auf. Das vierfache Erstatten entsprach der härtesten Strafe im jüdischen Gesetz für Diebstahl (Ex 21,37). Jesus schliesst mit dem Satz: \"Der Menschensohn ist gekommen, um zu suchen und zu retten, was verloren ist.\"",
+      "act": "Mach diese Woche eine Schuld gut, die du jemandem gegenüber hast: Geld, eine Entschuldigung oder ein Versprechen.",
+      "deep": "Die Geschichte steht nur bei Lukas (Lk 19,1-10). Zöllner arbeiteten für die römische Besatzung und schlugen oft eigene Gebühren auf. Das vierfache Erstatten entsprach der härtesten Strafe im jüdischen Gesetz für Diebstahl (Ex 21,37). Jesus schliesst mit dem Satz: \"Der Menschensohn ist gekommen, um zu suchen und zu retten, was verloren ist.\"",
       "source": "Lk 19,1-10 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "Zacchaeus climbs down",
       "body": "Zacchaeus was chief tax collector in Jericho: rich, hated, known as a cheat. And short. When Jesus passes through the town, he climbs a sycamore tree to see him.\n\nJesus stops right there, looks up and says: \"Zacchaeus, come down quickly, for today I must stay at your house.\" The crowd grumbles.\n\nZacchaeus changes on the spot: half his possessions he gives to the poor, and anyone he has cheated he repays four times over. **Real conversion shows in action**, money included.",
-      "apply": "Make good on one debt this week: money, an apology or a promise you owe someone.",
-      "more": "The story appears only in Luke (Lk 19:1-10). Tax collectors worked for the Roman occupiers and often added their own fees. Repaying fourfold matched the harshest penalty for theft in Jewish law (Ex 21:37). Jesus closes with: \"The Son of Man has come to seek and to save what was lost.\"",
+      "act": "Make good on one debt this week: money, an apology or a promise you owe someone.",
+      "deep": "The story appears only in Luke (Lk 19:1-10). Tax collectors worked for the Roman occupiers and often added their own fees. Repaying fourfold matched the harshest penalty for theft in Jewish law (Ex 21:37). Jesus closes with: \"The Son of Man has come to seek and to save what was lost.\"",
       "source": "Lk 19:1-10 (New American Bible, Revised Edition)"
     }
   },
@@ -517,6 +537,7 @@
     "sub": "gleichnisse",
     "style": "geschichte",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Der verlorene Sohn",
       "quote": {
@@ -525,8 +546,8 @@
         "source": "Lk 15,20"
       },
       "body": "Ein junger Mann verlangt sein Erbe, solange der Vater noch lebt. Das heisst im Grunde: Du bist für mich schon tot. Er verprasst alles in der Fremde und landet bei den Schweinen.\n\nDann kommt er zu sich. Er geht heim, mit einer einstudierten Entschuldigung. Doch der Vater **läuft ihm entgegen**, bevor er ein Wort sagt, und feiert ein Fest.\n\nDer ältere Bruder, der immer brav geblieben ist, ist wütend. Auch ihn bittet der Vater herein. Gott wartet auf beide: auf den, der weggelaufen ist, und auf den, der zu Hause verbittert ist.",
-      "apply": "Kehr heute in einem Bereich um, in dem du dich von Gott entfernt hast, mit einem ehrlichen Gebet oder dem Entschluss zur Beichte.",
-      "more": "Das Gleichnis steht nur bei Lukas, zusammen mit dem verlorenen Schaf und der verlorenen Drachme. Im Orient war es für einen älteren Mann würdelos, zu rennen. Dass der Vater läuft, zeigt, wie sehr Gott sich nach jedem Menschen sehnt. Papst Johannes Paul II. widmete dem Gleichnis seine Enzyklika \"Dives in misericordia\".",
+      "act": "Kehr heute in einem Bereich um, in dem du dich von Gott entfernt hast, mit einem ehrlichen Gebet oder dem Entschluss zur Beichte.",
+      "deep": "Das Gleichnis steht nur bei Lukas, zusammen mit dem verlorenen Schaf und der verlorenen Drachme. Im Orient war es für einen älteren Mann würdelos, zu rennen. Dass der Vater läuft, zeigt, wie sehr Gott sich nach jedem Menschen sehnt. Papst Johannes Paul II. widmete dem Gleichnis seine Enzyklika \"Dives in misericordia\".",
       "source": "Lk 15,11-32 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -537,8 +558,8 @@
         "source": "Lk 15:20"
       },
       "body": "A young man demands his inheritance while his father is still alive. In effect he's saying: you're already dead to me. He squanders everything abroad and ends up feeding pigs.\n\nThen he comes to his senses. He heads home with a rehearsed apology. But the father **runs to meet him** before he says a word, and throws a feast.\n\nThe older brother, who always stayed and behaved, is furious. The father invites him in too. God waits for both: the one who ran away and the one who grew bitter at home.",
-      "apply": "Turn back today in one area where you've drifted from God, with an honest prayer or the decision to go to confession.",
-      "more": "The parable appears only in Luke, together with the lost sheep and the lost coin. In the Middle East it was undignified for an older man to run. That the father runs shows how much God longs for every person. Pope John Paul II devoted his encyclical \"Dives in misericordia\" to this parable.",
+      "act": "Turn back today in one area where you've drifted from God, with an honest prayer or the decision to go to confession.",
+      "deep": "The parable appears only in Luke, together with the lost sheep and the lost coin. In the Middle East it was undignified for an older man to run. That the father runs shows how much God longs for every person. Pope John Paul II devoted his encyclical \"Dives in misericordia\" to this parable.",
       "source": "Lk 15:11-32 (New American Bible, Revised Edition)"
     }
   },
@@ -548,18 +569,19 @@
     "sub": "gleichnisse",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Vergrab dein Talent nicht",
       "body": "Ein Mann geht auf Reisen und vertraut drei Dienern sein Vermögen an: dem ersten fünf Talente, dem zweiten zwei, dem dritten eines. Ein Talent war ein Vermögen, etwa der Lohn von 20 Jahren Arbeit.\n\nDie ersten beiden handeln damit und verdoppeln das Geld. Der dritte hat Angst, vergräbt sein Talent und gibt es unversehrt zurück. Genau er wird hart getadelt.\n\nDie Botschaft: Gott erwartet nicht, dass du gleich viel hast wie andere. Er erwartet, dass du **mit dem arbeitest, was du hast**, statt es aus Angst zu verstecken.",
-      "apply": "Nenne eine Fähigkeit, die du aus Angst oder Bequemlichkeit vergräbst, und setz sie diese Woche einmal ein.",
-      "more": "Das Gleichnis steht in Mt 25,14-30. Unser Wort \"Talent\" für eine Begabung kommt genau von hier: Im Griechischen war ein Talent eine Gewichts- und Geldeinheit von rund 26 bis 36 kg Silber. Beide erfolgreichen Diener bekommen dasselbe Lob, obwohl sie unterschiedlich viel erwirtschaftet haben.",
+      "act": "Nenne eine Fähigkeit, die du aus Angst oder Bequemlichkeit vergräbst, und setz sie diese Woche einmal ein.",
+      "deep": "Das Gleichnis steht in Mt 25,14-30. Unser Wort \"Talent\" für eine Begabung kommt genau von hier: Im Griechischen war ein Talent eine Gewichts- und Geldeinheit von rund 26 bis 36 kg Silber. Beide erfolgreichen Diener bekommen dasselbe Lob, obwohl sie unterschiedlich viel erwirtschaftet haben.",
       "source": "Mt 25,14-30 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "Don't bury your talent",
       "body": "A man goes on a journey and entrusts his wealth to three servants: five talents to the first, two to the second, one to the third. A talent was a fortune, about 20 years of wages.\n\nThe first two trade with it and double the money. The third is afraid, buries his talent and hands it back untouched. He's the one who is sharply rebuked.\n\nThe message: God doesn't expect you to have as much as others. He expects you to **work with what you have** instead of hiding it out of fear.",
-      "apply": "Name one gift you're burying out of fear or comfort, and use it once this week.",
-      "more": "The parable is in Mt 25:14-30. Our word \"talent\" for a gift comes from exactly here: in Greek a talent was a unit of weight and money of about 26 to 36 kg of silver. Both successful servants receive the same praise, even though they earned different amounts.",
+      "act": "Name one gift you're burying out of fear or comfort, and use it once this week.",
+      "deep": "The parable is in Mt 25:14-30. Our word \"talent\" for a gift comes from exactly here: in Greek a talent was a unit of weight and money of about 26 to 36 kg of silver. Both successful servants receive the same praise, even though they earned different amounts.",
       "source": "Mt 25:14-30 (New American Bible, Revised Edition)"
     }
   },
@@ -569,18 +591,19 @@
     "sub": "gleichnisse",
     "style": "geschichte",
     "level": 1,
+    "actKind": "achte",
     "de": {
       "title": "Wer ist mein Nächster?",
       "body": "Ein Gesetzeslehrer fragt Jesus, wen er denn lieben müsse. Jesus erzählt: Ein Mann wird auf dem Weg von Jerusalem nach Jericho überfallen und halb tot liegen gelassen. Ein Priester kommt vorbei und geht weiter. Ein Levit auch.\n\nDann kommt ein **Samariter**, einer aus einem Volk, das die Juden verachteten. Er hält an, verbindet die Wunden, bringt den Mann in eine Herberge und bezahlt für ihn.\n\nJesus dreht die Frage um: Nicht \"Wer ist mein Nächster?\", sondern \"**Wem werde ich zum Nächsten?**\"",
-      "apply": "Achte heute darauf, an wem du sonst vorbeigehst, und bleib einmal stehen.",
-      "more": "Juden und Samariter waren seit Jahrhunderten zerstritten, unter anderem über den richtigen Ort des Tempels. Dass ausgerechnet ein Samariter der Held ist, war für Jesu Zuhörer eine Provokation. Die Strecke von Jerusalem nach Jericho fällt auf etwa 27 km um über 1'000 Höhenmeter und war für Überfälle berüchtigt.",
+      "act": "Achte heute darauf, an wem du sonst vorbeigehst, und bleib einmal stehen.",
+      "deep": "Juden und Samariter waren seit Jahrhunderten zerstritten, unter anderem über den richtigen Ort des Tempels. Dass ausgerechnet ein Samariter der Held ist, war für Jesu Zuhörer eine Provokation. Die Strecke von Jerusalem nach Jericho fällt auf etwa 27 km um über 1'000 Höhenmeter und war für Überfälle berüchtigt.",
       "source": "Lk 10,25-37 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "Who is my neighbour?",
       "body": "A scholar of the law asks Jesus whom exactly he has to love. Jesus tells a story: a man on the road from Jerusalem to Jericho is attacked and left half dead. A priest passes by. So does a Levite.\n\nThen comes a **Samaritan**, from a people the Jews despised. He stops, bandages the wounds, takes the man to an inn and pays for him.\n\nJesus flips the question: not \"Who is my neighbour?\" but \"**To whom will I be a neighbour?**\"",
-      "apply": "Notice today whom you normally walk past, and stop once.",
-      "more": "Jews and Samaritans had been at odds for centuries, among other things over the right place for the Temple. Making a Samaritan the hero was a provocation for Jesus' listeners. The road from Jerusalem to Jericho drops more than 1,000 metres over about 27 km and was notorious for robberies.",
+      "act": "Notice today whom you normally walk past, and stop once.",
+      "deep": "Jews and Samaritans had been at odds for centuries, among other things over the right place for the Temple. Making a Samaritan the hero was a provocation for Jesus' listeners. The road from Jerusalem to Jericho drops more than 1,000 metres over about 27 km and was notorious for robberies.",
       "source": "Lk 10:25-37 (New American Bible, Revised Edition)"
     }
   },
@@ -590,18 +613,19 @@
     "sub": "gleichnisse",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Das Haus auf dem Felsen",
       "body": "Am Ende der Bergpredigt erzählt Jesus von zwei Männern, die je ein Haus bauen. Der eine baut auf **Felsen**, der andere auf **Sand**. Von aussen sehen beide Häuser gleich aus.\n\nDann kommen Regen, Fluten und Sturm. Das Haus auf dem Fels bleibt stehen. Das andere stürzt ein, \"und sein Einsturz war gewaltig\".\n\nDer Fels ist nicht, Jesu Worte zu hören, sondern **danach zu handeln**. Wie stark dein Fundament ist, zeigt sich nicht an ruhigen Tagen, sondern im Sturm.",
-      "apply": "Wähle eine Lehre Jesu, die du gut kennst, aber selten umsetzt, und setz sie heute konkret um.",
-      "more": "Das Gleichnis steht in Mt 7,24-27 und Lk 6,47-49. In Palästina konnten trockene Flussbetten (Wadis) nach starkem Regen plötzlich zu reissenden Strömen werden. Wer dort auf Sand gebaut hatte, verlor alles.",
+      "act": "Wähle eine Lehre Jesu, die du gut kennst, aber selten umsetzt, und setz sie heute konkret um.",
+      "deep": "Das Gleichnis steht in Mt 7,24-27 und Lk 6,47-49. In Palästina konnten trockene Flussbetten (Wadis) nach starkem Regen plötzlich zu reissenden Strömen werden. Wer dort auf Sand gebaut hatte, verlor alles.",
       "source": "Mt 7,24-27 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "The house on the rock",
       "body": "At the end of the Sermon on the Mount, Jesus tells of two men who each build a house. One builds on **rock**, the other on **sand**. From the outside both houses look the same.\n\nThen come rain, floods and wind. The house on the rock stands. The other collapses, \"and it was completely ruined\".\n\nThe rock isn't hearing Jesus' words but **acting on them**. How strong your foundation is shows not on calm days but in the storm.",
-      "apply": "Pick one teaching of Jesus you know well but rarely live, and put it into practice today.",
-      "more": "The parable is in Mt 7:24-27 and Lk 6:47-49. In Palestine, dry riverbeds (wadis) could suddenly turn into torrents after heavy rain. Whoever had built on sand there lost everything.",
+      "act": "Pick one teaching of Jesus you know well but rarely live, and put it into practice today.",
+      "deep": "The parable is in Mt 7:24-27 and Lk 6:47-49. In Palestine, dry riverbeds (wadis) could suddenly turn into torrents after heavy rain. Whoever had built on sand there lost everything.",
       "source": "Mt 7:24-27 (New American Bible, Revised Edition)"
     }
   },
@@ -611,18 +635,19 @@
     "sub": "gleichnisse",
     "style": "geschichte",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Das Senfkorn",
       "body": "Jesus vergleicht das Reich Gottes mit einem Senfkorn, dem kleinsten Samen, den seine Zuhörer kannten. Daraus wächst eine Pflanze, so gross, dass Vögel in ihren Zweigen nisten.\n\nGottes Wirken beginnt oft **unscheinbar**: zwölf einfache Männer in einer Provinz am Rand des Römischen Reiches. Heute bekennen sich über zwei Milliarden Menschen zu Christus.\n\nDas gilt auch für dein Leben: Ein kleines tägliches Gebet, eine gute Gewohnheit, ein ehrliches Gespräch können über Jahre zu etwas Grossem wachsen.",
-      "apply": "Beginne heute mit etwas Kleinem für deinen Glauben, zum Beispiel zwei Minuten Gebet am Morgen.",
-      "more": "Das Gleichnis steht in Mt 13,31-32, Mk 4,30-32 und Lk 13,18-19. Der schwarze Senf wächst am See Gennesaret zu Sträuchern von zwei bis drei Metern Höhe. Jesus sagt auch: Wenn euer Glaube nur so gross wäre wie ein Senfkorn, könntet ihr Berge versetzen (Mt 17,20).",
+      "act": "Beginne mit etwas Kleinem für deinen Glauben, zum Beispiel zwei Minuten Gebet direkt nach dem Aufstehen, und bleib 30 Tage dabei.",
+      "deep": "Das Gleichnis steht in Mt 13,31-32, Mk 4,30-32 und Lk 13,18-19. Der schwarze Senf wächst am See Gennesaret zu Sträuchern von zwei bis drei Metern Höhe. Jesus sagt auch: Wenn euer Glaube nur so gross wäre wie ein Senfkorn, könntet ihr Berge versetzen (Mt 17,20).",
       "source": "Mt 13,31-32 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "The mustard seed",
       "body": "Jesus compares the kingdom of God to a mustard seed, the smallest seed his listeners knew. From it grows a plant so large that birds nest in its branches.\n\nGod's work often starts **inconspicuously**: twelve ordinary men in a province on the edge of the Roman Empire. Today more than two billion people profess faith in Christ.\n\nThe same goes for your life: a short daily prayer, a good habit, an honest conversation can grow into something great over the years.",
-      "apply": "Start something small for your faith today, for example two minutes of prayer in the morning.",
-      "more": "The parable is in Mt 13:31-32, Mk 4:30-32 and Lk 13:18-19. Black mustard grows into shrubs two to three metres tall by the Sea of Galilee. Jesus also says: if you had faith the size of a mustard seed, you could move mountains (Mt 17:20).",
+      "act": "Start with something small for your faith, such as two minutes of prayer right after you get up, and keep it for 30 days.",
+      "deep": "The parable is in Mt 13:31-32, Mk 4:30-32 and Lk 13:18-19. Black mustard grows into shrubs two to three metres tall by the Sea of Galilee. Jesus also says: if you had faith the size of a mustard seed, you could move mountains (Mt 17:20).",
       "source": "Mt 13:31-32 (New American Bible, Revised Edition)"
     }
   },
@@ -632,6 +657,7 @@
     "sub": "gebet",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Das Vaterunser verstehen",
       "body": "Als die Jünger Jesus bitten, sie beten zu lehren, gibt er ihnen das Vaterunser. Es ist zugleich ein Gebet und eine **Schule des Betens**. Es hat zwei Teile:",
@@ -640,8 +666,8 @@
         "**Dann wir**: unser tägliches Brot, Vergebung unserer Schuld, Schutz vor der Versuchung und Erlösung vom Bösen.",
         "**Mitten drin eine Bedingung**: wie auch wir vergeben unsern Schuldigern. Wer selbst nicht vergibt, verschliesst sich der Vergebung Gottes."
       ],
-      "apply": "Bete das Vaterunser heute einmal ganz langsam und halte nach jeder Bitte kurz inne.",
-      "more": "Das Vaterunser steht in Mt 6,9-13 und kürzer in Lk 11,2-4. Der Katechismus nennt es mit Tertullian \"eine Zusammenfassung des ganzen Evangeliums\" (KKK 2761). Jesus redet Gott mit \"Abba\" an, der vertrauten aramäischen Anrede für den Vater.",
+      "act": "Bete das Vaterunser heute einmal ganz langsam und halte nach jeder Bitte kurz inne.",
+      "deep": "Das Vaterunser steht in Mt 6,9-13 und kürzer in Lk 11,2-4. Der Katechismus nennt es mit Tertullian \"eine Zusammenfassung des ganzen Evangeliums\" (KKK 2761). Jesus redet Gott mit \"Abba\" an, der vertrauten aramäischen Anrede für den Vater.",
       "source": "Mt 6,9-13; Katechismus der Katholischen Kirche, Nr. 2759-2865"
     },
     "en": {
@@ -652,8 +678,8 @@
         "**Then us**: our daily bread, forgiveness of our trespasses, protection from temptation and deliverance from evil.",
         "**A condition in the middle**: as we forgive those who trespass against us. Whoever refuses to forgive closes himself to God's forgiveness."
       ],
-      "apply": "Pray the Our Father very slowly once today, pausing briefly after each petition.",
-      "more": "The Our Father is in Mt 6:9-13 and, shorter, in Lk 11:2-4. Quoting Tertullian, the Catechism calls it \"the summary of the whole gospel\" (CCC 2761). Jesus addresses God as \"Abba\", the familiar Aramaic word for father.",
+      "act": "Pray the Our Father very slowly once today, pausing briefly after each petition.",
+      "deep": "The Our Father is in Mt 6:9-13 and, shorter, in Lk 11:2-4. Quoting Tertullian, the Catechism calls it \"the summary of the whole gospel\" (CCC 2761). Jesus addresses God as \"Abba\", the familiar Aramaic word for father.",
       "source": "Mt 6:9-13; Catechism of the Catholic Church, nos. 2759-2865"
     }
   },
@@ -663,6 +689,7 @@
     "sub": "gebet",
     "style": "tipp",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Das Tagesgebet des Ignatius",
       "body": "Der heilige Ignatius von Loyola, ein ehemaliger Soldat und Gründer der Jesuiten, hielt eine Übung für so wichtig, dass seine Brüder sie nie auslassen sollten: das **Examen**, ein Rückblick auf den Tag mit Gott. Es dauert 10 bis 15 Minuten:",
@@ -673,8 +700,8 @@
         "**Bereuen**: Wo habe ich gefehlt? Um Vergebung bitten.",
         "**Vorsatz**: Was nehme ich mir für morgen vor?"
       ],
-      "apply": "Mach heute Abend vor dem Schlafen dieses Examen, auch wenn es nur fünf Minuten sind.",
-      "more": "Ignatius (1491 bis 1556) wurde als Offizier bei der Belagerung von Pamplona schwer verwundet. Im Krankenbett las er Heiligenleben und bekehrte sich. Seine \"Geistlichen Übungen\" prägen bis heute Exerzitien in der ganzen Kirche. Papst Franziskus war selbst Jesuit.",
+      "act": "Mach das Examen eine Woche lang jeden Abend vor dem Schlafen, auch wenn es nur fünf Minuten sind. Danach entscheidest du, ob es bleibt.",
+      "deep": "Ignatius (1491 bis 1556) wurde als Offizier bei der Belagerung von Pamplona schwer verwundet. Im Krankenbett las er Heiligenleben und bekehrte sich. Seine \"Geistlichen Übungen\" prägen bis heute Exerzitien in der ganzen Kirche. Papst Franziskus war selbst Jesuit.",
       "source": "Ignatius von Loyola: Geistliche Übungen, Nr. 43"
     },
     "en": {
@@ -687,8 +714,8 @@
         "**Repent**: where did I fall short? Ask for forgiveness.",
         "**Resolve**: what will I commit to for tomorrow?"
       ],
-      "apply": "Do this examen tonight before you sleep, even if it's only five minutes.",
-      "more": "Ignatius (1491 to 1556) was badly wounded as an officer at the siege of Pamplona. On his sickbed he read the lives of the saints and was converted. His \"Spiritual Exercises\" still shape retreats throughout the Church. Pope Francis was himself a Jesuit.",
+      "act": "Do the Examen every night before sleep for a week, even if it's only five minutes. Then decide whether it stays.",
+      "deep": "Ignatius (1491 to 1556) was badly wounded as an officer at the siege of Pamplona. On his sickbed he read the lives of the saints and was converted. His \"Spiritual Exercises\" still shape retreats throughout the Church. Pope Francis was himself a Jesuit.",
       "source": "Ignatius of Loyola: Spiritual Exercises, no. 43"
     }
   },
@@ -698,6 +725,7 @@
     "sub": "gebet",
     "style": "bibelvers",
     "level": 2,
+    "actKind": "gebet",
     "de": {
       "title": "Betet ohne Unterlass",
       "quote": {
@@ -706,8 +734,8 @@
         "source": "1 Thess 5,17"
       },
       "body": "Wie soll man ohne Unterbrechung beten, wenn man arbeiten, trainieren und schlafen muss?\n\nDie Ostkirche hat darauf eine alte Antwort: das **Jesusgebet**. Ein einziger kurzer Satz, den man im Rhythmus des Atems wiederholt, beim Gehen, Warten, Autofahren:\n\n\"Herr Jesus Christus, Sohn Gottes, erbarme dich meiner.\"\n\nSo wird das Gebet von einem Termin zu einer **Haltung**, die den ganzen Tag begleitet.",
-      "apply": "Wiederhole das Jesusgebet heute, während du auf etwas wartest, statt aufs Handy zu schauen.",
-      "more": "Das Jesusgebet stammt aus der Tradition der Wüstenväter und wurde durch das russische Buch \"Aufrichtige Erzählungen eines russischen Pilgers\" (19. Jahrhundert) im Westen bekannt. Der Katechismus der Katholischen Kirche empfiehlt es ausdrücklich (KKK 2666-2668).",
+      "act": "Wiederhole das Jesusgebet heute, während du auf etwas wartest, statt aufs Handy zu schauen.",
+      "deep": "Das Jesusgebet stammt aus der Tradition der Wüstenväter und wurde durch das russische Buch \"Aufrichtige Erzählungen eines russischen Pilgers\" (19. Jahrhundert) im Westen bekannt. Der Katechismus der Katholischen Kirche empfiehlt es ausdrücklich (KKK 2666-2668).",
       "source": "1 Thess 5,17 (Einheitsübersetzung 2016); Katechismus der Katholischen Kirche, Nr. 2666-2668"
     },
     "en": {
@@ -718,8 +746,8 @@
         "source": "1 Thess 5:17"
       },
       "body": "How can you pray without stopping when you have to work, train and sleep?\n\nThe Eastern Church has an old answer: the **Jesus Prayer**. One short sentence repeated in rhythm with your breath, while walking, waiting, driving:\n\n\"Lord Jesus Christ, Son of God, have mercy on me.\"\n\nPrayer then turns from an appointment into an **attitude** that accompanies you all day.",
-      "apply": "Repeat the Jesus Prayer today while you wait for something, instead of checking your phone.",
-      "more": "The Jesus Prayer comes from the tradition of the Desert Fathers and became known in the West through the Russian book \"The Way of a Pilgrim\" (19th century). The Catechism of the Catholic Church explicitly commends it (CCC 2666-2668).",
+      "act": "Repeat the Jesus Prayer today while you wait for something, instead of checking your phone.",
+      "deep": "The Jesus Prayer comes from the tradition of the Desert Fathers and became known in the West through the Russian book \"The Way of a Pilgrim\" (19th century). The Catechism of the Catholic Church explicitly commends it (CCC 2666-2668).",
       "source": "1 Thess 5:17 (New American Bible, Revised Edition); Catechism of the Catholic Church, nos. 2666-2668"
     }
   },
@@ -729,18 +757,19 @@
     "sub": "gebet",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Der Rosenkranz kurz erklärt",
       "body": "Der Rosenkranz sieht nach endloser Wiederholung aus. In Wahrheit ist er eine **Betrachtung des Lebens Jesu** mit den Augen Marias.\n\nMan betet fünf \"Gesätze\", jedes mit einem Vaterunser, zehn Ave Maria und einem Ehre sei dem Vater. Zu jedem Gesätz betrachtet man ein Ereignis, ein sogenanntes Geheimnis: zum Beispiel die Geburt Jesu, seine Taufe, sein Leiden oder seine Auferstehung.\n\nDie Wiederholung beruhigt den Kopf, ähnlich wie ein gleichmässiger Atem, damit das Herz bei der Betrachtung bleiben kann.",
-      "apply": "Bete heute ein einziges Gesätz, ein Vaterunser und zehn Ave Maria, und denk dabei an die Geburt Jesu.",
-      "more": "Es gibt vier Reihen von Geheimnissen: freudenreiche, lichtreiche, schmerzhafte und glorreiche. Die lichtreichen fügte Papst Johannes Paul II. 2002 hinzu. Der Oktober ist in der katholischen Kirche traditionell der Rosenkranzmonat. Gebetsketten gibt es auch in anderen Traditionen, im Christentum ist der Rosenkranz seit dem Mittelalter verbreitet.",
+      "act": "Bete heute ein einziges Gesätz, ein Vaterunser und zehn Ave Maria, und denk dabei an die Geburt Jesu.",
+      "deep": "Es gibt vier Reihen von Geheimnissen: freudenreiche, lichtreiche, schmerzhafte und glorreiche. Die lichtreichen fügte Papst Johannes Paul II. 2002 hinzu. Der Oktober ist in der katholischen Kirche traditionell der Rosenkranzmonat. Gebetsketten gibt es auch in anderen Traditionen, im Christentum ist der Rosenkranz seit dem Mittelalter verbreitet.",
       "source": "Johannes Paul II.: Rosarium Virginis Mariae (2002)"
     },
     "en": {
       "title": "The Rosary in brief",
       "body": "The Rosary looks like endless repetition. In truth it's a **meditation on the life of Jesus** through the eyes of Mary.\n\nYou pray five \"decades\", each with an Our Father, ten Hail Marys and a Glory Be. With each decade you contemplate an event, a so-called mystery: for example Jesus' birth, his baptism, his passion or his resurrection.\n\nThe repetition calms the mind, much like steady breathing, so the heart can stay with the meditation.",
-      "apply": "Pray a single decade today, one Our Father and ten Hail Marys, while thinking about the birth of Jesus.",
-      "more": "There are four sets of mysteries: joyful, luminous, sorrowful and glorious. Pope John Paul II added the luminous mysteries in 2002. October is traditionally the month of the Rosary in the Catholic Church. Prayer beads exist in other traditions too; in Christianity the Rosary has been widespread since the Middle Ages.",
+      "act": "Pray a single decade today, one Our Father and ten Hail Marys, while thinking about the birth of Jesus.",
+      "deep": "There are four sets of mysteries: joyful, luminous, sorrowful and glorious. Pope John Paul II added the luminous mysteries in 2002. October is traditionally the month of the Rosary in the Catholic Church. Prayer beads exist in other traditions too; in Christianity the Rosary has been widespread since the Middle Ages.",
       "source": "John Paul II: Rosarium Virginis Mariae (2002)"
     }
   },
@@ -750,6 +779,7 @@
     "sub": "werte",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "achte",
     "de": {
       "title": "Der Geist ist willig",
       "quote": {
@@ -758,8 +788,8 @@
         "source": "Mt 26,41"
       },
       "body": "In der Nacht vor seinem Tod bittet Jesus Petrus, Jakobus und Johannes, mit ihm wach zu bleiben. Dreimal findet er sie schlafend.\n\nJesus kennt die menschliche Schwäche. Darum sagt er nicht \"Streng dich mehr an\", sondern **\"Wacht und betet\"**. Versuchung besiegt man selten im Moment selbst, sondern vorher: durch Wachsamkeit, also Situationen meiden, die dich schwach machen, und durch Gebet, das dir Kraft gibt, die du allein nicht hast.",
-      "apply": "Benenne eine Versuchung, die dich immer wieder erwischt, und meide heute bewusst die Situation, in der sie beginnt.",
-      "more": "Die Szene spielt im Garten Getsemani am Ölberg (Mt 26,36-46). Die Kirche lehrt, dass Versuchung selbst keine Sünde ist, auch Jesus wurde in der Wüste versucht (Mt 4). Entscheidend ist, wie man ihr begegnet. Paulus schreibt, dass Gott niemanden über seine Kräfte hinaus versuchen lässt (1 Kor 10,13).",
+      "act": "Benenne eine Versuchung, die dich immer wieder erwischt. Achte heute auf die Situation, in der sie beginnt, und meide genau diese.",
+      "deep": "Die Szene spielt im Garten Getsemani am Ölberg (Mt 26,36-46). Die Kirche lehrt, dass Versuchung selbst keine Sünde ist, auch Jesus wurde in der Wüste versucht (Mt 4). Entscheidend ist, wie man ihr begegnet. Paulus schreibt, dass Gott niemanden über seine Kräfte hinaus versuchen lässt (1 Kor 10,13).",
       "source": "Mt 26,36-46 (Einheitsübersetzung 2016); 1 Kor 10,13"
     },
     "en": {
@@ -770,8 +800,8 @@
         "source": "Mt 26:41"
       },
       "body": "On the night before his death, Jesus asks Peter, James and John to stay awake with him. Three times he finds them asleep.\n\nJesus knows human weakness. So he doesn't say \"Try harder\" but **\"Watch and pray\"**. Temptation is rarely beaten in the moment itself, but beforehand: through watchfulness, avoiding the situations that make you weak, and through prayer, which gives you strength you don't have on your own.",
-      "apply": "Name a temptation that keeps catching you, and deliberately avoid the situation where it starts today.",
-      "more": "The scene takes place in the Garden of Gethsemane on the Mount of Olives (Mt 26:36-46). The Church teaches that temptation itself isn't sin; Jesus too was tempted in the desert (Mt 4). What matters is how you meet it. Paul writes that God won't let anyone be tested beyond his strength (1 Cor 10:13).",
+      "act": "Name a temptation that keeps catching you. Today, watch for the situation where it starts, and avoid exactly that.",
+      "deep": "The scene takes place in the Garden of Gethsemane on the Mount of Olives (Mt 26:36-46). The Church teaches that temptation itself isn't sin; Jesus too was tempted in the desert (Mt 4). What matters is how you meet it. Paul writes that God won't let anyone be tested beyond his strength (1 Cor 10:13).",
       "source": "Mt 26:36-46 (New American Bible, Revised Edition); 1 Cor 10:13"
     }
   },
@@ -781,18 +811,19 @@
     "sub": "werte",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Wie oft vergeben?",
       "body": "Petrus fragt Jesus, wie oft er seinem Bruder vergeben müsse. Bis zu siebenmal? Das klingt schon grosszügig.\n\nJesus antwortet: Nicht siebenmal, sondern **siebzigmal siebenmal**. Gemeint ist: ohne zu zählen.\n\nVergeben heisst nicht, dass Unrecht egal ist oder dass du dich weiter verletzen lassen musst. Es heisst, die Rechnung loszulassen und den anderen nicht für immer an seiner Schuld festzunageln. Der Erste, der davon frei wird, bist du.",
-      "apply": "Bete heute für einen Menschen, dem du etwas nachträgst, und wünsch ihm ehrlich Gutes.",
-      "more": "Direkt danach erzählt Jesus vom unbarmherzigen Knecht, dem eine riesige Schuld erlassen wird, der aber einem Mitknecht eine kleine Schuld nicht erlässt (Mt 18,23-35). Die Zahl erinnert an Lamech im Buch Genesis, der sich siebenundsiebzigfach rächen will (Gen 4,24): Jesus kehrt die Rache in Vergebung um.",
+      "act": "Bete heute für einen Menschen, dem du etwas nachträgst, und wünsch ihm ehrlich Gutes.",
+      "deep": "Direkt danach erzählt Jesus vom unbarmherzigen Knecht, dem eine riesige Schuld erlassen wird, der aber einem Mitknecht eine kleine Schuld nicht erlässt (Mt 18,23-35). Die Zahl erinnert an Lamech im Buch Genesis, der sich siebenundsiebzigfach rächen will (Gen 4,24): Jesus kehrt die Rache in Vergebung um.",
       "source": "Mt 18,21-35 (Einheitsübersetzung 2016)"
     },
     "en": {
       "title": "How often must I forgive?",
       "body": "Peter asks Jesus how often he must forgive his brother. Up to seven times? That already sounds generous.\n\nJesus answers: not seven times but **seventy-seven times**. Meaning: without counting.\n\nForgiving doesn't mean injustice doesn't matter or that you must keep letting yourself be hurt. It means letting go of the bill and not nailing the other person to his debt forever. The first one set free is you.",
-      "apply": "Pray today for someone you hold a grudge against, and honestly wish them well.",
-      "more": "Right after this Jesus tells of the unforgiving servant, who is let off an enormous debt but won't forgive a fellow servant a small one (Mt 18:23-35). The number echoes Lamech in Genesis, who wants to be avenged seventy-seven times (Gen 4:24): Jesus turns revenge into forgiveness.",
+      "act": "Pray today for someone you hold a grudge against, and honestly wish them well.",
+      "deep": "Right after this Jesus tells of the unforgiving servant, who is let off an enormous debt but won't forgive a fellow servant a small one (Mt 18:23-35). The number echoes Lamech in Genesis, who wants to be avenged seventy-seven times (Gen 4:24): Jesus turns revenge into forgiveness.",
       "source": "Mt 18:21-35 (New American Bible, Revised Edition)"
     }
   },
@@ -802,6 +833,7 @@
     "sub": "werte",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Die sieben Sakramente",
       "body": "Sakramente sind nach katholischem Glauben sichtbare Zeichen, durch die Christus selbst wirkt und seine Gnade schenkt. Sie begleiten das ganze Leben:",
@@ -810,8 +842,8 @@
         "**Busse (Beichte) und Krankensalbung**: die Sakramente der Heilung, für Seele und Leib.",
         "**Weihe und Ehe**: die Sakramente des Dienstes. Sie sind auf das Heil anderer ausgerichtet."
       ],
-      "apply": "Wenn deine letzte Beichte lange her ist, such dir heute einen Termin in deiner Pfarrei in den nächsten zwei Wochen.",
-      "more": "Die Zahl sieben wurde im Mittelalter festgehalten und auf dem Konzil von Trient (1547) bestätigt. Die Eucharistie nennt das Zweite Vatikanische Konzil \"Quelle und Höhepunkt des ganzen christlichen Lebens\" (Lumen gentium 11). Viele Pfarreien bieten feste Beichtzeiten an, oft am Samstag.",
+      "act": "Wenn deine letzte Beichte lange her ist, such dir heute einen Termin in deiner Pfarrei in den nächsten zwei Wochen.",
+      "deep": "Die Zahl sieben wurde im Mittelalter festgehalten und auf dem Konzil von Trient (1547) bestätigt. Die Eucharistie nennt das Zweite Vatikanische Konzil \"Quelle und Höhepunkt des ganzen christlichen Lebens\" (Lumen gentium 11). Viele Pfarreien bieten feste Beichtzeiten an, oft am Samstag.",
       "source": "Katechismus der Katholischen Kirche, Nr. 1210-1211"
     },
     "en": {
@@ -822,8 +854,8 @@
         "**Penance (confession) and Anointing of the Sick**: the sacraments of healing, for soul and body.",
         "**Holy Orders and Matrimony**: the sacraments of service. They are directed at the salvation of others."
       ],
-      "apply": "If your last confession was long ago, find a time at your parish in the next two weeks, today.",
-      "more": "The number seven was fixed in the Middle Ages and confirmed at the Council of Trent (1547). The Second Vatican Council calls the Eucharist \"the source and summit of the Christian life\" (Lumen gentium 11). Many parishes offer fixed confession times, often on Saturdays.",
+      "act": "If your last confession was long ago, find a time at your parish in the next two weeks, today.",
+      "deep": "The number seven was fixed in the Middle Ages and confirmed at the Council of Trent (1547). The Second Vatican Council calls the Eucharist \"the source and summit of the Christian life\" (Lumen gentium 11). Many parishes offer fixed confession times, often on Saturdays.",
       "source": "Catechism of the Catholic Church, nos. 1210-1211"
     }
   },
@@ -833,6 +865,7 @@
     "sub": "werte",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die Wahrheit wird euch befreien",
       "quote": {
@@ -841,8 +874,8 @@
         "source": "Joh 8,32"
       },
       "body": "Lügen fühlen sich oft wie ein Ausweg an: eine kleine Ausrede, eine geschönte Geschichte, ein Verschweigen. Aber jede Lüge macht dich ein Stück unfreier. Du musst sie dir merken, absichern, verteidigen.\n\nJesus verbindet Wahrheit mit **Freiheit**. Wer ehrlich lebt, vor Gott, vor anderen und vor sich selbst, hat nichts zu verstecken und muss vor niemandem Angst haben. Und für Christen ist die Wahrheit letztlich keine Idee, sondern eine Person: Christus selbst (Joh 14,6).",
-      "apply": "Verzichte heute bewusst auf jede kleine Notlüge, auch wenn es unbequem wird.",
-      "more": "Der Satz steht in einer Auseinandersetzung Jesu mit Zuhörern in Jerusalem, die sich für frei halten, weil sie Kinder Abrahams sind. Jesus antwortet: Wer die Sünde tut, ist Sklave der Sünde (Joh 8,34). Der Vers steht heute an vielen Universitäten, etwa in Freiburg im Breisgau.",
+      "act": "Verzichte heute bewusst auf jede kleine Notlüge, auch wenn es unbequem wird.",
+      "deep": "Der Satz steht in einer Auseinandersetzung Jesu mit Zuhörern in Jerusalem, die sich für frei halten, weil sie Kinder Abrahams sind. Jesus antwortet: Wer die Sünde tut, ist Sklave der Sünde (Joh 8,34). Der Vers steht heute an vielen Universitäten, etwa in Freiburg im Breisgau.",
       "source": "Joh 8,31-36 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -853,8 +886,8 @@
         "source": "Jn 8:32"
       },
       "body": "Lies often feel like a way out: a small excuse, a polished story, something left unsaid. But every lie makes you a bit less free. You have to remember it, secure it, defend it.\n\nJesus links truth with **freedom**. Whoever lives honestly, before God, others and himself, has nothing to hide and no one to fear. And for Christians, truth is ultimately not an idea but a person: Christ himself (Jn 14:6).",
-      "apply": "Today, deliberately skip every small white lie, even when it's uncomfortable.",
-      "more": "The line comes from a dispute in Jerusalem with listeners who consider themselves free because they are children of Abraham. Jesus replies: everyone who commits sin is a slave of sin (Jn 8:34). The verse is inscribed at many universities today, for example in Freiburg im Breisgau.",
+      "act": "Today, deliberately skip every small white lie, even when it's uncomfortable.",
+      "deep": "The line comes from a dispute in Jerusalem with listeners who consider themselves free because they are children of Abraham. Jesus replies: everyone who commits sin is a slave of sin (Jn 8:34). The verse is inscribed at many universities today, for example in Freiburg im Breisgau.",
       "source": "Jn 8:31-36 (New American Bible, Revised Edition)"
     }
   },
@@ -864,6 +897,7 @@
     "sub": "gebet",
     "style": "tipp",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Lectio divina: die Bibel betend lesen",
       "body": "Die Bibel kann man lesen wie ein Sachbuch, schnell und auf Information aus. Die Mönche des Mittelalters lasen sie anders: langsam, wenige Verse, im Gespräch mit Gott. Sie nannten das **Lectio divina**, göttliche Lesung. Vier Schritte, 15 Minuten:",
@@ -873,8 +907,8 @@
         "**Beten (oratio)**: Antworte Gott mit eigenen Worten: Dank, Bitte, Reue.",
         "**Verweilen (contemplatio)**: Bleib ein paar Minuten still bei ihm, ohne Worte."
       ],
-      "apply": "Nimm dir heute 15 Minuten und mach Lectio divina mit dem Evangelium vom Tag oder mit Mt 5,1-12.",
-      "more": "Die Methode geht auf die Kirchenväter zurück. Der Kartäuser Guigo II. beschrieb die vier Stufen um 1150 als \"Leiter der Mönche\". Papst Benedikt XVI. empfahl sie 2010 in \"Verbum Domini\" ausdrücklich allen Gläubigen. Die Lesungen vom Tag findest du kostenlos auf der Website der Erzabtei Beuron oder in der App \"Evangelium Tag für Tag\".",
+      "act": "Nimm dir heute 15 Minuten und mach Lectio divina mit dem Evangelium vom Tag oder mit Mt 5,1-12.",
+      "deep": "Die Methode geht auf die Kirchenväter zurück. Der Kartäuser Guigo II. beschrieb die vier Stufen um 1150 als \"Leiter der Mönche\". Papst Benedikt XVI. empfahl sie 2010 in \"Verbum Domini\" ausdrücklich allen Gläubigen. Die Lesungen vom Tag findest du kostenlos auf der Website der Erzabtei Beuron oder in der App \"Evangelium Tag für Tag\".",
       "source": "Benedikt XVI.: Verbum Domini, Nr. 87 (2010); Guigo II.: Scala claustralium"
     },
     "en": {
@@ -886,8 +920,8 @@
         "**Pray (oratio)**: answer God in your own words: thanks, request, sorrow.",
         "**Rest (contemplatio)**: stay quietly with him for a few minutes, without words."
       ],
-      "apply": "Take 15 minutes today and do lectio divina with the day's Gospel or with Mt 5:1-12.",
-      "more": "The method goes back to the Church Fathers. The Carthusian monk Guigo II described the four steps around 1150 as the \"ladder of monks\". Pope Benedict XVI explicitly recommended it to all the faithful in \"Verbum Domini\" in 2010. You can find the daily readings free on the USCCB website.",
+      "act": "Take 15 minutes today and do lectio divina with the day's Gospel or with Mt 5:1-12.",
+      "deep": "The method goes back to the Church Fathers. The Carthusian monk Guigo II described the four steps around 1150 as the \"ladder of monks\". Pope Benedict XVI explicitly recommended it to all the faithful in \"Verbum Domini\" in 2010. You can find the daily readings free on the USCCB website.",
       "source": "Benedict XVI: Verbum Domini, no. 87 (2010); Guigo II: Scala claustralium"
     }
   },
@@ -897,6 +931,7 @@
     "sub": "mann-gottes",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Fürchte dich nicht, Gott ist mit dir",
       "quote": {
@@ -905,8 +940,8 @@
         "source": "Jos 1,9"
       },
       "body": "Mose ist tot. Josua soll das Volk Israel nun ins verheissene Land führen, gegen befestigte Städte und starke Gegner. Eine riesige Last für einen Mann.\n\nGott gibt ihm keinen Plan und keine Garantie. Er gibt ihm einen **Befehl**: Sei mutig und stark. Und einen **Grund**: Ich bin mit dir.\n\nMut heisst nicht, keine Angst zu haben. Mut heisst, trotz Angst zu gehen, weil man nicht allein geht.",
-      "apply": "Nenne die Aufgabe, vor der du dich gerade am meisten fürchtest, bete diesen Vers und mach heute den ersten Schritt.",
-      "more": "Das Buch Josua erzählt die Landnahme Israels nach dem Tod des Mose. Der Befehl \"Sei mutig und stark\" fällt im ersten Kapitel gleich dreimal (Jos 1,6.7.9). Der Name Josua bedeutet \"Der Herr rettet\". Es ist derselbe Name wie Jesus.",
+      "act": "Nenne die Aufgabe, vor der du dich gerade am meisten fürchtest, bete diesen Vers und mach heute den ersten Schritt.",
+      "deep": "Das Buch Josua erzählt die Landnahme Israels nach dem Tod des Mose. Der Befehl \"Sei mutig und stark\" fällt im ersten Kapitel gleich dreimal (Jos 1,6.7.9). Der Name Josua bedeutet \"Der Herr rettet\". Es ist derselbe Name wie Jesus.",
       "source": "Jos 1,9 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -917,8 +952,8 @@
         "source": "Jos 1:9"
       },
       "body": "Moses is dead. Joshua is now to lead the people of Israel into the promised land, against fortified cities and strong enemies. A huge burden for one man.\n\nGod gives him no plan and no guarantee. He gives him a **command**: be strong and steadfast. And a **reason**: I am with you.\n\nCourage doesn't mean having no fear. Courage means going despite fear, because you don't go alone.",
-      "apply": "Name the task you fear most right now, pray this verse and take the first step today.",
-      "more": "The Book of Joshua tells of Israel entering the land after Moses' death. The command \"be strong and steadfast\" appears three times in the first chapter alone (Jos 1:6, 7, 9). The name Joshua means \"the Lord saves\". It's the same name as Jesus.",
+      "act": "Name the task you fear most right now, pray this verse and take the first step today.",
+      "deep": "The Book of Joshua tells of Israel entering the land after Moses' death. The command \"be strong and steadfast\" appears three times in the first chapter alone (Jos 1:6, 7, 9). The name Joshua means \"the Lord saves\". It's the same name as Jesus.",
       "source": "Jos 1:9 (New American Bible, Revised Edition)"
     }
   },
@@ -928,6 +963,7 @@
     "sub": "mann-gottes",
     "style": "bibelvers",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Drei Dinge, die Gott von dir will",
       "quote": {
@@ -936,8 +972,8 @@
         "source": "Mi 6,8"
       },
       "body": "Die Menschen zur Zeit des Propheten Micha fragten: Was will Gott von uns? Mehr Opfer? Tausende Widder, Ströme von Öl?\n\nMichas Antwort ist kurz und unbequem. Keine grossen Gesten. Drei Dinge, jeden Tag:\n\n**Recht tun**: ehrlich und gerecht handeln, auch wenn es dich etwas kostet. **Güte lieben**: treu und barmherzig sein, nicht nur wenn es sich lohnt. **Achtsam mitgehen mit Gott**: demütig, Schritt für Schritt, nicht auf eigene Faust.",
-      "apply": "Prüf heute Abend deinen Tag an diesen drei Punkten und wähle einen, den du morgen bewusst besser machst.",
-      "more": "Micha wirkte im 8. Jahrhundert vor Christus im Südreich Juda. Er kritisierte Reiche, die Arme ausbeuteten, und Richter, die sich bestechen liessen. Der Vers gilt als eine der dichtesten Zusammenfassungen dessen, was die Propheten lehrten.",
+      "act": "Prüf heute Abend deinen Tag: Habe ich Recht getan? Güte geliebt? Bin ich achtsam mit Gott gegangen? Wähle einen Punkt, den du morgen bewusst besser machst.",
+      "deep": "Micha wirkte im 8. Jahrhundert vor Christus im Südreich Juda. Er kritisierte Reiche, die Arme ausbeuteten, und Richter, die sich bestechen liessen. Der Vers gilt als eine der dichtesten Zusammenfassungen dessen, was die Propheten lehrten.",
       "source": "Mi 6,8 (Einheitsübersetzung 2016)"
     },
     "en": {
@@ -948,8 +984,8 @@
         "source": "Mi 6:8"
       },
       "body": "The people in the prophet Micah's time asked: what does God want from us? More sacrifices? Thousands of rams, rivers of oil?\n\nMicah's answer is short and uncomfortable. No grand gestures. Three things, every day:\n\n**Do justice**: act honestly and fairly, even when it costs you. **Love goodness**: be loyal and merciful, not only when it pays. **Walk humbly with God**: step by step, not on your own terms.",
-      "apply": "Check your day against these three points tonight and pick one to do better on purpose tomorrow.",
-      "more": "Micah was active in the 8th century before Christ in the southern kingdom of Judah. He criticised the rich who exploited the poor and judges who took bribes. The verse is considered one of the densest summaries of what the prophets taught.",
+      "act": "Tonight, check your day: did I do justice? Did I love kindness? Did I walk humbly with God? Pick one you'll do better on purpose tomorrow.",
+      "deep": "Micah was active in the 8th century before Christ in the southern kingdom of Judah. He criticised the rich who exploited the poor and judges who took bribes. The verse is considered one of the densest summaries of what the prophets taught.",
       "source": "Mi 6:8 (New American Bible, Revised Edition)"
     }
   },
@@ -959,6 +995,7 @@
     "sub": "mann-gottes",
     "style": "bibelvers",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Stärker als einer, der Städte erobert",
       "quote": {
@@ -967,8 +1004,8 @@
         "source": "Spr 16,32"
       },
       "body": "Die Welt bewundert Eroberer: Kriegshelden, Gewinner, Männer, die andere besiegen. Die Bibel setzt einen anderen Massstab.\n\nWer **seinen Zorn** im Griff hat, wer **sich selbst** beherrscht, ist grösser als einer, der Städte erobert. Denn eine Stadt einzunehmen ist ein Sieg nach aussen. Sich selbst zu beherrschen ist ein Sieg nach innen, und der muss jeden Tag neu errungen werden.\n\nDas ist echte Stärke: nicht laut, sondern beherrscht.",
-      "apply": "Wenn dich heute etwas wütend macht, warte zehn Atemzüge, bevor du sprichst oder schreibst.",
-      "more": "Das Buch der Sprichwörter sammelt Lebensweisheiten Israels. Die Tradition schreibt einen grossen Teil König Salomo zu. Die Kirche zählt die Selbstbeherrschung, das Mass, zu den vier Kardinaltugenden, zusammen mit Klugheit, Gerechtigkeit und Tapferkeit.",
+      "act": "Wenn dich heute etwas wütend macht, warte zehn Atemzüge, bevor du sprichst oder schreibst.",
+      "deep": "Das Buch der Sprichwörter sammelt Lebensweisheiten Israels. Die Tradition schreibt einen grossen Teil König Salomo zu. Die Kirche zählt die Selbstbeherrschung, das Mass, zu den vier Kardinaltugenden, zusammen mit Klugheit, Gerechtigkeit und Tapferkeit.",
       "source": "Spr 16,32 (Einheitsübersetzung 2016); Katechismus der Katholischen Kirche, Nr. 1809"
     },
     "en": {
@@ -979,8 +1016,8 @@
         "source": "Prov 16:32"
       },
       "body": "The world admires conquerors: war heroes, winners, men who defeat others. The Bible sets a different standard.\n\nWhoever has **his temper** under control, whoever **rules himself**, is greater than one who takes a city. Taking a city is a victory outside. Ruling yourself is a victory inside, and it has to be won again every day.\n\nThat's real strength: not loud, but controlled.",
-      "apply": "When something makes you angry today, wait ten breaths before you speak or write.",
-      "more": "The Book of Proverbs collects Israel's wisdom for life. Tradition attributes much of it to King Solomon. The Church counts self-control, temperance, among the four cardinal virtues, together with prudence, justice and fortitude.",
+      "act": "When something makes you angry today, wait ten breaths before you speak or write.",
+      "deep": "The Book of Proverbs collects Israel's wisdom for life. Tradition attributes much of it to King Solomon. The Church counts self-control, temperance, among the four cardinal virtues, together with prudence, justice and fortitude.",
       "source": "Prov 16:32 (New American Bible, Revised Edition); Catechism of the Catholic Church, no. 1809"
     }
   }

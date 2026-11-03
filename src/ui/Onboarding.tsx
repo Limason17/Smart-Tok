@@ -13,6 +13,7 @@ const GESTURES: { icon: string; key: StringKey }[] = [
   { icon: 'heart', key: 'onbLike' },
   { icon: 'dislike', key: 'onbDislike' },
   { icon: 'bookmark', key: 'onbSave' },
+  { icon: 'target', key: 'onbPlan' },
   { icon: 'info', key: 'onbInfo' },
 ];
 

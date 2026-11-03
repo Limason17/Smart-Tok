@@ -16,7 +16,7 @@ export interface Card extends CardData {
 }
 
 export function countWords(t: CardText): number {
-  const parts = [t.title, t.body, ...(t.points ?? []), t.quote?.text ?? '', t.apply ?? ''];
+  const parts = [t.title, t.body.replace(/^---$/gm, ''), ...(t.points ?? []), t.quote?.text ?? '', t.example ?? '', t.act ?? ''];
   return parts.join(' ').split(/\s+/).filter(Boolean).length;
 }
 

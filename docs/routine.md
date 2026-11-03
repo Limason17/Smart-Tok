@@ -27,7 +27,7 @@ Dieses Dokument ist die Anleitung, der jeder Lauf folgt.
    - `publishedAt`: jetzt (ISO, UTC); `expiresAt`: kurzlebige Meldungen nach 2 bis 3 Tagen, sonst höchstens 7 Tage (Termine: kurz nach dem Ereignis)
    - Deutsch und Englisch, neutral, ohne Wertung. Aufbau: Was ist passiert, **warum es wichtig ist**, was als Nächstes kommt. 60 bis 120 Wörter, Titel höchstens 9 Wörter.
    - `source` in beiden Sprachen (Medium und Datum), `more` mit Hintergrund
-   - kein `apply` (die App zeigt es als „Heute anwenden“); „Warum es wichtig ist“ gehört in `body`
+   - kein `act`/`actKind` und kein `deep` (News bleiben neutral, ohne Aufgabe); „Warum es wichtig ist“ gehört in `body`
 5. **Konto-Auswertung** (nur wenn `SMARTTOK_ANALYSIS_EMAIL` und `SMARTTOK_ANALYSIS_PASSWORD` gesetzt sind):
    `npx tsx scripts/routine/analyze.ts --out /mnt/project-files/smart-tok/analysis/<lauf>`
    Dann `summary.md` lesen: Auffälligkeiten pro Konto (viele schnelle Wischer, fallende Like-Rate, Verengung, Content-Lücken), Themenwünsche (nur zitiert).

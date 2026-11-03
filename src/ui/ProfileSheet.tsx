@@ -12,13 +12,14 @@ import {
   type Exploration,
 } from '../algo/engine';
 import { useT, type StringKey } from '../i18n/strings';
-import { eventsBetween, localDate, resetAlgorithm, setAdjust, setPrefs, streak, useStore } from '../store/store';
+import { eventsBetween, localDate, resetAlgorithm, setAdjust, setPlanDone, setPrefs, streak, togglePlan, useStore } from '../store/store';
 import type { CardRecord } from '../store/db';
 import { AccountCard } from './AccountSheet';
+import { actOf } from './CardView';
 import { Icon } from './Icon';
 import { Segmented, Sheet } from './Sheet';
 
-type Tab = 'overview' | 'saved' | 'history' | 'algo';
+type Tab = 'overview' | 'plan' | 'saved' | 'history';
 // Remembered while the app runs, so closing a card brings you back to the same tab.
 let lastTab: Tab = 'overview';
 let lastMonth: number | null = null;
@@ -30,10 +31,10 @@ export interface ProfileSheetProps {
   onOpenSettings: () => void;
   onOpenTopics: () => void;
   onOpenAccount: () => void;
-  onToast: (text: string) => void;
+  onOpenAlgo: () => void;
 }
 
-export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics, onOpenAccount, onToast }: ProfileSheetProps) {
+export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics, onOpenAccount, onOpenAlgo }: ProfileSheetProps) {
   const tr = useT();
   const [tab, setTab] = useState<Tab>(lastTab);
   useEffect(() => {
@@ -43,24 +44,38 @@ export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics
   const records = useStore((s) => s.cards);
   useEffect(() => loadArchived(Object.keys(records)), [records]);
   useSyncExternalStore(onArchive, archiveVersion);
+  const openPlans = Object.values(records).filter((r) => r.planAt && !r.planDone && CARD_BY_ID[r.id]).length;
   return (
     <Sheet title={tr('profile')} onClose={onClose}>
+      <AccountCard onOpen={onOpenAccount} />
       <Segmented<Tab>
         small
         className="tabs"
         value={tab}
         options={[
           { value: 'overview', label: tr('tabOverview') },
+          { value: 'plan', label: openPlans ? `${tr('tabPlan')} · ${openPlans}` : tr('tabPlan') },
           { value: 'saved', label: tr('tabSaved') },
           { value: 'history', label: tr('tabHistory') },
-          { value: 'algo', label: tr('tabAlgo') },
         ]}
         onChange={setTab}
       />
-      {tab === 'overview' && <Overview onOpenCard={onOpenCard} onOpenSettings={onOpenSettings} onOpenAccount={onOpenAccount} />}
+      {tab === 'overview' && (
+        <Overview onOpenCard={onOpenCard} onOpenSettings={onOpenSettings} onOpenTopics={onOpenTopics} onOpenAlgo={onOpenAlgo} />
+      )}
+      {tab === 'plan' && <Plans onOpenCard={onOpenCard} />}
       {tab === 'saved' && <Saved onOpenCard={onOpenCard} />}
       {tab === 'history' && <History onOpenCard={onOpenCard} />}
-      {tab === 'algo' && <MyAlgorithm onOpenTopics={onOpenTopics} onToast={onToast} />}
+    </Sheet>
+  );
+}
+
+/** "Mein Algorithmus" in its own sheet, opened from the profile. */
+export function AlgoSheet({ onClose, onOpenTopics, onToast }: { onClose: () => void; onOpenTopics: () => void; onToast: (t: string) => void }) {
+  const tr = useT();
+  return (
+    <Sheet title={tr('myAlgo')} onClose={onClose}>
+      <MyAlgorithm onOpenTopics={onOpenTopics} onToast={onToast} />
     </Sheet>
   );
 }
@@ -102,6 +117,7 @@ function CardRow({ cardId, record, meta, onOpen }: { cardId: string; record?: Ca
         {record?.reaction === 1 && <Icon name="heart" filled size={15} className="flag-like" />}
         {record?.reaction === -1 && <Icon name="dislike" size={15} />}
         {record?.saved && <Icon name="bookmark" filled size={15} className="flag-save" />}
+        {record?.planAt && <Icon name={record.planDone ? 'targetDone' : 'target'} size={15} className="flag-plan" />}
       </span>
     </button>
   );
@@ -112,19 +128,20 @@ function CardRow({ cardId, record, meta, onOpen }: { cardId: string; record?: Ca
 function Overview({
   onOpenCard,
   onOpenSettings,
-  onOpenAccount,
+  onOpenTopics,
+  onOpenAlgo,
 }: {
   onOpenCard: (id: string) => void;
   onOpenSettings: () => void;
-  onOpenAccount: () => void;
+  onOpenTopics: () => void;
+  onOpenAlgo: () => void;
 }) {
   const tr = useT();
   const cards = useStore((s) => s.cards);
   const days = useStore((s) => s.days);
   const records = Object.values(cards);
   const read = records.filter((r) => r.views > 0).length;
-  const minutes = Math.round(records.reduce((sum, r) => sum + r.dwellMs, 0) / 60_000);
-  const active = Object.values(days).filter((n) => n > 0).length;
+  const done = records.filter((r) => r.planDone).length;
   const [day, setDay] = useState<string | null>(lastDay);
   useEffect(() => {
     lastDay = day;
@@ -132,25 +149,36 @@ function Overview({
 
   return (
     <>
-      <AccountCard onOpen={onOpenAccount} />
       <div className="stats">
-        <Stat value={read} label={tr('statRead')} />
         <Stat value={streak(days)} label={tr('statStreak')} icon="flame" />
-        <Stat value={active} label={tr('statDays')} />
-        <Stat value={minutes} label={tr('statMinutes')} />
+        <Stat value={read} label={tr('statRead')} />
+        <Stat value={done} label={tr('statDone')} icon="targetDone" />
       </div>
 
-      <div className="section-label">{tr('calendar')}</div>
       <Calendar days={days} selected={day} onSelect={(d) => setDay(d === day ? null : d)} />
       {day && <DayCards date={day} onOpenCard={onOpenCard} />}
 
-      <div className="btn-row" style={{ marginTop: 22 }}>
-        <button className="btn ghost" onClick={onOpenSettings}>
-          <Icon name="settings" size={17} style={{ verticalAlign: '-3px', marginRight: 8 }} />
-          {tr('settings')}
-        </button>
+      <div className="menu">
+        <MenuRow icon="steps" title={tr('menuAlgo')} sub={tr('menuAlgoSub')} onClick={onOpenAlgo} />
+        <MenuRow icon="layers" title={tr('menuTopics')} sub={tr('menuTopicsSub')} onClick={onOpenTopics} />
+        <MenuRow icon="settings" title={tr('menuSettings')} sub={tr('menuSettingsSub')} onClick={onOpenSettings} />
       </div>
     </>
+  );
+}
+
+function MenuRow({ icon, title, sub, onClick }: { icon: string; title: string; sub: string; onClick: () => void }) {
+  return (
+    <button className="menu-row" onClick={onClick}>
+      <span className="menu-icon">
+        <Icon name={icon} size={19} />
+      </span>
+      <span className="row-text">
+        <span className="row-title">{title}</span>
+        <span className="row-sub">{sub}</span>
+      </span>
+      <Icon name="chevron" size={18} className="me-chev" />
+    </button>
   );
 }
 
@@ -274,6 +302,74 @@ function DayCards({ date, onOpenCard }: { date: string; onOpenCard: (id: string)
   );
 }
 
+// ---------------------------------------------------------------- "Umsetzen"
+
+function Plans({ onOpenCard }: { onOpenCard: (id: string) => void }) {
+  const tr = useT();
+  const records = useStore((s) => s.cards);
+  const [showDone, setShowDone] = useState(false);
+  const all = Object.values(records).filter((r) => r.planAt && CARD_BY_ID[r.id]);
+  const open = all.filter((r) => !r.planDone).sort((a, b) => (b.planAt ?? 0) - (a.planAt ?? 0));
+  const done = all.filter((r) => r.planDone).sort((a, b) => (b.planDone ?? 0) - (a.planDone ?? 0));
+  if (!all.length) return <Empty icon="target" text={tr('planEmpty')} />;
+  return (
+    <>
+      <p className="hint tab-hint">{tr('planHint')}</p>
+      {open.length > 0 && <div className="section-label">{`${tr('planOpen')} · ${open.length}`}</div>}
+      {open.map((r) => (
+        <PlanItem key={r.id} record={r} onOpen={onOpenCard} />
+      ))}
+      {done.length > 0 && (
+        <>
+          <button className="section-label section-toggle" onClick={() => setShowDone(!showDone)} aria-expanded={showDone}>
+            {`${tr('planDoneList')} · ${done.length}`}
+            <Icon name="chevron" size={14} style={{ transform: showDone ? 'rotate(90deg)' : undefined }} />
+          </button>
+          {showDone && done.map((r) => <PlanItem key={r.id} record={r} onOpen={onOpenCard} />)}
+        </>
+      )}
+    </>
+  );
+}
+
+function PlanItem({ record, onOpen }: { record: CardRecord; onOpen: (id: string) => void }) {
+  const tr = useT();
+  const card = CARD_BY_ID[record.id];
+  const area = AREA_BY_ID[card.area];
+  const act = actOf(card, tr.lang);
+  const done = !!record.planDone;
+  return (
+    <div className={`plan ${done ? 'is-done' : ''}`} style={{ '--area': area.color } as CSSProperties}>
+      <button className="plan-main" onClick={() => onOpen(card.id)}>
+        <span className="plan-title">{card[tr.lang].title}</span>
+        {act && (
+          <span className="plan-act">
+            <b>{act.label}:</b> {act.text}
+          </span>
+        )}
+        <span className="row-sub">
+          {area.label[tr.lang]} · {done ? `${tr('planDoneList')} ${ago(record.planDone!, tr.lang)}` : `${tr('planSince')} ${ago(record.planAt!, tr.lang)}`}
+        </span>
+      </button>
+      <div className="plan-btns">
+        {done ? (
+          <button className="pill" onClick={() => setPlanDone(card.id, false)}>
+            {tr('planReopen')}
+          </button>
+        ) : (
+          <button className="pill on-done" onClick={() => setPlanDone(card.id, true)}>
+            <Icon name="check" size={16} />
+            {tr('planMarkDone')}
+          </button>
+        )}
+        <button className="link-btn" onClick={() => togglePlan(card.id, false)}>
+          {tr('planRemove')}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 // ---------------------------------------------------------------- saved and history
 
 function Saved({ onOpenCard }: { onOpenCard: (id: string) => void }) {
@@ -287,7 +383,7 @@ function Saved({ onOpenCard }: { onOpenCard: (id: string) => void }) {
   const dueCount = saved.filter((r) => (reviewDue(r) ?? Infinity) <= now).length;
   return (
     <>
-      <p className="hint review-hint">
+      <p className="hint tab-hint review-hint">
         {tr('reviewHint')}
         {dueCount > 0 && <b> {dueCount === 1 ? tr('reviewDueOne') : tr('reviewDueMany').replace('{n}', String(dueCount))}</b>}
       </p>
@@ -328,7 +424,7 @@ function History({ onOpenCard }: { onOpenCard: (id: string) => void }) {
   if (!anyRead) return <Empty icon="history" text={tr('historyEmpty')} />;
   return (
     <>
-      <div style={{ marginTop: 14 }}>
+      <div className="tab-hint">
         <Segmented<Filter>
           small
           value={filter}
@@ -389,31 +485,42 @@ function featureLabel(key: string, lang: Lang): string | null {
   return null;
 }
 
+const ADJUST_OPTIONS: { value: Adjust; icon: string; key: StringKey }[] = [
+  { value: 'less', icon: '−', key: 'less' },
+  { value: 'normal', icon: '=', key: 'normal' },
+  { value: 'more', icon: '+', key: 'moreOften' },
+  { value: 'hidden', icon: '⊘', key: 'off' },
+];
+
 function TweakRow({ featureKey, title, sub }: { featureKey: string; title: string; sub?: string }) {
   const tr = useT();
   const algo = useStore((s) => s.algo);
   const adjust = useStore((s) => s.prefs.adjust[featureKey] ?? 'normal');
   const level = levelOf(longMultiplier(algo, featureKey) * sessionMultiplier(algo, featureKey));
   return (
-    <div className="tweak">
-      <div className="tweak-head">
-        <span>
-          {title}
-          {sub && <small>{sub}</small>}
-        </span>
-        <span className={`level ${level.cls}`}>{tr(level.key)}</span>
+    <div className={`tweak ${adjust === 'hidden' ? 'off' : ''}`}>
+      <span className="tweak-name">
+        {title}
+        <small>
+          {sub ? `${sub} · ` : ''}
+          <span className={`lvl ${level.cls}`}>{tr(level.key)}</span>
+        </small>
+      </span>
+      <div className="mini-seg" role="radiogroup" aria-label={title}>
+        {ADJUST_OPTIONS.map((o) => (
+          <button
+            key={o.value}
+            role="radio"
+            aria-checked={adjust === o.value}
+            aria-label={tr(o.key)}
+            title={tr(o.key)}
+            className={adjust === o.value ? 'on' : ''}
+            onClick={() => setAdjust(featureKey, o.value)}
+          >
+            {o.icon}
+          </button>
+        ))}
       </div>
-      <Segmented<Adjust>
-        small
-        value={adjust}
-        options={[
-          { value: 'less', label: tr('less') },
-          { value: 'normal', label: tr('normal') },
-          { value: 'more', label: tr('moreOften') },
-          { value: 'hidden', label: tr('off') },
-        ]}
-        onChange={(v) => setAdjust(featureKey, v)}
-      />
     </div>
   );
 }
@@ -453,8 +560,7 @@ function MyAlgorithm({ onOpenTopics, onToast }: { onOpenTopics: () => void; onTo
 
   return (
     <>
-      <h3 className="algo-title">{tr('myAlgo')}</h3>
-      <p className="hint" style={{ marginTop: 4 }}>
+      <p className="hint" style={{ marginTop: 0 }}>
         {tr('algoIntro')}
       </p>
 
@@ -494,7 +600,7 @@ function MyAlgorithm({ onOpenTopics, onToast }: { onOpenTopics: () => void; onTo
       )}
 
       <div className="section-label">{tr('algoSubs')}</div>
-      <p className="hint" style={{ marginTop: 0 }}>
+      <p className="hint" style={{ margin: '0 0 4px' }}>
         {tr('algoSubsHint')}
       </p>
       {shownSubs.length === 0 && <p className="hint">{tr('algoNoSubs')}</p>}

@@ -5,18 +5,19 @@
     "sub": "investment",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Der Zinseszins",
       "body": "10'000 Franken, angelegt mit 7 % Rendite pro Jahr. Nach 10 Jahren hast du knapp 20'000. Nach 20 Jahren knapp 39'000. Nach 30 Jahren rund **76'000**.\n\nDas Geld wächst nicht gleichmässig, sondern immer schneller, weil auch die Erträge wieder Erträge bringen. Die letzten zehn Jahre bringen mehr als die ersten zwanzig zusammen.\n\nDarum ist die wichtigste Zutat beim Investieren nicht viel Geld, sondern **früh anfangen und Zeit**.",
-      "apply": "Rechne mit einem Online-Zinsrechner aus, was aus 200 Franken pro Monat in 30 Jahren werden könnte.",
-      "more": "Die 7 % sind ein Rechenbeispiel, keine Garantie. Breite Aktienmärkte brachten historisch langfristig im Schnitt etwa 5 bis 7 % pro Jahr nach Inflation, mit starken Schwankungen und Jahren mit Verlusten. Wer 300 Franken pro Monat 30 Jahre lang zu 6 % anlegt, zahlt 108'000 Franken ein und hat am Ende rund 300'000.",
+      "act": "Rechne mit einem Online-Zinsrechner aus, was aus 200 Franken pro Monat in 30 Jahren werden könnte.",
+      "deep": "Die 7 % sind ein Rechenbeispiel, keine Garantie. Breite Aktienmärkte brachten historisch langfristig im Schnitt etwa 5 bis 7 % pro Jahr nach Inflation, mit starken Schwankungen und Jahren mit Verlusten. Wer 300 Franken pro Monat 30 Jahre lang zu 6 % anlegt, zahlt 108'000 Franken ein und hat am Ende rund 300'000.",
       "source": "Eigene Berechnung; Dimson, Marsh & Staunton: UBS Global Investment Returns Yearbook"
     },
     "en": {
       "title": "Compound interest",
       "body": "10,000 invested at a 7% annual return. After 10 years you have almost 20,000. After 20 years almost 39,000. After 30 years about **76,000**.\n\nThe money doesn't grow evenly but faster and faster, because the returns earn returns too. The last ten years bring more than the first twenty combined.\n\nThat's why the key ingredient in investing isn't a lot of money but **starting early and time**.",
-      "apply": "Use an online calculator to see what 200 a month could become in 30 years.",
-      "more": "The 7% is an example, not a promise. Broad stock markets have historically returned about 5 to 7% a year after inflation over the long run, with big swings and losing years along the way. Investing 300 a month for 30 years at 6% means paying in 108,000 and ending up with about 300,000.",
+      "act": "Use an online calculator to see what 200 a month could become in 30 years.",
+      "deep": "The 7% is an example, not a promise. Broad stock markets have historically returned about 5 to 7% a year after inflation over the long run, with big swings and losing years along the way. Investing 300 a month for 30 years at 6% means paying in 108,000 and ending up with about 300,000.",
       "source": "Own calculation; Dimson, Marsh & Staunton: UBS Global Investment Returns Yearbook"
     }
   },
@@ -26,18 +27,19 @@
     "sub": "investment",
     "style": "tipp",
     "level": 1,
+    "actKind": "merke",
     "de": {
       "title": "Die 72er-Regel",
       "body": "Wie lange dauert es, bis sich Geld verdoppelt? Teile **72 durch den Zinssatz**.\n\nBei 6 % Rendite: 72 / 6 = 12 Jahre.\nBei 9 %: 8 Jahre.\nBei 2 % auf dem Sparkonto: 36 Jahre.\n\nDie Regel funktioniert auch rückwärts: Bei 3 % Inflation halbiert sich die Kaufkraft deines Geldes in etwa 24 Jahren.",
-      "apply": "Schau nach, wie viel Zins dein Sparkonto bringt, und rechne mit der 72er-Regel.",
-      "more": "Die Regel ist eine Näherung, die für Zinssätze zwischen etwa 4 und 12 % sehr genau ist. Sie wird schon 1494 vom italienischen Mathematiker Luca Pacioli erwähnt, der auch als Vater der doppelten Buchführung gilt.",
+      "act": "72 geteilt durch den Zins ergibt die Jahre bis zur Verdopplung. Prüf damit dein Sparkonto: Bei 0,5 % Zins dauert es 144 Jahre.",
+      "deep": "Die Regel ist eine Näherung, die für Zinssätze zwischen etwa 4 und 12 % sehr genau ist. Sie wird schon 1494 vom italienischen Mathematiker Luca Pacioli erwähnt, der auch als Vater der doppelten Buchführung gilt.",
       "source": "Luca Pacioli: Summa de arithmetica (1494)"
     },
     "en": {
       "title": "The rule of 72",
       "body": "How long until money doubles? Divide **72 by the interest rate**.\n\nAt a 6% return: 72 / 6 = 12 years.\nAt 9%: 8 years.\nAt 2% in a savings account: 36 years.\n\nIt works in reverse too: at 3% inflation, your money's purchasing power halves in about 24 years.",
-      "apply": "Check what interest your savings account pays and apply the rule of 72.",
-      "more": "The rule is an approximation that's very accurate for rates between about 4 and 12%. It's mentioned as early as 1494 by Italian mathematician Luca Pacioli, also known as the father of double-entry bookkeeping.",
+      "act": "72 divided by the interest rate gives the years until your money doubles. Test your savings account: at 0.5% it takes 144 years.",
+      "deep": "The rule is an approximation that's very accurate for rates between about 4 and 12%. It's mentioned as early as 1494 by Italian mathematician Luca Pacioli, also known as the father of double-entry bookkeeping.",
       "source": "Luca Pacioli: Summa de arithmetica (1494)"
     }
   },
@@ -47,18 +49,19 @@
     "sub": "finanzen",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Der stille Dieb",
       "body": "Inflation heisst: Die Preise steigen, und dein Geld kauft jedes Jahr etwas weniger. Bei 2 % Inflation ist die Kaufkraft von 100 Franken nach 35 Jahren **halbiert**.\n\nDas heisst auch: Geld, das nur auf dem Konto liegt und weniger Zins bringt als die Inflation, verliert jedes Jahr still an Wert, obwohl die Zahl gleich bleibt.\n\nGegen Inflation schützen Werte, die mitwachsen können: Unternehmensanteile, Immobilien und vor allem deine eigenen Fähigkeiten und dein Einkommen.",
-      "apply": "Überleg dir, wie viel Geld bei dir länger als ein Jahr ungenutzt auf dem Konto liegt.",
-      "more": "Notenbanken wie die Schweizerische Nationalbank oder die EZB streben Preisstabilität an, die SNB definiert sie als Teuerung unter 2 % pro Jahr. Nach der Corona-Zeit stieg die Inflation in vielen Ländern stark an: im Euroraum 2022 auf über 10 %, in der Schweiz auf rund 3,5 %.",
+      "act": "Wie viel Geld liegt bei dir länger als ein Jahr ungenutzt auf dem Konto? Und wie viel Kaufkraft verliert es dort jedes Jahr?",
+      "deep": "Notenbanken wie die Schweizerische Nationalbank oder die EZB streben Preisstabilität an, die SNB definiert sie als Teuerung unter 2 % pro Jahr. Nach der Corona-Zeit stieg die Inflation in vielen Ländern stark an: im Euroraum 2022 auf über 10 %, in der Schweiz auf rund 3,5 %.",
       "source": "Schweizerische Nationalbank; Eurostat"
     },
     "en": {
       "title": "The silent thief",
       "body": "Inflation means prices rise and your money buys a little less each year. At 2% inflation, the purchasing power of 100 is **halved** after 35 years.\n\nIt also means money that just sits in an account earning less than inflation quietly loses value every year, even though the number stays the same.\n\nWhat protects you are assets that can grow along: company shares, property and above all your own skills and income.",
-      "apply": "Think about how much of your money has been sitting unused in an account for more than a year.",
-      "more": "Central banks like the Swiss National Bank or the ECB aim for price stability; the SNB defines it as inflation below 2% a year. After the pandemic, inflation jumped in many countries: above 10% in the euro area in 2022 and about 3.5% in Switzerland.",
+      "act": "How much of your money has sat unused in your account for over a year? And how much buying power does it lose there every year?",
+      "deep": "Central banks like the Swiss National Bank or the ECB aim for price stability; the SNB defines it as inflation below 2% a year. After the pandemic, inflation jumped in many countries: above 10% in the euro area in 2022 and about 3.5% in Switzerland.",
       "source": "Swiss National Bank; Eurostat"
     }
   },
@@ -68,18 +71,21 @@
     "sub": "sparen",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Bezahl zuerst dich selbst",
       "body": "Die meisten sparen, was am Monatsende übrig bleibt. Meistens bleibt nichts übrig.\n\nDreh die Reihenfolge um: **Am Tag, an dem der Lohn kommt**, geht automatisch ein fester Betrag auf ein Spar- oder Anlagekonto. Mit dem Rest lebst du. Weil du das Geld nie auf dem Alltagskonto siehst, vermisst du es kaum.\n\nAnfangen ist wichtiger als die Höhe. 5 % sind ein guter Start, 10 bis 20 % ein starkes Ziel.\n\nDas ist keine Rechenfrage, sondern Disziplin: Du entscheidest, bevor die Versuchung kommt.",
-      "apply": "Richte heute einen Dauerauftrag ein, der am Zahltag einen festen Betrag weglegt.",
-      "more": "Der Grundsatz stammt aus George Clasons Klassiker \"Der reichste Mann von Babylon\" (1926): Ein Zehntel von allem, was du verdienst, gehört dir. Verhaltensökonomen wie Richard Thaler zeigten später, dass automatische Sparpläne viel besser funktionieren als gute Vorsätze.",
+      "example": "Der Lohn von 5'000 Franken kommt am 25. Am selben Tag gehen per Dauerauftrag 500 auf das Anlagekonto. Du planst den Monat mit 4'500, als gäbe es die 500 gar nicht. Nach zehn Jahren sind das 60'000 Franken, ohne Rendite.",
+      "act": "Richte heute einen Dauerauftrag ein, der am Zahltag einen festen Betrag weglegt.",
+      "deep": "Der Grundsatz stammt aus George Clasons Klassiker \"Der reichste Mann von Babylon\" (1926): Ein Zehntel von allem, was du verdienst, gehört dir. Verhaltensökonomen wie Richard Thaler zeigten später, dass automatische Sparpläne viel besser funktionieren als gute Vorsätze.",
       "source": "George S. Clason: The Richest Man in Babylon (1926); Thaler & Benartzi: Save More Tomorrow (2004)"
     },
     "en": {
       "title": "Pay yourself first",
       "body": "Most people save whatever is left at the end of the month. Usually nothing is left.\n\nReverse the order: **on payday**, a fixed amount automatically goes into a savings or investment account. You live on the rest. Because you never see that money in your everyday account, you hardly miss it.\n\nStarting matters more than the amount. 5% is a good start; 10 to 20% a strong goal.\n\nThis isn't a maths problem, it's discipline: you decide before the temptation shows up.",
-      "apply": "Set up a standing order today that moves a fixed amount on payday.",
-      "more": "The principle comes from George Clason's classic \"The Richest Man in Babylon\" (1926): a part of all you earn is yours to keep, at least a tenth. Behavioural economists like Richard Thaler later showed that automatic savings plans work far better than good intentions.",
+      "example": "Your 5,000 franc salary arrives on the 25th. The same day, a standing order moves 500 to your investment account. You plan the month with 4,500, as if the 500 never existed. After ten years that's 60,000 francs, before returns.",
+      "act": "Set up a standing order today that moves a fixed amount on payday.",
+      "deep": "The principle comes from George Clason's classic \"The Richest Man in Babylon\" (1926): a part of all you earn is yours to keep, at least a tenth. Behavioural economists like Richard Thaler later showed that automatic savings plans work far better than good intentions.",
       "source": "George S. Clason: The Richest Man in Babylon (1926); Thaler & Benartzi: Save More Tomorrow (2004)"
     }
   },
@@ -89,18 +95,19 @@
     "sub": "sparen",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Zuerst der Notgroschen",
       "body": "Bevor du investierst, brauchst du ein Polster für Unerwartetes: Autoreparatur, Zahnarzt, Jobverlust. Faustregel: **drei bis sechs Monatsausgaben** auf einem separaten Konto, jederzeit verfügbar.\n\nDer Notgroschen ist kein Investment, er bringt kaum Zins. Er ist eine Versicherung. Ohne ihn musst du im dümmsten Moment Aktien mit Verlust verkaufen oder Schulden machen. Mit ihm bleibst du ruhig, wenn etwas schiefgeht.\n\nEin Polster ist auch Verantwortung: Wenn etwas passiert, bist du vorbereitet und musst nicht gerettet werden.",
-      "apply": "Rechne aus, wie viel du im Monat zum Leben brauchst, und mal drei: Das ist dein erstes Sparziel.",
-      "more": "Wer einen unsicheren Job hat, selbstständig ist oder eine Familie versorgt, plant eher mit sechs Monaten oder mehr. Wer sehr sicher angestellt ist, kommt mit weniger aus. Wichtig ist, das Geld getrennt vom Alltagskonto zu halten, damit es nicht langsam im Konsum verschwindet.",
+      "act": "Rechne aus, wie viel du im Monat zum Leben brauchst, und mal drei: Das ist dein erstes Sparziel.",
+      "deep": "Wer einen unsicheren Job hat, selbstständig ist oder eine Familie versorgt, plant eher mit sechs Monaten oder mehr. Wer sehr sicher angestellt ist, kommt mit weniger aus. Wichtig ist, das Geld getrennt vom Alltagskonto zu halten, damit es nicht langsam im Konsum verschwindet.",
       "source": "Gängige Empfehlung von Verbraucherzentralen und Finanzplanern"
     },
     "en": {
       "title": "Emergency fund first",
       "body": "Before you invest, you need a cushion for the unexpected: car repairs, the dentist, losing your job. Rule of thumb: **three to six months of expenses** in a separate account, available at any time.\n\nAn emergency fund isn't an investment; it earns little. It's insurance. Without it, you'll have to sell shares at a loss or take on debt at the worst moment. With it, you stay calm when something goes wrong.\n\nA cushion is also responsibility: when something happens, you're prepared and don't need rescuing.",
-      "apply": "Work out what you need per month to live and multiply by three: that's your first savings goal.",
-      "more": "If your job is insecure, you're self-employed or you support a family, plan for six months or more. Very secure employees can get by with less. Keep the money separate from your everyday account so it doesn't slowly disappear into spending.",
+      "act": "Work out what you need per month to live and multiply by three: that's your first savings goal.",
+      "deep": "If your job is insecure, you're self-employed or you support a family, plan for six months or more. Very secure employees can get by with less. Keep the money separate from your everyday account so it doesn't slowly disappear into spending.",
       "source": "Common recommendation of consumer advice centres and financial planners"
     }
   },
@@ -110,6 +117,7 @@
     "sub": "sparen",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Das 50-30-20-Budget",
       "body": "Ein einfaches Budget für alle, die keine Lust auf Excel haben. Teile dein Nettoeinkommen in drei Töpfe:",
@@ -118,8 +126,9 @@
         "**30 % Wünsche**: Ausgang, Reisen, Hobbys, Kleider.",
         "**20 % Zukunft**: Notgroschen, Schulden abbauen, investieren."
       ],
-      "apply": "Schau dir deine Ausgaben vom letzten Monat an und ordne sie grob den drei Töpfen zu.",
-      "more": "Die Regel wurde durch das Buch \"All Your Worth\" (2005) der US-Senatorin Elizabeth Warren und ihrer Tochter Amelia Warren Tyagi bekannt. In teuren Städten liegen die Fixkosten oft über 50 %. Dann ist das Verhältnis ein Richtwert, und die 20 % für die Zukunft sind der Teil, den man am ehesten schützen sollte.",
+      "example": "Netto 5'000 Franken: 2'500 für Miete, Krankenkasse und Grundeinkäufe. 1'500 für Ausgang, Hobbys und Ferien. 1'000 für Notgroschen und Anlagen. Passt die Miete allein schon nicht in die 50 %, weisst du, wo der grösste Hebel liegt.",
+      "act": "Schau dir deine Ausgaben vom letzten Monat an und ordne sie grob den drei Töpfen zu.",
+      "deep": "Die Regel wurde durch das Buch \"All Your Worth\" (2005) der US-Senatorin Elizabeth Warren und ihrer Tochter Amelia Warren Tyagi bekannt. In teuren Städten liegen die Fixkosten oft über 50 %. Dann ist das Verhältnis ein Richtwert, und die 20 % für die Zukunft sind der Teil, den man am ehesten schützen sollte.",
       "source": "Elizabeth Warren & Amelia Warren Tyagi: All Your Worth (2005)"
     },
     "en": {
@@ -130,8 +139,9 @@
         "**30% wants**: going out, travel, hobbies, clothes.",
         "**20% future**: emergency fund, paying off debt, investing."
       ],
-      "apply": "Look at last month's spending and roughly sort it into the three pots.",
-      "more": "The rule became popular through the book \"All Your Worth\" (2005) by US Senator Elizabeth Warren and her daughter Amelia Warren Tyagi. In expensive cities, needs often exceed 50%. Then the split is a guideline, and the 20% for the future is the part most worth protecting.",
+      "example": "Net 5,000 francs: 2,500 for rent, health insurance and groceries. 1,500 for going out, hobbies and holidays. 1,000 for the emergency fund and investing. If rent alone doesn't fit into the 50%, you know where the biggest lever is.",
+      "act": "Look at last month's spending and roughly sort it into the three pots.",
+      "deep": "The rule became popular through the book \"All Your Worth\" (2005) by US Senator Elizabeth Warren and her daughter Amelia Warren Tyagi. In expensive cities, needs often exceed 50%. Then the split is a guideline, and the 20% for the future is the part most worth protecting.",
       "source": "Elizabeth Warren & Amelia Warren Tyagi: All Your Worth (2005)"
     }
   },
@@ -141,18 +151,19 @@
     "sub": "investment",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Warum Profis den Markt kaum schlagen",
       "body": "Fondsmanager sind gut ausgebildet und haben viele Daten. Trotzdem schneiden über 15 Jahre rund **9 von 10** aktiv verwalteten US-Aktienfonds schlechter ab als ihr Vergleichsindex.\n\nDer Hauptgrund: Gebühren. Aktive Fonds kosten oft 1 bis 2 % pro Jahr, ein Indexfonds (ETF) oft unter 0,2 %. Ein ETF kauft einfach den ganzen Markt, zum Beispiel die 500 grössten US-Firmen oder Tausende Firmen weltweit.\n\nDu bekommst damit nie die beste Rendite, aber zuverlässig die des Marktes, und das schlägt die meisten.",
-      "apply": "Schau bei deinem Fonds oder deiner Vorsorgelösung nach, wie hoch die jährlichen Gebühren (TER) sind.",
-      "more": "Die SPIVA-Berichte von S&P Dow Jones Indices vergleichen seit über 20 Jahren aktive Fonds mit ihren Indizes. In Europa sieht es ähnlich aus. John Bogle gründete 1975 mit Vanguard den ersten Indexfonds für Privatanleger. Warren Buffett empfahl in seinem Testament für seine Frau einen günstigen S&P-500-Indexfonds. Das ist Wissen, keine Anlageberatung.",
+      "act": "Schau bei deinem Fonds oder deiner Vorsorgelösung nach, wie hoch die jährlichen Gebühren (TER) sind.",
+      "deep": "Die SPIVA-Berichte von S&P Dow Jones Indices vergleichen seit über 20 Jahren aktive Fonds mit ihren Indizes. In Europa sieht es ähnlich aus. John Bogle gründete 1975 mit Vanguard den ersten Indexfonds für Privatanleger. Warren Buffett empfahl in seinem Testament für seine Frau einen günstigen S&P-500-Indexfonds. Das ist Wissen, keine Anlageberatung.",
       "source": "S&P Dow Jones Indices: SPIVA U.S. Scorecard; Warren Buffett: Brief an die Aktionäre 2013"
     },
     "en": {
       "title": "Why pros rarely beat the market",
       "body": "Fund managers are well trained and have plenty of data. Even so, over 15 years about **9 out of 10** actively managed US equity funds do worse than their benchmark index.\n\nThe main reason: fees. Active funds often cost 1 to 2% a year; an index fund (ETF) often less than 0.2%. An ETF simply buys the whole market, say the 500 largest US companies or thousands of companies worldwide.\n\nYou'll never get the best return, but you'll reliably get the market's, and that beats most.",
-      "apply": "Look up the annual fee (TER) of your fund or pension product.",
-      "more": "The SPIVA reports by S&P Dow Jones Indices have compared active funds with their indices for over 20 years. Europe looks similar. John Bogle launched the first index fund for retail investors with Vanguard in 1975. Warren Buffett's instructions for his wife's inheritance recommend a low-cost S&P 500 index fund. This is knowledge, not investment advice.",
+      "act": "Look up the annual fee (TER) of your fund or pension product.",
+      "deep": "The SPIVA reports by S&P Dow Jones Indices have compared active funds with their indices for over 20 years. Europe looks similar. John Bogle launched the first index fund for retail investors with Vanguard in 1975. Warren Buffett's instructions for his wife's inheritance recommend a low-cost S&P 500 index fund. This is knowledge, not investment advice.",
       "source": "S&P Dow Jones Indices: SPIVA U.S. Scorecard; Warren Buffett: 2013 letter to shareholders"
     }
   },
@@ -162,18 +173,19 @@
     "sub": "investment",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "1,3 % klingen harmlos",
       "body": "Zwei Anleger investieren je 100'000 Franken für 30 Jahre, der Markt bringt 6 % pro Jahr.\n\nAnleger A zahlt 0,2 % Gebühren pro Jahr. Ergebnis: rund **543'000**.\nAnleger B zahlt 1,5 %. Ergebnis: rund **375'000**.\n\nDer Unterschied von 1,3 Prozentpunkten kostet ihn **168'000 Franken**, fast das Doppelte seines Startkapitals. Gebühren sind die einzige Grösse beim Investieren, die du sicher kontrollierst.",
-      "apply": "Rechne die jährlichen Gebühren aller deiner Anlagen zusammen.",
-      "more": "Gebühren wirken wie ein umgekehrter Zinseszins: Sie fallen jedes Jahr auf das ganze Vermögen an, auch auf die Gewinne der Vorjahre. Achte auf die Gesamtkosten: Fondsgebühr (TER), Depotgebühr, Kaufgebühren und Ausgabeaufschläge. Rechenbeispiel ohne Steuern und Inflation.",
+      "act": "Rechne die jährlichen Gebühren aller deiner Anlagen zusammen.",
+      "deep": "Gebühren wirken wie ein umgekehrter Zinseszins: Sie fallen jedes Jahr auf das ganze Vermögen an, auch auf die Gewinne der Vorjahre. Achte auf die Gesamtkosten: Fondsgebühr (TER), Depotgebühr, Kaufgebühren und Ausgabeaufschläge. Rechenbeispiel ohne Steuern und Inflation.",
       "source": "Eigene Berechnung"
     },
     "en": {
       "title": "1.3% sounds harmless",
       "body": "Two investors each put 100,000 to work for 30 years; the market returns 6% a year.\n\nInvestor A pays 0.2% in annual fees. Result: about **543,000**.\nInvestor B pays 1.5%. Result: about **375,000**.\n\nThat 1.3-point difference costs him **168,000**, almost double his starting capital. Fees are the one thing in investing you control for sure.",
-      "apply": "Add up the annual fees on all your investments.",
-      "more": "Fees work like compound interest in reverse: they're charged every year on the whole balance, including past gains. Look at total costs: fund fee (TER), custody fee, trading fees and front-end loads. Example ignores taxes and inflation.",
+      "act": "Add up the annual fees on all your investments.",
+      "deep": "Fees work like compound interest in reverse: they're charged every year on the whole balance, including past gains. Look at total costs: fund fee (TER), custody fee, trading fees and front-end loads. Example ignores taxes and inflation.",
       "source": "Own calculation"
     }
   },
@@ -183,18 +195,19 @@
     "sub": "investment",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Nicht alle Eier in einen Korb",
       "body": "Wer sein ganzes Geld in eine einzige Firma steckt, kann viel gewinnen, aber auch alles verlieren. Selbst grosse Namen können untergehen: die Credit Suisse 2023, Lehman Brothers 2008, Nokia als Handy-Weltmarktführer.\n\n**Diversifikation** heisst: Du verteilst dein Geld auf viele Firmen, Branchen und Länder. Fällt eine, tragen die anderen. Es ist eine der wenigen Regeln beim Investieren, die das Risiko senkt, ohne die erwartete Rendite gleich stark zu senken.",
-      "apply": "Prüf, ob mehr als 10 % deines Vermögens an einer einzigen Firma oder Anlage hängen.",
-      "more": "Harry Markowitz zeigte 1952 mathematisch, dass gestreute Portfolios bei gleicher erwarteter Rendite weniger schwanken. Dafür erhielt er 1990 den Wirtschaftsnobelpreis. Besonders riskant ist es, viel Geld in Aktien des eigenen Arbeitgebers zu halten: Geht die Firma pleite, verlierst du Job und Ersparnisse gleichzeitig.",
+      "act": "Prüf, ob mehr als 10 % deines Vermögens an einer einzigen Firma oder Anlage hängen.",
+      "deep": "Harry Markowitz zeigte 1952 mathematisch, dass gestreute Portfolios bei gleicher erwarteter Rendite weniger schwanken. Dafür erhielt er 1990 den Wirtschaftsnobelpreis. Besonders riskant ist es, viel Geld in Aktien des eigenen Arbeitgebers zu halten: Geht die Firma pleite, verlierst du Job und Ersparnisse gleichzeitig.",
       "source": "Harry Markowitz: Portfolio Selection, Journal of Finance (1952)"
     },
     "en": {
       "title": "Don't put all your eggs in one basket",
       "body": "Put all your money into a single company and you can win big, but you can also lose everything. Even big names can go under: Credit Suisse in 2023, Lehman Brothers in 2008, Nokia as the world's top phone maker.\n\n**Diversification** means spreading your money across many companies, industries and countries. If one falls, the others carry you. It's one of the few rules in investing that lowers risk without lowering expected return by the same amount.",
-      "apply": "Check whether more than 10% of your wealth depends on a single company or investment.",
-      "more": "In 1952 Harry Markowitz showed mathematically that spread-out portfolios fluctuate less for the same expected return, earning him the 1990 Nobel Prize in Economics. It's especially risky to hold a lot of your own employer's stock: if the company fails, you lose your job and your savings at once.",
+      "act": "Check whether more than 10% of your wealth depends on a single company or investment.",
+      "deep": "In 1952 Harry Markowitz showed mathematically that spread-out portfolios fluctuate less for the same expected return, earning him the 1990 Nobel Prize in Economics. It's especially risky to hold a lot of your own employer's stock: if the company fails, you lose your job and your savings at once.",
       "source": "Harry Markowitz: Portfolio Selection, Journal of Finance (1952)"
     }
   },
@@ -204,18 +217,19 @@
     "sub": "investment",
     "style": "fakt",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Zeit im Markt schlägt Timing",
       "body": "Viele wollen warten, bis die Kurse fallen, und dann günstig einsteigen. Klingt clever, funktioniert aber selten.\n\nDie besten Börsentage liegen oft **mitten in Krisen**, kurz nach den schlimmsten. Wer in den letzten 20 Jahren nur die zehn besten Tage im US-Aktienmarkt verpasst hat, hat laut Auswertungen von J.P. Morgan am Ende **ungefähr die Hälfte** weniger als jemand, der einfach investiert blieb.\n\nNiemand weiss, wann diese Tage kommen. Darum gewinnt meist, wer früh einsteigt und drinbleibt.",
-      "apply": "Wenn du regelmässig investierst: Mach es automatisch zum gleichen Datum, egal wie die Kurse stehen.",
-      "more": "J.P. Morgan Asset Management veröffentlicht jährlich eine Auswertung zum S&P 500 über 20 Jahre. Je nach Zeitraum halbierte sich das Endvermögen ungefähr, wenn man die zehn besten Tage verpasste. Sieben der zehn besten Tage lagen dabei innerhalb von zwei Wochen nach einem der zehn schlechtesten. Das ist Wissen, keine Anlageberatung.",
+      "act": "Investiere jeden Monat automatisch zum gleichen Datum, egal wie die Kurse stehen. Schau dir dein Depot höchstens einmal im Quartal an.",
+      "deep": "J.P. Morgan Asset Management veröffentlicht jährlich eine Auswertung zum S&P 500 über 20 Jahre. Je nach Zeitraum halbierte sich das Endvermögen ungefähr, wenn man die zehn besten Tage verpasste. Sieben der zehn besten Tage lagen dabei innerhalb von zwei Wochen nach einem der zehn schlechtesten. Das ist Wissen, keine Anlageberatung.",
       "source": "J.P. Morgan Asset Management: Retirement Insights, Guide to Retirement"
     },
     "en": {
       "title": "Time in the market beats timing",
       "body": "Many people want to wait for prices to drop and then buy cheap. Sounds clever, rarely works.\n\nThe best market days often fall **in the middle of crises**, shortly after the worst ones. According to J.P. Morgan's analyses, someone who missed only the ten best days in the US stock market over the past 20 years ended up with **roughly half** as much as someone who simply stayed invested.\n\nNobody knows when those days will come. That's why those who get in early and stay in usually win.",
-      "apply": "If you invest regularly, automate it on a fixed date, whatever the market is doing.",
-      "more": "J.P. Morgan Asset Management publishes a yearly analysis of the S&P 500 over 20 years. Depending on the period, missing the ten best days roughly halved the final value. Seven of the ten best days came within two weeks of one of the ten worst. This is knowledge, not investment advice.",
+      "act": "Invest automatically on the same date every month, whatever the market does. Look at your portfolio at most once a quarter.",
+      "deep": "J.P. Morgan Asset Management publishes a yearly analysis of the S&P 500 over 20 years. Depending on the period, missing the ten best days roughly halved the final value. Seven of the ten best days came within two weeks of one of the ten worst. This is knowledge, not investment advice.",
       "source": "J.P. Morgan Asset Management: Retirement Insights, Guide to Retirement"
     }
   },
@@ -225,18 +239,19 @@
     "sub": "finanzen",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Schweiz: Die Säule 3a",
       "body": "In der Schweiz kannst du als Angestellter mit Pensionskasse jedes Jahr bis zu **7'258 Franken** (Stand 2025) in die Säule 3a einzahlen und diesen Betrag **vom steuerbaren Einkommen abziehen**. Je nach Kanton und Einkommen sparst du so jedes Jahr mehrere Hundert bis über 2'000 Franken Steuern.\n\nDas Geld ist bis kurz vor der Pensionierung gebunden. Ausnahmen: Wohneigentum, Selbstständigkeit oder definitive Auswanderung. Viele Anbieter erlauben es, das 3a-Geld in Aktienfonds statt auf ein Zinskonto zu legen.",
-      "apply": "Prüf, ob du dieses Jahr schon in die 3a eingezahlt hast. Stichtag ist jeweils Ende Dezember.",
-      "more": "Wer keine Pensionskasse hat (z. B. Selbstständige), darf bis zu 20 % des Erwerbseinkommens einzahlen, maximal 36'288 Franken (Stand 2025). Ein Tipp: Mehrere 3a-Konten eröffnen und sie später gestaffelt in verschiedenen Jahren beziehen, das kann die Steuer beim Bezug senken. Die Beträge werden vom Bund regelmässig angepasst. Das ist Wissen, keine Steuer- oder Anlageberatung.",
+      "act": "Prüf, ob du dieses Jahr schon in die 3a eingezahlt hast. Stichtag ist jeweils Ende Dezember.",
+      "deep": "Wer keine Pensionskasse hat (z. B. Selbstständige), darf bis zu 20 % des Erwerbseinkommens einzahlen, maximal 36'288 Franken (Stand 2025). Ein Tipp: Mehrere 3a-Konten eröffnen und sie später gestaffelt in verschiedenen Jahren beziehen, das kann die Steuer beim Bezug senken. Die Beträge werden vom Bund regelmässig angepasst. Das ist Wissen, keine Steuer- oder Anlageberatung.",
       "source": "Bundesamt für Sozialversicherungen (BSV); Eidgenössische Steuerverwaltung"
     },
     "en": {
       "title": "Switzerland: pillar 3a",
       "body": "In Switzerland, employees with a pension fund can pay up to **CHF 7,258** a year (as of 2025) into pillar 3a and **deduct that amount from taxable income**. Depending on canton and income, that saves several hundred to over CHF 2,000 in taxes every year.\n\nThe money is locked until shortly before retirement. Exceptions: buying a home, becoming self-employed or leaving Switzerland for good. Many providers let you invest 3a money in equity funds instead of an interest account.",
-      "apply": "Check whether you've already paid into your 3a this year. The deadline is the end of December.",
-      "more": "People without a pension fund (e.g. the self-employed) may pay in up to 20% of their earned income, up to CHF 36,288 (as of 2025). A tip: open several 3a accounts and withdraw them in different years later, which can lower the tax on withdrawal. The federal government adjusts the limits regularly. This is knowledge, not tax or investment advice.",
+      "act": "Check whether you've already paid into your 3a this year. The deadline is the end of December.",
+      "deep": "People without a pension fund (e.g. the self-employed) may pay in up to 20% of their earned income, up to CHF 36,288 (as of 2025). A tip: open several 3a accounts and withdraw them in different years later, which can lower the tax on withdrawal. The federal government adjusts the limits regularly. This is knowledge, not tax or investment advice.",
       "source": "Federal Social Insurance Office (FSIO); Swiss Federal Tax Administration"
     }
   },
@@ -246,18 +261,21 @@
     "sub": "vermoegen",
     "style": "tipp",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Die Lohnerhöhungsfalle",
       "body": "Mehr Lohn, grössere Wohnung, besseres Auto, teurere Ferien. Ein paar Jahre später verdienst du doppelt so viel und hast trotzdem nichts auf der Seite.\n\nDas heisst **Lifestyle-Inflation**: Die Ausgaben wachsen automatisch mit dem Einkommen. Ein einfacher Schutz: Wenn du mehr verdienst, geht **mindestens die Hälfte der Erhöhung** direkt in Sparen und Investieren. Du lebst trotzdem besser als vorher, aber dein Vermögen wächst mit.\n\nWer jede Lohnerhöhung sofort ausgibt, arbeitet für sein Image. Wer einen Teil behält, arbeitet für seine Freiheit.",
-      "apply": "Leg jetzt fest, welchen Anteil deiner nächsten Lohnerhöhung du automatisch sparst.",
-      "more": "Der Effekt ist auch als \"hedonische Tretmühle\" bekannt: Menschen gewöhnen sich schnell an einen höheren Lebensstandard, und das Glücksgefühl kehrt auf das alte Niveau zurück. Was bleibt, sind die höheren Fixkosten.",
+      "example": "Du bekommst 400 Franken mehr im Monat. 200 gehen sofort ins Depot, 200 darfst du geniessen. Du lebst spürbar besser und hast nach fünf Jahren trotzdem 12'000 Franken mehr auf der Seite, noch ohne Rendite.",
+      "act": "Leg jetzt die Regel für jede künftige Lohnerhöhung fest: Mindestens die Hälfte geht am gleichen Tag per Dauerauftrag ins Sparen.",
+      "deep": "Der Effekt ist auch als \"hedonische Tretmühle\" bekannt: Menschen gewöhnen sich schnell an einen höheren Lebensstandard, und das Glücksgefühl kehrt auf das alte Niveau zurück. Was bleibt, sind die höheren Fixkosten.",
       "source": "Brickman & Campbell: Hedonic relativism (1971); Morgan Housel: The Psychology of Money (2020)"
     },
     "en": {
       "title": "The pay-rise trap",
       "body": "Higher pay, bigger flat, nicer car, pricier holidays. A few years later you earn twice as much and still have nothing put aside.\n\nThat's **lifestyle inflation**: spending automatically grows with income. A simple safeguard: when you earn more, **at least half of the raise** goes straight into saving and investing. You still live better than before, but your wealth grows too.\n\nSpend every raise and you work for your image. Keep part of it and you work for your freedom.",
-      "apply": "Decide now what share of your next raise you'll save automatically.",
-      "more": "The effect is also known as the \"hedonic treadmill\": people quickly get used to a higher standard of living, and happiness drifts back to its old level. What stays are the higher fixed costs.",
+      "example": "You get a raise of 400 francs a month. 200 go straight into your portfolio, 200 you enjoy. You live noticeably better and still have 12,000 francs more set aside after five years, before any returns.",
+      "act": "Set the rule for every future raise now: at least half goes into savings by standing order on the same day.",
+      "deep": "The effect is also known as the \"hedonic treadmill\": people quickly get used to a higher standard of living, and happiness drifts back to its old level. What stays are the higher fixed costs.",
       "source": "Brickman & Campbell: Hedonic relativism (1971); Morgan Housel: The Psychology of Money (2020)"
     }
   },
@@ -267,18 +285,19 @@
     "sub": "vermoegen",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Der Millionär von nebenan",
       "body": "Wie sieht ein Millionär aus? Sportwagen, Rolex, Villa? Die Forscher Thomas Stanley und William Danko befragten Tausende US-Millionäre und fanden meist das Gegenteil.\n\nViele fuhren gebrauchte Autos, lebten seit Jahrzehnten im gleichen Haus und gaben deutlich weniger aus, als sie verdienten. Wer reich **aussieht**, ist oft nur gut verdienend und hoch verschuldet. Wer reich **ist**, sieht oft unauffällig aus.\n\nVermögen ist das Geld, das du **nicht** ausgibst.\n\nEchter Wohlstand ist leise. Er entsteht aus Disziplin, nicht aus Show.",
-      "apply": "Schieb deine nächste grössere Anschaffung eine Woche auf und kauf sie nur, wenn du sie auch ohne Publikum willst.",
-      "more": "\"The Millionaire Next Door\" erschien 1996 und wurde ein Bestseller. Eine ihrer Faustregeln: Dein erwartetes Nettovermögen ist dein Alter mal dein Jahreseinkommen geteilt durch 10. Wer deutlich darüber liegt, gehört zu den \"Vermögensaufbauern\", wer deutlich darunter liegt, zu den \"Vermögensverbrauchern\".",
+      "act": "Schieb deine nächste grössere Anschaffung eine Woche auf und kauf sie nur, wenn du sie auch ohne Publikum willst.",
+      "deep": "\"The Millionaire Next Door\" erschien 1996 und wurde ein Bestseller. Eine ihrer Faustregeln: Dein erwartetes Nettovermögen ist dein Alter mal dein Jahreseinkommen geteilt durch 10. Wer deutlich darüber liegt, gehört zu den \"Vermögensaufbauern\", wer deutlich darunter liegt, zu den \"Vermögensverbrauchern\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     },
     "en": {
       "title": "The millionaire next door",
       "body": "What does a millionaire look like? Sports car, Rolex, mansion? Researchers Thomas Stanley and William Danko surveyed thousands of US millionaires and mostly found the opposite.\n\nMany drove used cars, had lived in the same house for decades and spent far less than they earned. People who **look** rich are often just high earners with high debt. People who **are** rich often look unremarkable.\n\nWealth is the money you **don't** spend.\n\nReal wealth is quiet. It comes from discipline, not from show.",
-      "apply": "Put off your next big purchase for a week and buy it only if you'd want it with no one watching.",
-      "more": "\"The Millionaire Next Door\" came out in 1996 and became a bestseller. One of its rules of thumb: your expected net worth is your age times your annual income divided by 10. Those well above it are \"prodigious accumulators of wealth\", those well below are \"under accumulators\".",
+      "act": "Put off your next big purchase for a week and buy it only if you'd want it with no one watching.",
+      "deep": "\"The Millionaire Next Door\" came out in 1996 and became a bestseller. One of its rules of thumb: your expected net worth is your age times your annual income divided by 10. Those well above it are \"prodigious accumulators of wealth\", those well below are \"under accumulators\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     }
   },
@@ -288,18 +307,19 @@
     "sub": "vermoegen",
     "style": "tipp",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Sparen hat eine Grenze, Verdienen nicht",
       "body": "Beim Sparen gibt es eine Untergrenze: Irgendwann kannst du nicht mehr weniger ausgeben. Beim Einkommen gibt es nach oben viel mehr Spielraum.\n\nDie beste Investition in jungen Jahren ist oft nicht die Aktie, sondern **du selbst**: eine Fähigkeit, die gefragt und selten ist. Programmieren, Verkaufen, Führen, ein Handwerk auf Meisterniveau, eine Fremdsprache. Jede Stunde, die du in so eine Fähigkeit steckst, kann sich über Jahrzehnte auszahlen.\n\nDie beste Investition bist du selbst: Fähigkeiten, die dir niemand nehmen kann.",
-      "apply": "Schreib eine Fähigkeit auf, die dein Einkommen in fünf Jahren deutlich erhöhen könnte, und plane diese Woche eine Stunde dafür ein.",
-      "more": "Ökonomen sprechen von \"Humankapital\": dem Wert deines Wissens und Könnens. Für die meisten jungen Menschen ist es weit grösser als ihr Finanzvermögen. Wichtig ist beides: Einkommen steigern **und** einen Teil davon sparen, sonst greift die Lohnerhöhungsfalle.",
+      "act": "Wähle eine Fähigkeit, die dein Einkommen in fünf Jahren deutlich erhöhen könnte, und reserviere ihr jede Woche drei feste Stunden.",
+      "deep": "Ökonomen sprechen von \"Humankapital\": dem Wert deines Wissens und Könnens. Für die meisten jungen Menschen ist es weit grösser als ihr Finanzvermögen. Wichtig ist beides: Einkommen steigern **und** einen Teil davon sparen, sonst greift die Lohnerhöhungsfalle.",
       "source": "Gary Becker: Human Capital (1964)"
     },
     "en": {
       "title": "Saving has a floor, earning doesn't",
       "body": "Saving has a lower limit: at some point you can't spend any less. Income has far more room on the upside.\n\nThe best investment when you're young is often not a stock but **yourself**: a skill that's in demand and rare. Coding, selling, leading, a trade at master level, a foreign language. Every hour you put into such a skill can pay off for decades.\n\nThe best investment is you: skills no one can take from you.",
-      "apply": "Write down one skill that could raise your income a lot within five years, and schedule one hour for it this week.",
-      "more": "Economists call it \"human capital\": the value of your knowledge and skills. For most young people it's far larger than their financial wealth. Both matter: raise your income **and** save part of it, or the pay-rise trap kicks in.",
+      "act": "Pick one skill that could raise your income significantly within five years, and reserve three fixed hours a week for it.",
+      "deep": "Economists call it \"human capital\": the value of your knowledge and skills. For most young people it's far larger than their financial wealth. Both matter: raise your income **and** save part of it, or the pay-rise trap kicks in.",
       "source": "Gary Becker: Human Capital (1964)"
     }
   },
@@ -309,18 +329,19 @@
     "sub": "finanzen",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Teure Schulden zuerst weg",
       "body": "Ein Konsumkredit für das neue Auto, ein offener Kreditkartensaldo, ein Leasing für das Handy: Solche Schulden kosten oft **10 % Zins und mehr** pro Jahr.\n\nKeine Geldanlage bringt dir sicher 10 % pro Jahr. Eine Schuld mit 10 % Zins abzuzahlen, ist aber genau das: eine **garantierte Rendite von 10 %**. Darum gilt: Teure Schulden zuerst tilgen, dann investieren.\n\nUnd für die Zukunft: Was du dir nicht leisten kannst, ohne Kredit zu nehmen, kannst du dir meistens nicht leisten.\n\nJeder Kredit für etwas, das du nicht brauchst, verkauft ein Stück deiner Freiheit.",
-      "apply": "Liste alle deine Schulden mit Zinssatz auf und tilge die teuerste zuerst.",
-      "more": "In der Schweiz liegt der gesetzliche Höchstzins für Konsumkredite derzeit bei 10 %, für Kreditkarten-Überziehungen bei 12 %. In vielen anderen Ländern sind Kreditkartenzinsen von 20 % und mehr üblich. Bei Leasing wird der Zins oft im Kleingedruckten als \"effektiver Jahreszins\" angegeben.",
+      "act": "- Liste alle Schulden mit Zinssatz auf.\n- Zahl überall nur das Minimum, ausser bei der teuersten.\n- Alles Übrige geht auf die teuerste, bis sie weg ist.\n- Dann ist die nächste dran.",
+      "deep": "In der Schweiz liegt der gesetzliche Höchstzins für Konsumkredite derzeit bei 10 %, für Kreditkarten-Überziehungen bei 12 %. In vielen anderen Ländern sind Kreditkartenzinsen von 20 % und mehr üblich. Bei Leasing wird der Zins oft im Kleingedruckten als \"effektiver Jahreszins\" angegeben.",
       "source": "Verordnung zum Konsumkreditgesetz (VKKG), Art. 1"
     },
     "en": {
       "title": "Pay off expensive debt first",
       "body": "A consumer loan for the new car, an unpaid credit card balance, a lease on your phone: such debts often cost **10% interest or more** a year.\n\nNo investment reliably earns you 10% a year. Paying off a 10% debt is exactly that: a **guaranteed 10% return**. So: clear expensive debt first, then invest.\n\nAnd going forward: if you can't afford it without a loan, you usually can't afford it.\n\nEvery loan for something you don't need sells off a piece of your freedom.",
-      "apply": "List all your debts with their interest rates and pay off the most expensive one first.",
-      "more": "In Switzerland the legal maximum rate is currently 10% for consumer loans and 12% for credit card overdrafts. In many other countries credit card rates of 20% and more are common. With leases, the rate is often hidden in the small print as the \"effective annual rate\".",
+      "act": "- List all your debts with their interest rates.\n- Pay only the minimum everywhere except on the most expensive one.\n- Everything left goes to the most expensive debt until it's gone.\n- Then move to the next one.",
+      "deep": "In Switzerland the legal maximum rate is currently 10% for consumer loans and 12% for credit card overdrafts. In many other countries credit card rates of 20% and more are common. With leases, the rate is often hidden in the small print as the \"effective annual rate\".",
       "source": "Swiss Consumer Credit Ordinance (VKKG), Art. 1"
     }
   },
@@ -330,13 +351,16 @@
     "sub": "finanzen",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Vermögen aufbauen in 5 Schritten",
-      "body": "Die Reihenfolge ist fast wichtiger als die Details. So bauen die meisten Finanzplaner es auf."
+      "body": "Die Reihenfolge ist fast wichtiger als die Details. So bauen die meisten Finanzplaner es auf.",
+      "act": "Bestimme, auf welcher der fünf Stufen du gerade stehst, und mach den nächsten Schritt diese Woche."
     },
     "en": {
       "title": "Building wealth in 5 steps",
-      "body": "The order matters almost more than the details. This is how most financial planners set it up."
+      "body": "The order matters almost more than the details. This is how most financial planners set it up.",
+      "act": "Figure out which of the five steps you're on and take the next one this week."
     },
     "slides": [
       {
@@ -382,13 +406,11 @@
       {
         "de": {
           "title": "5. Einkommen steigern",
-          "body": "Investiere in Fähigkeiten, verhandle deinen Lohn, bau dir eine zweite Einnahmequelle auf. Und spar mindestens die Hälfte jeder Erhöhung.",
-          "apply": "Bestimme, auf welcher der fünf Stufen du gerade stehst, und mach den nächsten Schritt diese Woche."
+          "body": "Investiere in Fähigkeiten, verhandle deinen Lohn, bau dir eine zweite Einnahmequelle auf. Und spar mindestens die Hälfte jeder Erhöhung."
         },
         "en": {
           "title": "5. Grow your income",
-          "body": "Invest in skills, negotiate your salary, build a second source of income. And save at least half of every raise.",
-          "apply": "Figure out which of the five steps you're on and take the next one this week."
+          "body": "Invest in skills, negotiate your salary, build a second source of income. And save at least half of every raise."
         }
       }
     ]
@@ -399,18 +421,19 @@
     "sub": "business",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Was es wirklich kostet",
       "body": "Jede Entscheidung hat einen versteckten Preis: das, was du **stattdessen** hättest tun können. Ökonomen nennen das **Opportunitätskosten**.\n\nEin Auto für 40'000 Franken kostet nicht nur 40'000. Es kostet auch das, was dieses Geld in 20 Jahren investiert geworden wäre. Ein Abend vor Netflix kostet nicht nur Zeit, sondern das Buch, das Training oder das Gespräch, das nicht stattfand.\n\nWer so denkt, trifft nicht weniger Entscheidungen, aber bewusstere.",
-      "apply": "Schreib bei deiner nächsten grösseren Ausgabe die beste Alternative für dieses Geld daneben und entscheide erst dann.",
-      "more": "Der Begriff geht auf den österreichischen Ökonomen Friedrich von Wieser (1914) zurück. Studien zeigen, dass Menschen Opportunitätskosten oft vergessen, wenn man sie nicht ausdrücklich daran erinnert. Schon der Satz \"Du könntest das Geld auch für etwas anderes ausgeben\" verändert Kaufentscheidungen.",
+      "act": "Schreib bei deiner nächsten grösseren Ausgabe die beste Alternative für dieses Geld daneben und entscheide erst dann.",
+      "deep": "Der Begriff geht auf den österreichischen Ökonomen Friedrich von Wieser (1914) zurück. Studien zeigen, dass Menschen Opportunitätskosten oft vergessen, wenn man sie nicht ausdrücklich daran erinnert. Schon der Satz \"Du könntest das Geld auch für etwas anderes ausgeben\" verändert Kaufentscheidungen.",
       "source": "Frederick et al.: Opportunity cost neglect, Journal of Consumer Research (2009)"
     },
     "en": {
       "title": "What it really costs",
       "body": "Every decision has a hidden price: what you could have done **instead**. Economists call it **opportunity cost**.\n\nA 40,000 car doesn't just cost 40,000. It also costs what that money would have become invested over 20 years. An evening of Netflix doesn't just cost time but the book, the workout or the conversation that didn't happen.\n\nThinking this way doesn't mean making fewer decisions, just more deliberate ones.",
-      "apply": "For your next big expense, write down the best alternative use of that money next to it, and only then decide.",
-      "more": "The term goes back to Austrian economist Friedrich von Wieser (1914). Studies show people often ignore opportunity costs unless reminded. Simply saying \"you could also spend this money on something else\" changes purchase decisions.",
+      "act": "For your next big expense, write down the best alternative use of that money next to it, and only then decide.",
+      "deep": "The term goes back to Austrian economist Friedrich von Wieser (1914). Studies show people often ignore opportunity costs unless reminded. Simply saying \"you could also spend this money on something else\" changes purchase decisions.",
       "source": "Frederick et al.: Opportunity cost neglect, Journal of Consumer Research (2009)"
     }
   },
@@ -420,18 +443,19 @@
     "sub": "business",
     "style": "fakt",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Die Falle der versunkenen Kosten",
       "body": "\"Ich hab schon so viel investiert, jetzt kann ich nicht aufhören.\" Mit diesem Satz werden täglich schlechte Projekte, Aktien, Ausbildungen und Beziehungen weitergeführt.\n\nDas Geld und die Zeit sind aber schon weg, egal wie du dich jetzt entscheidest. Sie heissen **versunkene Kosten**. Die einzige sinnvolle Frage lautet: **Lohnt es sich ab heute**, weiterzumachen?\n\nAufhören ist kein Versagen, wenn die Fakten sich geändert haben. Es ist Klarheit.",
-      "apply": "Denk an ein Projekt, an dem du nur festhältst, weil du schon viel investiert hast. Würdest du heute neu einsteigen?",
-      "more": "Ein bekanntes Beispiel ist die Concorde: Britische und französische Regierungen finanzierten das Überschallflugzeug weiter, obwohl früh klar war, dass es nie profitabel würde. Darum heisst der Effekt im Englischen auch \"Concorde fallacy\". Arkes und Blumer zeigten 1985, dass schon kleine Vorab-Zahlungen Menschen zu schlechten Entscheidungen verleiten.",
+      "act": "Woran hältst du nur fest, weil schon viel drinsteckt? Würdest du heute neu einsteigen, wenn du bei null anfangen würdest?",
+      "deep": "Ein bekanntes Beispiel ist die Concorde: Britische und französische Regierungen finanzierten das Überschallflugzeug weiter, obwohl früh klar war, dass es nie profitabel würde. Darum heisst der Effekt im Englischen auch \"Concorde fallacy\". Arkes und Blumer zeigten 1985, dass schon kleine Vorab-Zahlungen Menschen zu schlechten Entscheidungen verleiten.",
       "source": "Arkes & Blumer: The psychology of sunk cost, Organizational Behavior and Human Decision Processes (1985)"
     },
     "en": {
       "title": "The sunk cost trap",
       "body": "\"I've already invested so much, I can't stop now.\" With that sentence, bad projects, stocks, degrees and relationships are kept alive every day.\n\nBut the money and time are already gone, whatever you decide now. They're called **sunk costs**. The only sensible question is: **is it worth it from today on** to continue?\n\nStopping isn't failure when the facts have changed. It's clarity.",
-      "apply": "Think of a project you're holding on to only because you've invested a lot. Would you start it again today?",
-      "more": "A famous example is Concorde: the British and French governments kept funding the supersonic jet even though it was clear early on it would never be profitable. That's why the effect is also called the \"Concorde fallacy\". Arkes and Blumer showed in 1985 that even small upfront payments lead people into bad decisions.",
+      "act": "What are you holding on to only because a lot has gone into it? Would you start it today if you were starting from zero?",
+      "deep": "A famous example is Concorde: the British and French governments kept funding the supersonic jet even though it was clear early on it would never be profitable. That's why the effect is also called the \"Concorde fallacy\". Arkes and Blumer showed in 1985 that even small upfront payments lead people into bad decisions.",
       "source": "Arkes & Blumer: The psychology of sunk cost, Organizational Behavior and Human Decision Processes (1985)"
     }
   },
@@ -441,18 +465,19 @@
     "sub": "business",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Der stärkste Gewinnhebel",
       "body": "Ein Unternehmen kann seinen Gewinn auf drei Arten steigern: mehr verkaufen, Kosten senken oder den Preis erhöhen.\n\nEine Analyse von McKinsey über rund 2'400 Firmen ergab: **1 % höherer Preis** bei gleicher Menge steigert den Betriebsgewinn im Schnitt um rund **11 %**. Mehr als jeder andere Hebel.\n\nDer Grund: Eine Preiserhöhung landet fast vollständig im Gewinn. Viele Selbstständige und kleine Firmen sind zu billig, weil sie Angst haben, Kunden zu verlieren.",
-      "apply": "Wenn du etwas verkaufst: Überleg, für welche Kunden oder Leistungen du zu günstig bist.",
-      "more": "Die Studie von Michael Marn und Robert Rosiello erschien 1992 in der Harvard Business Review. Die genaue Zahl hängt von der Gewinnmarge ab: Je kleiner die Marge, desto grösser die Wirkung einer Preiserhöhung. Natürlich kann ein höherer Preis auch Kunden kosten, darum lohnt es sich, Preise mit echtem Mehrwert zu begründen.",
+      "act": "Wenn du etwas verkaufst: Überleg, für welche Kunden oder Leistungen du zu günstig bist.",
+      "deep": "Die Studie von Michael Marn und Robert Rosiello erschien 1992 in der Harvard Business Review. Die genaue Zahl hängt von der Gewinnmarge ab: Je kleiner die Marge, desto grösser die Wirkung einer Preiserhöhung. Natürlich kann ein höherer Preis auch Kunden kosten, darum lohnt es sich, Preise mit echtem Mehrwert zu begründen.",
       "source": "Marn & Rosiello: Managing Price, Gaining Profit, Harvard Business Review (1992)"
     },
     "en": {
       "title": "The strongest profit lever",
       "body": "A company can raise profit three ways: sell more, cut costs or raise prices.\n\nA McKinsey analysis of about 2,400 companies found that a **1% higher price** at the same volume lifts operating profit by about **11%** on average. More than any other lever.\n\nThe reason: a price increase lands almost entirely in profit. Many freelancers and small businesses are too cheap because they're afraid of losing customers.",
-      "apply": "If you sell something: think about which customers or services you're underpricing.",
-      "more": "The study by Michael Marn and Robert Rosiello appeared in the Harvard Business Review in 1992. The exact number depends on the profit margin: the thinner the margin, the bigger the effect of a price increase. Of course a higher price can also cost customers, so it pays to back prices with real value.",
+      "act": "If you sell something: think about which customers or services you're underpricing.",
+      "deep": "The study by Michael Marn and Robert Rosiello appeared in the Harvard Business Review in 1992. The exact number depends on the profit margin: the thinner the margin, the bigger the effect of a price increase. Of course a higher price can also cost customers, so it pays to back prices with real value.",
       "source": "Marn & Rosiello: Managing Price, Gaining Profit, Harvard Business Review (1992)"
     }
   },
@@ -462,18 +487,21 @@
     "sub": "sales",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Niemand will einen Bohrer",
       "body": "\"Die Leute wollen keinen 6-Millimeter-Bohrer kaufen. Sie wollen ein 6-Millimeter-Loch.\"\n\nKunden kaufen keine **Merkmale**, sondern **Ergebnisse**. Ein Fitness-Abo verkauft kein Gerät, sondern wie man sich im Spiegel fühlt. Eine Software verkauft keine Funktionen, sondern freie Abende.\n\nGute Verkäufer übersetzen darum jedes Merkmal in einen Nutzen: \"Das hat X, **das heisst für dich** Y.\"",
-      "apply": "Nimm etwas, das du anbietest (auch dich selbst im Bewerbungsgespräch), und formuliere drei Merkmale als Nutzen.",
-      "more": "Der Marketing-Professor Theodore Levitt von der Harvard Business School machte das Bohrer-Zitat bekannt. Er selbst schrieb es einem Werbefachmann namens Leo McGivena zu. Clayton Christensen baute später darauf seine \"Jobs to be done\"-Theorie: Kunden \"heuern\" Produkte an, um eine Aufgabe in ihrem Leben zu erledigen.",
+      "example": "Im Bewerbungsgespräch. Merkmal: \"Ich spreche Italienisch.\" Nutzen: \"Ich kann Ihre Kunden im Tessin direkt betreuen, ohne Übersetzer und ohne Umweg über die Zentrale.\"",
+      "act": "Nimm etwas, das du anbietest (auch dich selbst im Bewerbungsgespräch), und formuliere drei Merkmale als Nutzen.",
+      "deep": "Der Marketing-Professor Theodore Levitt von der Harvard Business School machte das Bohrer-Zitat bekannt. Er selbst schrieb es einem Werbefachmann namens Leo McGivena zu. Clayton Christensen baute später darauf seine \"Jobs to be done\"-Theorie: Kunden \"heuern\" Produkte an, um eine Aufgabe in ihrem Leben zu erledigen.",
       "source": "Theodore Levitt: The Marketing Imagination (1983); Clayton Christensen: Competing Against Luck (2016)"
     },
     "en": {
       "title": "Nobody wants a drill",
       "body": "\"People don't want to buy a quarter-inch drill. They want a quarter-inch hole.\"\n\nCustomers don't buy **features**; they buy **outcomes**. A gym membership doesn't sell equipment but how you feel in the mirror. Software doesn't sell functions but free evenings.\n\nGood salespeople translate every feature into a benefit: \"It has X, **which means for you** Y.\"",
-      "apply": "Take something you offer (even yourself in a job interview) and turn three features into benefits.",
-      "more": "Harvard Business School marketing professor Theodore Levitt popularised the drill quote; he credited it to an advertising man named Leo McGivena. Clayton Christensen later built his \"jobs to be done\" theory on it: customers \"hire\" products to get a job done in their lives.",
+      "example": "In a job interview. Feature: \"I speak Italian.\" Benefit: \"I can look after your customers in Italy directly, no translator, no detour through head office.\"",
+      "act": "Take something you offer (even yourself in a job interview) and turn three features into benefits.",
+      "deep": "Harvard Business School marketing professor Theodore Levitt popularised the drill quote; he credited it to an advertising man named Leo McGivena. Clayton Christensen later built his \"jobs to be done\" theory on it: customers \"hire\" products to get a job done in their lives.",
       "source": "Theodore Levitt: The Marketing Imagination (1983); Clayton Christensen: Competing Against Luck (2016)"
     }
   },
@@ -483,6 +511,7 @@
     "sub": "sales",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Verkaufen durch Fragen",
       "body": "Neil Rackham beobachtete mit seinem Team über 35'000 Verkaufsgespräche. Ergebnis: Die besten Verkäufer bei grossen Abschlüssen redeten weniger und **fragten mehr**, in einer bestimmten Reihenfolge:",
@@ -492,8 +521,8 @@
         "**Auswirkung**: Was kostet Sie das an Zeit, Geld oder Nerven?",
         "**Nutzen**: Was würde es Ihnen bringen, wenn das gelöst wäre?"
       ],
-      "apply": "Stell im nächsten Gespräch, in dem du jemanden überzeugen willst, zuerst eine Auswirkungsfrage.",
-      "more": "Rackham veröffentlichte die Methode 1988 als \"SPIN Selling\" (Situation, Problem, Implication, Need-payoff). Der Kern: Der Kunde soll den Wert einer Lösung selbst aussprechen. Was man selbst sagt, glaubt man mehr als das, was ein Verkäufer behauptet. Bei kleinen Spontankäufen sind die Fragen weniger wichtig.",
+      "act": "Stell im nächsten Gespräch, in dem du jemanden überzeugen willst, zuerst eine Auswirkungsfrage.",
+      "deep": "Rackham veröffentlichte die Methode 1988 als \"SPIN Selling\" (Situation, Problem, Implication, Need-payoff). Der Kern: Der Kunde soll den Wert einer Lösung selbst aussprechen. Was man selbst sagt, glaubt man mehr als das, was ein Verkäufer behauptet. Bei kleinen Spontankäufen sind die Fragen weniger wichtig.",
       "source": "Neil Rackham: SPIN Selling (1988)"
     },
     "en": {
@@ -505,8 +534,8 @@
         "**Implication**: What does that cost you in time, money or stress?",
         "**Need-payoff**: What would it mean for you if that were solved?"
       ],
-      "apply": "In your next conversation where you want to persuade someone, ask an implication question first.",
-      "more": "Rackham published the method in 1988 as \"SPIN Selling\" (Situation, Problem, Implication, Need-payoff). The core idea: let the customer state the value of a solution themselves. People believe what they say more than what a salesperson claims. For small impulse purchases the questions matter less.",
+      "act": "In your next conversation where you want to persuade someone, ask an implication question first.",
+      "deep": "Rackham published the method in 1988 as \"SPIN Selling\" (Situation, Problem, Implication, Need-payoff). The core idea: let the customer state the value of a solution themselves. People believe what they say more than what a salesperson claims. For small impulse purchases the questions matter less.",
       "source": "Neil Rackham: SPIN Selling (1988)"
     }
   },
@@ -516,18 +545,21 @@
     "sub": "sales",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Die erste Zahl gewinnt",
       "body": "Die erste Zahl, die in einem Gespräch fällt, wird zum **Anker**. Alle weiteren Schätzungen und Angebote orientieren sich daran, selbst wenn sie völlig willkürlich war.\n\nIn einem berühmten Versuch drehten Teilnehmer ein Glücksrad, das 10 oder 65 zeigte. Danach schätzten sie den Anteil afrikanischer Staaten in der UNO. Wer 65 gesehen hatte, schätzte deutlich höher.\n\nIn Verhandlungen heisst das: Wer gut vorbereitet ist, sollte oft **zuerst eine Zahl nennen**, ehrgeizig, aber begründbar.",
-      "apply": "Leg dir vor der nächsten Lohn- oder Preisverhandlung eine ehrgeizige, begründete Startzahl zurecht.",
-      "more": "Amos Tversky und Daniel Kahneman veröffentlichten das Glücksrad-Experiment 1974 in \"Science\": Die Gruppe mit 10 schätzte im Mittel 25 %, die Gruppe mit 65 schätzte 45 %. Studien zu Verhandlungen (z. B. Galinsky und Mussweiler, 2001) zeigen, dass das erste Angebot das Ergebnis stark beeinflusst. Wer aber keine Ahnung vom Marktwert hat, sollte zuerst Informationen sammeln.",
+      "example": "Lohngespräch: Du nennst zuerst 98'000 und begründest es mit Marktlöhnen für deine Stelle. Selbst wenn ihr euch bei 92'000 trefft, liegst du über den 88'000, die dein Chef im Kopf hatte.",
+      "act": "Leg dir vor der nächsten Lohn- oder Preisverhandlung eine ehrgeizige, begründete Startzahl zurecht.",
+      "deep": "Amos Tversky und Daniel Kahneman veröffentlichten das Glücksrad-Experiment 1974 in \"Science\": Die Gruppe mit 10 schätzte im Mittel 25 %, die Gruppe mit 65 schätzte 45 %. Studien zu Verhandlungen (z. B. Galinsky und Mussweiler, 2001) zeigen, dass das erste Angebot das Ergebnis stark beeinflusst. Wer aber keine Ahnung vom Marktwert hat, sollte zuerst Informationen sammeln.",
       "source": "Tversky & Kahneman: Judgment under Uncertainty, Science (1974); Galinsky & Mussweiler, JPSP (2001)"
     },
     "en": {
       "title": "The first number wins",
       "body": "The first number mentioned in a conversation becomes the **anchor**. Every later estimate and offer orbits around it, even if it was completely arbitrary.\n\nIn a famous experiment, participants spun a wheel that landed on 10 or 65. Then they estimated the share of African countries in the UN. Those who saw 65 guessed much higher.\n\nIn negotiations this means: if you're well prepared, it often pays to **name a number first**, ambitious but justifiable.",
-      "apply": "Before your next salary or price negotiation, prepare an ambitious, well-reasoned opening number.",
-      "more": "Amos Tversky and Daniel Kahneman published the wheel-of-fortune experiment in \"Science\" in 1974: the group that saw 10 estimated 25% on average, the group that saw 65 estimated 45%. Negotiation studies (e.g. Galinsky and Mussweiler, 2001) show the first offer strongly shapes the outcome. If you have no idea of the market value, though, gather information first.",
+      "example": "Salary talk: you name 98,000 first and back it with market pay for your role. Even if you meet at 92,000, you're above the 88,000 your boss had in mind.",
+      "act": "Before your next salary or price negotiation, prepare an ambitious, well-reasoned opening number.",
+      "deep": "Amos Tversky and Daniel Kahneman published the wheel-of-fortune experiment in \"Science\" in 1974: the group that saw 10 estimated 25% on average, the group that saw 65 estimated 45%. Negotiation studies (e.g. Galinsky and Mussweiler, 2001) show the first offer strongly shapes the outcome. If you have no idea of the market value, though, gather information first.",
       "source": "Tversky & Kahneman: Judgment under Uncertainty, Science (1974); Galinsky & Mussweiler, JPSP (2001)"
     }
   },
@@ -537,18 +569,21 @@
     "sub": "sales",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ein Einwand ist ein gutes Zeichen",
       "body": "\"Zu teuer.\" \"Ich muss es mir überlegen.\" Viele hören das als Absage. Erfahrene Verkäufer hören: **Der andere beschäftigt sich ernsthaft damit.** Wer gar kein Interesse hat, sagt einfach Nein.\n\nDie beste Reaktion ist nicht Verteidigen, sondern Nachfragen: \"Zu teuer im Vergleich wozu?\" \"Was genau möchtest du dir noch überlegen?\" Hinter dem ersten Einwand steckt oft der echte Grund, und den kannst du lösen.",
-      "apply": "Reagiere auf den nächsten Einwand, den du hörst, mit einer ruhigen Rückfrage statt mit einem Gegenargument.",
-      "more": "Verkaufstrainer unterscheiden \"Vorwände\" (höfliche Ausreden) von echten Einwänden. Rückfragen helfen, das eine vom anderen zu trennen. Auch hier gilt: Wer zuhört und das Anliegen des Gegenübers ernst nimmt, wirkt vertrauenswürdiger als jemand, der jeden Einwand sofort wegargumentiert.",
+      "example": "Kunde: \"Zu teuer.\" Du: \"Zu teuer im Vergleich wozu?\" Kunde: \"Der andere macht es für 800.\" Jetzt redet ihr über den Unterschied in der Leistung, nicht mehr über deinen Preis.",
+      "act": "Reagiere auf den nächsten Einwand, den du hörst, mit einer ruhigen Rückfrage statt mit einem Gegenargument.",
+      "deep": "Verkaufstrainer unterscheiden \"Vorwände\" (höfliche Ausreden) von echten Einwänden. Rückfragen helfen, das eine vom anderen zu trennen. Auch hier gilt: Wer zuhört und das Anliegen des Gegenübers ernst nimmt, wirkt vertrauenswürdiger als jemand, der jeden Einwand sofort wegargumentiert.",
       "source": "Chris Voss: Never Split the Difference (2016)"
     },
     "en": {
       "title": "An objection is a good sign",
       "body": "\"Too expensive.\" \"I need to think about it.\" Many people hear that as a no. Experienced salespeople hear: **the other person is seriously considering it.** People with no interest simply say no.\n\nThe best response isn't defending but asking: \"Too expensive compared to what?\" \"What exactly would you like to think over?\" Behind the first objection there's often the real reason, and that one you can solve.",
-      "apply": "Respond to the next objection you hear with a calm question instead of a counterargument.",
-      "more": "Sales trainers distinguish \"stalls\" (polite excuses) from real objections. Questions help tell them apart. Here too, people who listen and take the other side's concern seriously come across as more trustworthy than someone who argues away every objection instantly.",
+      "example": "Customer: \"Too expensive.\" You: \"Too expensive compared to what?\" Customer: \"The other guy does it for 800.\" Now you're talking about the difference in what you deliver, not about your price.",
+      "act": "Respond to the next objection you hear with a calm question instead of a counterargument.",
+      "deep": "Sales trainers distinguish \"stalls\" (polite excuses) from real objections. Questions help tell them apart. Here too, people who listen and take the other side's concern seriously come across as more trustworthy than someone who argues away every objection instantly.",
       "source": "Chris Voss: Never Split the Difference (2016)"
     }
   },
@@ -558,18 +593,19 @@
     "sub": "marketing",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Besetze ein Wort im Kopf",
       "body": "Volvo heisst Sicherheit. Red Bull heisst Energie. Rolex heisst Erfolg. Die stärksten Marken besitzen **ein einziges Wort** im Kopf der Kunden.\n\nAl Ries und Jack Trout nannten das **Positionierung**: Marketing ist kein Kampf der Produkte, sondern der Wahrnehmungen. Wer versucht, für alle alles zu sein, ist für niemanden etwas Besonderes.\n\nDas gilt auch für Menschen: Wofür sollen dich Kollegen, Kunden oder Freunde kennen?",
-      "apply": "Schreib das eine Wort auf, für das du in deinem Beruf bekannt sein willst.",
-      "more": "\"Positioning: The Battle for Your Mind\" erschien 1981 und gilt als Klassiker. Eine Kernidee: Es ist leichter, Erster in einer neuen Kategorie zu sein, als besser in einer bestehenden. Wer war der zweite Mensch auf dem Mond? Kaum jemand weiss es (Buzz Aldrin).",
+      "act": "Für welches eine Wort willst du in deinem Beruf bekannt sein? Schreib es auf und prüf, ob deine letzte Arbeitswoche dazu gepasst hat.",
+      "deep": "\"Positioning: The Battle for Your Mind\" erschien 1981 und gilt als Klassiker. Eine Kernidee: Es ist leichter, Erster in einer neuen Kategorie zu sein, als besser in einer bestehenden. Wer war der zweite Mensch auf dem Mond? Kaum jemand weiss es (Buzz Aldrin).",
       "source": "Al Ries & Jack Trout: Positioning (1981)"
     },
     "en": {
       "title": "Own one word in people's minds",
       "body": "Volvo means safety. Red Bull means energy. Rolex means success. The strongest brands own **a single word** in customers' minds.\n\nAl Ries and Jack Trout called this **positioning**: marketing isn't a battle of products but of perceptions. If you try to be everything to everyone, you're nothing special to anyone.\n\nIt applies to people too: what should colleagues, customers or friends know you for?",
-      "apply": "Write down the one word you want to be known for in your work.",
-      "more": "\"Positioning: The Battle for Your Mind\" came out in 1981 and is a classic. One key idea: it's easier to be first in a new category than better in an existing one. Who was the second man on the moon? Hardly anyone knows (Buzz Aldrin).",
+      "act": "Which one word do you want to be known for at work? Write it down and check whether your last working week matched it.",
+      "deep": "\"Positioning: The Battle for Your Mind\" came out in 1981 and is a classic. One key idea: it's easier to be first in a new category than better in an existing one. Who was the second man on the moon? Hardly anyone knows (Buzz Aldrin).",
       "source": "Al Ries & Jack Trout: Positioning (1981)"
     }
   },
@@ -579,18 +615,19 @@
     "sub": "marketing",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Wir tun, was andere tun",
       "body": "Hotels bitten Gäste, Handtücher mehrmals zu benutzen. Forscher testeten zwei Schilder. Das eine sprach vom Umweltschutz. Das andere sagte: **\"Die Mehrheit der Gäste nutzt ihre Handtücher mehrmals.\"**\n\nDas zweite Schild wirkte deutlich besser: 44 % statt 35 % machten mit. Noch stärker war: \"Die meisten Gäste, **die in diesem Zimmer** übernachtet haben …\"\n\nUnsicher, was richtig ist, schauen wir auf andere. Darum funktionieren Bewertungen, Kundenzahlen und \"Bestseller\"-Etiketten.",
-      "apply": "Wenn du jemanden überzeugen willst, zeig, dass andere wie er es schon tun.",
-      "more": "Robert Cialdini nennt das Prinzip \"soziale Bewährtheit\" (social proof) und zählt es zu seinen sechs Prinzipien der Überzeugung. Die Handtuch-Studie von Goldstein, Cialdini und Griskevicius erschien 2008. Das Prinzip lässt sich auch missbrauchen, etwa mit gefälschten Bewertungen, darum lohnt sich ein kritischer Blick.",
+      "act": "Wenn du jemanden überzeugen willst, zeig, dass andere wie er es schon tun.",
+      "deep": "Robert Cialdini nennt das Prinzip \"soziale Bewährtheit\" (social proof) und zählt es zu seinen sechs Prinzipien der Überzeugung. Die Handtuch-Studie von Goldstein, Cialdini und Griskevicius erschien 2008. Das Prinzip lässt sich auch missbrauchen, etwa mit gefälschten Bewertungen, darum lohnt sich ein kritischer Blick.",
       "source": "Goldstein, Cialdini & Griskevicius: Journal of Consumer Research (2008); Cialdini: Influence (1984)"
     },
     "en": {
       "title": "We do what others do",
       "body": "Hotels ask guests to reuse their towels. Researchers tested two signs. One talked about protecting the environment. The other said: **\"The majority of guests reuse their towels.\"**\n\nThe second sign worked much better: 44% took part instead of 35%. Even stronger was: \"The majority of guests **who stayed in this room** …\"\n\nWhen unsure what's right, we look at others. That's why reviews, customer numbers and \"bestseller\" labels work.",
-      "apply": "When you want to persuade someone, show that people like them already do it.",
-      "more": "Robert Cialdini calls the principle \"social proof\" and counts it among his six principles of persuasion. The towel study by Goldstein, Cialdini and Griskevicius was published in 2008. The principle can be abused too, for example with fake reviews, so a critical eye pays off.",
+      "act": "When you want to persuade someone, show that people like them already do it.",
+      "deep": "Robert Cialdini calls the principle \"social proof\" and counts it among his six principles of persuasion. The towel study by Goldstein, Cialdini and Griskevicius was published in 2008. The principle can be abused too, for example with fake reviews, so a critical eye pays off.",
       "source": "Goldstein, Cialdini & Griskevicius: Journal of Consumer Research (2008); Cialdini: Influence (1984)"
     }
   },
@@ -600,18 +637,19 @@
     "sub": "marketing",
     "style": "fakt",
     "level": 1,
+    "actKind": "achte",
     "de": {
       "title": "Knapp macht begehrt",
       "body": "In einem Versuch sollten Menschen Kekse bewerten. Die einen bekamen ein Glas mit zehn Keksen, die anderen ein Glas mit **nur zwei** derselben Kekse.\n\nDie Kekse aus dem fast leeren Glas wurden als wertvoller und begehrenswerter eingeschätzt. Noch stärker war der Effekt, wenn das Glas vor ihren Augen leerer wurde.\n\nDarum lesen wir überall \"Nur noch 3 verfügbar\" und \"Angebot endet heute\". Gut zu wissen, als Verkäufer und als Käufer.",
-      "apply": "Wenn dich das nächste Mal \"nur noch heute\" zum Kauf drängt, warte bewusst 24 Stunden.",
-      "more": "Stephen Worchel und Kollegen führten das Keks-Experiment 1975 durch. Knappheit ist eines von Cialdinis sechs Prinzipien. Sie wirkt, weil wir Verluste stärker fürchten, als wir Gewinne schätzen (Verlustaversion). Seriöses Marketing nutzt echte Knappheit, unseriöses erfindet sie.",
+      "act": "Achte beim nächsten \"Nur noch heute\" oder \"Nur noch 2 verfügbar\" auf den Druck in dir. Warte bewusst 24 Stunden, bevor du kaufst.",
+      "deep": "Stephen Worchel und Kollegen führten das Keks-Experiment 1975 durch. Knappheit ist eines von Cialdinis sechs Prinzipien. Sie wirkt, weil wir Verluste stärker fürchten, als wir Gewinne schätzen (Verlustaversion). Seriöses Marketing nutzt echte Knappheit, unseriöses erfindet sie.",
       "source": "Worchel, Lee & Adewole: Journal of Personality and Social Psychology (1975)"
     },
     "en": {
       "title": "Scarcity makes it desirable",
       "body": "In an experiment, people were asked to rate cookies. Some got a jar with ten cookies, others a jar with **only two** of the same cookies.\n\nThe cookies from the almost empty jar were rated as more valuable and desirable. The effect was even stronger when the jar emptied before their eyes.\n\nThat's why we see \"Only 3 left\" and \"Offer ends today\" everywhere. Good to know as both seller and buyer.",
-      "apply": "Next time \"today only\" pushes you to buy, deliberately wait 24 hours.",
-      "more": "Stephen Worchel and colleagues ran the cookie experiment in 1975. Scarcity is one of Cialdini's six principles. It works because we fear losses more than we value gains (loss aversion). Honest marketing uses real scarcity; dishonest marketing invents it.",
+      "act": "Next time you see \"today only\" or \"only 2 left\", notice the pressure in you. Wait 24 hours on purpose before you buy.",
+      "deep": "Stephen Worchel and colleagues ran the cookie experiment in 1975. Scarcity is one of Cialdini's six principles. It works because we fear losses more than we value gains (loss aversion). Honest marketing uses real scarcity; dishonest marketing invents it.",
       "source": "Worchel, Lee & Adewole: Journal of Personality and Social Psychology (1975)"
     }
   },
@@ -621,18 +659,19 @@
     "sub": "unternehmertum",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Erst testen, dann bauen",
       "body": "Viele Gründer arbeiten monatelang im Stillen an ihrem perfekten Produkt, starten, und merken dann: Niemand will es.\n\nDer Gegenentwurf heisst **Minimum Viable Product**: die einfachste Version, mit der du testen kannst, ob Menschen wirklich zahlen. Eine Landingpage, ein Prototyp, ein Angebot von Hand erledigt.\n\nDropbox startete mit einem drei Minuten langen Erklärvideo, bevor das Produkt fertig war. Über Nacht trugen sich Zehntausende auf die Warteliste ein.",
-      "apply": "Wenn du eine Geschäftsidee hast: Überlege, wie du sie in einer Woche mit echten Kunden testen könntest.",
-      "more": "Eric Ries machte den Begriff mit \"The Lean Startup\" (2011) bekannt. Der Kreislauf: Bauen, Messen, Lernen, und das so schnell wie möglich. Laut Ries wuchs die Dropbox-Warteliste nach dem Video über Nacht von 5'000 auf 75'000 Personen.",
+      "act": "Wenn du eine Geschäftsidee hast: Überlege, wie du sie in einer Woche mit echten Kunden testen könntest.",
+      "deep": "Eric Ries machte den Begriff mit \"The Lean Startup\" (2011) bekannt. Der Kreislauf: Bauen, Messen, Lernen, und das so schnell wie möglich. Laut Ries wuchs die Dropbox-Warteliste nach dem Video über Nacht von 5'000 auf 75'000 Personen.",
       "source": "Eric Ries: The Lean Startup (2011)"
     },
     "en": {
       "title": "Test first, then build",
       "body": "Many founders spend months quietly building their perfect product, launch, and then realise: nobody wants it.\n\nThe alternative is the **minimum viable product**: the simplest version that lets you test whether people will actually pay. A landing page, a prototype, a service done by hand.\n\nDropbox started with a three-minute explainer video before the product was finished. Overnight, tens of thousands signed up for the waiting list.",
-      "apply": "If you have a business idea, think about how you could test it with real customers within a week.",
-      "more": "Eric Ries popularised the term with \"The Lean Startup\" (2011). The loop: build, measure, learn, as fast as possible. According to Ries, Dropbox's waiting list jumped from 5,000 to 75,000 people overnight after the video.",
+      "act": "If you have a business idea, think about how you could test it with real customers within a week.",
+      "deep": "Eric Ries popularised the term with \"The Lean Startup\" (2011). The loop: build, measure, learn, as fast as possible. According to Ries, Dropbox's waiting list jumped from 5,000 to 75,000 people overnight after the video.",
       "source": "Eric Ries: The Lean Startup (2011)"
     }
   },
@@ -642,18 +681,19 @@
     "sub": "unternehmertum",
     "style": "tipp",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Verliebe dich ins Problem",
       "body": "Gute Geschäftsideen beginnen selten mit \"Ich will eine App bauen\". Sie beginnen mit einem **Problem, das viele Menschen nervt** und für dessen Lösung sie zahlen würden.\n\nWer sich in seine Lösung verliebt, verteidigt sie auch dann noch, wenn niemand sie will. Wer sich ins Problem verliebt, ändert die Lösung so lange, bis sie passt.\n\nDie besten Ideen findest du oft in deinem eigenen Alltag: Was kostet dich Zeit, Geld oder Nerven, und andere auch?",
-      "apply": "Schreib diese Woche jedes Mal auf, wenn dich etwas im Alltag nervt. Am Ende hast du eine Liste möglicher Geschäftsideen.",
-      "more": "Uri Levine, Mitgründer der Navigations-App Waze, machte den Satz zum Titel seines Buches \"Fall in Love with the Problem, Not the Solution\" (2023). Waze entstand aus dem Frust über Staus und wurde 2013 für rund 1,1 Milliarden Dollar an Google verkauft.",
+      "act": "Schreib diese Woche jedes Mal auf, wenn dich etwas im Alltag nervt. Am Ende hast du eine Liste möglicher Geschäftsideen.",
+      "deep": "Uri Levine, Mitgründer der Navigations-App Waze, machte den Satz zum Titel seines Buches \"Fall in Love with the Problem, Not the Solution\" (2023). Waze entstand aus dem Frust über Staus und wurde 2013 für rund 1,1 Milliarden Dollar an Google verkauft.",
       "source": "Uri Levine: Fall in Love with the Problem, Not the Solution (2023)"
     },
     "en": {
       "title": "Fall in love with the problem",
       "body": "Good business ideas rarely start with \"I want to build an app\". They start with a **problem that annoys lots of people** and that they'd pay to have solved.\n\nFall in love with your solution and you'll defend it even when nobody wants it. Fall in love with the problem and you'll keep changing the solution until it fits.\n\nThe best ideas are often in your own daily life: what costs you time, money or nerves, and others too?",
-      "apply": "This week, write down every time something in daily life annoys you. At the end you'll have a list of possible business ideas.",
-      "more": "Uri Levine, co-founder of the navigation app Waze, made the phrase the title of his book \"Fall in Love with the Problem, Not the Solution\" (2023). Waze grew out of frustration with traffic jams and was sold to Google in 2013 for about 1.1 billion dollars.",
+      "act": "This week, write down every time something in daily life annoys you. At the end you'll have a list of possible business ideas.",
+      "deep": "Uri Levine, co-founder of the navigation app Waze, made the phrase the title of his book \"Fall in Love with the Problem, Not the Solution\" (2023). Waze grew out of frustration with traffic jams and was sold to Google in 2013 for about 1.1 billion dollars.",
       "source": "Uri Levine: Fall in Love with the Problem, Not the Solution (2023)"
     }
   },
@@ -663,18 +703,19 @@
     "sub": "unternehmertum",
     "style": "tipp",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Gewinn ist Meinung, Cash ist Fakt",
       "body": "Eine Firma kann auf dem Papier Gewinn machen und trotzdem pleitegehen. Wie? Wenn Kunden spät zahlen, während Löhne, Miete und Lieferanten sofort fällig sind.\n\nViele junge Unternehmen scheitern nicht an schlechten Produkten, sondern daran, dass ihnen **das Geld auf dem Konto ausgeht**, oft mitten im Wachstum. Mehr Aufträge heissen zuerst mehr Ausgaben, die Einnahmen kommen erst später.\n\nDarum: Behalte immer im Blick, wie viel Geld in den nächsten drei Monaten rein- und rausgeht.",
-      "apply": "Wenn du selbstständig bist oder es werden willst: Erstelle eine einfache Liste der erwarteten Ein- und Ausgaben für die nächsten 12 Wochen.",
-      "more": "Der Satz \"Profit is an opinion, cash is a fact\" ist eine bekannte Redewendung unter Finanzchefs. Gewinn hängt von Buchhaltungsregeln ab (wann Umsatz und Kosten verbucht werden), der Kontostand nicht. Gute Gegenmittel: Anzahlungen verlangen, kurze Zahlungsfristen, Rechnungen sofort stellen.",
+      "act": "Wenn du selbstständig bist oder es werden willst: Erstelle eine einfache Liste der erwarteten Ein- und Ausgaben für die nächsten 12 Wochen.",
+      "deep": "Der Satz \"Profit is an opinion, cash is a fact\" ist eine bekannte Redewendung unter Finanzchefs. Gewinn hängt von Buchhaltungsregeln ab (wann Umsatz und Kosten verbucht werden), der Kontostand nicht. Gute Gegenmittel: Anzahlungen verlangen, kurze Zahlungsfristen, Rechnungen sofort stellen.",
       "source": "Gängige Praxis der Unternehmensfinanzierung"
     },
     "en": {
       "title": "Profit is opinion, cash is fact",
       "body": "A company can make a profit on paper and still go bust. How? When customers pay late while wages, rent and suppliers are due right away.\n\nMany young businesses don't fail because of bad products but because **they run out of cash in the bank**, often in the middle of growth. More orders first mean more spending; the income arrives later.\n\nSo always keep an eye on how much money will come in and go out over the next three months.",
-      "apply": "If you're self-employed or want to be: make a simple list of expected income and expenses for the next 12 weeks.",
-      "more": "\"Profit is an opinion, cash is a fact\" is a well-known saying among finance chiefs. Profit depends on accounting rules (when revenue and costs are booked); the bank balance doesn't. Good remedies: ask for deposits, short payment terms, invoice immediately.",
+      "act": "If you're self-employed or want to be: make a simple list of expected income and expenses for the next 12 weeks.",
+      "deep": "\"Profit is an opinion, cash is a fact\" is a well-known saying among finance chiefs. Profit depends on accounting rules (when revenue and costs are booked); the bank balance doesn't. Good remedies: ask for deposits, short payment terms, invoice immediately.",
       "source": "Standard corporate finance practice"
     }
   },
@@ -684,18 +725,19 @@
     "sub": "business",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Einen Kunden halten bringt mehr als einen gewinnen",
       "body": "Viele Firmen jagen ständig neue Kunden und vergessen die, die sie schon haben.\n\nFrederick Reichheld von der Beratungsfirma Bain fand: Wenn ein Unternehmen nur **5 % mehr** seiner Kunden hält, steigt der Gewinn je nach Branche um **25 bis 85 %**. Treue Kunden kaufen mehr, sind günstiger zu betreuen und empfehlen dich weiter.\n\nDas gilt auch im Kleinen: Der Kunde, der Kollege, der Freund, den du schon hast, verdient deine beste Arbeit.",
-      "apply": "Melde dich heute bei einem bestehenden Kunden oder Partner, nur um zu fragen, was du besser machen kannst.",
-      "more": "Reichheld und W. Earl Sasser veröffentlichten die Untersuchung 1990 in der Harvard Business Review. Reichheld entwickelte später den Net Promoter Score, der misst, wie wahrscheinlich Kunden eine Firma weiterempfehlen.",
+      "act": "Melde dich heute bei einem bestehenden Kunden oder Partner, nur um zu fragen, was du besser machen kannst.",
+      "deep": "Reichheld und W. Earl Sasser veröffentlichten die Untersuchung 1990 in der Harvard Business Review. Reichheld entwickelte später den Net Promoter Score, der misst, wie wahrscheinlich Kunden eine Firma weiterempfehlen.",
       "source": "Reichheld & Sasser: Zero defections: quality comes to services. Harvard Business Review, 1990"
     },
     "en": {
       "title": "Keeping a customer beats winning one",
       "body": "Many companies chase new customers constantly and forget the ones they already have.\n\nFrederick Reichheld of the consulting firm Bain found that if a company keeps just **5% more** of its customers, profits rise by **25 to 85%** depending on the industry. Loyal customers buy more, cost less to serve and recommend you.\n\nIt holds on a small scale too: the customer, colleague or friend you already have deserves your best work.",
-      "apply": "Contact an existing customer or partner today just to ask what you could do better.",
-      "more": "Reichheld and W. Earl Sasser published the research in Harvard Business Review in 1990. Reichheld later developed the Net Promoter Score, which measures how likely customers are to recommend a company.",
+      "act": "Contact an existing customer or partner today just to ask what you could do better.",
+      "deep": "Reichheld and W. Earl Sasser published the research in Harvard Business Review in 1990. Reichheld later developed the Net Promoter Score, which measures how likely customers are to recommend a company.",
       "source": "Reichheld & Sasser: Zero defections: quality comes to services. Harvard Business Review, 1990"
     }
   },
@@ -705,18 +747,19 @@
     "sub": "business",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ab wann verdienst du wirklich Geld?",
       "body": "Du verkaufst T-Shirts für 30 Franken, die dich 12 kosten. Pro Stück verdienst du 18. Aber du zahlst jeden Monat 900 Franken für Miete, Website und Versicherung, egal ob du etwas verkaufst.\n\nDie Rechnung: 900 geteilt durch 18 ergibt **50**. Erst ab dem 51. Shirt pro Monat verdienst du Geld. Das ist dein **Break-even-Punkt**.\n\nWer ihn kennt, weiss, wie viel er verkaufen muss, und merkt sofort, ob eine Idee trägt oder nur Arbeit macht.",
-      "apply": "Rechne für ein Projekt, einen Nebenverdienst oder eine Geschäftsidee heute den Break-even aus: Fixkosten geteilt durch Gewinn pro Stück.",
-      "more": "Der Gewinn pro Stück heisst Deckungsbeitrag. Viele kleine Firmen scheitern, weil sie die Fixkosten unterschätzen. Senkst du sie oder erhöhst du den Preis, sinkt der Break-even, und du bist schneller in der Gewinnzone.",
+      "act": "Rechne für ein Projekt, einen Nebenverdienst oder eine Geschäftsidee heute den Break-even aus: Fixkosten geteilt durch Gewinn pro Stück.",
+      "deep": "Der Gewinn pro Stück heisst Deckungsbeitrag. Viele kleine Firmen scheitern, weil sie die Fixkosten unterschätzen. Senkst du sie oder erhöhst du den Preis, sinkt der Break-even, und du bist schneller in der Gewinnzone.",
       "source": "Grundlagen der Betriebswirtschaftslehre; Kostenrechnung"
     },
     "en": {
       "title": "When do you actually make money?",
       "body": "You sell T-shirts for 30 that cost you 12. You make 18 per shirt. But you pay 900 a month for rent, website and insurance, whether you sell anything or not.\n\nThe maths: 900 divided by 18 is **50**. Only from the 51st shirt each month do you make money. That's your **break-even point**.\n\nKnow it and you know how much you need to sell, and you see immediately whether an idea carries itself or is just work.",
-      "apply": "Work out the break-even for a project, side hustle or business idea today: fixed costs divided by profit per unit.",
-      "more": "The profit per unit is called the contribution margin. Many small businesses fail because they underestimate fixed costs. Lower them or raise the price and the break-even falls, so you reach profit sooner.",
+      "act": "Work out the break-even for a project, side hustle or business idea today: fixed costs divided by profit per unit.",
+      "deep": "The profit per unit is called the contribution margin. Many small businesses fail because they underestimate fixed costs. Lower them or raise the price and the break-even falls, so you reach profit sooner.",
       "source": "Basic business economics; cost accounting"
     }
   },
@@ -726,18 +769,19 @@
     "sub": "finanzen",
     "style": "tipp",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Kenne deine wichtigste Zahl",
       "body": "Lohn, Kontostand, Kreditkartenrechnung: Viele schauen auf diese Zahlen. Die wichtigste übersehen sie: dein **Nettovermögen**.\n\nSo rechnest du: Alles, was du besitzt (Konto, Anlagen, Pensionskasse, 3a, Wert von Auto oder Wohnung) **minus** alles, was du schuldest (Kredite, Hypothek, offene Rechnungen).\n\nDie Zahl kann am Anfang klein oder sogar negativ sein. Egal. Entscheidend ist, dass sie Jahr für Jahr **steigt**. Was du misst, kannst du verbessern.",
-      "apply": "Nimm dir heute 20 Minuten und rechne dein Nettovermögen aus. Trag das Datum ein und wiederhole es in drei Monaten.",
-      "more": "Die Autoren von \"The Millionaire Next Door\" fanden, dass Menschen mit hohem Einkommen oft wenig Vermögen haben, weil sie es ausgeben. Das Nettovermögen zeigt, was wirklich übrig bleibt. Viele Finanzplaner empfehlen, es einmal pro Quartal zu berechnen.",
+      "act": "Nimm dir heute 20 Minuten und rechne dein Nettovermögen aus. Trag das Datum ein und wiederhole es in drei Monaten.",
+      "deep": "Die Autoren von \"The Millionaire Next Door\" fanden, dass Menschen mit hohem Einkommen oft wenig Vermögen haben, weil sie es ausgeben. Das Nettovermögen zeigt, was wirklich übrig bleibt. Viele Finanzplaner empfehlen, es einmal pro Quartal zu berechnen.",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     },
     "en": {
       "title": "Know your most important number",
       "body": "Salary, account balance, credit card bill: many people watch these numbers. They miss the most important one: your **net worth**.\n\nHere's how: everything you own (accounts, investments, pension, the value of your car or home) **minus** everything you owe (loans, mortgage, unpaid bills).\n\nThe number may be small or even negative at first. Doesn't matter. What matters is that it **rises** year after year. What you measure, you can improve.",
-      "apply": "Take 20 minutes today and work out your net worth. Note the date and repeat in three months.",
-      "more": "The authors of \"The Millionaire Next Door\" found that many high earners have little wealth because they spend it. Net worth shows what's really left. Many financial planners recommend calculating it every quarter.",
+      "act": "Take 20 minutes today and work out your net worth. Note the date and repeat in three months.",
+      "deep": "The authors of \"The Millionaire Next Door\" found that many high earners have little wealth because they spend it. Net worth shows what's really left. Many financial planners recommend calculating it every quarter.",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     }
   },
@@ -747,18 +791,19 @@
     "sub": "marketing",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Ramsch für 129 Dollar, mit Geschichte für 3'612",
       "body": "Zwei Journalisten kauften 2009 auf Flohmärkten 100 wertlose Gegenstände, für insgesamt rund **129 Dollar**: eine Plastikfigur, einen Löffel, eine Schneekugel.\n\nDann liessen sie Schriftsteller zu jedem Gegenstand eine kurze, erfundene **Geschichte** schreiben und verkauften alles auf eBay, mit Geschichte statt Beschreibung. Erlös: über **3'600 Dollar**.\n\nMenschen kaufen nicht nur Dinge. Sie kaufen Bedeutung. Wer erzählen kann, verkauft besser.",
-      "apply": "Beschreib das nächste Produkt, das du verkaufst oder präsentierst, mit einer kurzen Geschichte statt mit einer Liste von Merkmalen.",
-      "more": "Das Projekt hiess \"Significant Objects\" und stammte von Rob Walker und Joshua Glenn. Die Käufer wussten, dass die Geschichten erfunden waren. Trotzdem zahlten sie im Schnitt fast das 28-Fache.",
+      "act": "Beschreib das nächste Produkt, das du verkaufst oder präsentierst, mit einer kurzen Geschichte statt mit einer Liste von Merkmalen.",
+      "deep": "Das Projekt hiess \"Significant Objects\" und stammte von Rob Walker und Joshua Glenn. Die Käufer wussten, dass die Geschichten erfunden waren. Trotzdem zahlten sie im Schnitt fast das 28-Fache.",
       "source": "Rob Walker & Joshua Glenn: Significant Objects (2012)"
     },
     "en": {
       "title": "Junk for $129, with stories for $3,612",
       "body": "In 2009 two journalists bought 100 worthless items at flea markets for about **$129** in total: a plastic figure, a spoon, a snow globe.\n\nThen they had writers create a short, made-up **story** for each item and sold everything on eBay, with the story instead of a description. Revenue: more than **$3,600**.\n\nPeople don't just buy things. They buy meaning. If you can tell a story, you sell better.",
-      "apply": "Describe the next product you sell or present with a short story instead of a list of features.",
-      "more": "The project was called \"Significant Objects\" and was run by Rob Walker and Joshua Glenn. Buyers knew the stories were fiction. Still they paid almost 28 times as much on average.",
+      "act": "Describe the next product you sell or present with a short story instead of a list of features.",
+      "deep": "The project was called \"Significant Objects\" and was run by Rob Walker and Joshua Glenn. Buyers knew the stories were fiction. Still they paid almost 28 times as much on average.",
       "source": "Rob Walker & Joshua Glenn: Significant Objects (2012)"
     }
   },
@@ -768,18 +813,19 @@
     "sub": "marketing",
     "style": "fakt",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Das Angebot, das niemand kaufen soll",
       "body": "Die Zeitschrift The Economist bot drei Abos an: **Online** für 59 Dollar, **Print** für 125 Dollar, **Print und Online** für 125 Dollar.\n\nNiemand wählt nur Print. Wozu ist es da? Der Verhaltensökonom Dan Ariely testete es mit Studenten. Mit allen drei Optionen wählten **84 %** das teure Kombi-Abo. Ohne die Print-Option wählten **68 %** das günstige Online-Abo.\n\nDas mittlere Angebot ist ein **Lockvogel**: Es soll nicht verkauft werden. Es lässt das teure wie ein Schnäppchen aussehen.",
-      "apply": "Achte beim nächsten Kauf mit drei Preisstufen darauf: Welche Option ist nur da, damit eine andere gut aussieht?",
-      "more": "Fachleute nennen das den Ködereffekt (Decoy-Effekt). Er wird bei Kinokarten, Kaffeegrössen und Software-Abos eingesetzt. Wer ihn kennt, kann ihn bei eigenen Angeboten nutzen und sich als Käufer davor schützen.",
+      "act": "Achte beim nächsten Kauf mit drei Preisstufen darauf: Welche Option ist nur da, damit eine andere gut aussieht?",
+      "deep": "Fachleute nennen das den Ködereffekt (Decoy-Effekt). Er wird bei Kinokarten, Kaffeegrössen und Software-Abos eingesetzt. Wer ihn kennt, kann ihn bei eigenen Angeboten nutzen und sich als Käufer davor schützen.",
       "source": "Dan Ariely: Denken hilft zwar, nützt aber nichts (Predictably Irrational, 2008), Kapitel 1"
     },
     "en": {
       "title": "The offer nobody is meant to buy",
       "body": "The Economist offered three subscriptions: **web** for $59, **print** for $125, **print and web** for $125.\n\nNobody chooses print alone. So why is it there? Behavioural economist Dan Ariely tested it with students. With all three options, **84%** chose the expensive combo. Without the print option, **68%** chose the cheap web subscription.\n\nThe middle offer is a **decoy**: it's not meant to sell. It makes the expensive one look like a bargain.",
-      "apply": "Next time you buy something with three price tiers, ask: which option is only there to make another look good?",
-      "more": "Experts call this the decoy effect. It's used for cinema tickets, coffee sizes and software subscriptions. Know it and you can use it in your own offers and protect yourself as a buyer.",
+      "act": "Next time you buy something with three price tiers, ask: which option is only there to make another look good?",
+      "deep": "Experts call this the decoy effect. It's used for cinema tickets, coffee sizes and software subscriptions. Know it and you can use it in your own offers and protect yourself as a buyer.",
       "source": "Dan Ariely: Predictably Irrational (2008), Chapter 1"
     }
   },
@@ -789,18 +835,19 @@
     "sub": "sales",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die stärkste Werbung ist eine Empfehlung",
       "body": "Werbung im Fernsehen, auf Instagram, auf Plakaten: Wir sehen täglich Hunderte Anzeigen und glauben den meisten nicht.\n\nIn einer weltweiten Umfrage von Nielsen mit über **30'000 Menschen** vertrauten **83 %** Empfehlungen von Menschen, die sie kennen. Das war die glaubwürdigste aller Werbeformen, vor jeder bezahlten Anzeige.\n\nDarum ist dein bester Verkäufer ein zufriedener Kunde. Und der einfachste Weg zu Empfehlungen ist, aussergewöhnlich gute Arbeit zu machen und dann **danach zu fragen**.",
-      "apply": "Frag heute einen zufriedenen Kunden, Arbeitgeber oder Kollegen, ob er dich weiterempfehlen würde, und wem.",
-      "more": "Die Studie heisst \"Global Trust in Advertising\" und erschien 2015. Online-Bewertungen anderer Kunden lagen bei 66 %. Viele Verkäufer fragen nie nach Empfehlungen, obwohl die meisten zufriedenen Kunden gern helfen würden.",
+      "act": "Frag heute einen zufriedenen Kunden, Arbeitgeber oder Kollegen, ob er dich weiterempfehlen würde, und wem.",
+      "deep": "Die Studie heisst \"Global Trust in Advertising\" und erschien 2015. Online-Bewertungen anderer Kunden lagen bei 66 %. Viele Verkäufer fragen nie nach Empfehlungen, obwohl die meisten zufriedenen Kunden gern helfen würden.",
       "source": "Nielsen: Global Trust in Advertising Report, 2015"
     },
     "en": {
       "title": "The strongest advertising is a recommendation",
       "body": "TV ads, Instagram, billboards: we see hundreds of ads every day and believe most of them not at all.\n\nIn a global Nielsen survey of more than **30,000 people**, **83%** trusted recommendations from people they know. That was the most credible form of advertising, ahead of every paid ad.\n\nSo your best salesperson is a satisfied customer. And the easiest way to get recommendations is to do exceptional work and then **ask for them**.",
-      "apply": "Ask a satisfied customer, employer or colleague today whether they'd recommend you, and to whom.",
-      "more": "The study is called \"Global Trust in Advertising\" and came out in 2015. Online reviews by other customers were at 66%. Many salespeople never ask for referrals, even though most satisfied customers would gladly help.",
+      "act": "Ask a satisfied customer, employer or colleague today whether they'd recommend you, and to whom.",
+      "deep": "The study is called \"Global Trust in Advertising\" and came out in 2015. Online reviews by other customers were at 66%. Many salespeople never ask for referrals, even though most satisfied customers would gladly help.",
       "source": "Nielsen: Global Trust in Advertising Report, 2015"
     }
   },
@@ -810,18 +857,19 @@
     "sub": "sparen",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Die 48-Stunden-Regel gegen Impulskäufe",
       "body": "Du siehst etwas, willst es sofort und hast es mit zwei Klicks gekauft. Eine Woche später liegt es in der Ecke.\n\nImpulskäufe leben vom Moment. Darum hilft eine einfache Regel: Alles, was nicht geplant ist und mehr als einen bestimmten Betrag kostet, zum Beispiel 50 Franken, kommt auf eine Liste. Du kaufst es frühestens nach **48 Stunden**.\n\nDie meisten Wünsche sind dann verschwunden. Was bleibt, war wirklich gewollt. Das ist keine Askese. Es ist Selbstbeherrschung mit dem Portemonnaie.",
-      "apply": "Leg heute eine Wunschliste an und setz dir eine Grenze, ab der jeder spontane Kauf 48 Stunden warten muss.",
-      "more": "Online-Shops arbeiten mit Countdown-Uhren und \"nur noch 2 auf Lager\", damit du keine Zeit zum Nachdenken hast. Wartezeit bricht genau diesen Druck. Viele Finanzberater empfehlen bei grossen Käufen sogar 30 Tage.",
+      "act": "- Leg im Handy eine Wunschliste an.\n- Setz eine Grenze, zum Beispiel 50 Franken.\n- Alles darüber, was nicht geplant war, kommt auf die Liste.\n- Kaufen frühestens nach 48 Stunden.",
+      "deep": "Online-Shops arbeiten mit Countdown-Uhren und \"nur noch 2 auf Lager\", damit du keine Zeit zum Nachdenken hast. Wartezeit bricht genau diesen Druck. Viele Finanzberater empfehlen bei grossen Käufen sogar 30 Tage.",
       "source": "Gängige Empfehlung von Budgetberatungen; Thaler & Sunstein: Nudge (2008)"
     },
     "en": {
       "title": "The 48-hour rule against impulse buys",
       "body": "You see something, want it right away and buy it in two clicks. A week later it's lying in a corner.\n\nImpulse buys live off the moment. So a simple rule helps: anything unplanned costing more than a set amount, say 50, goes on a list. You buy it **48 hours** later at the earliest.\n\nMost wants have vanished by then. What's left was truly wanted. That's not asceticism. It's self-control with your wallet.",
-      "apply": "Start a wish list today and set a limit above which every spontaneous purchase has to wait 48 hours.",
-      "more": "Online shops use countdown timers and \"only 2 left in stock\" so you don't have time to think. Waiting breaks exactly that pressure. Many financial advisers even suggest 30 days for big purchases.",
+      "act": "- Start a wish list on your phone.\n- Set a limit, for example 50 francs.\n- Anything above it that wasn't planned goes on the list.\n- Buy it after 48 hours at the earliest.",
+      "deep": "Online shops use countdown timers and \"only 2 left in stock\" so you don't have time to think. Waiting breaks exactly that pressure. Many financial advisers even suggest 30 days for big purchases.",
       "source": "Common budgeting advice; Thaler & Sunstein: Nudge (2008)"
     }
   },
@@ -831,18 +879,19 @@
     "sub": "sparen",
     "style": "tipp",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Spar zuerst bei den grossen Posten",
       "body": "Viele Spartipps drehen sich um den Kaffee unterwegs. Der macht im Jahr vielleicht ein paar Hundert Franken aus. Das ist nicht nichts. Aber die grossen Hebel liegen woanders.\n\nIn der Schweiz geben Haushalte laut Bundesamt für Statistik vom Bruttoeinkommen am meisten für **Wohnen und Energie** aus, dahinter folgen Verkehr und Essen. Wer bei der Miete, beim Auto oder bei Versicherungen klug entscheidet, spart oft mehr als mit hundert kleinen Verzichten.\n\nDenk zuerst über die drei grössten Ausgaben nach. Dann über den Kaffee.",
-      "apply": "Liste heute deine drei grössten monatlichen Ausgaben auf und prüfe für jede, ob es eine günstigere, gleich gute Lösung gibt.",
-      "more": "Bei Versicherungen, Handyabos und Krankenkassen-Franchisen lohnt sich ein jährlicher Vergleich. Beim Auto zählen nicht nur der Kaufpreis, sondern auch Wertverlust, Versicherung, Unterhalt und Parkplatz.",
+      "act": "Liste heute deine drei grössten monatlichen Ausgaben auf und prüfe für jede, ob es eine günstigere, gleich gute Lösung gibt.",
+      "deep": "Bei Versicherungen, Handyabos und Krankenkassen-Franchisen lohnt sich ein jährlicher Vergleich. Beim Auto zählen nicht nur der Kaufpreis, sondern auch Wertverlust, Versicherung, Unterhalt und Parkplatz.",
       "source": "Bundesamt für Statistik: Haushaltsbudgeterhebung (HABE)"
     },
     "en": {
       "title": "Save on the big items first",
       "body": "Many saving tips focus on your takeaway coffee. That might add up to a few hundred a year. Not nothing. But the big levers are elsewhere.\n\nIn most households the largest share of income goes to **housing and energy**, followed by transport and food. Smart choices on rent, the car or insurance often save more than a hundred small sacrifices.\n\nThink about your three biggest expenses first. Then about the coffee.",
-      "apply": "List your three biggest monthly expenses today and check each for a cheaper, equally good option.",
-      "more": "Insurance, phone plans and health insurance deductibles are worth comparing every year. With a car, count not only the purchase price but also depreciation, insurance, maintenance and parking.",
+      "act": "List your three biggest monthly expenses today and check each for a cheaper, equally good option.",
+      "deep": "Insurance, phone plans and health insurance deductibles are worth comparing every year. With a car, count not only the purchase price but also depreciation, insurance, maintenance and parking.",
       "source": "Swiss Federal Statistical Office: Household Budget Survey (HBS)"
     }
   },
@@ -852,18 +901,19 @@
     "sub": "unternehmertum",
     "style": "fakt",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Erfolgreiche Gründer sind im Schnitt 45",
       "body": "Man stellt sich den typischen Gründer als 22-Jährigen im Kapuzenpulli vor, der das Studium abgebrochen hat.\n\nForscher werteten Daten von **2,7 Millionen** Firmengründern in den USA aus. Das Durchschnittsalter bei der Gründung der am schnellsten wachsenden Firmen lag bei **45 Jahren**. Ein 50-Jähriger hatte fast doppelt so hohe Chancen auf einen grossen Erfolg wie ein 30-Jähriger.\n\nErfahrung, Netzwerk und Branchenwissen zählen. Es ist nie zu spät, etwas aufzubauen.",
-      "apply": "Schreib auf, welches Wissen aus deinem Beruf oder Leben eine Firma oder ein Nebenprojekt tragen könnte.",
-      "more": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim und Javier Miranda veröffentlichten die Studie 2020. Besonders erfolgreich waren Gründer mit mehrjähriger Erfahrung in derselben Branche.",
+      "act": "Welches Wissen aus deinem Beruf oder Leben könnte eine Firma oder ein Nebenprojekt tragen? Schreib drei Punkte auf.",
+      "deep": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim und Javier Miranda veröffentlichten die Studie 2020. Besonders erfolgreich waren Gründer mit mehrjähriger Erfahrung in derselben Branche.",
       "source": "Azoulay, Jones, Kim & Miranda: Age and high-growth entrepreneurship. American Economic Review: Insights, 2020"
     },
     "en": {
       "title": "Successful founders are 45 on average",
       "body": "We picture the typical founder as a 22-year-old college dropout in a hoodie.\n\nResearchers analysed data on **2.7 million** company founders in the US. The average age at founding of the fastest-growing companies was **45**. A 50-year-old was almost twice as likely to build a big success as a 30-year-old.\n\nExperience, network and industry knowledge count. It's never too late to build something.",
-      "apply": "Write down what knowledge from your job or life could carry a company or side project.",
-      "more": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim and Javier Miranda published the study in 2020. Founders with several years of experience in the same industry were especially successful.",
+      "act": "What knowledge from your job or life could carry a business or side project? Write down three points.",
+      "deep": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim and Javier Miranda published the study in 2020. Founders with several years of experience in the same industry were especially successful.",
       "source": "Azoulay, Jones, Kim & Miranda: Age and high-growth entrepreneurship. American Economic Review: Insights, 2020"
     }
   },
@@ -873,18 +923,19 @@
     "sub": "unternehmertum",
     "style": "fakt",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Gründe nebenbei, bevor du kündigst",
       "body": "Alles auf eine Karte setzen, Job kündigen, Brücken abbrechen: Das klingt mutig. Die Daten sprechen für einen anderen Weg.\n\nZwei Forscher untersuchten Tausende Gründer in den USA. Wer seine Firma zuerst **neben dem Job** aufbaute und erst später ganz einstieg, hatte ein um rund **33 % geringeres Risiko**, zu scheitern, als wer sofort alles hinwarf.\n\nMut heisst nicht, unvernünftig zu sein. Teste deine Idee, während dein Lohn die Miete zahlt. Spring, wenn der Boden trägt.",
-      "apply": "Plane diese Woche zwei feste Abende, an denen du an deinem Nebenprojekt arbeitest.",
-      "more": "Joseph Raffiee und Jie Feng veröffentlichten die Studie 2014. Auch bekannte Firmen begannen nebenbei: Steve Wozniak arbeitete noch bei Hewlett-Packard, als er den ersten Apple-Computer baute.",
+      "act": "Plane diese Woche zwei feste Abende, an denen du an deinem Nebenprojekt arbeitest.",
+      "deep": "Joseph Raffiee und Jie Feng veröffentlichten die Studie 2014. Auch bekannte Firmen begannen nebenbei: Steve Wozniak arbeitete noch bei Hewlett-Packard, als er den ersten Apple-Computer baute.",
       "source": "Raffiee & Feng: Should I quit my day job? Academy of Management Journal, 2014"
     },
     "en": {
       "title": "Start on the side before you quit",
       "body": "Going all in, quitting your job, burning bridges: it sounds brave. The data point to another path.\n\nTwo researchers studied thousands of founders in the US. Those who first built their company **alongside their job** and went full-time later had about a **33% lower risk** of failing than those who quit right away.\n\nCourage doesn't mean being reckless. Test your idea while your salary pays the rent. Jump when the ground holds.",
-      "apply": "Plan two fixed evenings this week to work on your side project.",
-      "more": "Joseph Raffiee and Jie Feng published the study in 2014. Well-known companies started on the side too: Steve Wozniak was still working at Hewlett-Packard when he built the first Apple computer.",
+      "act": "Plan two fixed evenings this week to work on your side project.",
+      "deep": "Joseph Raffiee and Jie Feng published the study in 2014. Well-known companies started on the side too: Steve Wozniak was still working at Hewlett-Packard when he built the first Apple computer.",
       "source": "Raffiee & Feng: Should I quit my day job? Academy of Management Journal, 2014"
     }
   },
@@ -894,18 +945,19 @@
     "sub": "vermoegen",
     "style": "fakt",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Macht Geld glücklich? Die ehrliche Antwort",
       "body": "Lange hiess es: Ab rund 75'000 Dollar Jahreseinkommen macht mehr Geld nicht glücklicher. Neuere Daten zeigen ein genaueres Bild.\n\nIn einer Studie mit über **33'000** berufstätigen Amerikanern stieg das Wohlbefinden mit dem Einkommen **weiter an**, auch über 75'000 Dollar hinaus. Nur bei den unglücklichsten Menschen flachte es ab: Ihnen half mehr Geld ab einem Punkt nicht mehr.\n\nGeld kann vieles leichter machen. Aber es repariert keine Beziehungen, keinen fehlenden Sinn und keinen Charakter.",
-      "apply": "Schreib auf, wofür du mehr Geld willst. Prüfe dann: Löst Geld dieses Problem wirklich, oder nur scheinbar?",
-      "more": "Matthew Killingsworth und Daniel Kahneman, die zuvor zu unterschiedlichen Ergebnissen gekommen waren, werteten die Daten 2023 gemeinsam neu aus. Sie fanden: Für die meisten steigt das Glück mit dem Einkommen, für eine unglückliche Minderheit stösst es an eine Grenze.",
+      "act": "Wofür willst du mehr Geld? Schreib es auf und prüf jeden Punkt: Löst Geld dieses Problem wirklich, oder nur scheinbar?",
+      "deep": "Matthew Killingsworth und Daniel Kahneman, die zuvor zu unterschiedlichen Ergebnissen gekommen waren, werteten die Daten 2023 gemeinsam neu aus. Sie fanden: Für die meisten steigt das Glück mit dem Einkommen, für eine unglückliche Minderheit stösst es an eine Grenze.",
       "source": "Killingsworth, Kahneman & Mellers: Income and emotional well-being: A conflict resolved. PNAS, 2023"
     },
     "en": {
       "title": "Does money make you happy? The honest answer",
       "body": "For a long time the line was: beyond about $75,000 a year, more money doesn't make you happier. Newer data show a sharper picture.\n\nIn a study of more than **33,000** working Americans, well-being **kept rising** with income, including beyond $75,000. Only among the unhappiest people did it level off: past a point, more money didn't help them.\n\nMoney can make many things easier. But it doesn't fix relationships, a lack of purpose or character.",
-      "apply": "Write down what you want more money for. Then check: does money really solve that problem, or only seem to?",
-      "more": "Matthew Killingsworth and Daniel Kahneman, who had earlier reached different results, re-analysed the data together in 2023. They found that for most people happiness rises with income, while for an unhappy minority it hits a ceiling.",
+      "act": "What do you want more money for? Write it down and check each point: does money really solve this, or only seem to?",
+      "deep": "Matthew Killingsworth and Daniel Kahneman, who had earlier reached different results, re-analysed the data together in 2023. They found that for most people happiness rises with income, while for an unhappy minority it hits a ceiling.",
       "source": "Killingsworth, Kahneman & Mellers: Income and emotional well-being: A conflict resolved. PNAS, 2023"
     }
   },
@@ -915,18 +967,19 @@
     "sub": "vermoegen",
     "style": "geschichte",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Was Joseph Heller hatte und der Milliardär nicht",
       "body": "Die Schriftsteller **Kurt Vonnegut** und **Joseph Heller** waren auf einer Party bei einem Milliardär auf Long Island. Vonnegut fragte: \"Joe, wie fühlt es sich an, dass unser Gastgeber gestern vielleicht mehr verdient hat als dein Buch in seiner ganzen Geschichte?\"\n\nHeller antwortete: \"Ich habe etwas, das er nie haben wird.\" \"Was denn?\" \"Das Wissen, dass ich **genug** habe.\"\n\nWer nie weiss, wann es genug ist, wird nie reich, egal wie viel er besitzt. Er bleibt immer hungrig, immer im Vergleich.",
-      "apply": "Schreib auf, was für dich \"genug\" bedeutet: welches Einkommen, welches Vermögen, welcher Lebensstil. Ohne diese Zahl gibt es kein Ziel.",
-      "more": "Vonnegut erzählte die Geschichte in einem kurzen Gedicht, das 2005 im Magazin The New Yorker erschien. John Bogle, Gründer der Fondsgesellschaft Vanguard, machte sie zum Ausgangspunkt seines Buches \"Enough\".",
+      "act": "Was bedeutet für dich \"genug\": welches Einkommen, welches Vermögen, welcher Lebensstil? Ohne diese Zahl gibt es kein Ziel, nur ein Rennen.",
+      "deep": "Vonnegut erzählte die Geschichte in einem kurzen Gedicht, das 2005 im Magazin The New Yorker erschien. John Bogle, Gründer der Fondsgesellschaft Vanguard, machte sie zum Ausgangspunkt seines Buches \"Enough\".",
       "source": "Kurt Vonnegut: Joe Heller. The New Yorker, 2005; John C. Bogle: Enough (2009)"
     },
     "en": {
       "title": "What Joseph Heller had that the billionaire didn't",
       "body": "Writers **Kurt Vonnegut** and **Joseph Heller** were at a party given by a billionaire on Long Island. Vonnegut asked: \"Joe, how does it feel that our host may have made more money yesterday than your novel has earned in its entire history?\"\n\nHeller replied: \"I've got something he can never have.\" \"What on earth could that be?\" \"The knowledge that I've got **enough**.\"\n\nWhoever never knows when it's enough will never be rich, however much he owns. He stays hungry, always comparing.",
-      "apply": "Write down what \"enough\" means for you: what income, what wealth, what lifestyle. Without that number there's no goal.",
-      "more": "Vonnegut told the story in a short poem published in The New Yorker in 2005. John Bogle, founder of the fund company Vanguard, made it the starting point of his book \"Enough\".",
+      "act": "What does \"enough\" mean to you: what income, what wealth, what lifestyle? Without that number there is no goal, only a race.",
+      "deep": "Vonnegut told the story in a short poem published in The New Yorker in 2005. John Bogle, founder of the fund company Vanguard, made it the starting point of his book \"Enough\".",
       "source": "Kurt Vonnegut: Joe Heller. The New Yorker, 2005; John C. Bogle: Enough (2009)"
     }
   },
@@ -936,18 +989,19 @@
     "sub": "millionaer-mindset",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die meisten Millionäre haben nichts geerbt",
       "body": "Man denkt, Millionäre hätten reiche Eltern, Glück oder einen Top-Job. Eine der grössten Umfragen unter Millionären zeigt etwas anderes.\n\nDie US-Firma Ramsey Solutions befragte über **10'000 Millionäre**. **79 %** hatten überhaupt nichts geerbt. Nur rund ein Drittel hatte im Schnitt über 100'000 Dollar pro Jahr verdient, ein Drittel nie auch nur ein Jahr lang sechsstellig.\n\nWas sie gemeinsam hatten: Sie investierten regelmässig, lebten unter ihren Verhältnissen und blieben jahrzehntelang dran. Das Millionärs-Mindset ist kein Glück. Es ist Geduld mit System.",
-      "apply": "Richte heute einen Dauerauftrag ein, der jeden Monat automatisch einen festen Betrag in einen Indexfonds oder deine Säule 3a überweist.",
-      "more": "Die Studie heisst \"National Study of Millionaires\" und wurde von Chris Hogan im Buch \"Everyday Millionaires\" (2019) ausgewertet. Die meisten Befragten waren Ingenieure, Buchhalter, Lehrer, Manager und Anwälte, also normale Berufe.",
+      "act": "Richte heute einen Dauerauftrag ein, der jeden Monat automatisch einen festen Betrag in einen Indexfonds oder deine Säule 3a überweist.",
+      "deep": "Die Studie heisst \"National Study of Millionaires\" und wurde von Chris Hogan im Buch \"Everyday Millionaires\" (2019) ausgewertet. Die meisten Befragten waren Ingenieure, Buchhalter, Lehrer, Manager und Anwälte, also normale Berufe.",
       "source": "Chris Hogan: Everyday Millionaires (2019); Ramsey Solutions: National Study of Millionaires"
     },
     "en": {
       "title": "Most millionaires inherited nothing",
       "body": "We assume millionaires had rich parents, luck or a top job. One of the largest surveys of millionaires shows something else.\n\nUS firm Ramsey Solutions surveyed more than **10,000 millionaires**. **79%** had inherited nothing at all. Only about a third had averaged over $100,000 a year in income, and a third never earned six figures in any single year.\n\nWhat they shared: they invested regularly, lived below their means and stuck with it for decades. The millionaire mindset isn't luck. It's patience with a system.",
-      "apply": "Set up a standing order today that automatically moves a fixed amount into an index fund or retirement account every month.",
-      "more": "The study is called the \"National Study of Millionaires\" and was analysed by Chris Hogan in the book \"Everyday Millionaires\" (2019). Most respondents were engineers, accountants, teachers, managers and lawyers: ordinary jobs.",
+      "act": "Set up a standing order today that automatically moves a fixed amount into an index fund or retirement account every month.",
+      "deep": "The study is called the \"National Study of Millionaires\" and was analysed by Chris Hogan in the book \"Everyday Millionaires\" (2019). Most respondents were engineers, accountants, teachers, managers and lawyers: ordinary jobs.",
       "source": "Chris Hogan: Everyday Millionaires (2019); Ramsey Solutions: National Study of Millionaires"
     }
   },
@@ -957,18 +1011,19 @@
     "sub": "millionaer-mindset",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Der Hausmeister mit acht Millionen",
       "body": "Ronald Read arbeitete 25 Jahre an einer Tankstelle und 17 Jahre als Hausmeister in einem Kaufhaus in Vermont. Er fuhr einen alten Toyota und hackte sein eigenes Brennholz.\n\nAls er 2014 mit 92 Jahren starb, staunte die ganze Stadt: Er hinterliess über **8 Millionen Dollar**. 6 Millionen davon vermachte er dem örtlichen Spital und der Bibliothek.\n\nKein Erbe, kein Lottogewinn. Er sparte, kaufte solide Aktien und behielt sie jahrzehntelang. Geduld schlug Talent.",
-      "apply": "Schreib auf, welche drei Gewohnheiten von Ronald Read du übernehmen kannst, und starte heute mit einer.",
-      "more": "Morgan Housel eröffnet sein Buch \"The Psychology of Money\" mit Reads Geschichte. Er stellt ihr einen Harvard-Absolventen und Spitzenmanager gegenüber, der trotz Millionengehalt bankrottging, weil er auf Pump lebte.",
+      "act": "Schreib auf, welche drei Gewohnheiten von Ronald Read du übernehmen kannst, und starte heute mit einer.",
+      "deep": "Morgan Housel eröffnet sein Buch \"The Psychology of Money\" mit Reads Geschichte. Er stellt ihr einen Harvard-Absolventen und Spitzenmanager gegenüber, der trotz Millionengehalt bankrottging, weil er auf Pump lebte.",
       "source": "Morgan Housel: The Psychology of Money (2020), Kapitel 1; The Wall Street Journal, 2015"
     },
     "en": {
       "title": "The janitor with eight million",
       "body": "Ronald Read worked 25 years at a petrol station and 17 years as a janitor at a department store in Vermont. He drove an old Toyota and chopped his own firewood.\n\nWhen he died in 2014 at 92, the whole town was stunned: he left more than **$8 million**. He gave $6 million of it to the local hospital and library.\n\nNo inheritance, no lottery win. He saved, bought solid shares and held them for decades. Patience beat talent.",
-      "apply": "Write down three of Ronald Read's habits you could adopt, and start one today.",
-      "more": "Morgan Housel opens \"The Psychology of Money\" with Read's story. He contrasts it with a Harvard graduate and top executive who went bankrupt despite a million-dollar salary because he lived on credit.",
+      "act": "Write down three of Ronald Read's habits you could adopt, and start one today.",
+      "deep": "Morgan Housel opens \"The Psychology of Money\" with Read's story. He contrasts it with a Harvard graduate and top executive who went bankrupt despite a million-dollar salary because he lived on credit.",
       "source": "Morgan Housel: The Psychology of Money (2020), Chapter 1; The Wall Street Journal, 2015"
     }
   },
@@ -978,18 +1033,19 @@
     "sub": "millionaer-mindset",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Reichtum ist das, was du nicht siehst",
       "body": "Du siehst jemanden im 100'000-Franken-Auto. Das Einzige, was du sicher weisst: Er hat jetzt 100'000 Franken weniger. Oder Schulden.\n\nMorgan Housel unterscheidet zwei Dinge. **Reich** sein heisst, ein hohes Einkommen zu haben und es zu zeigen. **Vermögend** sein heisst, Geld zu besitzen, das man **nicht** ausgegeben hat.\n\nVermögen ist das Auto, das du nicht gekauft hast, die Uhr, die du nicht trägst. Darum ist es unsichtbar. Wer Eindruck machen will, wird selten vermögend.",
-      "apply": "Verzichte diese Woche auf eine Ausgabe, die nur Eindruck machen soll, und überweis den Betrag direkt auf dein Sparkonto.",
-      "more": "Housel schrieb als Parkhauswächter in einem Hotel in Los Angeles, dass er die Fahrer von Ferraris bewunderte. Später merkte er: Er hatte nie an die Fahrer gedacht, nur an sich selbst im Ferrari. Niemand bewundert dich für dein Auto so sehr, wie du glaubst.",
+      "act": "Verzichte diese Woche auf eine Ausgabe, die nur Eindruck machen soll, und überweis den Betrag direkt auf dein Sparkonto.",
+      "deep": "Housel schrieb als Parkhauswächter in einem Hotel in Los Angeles, dass er die Fahrer von Ferraris bewunderte. Später merkte er: Er hatte nie an die Fahrer gedacht, nur an sich selbst im Ferrari. Niemand bewundert dich für dein Auto so sehr, wie du glaubst.",
       "source": "Morgan Housel: The Psychology of Money (2020), Kapitel 8 und 9"
     },
     "en": {
       "title": "Wealth is what you don't see",
       "body": "You see someone in a 100,000 car. The only thing you know for sure: they now have 100,000 less. Or debt.\n\nMorgan Housel separates two things. Being **rich** means having a high income and showing it. Being **wealthy** means having money you **didn't** spend.\n\nWealth is the car you didn't buy, the watch you don't wear. That's why it's invisible. People who want to impress rarely become wealthy.",
-      "apply": "Skip one purchase this week that's only meant to impress, and transfer the amount straight to your savings.",
-      "more": "Housel worked as a valet at a hotel in Los Angeles and admired the Ferrari drivers. Later he realised he never thought about the drivers, only about himself in the Ferrari. No one admires you for your car as much as you think.",
+      "act": "Skip one purchase this week that's only meant to impress, and transfer the amount straight to your savings.",
+      "deep": "Housel worked as a valet at a hotel in Los Angeles and admired the Ferrari drivers. Later he realised he never thought about the drivers, only about himself in the Ferrari. No one admires you for your car as much as you think.",
       "source": "Morgan Housel: The Psychology of Money (2020), Chapters 8 and 9"
     }
   },
@@ -999,18 +1055,19 @@
     "sub": "millionaer-mindset",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Die höchste Rendite von Geld ist Freiheit",
       "body": "Wozu eigentlich Vermögen? Für Luxus? Morgan Housel gibt eine andere Antwort: Die höchste Dividende, die Geld zahlt, ist die Fähigkeit, **über deine Zeit selbst zu bestimmen**.\n\nEin Notgroschen heisst, dass du einen schlechten Job kündigen kannst. Ersparnisse heissen, dass du eine Chance packen kannst, ohne zu zittern. Vermögen heisst, dass du Nein sagen kannst.\n\nMillionäre im Kopf sparen nicht für Dinge. Sie sparen für Freiheit.",
-      "apply": "Rechne aus, wie viele Monate du ohne Einkommen leben könntest, und setz dir ein Ziel, diese Zahl dieses Jahr um einen Monat zu erhöhen.",
-      "more": "Housel verweist auf Forschung des Psychologen Angus Campbell: Das stärkste Merkmal für Wohlbefinden war nicht Einkommen oder Wohnort, sondern das Gefühl, das eigene Leben unter Kontrolle zu haben.",
+      "act": "Rechne aus, wie viele Monate du ohne Einkommen leben könntest, und setz dir ein Ziel, diese Zahl dieses Jahr um einen Monat zu erhöhen.",
+      "deep": "Housel verweist auf Forschung des Psychologen Angus Campbell: Das stärkste Merkmal für Wohlbefinden war nicht Einkommen oder Wohnort, sondern das Gefühl, das eigene Leben unter Kontrolle zu haben.",
       "source": "Morgan Housel: The Psychology of Money (2020), Kapitel 7; Angus Campbell: The Sense of Well-Being in America (1981)"
     },
     "en": {
       "title": "The highest return on money is freedom",
       "body": "What's wealth actually for? Luxury? Morgan Housel gives another answer: the highest dividend money pays is the ability to **control your own time**.\n\nAn emergency fund means you can quit a bad job. Savings mean you can seize a chance without shaking. Wealth means you can say no.\n\nPeople with a millionaire mindset don't save for things. They save for freedom.",
-      "apply": "Work out how many months you could live without income, and set a goal to add one month to that this year.",
-      "more": "Housel points to research by psychologist Angus Campbell: the strongest predictor of well-being wasn't income or where people lived, but the sense of being in control of one's own life.",
+      "act": "Work out how many months you could live without income, and set a goal to add one month to that this year.",
+      "deep": "Housel points to research by psychologist Angus Campbell: the strongest predictor of well-being wasn't income or where people lived, but the sense of being in control of one's own life.",
       "source": "Morgan Housel: The Psychology of Money (2020), Chapter 7; Angus Campbell: The Sense of Well-Being in America (1981)"
     }
   },
@@ -1020,18 +1077,19 @@
     "sub": "millionaer-mindset",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Deine Sparquote schlägt die perfekte Anlage",
       "body": "Viele suchen die Aktie, die sich verzehnfacht. Am Anfang zählt etwas anderes viel mehr: **wie viel** du sparst.\n\nRechne mit 10 Jahren und 7 % Rendite pro Jahr:\n\n500 Franken im Monat ergeben rund **86'500**. Schaffst du 8 % statt 7 %, sind es **91'500**. Sparst du aber **1000** Franken bei 7 %, sind es **173'000**.\n\nDie Rendite kannst du kaum kontrollieren. Was du sparst, schon. Mehr verdienen und weniger ausgeben bringt dich weiter als jeder Börsentipp.",
-      "apply": "Erhöhe heute deinen monatlichen Sparbetrag, auch wenn es nur 50 Franken sind.",
-      "more": "Gerechnet mit monatlicher Einzahlung und monatlicher Verzinsung, ohne Gebühren und Steuern. Über 30 Jahre wird die Rendite wichtiger: Dann macht 1 % mehr einen grossen Unterschied. Darum zuerst die Sparquote, dann tiefe Gebühren, dann Geduld.",
+      "act": "Erhöhe heute deinen monatlichen Sparbetrag, auch wenn es nur 50 Franken sind.",
+      "deep": "Gerechnet mit monatlicher Einzahlung und monatlicher Verzinsung, ohne Gebühren und Steuern. Über 30 Jahre wird die Rendite wichtiger: Dann macht 1 % mehr einen grossen Unterschied. Darum zuerst die Sparquote, dann tiefe Gebühren, dann Geduld.",
       "source": "Eigene Berechnung (Sparplan-Formel)"
     },
     "en": {
       "title": "Your savings rate beats the perfect investment",
       "body": "Many people hunt for the stock that will go up tenfold. At the start, something else matters far more: **how much** you save.\n\nTake 10 years at 7% a year:\n\n500 a month grows to about **86,500**. Manage 8% instead of 7% and it's **91,500**. But save **1,000** at 7% and it's **173,000**.\n\nYou can barely control returns. What you save, you can. Earning more and spending less gets you further than any stock tip.",
-      "apply": "Raise your monthly savings amount today, even if it's only by 50.",
-      "more": "Calculated with monthly contributions and monthly compounding, before fees and taxes. Over 30 years returns matter more: then 1% extra makes a big difference. So: savings rate first, then low fees, then patience.",
+      "act": "Raise your monthly savings amount today, even if it's only by 50.",
+      "deep": "Calculated with monthly contributions and monthly compounding, before fees and taxes. Over 30 years returns matter more: then 1% extra makes a big difference. So: savings rate first, then low fees, then patience.",
       "source": "Own calculation (savings plan formula)"
     }
   },
@@ -1041,6 +1099,7 @@
     "sub": "millionaer-mindset",
     "style": "zitat",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Mit vermieteter Zeit wirst du nicht reich",
       "quote": {
@@ -1049,8 +1108,8 @@
         "source": "How to Get Rich, 2018"
       },
       "body": "Ein Stundenlohn hat eine Decke: Du hast nur 24 Stunden. Wer Vermögen aufbauen will, braucht etwas, das auch dann Wert schafft, wenn er schläft.\n\nDer Investor Naval Ravikant nennt es **Eigentum**: Anteile an einer Firma, ein eigenes Produkt, Aktien, Inhalte, Software. Dinge, die einmal gebaut sind und dann für dich arbeiten.\n\nDas heisst nicht, dass Arbeit schlecht ist. Dein Job ist das Fundament. Aber das Millionärs-Mindset fragt: Was baue ich nebenbei, das mir gehört?",
-      "apply": "Schreib eine Sache auf, die du besitzen statt nur dafür bezahlt werden könntest, und arbeite diese Woche eine Stunde daran.",
-      "more": "Naval Ravikant ist Mitgründer der Plattform AngelList und früher Investor in Firmen wie Twitter und Uber. Seine Gedanken zum Reichwerden veröffentlichte er 2018 als Serie von Kurznachrichten. Später fasste Eric Jorgenson sie im Buch \"The Almanack of Naval Ravikant\" zusammen.",
+      "act": "Schreib eine Sache auf, die du besitzen statt nur dafür bezahlt werden könntest, und arbeite diese Woche eine Stunde daran.",
+      "deep": "Naval Ravikant ist Mitgründer der Plattform AngelList und früher Investor in Firmen wie Twitter und Uber. Seine Gedanken zum Reichwerden veröffentlichte er 2018 als Serie von Kurznachrichten. Später fasste Eric Jorgenson sie im Buch \"The Almanack of Naval Ravikant\" zusammen.",
       "source": "Naval Ravikant: How to Get Rich (2018); Eric Jorgenson: The Almanack of Naval Ravikant (2020)"
     },
     "en": {
@@ -1061,8 +1120,8 @@
         "source": "How to Get Rich, 2018"
       },
       "body": "An hourly wage has a ceiling: you only have 24 hours. To build wealth you need something that creates value even while you sleep.\n\nInvestor Naval Ravikant calls it **ownership**: a stake in a company, your own product, shares, content, software. Things that, once built, work for you.\n\nThat doesn't mean work is bad. Your job is the foundation. But the millionaire mindset asks: what am I building on the side that belongs to me?",
-      "apply": "Write down one thing you could own instead of just being paid for, and spend one hour on it this week.",
-      "more": "Naval Ravikant co-founded AngelList and was an early investor in companies such as Twitter and Uber. He published his thoughts on getting rich in 2018 as a series of short posts. Eric Jorgenson later collected them in \"The Almanack of Naval Ravikant\".",
+      "act": "Write down one thing you could own instead of just being paid for, and spend one hour on it this week.",
+      "deep": "Naval Ravikant co-founded AngelList and was an early investor in companies such as Twitter and Uber. He published his thoughts on getting rich in 2018 as a series of short posts. Eric Jorgenson later collected them in \"The Almanack of Naval Ravikant\".",
       "source": "Naval Ravikant: How to Get Rich (2018); Eric Jorgenson: The Almanack of Naval Ravikant (2020)"
     }
   },
@@ -1072,18 +1131,19 @@
     "sub": "milliardaer-mindset",
     "style": "geschichte",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Bezos dachte in Jahrzehnten, nicht in Quartalen",
       "body": "1997, Amazon verkaufte noch fast nur Bücher und machte Verluste. In seinem ersten Brief an die Aktionäre schrieb Jeff Bezos einen Satz, den er jedes Jahr wieder beilegte: **Es geht nur um die lange Frist.**\n\nWährend andere Firmen den nächsten Quartalsgewinn jagten, investierte Amazon jahrelang alles in Kunden, Lager und Technik. Viele Analysten lachten. Heute gehört Amazon zu den wertvollsten Firmen der Welt.\n\nMilliardäre denken nicht schneller. Sie denken weiter.",
-      "apply": "Schreib auf, wo du in zehn Jahren stehen willst, und streich heute eine Gewohnheit, die nur dem kurzfristigen Gefühl dient.",
-      "more": "Bezos sagte später in einem Interview: Wenn alles, was du tust, sich in drei Jahren auszahlen muss, konkurrierst du mit vielen. Wenn du bereit bist, sieben Jahre zu warten, konkurrierst du nur noch mit wenigen.",
+      "act": "Schreib auf, wo du in zehn Jahren stehen willst, und streich heute eine Gewohnheit, die nur dem kurzfristigen Gefühl dient.",
+      "deep": "Bezos sagte später in einem Interview: Wenn alles, was du tust, sich in drei Jahren auszahlen muss, konkurrierst du mit vielen. Wenn du bereit bist, sieben Jahre zu warten, konkurrierst du nur noch mit wenigen.",
       "source": "Jeff Bezos: Brief an die Aktionäre (1997); Wired, 2011"
     },
     "en": {
       "title": "Bezos thought in decades, not quarters",
       "body": "1997: Amazon still sold almost nothing but books and was losing money. In his first letter to shareholders Jeff Bezos wrote a line he attached again every year: **it's all about the long term.**\n\nWhile other companies chased next quarter's profit, Amazon spent years investing everything in customers, warehouses and technology. Many analysts laughed. Today Amazon is one of the most valuable companies in the world.\n\nBillionaires don't think faster. They think further.",
-      "apply": "Write down where you want to be in ten years, and drop one habit today that only serves the short-term feeling.",
-      "more": "Bezos later said in an interview: if everything you do needs to work in three years, you're competing against a lot of people. If you're willing to wait seven years, you're competing against a fraction of them.",
+      "act": "Write down where you want to be in ten years, and drop one habit today that only serves the short-term feeling.",
+      "deep": "Bezos later said in an interview: if everything you do needs to work in three years, you're competing against a lot of people. If you're willing to wait seven years, you're competing against a fraction of them.",
       "source": "Jeff Bezos: Letter to shareholders (1997); Wired, 2011"
     }
   },
@@ -1093,18 +1153,19 @@
     "sub": "milliardaer-mindset",
     "style": "fakt",
     "level": 1,
+    "actKind": "merke",
     "de": {
       "title": "Buffett wurde fast nur nach 50 reich",
       "body": "Warren Buffett gilt als bester Investor der Geschichte. Sein wahres Geheimnis ist aber nicht nur Können. Es ist **Zeit**.\n\nMorgan Housel rechnete nach: Von Buffetts damals 84,5 Milliarden Dollar Vermögen entstanden **84,2 Milliarden nach seinem 50. Geburtstag**. Über 81 Milliarden kamen erst, nachdem er Mitte 60 war.\n\nBuffett begann mit 11 Jahren zu investieren und hörte nie auf. Der Zinseszins braucht Jahrzehnte, um zu explodieren. Wer früh anfängt und nie unterbricht, hat den grössten Hebel überhaupt.",
-      "apply": "Wenn du noch nicht investierst: Informier dich heute über einen günstigen Indexfonds und leg ein Datum fest, an dem du startest.",
-      "more": "Housel schreibt: Hätte Buffett mit 30 begonnen und mit 60 aufgehört, wäre er bei gleicher Rendite \"nur\" einige Millionen schwer und kaum bekannt. Der grösste Teil seines Erfolgs ist Ausdauer.",
+      "act": "Beim Investieren ist Zeit der stärkste Hebel. Jedes Jahr, das du früher anfängst, wirkt am Ende am meisten. Leg heute dein Startdatum fest.",
+      "deep": "Housel schreibt: Hätte Buffett mit 30 begonnen und mit 60 aufgehört, wäre er bei gleicher Rendite \"nur\" einige Millionen schwer und kaum bekannt. Der grösste Teil seines Erfolgs ist Ausdauer.",
       "source": "Morgan Housel: The Psychology of Money (2020), Kapitel 4"
     },
     "en": {
       "title": "Buffett got rich almost entirely after 50",
       "body": "Warren Buffett is considered the greatest investor in history. But his real secret isn't just skill. It's **time**.\n\nMorgan Housel did the maths: of Buffett's then $84.5 billion net worth, **$84.2 billion came after his 50th birthday**. More than $81 billion came only after his mid-60s.\n\nBuffett started investing at 11 and never stopped. Compounding needs decades to explode. Start early and never interrupt it, and you have the biggest lever there is.",
-      "apply": "If you're not investing yet, read up on a low-cost index fund today and set a date to start.",
-      "more": "Housel writes: had Buffett started at 30 and stopped at 60, with the same returns he'd be worth \"only\" a few million and barely known. Most of his success is endurance.",
+      "act": "When investing, time is the strongest lever. Every year you start earlier counts the most in the end. Set your start date today.",
+      "deep": "Housel writes: had Buffett started at 30 and stopped at 60, with the same returns he'd be worth \"only\" a few million and barely known. Most of his success is endurance.",
       "source": "Morgan Housel: The Psychology of Money (2020), Chapter 4"
     }
   },
@@ -1114,6 +1175,7 @@
     "sub": "milliardaer-mindset",
     "style": "zitat",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Jensen Huang wünscht dir Schmerz",
       "quote": {
@@ -1122,8 +1184,8 @@
         "source": "Stanford, 2024"
       },
       "body": "Jensen Huang kam als Kind aus Taiwan in die USA, landete in einem strengen Internat in Kentucky und putzte dort Toiletten. Als Teenager spülte er Geschirr bei der Restaurantkette Denny's. In einem Denny's gründete er 1993 mit zwei Partnern **Nvidia**, heute einer der wertvollsten Konzerne der Welt.\n\nVor Studenten in Stanford sagte er, Grösse entstehe aus **Charakter**, und Charakter entstehe nicht aus Klugheit, sondern aus Menschen, die gelitten haben.\n\nSchmerz ist kein Grund aufzugeben. Er ist das Material, aus dem du gebaut wirst.",
-      "apply": "Nimm heute bewusst eine schwere Aufgabe an, der du sonst ausweichen würdest.",
-      "more": "Huang sprach im März 2024 an der Stanford Graduate School of Business. Er sagte auch, er wünsche den Studenten Rückschläge, weil hohe Erwartungen und wenig Belastbarkeit ein schlechter Mix seien. Nvidia war in den 1990er-Jahren mehrmals kurz vor dem Konkurs.",
+      "act": "Nimm heute bewusst eine schwere Aufgabe an, der du sonst ausweichen würdest.",
+      "deep": "Huang sprach im März 2024 an der Stanford Graduate School of Business. Er sagte auch, er wünsche den Studenten Rückschläge, weil hohe Erwartungen und wenig Belastbarkeit ein schlechter Mix seien. Nvidia war in den 1990er-Jahren mehrmals kurz vor dem Konkurs.",
       "source": "Jensen Huang: View From The Top, Stanford Graduate School of Business (2024)"
     },
     "en": {
@@ -1134,8 +1196,8 @@
         "source": "Stanford, 2024"
       },
       "body": "As a child Jensen Huang came from Taiwan to the US, ended up at a strict boarding school in Kentucky and cleaned toilets there. As a teenager he washed dishes at the restaurant chain Denny's. In a Denny's, in 1993, he and two partners founded **Nvidia**, today one of the most valuable companies in the world.\n\nSpeaking to students at Stanford, he said greatness comes from **character**, and character isn't formed out of smart people but out of people who have suffered.\n\nPain isn't a reason to quit. It's the material you're built from.",
-      "apply": "Take on one hard task today that you'd normally avoid.",
-      "more": "Huang spoke at Stanford Graduate School of Business in March 2024. He also said he wished setbacks on the students, because high expectations and low resilience are a bad mix. Nvidia came close to bankruptcy several times in the 1990s.",
+      "act": "Take on one hard task today that you'd normally avoid.",
+      "deep": "Huang spoke at Stanford Graduate School of Business in March 2024. He also said he wished setbacks on the students, because high expectations and low resilience are a bad mix. Nvidia came close to bankruptcy several times in the 1990s.",
       "source": "Jensen Huang: View From The Top, Stanford Graduate School of Business (2024)"
     }
   },
@@ -1145,18 +1207,19 @@
     "sub": "milliardaer-mindset",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Was hast du diese Woche nicht geschafft?",
       "body": "Am Esstisch der Familie Blakely stellte der Vater jede Woche dieselbe Frage: **\"Woran bist du diese Woche gescheitert?\"** Hatten die Kinder nichts zu erzählen, war er enttäuscht. Scheitern hiess für ihn: Du hast es versucht.\n\nSara Blakely verkaufte danach sieben Jahre lang Faxgeräte an der Haustür und hörte täglich Nein. Mit 5000 Dollar Erspartem gründete sie **Spanx**. 2012 wurde sie die jüngste Selfmade-Milliardärin der Welt.\n\nWer Angst vor dem Scheitern verliert, gewinnt den Mut, Dinge zu versuchen.",
-      "apply": "Versuch diese Woche bewusst etwas, bei dem du scheitern könntest, und erzähl jemandem davon, egal wie es ausgeht.",
-      "more": "Blakely erzählt die Geschichte in vielen Interviews. Sie sagt, die Frage ihres Vaters habe ihre Definition von Versagen verändert: Versagen heisst nicht, ein Ziel zu verfehlen, sondern es gar nicht zu versuchen. Das Magazin Forbes führte sie 2012 auf dem Titelblatt.",
+      "act": "Versuch diese Woche bewusst etwas, bei dem du scheitern könntest, und erzähl jemandem davon, egal wie es ausgeht.",
+      "deep": "Blakely erzählt die Geschichte in vielen Interviews. Sie sagt, die Frage ihres Vaters habe ihre Definition von Versagen verändert: Versagen heisst nicht, ein Ziel zu verfehlen, sondern es gar nicht zu versuchen. Das Magazin Forbes führte sie 2012 auf dem Titelblatt.",
       "source": "Forbes, März 2012; Sara Blakely in zahlreichen Interviews"
     },
     "en": {
       "title": "What did you fail at this week?",
       "body": "At the Blakely family dinner table, the father asked the same question every week: **\"What did you fail at this week?\"** If the children had nothing to report, he was disappointed. To him, failing meant you had tried.\n\nSara Blakely went on to sell fax machines door to door for seven years, hearing no every day. With $5,000 of savings she founded **Spanx**. In 2012 she became the world's youngest self-made female billionaire.\n\nLose your fear of failure and you gain the courage to try things.",
-      "apply": "Deliberately try something this week where you might fail, and tell someone about it whatever the outcome.",
-      "more": "Blakely tells the story in many interviews. She says her father's question changed her definition of failure: failure isn't missing a goal, it's not trying. Forbes put her on its cover in 2012.",
+      "act": "Deliberately try something this week where you might fail, and tell someone about it whatever the outcome.",
+      "deep": "Blakely tells the story in many interviews. She says her father's question changed her definition of failure: failure isn't missing a goal, it's not trying. Forbes put her on its cover in 2012.",
       "source": "Forbes, March 2012; Sara Blakely in numerous interviews"
     }
   },
@@ -1166,18 +1229,19 @@
     "sub": "milliardaer-mindset",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ein Wort, zwei Milliardäre",
       "body": "1991 trafen sich Bill Gates und Warren Buffett zum ersten Mal, bei einem Essen bei Gates' Eltern. Der Gastgeber, Bill Gates senior, fragte alle am Tisch: Was war der wichtigste Faktor für euren Erfolg?\n\nBuffett und Gates antworteten mit **demselben Wort: Fokus.**\n\nNicht Talent, nicht Glück, nicht Kontakte. Die Fähigkeit, sich auf eine Sache zu konzentrieren und tausend andere gute Ideen liegen zu lassen.",
-      "apply": "Wähle das eine Ziel, das dieses Jahr am meisten zählt, und sag heute zu einer Sache Nein, die davon ablenkt.",
-      "more": "Die Szene beschreibt Alice Schroeder in ihrer Buffett-Biografie \"The Snowball\". Gates erzählte sie später selbst in seinem Blog. Aus dem Treffen wurde eine lebenslange Freundschaft: Buffett hat der Gates-Stiftung über die Jahre Dutzende Milliarden Dollar gespendet.",
+      "act": "Wähle das eine Ziel, das dieses Jahr am meisten zählt, und sag heute zu einer Sache Nein, die davon ablenkt.",
+      "deep": "Die Szene beschreibt Alice Schroeder in ihrer Buffett-Biografie \"The Snowball\". Gates erzählte sie später selbst in seinem Blog. Aus dem Treffen wurde eine lebenslange Freundschaft: Buffett hat der Gates-Stiftung über die Jahre Dutzende Milliarden Dollar gespendet.",
       "source": "Alice Schroeder: The Snowball (2008); Bill Gates: gatesnotes.com"
     },
     "en": {
       "title": "One word, two billionaires",
       "body": "In 1991 Bill Gates and Warren Buffett met for the first time, at a dinner at Gates' parents' home. The host, Bill Gates Sr., asked everyone at the table: what was the most important factor in your success?\n\nBuffett and Gates answered with **the same word: focus.**\n\nNot talent, not luck, not connections. The ability to concentrate on one thing and leave a thousand other good ideas alone.",
-      "apply": "Pick the one goal that matters most this year, and say no today to one thing that distracts from it.",
-      "more": "Alice Schroeder describes the scene in her Buffett biography \"The Snowball\". Gates later told it himself on his blog. The meeting became a lifelong friendship: Over the years Buffett has given tens of billions of dollars to the Gates Foundation.",
+      "act": "Pick the one goal that matters most this year, and say no today to one thing that distracts from it.",
+      "deep": "Alice Schroeder describes the scene in her Buffett biography \"The Snowball\". Gates later told it himself on his blog. The meeting became a lifelong friendship: Over the years Buffett has given tens of billions of dollars to the Gates Foundation.",
       "source": "Alice Schroeder: The Snowball (2008); Bill Gates: gatesnotes.com"
     }
   },
@@ -1187,18 +1251,19 @@
     "sub": "milliardaer-mindset",
     "style": "tipp",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Die Denkwoche des Bill Gates",
       "body": "Zweimal im Jahr zog sich Bill Gates eine Woche lang allein in ein einfaches Holzhaus zurück. Keine Familie, keine Meetings, keine Ablenkung. Nur Lesen und Nachdenken: Fachartikel, Bücher, Ideen seiner Mitarbeiter.\n\nAus diesen **\"Think Weeks\"** kamen einige der wichtigsten Entscheidungen von Microsoft, etwa 1995 die Wende hin zum Internet.\n\nDie meisten Menschen sind zu beschäftigt, um nachzudenken. Wer sich bewusst Zeit zum Denken nimmt, trifft bessere Entscheidungen als jemand, der nur reagiert.",
-      "apply": "Blocke dir diese Woche zwei Stunden ohne Handy, nur mit einem Buch, Papier und Stift, und denk über deine wichtigste Frage nach.",
-      "more": "Gates soll in einer Think Week bis zu 100 Arbeiten gelesen haben. Sein berühmtes Memo \"The Internet Tidal Wave\" vom Mai 1995 entstand im Umfeld dieser Denkpausen. Heute nehmen sich viele Führungskräfte ähnliche Auszeiten.",
+      "act": "Blocke dir diese Woche zwei Stunden ohne Handy, nur mit einem Buch, Papier und Stift, und denk über deine wichtigste Frage nach.",
+      "deep": "Gates soll in einer Think Week bis zu 100 Arbeiten gelesen haben. Sein berühmtes Memo \"The Internet Tidal Wave\" vom Mai 1995 entstand im Umfeld dieser Denkpausen. Heute nehmen sich viele Führungskräfte ähnliche Auszeiten.",
       "source": "The Wall Street Journal, März 2005; Bill Gates: The Internet Tidal Wave (Memo, 1995)"
     },
     "en": {
       "title": "Bill Gates' think week",
       "body": "Twice a year Bill Gates withdrew for a week alone to a simple cabin. No family, no meetings, no distractions. Just reading and thinking: technical papers, books, ideas from his employees.\n\nSome of Microsoft's most important decisions came out of these **\"think weeks\"**, such as the turn to the internet in 1995.\n\nMost people are too busy to think. If you deliberately make time to think, you make better decisions than someone who only reacts.",
-      "apply": "Block two hours this week with no phone, just a book, paper and pen, and think about your most important question.",
-      "more": "Gates reportedly read up to 100 papers in a think week. His famous memo \"The Internet Tidal Wave\" of May 1995 came out of this period of reflection. Many leaders now take similar retreats.",
+      "act": "Block two hours this week with no phone, just a book, paper and pen, and think about your most important question.",
+      "deep": "Gates reportedly read up to 100 papers in a think week. His famous memo \"The Internet Tidal Wave\" of May 1995 came out of this period of reflection. Many leaders now take similar retreats.",
       "source": "The Wall Street Journal, March 2005; Bill Gates: The Internet Tidal Wave (memo, 1995)"
     }
   }

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { deriveCard, type Card } from '../content/card';
 import {
+  afterPlanView,
   afterView,
   applySignal,
   areaShares,
@@ -10,8 +11,10 @@ import {
   featureMultiplier,
   foldSession,
   freshness,
+  nextPlanDue,
   nextReviewDue,
   pickNext,
+  planDue,
   reviewDue,
   sessionMultiplier,
   signalValue,
@@ -254,5 +257,34 @@ describe('spaced review of saved cards', () => {
     const prefs = { ...DEFAULT_PREFS, disabledAreas: ['glaube'] };
     const pick = pickNext({ cards: deck, seen, prefs, algo: emptyAlgo(T0), recent: [], now: T0 + 1, sinceReview: 10, rng: rng() })!;
     expect(pick.due).toBeFalsy();
+  });
+});
+
+describe('"Umsetzen" check-ins', () => {
+  const DAY = 86_400_000;
+
+  it('checks back after 2, 5 and 10 more days, then stops', () => {
+    expect(TUNING.planDays).toEqual([2, 5, 10]);
+    expect(nextPlanDue(0, T0)).toBe(T0 + 2 * DAY);
+    expect(nextPlanDue(2, T0)).toBe(T0 + 10 * DAY);
+    expect(nextPlanDue(3, T0)).toBeUndefined();
+  });
+
+  it('has nothing due once a card is done or off the list', () => {
+    expect(planDue({ planAt: T0, planDue: T0 + DAY })).toBe(T0 + DAY);
+    expect(planDue({ planAt: T0, planDone: T0, planDue: T0 + DAY })).toBeUndefined();
+    expect(planDue({ planDue: T0 + DAY })).toBeUndefined();
+  });
+
+  it('moves to the next check-in only when the due one was shown', () => {
+    const r = { planAt: T0, planStep: 0, planDue: T0 + 2 * DAY };
+    expect(afterPlanView(r, T0 + DAY)).toEqual({ planStep: 0, planDue: T0 + 2 * DAY });
+    const later = T0 + 3 * DAY;
+    expect(afterPlanView(r, later)).toEqual({ planStep: 1, planDue: later + 5 * DAY });
+    expect(afterPlanView({ planAt: T0, planStep: 2, planDue: T0 }, later)).toEqual({ planStep: 3, planDue: undefined });
+  });
+
+  it('weighs putting a card on the list like saving it', () => {
+    expect(TUNING.signals.plan).toBe(TUNING.signals.save);
   });
 });

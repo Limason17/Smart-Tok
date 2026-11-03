@@ -1,7 +1,7 @@
 import { CARD_BY_ID } from '../content';
 import { AREA_BY_ID } from '../content/taxonomy';
 import { useT } from '../i18n/strings';
-import { toggleDislike, toggleLike, toggleSave, useStore } from '../store/store';
+import { setPlanDone, toggleDislike, toggleLike, togglePlan, toggleSave, useStore } from '../store/store';
 import { CardDetail, Paragraphs } from './CardView';
 import { Icon } from './Icon';
 import { Sheet } from './Sheet';
@@ -64,6 +64,23 @@ export function CardSheet({ cardId, onClose }: { cardId: string; onClose: () => 
           <Icon name="bookmark" filled={record?.saved} size={18} />
           {record?.saved ? tr('saved') : tr('save')}
         </button>
+        {record?.planDone ? (
+          <button className="pill on-done" onClick={() => setPlanDone(cardId, false)}>
+            <Icon name="targetDone" size={18} />
+            {tr('planDone')}
+          </button>
+        ) : (
+          <button className={`pill ${record?.planAt ? 'on-save' : ''}`} aria-pressed={!!record?.planAt} onClick={() => togglePlan(cardId)}>
+            <Icon name="target" size={18} />
+            {record?.planAt ? tr('planOnShort') : tr('planShort')}
+          </button>
+        )}
+        {record?.planAt && !record.planDone && (
+          <button className="pill" onClick={() => setPlanDone(cardId, true)}>
+            <Icon name="check" size={18} />
+            {tr('planMarkDone')}
+          </button>
+        )}
       </div>
       <div className="section-label">{tr('background')}</div>
       <MoreContent cardId={cardId} />

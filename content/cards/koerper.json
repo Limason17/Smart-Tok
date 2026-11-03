@@ -5,18 +5,19 @@
     "sub": "hormone",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Eine Woche wenig Schlaf senkt dein Testosteron",
       "body": "Viele Männer suchen Pulver und Pillen für mehr Testosteron. Das wirksamste Mittel ist gratis: **Schlaf**.\n\nIn einer Studie der University of Chicago schliefen junge, gesunde Männer eine Woche lang nur fünf Stunden pro Nacht. Ihr Testosteron am Tag sank um **10 bis 15 %**. Das entspricht etwa dem Rückgang von 10 bis 15 Jahren Altern.\n\nWer stark sein will, schläft. Nicht als Belohnung nach der Arbeit, sondern als Teil des Trainings.",
-      "apply": "Leg dein Handy heute 30 Minuten früher weg und gönn dir mindestens sieben Stunden Schlaf.",
-      "more": "Testosteron wird vor allem im Schlaf ausgeschüttet, mit einem Höhepunkt am frühen Morgen. Die Männer in der Studie fühlten sich auch weniger vital. Die Stichprobe war klein (zehn Männer), doch der Befund passt zu grösseren Beobachtungsstudien.",
+      "act": "Schütze eine Woche lang sieben bis acht Stunden Schlaf: Handy 30 Minuten vorher weg, jeden Tag gleiche Aufstehzeit. Dein Testosteron dankt es dir mehr als jedes Pulver.",
+      "deep": "Testosteron wird vor allem im Schlaf ausgeschüttet, mit einem Höhepunkt am frühen Morgen. Die Männer in der Studie fühlten sich auch weniger vital. Die Stichprobe war klein (zehn Männer), doch der Befund passt zu grösseren Beobachtungsstudien.",
       "source": "Leproult & Van Cauter: Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA, 2011"
     },
     "en": {
       "title": "One week of short sleep cuts your testosterone",
       "body": "Many men look for powders and pills to boost testosterone. The most effective one is free: **sleep**.\n\nIn a University of Chicago study, young, healthy men slept only five hours a night for a week. Their daytime testosterone fell by **10 to 15%**. That's about the drop you'd expect from 10 to 15 years of ageing.\n\nIf you want to be strong, sleep. Not as a reward after work, but as part of training.",
-      "apply": "Put your phone away 30 minutes earlier tonight and get at least seven hours of sleep.",
-      "more": "Testosterone is released mainly during sleep, peaking in the early morning. The men in the study also felt less vigorous. The sample was small (ten men), but the finding fits larger observational studies.",
+      "act": "Protect seven to eight hours of sleep for a week: phone away 30 minutes before, same wake-up time every day. Your testosterone will thank you more than any powder.",
+      "deep": "Testosterone is released mainly during sleep, peaking in the early morning. The men in the study also felt less vigorous. The sample was small (ten men), but the finding fits larger observational studies.",
       "source": "Leproult & Van Cauter: Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA, 2011"
     }
   },
@@ -26,18 +27,19 @@
     "sub": "hormone",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Bauchfett frisst Testosteron",
       "body": "Ab etwa 40 sinkt das Testosteron bei Männern um rund **1 bis 2 % pro Jahr**. Viel stärker als das Alter wirkt aber etwas, das du beeinflussen kannst: **Bauchfett**.\n\nFettgewebe enthält ein Enzym, die Aromatase, das Testosteron in Östrogen umwandelt. Mehr Bauchfett heisst weniger Testosteron. Weniger Testosteron macht es leichter, Fett anzusetzen. Ein Teufelskreis.\n\nIn einer grossen europäischen Studie stieg das Testosteron bei Männern, die deutlich abnahmen. Der Hebel liegt also bei dir.",
-      "apply": "Miss heute deinen Bauchumfang auf Höhe des Nabels. Über 94 cm ist ein Warnzeichen, über 102 cm ein klares Risiko.",
-      "more": "Die Massachusetts Male Aging Study fand einen Rückgang des Gesamttestosterons von etwa 1,6 % pro Jahr. Die European Male Ageing Study zeigte, dass Gewichtsverlust das Testosteron erhöht und Gewichtszunahme es senkt. Die Grenzwerte für den Bauchumfang stammen von der WHO.",
+      "act": "Miss heute deinen Bauchumfang auf Höhe des Nabels. Über 94 cm ist ein Warnzeichen, über 102 cm ein klares Risiko.",
+      "deep": "Die Massachusetts Male Aging Study fand einen Rückgang des Gesamttestosterons von etwa 1,6 % pro Jahr. Die European Male Ageing Study zeigte, dass Gewichtsverlust das Testosteron erhöht und Gewichtszunahme es senkt. Die Grenzwerte für den Bauchumfang stammen von der WHO.",
       "source": "Feldman et al., Journal of Clinical Endocrinology & Metabolism, 2002; Camacho et al., European Journal of Endocrinology, 2013; WHO 2008"
     },
     "en": {
       "title": "Belly fat eats testosterone",
       "body": "From about 40, men's testosterone falls by roughly **1 to 2% a year**. But something you can control matters much more than age: **belly fat**.\n\nFat tissue contains an enzyme, aromatase, that converts testosterone into oestrogen. More belly fat means less testosterone. Less testosterone makes it easier to gain fat. A vicious circle.\n\nIn a large European study, testosterone rose in men who lost a lot of weight. The lever is in your hands.",
-      "apply": "Measure your waist at navel height today. Over 94 cm (37 in) is a warning sign, over 102 cm (40 in) a clear risk.",
-      "more": "The Massachusetts Male Aging Study found total testosterone falling by about 1.6% a year. The European Male Ageing Study showed that weight loss raises testosterone and weight gain lowers it. The waist thresholds come from the WHO.",
+      "act": "Measure your waist at navel height today. Over 94 cm (37 in) is a warning sign, over 102 cm (40 in) a clear risk.",
+      "deep": "The Massachusetts Male Aging Study found total testosterone falling by about 1.6% a year. The European Male Ageing Study showed that weight loss raises testosterone and weight gain lowers it. The waist thresholds come from the WHO.",
       "source": "Feldman et al., Journal of Clinical Endocrinology & Metabolism, 2002; Camacho et al., European Journal of Endocrinology, 2013; WHO 2008"
     }
   },
@@ -47,18 +49,19 @@
     "sub": "hormone",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Östrogen: das Hormon, das Frauen schützt",
       "body": "Östrogen wird bei Frauen vor allem in den Eierstöcken gebildet. Es steuert den Zyklus, der im Schnitt etwa **28 Tage** dauert, und steigt bis zum Eisprung an.\n\nEs schützt aber auch **Knochen, Herz und Gefässe**. Mit den Wechseljahren, im Schnitt um **51**, fällt es stark ab. Danach verlieren Frauen schneller Knochenmasse und ihr Herzrisiko steigt.\n\nÜbrigens: Auch Männer brauchen Östrogen. Ihr Körper bildet es aus Testosteron, und es ist für ihre Knochen genauso wichtig.",
-      "apply": "Wenn deine Partnerin, Mutter oder Schwester in den Wechseljahren ist: Frag nach, wie es ihr geht, statt Stimmungen persönlich zu nehmen.",
-      "more": "Joel Finkelstein und Kollegen zeigten 2013, dass bei Männern ein Mangel an Östrogen (nicht nur an Testosteron) für mehr Körperfett und schwächere Knochen verantwortlich ist. Bei Frauen schwanken im Zyklus auch Energie, Schlaf und Stimmung mit den Hormonen.",
+      "act": "Wenn deine Partnerin, Mutter oder Schwester in den Wechseljahren ist: Frag nach, wie es ihr geht, statt Stimmungen persönlich zu nehmen.",
+      "deep": "Joel Finkelstein und Kollegen zeigten 2013, dass bei Männern ein Mangel an Östrogen (nicht nur an Testosteron) für mehr Körperfett und schwächere Knochen verantwortlich ist. Bei Frauen schwanken im Zyklus auch Energie, Schlaf und Stimmung mit den Hormonen.",
       "source": "Finkelstein et al., New England Journal of Medicine, 2013; Deutsche Menopause Gesellschaft"
     },
     "en": {
       "title": "Oestrogen: the hormone that protects women",
       "body": "In women, oestrogen is made mainly in the ovaries. It drives the menstrual cycle, which lasts about **28 days** on average, and rises until ovulation.\n\nBut it also protects **bones, heart and blood vessels**. At menopause, on average around **51**, it drops sharply. After that, women lose bone faster and their heart risk rises.\n\nBy the way: men need oestrogen too. Their body makes it from testosterone, and it's just as important for their bones.",
-      "apply": "If your partner, mother or sister is going through menopause, ask how she's doing instead of taking her moods personally.",
-      "more": "Joel Finkelstein and colleagues showed in 2013 that in men, a lack of oestrogen (not only testosterone) is responsible for more body fat and weaker bones. In women, energy, sleep and mood also shift with hormones across the cycle.",
+      "act": "If your partner, mother or sister is going through menopause, ask how she's doing instead of taking her moods personally.",
+      "deep": "Joel Finkelstein and colleagues showed in 2013 that in men, a lack of oestrogen (not only testosterone) is responsible for more body fat and weaker bones. In women, energy, sleep and mood also shift with hormones across the cycle.",
       "source": "Finkelstein et al., New England Journal of Medicine, 2013; North American Menopause Society"
     }
   },
@@ -68,18 +71,19 @@
     "sub": "hormone",
     "style": "fakt",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Dein Stresshormon weckt dich jeden Morgen",
       "body": "Cortisol hat einen schlechten Ruf. Dabei ist es dein **Wecker**.\n\nIn den ersten 30 bis 45 Minuten nach dem Aufwachen steigt es um etwa **50 bis 75 %**. Forscher nennen das die Cortisol-Aufwachreaktion. Sie macht dich wach, mobilisiert Energie und bereitet dich auf den Tag vor. Am Abend sinkt es dann tief, damit du schlafen kannst.\n\nProblematisch wird Cortisol erst, wenn es **dauerhaft** hoch ist: durch Dauerstress, zu wenig Schlaf, Bildschirmlicht in der Nacht.",
-      "apply": "Nutz die erste Stunde nach dem Aufstehen für Licht, Bewegung oder eine wichtige Aufgabe, nicht fürs Scrollen.",
-      "more": "Jens Pruessner beschrieb die Aufwachreaktion 1997. Ein klarer Tagesrhythmus, mit Licht am Morgen und Dunkelheit am Abend, hilft dem Körper, Cortisol zur richtigen Zeit hoch- und wieder herunterzufahren.",
+      "act": "- Licht: in den ersten 30 Minuten nach draussen oder ans Fenster.\n- Bewegung: ein paar Minuten, und sei es nur ein Spaziergang.\n- Eine wichtige Aufgabe, bevor du das erste Mal aufs Handy schaust.",
+      "deep": "Jens Pruessner beschrieb die Aufwachreaktion 1997. Ein klarer Tagesrhythmus, mit Licht am Morgen und Dunkelheit am Abend, hilft dem Körper, Cortisol zur richtigen Zeit hoch- und wieder herunterzufahren.",
       "source": "Pruessner et al.: Free cortisol levels after awakening. Life Sciences, 1997"
     },
     "en": {
       "title": "Your stress hormone wakes you every morning",
       "body": "Cortisol has a bad reputation. But it's your **alarm clock**.\n\nIn the first 30 to 45 minutes after waking, it rises by about **50 to 75%**. Researchers call this the cortisol awakening response. It makes you alert, mobilises energy and prepares you for the day. In the evening it drops low so you can sleep.\n\nCortisol only becomes a problem when it stays high **all the time**: from constant stress, too little sleep, screen light at night.",
-      "apply": "Use the first hour after getting up for light, movement or an important task, not for scrolling.",
-      "more": "Jens Pruessner described the awakening response in 1997. A clear daily rhythm, with light in the morning and darkness in the evening, helps the body raise and lower cortisol at the right times.",
+      "act": "- Light: go outside or to a window within the first 30 minutes.\n- Movement: a few minutes, even just a walk.\n- One important task before you look at your phone for the first time.",
+      "deep": "Jens Pruessner described the awakening response in 1997. A clear daily rhythm, with light in the morning and darkness in the evening, helps the body raise and lower cortisol at the right times.",
       "source": "Pruessner et al.: Free cortisol levels after awakening. Life Sciences, 1997"
     }
   },
@@ -89,18 +93,19 @@
     "sub": "hormone",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Muskeln schlucken den meisten Zucker",
       "body": "Nach dem Essen steigt der Blutzucker, und das Hormon **Insulin** bringt ihn in die Zellen. Wohin? Zum grössten Teil in deine **Muskeln**: Sie nehmen rund **80 %** des Zuckers auf, den Insulin aus dem Blut holt.\n\nMehr Muskeln heisst also mehr Platz für Zucker. Und jedes Training macht die Muskeln empfindlicher für Insulin, sodass dein Körper weniger davon braucht.\n\nKrafttraining ist darum nicht nur für die Optik. Es ist einer der besten Schutzschilde gegen Diabetes.",
-      "apply": "Geh nach deiner grössten Mahlzeit heute 10 bis 15 Minuten zügig spazieren. Deine Muskeln holen den Zucker dann schneller aus dem Blut.",
-      "more": "Ralph DeFronzo und Kollegen zeigten in den 1980er-Jahren mit der sogenannten Clamp-Methode, dass der Skelettmuskel den Hauptteil der insulinabhängigen Zuckeraufnahme leistet. Studien zeigen, dass schon kurze Spaziergänge nach dem Essen den Blutzuckeranstieg senken.",
+      "act": "Geh nach deiner grössten Mahlzeit heute 10 bis 15 Minuten zügig spazieren. Deine Muskeln holen den Zucker dann schneller aus dem Blut.",
+      "deep": "Ralph DeFronzo und Kollegen zeigten in den 1980er-Jahren mit der sogenannten Clamp-Methode, dass der Skelettmuskel den Hauptteil der insulinabhängigen Zuckeraufnahme leistet. Studien zeigen, dass schon kurze Spaziergänge nach dem Essen den Blutzuckeranstieg senken.",
       "source": "DeFronzo et al.: The effect of insulin on the disposal of intravenous glucose. Diabetes, 1981"
     },
     "en": {
       "title": "Muscles soak up most of the sugar",
       "body": "After a meal your blood sugar rises, and the hormone **insulin** moves it into cells. Where? Mostly into your **muscles**: they take up about **80%** of the sugar insulin clears from the blood.\n\nMore muscle means more storage space for sugar. And every workout makes your muscles more sensitive to insulin, so your body needs less of it.\n\nStrength training isn't just about looks. It's one of the best shields against diabetes.",
-      "apply": "Take a brisk 10 to 15-minute walk after your biggest meal today. Your muscles will clear the sugar from your blood faster.",
-      "more": "Ralph DeFronzo and colleagues used the so-called clamp technique in the 1980s to show that skeletal muscle handles most insulin-driven glucose uptake. Studies show even short walks after meals reduce the blood sugar spike.",
+      "act": "Take a brisk 10 to 15-minute walk after your biggest meal today. Your muscles will clear the sugar from your blood faster.",
+      "deep": "Ralph DeFronzo and colleagues used the so-called clamp technique in the 1980s to show that skeletal muscle handles most insulin-driven glucose uptake. Studies show even short walks after meals reduce the blood sugar spike.",
       "source": "DeFronzo et al.: The effect of insulin on the disposal of intravenous glucose. Diabetes, 1981"
     }
   },
@@ -110,18 +115,21 @@
     "sub": "training",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Muskeln wachsen nur, wenn du mehr verlangst",
       "body": "Wer jede Woche dasselbe Gewicht für dieselben Wiederholungen hebt, bleibt, wie er ist. Der Körper passt sich an genau so viel an, wie du von ihm **verlangst**.\n\nDas Prinzip heisst **progressive Überlastung**: Mach es mit der Zeit schwerer. Ein Kilo mehr, eine Wiederholung mehr, ein Satz mehr, sauberere Technik.\n\nDas gilt nicht nur im Gym. Jede Stärke, körperlich oder mental, wächst nur unter einer Last, die etwas grösser ist als gestern.",
-      "apply": "Schreib bei deinem nächsten Training Gewichte und Wiederholungen auf und schlag beim nächsten Mal mindestens einen Wert.",
-      "more": "Der US-Armeearzt Thomas DeLorme entwickelte nach dem Zweiten Weltkrieg Trainingsprogramme mit stetig steigenden Gewichten, um verletzte Soldaten wieder aufzubauen. Seine Methode wurde zur Grundlage des modernen Krafttrainings.",
+      "example": "Woche 1: Bankdrücken 60 kg, 3 × 8. Woche 2: 60 kg, 3 × 9. Woche 3: 60 kg, 3 × 10. Woche 4: 62,5 kg, 3 × 8. Kleine Schritte, aber jede Woche ein Schritt.",
+      "act": "Führ ab dem nächsten Training ein kleines Logbuch: Übung, Gewicht, Wiederholungen. Schlag bei jedem Training mindestens einen Wert vom letzten Mal.",
+      "deep": "Der US-Armeearzt Thomas DeLorme entwickelte nach dem Zweiten Weltkrieg Trainingsprogramme mit stetig steigenden Gewichten, um verletzte Soldaten wieder aufzubauen. Seine Methode wurde zur Grundlage des modernen Krafttrainings.",
       "source": "Thomas DeLorme: Restoration of muscle power by heavy-resistance exercises. Journal of Bone and Joint Surgery, 1945"
     },
     "en": {
       "title": "Muscles only grow when you demand more",
       "body": "If you lift the same weight for the same reps every week, you stay the same. Your body adapts to exactly as much as you **demand** of it.\n\nThe principle is called **progressive overload**: make it harder over time. One more kilo, one more rep, one more set, cleaner technique.\n\nThis isn't only true in the gym. Every strength, physical or mental, grows only under a load slightly heavier than yesterday's.",
-      "apply": "Write down weights and reps at your next workout, and beat at least one number the time after.",
-      "more": "US Army physician Thomas DeLorme developed training programmes with steadily increasing weights around the Second World War to rebuild injured soldiers. His method became the foundation of modern strength training.",
+      "example": "Week 1: bench press 60 kg, 3 × 8. Week 2: 60 kg, 3 × 9. Week 3: 60 kg, 3 × 10. Week 4: 62.5 kg, 3 × 8. Small steps, but a step every week.",
+      "act": "From your next session on, keep a small log: exercise, weight, reps. In every session, beat at least one number from last time.",
+      "deep": "US Army physician Thomas DeLorme developed training programmes with steadily increasing weights around the Second World War to rebuild injured soldiers. His method became the foundation of modern strength training.",
       "source": "Thomas DeLorme: Restoration of muscle power by heavy-resistance exercises. Journal of Bone and Joint Surgery, 1945"
     }
   },
@@ -131,18 +139,21 @@
     "sub": "training",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Zehn Sätze pro Muskel und Woche",
       "body": "Wie viel Training braucht ein Muskel, um zu wachsen? Eine Auswertung vieler Studien gibt eine klare Richtung.\n\nJeder zusätzliche Satz pro Woche brachte etwas mehr Muskelwachstum. Wer **zehn oder mehr Sätze** pro Muskel und Woche machte, wuchs deutlich mehr als mit weniger als fünf.\n\nDu musst nicht stundenlang trainieren. Aber du musst genug **harte** Sätze sammeln. Drei Trainings pro Woche mit je drei bis vier Sätzen pro Muskelgruppe bringen dich schon dorthin.",
-      "apply": "Zähl für diese Woche, wie viele harte Sätze du pro Muskelgruppe machst. Liegst du unter zehn, plan zwei Sätze mehr.",
-      "more": "Brad Schoenfeld und Kollegen werteten 15 Studien aus. Als harter Satz gilt einer, der nahe ans Muskelversagen geht. Über 20 Sätze pro Woche bringen für die meisten kaum noch Zusatznutzen und erschweren die Erholung.",
+      "example": "Brust: Dienstag 4 Sätze Bankdrücken, Freitag 3 Sätze Schrägbank und 3 Sätze Liegestütze. Zusammen 10 harte Sätze in der Woche, verteilt auf zwei Tage.",
+      "act": "Zähl für diese Woche, wie viele harte Sätze du pro Muskelgruppe machst. Liegst du unter zehn, plan zwei Sätze mehr.",
+      "deep": "Brad Schoenfeld und Kollegen werteten 15 Studien aus. Als harter Satz gilt einer, der nahe ans Muskelversagen geht. Über 20 Sätze pro Woche bringen für die meisten kaum noch Zusatznutzen und erschweren die Erholung.",
       "source": "Schoenfeld, Ogborn & Krieger: Dose-response relationship between weekly resistance training volume and increases in muscle mass. Journal of Sports Sciences, 2017"
     },
     "en": {
       "title": "Ten sets per muscle per week",
       "body": "How much training does a muscle need to grow? An analysis of many studies points in a clear direction.\n\nEach extra weekly set brought a bit more muscle growth. Those doing **ten or more sets** per muscle per week grew much more than those doing fewer than five.\n\nYou don't need to train for hours. But you do need to collect enough **hard** sets. Three sessions a week with three to four sets per muscle group already gets you there.",
-      "apply": "Count how many hard sets per muscle group you do this week. If it's under ten, add two.",
-      "more": "Brad Schoenfeld and colleagues analysed 15 studies. A hard set is one taken close to muscular failure. Beyond 20 sets a week, most people gain little extra and recover worse.",
+      "example": "Chest: Tuesday 4 sets of bench press, Friday 3 sets of incline press and 3 sets of push-ups. Ten hard sets a week, spread over two days.",
+      "act": "Count how many hard sets per muscle group you do this week. If it's under ten, add two.",
+      "deep": "Brad Schoenfeld and colleagues analysed 15 studies. A hard set is one taken close to muscular failure. Beyond 20 sets a week, most people gain little extra and recover worse.",
       "source": "Schoenfeld, Ogborn & Krieger: Dose-response relationship between weekly resistance training volume and increases in muscle mass. Journal of Sports Sciences, 2017"
     }
   },
@@ -152,18 +163,19 @@
     "sub": "training",
     "style": "fakt",
     "level": 2,
+    "actKind": "merke",
     "de": {
       "title": "Leicht oder schwer: Hauptsache bis fast nichts mehr geht",
       "body": "Muss man schwer heben, um Muskeln aufzubauen? Nicht unbedingt.\n\nEine Auswertung von Studien zeigt: Mit leichten Gewichten, bei denen du 20 bis 30 Wiederholungen schaffst, wachsen Muskeln **ähnlich stark** wie mit schweren für 6 bis 10 Wiederholungen. Vorausgesetzt, du gehst **nah an den Punkt, an dem nichts mehr geht**.\n\nFür maximale **Kraft** bleiben schwere Gewichte besser. Für Muskelaufbau zählt vor allem eines: echte Anstrengung, nicht das Gewicht auf der Stange.",
-      "apply": "Mach heute im letzten Satz einer Übung so viele saubere Wiederholungen, bis du höchstens noch ein bis zwei schaffen würdest.",
-      "more": "Schoenfeld und Kollegen fassten 21 Studien zusammen. Leichte Gewichte sind eine gute Option bei Gelenkproblemen oder wenn keine schweren Gewichte verfügbar sind, etwa beim Training zu Hause.",
+      "act": "Ob schwer oder leicht: Der Satz zählt, wenn am Ende höchstens noch ein bis zwei saubere Wiederholungen drin wären. Mach den letzten Satz heute genau so.",
+      "deep": "Schoenfeld und Kollegen fassten 21 Studien zusammen. Leichte Gewichte sind eine gute Option bei Gelenkproblemen oder wenn keine schweren Gewichte verfügbar sind, etwa beim Training zu Hause.",
       "source": "Schoenfeld, Grgic, Ogborn & Krieger: Strength and hypertrophy adaptations between low- vs. high-load resistance training. Journal of Strength and Conditioning Research, 2017"
     },
     "en": {
       "title": "Light or heavy: go until almost nothing's left",
       "body": "Do you have to lift heavy to build muscle? Not necessarily.\n\nAn analysis of studies shows that light weights you can lift 20 to 30 times build muscle **about as well** as heavy weights for 6 to 10 reps. Provided you go **close to the point where nothing is left**.\n\nFor maximum **strength**, heavy weights are still better. For muscle growth, one thing matters most: real effort, not the number on the bar.",
-      "apply": "In the last set of an exercise today, do clean reps until you could manage at most one or two more.",
-      "more": "Schoenfeld and colleagues pooled 21 studies. Light weights are a good option with joint problems or when no heavy weights are available, for example when training at home.",
+      "act": "Heavy or light: a set counts when you'd have at most one or two clean reps left at the end. Do your last set today exactly like that.",
+      "deep": "Schoenfeld and colleagues pooled 21 studies. Light weights are a good option with joint problems or when no heavy weights are available, for example when training at home.",
       "source": "Schoenfeld, Grgic, Ogborn & Krieger: Strength and hypertrophy adaptations between low- vs. high-load resistance training. Journal of Strength and Conditioning Research, 2017"
     }
   },
@@ -173,18 +185,19 @@
     "sub": "training",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Dein Händedruck sagt etwas über dein Leben",
       "body": "In einer Studie mit fast **140'000 Erwachsenen** aus 17 Ländern wurde die Griffkraft gemessen und dann über Jahre beobachtet.\n\nJe **5 kg** weniger Griffkraft stieg das Sterberisiko um **16 %**. Die Griffkraft sagte das Risiko für Herztod sogar besser voraus als der Blutdruck.\n\nDer Griff selbst ist nicht magisch. Er zeigt einfach, wie viel Kraft dein ganzer Körper hat. Und Kraft schützt: vor Stürzen, Krankheit und Schwäche im Alter.",
-      "apply": "Bau diese Woche Übungen ein, die den Griff fordern: Klimmzüge, Kreuzheben oder schwere Kurzhanteln eine Minute lang tragen.",
-      "more": "Darryl Leong und Kollegen nutzten Daten der PURE-Studie. Der Zusammenhang galt in armen wie reichen Ländern. Die Studie zeigt eine Verbindung, keinen Beweis, dass Griffkraft allein Leben verlängert. Gesamtkraft ist der Schlüssel.",
+      "act": "Bau diese Woche Übungen ein, die den Griff fordern: Klimmzüge, Kreuzheben oder schwere Kurzhanteln eine Minute lang tragen.",
+      "deep": "Darryl Leong und Kollegen nutzten Daten der PURE-Studie. Der Zusammenhang galt in armen wie reichen Ländern. Die Studie zeigt eine Verbindung, keinen Beweis, dass Griffkraft allein Leben verlängert. Gesamtkraft ist der Schlüssel.",
       "source": "Leong et al.: Prognostic value of grip strength. The Lancet, 2015"
     },
     "en": {
       "title": "Your grip says something about your life",
       "body": "In a study of almost **140,000 adults** from 17 countries, grip strength was measured and people were followed for years.\n\nEvery **5 kg** less grip strength raised the risk of death by **16%**. Grip strength even predicted cardiovascular death better than blood pressure.\n\nThe grip itself isn't magic. It simply shows how much strength your whole body has. And strength protects: against falls, disease and weakness in old age.",
-      "apply": "Add exercises that challenge your grip this week: pull-ups, deadlifts or carrying heavy dumbbells for a minute.",
-      "more": "Darryl Leong and colleagues used data from the PURE study. The link held in poor and rich countries alike. The study shows an association, not proof that grip alone extends life. Overall strength is the key.",
+      "act": "Add exercises that challenge your grip this week: pull-ups, deadlifts or carrying heavy dumbbells for a minute.",
+      "deep": "Darryl Leong and colleagues used data from the PURE study. The link held in poor and rich countries alike. The study shows an association, not proof that grip alone extends life. Overall strength is the key.",
       "source": "Leong et al.: Prognostic value of grip strength. The Lancet, 2015"
     }
   },
@@ -194,18 +207,19 @@
     "sub": "training",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Längere Pausen bauen mehr Muskeln",
       "body": "Viele glauben: kurze Pausen, mehr Schweiss, mehr Wachstum. Eine Studie mit trainierten Männern zeigt das Gegenteil.\n\nAcht Wochen lang trainierte eine Gruppe mit **einer Minute** Pause zwischen den Sätzen, die andere mit **drei Minuten**. Die Gruppe mit längeren Pausen wurde **stärker** und baute **mehr Muskeln** auf.\n\nDer Grund: Ausgeruht schaffst du im nächsten Satz mehr Gewicht und mehr Wiederholungen. Und genau diese Arbeit lässt Muskeln wachsen.",
-      "apply": "Stopp heute bei schweren Grundübungen deine Pausen und gönn dir zwei bis drei Minuten. Lass das Handy dabei in der Tasche.",
-      "more": "Brad Schoenfeld und Kollegen veröffentlichten die Studie 2016. Bei kleineren Übungen wie Bizepscurls reichen oft kürzere Pausen. Bei Kniebeugen, Bankdrücken und Kreuzheben lohnen sich längere.",
+      "act": "Stopp heute bei schweren Grundübungen deine Pausen und gönn dir zwei bis drei Minuten. Lass das Handy dabei in der Tasche.",
+      "deep": "Brad Schoenfeld und Kollegen veröffentlichten die Studie 2016. Bei kleineren Übungen wie Bizepscurls reichen oft kürzere Pausen. Bei Kniebeugen, Bankdrücken und Kreuzheben lohnen sich längere.",
       "source": "Schoenfeld et al.: Longer interset rest periods enhance muscle strength and hypertrophy in resistance-trained men. Journal of Strength and Conditioning Research, 2016"
     },
     "en": {
       "title": "Longer rests build more muscle",
       "body": "Many believe: short rests, more sweat, more growth. A study of trained men shows the opposite.\n\nFor eight weeks one group trained with **one minute** of rest between sets, the other with **three minutes**. The longer-rest group got **stronger** and built **more muscle**.\n\nThe reason: when you're rested, you lift more weight for more reps in the next set. And that work is what makes muscles grow.",
-      "apply": "Time your rests on heavy compound lifts today and take two to three minutes. Keep your phone in your pocket.",
-      "more": "Brad Schoenfeld and colleagues published the study in 2016. For smaller exercises like biceps curls, shorter rests are often enough. For squats, bench press and deadlifts, longer ones pay off.",
+      "act": "Time your rests on heavy compound lifts today and take two to three minutes. Keep your phone in your pocket.",
+      "deep": "Brad Schoenfeld and colleagues published the study in 2016. For smaller exercises like biceps curls, shorter rests are often enough. For squats, bench press and deadlifts, longer ones pay off.",
       "source": "Schoenfeld et al.: Longer interset rest periods enhance muscle strength and hypertrophy in resistance-trained men. Journal of Strength and Conditioning Research, 2016"
     }
   },
@@ -215,18 +229,19 @@
     "sub": "ausdauer",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Schlechte Fitness ist gefährlicher als Rauchen",
       "body": "Forscher der Cleveland Clinic werteten Laufbandtests von über **122'000 Patienten** aus und verfolgten, wer in den folgenden Jahren starb.\n\nDas Ergebnis: Wer die schlechteste Ausdauer hatte, hatte ein rund **fünfmal** höheres Sterberisiko als die Fittesten. Der Unterschied war so gross wie oder grösser als bei Rauchen, Diabetes oder Herzkrankheit.\n\nUnd es gab **keine Obergrenze**: Selbst die Fittesten profitierten noch von mehr Fitness. Ausdauer ist eine der besten Investitionen in dein Leben.",
-      "apply": "Plane diese Woche zwei Einheiten, in denen du richtig ausser Atem kommst: Laufen, Velo, Rudern oder Treppen.",
-      "more": "Kyle Mandsager und Kollegen ordneten die Patienten nach ihrer Leistung im Belastungstest in Gruppen ein, von \"niedrig\" bis \"elite\". Fitness wurde nur einmal gemessen. Doch auch andere grosse Studien zeigen, dass die maximale Sauerstoffaufnahme (VO2max) einer der stärksten Gesundheitsmarker ist.",
+      "act": "Plane fest zwei Einheiten pro Woche, in denen du richtig ausser Atem kommst: Laufen, Velo, Rudern oder Treppen. Trag sie jetzt in den Kalender ein.",
+      "deep": "Kyle Mandsager und Kollegen ordneten die Patienten nach ihrer Leistung im Belastungstest in Gruppen ein, von \"niedrig\" bis \"elite\". Fitness wurde nur einmal gemessen. Doch auch andere grosse Studien zeigen, dass die maximale Sauerstoffaufnahme (VO2max) einer der stärksten Gesundheitsmarker ist.",
       "source": "Mandsager et al.: Association of cardiorespiratory fitness with long-term mortality. JAMA Network Open, 2018"
     },
     "en": {
       "title": "Poor fitness is more dangerous than smoking",
       "body": "Cleveland Clinic researchers analysed treadmill tests of more than **122,000 patients** and tracked who died over the following years.\n\nThe result: those with the worst fitness had about **five times** the risk of death of the fittest. The gap was as large as or larger than for smoking, diabetes or heart disease.\n\nAnd there was **no upper limit**: even the fittest still benefited from more fitness. Endurance is one of the best investments you can make in your life.",
-      "apply": "Plan two sessions this week where you really get out of breath: running, cycling, rowing or stairs.",
-      "more": "Kyle Mandsager and colleagues grouped patients by their treadmill performance, from \"low\" to \"elite\". Fitness was measured only once. But other large studies also show that maximal oxygen uptake (VO2max) is one of the strongest health markers.",
+      "act": "Book two sessions a week where you get properly out of breath: running, cycling, rowing or stairs. Put them in your calendar now.",
+      "deep": "Kyle Mandsager and colleagues grouped patients by their treadmill performance, from \"low\" to \"elite\". Fitness was measured only once. But other large studies also show that maximal oxygen uptake (VO2max) is one of the strongest health markers.",
       "source": "Mandsager et al.: Association of cardiorespiratory fitness with long-term mortality. JAMA Network Open, 2018"
     }
   },
@@ -236,18 +251,19 @@
     "sub": "ausdauer",
     "style": "tipp",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Trainier meist locker, manchmal richtig hart",
       "body": "Wer bei jedem Lauf am Limit läuft, wird müde, nicht schneller.\n\nDer Sportwissenschaftler Stephen Seiler untersuchte, wie die besten Ausdauersportler der Welt trainieren: Langläufer, Ruderer, Radfahrer. Etwa **80 %** ihres Trainings ist **locker**, so ruhig, dass sie sich noch in ganzen Sätzen unterhalten können. Die restlichen **20 %** sind richtig hart.\n\nDie meisten Hobbysportler machen es umgekehrt: Alles ist mittelhart. Zu hart für die Erholung, zu locker für echte Fortschritte.",
-      "apply": "Mach deine nächste Ausdauereinheit so locker, dass du dabei telefonieren könntest, und halte das 40 Minuten durch.",
-      "more": "Seiler nennt das \"polarisiertes Training\". Lockeres Training baut Kapillaren, Mitochondrien und Fettstoffwechsel auf. Kurze, harte Intervalle steigern die maximale Sauerstoffaufnahme. Der Sprechtest ist eine einfache Kontrolle ohne Pulsuhr.",
+      "act": "- Vier von fünf Einheiten: so locker, dass du in ganzen Sätzen reden kannst.\n- Eine von fünf: richtig hart, zum Beispiel Intervalle.\n- Kein Mittelding mehr, bei dem jeder Lauf ein bisschen zu schnell ist.",
+      "deep": "Seiler nennt das \"polarisiertes Training\". Lockeres Training baut Kapillaren, Mitochondrien und Fettstoffwechsel auf. Kurze, harte Intervalle steigern die maximale Sauerstoffaufnahme. Der Sprechtest ist eine einfache Kontrolle ohne Pulsuhr.",
       "source": "Seiler & Kjerland: Quantifying training intensity distribution in elite endurance athletes. Scandinavian Journal of Medicine & Science in Sports, 2006"
     },
     "en": {
       "title": "Train easy most of the time, sometimes really hard",
       "body": "If you run at your limit every time, you get tired, not faster.\n\nSports scientist Stephen Seiler studied how the world's best endurance athletes train: cross-country skiers, rowers, cyclists. About **80%** of their training is **easy**, so calm they could hold a conversation in full sentences. The other **20%** is really hard.\n\nMost amateurs do the opposite: everything is medium-hard. Too hard to recover, too easy for real progress.",
-      "apply": "Make your next endurance session easy enough that you could talk on the phone, and keep it up for 40 minutes.",
-      "more": "Seiler calls this \"polarised training\". Easy training builds capillaries, mitochondria and fat metabolism. Short, hard intervals raise maximal oxygen uptake. The talk test is a simple check without a heart rate monitor.",
+      "act": "- Four out of five sessions: easy enough to talk in full sentences.\n- One out of five: really hard, such as intervals.\n- No more in-between where every run is a bit too fast.",
+      "deep": "Seiler calls this \"polarised training\". Easy training builds capillaries, mitochondria and fat metabolism. Short, hard intervals raise maximal oxygen uptake. The talk test is a simple check without a heart rate monitor.",
       "source": "Seiler & Kjerland: Quantifying training intensity distribution in elite endurance athletes. Scandinavian Journal of Medicine & Science in Sports, 2006"
     }
   },
@@ -257,18 +273,19 @@
     "sub": "ausdauer",
     "style": "fakt",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "2,5 Stunden statt 10,5 Stunden",
       "body": "Keine Zeit für Ausdauer? Eine Studie aus Kanada hat eine Antwort.\n\nZwei Gruppen trainierten zwei Wochen lang. Die eine fuhr Velo in ruhigem Tempo, 90 bis 120 Minuten pro Einheit. Die andere machte kurze Sprints: **vier bis sechs mal 30 Sekunden** Vollgas mit Pausen dazwischen. Die Sprintgruppe trainierte insgesamt **2,5 Stunden**, die andere **10,5 Stunden**.\n\nDie Verbesserungen in den Muskeln waren **ähnlich**. Intensität kann Zeit ersetzen. Nicht ganz, aber erstaunlich viel.",
-      "apply": "Mach heute nach dem Aufwärmen vier Sprints von 30 Sekunden mit je vier Minuten lockerer Pause dazwischen.",
-      "more": "Martin Gibala und Kollegen von der McMaster University massen unter anderem die Ausdauerleistung und Enzyme in den Muskeln. Solches Sprinttraining ist sehr hart. Wer untrainiert ist oder Herzprobleme hat, sollte langsam einsteigen und vorher ärztlichen Rat holen.",
+      "act": "- 5 Minuten locker einlaufen oder einfahren.\n- 30 Sekunden Vollgas.\n- 4 Minuten locker.\n- Vier- bis sechsmal wiederholen, dann auslaufen.",
+      "deep": "Martin Gibala und Kollegen von der McMaster University massen unter anderem die Ausdauerleistung und Enzyme in den Muskeln. Solches Sprinttraining ist sehr hart. Wer untrainiert ist oder Herzprobleme hat, sollte langsam einsteigen und vorher ärztlichen Rat holen.",
       "source": "Gibala et al.: Short-term sprint interval versus traditional endurance training. The Journal of Physiology, 2006"
     },
     "en": {
       "title": "2.5 hours instead of 10.5 hours",
       "body": "No time for cardio? A Canadian study has an answer.\n\nTwo groups trained for two weeks. One cycled at a steady pace, 90 to 120 minutes per session. The other did short sprints: **four to six 30-second** all-out efforts with rests in between. The sprint group trained **2.5 hours** in total, the other **10.5 hours**.\n\nThe improvements in the muscles were **similar**. Intensity can replace time. Not completely, but surprisingly much.",
-      "apply": "After warming up today, do four 30-second sprints with four minutes of easy recovery in between.",
-      "more": "Martin Gibala and colleagues at McMaster University measured endurance performance and muscle enzymes, among other things. This kind of sprint training is very hard. If you're untrained or have heart problems, start slowly and get medical advice first.",
+      "act": "- Warm up easily for 5 minutes.\n- 30 seconds all-out.\n- 4 minutes easy.\n- Repeat four to six times, then cool down.",
+      "deep": "Martin Gibala and colleagues at McMaster University measured endurance performance and muscle enzymes, among other things. This kind of sprint training is very hard. If you're untrained or have heart problems, start slowly and get medical advice first.",
       "source": "Gibala et al.: Short-term sprint interval versus traditional endurance training. The Journal of Physiology, 2006"
     }
   },
@@ -278,18 +295,19 @@
     "sub": "ausdauer",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Wie viele Schritte du wirklich brauchst",
       "body": "Die berühmten **10'000 Schritte** stammen ursprünglich aus einer japanischen Werbekampagne für Schrittzähler von 1965. Die Wissenschaft kam erst später.\n\nEine Auswertung von 15 Studien mit fast **50'000 Erwachsenen** zeigt: Mehr Schritte senken das Sterberisiko deutlich. Bei Menschen unter 60 flachte der Nutzen bei etwa **8'000 bis 10'000** Schritten ab, bei über 60-Jährigen bei **6'000 bis 8'000**.\n\nJeder Schritt zählt. Aber gehen ist die Basis, nicht das Training.",
-      "apply": "Schau heute Abend auf deinen Schrittzähler. Liegst du unter 7'000, geh morgen 20 Minuten zusätzlich zu Fuss.",
-      "more": "Amanda Paluch und Kollegen werteten Daten aus vier Kontinenten aus. Das Tempo der Schritte spielte in ihrer Analyse eine kleinere Rolle als die Menge. Wer schon viel geht, gewinnt mit gezieltem Ausdauer- und Krafttraining mehr als mit noch mehr Schritten.",
+      "act": "Schau heute Abend auf deinen Schrittzähler. Liegst du unter 7'000, geh morgen 20 Minuten zusätzlich zu Fuss.",
+      "deep": "Amanda Paluch und Kollegen werteten Daten aus vier Kontinenten aus. Das Tempo der Schritte spielte in ihrer Analyse eine kleinere Rolle als die Menge. Wer schon viel geht, gewinnt mit gezieltem Ausdauer- und Krafttraining mehr als mit noch mehr Schritten.",
       "source": "Paluch et al.: Daily steps and all-cause mortality. The Lancet Public Health, 2022"
     },
     "en": {
       "title": "How many steps you really need",
       "body": "The famous **10,000 steps** originally came from a 1965 Japanese marketing campaign for pedometers. The science came later.\n\nAn analysis of 15 studies with almost **50,000 adults** shows that more steps clearly lower the risk of death. For people under 60, the benefit levelled off at about **8,000 to 10,000** steps; for those over 60, at **6,000 to 8,000**.\n\nEvery step counts. But walking is the base, not the workout.",
-      "apply": "Check your step count tonight. If you're under 7,000, walk an extra 20 minutes tomorrow.",
-      "more": "Amanda Paluch and colleagues analysed data from four continents. In their analysis, step speed mattered less than the amount. If you already walk a lot, you'll gain more from targeted cardio and strength work than from even more steps.",
+      "act": "Check your step count tonight. If you're under 7,000, walk an extra 20 minutes tomorrow.",
+      "deep": "Amanda Paluch and colleagues analysed data from four continents. In their analysis, step speed mattered less than the amount. If you already walk a lot, you'll gain more from targeted cardio and strength work than from even more steps.",
       "source": "Paluch et al.: Daily steps and all-cause mortality. The Lancet Public Health, 2022"
     }
   },
@@ -299,18 +317,19 @@
     "sub": "ausdauer",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Laufen ruiniert deine Knie nicht",
       "body": "\"Laufen macht die Gelenke kaputt.\" Diesen Satz hört jeder Läufer. Die Daten sagen etwas anderes.\n\nEine Auswertung von Studien mit über **114'000 Menschen** fand Arthrose in Hüfte oder Knie bei **3,5 %** der Freizeitläufer, aber bei **10,2 %** der Menschen, die keinen Sport trieben. Nur bei Profis mit extremen Umfängen war die Rate höher.\n\nGelenke sind wie Muskeln: Sie werden durch vernünftige Belastung stärker, nicht schwächer.",
-      "apply": "Wenn du wegen deiner Knie nicht läufst: Starte diese Woche mit 20 Minuten Wechsel aus Gehen und lockerem Laufen.",
-      "more": "Eduard Alentorn-Geli und Kollegen werteten 25 Studien aus. Bei Profiläufern lag die Rate bei 13,3 %. Übergewicht, frühere Verletzungen und Genetik sind wichtigere Risikofaktoren als Laufen selbst. Wer neu beginnt, steigert den Umfang langsam.",
+      "act": "Wenn du wegen deiner Knie nicht läufst: Starte diese Woche mit 20 Minuten Wechsel aus Gehen und lockerem Laufen.",
+      "deep": "Eduard Alentorn-Geli und Kollegen werteten 25 Studien aus. Bei Profiläufern lag die Rate bei 13,3 %. Übergewicht, frühere Verletzungen und Genetik sind wichtigere Risikofaktoren als Laufen selbst. Wer neu beginnt, steigert den Umfang langsam.",
       "source": "Alentorn-Geli et al.: The association of recreational and competitive running with hip and knee osteoarthritis. Journal of Orthopaedic & Sports Physical Therapy, 2017"
     },
     "en": {
       "title": "Running won't ruin your knees",
       "body": "\"Running wrecks your joints.\" Every runner has heard it. The data say something else.\n\nAn analysis of studies with more than **114,000 people** found hip or knee arthritis in **3.5%** of recreational runners, but in **10.2%** of people who did no sport. Only elite runners with extreme mileage had a higher rate.\n\nJoints are like muscles: sensible loading makes them stronger, not weaker.",
-      "apply": "If you avoid running because of your knees, start this week with 20 minutes alternating walking and easy jogging.",
-      "more": "Eduard Alentorn-Geli and colleagues analysed 25 studies. Among elite runners, the rate was 13.3%. Excess weight, past injuries and genetics are bigger risk factors than running itself. If you're new to it, build up slowly.",
+      "act": "If you avoid running because of your knees, start this week with 20 minutes alternating walking and easy jogging.",
+      "deep": "Eduard Alentorn-Geli and colleagues analysed 25 studies. Among elite runners, the rate was 13.3%. Excess weight, past injuries and genetics are bigger risk factors than running itself. If you're new to it, build up slowly.",
       "source": "Alentorn-Geli et al.: The association of recreational and competitive running with hip and knee osteoarthritis. Journal of Orthopaedic & Sports Physical Therapy, 2017"
     }
   },
@@ -320,18 +339,21 @@
     "sub": "ernaehrung",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "1,6 Gramm Protein pro Kilo",
       "body": "Muskeln werden aus Protein gebaut. Aber wie viel brauchst du wirklich, wenn du trainierst?\n\nEine Auswertung von **49 Studien** zeigt: Zusätzliches Protein half beim Muskelaufbau bis etwa **1,6 Gramm pro Kilo Körpergewicht** und Tag. Darüber kam im Schnitt kaum noch etwas dazu.\n\nFür einen Mann mit 80 kg sind das rund 130 g pro Tag. Verteilt auf drei bis vier Mahlzeiten ist das gut machbar: Eier, Fleisch, Fisch, Quark, Hülsenfrüchte.",
-      "apply": "Rechne heute dein Körpergewicht mal 1,6 und zähl einmal, wie viel Protein du tatsächlich isst.",
-      "more": "Robert Morton und Kollegen fassten Studien mit fast 1'900 Teilnehmern zusammen. Die obere Grenze des Vertrauensbereichs lag bei 2,2 g/kg, für sehr ehrgeizige Ziele kann also etwas mehr sinnvoll sein. Ohne Krafttraining bringt mehr Protein allein kaum Muskeln.",
+      "example": "80 kg × 1,6 = 128 g Protein am Tag. Zum Beispiel: 3 Eier und ein Joghurt zum Frühstück (30 g), 150 g Poulet mittags (45 g), Linsen oder Fisch am Abend (35 g), dazu Quark oder eine Handvoll Nüsse (20 g).",
+      "act": "Rechne heute dein Körpergewicht mal 1,6 und zähl einmal, wie viel Protein du tatsächlich isst.",
+      "deep": "Robert Morton und Kollegen fassten Studien mit fast 1'900 Teilnehmern zusammen. Die obere Grenze des Vertrauensbereichs lag bei 2,2 g/kg, für sehr ehrgeizige Ziele kann also etwas mehr sinnvoll sein. Ohne Krafttraining bringt mehr Protein allein kaum Muskeln.",
       "source": "Morton et al.: A systematic review, meta-analysis and meta-regression of the effect of protein supplementation. British Journal of Sports Medicine, 2018"
     },
     "en": {
       "title": "1.6 grams of protein per kilo",
       "body": "Muscle is built from protein. But how much do you really need when you train?\n\nAn analysis of **49 studies** shows that extra protein helped build muscle up to about **1.6 grams per kilo of body weight** per day. Beyond that, little was added on average.\n\nFor an 80 kg (176 lb) man, that's about 130 g a day. Spread over three or four meals it's very doable: eggs, meat, fish, yoghurt or quark, beans and lentils.",
-      "apply": "Multiply your body weight in kilos by 1.6 today and count once how much protein you actually eat.",
-      "more": "Robert Morton and colleagues pooled studies with almost 1,900 participants. The upper end of the confidence range was 2.2 g/kg, so a bit more can make sense for very ambitious goals. Without strength training, more protein alone builds hardly any muscle.",
+      "example": "80 kg × 1.6 = 128 g of protein a day. For example: 3 eggs and a yoghurt for breakfast (30 g), 150 g chicken at lunch (45 g), lentils or fish at dinner (35 g), plus quark or a handful of nuts (20 g).",
+      "act": "Multiply your body weight in kilos by 1.6 today and count once how much protein you actually eat.",
+      "deep": "Robert Morton and colleagues pooled studies with almost 1,900 participants. The upper end of the confidence range was 2.2 g/kg, so a bit more can make sense for very ambitious goals. Without strength training, more protein alone builds hardly any muscle.",
       "source": "Morton et al.: A systematic review, meta-analysis and meta-regression of the effect of protein supplementation. British Journal of Sports Medicine, 2018"
     }
   },
@@ -341,18 +363,19 @@
     "sub": "ernaehrung",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Fertigessen lässt dich 500 Kalorien mehr essen",
       "body": "Forscher des US-Gesundheitsinstituts NIH liessen 20 Erwachsene einen Monat lang im Labor wohnen. Zwei Wochen bekamen sie stark verarbeitetes Essen, zwei Wochen unverarbeitetes. Beide Kostformen hatten gleich viel Zucker, Fett und Ballaststoffe auf dem Teller. Essen durften sie, so viel sie wollten.\n\nMit Fertigessen assen sie rund **500 Kalorien mehr pro Tag** und nahmen in zwei Wochen fast ein Kilo zu. Mit echtem Essen nahmen sie ab.\n\nFertigessen ist gebaut, damit du mehr isst. Echtes Essen macht dich satt.",
-      "apply": "Ersetze heute eine Fertigmahlzeit durch etwas, das aus Zutaten besteht, die deine Grossmutter kennen würde.",
-      "more": "Kevin Hall und Kollegen führten die erste kontrollierte Studie dieser Art durch. Die Teilnehmer assen das verarbeitete Essen schneller. Als \"ultra-verarbeitet\" gelten Produkte aus industriellen Zutaten wie Fertigpizza, Chips, Süssgetränke und viele Frühstücksflocken.",
+      "act": "Ersetze heute eine Fertigmahlzeit durch etwas, das aus Zutaten besteht, die deine Grossmutter kennen würde.",
+      "deep": "Kevin Hall und Kollegen führten die erste kontrollierte Studie dieser Art durch. Die Teilnehmer assen das verarbeitete Essen schneller. Als \"ultra-verarbeitet\" gelten Produkte aus industriellen Zutaten wie Fertigpizza, Chips, Süssgetränke und viele Frühstücksflocken.",
       "source": "Hall et al.: Ultra-processed diets cause excess calorie intake and weight gain. Cell Metabolism, 2019"
     },
     "en": {
       "title": "Processed food makes you eat 500 calories more",
       "body": "Researchers at the US National Institutes of Health had 20 adults live in a lab for a month. For two weeks they got ultra-processed food, for two weeks unprocessed. Both diets offered the same sugar, fat and fibre on the plate. They could eat as much as they wanted.\n\nOn processed food they ate about **500 calories more per day** and gained almost a kilo in two weeks. On real food they lost weight.\n\nProcessed food is built to make you eat more. Real food fills you up.",
-      "apply": "Replace one processed meal today with something made from ingredients your grandmother would recognise.",
-      "more": "Kevin Hall and colleagues ran the first controlled study of its kind. Participants ate the processed food faster. \"Ultra-processed\" means products made from industrial ingredients, such as ready-made pizza, crisps, soft drinks and many breakfast cereals.",
+      "act": "Replace one processed meal today with something made from ingredients your grandmother would recognise.",
+      "deep": "Kevin Hall and colleagues ran the first controlled study of its kind. Participants ate the processed food faster. \"Ultra-processed\" means products made from industrial ingredients, such as ready-made pizza, crisps, soft drinks and many breakfast cereals.",
       "source": "Hall et al.: Ultra-processed diets cause excess calorie intake and weight gain. Cell Metabolism, 2019"
     }
   },
@@ -362,18 +385,19 @@
     "sub": "ernaehrung",
     "style": "fakt",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Ballaststoffe: der unterschätzte Lebensverlängerer",
       "body": "Ballaststoffe klingen langweilig. Ihre Wirkung ist es nicht.\n\nEine grosse Auswertung im Auftrag der WHO fasste **185 Beobachtungsstudien** und 58 klinische Studien zusammen. Wer **25 bis 29 Gramm** Ballaststoffe am Tag ass, hatte ein um **15 bis 30 %** geringeres Risiko für frühen Tod, Herzkrankheit, Typ-2-Diabetes und Darmkrebs als Menschen, die wenig assen.\n\nDie meisten Erwachsenen erreichen diese Menge nicht. Vollkorn, Hülsenfrüchte, Gemüse, Nüsse und Beeren bringen dich hin.",
-      "apply": "Bau heute in jede Mahlzeit eine Ballaststoffquelle ein: Haferflocken, Linsen, Gemüse oder eine Handvoll Nüsse.",
-      "more": "Andrew Reynolds und Kollegen veröffentlichten die Arbeit 2019 in The Lancet. Ballaststoffe sättigen, ernähren die Darmbakterien und dämpfen den Blutzuckeranstieg. Wer die Menge erhöht, sollte es langsam tun und genug trinken.",
+      "act": "Eine Ballaststoffquelle in jede Mahlzeit:\n- Morgens: Haferflocken.\n- Mittags: Gemüse oder Salat zuerst.\n- Abends: Linsen, Bohnen oder Vollkorn.\n- Zwischendurch: eine Handvoll Nüsse.",
+      "deep": "Andrew Reynolds und Kollegen veröffentlichten die Arbeit 2019 in The Lancet. Ballaststoffe sättigen, ernähren die Darmbakterien und dämpfen den Blutzuckeranstieg. Wer die Menge erhöht, sollte es langsam tun und genug trinken.",
       "source": "Reynolds et al.: Carbohydrate quality and human health. The Lancet, 2019"
     },
     "en": {
       "title": "Fibre: the underrated life extender",
       "body": "Fibre sounds boring. Its effect isn't.\n\nA large analysis commissioned by the WHO pooled **185 observational studies** and 58 clinical trials. People eating **25 to 29 grams** of fibre a day had a **15 to 30%** lower risk of early death, heart disease, type 2 diabetes and colorectal cancer than those eating little.\n\nMost adults don't reach that amount. Whole grains, beans and lentils, vegetables, nuts and berries get you there.",
-      "apply": "Add a fibre source to every meal today: oats, lentils, vegetables or a handful of nuts.",
-      "more": "Andrew Reynolds and colleagues published the work in The Lancet in 2019. Fibre fills you up, feeds gut bacteria and blunts blood sugar spikes. If you increase it, do so gradually and drink enough.",
+      "act": "One fibre source in every meal:\n- Morning: oats.\n- Lunch: vegetables or salad first.\n- Evening: lentils, beans or wholegrain.\n- In between: a handful of nuts.",
+      "deep": "Andrew Reynolds and colleagues published the work in The Lancet in 2019. Fibre fills you up, feeds gut bacteria and blunts blood sugar spikes. If you increase it, do so gradually and drink enough.",
       "source": "Reynolds et al.: Carbohydrate quality and human health. The Lancet, 2019"
     }
   },
@@ -383,18 +407,19 @@
     "sub": "ernaehrung",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Getränke machen nicht satt",
       "body": "Ein Liter Cola hat rund **420 Kalorien**, so viel wie eine kleine Mahlzeit. Aber danach isst du nicht weniger.\n\nIn einem Experiment bekamen Teilnehmer zusätzlich 450 Kalorien pro Tag, einmal als Süssigkeiten, einmal als Limonade. Bei den Süssigkeiten assen sie danach automatisch weniger. Bei der Limonade **nicht**, und sie nahmen zu.\n\nDein Körper zählt flüssige Kalorien schlecht. Trink Wasser, Kaffee oder Tee, und iss deine Kalorien.",
-      "apply": "Trink heute nur Wasser, ungesüssten Tee oder Kaffee. Kein Süssgetränk, kein Saft.",
-      "more": "Daniel DiMeglio und Richard Mattes veröffentlichten die Studie im Jahr 2000. Viele weitere Studien zeigen einen Zusammenhang zwischen Süssgetränken, Übergewicht und Diabetes. Auch Fruchtsaft enthält viel Zucker, aber kaum Ballaststoffe.",
+      "act": "Trink heute nur Wasser, ungesüssten Tee oder Kaffee. Kein Süssgetränk, kein Saft.",
+      "deep": "Daniel DiMeglio und Richard Mattes veröffentlichten die Studie im Jahr 2000. Viele weitere Studien zeigen einen Zusammenhang zwischen Süssgetränken, Übergewicht und Diabetes. Auch Fruchtsaft enthält viel Zucker, aber kaum Ballaststoffe.",
       "source": "DiMeglio & Mattes: Liquid versus solid carbohydrate: effects on food intake and body weight. International Journal of Obesity, 2000"
     },
     "en": {
       "title": "Drinks don't fill you up",
       "body": "A litre of cola has about **420 calories**, as much as a small meal. But you don't eat less afterwards.\n\nIn an experiment, participants got an extra 450 calories a day, once as jelly beans, once as soda. With the sweets they automatically ate less afterwards. With the soda they **didn't**, and gained weight.\n\nYour body counts liquid calories poorly. Drink water, coffee or tea, and eat your calories.",
-      "apply": "Drink only water, unsweetened tea or coffee today. No soft drinks, no juice.",
-      "more": "Daniel DiMeglio and Richard Mattes published the study in 2000. Many further studies link sugary drinks to obesity and diabetes. Fruit juice also contains a lot of sugar but hardly any fibre.",
+      "act": "Drink only water, unsweetened tea or coffee today. No soft drinks, no juice.",
+      "deep": "Daniel DiMeglio and Richard Mattes published the study in 2000. Many further studies link sugary drinks to obesity and diabetes. Fruit juice also contains a lot of sugar but hardly any fibre.",
       "source": "DiMeglio & Mattes: Liquid versus solid carbohydrate: effects on food intake and body weight. International Journal of Obesity, 2000"
     }
   },
@@ -404,18 +429,19 @@
     "sub": "ernaehrung",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Schon 2 Prozent weniger Wasser bremsen dich",
       "body": "Du merkst Durst oft erst spät. Dein Körper merkt den Mangel früher.\n\nVerliert ein Mensch rund **2 % seines Körpergewichts** an Wasser, bei 80 kg also 1,6 Liter, sinkt seine Ausdauerleistung messbar. Auch Konzentration und Stimmung können leiden.\n\nDas passiert schneller, als man denkt: bei einem harten Training in der Hitze oder an einem langen Arbeitstag mit drei Kaffees und sonst nichts.",
-      "apply": "Stell dir heute morgens eine volle Flasche Wasser auf den Tisch und trink sie bis zum Mittag leer.",
-      "more": "Das American College of Sports Medicine empfiehlt, vor dem Training ausreichend zu trinken und Flüssigkeitsverluste von mehr als 2 % zu vermeiden. Ein einfacher Test: Ist dein Urin hellgelb, bist du meist gut versorgt.",
+      "act": "Stell dir heute morgens eine volle Flasche Wasser auf den Tisch und trink sie bis zum Mittag leer.",
+      "deep": "Das American College of Sports Medicine empfiehlt, vor dem Training ausreichend zu trinken und Flüssigkeitsverluste von mehr als 2 % zu vermeiden. Ein einfacher Test: Ist dein Urin hellgelb, bist du meist gut versorgt.",
       "source": "American College of Sports Medicine: Exercise and Fluid Replacement, Position Stand, 2007"
     },
     "en": {
       "title": "Just 2 percent less water slows you down",
       "body": "You often notice thirst late. Your body notices the shortage earlier.\n\nWhen a person loses about **2% of body weight** in water, 1.6 litres for an 80 kg man, endurance performance drops measurably. Concentration and mood can suffer too.\n\nIt happens faster than you'd think: in a hard workout in the heat, or on a long workday with three coffees and nothing else.",
-      "apply": "Put a full bottle of water on your desk this morning and finish it by lunch.",
-      "more": "The American College of Sports Medicine advises drinking enough before exercise and avoiding fluid losses of more than 2%. A simple check: if your urine is pale yellow, you're usually well hydrated.",
+      "act": "Put a full bottle of water on your desk this morning and finish it by lunch.",
+      "deep": "The American College of Sports Medicine advises drinking enough before exercise and avoiding fluid losses of more than 2%. A simple check: if your urine is pale yellow, you're usually well hydrated.",
       "source": "American College of Sports Medicine: Exercise and Fluid Replacement, Position Stand, 2007"
     }
   },
@@ -425,18 +451,19 @@
     "sub": "vitamine",
     "style": "fakt",
     "level": 1,
+    "actKind": "merke",
     "de": {
       "title": "Im Winter macht deine Haut kein Vitamin D",
       "body": "Vitamin D bildet der Körper vor allem mit Sonnenlicht auf der Haut. Aber nicht das ganze Jahr.\n\nForscher zeigten in Boston, das etwa auf der Höhe von Rom liegt: Von **November bis Februar** ist die Sonne zu schwach, die Haut bildet dann praktisch kein Vitamin D. In der Schweiz und in Deutschland, weiter nördlich, ist das Winterloch noch länger.\n\nDie Eidgenössische Ernährungskommission empfiehlt Erwachsenen **15 Mikrogramm (600 IE)** pro Tag, ab 60 Jahren **20 Mikrogramm (800 IE)**. Im Winter erreichen das viele nur mit einem Präparat.",
-      "apply": "Wenn du im Winter kaum draussen bist: Sprich mit deinem Arzt über einen Vitamin-D-Test oder ein Präparat.",
-      "more": "Vitamin D ist wichtig für Knochen, Muskeln und das Immunsystem. Nur wenige Lebensmittel enthalten nennenswerte Mengen, etwa fetter Fisch und Eier. Sehr hohe Dosen über lange Zeit können schaden, darum gilt: nicht einfach Megadosen schlucken.",
+      "act": "Von November bis Februar macht deine Haut in Mitteleuropa praktisch kein Vitamin D. Wenn du dann kaum draussen bist, sprich mit deinem Arzt über einen Test oder ein Präparat.",
+      "deep": "Vitamin D ist wichtig für Knochen, Muskeln und das Immunsystem. Nur wenige Lebensmittel enthalten nennenswerte Mengen, etwa fetter Fisch und Eier. Sehr hohe Dosen über lange Zeit können schaden, darum gilt: nicht einfach Megadosen schlucken.",
       "source": "Webb, Kline & Holick: Journal of Clinical Endocrinology & Metabolism, 1988; Eidgenössische Ernährungskommission: Vitamin D, 2012"
     },
     "en": {
       "title": "In winter your skin makes no vitamin D",
       "body": "Your body makes vitamin D mainly from sunlight on your skin. But not all year.\n\nResearchers showed that in Boston, roughly at the latitude of Rome, the sun is too weak from **November to February**: the skin makes practically no vitamin D. Further north, in Switzerland, Germany or the UK, the winter gap is even longer.\n\nSwiss authorities recommend **15 micrograms (600 IU)** a day for adults, and **20 micrograms (800 IU)** from age 60. In winter many people only reach that with a supplement.",
-      "apply": "If you're barely outside in winter, talk to your doctor about a vitamin D test or a supplement.",
-      "more": "Vitamin D matters for bones, muscles and the immune system. Few foods contain much of it, such as oily fish and eggs. Very high doses over long periods can be harmful, so don't just swallow mega-doses.",
+      "act": "From November to February your skin makes almost no vitamin D in central Europe. If you're rarely outside then, talk to your doctor about a test or a supplement.",
+      "deep": "Vitamin D matters for bones, muscles and the immune system. Few foods contain much of it, such as oily fish and eggs. Very high doses over long periods can be harmful, so don't just swallow mega-doses.",
       "source": "Webb, Kline & Holick: Journal of Clinical Endocrinology & Metabolism, 1988; Swiss Federal Commission for Nutrition: Vitamin D, 2012"
     }
   },
@@ -446,18 +473,19 @@
     "sub": "vitamine",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Magnesium: beteiligt an Hunderten Vorgängen",
       "body": "Magnesium arbeitet im Hintergrund. Es ist an **über 300 Enzymreaktionen** beteiligt: Energie aus Nahrung gewinnen, Muskeln und Nerven steuern, Eiweiss aufbauen, Knochen stärken.\n\nErwachsene Männer brauchen rund **350 mg** pro Tag, Frauen etwa **300 mg**. Gute Quellen sind Kürbiskerne, Nüsse, Vollkorn, Hülsenfrüchte, Spinat und dunkle Schokolade.\n\nWer viel schwitzt, viel Alkohol trinkt oder wenig Vollkorn isst, kommt leichter zu kurz. Zuerst kommt die Ernährung, dann erst ein Präparat.",
-      "apply": "Iss heute eine Handvoll Kürbiskerne oder Mandeln statt eines Riegels.",
-      "more": "Gegen Wadenkrämpfe wird Magnesium oft empfohlen, die Studienlage dafür ist bei gesunden Erwachsenen aber schwach. Bei Nierenerkrankungen sollte man Präparate nur nach ärztlicher Rücksprache nehmen.",
+      "act": "Iss heute eine Handvoll Kürbiskerne oder Mandeln statt eines Riegels.",
+      "deep": "Gegen Wadenkrämpfe wird Magnesium oft empfohlen, die Studienlage dafür ist bei gesunden Erwachsenen aber schwach. Bei Nierenerkrankungen sollte man Präparate nur nach ärztlicher Rücksprache nehmen.",
       "source": "Deutsche Gesellschaft für Ernährung (DGE): Referenzwerte Magnesium; National Institutes of Health, Office of Dietary Supplements"
     },
     "en": {
       "title": "Magnesium: involved in hundreds of processes",
       "body": "Magnesium works in the background. It takes part in **more than 300 enzyme reactions**: getting energy from food, controlling muscles and nerves, building protein, strengthening bones.\n\nAdult men need about **350 mg** a day (US guidelines say up to 420 mg), women about **300 mg**. Good sources are pumpkin seeds, nuts, whole grains, beans, spinach and dark chocolate.\n\nIf you sweat a lot, drink a lot of alcohol or eat few whole grains, you're more likely to fall short. Food comes first, supplements second.",
-      "apply": "Eat a handful of pumpkin seeds or almonds today instead of a snack bar.",
-      "more": "Magnesium is often recommended for leg cramps, but the evidence in healthy adults is weak. People with kidney disease should only take supplements after talking to a doctor.",
+      "act": "Eat a handful of pumpkin seeds or almonds today instead of a snack bar.",
+      "deep": "Magnesium is often recommended for leg cramps, but the evidence in healthy adults is weak. People with kidney disease should only take supplements after talking to a doctor.",
       "source": "German Nutrition Society (DGE): reference values for magnesium; National Institutes of Health, Office of Dietary Supplements"
     }
   },
@@ -467,18 +495,19 @@
     "sub": "vitamine",
     "style": "fakt",
     "level": 2,
+    "actKind": "merke",
     "de": {
       "title": "Eisen: Frauen brauchen mehr, Männer oft weniger",
       "body": "Eisen transportiert Sauerstoff im Blut. Ohne genug davon bist du müde, blass und schwach.\n\nFrauen verlieren jeden Monat Blut und damit Eisen. Darum brauchen sie vor den Wechseljahren deutlich mehr: rund **15 mg** pro Tag, Männer nur etwa **10 mg**. Eisenmangel ist bei jungen Frauen häufig, bei Männern eher selten.\n\nFür Männer gilt deshalb: **Kein Eisenpräparat ohne Bluttest.** Zu viel Eisen kann Leber, Herz und Gelenke schädigen.",
-      "apply": "Iss Eisenquellen wie Fleisch, Linsen oder Spinat zusammen mit Vitamin C, zum Beispiel Paprika oder einem Glas Orangensaft. So nimmt der Körper mehr auf.",
-      "more": "Eine häufige Erbkrankheit, die Hämochromatose, führt dazu, dass der Körper zu viel Eisen speichert. Sie betrifft vor allem Männer. Tee und Kaffee zum Essen hemmen die Aufnahme von pflanzlichem Eisen.",
+      "act": "Eisen aus Fleisch, Linsen oder Spinat nimmt der Körper besser auf, wenn Vitamin C dabei ist: Paprika, Zitrone oder ein Glas Orangensaft. Kaffee und Tee dagegen erst eine Stunde später.",
+      "deep": "Eine häufige Erbkrankheit, die Hämochromatose, führt dazu, dass der Körper zu viel Eisen speichert. Sie betrifft vor allem Männer. Tee und Kaffee zum Essen hemmen die Aufnahme von pflanzlichem Eisen.",
       "source": "Deutsche Gesellschaft für Ernährung (DGE): Referenzwerte Eisen"
     },
     "en": {
       "title": "Iron: women need more, men often less",
       "body": "Iron carries oxygen in your blood. Without enough of it you're tired, pale and weak.\n\nWomen lose blood, and with it iron, every month. So before menopause they need much more: about **15 to 18 mg** a day, men only about **8 to 11 mg**. Iron deficiency is common in young women and fairly rare in men.\n\nSo for men: **no iron supplement without a blood test.** Too much iron can damage the liver, heart and joints.",
-      "apply": "Eat iron sources like meat, lentils or spinach together with vitamin C, such as peppers or a glass of orange juice. Your body absorbs more that way.",
-      "more": "A common inherited condition, haemochromatosis, makes the body store too much iron. It mainly affects men. Tea and coffee with meals reduce the absorption of plant iron.",
+      "act": "Your body absorbs iron from meat, lentils or spinach better with vitamin C: peppers, lemon or a glass of orange juice. Coffee and tea, on the other hand, an hour later.",
+      "deep": "A common inherited condition, haemochromatosis, makes the body store too much iron. It mainly affects men. Tea and coffee with meals reduce the absorption of plant iron.",
       "source": "German Nutrition Society (DGE); US National Institutes of Health: Iron fact sheet"
     }
   },
@@ -488,18 +517,19 @@
     "sub": "vitamine",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "B12 kommt fast nur aus tierischen Lebensmitteln",
       "body": "Vitamin B12 brauchst du für Blut, Nerven und Energie. Pflanzen liefern es praktisch nicht. Es steckt in Fleisch, Fisch, Eiern und Milchprodukten.\n\nWer vegan isst, **muss** B12 ergänzen. Das ist keine Meinung, sondern die klare Empfehlung der Fachgesellschaften.\n\nTückisch ist: Die Leber speichert B12 für Jahre. Ein Mangel zeigt sich darum spät, und Nervenschäden können dann bleiben.",
-      "apply": "Wenn du wenig oder keine tierischen Produkte isst: Lass deinen B12-Wert beim nächsten Arztbesuch prüfen.",
-      "more": "Auch ältere Menschen und Personen, die bestimmte Magensäurehemmer oder das Diabetesmedikament Metformin nehmen, nehmen B12 oft schlechter auf. Algen und fermentierte Lebensmittel sind keine verlässlichen Quellen.",
+      "act": "Wenn du wenig oder keine tierischen Produkte isst: Lass deinen B12-Wert beim nächsten Arztbesuch prüfen.",
+      "deep": "Auch ältere Menschen und Personen, die bestimmte Magensäurehemmer oder das Diabetesmedikament Metformin nehmen, nehmen B12 oft schlechter auf. Algen und fermentierte Lebensmittel sind keine verlässlichen Quellen.",
       "source": "Deutsche Gesellschaft für Ernährung (DGE): Vegane Ernährung, Positionspapier 2016"
     },
     "en": {
       "title": "B12 comes almost only from animal foods",
       "body": "You need vitamin B12 for blood, nerves and energy. Plants provide practically none. It's found in meat, fish, eggs and dairy.\n\nIf you eat vegan, you **must** supplement B12. That's not an opinion, it's the clear recommendation of nutrition societies.\n\nThe tricky part: your liver stores B12 for years. So a deficiency shows up late, and nerve damage can then be permanent.",
-      "apply": "If you eat few or no animal products, have your B12 checked at your next doctor's visit.",
-      "more": "Older people and those taking certain acid-blocking drugs or the diabetes drug metformin often absorb B12 less well too. Algae and fermented foods are not reliable sources.",
+      "act": "If you eat few or no animal products, have your B12 checked at your next doctor's visit.",
+      "deep": "Older people and those taking certain acid-blocking drugs or the diabetes drug metformin often absorb B12 less well too. Algae and fermented foods are not reliable sources.",
       "source": "German Nutrition Society (DGE): Vegan diet, position paper 2016"
     }
   },
@@ -509,18 +539,19 @@
     "sub": "vitamine",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Omega-3: Warum Fisch zweimal pro Woche",
       "body": "Omega-3-Fettsäuren baut dein Körper in jede Zellwand ein, besonders in Gehirn, Augen und Herz. Die wichtigsten heissen **EPA** und **DHA**.\n\nSie stecken vor allem in **fettem Fisch**: Lachs, Hering, Makrele, Sardinen. Pflanzen wie Leinsamen und Walnüsse liefern eine Vorstufe, die der Körper aber nur zu einem kleinen Teil umwandelt, meist unter 10 %.\n\nDarum lautet die gängige Empfehlung: ein- bis zweimal pro Woche Fisch, davon einmal fetter Fisch.",
-      "apply": "Plane diese Woche eine Mahlzeit mit fettem Fisch ein: Lachs, Makrele oder Sardinen aus der Dose zählen auch.",
-      "more": "Ob Fischölkapseln bei Gesunden Herzinfarkte verhindern, ist umstritten; grosse Studien kamen zu gemischten Ergebnissen. Fisch als Lebensmittel schneidet in Beobachtungsstudien besser ab. Wer keinen Fisch isst, kann Algenöl in Betracht ziehen.",
+      "act": "Mach fetten Fisch zur festen Regel: zweimal pro Woche Lachs, Makrele, Hering oder Sardinen aus der Dose.",
+      "deep": "Ob Fischölkapseln bei Gesunden Herzinfarkte verhindern, ist umstritten; grosse Studien kamen zu gemischten Ergebnissen. Fisch als Lebensmittel schneidet in Beobachtungsstudien besser ab. Wer keinen Fisch isst, kann Algenöl in Betracht ziehen.",
       "source": "Deutsche Gesellschaft für Ernährung (DGE): 10 Regeln; European Food Safety Authority (EFSA), 2012"
     },
     "en": {
       "title": "Omega-3: why fish twice a week",
       "body": "Your body builds omega-3 fatty acids into every cell membrane, especially in the brain, eyes and heart. The most important ones are **EPA** and **DHA**.\n\nThey're found mainly in **oily fish**: salmon, herring, mackerel, sardines. Plants like flaxseed and walnuts provide a precursor, but the body converts only a small part of it, usually under 10%.\n\nHence the common advice: fish once or twice a week, at least once oily fish.",
-      "apply": "Plan one meal with oily fish this week: salmon, mackerel or canned sardines all count.",
-      "more": "Whether fish oil capsules prevent heart attacks in healthy people is debated; large trials had mixed results. Fish as food does better in observational studies. If you don't eat fish, algae oil is an option.",
+      "act": "Make oily fish a fixed rule: twice a week salmon, mackerel, herring or tinned sardines.",
+      "deep": "Whether fish oil capsules prevent heart attacks in healthy people is debated; large trials had mixed results. Fish as food does better in observational studies. If you don't eat fish, algae oil is an option.",
       "source": "German Nutrition Society (DGE); European Food Safety Authority (EFSA), 2012"
     }
   },
@@ -530,18 +561,19 @@
     "sub": "schlaf",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Unter sieben Stunden zahlst du drauf",
       "body": "\"Ich brauche nur fünf Stunden.\" Das sagen viele. Fast alle irren sich.\n\nFachgesellschaften für Schlafmedizin haben die Forschung ausgewertet und empfehlen Erwachsenen **mindestens sieben Stunden** pro Nacht. Wer regelmässig weniger schläft, hat ein höheres Risiko für Übergewicht, Diabetes, Bluthochdruck, Depression und Unfälle. Konzentration und Reaktion leiden, oft ohne dass man es selbst merkt.\n\nSchlaf ist keine verlorene Zeit. Er ist die Zeit, in der du stärker wirst.",
-      "apply": "Rechne heute von deiner Weckzeit acht Stunden zurück. Das ist deine Zeit, ins Bett zu gehen.",
-      "more": "Die American Academy of Sleep Medicine und die Sleep Research Society veröffentlichten die Empfehlung 2015 nach Prüfung von über 5'000 Studien. Gefährlich am Schlafmangel ist, dass man sich an das Gefühl gewöhnt, die Leistung sich aber nicht erholt.",
+      "act": "Rechne heute von deiner Weckzeit acht Stunden zurück. Das ist deine Zeit, ins Bett zu gehen.",
+      "deep": "Die American Academy of Sleep Medicine und die Sleep Research Society veröffentlichten die Empfehlung 2015 nach Prüfung von über 5'000 Studien. Gefährlich am Schlafmangel ist, dass man sich an das Gefühl gewöhnt, die Leistung sich aber nicht erholt.",
       "source": "Watson et al.: Recommended amount of sleep for a healthy adult. Sleep, 2015"
     },
     "en": {
       "title": "Under seven hours, you pay the price",
       "body": "\"I only need five hours.\" Many people say that. Almost all of them are wrong.\n\nSleep medicine societies reviewed the research and recommend that adults get **at least seven hours** a night. Regularly sleeping less raises the risk of obesity, diabetes, high blood pressure, depression and accidents. Focus and reaction time suffer, often without you noticing.\n\nSleep isn't lost time. It's the time when you get stronger.",
-      "apply": "Count back eight hours from your wake-up time today. That's your bedtime.",
-      "more": "The American Academy of Sleep Medicine and the Sleep Research Society published the recommendation in 2015 after reviewing more than 5,000 studies. The danger of sleep loss is that you get used to the feeling while your performance doesn't recover.",
+      "act": "Count back eight hours from your wake-up time today. That's your bedtime.",
+      "deep": "The American Academy of Sleep Medicine and the Sleep Research Society published the recommendation in 2015 after reviewing more than 5,000 studies. The danger of sleep loss is that you get used to the feeling while your performance doesn't recover.",
       "source": "Watson et al.: Recommended amount of sleep for a healthy adult. Sleep, 2015"
     }
   },
@@ -551,18 +583,19 @@
     "sub": "schlaf",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Der Kaffee von 16 Uhr wirkt noch um Mitternacht",
       "body": "Koffein hat eine Halbwertszeit von etwa **fünf Stunden**. Trinkst du um 16 Uhr einen starken Kaffee, ist um 21 Uhr noch die Hälfte in deinem Blut, um 2 Uhr nachts noch ein Viertel.\n\nIn einer Studie nahmen Teilnehmer Koffein **sechs Stunden** vor dem Schlafengehen. Sie schliefen über eine Stunde weniger, und die meisten merkten es nicht einmal.\n\nDu kannst einschlafen und trotzdem schlecht schlafen. Der Tiefschlaf leidet zuerst.",
-      "apply": "Trink heute deinen letzten Kaffee vor 14 Uhr und vergleiche morgen, wie du dich fühlst.",
-      "more": "Christopher Drake und Kollegen gaben 400 mg Koffein, etwa so viel wie in zwei bis drei grossen Kaffees. Wie schnell Koffein abgebaut wird, ist genetisch verschieden und kann zwischen zwei und zehn Stunden liegen.",
+      "act": "Trink heute deinen letzten Kaffee vor 14 Uhr und vergleiche morgen, wie du dich fühlst.",
+      "deep": "Christopher Drake und Kollegen gaben 400 mg Koffein, etwa so viel wie in zwei bis drei grossen Kaffees. Wie schnell Koffein abgebaut wird, ist genetisch verschieden und kann zwischen zwei und zehn Stunden liegen.",
       "source": "Drake, Roehrs, Shambroom & Roth: Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed. Journal of Clinical Sleep Medicine, 2013"
     },
     "en": {
       "title": "Your 4 pm coffee is still there at midnight",
       "body": "Caffeine has a half-life of about **five hours**. If you drink a strong coffee at 4 pm, half of it is still in your blood at 9 pm, and a quarter at 2 am.\n\nIn one study, participants took caffeine **six hours** before bed. They slept more than an hour less, and most didn't even notice.\n\nYou can fall asleep and still sleep badly. Deep sleep suffers first.",
-      "apply": "Have your last coffee before 2 pm today and compare how you feel tomorrow.",
-      "more": "Christopher Drake and colleagues gave 400 mg of caffeine, about as much as two to three large coffees. How fast caffeine is cleared varies genetically, from about two to ten hours.",
+      "act": "Have your last coffee before 2 pm today and compare how you feel tomorrow.",
+      "deep": "Christopher Drake and colleagues gave 400 mg of caffeine, about as much as two to three large coffees. How fast caffeine is cleared varies genetically, from about two to ten hours.",
       "source": "Drake, Roehrs, Shambroom & Roth: Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed. Journal of Clinical Sleep Medicine, 2013"
     }
   },
@@ -572,18 +605,19 @@
     "sub": "schlaf",
     "style": "fakt",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Licht am Morgen, Dunkelheit am Abend",
       "body": "Deine innere Uhr wird vor allem durch **Licht** gestellt. Helles Licht am Morgen sagt ihr: Tag. Dunkelheit am Abend sagt ihr: Schlaf.\n\nForscher in Harvard liessen Teilnehmer fünf Abende lang vor dem Schlafen vier Stunden auf einem Tablet lesen, an fünf anderen Abenden in einem gedruckten Buch. Mit dem Tablet wurde das Schlafhormon **Melatonin** später ausgeschüttet, sie schliefen später ein und waren am nächsten Morgen müder.\n\nDu musst nicht auf alles verzichten. Aber die letzte Stunde vor dem Schlaf gehört nicht dem Bildschirm.",
-      "apply": "Geh morgen früh in den ersten 30 Minuten nach draussen, und leg heute Abend eine Stunde vor dem Schlafen alle Bildschirme weg.",
-      "more": "Anne-Marie Chang und Kollegen veröffentlichten die Studie 2015. Tageslicht ist selbst an bewölkten Tagen viel heller als Raumlicht. Licht am Morgen hilft, abends früher müde zu werden.",
+      "act": "- Morgens: in den ersten 30 Minuten raus ans Tageslicht.\n- Abends: eine Stunde vor dem Schlafen alle Bildschirme weg.\n- Licht im Schlafzimmer gedimmt und warm.",
+      "deep": "Anne-Marie Chang und Kollegen veröffentlichten die Studie 2015. Tageslicht ist selbst an bewölkten Tagen viel heller als Raumlicht. Licht am Morgen hilft, abends früher müde zu werden.",
       "source": "Chang et al.: Evening use of light-emitting eReaders. PNAS, 2015"
     },
     "en": {
       "title": "Light in the morning, darkness at night",
       "body": "Your inner clock is set mainly by **light**. Bright light in the morning tells it: day. Darkness in the evening tells it: sleep.\n\nHarvard researchers had participants read on a tablet for four hours before bed for five evenings, and from a printed book on five others. With the tablet, the sleep hormone **melatonin** was released later, they fell asleep later and were more tired the next morning.\n\nYou don't have to give up everything. But the last hour before sleep doesn't belong to the screen.",
-      "apply": "Get outside within 30 minutes of waking tomorrow, and put all screens away an hour before bed tonight.",
-      "more": "Anne-Marie Chang and colleagues published the study in 2015. Daylight is much brighter than indoor light, even on cloudy days. Morning light helps you get sleepy earlier in the evening.",
+      "act": "- Morning: get outside into daylight within the first 30 minutes.\n- Evening: all screens away one hour before sleep.\n- Bedroom light dim and warm.",
+      "deep": "Anne-Marie Chang and colleagues published the study in 2015. Daylight is much brighter than indoor light, even on cloudy days. Morning light helps you get sleepy earlier in the evening.",
       "source": "Chang et al.: Evening use of light-emitting eReaders. PNAS, 2015"
     }
   },
@@ -593,18 +627,19 @@
     "sub": "schlaf",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Schlaf kühl, schlaf tief",
       "body": "Damit du einschläfst, muss deine Körperkerntemperatur leicht **sinken**. Ein warmes Zimmer bremst das.\n\nSchlafforscher empfehlen ein Schlafzimmer von etwa **16 bis 19 Grad**. Dazu: dunkel und ruhig. Klingt einfach, und genau darum unterschätzen es viele.\n\nEin Trick, der überrascht: Eine warme Dusche vor dem Schlafen hilft. Sie öffnet die Gefässe in Händen und Füssen, der Körper gibt danach schneller Wärme ab, und du schläfst leichter ein.",
-      "apply": "Dreh heute Abend die Heizung im Schlafzimmer herunter oder öffne das Fenster, und dusch eine Stunde vor dem Schlafen warm.",
-      "more": "Eine Übersichtsarbeit der University of Texas fand, dass ein warmes Bad oder eine Dusche ein bis zwei Stunden vor dem Schlafen das Einschlafen im Schnitt um rund zehn Minuten verkürzte.",
+      "act": "- Schlafzimmer auf 16 bis 19 Grad: Heizung runter oder Fenster auf.\n- Dunkel: Vorhänge zu, Lichter am Gerät abdecken.\n- Eine Stunde vorher warm duschen.",
+      "deep": "Eine Übersichtsarbeit der University of Texas fand, dass ein warmes Bad oder eine Dusche ein bis zwei Stunden vor dem Schlafen das Einschlafen im Schnitt um rund zehn Minuten verkürzte.",
       "source": "Haghayegh et al.: Before-bedtime passive body heating by warm shower or bath. Sleep Medicine Reviews, 2019; Sleep Foundation"
     },
     "en": {
       "title": "Sleep cool, sleep deep",
       "body": "To fall asleep, your core body temperature has to **drop** slightly. A warm room gets in the way.\n\nSleep researchers recommend a bedroom of about **16 to 19 °C** (60 to 67 °F). Plus dark and quiet. It sounds simple, and that's exactly why many underestimate it.\n\nA surprising trick: a warm shower before bed helps. It opens the blood vessels in your hands and feet, your body sheds heat faster afterwards, and you fall asleep more easily.",
-      "apply": "Turn the bedroom heating down tonight or open the window, and take a warm shower an hour before bed.",
-      "more": "A review from the University of Texas found that a warm bath or shower one to two hours before bed shortened the time to fall asleep by about ten minutes on average.",
+      "act": "- Bedroom at 16 to 19 °C: heating down or window open.\n- Dark: curtains shut, cover device lights.\n- Warm shower an hour before bed.",
+      "deep": "A review from the University of Texas found that a warm bath or shower one to two hours before bed shortened the time to fall asleep by about ten minutes on average.",
       "source": "Haghayegh et al.: Before-bedtime passive body heating by warm shower or bath. Sleep Medicine Reviews, 2019; Sleep Foundation"
     }
   },
@@ -614,18 +649,19 @@
     "sub": "schlaf",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Alkohol macht müde, aber der Schlaf wird schlechter",
       "body": "Ein Bier oder ein Glas Wein am Abend, und du schläfst schneller ein. Darum halten viele Alkohol für eine Schlafhilfe.\n\nDas Gegenteil stimmt. Eine Übersicht über **27 Studien** zeigt: Alkohol unterdrückt in der ersten Nachthälfte den **REM-Schlaf**, die Phase, in der das Gehirn Erlebtes verarbeitet und Gelerntes festigt. In der zweiten Nachthälfte wird der Schlaf unruhiger.\n\nDu schläfst, aber du erholst dich schlechter.",
-      "apply": "Verzichte diese Woche an drei Abenden auf Alkohol und achte darauf, wie du am nächsten Morgen aufwachst.",
-      "more": "Irshaad Ebrahim und Kollegen fanden den Effekt schon bei mässigen Mengen. Je mehr getrunken wurde, desto stärker. Auch Schnarchen und Atemaussetzer nehmen nach Alkohol zu.",
+      "act": "Verzichte diese Woche an drei Abenden auf Alkohol und achte darauf, wie du am nächsten Morgen aufwachst.",
+      "deep": "Irshaad Ebrahim und Kollegen fanden den Effekt schon bei mässigen Mengen. Je mehr getrunken wurde, desto stärker. Auch Schnarchen und Atemaussetzer nehmen nach Alkohol zu.",
       "source": "Ebrahim, Shapiro, Williams & Fenwick: Alcohol and sleep I. Alcoholism: Clinical and Experimental Research, 2013"
     },
     "en": {
       "title": "Alcohol makes you sleepy but your sleep gets worse",
       "body": "A beer or a glass of wine in the evening and you fall asleep faster. That's why many think of alcohol as a sleep aid.\n\nThe opposite is true. A review of **27 studies** shows that alcohol suppresses **REM sleep** in the first half of the night, the phase in which the brain processes experiences and locks in what you've learned. In the second half, sleep becomes more restless.\n\nYou sleep, but you recover worse.",
-      "apply": "Skip alcohol on three evenings this week and notice how you wake up the next morning.",
-      "more": "Irshaad Ebrahim and colleagues found the effect even with moderate amounts, growing stronger with more drinks. Snoring and breathing pauses also increase after alcohol.",
+      "act": "Skip alcohol on three evenings this week and notice how you wake up the next morning.",
+      "deep": "Irshaad Ebrahim and colleagues found the effect even with moderate amounts, growing stronger with more drinks. Snoring and breathing pauses also increase after alcohol.",
       "source": "Ebrahim, Shapiro, Williams & Fenwick: Alcohol and sleep I. Alcoholism: Clinical and Experimental Research, 2013"
     }
   },
@@ -635,18 +671,19 @@
     "sub": "stress",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Zweimal einatmen, lange ausatmen",
       "body": "Wenn der Stress hochschiesst, hilft eine Atemtechnik, die dein Körper sowieso kennt: der **physiologische Seufzer**.\n\nAtme durch die Nase tief ein, dann noch einmal kurz nach, bis die Lunge ganz voll ist. Dann atme lange und langsam durch den Mund aus. Wiederhole das ein paar Mal.\n\nIn einer Studie der Stanford University machten Teilnehmer das fünf Minuten täglich, einen Monat lang. Ihre Stimmung verbesserte sich stärker als bei einer Gruppe, die Achtsamkeitsmeditation übte.",
-      "apply": "Mach heute bei der nächsten stressigen Situation drei physiologische Seufzer, bevor du antwortest oder handelst.",
-      "more": "Melis Balban, Andrew Huberman und David Spiegel verglichen mehrere Atemübungen mit Meditation. Das lange Ausatmen aktiviert den Teil des Nervensystems, der für Ruhe und Erholung zuständig ist. Menschen und Tiere seufzen auch im Schlaf ganz von selbst.",
+      "act": "Bei der nächsten stressigen Situation, bevor du antwortest:\n- Tief durch die Nase einatmen.\n- Kurz nachatmen, bis die Lunge ganz voll ist.\n- Lange durch den Mund ausatmen.\n- Dreimal.",
+      "deep": "Melis Balban, Andrew Huberman und David Spiegel verglichen mehrere Atemübungen mit Meditation. Das lange Ausatmen aktiviert den Teil des Nervensystems, der für Ruhe und Erholung zuständig ist. Menschen und Tiere seufzen auch im Schlaf ganz von selbst.",
       "source": "Balban et al.: Brief structured respiration practices enhance mood and reduce physiological arousal. Cell Reports Medicine, 2023"
     },
     "en": {
       "title": "Breathe in twice, breathe out long",
       "body": "When stress spikes, a breathing technique your body already knows can help: the **physiological sigh**.\n\nBreathe in deeply through your nose, then take a second short inhale until your lungs are completely full. Then breathe out long and slowly through your mouth. Repeat a few times.\n\nIn a Stanford University study, participants did this for five minutes a day for a month. Their mood improved more than in a group practising mindfulness meditation.",
-      "apply": "The next time you're stressed today, take three physiological sighs before you answer or act.",
-      "more": "Melis Balban, Andrew Huberman and David Spiegel compared several breathing exercises with meditation. The long exhale activates the part of the nervous system responsible for rest and recovery. People and animals also sigh on their own during sleep.",
+      "act": "In your next stressful moment, before you answer:\n- Breathe in deeply through the nose.\n- Take a short second sip until your lungs are full.\n- Breathe out long through the mouth.\n- Three times.",
+      "deep": "Melis Balban, Andrew Huberman and David Spiegel compared several breathing exercises with meditation. The long exhale activates the part of the nervous system responsible for rest and recovery. People and animals also sigh on their own during sleep.",
       "source": "Balban et al.: Brief structured respiration practices enhance mood and reduce physiological arousal. Cell Reports Medicine, 2023"
     }
   },
@@ -656,18 +693,19 @@
     "sub": "stress",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "20 Minuten draussen senken dein Stresshormon",
       "body": "Du musst nicht in die Berge, um runterzukommen. Ein Park reicht.\n\nForscher der University of Michigan baten Stadtbewohner, über acht Wochen regelmässig Zeit in der Natur zu verbringen, ohne Handy, Gespräche oder Sport. Sie massen das Stresshormon Cortisol im Speichel. Am stärksten sank es nach **20 bis 30 Minuten** draussen.\n\nKeine App, kein Kurs, keine Kosten. Nur du, Bäume und Zeit.",
-      "apply": "Geh heute 20 Minuten ohne Kopfhörer in einen Park, an einen Fluss oder in den Wald.",
-      "more": "MaryCarol Hunter und Kollegen nannten ihr Ergebnis eine \"Naturpille\". Länger draussen bleiben brachte weiterhin Nutzen, aber langsamer. Die Teilnehmer wählten selbst, wann und wo sie rausgingen.",
+      "act": "Geh heute 20 Minuten ohne Kopfhörer in einen Park, an einen Fluss oder in den Wald.",
+      "deep": "MaryCarol Hunter und Kollegen nannten ihr Ergebnis eine \"Naturpille\". Länger draussen bleiben brachte weiterhin Nutzen, aber langsamer. Die Teilnehmer wählten selbst, wann und wo sie rausgingen.",
       "source": "Hunter, Gillespie & Chen: Urban nature experiences reduce stress. Frontiers in Psychology, 2019"
     },
     "en": {
       "title": "20 minutes outside lowers your stress hormone",
       "body": "You don't have to go to the mountains to unwind. A park will do.\n\nUniversity of Michigan researchers asked city dwellers to spend time in nature regularly for eight weeks, without phones, conversations or exercise. They measured the stress hormone cortisol in saliva. It fell most after **20 to 30 minutes** outside.\n\nNo app, no course, no cost. Just you, trees and time.",
-      "apply": "Spend 20 minutes today in a park, by a river or in the woods, without headphones.",
-      "more": "MaryCarol Hunter and colleagues called their result a \"nature pill\". Staying out longer kept helping, but more slowly. Participants chose for themselves when and where to go out.",
+      "act": "Spend 20 minutes today in a park, by a river or in the woods, without headphones.",
+      "deep": "MaryCarol Hunter and colleagues called their result a \"nature pill\". Staying out longer kept helping, but more slowly. Participants chose for themselves when and where to go out.",
       "source": "Hunter, Gillespie & Chen: Urban nature experiences reduce stress. Frontiers in Psychology, 2019"
     }
   },
@@ -677,18 +715,19 @@
     "sub": "stress",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Was dich belastet, gehört aufs Papier",
       "body": "Viele Männer tragen schwere Dinge mit sich herum und reden mit niemandem darüber. Das kostet Kraft.\n\nDer Psychologe James Pennebaker liess Studenten an vier Tagen je **15 Minuten** über das Schlimmste schreiben, was sie erlebt hatten: ihre tiefsten Gedanken und Gefühle dazu. Eine andere Gruppe schrieb über Alltägliches. In den Monaten danach gingen die Schreiber über ihre Belastung **seltener zum Arzt**.\n\nWas du aufschreibst, ordnet sich. Was du verdrängst, arbeitet weiter.",
-      "apply": "Schreib heute 15 Minuten lang ohne Pause über etwas, das dich belastet. Niemand muss es lesen.",
-      "more": "Pennebaker und Sandra Beall veröffentlichten die erste Studie 1986. Seitdem wurde \"expressives Schreiben\" in Hunderten Studien untersucht. Die Effekte sind im Schnitt eher klein, aber für viele Menschen spürbar. Bei schweren Traumata gehört professionelle Hilfe dazu.",
+      "act": "Schreib heute 15 Minuten lang ohne Pause über etwas, das dich belastet. Niemand muss es lesen.",
+      "deep": "Pennebaker und Sandra Beall veröffentlichten die erste Studie 1986. Seitdem wurde \"expressives Schreiben\" in Hunderten Studien untersucht. Die Effekte sind im Schnitt eher klein, aber für viele Menschen spürbar. Bei schweren Traumata gehört professionelle Hilfe dazu.",
       "source": "Pennebaker & Beall: Confronting a traumatic event. Journal of Abnormal Psychology, 1986"
     },
     "en": {
       "title": "What weighs on you belongs on paper",
       "body": "Many men carry heavy things around and talk to nobody about them. That drains strength.\n\nPsychologist James Pennebaker had students write for **15 minutes** on four days about the worst thing they had experienced: their deepest thoughts and feelings about it. Another group wrote about everyday topics. In the following months, those who wrote about their burden **visited the doctor less often**.\n\nWhat you write down gets sorted. What you push away keeps working on you.",
-      "apply": "Write for 15 minutes today without stopping about something that weighs on you. Nobody has to read it.",
-      "more": "Pennebaker and Sandra Beall published the first study in 1986. Since then, \"expressive writing\" has been studied in hundreds of studies. The effects are modest on average but noticeable for many people. Severe trauma calls for professional help as well.",
+      "act": "Write for 15 minutes today without stopping about something that weighs on you. Nobody has to read it.",
+      "deep": "Pennebaker and Sandra Beall published the first study in 1986. Since then, \"expressive writing\" has been studied in hundreds of studies. The effects are modest on average but noticeable for many people. Severe trauma calls for professional help as well.",
       "source": "Pennebaker & Beall: Confronting a traumatic event. Journal of Abnormal Psychology, 1986"
     }
   },
@@ -698,18 +737,19 @@
     "sub": "stress",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Etwas Druck macht dich besser",
       "body": "Kein Stress ist nicht das Ziel. Ohne jede Anspannung bist du träge, unkonzentriert, langsam.\n\nSchon 1908 beschrieben die Psychologen Robert Yerkes und John Dodson eine Kurve, die heute ihren Namen trägt: Leistung steigt mit der Anspannung, **bis zu einem Punkt**. Danach kippt sie, und zu viel Druck macht dich fahrig und blockiert.\n\nDie Kunst ist nicht, Stress zu vermeiden. Sie ist, ihn im richtigen Bereich zu halten: genug, um wach zu sein, nicht so viel, dass du einbrichst.",
-      "apply": "Achte heute darauf, wann dich Druck schärfer macht und wann er dich blockiert. Schreib dir beide Momente auf.",
-      "more": "Yerkes und Dodson arbeiteten ursprünglich mit Mäusen. Spätere Forschung zeigt: Bei einfachen Aufgaben liegt der beste Punkt bei höherer Anspannung, bei komplexen Aufgaben bei niedrigerer. Wer regelmässig unter Druck übt, verschiebt seine Grenze.",
+      "act": "Achte heute darauf, wann dich Druck schärfer macht und wann er dich blockiert. Schreib dir beide Momente auf.",
+      "deep": "Yerkes und Dodson arbeiteten ursprünglich mit Mäusen. Spätere Forschung zeigt: Bei einfachen Aufgaben liegt der beste Punkt bei höherer Anspannung, bei komplexen Aufgaben bei niedrigerer. Wer regelmässig unter Druck übt, verschiebt seine Grenze.",
       "source": "Yerkes & Dodson: The relation of strength of stimulus to rapidity of habit-formation. Journal of Comparative Neurology and Psychology, 1908"
     },
     "en": {
       "title": "A little pressure makes you better",
       "body": "Zero stress isn't the goal. Without any tension you're sluggish, unfocused, slow.\n\nBack in 1908 psychologists Robert Yerkes and John Dodson described a curve that now bears their names: performance rises with arousal **up to a point**. Beyond that it tips over, and too much pressure makes you scattered and blocked.\n\nThe art isn't avoiding stress. It's keeping it in the right range: enough to be sharp, not so much that you break.",
-      "apply": "Notice today when pressure makes you sharper and when it blocks you. Write both moments down.",
-      "more": "Yerkes and Dodson originally worked with mice. Later research shows that for simple tasks the best point lies at higher arousal, for complex tasks at lower. If you practise under pressure regularly, you move your limit.",
+      "act": "Notice today when pressure makes you sharper and when it blocks you. Write both moments down.",
+      "deep": "Yerkes and Dodson originally worked with mice. Later research shows that for simple tasks the best point lies at higher arousal, for complex tasks at lower. If you practise under pressure regularly, you move your limit.",
       "source": "Yerkes & Dodson: The relation of strength of stimulus to rapidity of habit-formation. Journal of Comparative Neurology and Psychology, 1908"
     }
   },
@@ -719,18 +759,19 @@
     "sub": "stress",
     "style": "fakt",
     "level": 1,
+    "actKind": "merke",
     "de": {
       "title": "Bewegung wirkt wie ein Medikament für den Kopf",
       "body": "Wenn der Kopf voll ist, ist Training oft das Erste, was gestrichen wird. Es sollte das Letzte sein.\n\nEine grosse Übersichtsarbeit fasste **97 Auswertungen** mit über 1'000 Studien und rund 128'000 Teilnehmern zusammen. Ergebnis: Bewegung senkte Symptome von **Depression, Angst und Stress** deutlich, ähnlich stark oder stärker als Gesprächstherapie oder Medikamente in vergleichbaren Studien.\n\nAm stärksten wirkten Einheiten von 30 bis 60 Minuten, mehrmals pro Woche, mit spürbarer Anstrengung.",
-      "apply": "Wenn dir heute alles zu viel wird: 30 Minuten Bewegung zuerst, dann die Probleme.",
-      "more": "Ben Singh und Kollegen von der University of South Australia veröffentlichten die Arbeit 2023. Bewegung ersetzt keine Behandlung bei schweren psychischen Erkrankungen, ist aber eine starke Ergänzung. Wer in einer Krise steckt, sollte zusätzlich Hilfe holen.",
+      "act": "Wenn dir alles zu viel wird, ist Training nicht das Erste, was du streichst, sondern das Erste, was du machst: 30 Minuten Bewegung, dann die Probleme.",
+      "deep": "Ben Singh und Kollegen von der University of South Australia veröffentlichten die Arbeit 2023. Bewegung ersetzt keine Behandlung bei schweren psychischen Erkrankungen, ist aber eine starke Ergänzung. Wer in einer Krise steckt, sollte zusätzlich Hilfe holen.",
       "source": "Singh et al.: Effectiveness of physical activity interventions for improving depression, anxiety and distress. British Journal of Sports Medicine, 2023"
     },
     "en": {
       "title": "Exercise works like medicine for the mind",
       "body": "When your head is full, training is often the first thing to go. It should be the last.\n\nA large umbrella review pooled **97 reviews** covering more than 1,000 trials and about 128,000 participants. Result: exercise clearly reduced symptoms of **depression, anxiety and stress**, about as much as or more than talk therapy or medication in comparable studies.\n\nThe strongest effects came from sessions of 30 to 60 minutes, several times a week, with noticeable effort.",
-      "apply": "If everything gets too much today: 30 minutes of exercise first, then the problems.",
-      "more": "Ben Singh and colleagues at the University of South Australia published the work in 2023. Exercise doesn't replace treatment for serious mental illness, but it's a strong addition. If you're in a crisis, get help as well.",
+      "act": "When everything gets too much, training is not the first thing you cut, it's the first thing you do: 30 minutes of movement, then the problems.",
+      "deep": "Ben Singh and colleagues at the University of South Australia published the work in 2023. Exercise doesn't replace treatment for serious mental illness, but it's a strong addition. If you're in a crisis, get help as well.",
       "source": "Singh et al.: Effectiveness of physical activity interventions for improving depression, anxiety and distress. British Journal of Sports Medicine, 2023"
     }
   }

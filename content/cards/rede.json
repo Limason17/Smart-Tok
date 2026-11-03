@@ -5,6 +5,7 @@
     "sub": "rhetorik",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Ethos, Pathos, Logos",
       "body": "Vor über 2'300 Jahren beschrieb Aristoteles, womit eine Rede überzeugt. Seine drei Mittel gelten bis heute:",
@@ -13,8 +14,9 @@
         "**Pathos**: Gefühl. Was löst du beim Publikum aus? Eine Geschichte, ein Bild, eine Sorge.",
         "**Logos**: Logik. Welche Gründe, Zahlen und Beispiele stützen deine Aussage?"
       ],
-      "apply": "Bau in deinen nächsten Vorschlag alle drei ein: wer du bist (Ethos), ein Gefühl (Pathos) und ein Argument (Logos).",
-      "more": "Aristoteles beschreibt die drei Überzeugungsmittel in seiner \"Rhetorik\", Buch 1. Er hielt Ethos für das stärkste: Menschen glauben eher einem, den sie für anständig und kompetent halten. Die meisten technischen Präsentationen bestehen fast nur aus Logos und überzeugen deshalb weniger, als sie könnten.",
+      "example": "Du willst deinem Team eine neue Software vorschlagen. Ethos: \"Ich habe sie drei Wochen in meinem Projekt getestet.\" Pathos: \"Erinnert ihr euch an den Freitagabend, an dem wir die Liste von Hand abgleichen mussten?\" Logos: \"Das spart uns pro Woche rund vier Stunden.\"",
+      "act": "Bau in deinen nächsten Vorschlag alle drei ein:\n- Ethos: ein Satz, warum du weisst, wovon du sprichst.\n- Pathos: ein Bild oder eine Sorge, die man fühlt.\n- Logos: ein Grund mit Zahl oder Beispiel.",
+      "deep": "Aristoteles beschreibt die drei Überzeugungsmittel in seiner \"Rhetorik\", Buch 1. Er hielt Ethos für das stärkste: Menschen glauben eher einem, den sie für anständig und kompetent halten. Die meisten technischen Präsentationen bestehen fast nur aus Logos und überzeugen deshalb weniger, als sie könnten.",
       "source": "Aristoteles: Rhetorik, Buch 1, Kapitel 2"
     },
     "en": {
@@ -25,8 +27,9 @@
         "**Pathos**: emotion. What do you make the audience feel? A story, an image, a concern.",
         "**Logos**: logic. Which reasons, numbers and examples back up your point?"
       ],
-      "apply": "Build all three into your next proposal: who you are (ethos), a feeling (pathos) and an argument (logos).",
-      "more": "Aristotle describes the three modes of persuasion in his \"Rhetoric\", Book 1. He considered ethos the strongest: people are more likely to believe someone they see as decent and competent. Most technical presentations are almost pure logos, which is why they persuade less than they could.",
+      "example": "You want to suggest new software to your team. Ethos: \"I tested it on my project for three weeks.\" Pathos: \"Remember that Friday night we had to check the list by hand?\" Logos: \"It saves us about four hours a week.\"",
+      "act": "Build all three into your next proposal:\n- Ethos: one sentence on why you know what you're talking about.\n- Pathos: an image or a worry people can feel.\n- Logos: one reason with a number or example.",
+      "deep": "Aristotle describes the three modes of persuasion in his \"Rhetoric\", Book 1. He considered ethos the strongest: people are more likely to believe someone they see as decent and competent. Most technical presentations are almost pure logos, which is why they persuade less than they could.",
       "source": "Aristotle: Rhetoric, Book 1, chapter 2"
     }
   },
@@ -36,18 +39,21 @@
     "sub": "rhetorik",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die Dreierregel",
       "body": "\"Ich kam, ich sah, ich siegte.\" \"Freiheit, Gleichheit, Brüderlichkeit.\" Dinge in Dreiergruppen bleiben hängen.\n\nZwei Punkte wirken unvollständig, vier oder mehr überfordern. **Drei** ist genug für ein Muster und kurz genug zum Merken. Gute Redner gliedern darum gern in drei Teile, nennen drei Gründe oder enden mit drei kurzen Worten.",
-      "apply": "Fasse deine nächste Antwort in einer Besprechung in genau drei Punkten zusammen.",
-      "more": "\"Veni, vidi, vici\" soll Julius Caesar 47 v. Chr. nach einem schnellen Sieg in einem Brief nach Rom geschrieben haben. In der Rhetorik heisst die Dreierfigur \"Trikolon\". Auch Werbung nutzt sie ständig, weil unser Gedächtnis kurze Reihen besonders gut behält.",
+      "example": "Der Chef fragt in der Sitzung: \"Wie steht das Projekt?\" Statt fünf Minuten zu erzählen: \"Drei Punkte. Erstens: Wir sind im Zeitplan. Zweitens: Das Budget ist knapp. Drittens: Ich brauche bis Freitag eine Entscheidung zum Lieferanten.\"",
+      "act": "Fasse deine nächste Antwort in einer Besprechung in genau drei Punkten zusammen.",
+      "deep": "\"Veni, vidi, vici\" soll Julius Caesar 47 v. Chr. nach einem schnellen Sieg in einem Brief nach Rom geschrieben haben. In der Rhetorik heisst die Dreierfigur \"Trikolon\". Auch Werbung nutzt sie ständig, weil unser Gedächtnis kurze Reihen besonders gut behält.",
       "source": "Sueton: Caesar 37; Plutarch: Caesar 50; Sam Leith: Words Like Loaded Pistols (2011)"
     },
     "en": {
       "title": "The rule of three",
       "body": "\"I came, I saw, I conquered.\" \"Liberty, equality, fraternity.\" Things in threes stick.\n\nTwo points feel incomplete; four or more overwhelm. **Three** is enough for a pattern and short enough to remember. That's why good speakers like to structure in three parts, give three reasons or end with three short words.",
-      "apply": "Sum up your next answer in a meeting in exactly three points.",
-      "more": "Julius Caesar is said to have written \"Veni, vidi, vici\" in a letter to Rome in 47 BC after a quick victory. In rhetoric this figure is called a \"tricolon\". Advertising uses it constantly because our memory holds short series especially well.",
+      "example": "Your boss asks in a meeting: \"Where are we on the project?\" Instead of talking for five minutes: \"Three points. One: we're on schedule. Two: the budget is tight. Three: I need a decision on the supplier by Friday.\"",
+      "act": "Sum up your next answer in a meeting in exactly three points.",
+      "deep": "Julius Caesar is said to have written \"Veni, vidi, vici\" in a letter to Rome in 47 BC after a quick victory. In rhetoric this figure is called a \"tricolon\". Advertising uses it constantly because our memory holds short series especially well.",
       "source": "Suetonius: Julius 37; Plutarch: Caesar 50; Sam Leith: Words Like Loaded Pistols (2011)"
     }
   },
@@ -57,18 +63,21 @@
     "sub": "wirkung",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die Antwort zuerst",
       "body": "Viele erzählen erst die ganze Vorgeschichte und kommen am Ende zum Punkt. Bis dahin hat der Zuhörer längst abgeschaltet.\n\nDreh es um: **Zuerst die Kernaussage, dann die Begründung, dann die Details.** \"Ich empfehle Anbieter B. Er ist 20 % günstiger und liefert schneller. Hier die Zahlen.\"\n\nSo wirkst du klar und kompetent, und wer nur die erste Sekunde hört, hat trotzdem das Wichtigste.",
-      "apply": "Beginne deine nächste Nachricht oder Mail mit dem einen Satz, der zählt.",
-      "more": "Die Beraterin Barbara Minto entwickelte bei McKinsey das \"Pyramidenprinzip\": oben die Kernaussage, darunter wenige stützende Argumente, darunter die Fakten. Beim Militär heisst dasselbe Prinzip \"BLUF\": Bottom Line Up Front.",
+      "example": "Schwach: \"Ich habe mir die Offerten angeschaut, A war teuer, bei C gab es Lieferprobleme, dann habe ich noch mit B telefoniert und …\" Stark: \"Ich empfehle B. 20 % günstiger, liefert in einer Woche. Details unten.\"",
+      "act": "Beginne deine nächste Nachricht oder Mail mit dem einen Satz, der zählt.",
+      "deep": "Die Beraterin Barbara Minto entwickelte bei McKinsey das \"Pyramidenprinzip\": oben die Kernaussage, darunter wenige stützende Argumente, darunter die Fakten. Beim Militär heisst dasselbe Prinzip \"BLUF\": Bottom Line Up Front.",
       "source": "Barbara Minto: The Pyramid Principle (1987)"
     },
     "en": {
       "title": "Answer first",
       "body": "Many people tell the whole backstory first and get to the point at the end. By then the listener has long tuned out.\n\nFlip it: **main point first, then the reasoning, then the details.** \"I recommend supplier B. They're 20% cheaper and deliver faster. Here are the numbers.\"\n\nYou come across as clear and competent, and anyone who only hears the first second still gets what matters.",
-      "apply": "Start your next message or email with the one sentence that counts.",
-      "more": "At McKinsey, consultant Barbara Minto developed the \"pyramid principle\": the main point on top, a few supporting arguments below, the facts beneath those. The military calls the same idea \"BLUF\": bottom line up front.",
+      "example": "Weak: \"I looked at the quotes, A was expensive, C had delivery issues, then I called B and …\" Strong: \"I recommend B. 20% cheaper, delivers in a week. Details below.\"",
+      "act": "Start your next message or email with the one sentence that counts.",
+      "deep": "At McKinsey, consultant Barbara Minto developed the \"pyramid principle\": the main point on top, a few supporting arguments below, the facts beneath those. The military calls the same idea \"BLUF\": bottom line up front.",
       "source": "Barbara Minto: The Pyramid Principle (1987)"
     }
   },
@@ -78,18 +87,19 @@
     "sub": "sprache",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ersetze Äh durch Stille",
       "body": "\"Äh\", \"also\", \"halt\", \"sozusagen\": Füllwörter sind normal, aber in grosser Menge lassen sie dich unsicher und unvorbereitet wirken.\n\nDer Trick ist nicht, schneller zu denken, sondern **die Pause auszuhalten**. Wo du sonst \"äh\" sagst, schweigst du eine Sekunde. Für dich fühlt sich das lang an, für die Zuhörer wirkt es nachdenklich und ruhig.",
-      "apply": "Nimm dich eine Minute lang mit dem Handy auf, während du etwas erklärst, und zähl deine Füllwörter.",
-      "more": "Linguisten sehen Füllwörter nicht nur negativ: Sie signalisieren, dass man noch spricht und gleich weitermacht. Zu viele davon senken aber in Studien die wahrgenommene Kompetenz. Organisationen wie Toastmasters üben deshalb gezielt, Füllwörter durch Pausen zu ersetzen.",
+      "act": "Nimm dich eine Minute lang mit dem Handy auf, während du etwas erklärst, und zähl deine Füllwörter.",
+      "deep": "Linguisten sehen Füllwörter nicht nur negativ: Sie signalisieren, dass man noch spricht und gleich weitermacht. Zu viele davon senken aber in Studien die wahrgenommene Kompetenz. Organisationen wie Toastmasters üben deshalb gezielt, Füllwörter durch Pausen zu ersetzen.",
       "source": "Herbert Clark & Jean Fox Tree: Using uh and um in spontaneous speaking, Cognition (2002)"
     },
     "en": {
       "title": "Replace um with silence",
       "body": "\"Um\", \"like\", \"you know\", \"basically\": filler words are normal, but in large amounts they make you seem unsure and unprepared.\n\nThe trick isn't to think faster but to **sit with the pause**. Where you would say \"um\", stay silent for a second. To you it feels long; to listeners it sounds thoughtful and calm.",
-      "apply": "Record yourself on your phone for one minute while explaining something, and count your fillers.",
-      "more": "Linguists don't see fillers as purely negative: they signal that you're still talking and about to continue. Too many of them, however, lower perceived competence in studies. Organisations like Toastmasters therefore practise replacing fillers with pauses.",
+      "act": "Record yourself on your phone for one minute while explaining something, and count your fillers.",
+      "deep": "Linguists don't see fillers as purely negative: they signal that you're still talking and about to continue. Too many of them, however, lower perceived competence in studies. Organisations like Toastmasters therefore practise replacing fillers with pauses.",
       "source": "Herbert Clark & Jean Fox Tree: Using uh and um in spontaneous speaking, Cognition (2002)"
     }
   },
@@ -99,18 +109,19 @@
     "sub": "rhetorik",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die Kraft der Pause",
       "body": "Die wichtigste Stelle einer Rede ist oft das, was **nicht** gesagt wird.\n\nEine Pause **vor** einer wichtigen Aussage erzeugt Spannung. Eine Pause **danach** gibt dem Satz Zeit, zu wirken. Wer ohne Pausen durchredet, macht alle Sätze gleich wichtig, also keinen.\n\nDazu kommt: Wer Pausen setzt, wirkt souverän. Nervöse Menschen füllen jede Lücke.",
-      "apply": "Markiere in deiner nächsten Präsentation den einen Satz, vor und nach dem du zwei Sekunden schweigst.",
-      "more": "Martin Luther King setzte in \"I Have a Dream\" (1963) lange Pausen und Wiederholungen ein, ebenso Barack Obama in vielen Reden. Sprechtrainer empfehlen, Pausen vor Zahlen, Namen und Kernaussagen fest einzuplanen, weil man sie unter Nervosität sonst vergisst.",
+      "act": "Markiere in deiner nächsten Präsentation den einen Satz, vor und nach dem du zwei Sekunden schweigst.",
+      "deep": "Martin Luther King setzte in \"I Have a Dream\" (1963) lange Pausen und Wiederholungen ein, ebenso Barack Obama in vielen Reden. Sprechtrainer empfehlen, Pausen vor Zahlen, Namen und Kernaussagen fest einzuplanen, weil man sie unter Nervosität sonst vergisst.",
       "source": "Chris Anderson: TED Talks, der offizielle Leitfaden (2016)"
     },
     "en": {
       "title": "The power of the pause",
       "body": "The most important part of a speech is often what is **not** said.\n\nA pause **before** a key statement builds tension. A pause **after** gives the sentence time to land. Talk without pauses and you make every sentence equally important, which means none of them is.\n\nOn top of that, people who pause seem composed. Nervous people fill every gap.",
-      "apply": "Mark the one sentence in your next presentation that you'll frame with two seconds of silence before and after.",
-      "more": "Martin Luther King used long pauses and repetition in \"I Have a Dream\" (1963), as did Barack Obama in many speeches. Speaking coaches recommend planning pauses before numbers, names and key points, because under nerves you otherwise forget them.",
+      "act": "Mark the one sentence in your next presentation that you'll frame with two seconds of silence before and after.",
+      "deep": "Martin Luther King used long pauses and repetition in \"I Have a Dream\" (1963), as did Barack Obama in many speeches. Speaking coaches recommend planning pauses before numbers, names and key points, because under nerves you otherwise forget them.",
       "source": "Chris Anderson: TED Talks: The Official TED Guide to Public Speaking (2016)"
     }
   },
@@ -120,18 +131,19 @@
     "sub": "stimme",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Was deine Stimme verrät",
       "body": "Studien zeigen: Menschen mit etwas **tieferer Stimme** werden im Schnitt als stärker, kompetenter und führungsfähiger eingeschätzt, bei Männern wie bei Frauen. In Experimenten wählten Teilnehmer eher die Kandidaten mit der tieferen Version derselben Aufnahme.\n\nAber: Eine künstlich gedrückte Stimme klingt schnell gepresst und unecht. Was du trainieren kannst, ist deine **natürliche** Tonlage: entspannt, aus dem Bauch geatmet, nicht hoch und eng vor Nervosität.",
-      "apply": "Atme vor dem nächsten wichtigen Satz einmal tief in den Bauch und sprich dann bewusst entspannt.",
-      "more": "Casey Klofstad und Kollegen (2012) liessen Probanden zwischen zwei Versionen einer Aufnahme wählen, die sich nur in der Tonhöhe unterschieden. Die tiefere Version wurde häufiger gewählt. Unter Stress spannt sich der Kehlkopf an und die Stimme steigt, darum hilft ruhiges Atmen mehr als bewusstes \"tief sprechen\".",
+      "act": "Atme vor dem nächsten wichtigen Satz einmal tief in den Bauch und sprich dann bewusst entspannt.",
+      "deep": "Casey Klofstad und Kollegen (2012) liessen Probanden zwischen zwei Versionen einer Aufnahme wählen, die sich nur in der Tonhöhe unterschieden. Die tiefere Version wurde häufiger gewählt. Unter Stress spannt sich der Kehlkopf an und die Stimme steigt, darum hilft ruhiges Atmen mehr als bewusstes \"tief sprechen\".",
       "source": "Klofstad, Anderson & Peters: Proceedings of the Royal Society B (2012)"
     },
     "en": {
       "title": "What your voice reveals",
       "body": "Studies show that people with a somewhat **lower voice** are, on average, rated as stronger, more competent and more leader-like, both men and women. In experiments, participants were more likely to pick candidates with the lower-pitched version of the same recording.\n\nBut an artificially pushed-down voice quickly sounds strained and fake. What you can train is your **natural** pitch: relaxed, breathing from the belly, not high and tight from nerves.",
-      "apply": "Before your next important sentence, take one deep belly breath and then speak deliberately relaxed.",
-      "more": "Casey Klofstad and colleagues (2012) had participants choose between two versions of a recording that differed only in pitch. The lower version was chosen more often. Under stress the larynx tightens and the voice rises, which is why calm breathing helps more than consciously \"speaking low\".",
+      "act": "Before your next important sentence, take one deep belly breath and then speak deliberately relaxed.",
+      "deep": "Casey Klofstad and colleagues (2012) had participants choose between two versions of a recording that differed only in pitch. The lower version was chosen more often. Under stress the larynx tightens and the voice rises, which is why calm breathing helps more than consciously \"speaking low\".",
       "source": "Klofstad, Anderson & Peters: Proceedings of the Royal Society B (2012)"
     }
   },
@@ -141,18 +153,19 @@
     "sub": "stimme",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Senk die Stimme am Satzende",
       "body": "Geht deine Stimme am Ende eines Satzes nach oben, klingt jede Aussage wie eine Frage. \"Ich schlage vor, dass wir morgen starten?\" Das wirkt, als wärst du dir nicht sicher und bittest um Erlaubnis.\n\nWenn deine Stimme am Satzende **nach unten** geht, klingt derselbe Satz wie eine Entscheidung. Kleine Änderung, grosse Wirkung, besonders bei Forderungen, Preisen und Entscheidungen.",
-      "apply": "Sprich den Satz \"Mein Preis ist 500 Franken.\" einmal mit hoher, einmal mit fallender Stimme. Hör den Unterschied.",
-      "more": "Die steigende Satzmelodie am Ende von Aussagen nennt man im Englischen \"uptalk\". Sie ist nicht immer negativ, kann Freundlichkeit signalisieren und ist in manchen Regionen normal. In Verhandlungen und bei Führungsaussagen wird sie aber oft als unsicher gelesen.",
+      "act": "Sprich den Satz \"Mein Preis ist 500 Franken.\" einmal mit hoher, einmal mit fallender Stimme. Hör den Unterschied.",
+      "deep": "Die steigende Satzmelodie am Ende von Aussagen nennt man im Englischen \"uptalk\". Sie ist nicht immer negativ, kann Freundlichkeit signalisieren und ist in manchen Regionen normal. In Verhandlungen und bei Führungsaussagen wird sie aber oft als unsicher gelesen.",
       "source": "Gängige Rhetorik- und Stimmtrainings"
     },
     "en": {
       "title": "Drop your pitch at the end",
       "body": "If your voice rises at the end of a sentence, every statement sounds like a question. \"I suggest we start tomorrow?\" It sounds as if you're unsure and asking for permission.\n\nWhen your voice goes **down** at the end, the same sentence sounds like a decision. A small change with a big effect, especially for demands, prices and decisions.",
-      "apply": "Say \"My price is 500 dollars.\" once with a rising and once with a falling voice. Hear the difference.",
-      "more": "A rising intonation at the end of statements is called \"uptalk\". It isn't always negative; it can signal friendliness and is normal in some regions. In negotiations and leadership statements, however, it is often read as insecure.",
+      "act": "Say \"My price is 500 dollars.\" once with a rising and once with a falling voice. Hear the difference.",
+      "deep": "A rising intonation at the end of statements is called \"uptalk\". It isn't always negative; it can signal friendliness and is normal in some regions. In negotiations and leadership statements, however, it is often read as insecure.",
       "source": "Common speech and voice coaching"
     }
   },
@@ -162,18 +175,19 @@
     "sub": "koerpersprache",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ein Gedanke, eine Person",
       "body": "Vor einer Gruppe wandert der Blick bei vielen unruhig hin und her oder klebt am Boden und an den Folien.\n\nBesser: **Ein Gedanke, eine Person.** Du sprichst einen Satz oder Gedanken zu einer bestimmten Person und schaust sie dabei an. Beim nächsten Gedanken wechselst du zu jemand anderem im Raum.\n\nSo fühlt sich jeder einzeln angesprochen, und du wirkst ruhig und verbunden statt gehetzt.",
-      "apply": "Probier es im nächsten Gespräch mit mehr als zwei Personen aus.",
-      "more": "Sprechtrainer empfehlen diese Technik seit Langem, weil sie zwei Probleme löst: Der Redner wird langsamer und ruhiger, und das Publikum fühlt sich gesehen. Im Gespräch unter vier Augen gilt dagegen: Ständiges Anstarren wirkt bedrohlich, Blickkontakt etwa die Hälfte bis zwei Drittel der Zeit wirkt natürlich.",
+      "act": "Probier es im nächsten Gespräch mit mehr als zwei Personen aus: ein Gedanke, eine Person, dann wechseln.",
+      "deep": "Sprechtrainer empfehlen diese Technik seit Langem, weil sie zwei Probleme löst: Der Redner wird langsamer und ruhiger, und das Publikum fühlt sich gesehen. Im Gespräch unter vier Augen gilt dagegen: Ständiges Anstarren wirkt bedrohlich, Blickkontakt etwa die Hälfte bis zwei Drittel der Zeit wirkt natürlich.",
       "source": "Michael Argyle: Bodily Communication (1988); gängige Rednertrainings"
     },
     "en": {
       "title": "One thought, one person",
       "body": "In front of a group, many people's eyes dart around or stay glued to the floor and the slides.\n\nBetter: **one thought, one person.** Deliver a sentence or thought to a specific person while looking at them. For the next thought, switch to someone else in the room.\n\nEveryone feels personally addressed, and you look calm and connected instead of rushed.",
-      "apply": "Try it in your next conversation with more than two people.",
-      "more": "Speaking coaches have long recommended this technique because it solves two problems: the speaker slows down and calms down, and the audience feels seen. One-on-one it's different: constant staring feels threatening; eye contact for roughly half to two thirds of the time feels natural.",
+      "act": "Try it in your next conversation with more than two people: one thought, one person, then switch.",
+      "deep": "Speaking coaches have long recommended this technique because it solves two problems: the speaker slows down and calms down, and the audience feels seen. One-on-one it's different: constant staring feels threatening; eye contact for roughly half to two thirds of the time feels natural.",
       "source": "Michael Argyle: Bodily Communication (1988); common speaker training"
     }
   },
@@ -183,18 +197,19 @@
     "sub": "koerpersprache",
     "style": "fakt",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Lügen erkennt man nicht am Blick",
       "body": "\"Wer nach links oben schaut, lügt.\" \"Lügner vermeiden Blickkontakt.\" \"Wer sich an die Nase fasst, verheimlicht etwas.\" Klingt plausibel, ist aber **wissenschaftlich widerlegt**.\n\nIn Hunderten Studien lagen Menschen beim Erkennen von Lügen kaum über Zufall, im Schnitt bei etwa 54 %. Auch Polizisten waren nicht viel besser. Es gibt kein einzelnes Körpersignal, das zuverlässig eine Lüge verrät. Nervosität kann genauso gut Angst sein, nicht zu glauben.",
-      "apply": "Achte bei Zweifeln auf Widersprüche im Inhalt und stelle offene Nachfragen, statt auf Gesten zu schauen.",
-      "more": "Eine Meta-Analyse von Bond und DePaulo (2006) mit über 24'000 Urteilen ergab eine Trefferquote von 54 %. Die Idee mit der Blickrichtung stammt aus dem Neurolinguistischen Programmieren (NLP) und wurde 2012 in Experimenten von Wiseman und Kollegen widerlegt. Vielversprechender sind Befragungstechniken, die Lügnern mehr Denkarbeit abverlangen, etwa die Geschichte rückwärts erzählen zu lassen.",
+      "act": "Wenn du zweifelst, ob jemand die Wahrheit sagt: Achte auf Widersprüche im Inhalt und stell offene Nachfragen (\"Erzähl mal genauer, wie lief das ab?\"), statt Gesten zu deuten.",
+      "deep": "Eine Meta-Analyse von Bond und DePaulo (2006) mit über 24'000 Urteilen ergab eine Trefferquote von 54 %. Die Idee mit der Blickrichtung stammt aus dem Neurolinguistischen Programmieren (NLP) und wurde 2012 in Experimenten von Wiseman und Kollegen widerlegt. Vielversprechender sind Befragungstechniken, die Lügnern mehr Denkarbeit abverlangen, etwa die Geschichte rückwärts erzählen zu lassen.",
       "source": "Bond & DePaulo: Personality and Social Psychology Review (2006); Wiseman et al.: PLoS ONE (2012)"
     },
     "en": {
       "title": "You can't spot lies in the eyes",
       "body": "\"People who look up and to the left are lying.\" \"Liars avoid eye contact.\" \"Touching your nose means you're hiding something.\" Sounds plausible, but it's **scientifically debunked**.\n\nAcross hundreds of studies, people detected lies barely better than chance, about 54% on average. Police officers weren't much better. No single body signal reliably gives away a lie. Nervousness can just as well be fear of not being believed.",
-      "apply": "When in doubt, look for contradictions in the content and ask open follow-up questions instead of watching gestures.",
-      "more": "A meta-analysis by Bond and DePaulo (2006) covering more than 24,000 judgements found 54% accuracy. The eye-direction idea comes from neuro-linguistic programming (NLP) and was disproved in 2012 experiments by Wiseman and colleagues. More promising are interview techniques that increase a liar's mental load, such as asking for the story in reverse order.",
+      "act": "When you doubt whether someone is telling the truth: watch for contradictions in what they say and ask open follow-ups (\"Walk me through how it went\") instead of reading gestures.",
+      "deep": "A meta-analysis by Bond and DePaulo (2006) covering more than 24,000 judgements found 54% accuracy. The eye-direction idea comes from neuro-linguistic programming (NLP) and was disproved in 2012 experiments by Wiseman and colleagues. More promising are interview techniques that increase a liar's mental load, such as asking for the story in reverse order.",
       "source": "Bond & DePaulo: Personality and Social Psychology Review (2006); Wiseman et al.: PLoS ONE (2012)"
     }
   },
@@ -204,18 +219,19 @@
     "sub": "koerpersprache",
     "style": "fakt",
     "level": 2,
+    "actKind": "merke",
     "de": {
       "title": "Der 7-38-55-Mythos",
       "body": "Oft hört man: Kommunikation bestehe nur zu 7 % aus Worten, zu 38 % aus der Stimme und zu 55 % aus Körpersprache. Das ist eine **Fehlinterpretation**.\n\nDie Zahlen stammen aus zwei kleinen Versuchen der 1960er-Jahre. Getestet wurde nur, wie Menschen **Gefühle** deuten, wenn einzelne Wörter und Tonfall sich widersprechen. Albert Mehrabian, der Forscher selbst, betont: Für normale Gespräche gilt das nicht.\n\nWas stimmt: Wenn Worte und Auftreten nicht zusammenpassen, glauben wir eher dem Auftreten.",
-      "apply": "Sorg dafür, dass Inhalt und Auftreten zusammenpassen, statt dich nur auf Körpersprache zu verlassen.",
-      "more": "Mehrabian und Kollegen liessen Probanden 1967 einzelne Wörter wie \"danke\" oder \"vielleicht\" in verschiedenem Tonfall bewerten. Auf seiner Webseite schreibt Mehrabian, die Formel gelte nur für Situationen, in denen jemand über Gefühle und Einstellungen spricht und Wort und Ton widersprüchlich sind.",
+      "act": "Worte zählen. Aber wenn Worte und Auftreten sich widersprechen, glauben Menschen dem Auftreten. Sorg dafür, dass beides dasselbe sagt.",
+      "deep": "Mehrabian und Kollegen liessen Probanden 1967 einzelne Wörter wie \"danke\" oder \"vielleicht\" in verschiedenem Tonfall bewerten. Auf seiner Webseite schreibt Mehrabian, die Formel gelte nur für Situationen, in denen jemand über Gefühle und Einstellungen spricht und Wort und Ton widersprüchlich sind.",
       "source": "Albert Mehrabian: Silent Messages (1971) und eigene Klarstellungen"
     },
     "en": {
       "title": "The 7-38-55 myth",
       "body": "You often hear that communication is only 7% words, 38% voice and 55% body language. That's a **misreading**.\n\nThe numbers come from two small experiments in the 1960s. They only tested how people interpret **feelings** when single words and tone of voice contradict each other. Albert Mehrabian, the researcher himself, stresses that it doesn't apply to normal conversation.\n\nWhat is true: when words and delivery don't match, we tend to believe the delivery.",
-      "apply": "Make sure content and delivery match instead of relying on body language alone.",
-      "more": "In 1967 Mehrabian and colleagues had participants rate single words such as \"thanks\" or \"maybe\" spoken in different tones. On his website Mehrabian writes that the formula only applies when someone is talking about feelings and attitudes and words and tone are inconsistent.",
+      "act": "Words matter. But when words and delivery contradict each other, people believe the delivery. Make sure both say the same thing.",
+      "deep": "In 1967 Mehrabian and colleagues had participants rate single words such as \"thanks\" or \"maybe\" spoken in different tones. On his website Mehrabian writes that the formula only applies when someone is talking about feelings and attitudes and words and tone are inconsistent.",
       "source": "Albert Mehrabian: Silent Messages (1971) and his own clarifications"
     }
   },
@@ -225,18 +241,19 @@
     "sub": "koerpersprache",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Zeig deine Hände",
       "body": "Hände in den Taschen, hinter dem Rücken oder fest verschränkt: Das wirkt verschlossen oder unsicher, auch wenn du es nicht so meinst.\n\nSichtbare Hände mit ruhigen, offenen Gesten auf Höhe zwischen Bauchnabel und Brust wirken vertrauenswürdig und klar. Gesten, die zum Inhalt passen (\"drei Punkte\" mit drei Fingern, \"gross\" mit weiten Händen), helfen dem Publikum sogar, sich besser zu erinnern.",
-      "apply": "Lass deine Hände beim nächsten Gespräch sichtbar und benutze sie bewusst für eine Aufzählung.",
-      "more": "Eine Auswertung von TED-Talks durch das Beratungsunternehmen Science of People ergab, dass die beliebtesten Redner deutlich mehr Handgesten benutzten. Die Studie ist nicht wissenschaftlich begutachtet, passt aber zur Forschung, die zeigt, dass passende Gesten Verständnis und Erinnern verbessern.",
+      "act": "Lass deine Hände beim nächsten Gespräch sichtbar und benutze sie bewusst für eine Aufzählung.",
+      "deep": "Eine Auswertung von TED-Talks durch das Beratungsunternehmen Science of People ergab, dass die beliebtesten Redner deutlich mehr Handgesten benutzten. Die Studie ist nicht wissenschaftlich begutachtet, passt aber zur Forschung, die zeigt, dass passende Gesten Verständnis und Erinnern verbessern.",
       "source": "Goldin-Meadow & Alibali: Gesture's role in speaking, learning, and creating language, Annual Review of Psychology (2013)"
     },
     "en": {
       "title": "Show your hands",
       "body": "Hands in your pockets, behind your back or tightly crossed: that looks closed off or insecure, even if you don't mean it.\n\nVisible hands with calm, open gestures between belly and chest height come across as trustworthy and clear. Gestures that match your words (three fingers for \"three points\", wide hands for \"big\") even help the audience remember better.",
-      "apply": "In your next conversation, keep your hands visible and use them deliberately for a list.",
-      "more": "An analysis of TED talks by the consultancy Science of People found that the most popular speakers used noticeably more hand gestures. The study isn't peer-reviewed, but it fits research showing that matching gestures improve understanding and memory.",
+      "act": "In your next conversation, keep your hands visible and use them deliberately for a list.",
+      "deep": "An analysis of TED talks by the consultancy Science of People found that the most popular speakers used noticeably more hand gestures. The study isn't peer-reviewed, but it fits research showing that matching gestures improve understanding and memory.",
       "source": "Goldin-Meadow & Alibali: Gesture's role in speaking, learning, and creating language, Annual Review of Psychology (2013)"
     }
   },
@@ -246,13 +263,16 @@
     "sub": "storytelling",
     "style": "tipp",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Eine Geschichte in 4 Schritten",
-      "body": "Fakten informieren, Geschichten bleiben hängen. Mit diesem einfachen Gerüst wird fast jedes Erlebnis zu einer Geschichte, die Menschen zuhören lässt."
+      "body": "Fakten informieren, Geschichten bleiben hängen. Mit diesem einfachen Gerüst wird fast jedes Erlebnis zu einer Geschichte, die Menschen zuhören lässt.",
+      "act": "Bau eine Erfahrung aus deiner Woche in diese vier Schritte und erzähl sie heute jemandem."
     },
     "en": {
       "title": "A story in 4 steps",
-      "body": "Facts inform, stories stick. With this simple frame almost any experience becomes a story people want to hear."
+      "body": "Facts inform, stories stick. With this simple frame almost any experience becomes a story people want to hear.",
+      "act": "Fit one experience from this week into these four steps and tell it to someone today."
     },
     "slides": [
       {
@@ -288,13 +308,11 @@
       {
         "de": {
           "title": "4. Erkenntnis",
-          "body": "Was hast du daraus gelernt, und was bedeutet das für die Zuhörer? Ein Satz genügt. Die Erkenntnis macht aus einer Anekdote eine Botschaft.",
-          "apply": "Bau eine Erfahrung aus deiner Woche in diese vier Schritte und erzähl sie heute jemandem."
+          "body": "Was hast du daraus gelernt, und was bedeutet das für die Zuhörer? Ein Satz genügt. Die Erkenntnis macht aus einer Anekdote eine Botschaft."
         },
         "en": {
           "title": "4. Insight",
-          "body": "What did you learn, and what does it mean for your listeners? One sentence is enough. The insight turns an anecdote into a message.",
-          "apply": "Fit one experience from this week into these four steps and tell it to someone today."
+          "body": "What did you learn, and what does it mean for your listeners? One sentence is enough. The insight turns an anecdote into a message."
         }
       }
     ]
@@ -305,18 +323,21 @@
     "sub": "storytelling",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Konkret schlägt abstrakt",
       "body": "\"Unser Produkt verbessert die Effizienz.\" Vergessen, bevor der Satz zu Ende ist.\n\n\"Mit unserem Tool spart ein Lagerarbeiter jeden Tag 40 Minuten, weil er nicht mehr suchen muss.\" Das sieht man vor sich.\n\nUnser Gehirn merkt sich **Bilder, Personen und Zahlen**, nicht Begriffe. Ersetze darum abstrakte Wörter, wo immer es geht, durch ein Beispiel, das man sehen, hören oder anfassen kann.",
-      "apply": "Ersetze in deiner nächsten Erklärung ein Fachwort durch ein konkretes Beispiel.",
-      "more": "Die Brüder Chip und Dan Heath untersuchten, warum manche Ideen hängen bleiben und andere nicht. Einer ihrer sechs Faktoren: Konkretheit. In einem ihrer Kurse an der Universität Stanford erinnerten sich Studenten nach Kurzreden an Geschichten weit besser als an Statistiken.",
+      "example": "Abstrakt: \"Sport ist gut für die psychische Gesundheit.\" Konkret: \"Nach drei Wochen mit drei Läufen pro Woche schlief ich wieder durch und war im Büro nicht mehr gereizt.\"",
+      "act": "Ersetze in deiner nächsten Erklärung ein Fachwort durch ein konkretes Beispiel.",
+      "deep": "Die Brüder Chip und Dan Heath untersuchten, warum manche Ideen hängen bleiben und andere nicht. Einer ihrer sechs Faktoren: Konkretheit. In einem ihrer Kurse an der Universität Stanford erinnerten sich Studenten nach Kurzreden an Geschichten weit besser als an Statistiken.",
       "source": "Chip & Dan Heath: Made to Stick (2007)"
     },
     "en": {
       "title": "Concrete beats abstract",
       "body": "\"Our product improves efficiency.\" Forgotten before the sentence ends.\n\n\"With our tool, a warehouse worker saves 40 minutes every day because he no longer has to search.\" You can see that.\n\nOur brains remember **images, people and numbers**, not concepts. So wherever you can, replace abstract words with an example you can see, hear or touch.",
-      "apply": "In your next explanation, swap one jargon term for a concrete example.",
-      "more": "Brothers Chip and Dan Heath studied why some ideas stick and others don't. One of their six factors: concreteness. In one of their Stanford classes, students remembered stories from short speeches far better than statistics.",
+      "example": "Abstract: \"Exercise is good for mental health.\" Concrete: \"After three weeks of running three times a week I slept through the night again and stopped snapping at people at work.\"",
+      "act": "In your next explanation, swap one jargon term for a concrete example.",
+      "deep": "Brothers Chip and Dan Heath studied why some ideas stick and others don't. One of their six factors: concreteness. In one of their Stanford classes, students remembered stories from short speeches far better than statistics.",
       "source": "Chip & Dan Heath: Made to Stick (2007)"
     }
   },
@@ -326,18 +347,19 @@
     "sub": "storytelling",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Ein Mensch bewegt mehr als Millionen",
       "body": "In einem Experiment bekamen Menschen Geld und konnten einen Teil spenden. Die einen lasen über Millionen hungernde Kinder in Afrika. Die anderen lasen über **ein einziges Mädchen**, Rokia, 7 Jahre alt, mit Foto.\n\nFür Rokia spendeten sie mehr als doppelt so viel. Als man ihre Geschichte mit den Statistiken kombinierte, sank die Spende sogar wieder.\n\nWenn du Menschen bewegen willst, erzähl von **einer** Person, nicht von einer Zahl.",
-      "apply": "Wenn du jemanden von einem Anliegen überzeugen willst, erzähl die Geschichte eines konkreten Menschen.",
-      "more": "Deborah Small, George Loewenstein und Paul Slovic veröffentlichten die Studie 2007. Der Effekt heisst \"identifiable victim effect\". Josef Stalin wird der zynische Satz zugeschrieben, ein Toter sei eine Tragödie, eine Million Tote eine Statistik, wobei die Herkunft des Zitats unsicher ist.",
+      "act": "Wenn du jemanden von einem Anliegen überzeugen willst, erzähl die Geschichte eines konkreten Menschen.",
+      "deep": "Deborah Small, George Loewenstein und Paul Slovic veröffentlichten die Studie 2007. Der Effekt heisst \"identifiable victim effect\". Josef Stalin wird der zynische Satz zugeschrieben, ein Toter sei eine Tragödie, eine Million Tote eine Statistik, wobei die Herkunft des Zitats unsicher ist.",
       "source": "Small, Loewenstein & Slovic: Organizational Behavior and Human Decision Processes (2007)"
     },
     "en": {
       "title": "One person moves more than millions",
       "body": "In an experiment, people were given money and could donate part of it. Some read about millions of starving children in Africa. Others read about **one single girl**, Rokia, 7 years old, with a photo.\n\nThey gave more than twice as much for Rokia. When her story was combined with the statistics, donations dropped again.\n\nIf you want to move people, tell them about **one** person, not a number.",
-      "apply": "When you want to win someone over to a cause, tell the story of one specific person.",
-      "more": "Deborah Small, George Loewenstein and Paul Slovic published the study in 2007. The effect is called the \"identifiable victim effect\". Joseph Stalin is credited with the cynical line that one death is a tragedy and a million deaths a statistic, though the quote's origin is uncertain.",
+      "act": "When you want to win someone over to a cause, tell the story of one specific person.",
+      "deep": "Deborah Small, George Loewenstein and Paul Slovic published the study in 2007. The effect is called the \"identifiable victim effect\". Joseph Stalin is credited with the cynical line that one death is a tragedy and a million deaths a statistic, though the quote's origin is uncertain.",
       "source": "Small, Loewenstein & Slovic: Organizational Behavior and Human Decision Processes (2007)"
     }
   },
@@ -347,18 +369,21 @@
     "sub": "schlagfertigkeit",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Schlagfertig mit einer Frage",
       "body": "Jemand macht eine spitze Bemerkung, und dir fällt nichts ein. Die gute Nachricht: Du brauchst keinen witzigen Konter. Oft reicht eine **ruhige Rückfrage**:\n\n\"Wie meinst du das genau?\"\n\"Was willst du damit sagen?\"\n\nDu gewinnst Zeit, wirkst gelassen, und der andere muss seine Spitze erklären. Das ist meistens unangenehmer für ihn als für dich.",
-      "apply": "Leg dir eine Standard-Rückfrage zurecht, die du bei der nächsten Spitze einfach benutzt.",
-      "more": "Kommunikationstrainer nennen das die \"Rückfrage-Technik\". Wichtig ist der Ton: neugierig und ruhig, nicht beleidigt. Wer den Ball ruhig zurückgibt, zeigt, dass ihn die Bemerkung nicht aus der Fassung bringt, und genau das wirkt schlagfertig.",
+      "example": "Kollege beim Mittagessen: \"Na, wieder Salat? Machst du Diät?\" Du, ruhig und neugierig: \"Wie meinst du das?\" Meistens kommt ein verlegenes \"Ach, nur so\", und das Thema ist durch.",
+      "act": "Leg dir eine Standard-Rückfrage zurecht, die du bei der nächsten Spitze einfach benutzt.",
+      "deep": "Kommunikationstrainer nennen das die \"Rückfrage-Technik\". Wichtig ist der Ton: neugierig und ruhig, nicht beleidigt. Wer den Ball ruhig zurückgibt, zeigt, dass ihn die Bemerkung nicht aus der Fassung bringt, und genau das wirkt schlagfertig.",
       "source": "Matthias Pöhm: Nicht auf den Mund gefallen!"
     },
     "en": {
       "title": "Quick wit with a question",
       "body": "Someone makes a cutting remark and your mind goes blank. The good news: you don't need a clever comeback. Often a **calm question** is enough:\n\n\"What exactly do you mean?\"\n\"What are you trying to say?\"\n\nYou buy time, look relaxed, and the other person has to explain the jab. That's usually more awkward for him than for you.",
-      "apply": "Pick one go-to question you'll simply use the next time someone takes a shot at you.",
-      "more": "Communication trainers call this the \"counter-question technique\". Tone matters: curious and calm, not offended. Calmly handing the ball back shows the remark didn't throw you, and that is exactly what comes across as quick-witted.",
+      "example": "Colleague at lunch: \"Salad again? On a diet?\" You, calm and curious: \"What do you mean?\" Usually you get an awkward \"Oh, nothing\", and that's the end of it.",
+      "act": "Pick one go-to question you'll simply use the next time someone takes a shot at you.",
+      "deep": "Communication trainers call this the \"counter-question technique\". Tone matters: curious and calm, not offended. Calmly handing the ball back shows the remark didn't throw you, and that is exactly what comes across as quick-witted.",
       "source": "Matthias Pöhm: Nicht auf den Mund gefallen!"
     }
   },
@@ -368,18 +393,19 @@
     "sub": "schlagfertigkeit",
     "style": "tipp",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Dem Angriff die Luft nehmen",
       "body": "Kritik oder Spott lebt davon, dass du dich verteidigst. Nimm ihr die Luft, indem du **dem wahren Kern ruhig zustimmst**.\n\n\"Du bist ja immer der Letzte.\" – \"Stimmt, heute war ich spät dran.\"\n\"Dein Auto ist eine Rostlaube.\" – \"Ja, aber sie fährt.\"\n\nKein Rechtfertigen, kein Gegenangriff. Wer nichts zum Abprallen findet, hört meistens schnell auf.",
-      "apply": "Antworte auf die nächste harmlose Stichelei mit einem gelassenen \"Stimmt\".",
-      "more": "In der Kommunikationspsychologie heisst die Technik \"Fogging\" (Nebel werfen). Sie stammt aus Manuel J. Smiths Buch \"When I Say No, I Feel Guilty\" (1975) und wird in Selbstbehauptungstrainings geübt. Bei ernster, berechtigter Kritik ist sie fehl am Platz, dort ist ehrliches Zuhören besser.",
+      "act": "Antworte auf die nächste harmlose Stichelei mit einem gelassenen \"Stimmt\".",
+      "deep": "In der Kommunikationspsychologie heisst die Technik \"Fogging\" (Nebel werfen). Sie stammt aus Manuel J. Smiths Buch \"When I Say No, I Feel Guilty\" (1975) und wird in Selbstbehauptungstrainings geübt. Bei ernster, berechtigter Kritik ist sie fehl am Platz, dort ist ehrliches Zuhören besser.",
       "source": "Manuel J. Smith: When I Say No, I Feel Guilty (1975)"
     },
     "en": {
       "title": "Take the air out of an attack",
       "body": "Criticism and mockery live off your defending yourself. Take the air out by **calmly agreeing with the grain of truth**.\n\n\"You're always the last one.\" – \"True, I was late today.\"\n\"Your car is a rust bucket.\" – \"Yes, but it runs.\"\n\nNo justifying, no counterattack. When there's nothing to bounce off, most people stop quickly.",
-      "apply": "Answer the next harmless jab with a relaxed \"True\".",
-      "more": "In communication psychology this technique is called \"fogging\". It comes from Manuel J. Smith's book \"When I Say No, I Feel Guilty\" (1975) and is practised in assertiveness training. It's out of place for serious, fair criticism; there, honest listening is better.",
+      "act": "Answer the next harmless jab with a relaxed \"True\".",
+      "deep": "In communication psychology this technique is called \"fogging\". It comes from Manuel J. Smith's book \"When I Say No, I Feel Guilty\" (1975) and is practised in assertiveness training. It's out of place for serious, fair criticism; there, honest listening is better.",
       "source": "Manuel J. Smith: When I Say No, I Feel Guilty (1975)"
     }
   },
@@ -389,18 +415,21 @@
     "sub": "schlagfertigkeit",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ja, und …",
       "body": "Im Improvisationstheater gibt es eine Grundregel: Was dein Partner anbietet, nimmst du an und baust darauf auf. **\"Ja, und …\"** statt \"Nein, aber …\".\n\nIm Alltag macht dich diese Haltung spontaner und lockerer. Statt Ideen sofort zu bewerten, spielst du sie weiter. Gespräche werden lebendiger, Brainstormings ergiebiger, und Humor entsteht fast von selbst.",
-      "apply": "Antworte heute auf einen Vorschlag mit \"Ja, und …\" und führ ihn einen Schritt weiter.",
-      "more": "Das Prinzip geht auf Improvisationslehrer wie Viola Spolin und Keith Johnstone zurück. Firmen wie Pixar und Google nutzen es in Kreativ-Workshops. Wer regelmässig Improvisation übt, berichtet oft von weniger Angst vor spontanen Situationen, Studien dazu sind vielversprechend, aber noch klein.",
+      "example": "Ein Freund: \"Lass uns mal eine Velotour machen.\" \"Nein, aber das Wetter …\" beendet die Idee. \"Ja, und wir fahren bis an den See und grillen dort\" macht daraus einen Plan.",
+      "act": "Antworte heute auf einen Vorschlag mit \"Ja, und …\" und führ ihn einen Schritt weiter.",
+      "deep": "Das Prinzip geht auf Improvisationslehrer wie Viola Spolin und Keith Johnstone zurück. Firmen wie Pixar und Google nutzen es in Kreativ-Workshops. Wer regelmässig Improvisation übt, berichtet oft von weniger Angst vor spontanen Situationen, Studien dazu sind vielversprechend, aber noch klein.",
       "source": "Keith Johnstone: Impro (1979)"
     },
     "en": {
       "title": "Yes, and …",
       "body": "Improv theatre has a basic rule: whatever your partner offers, you accept and build on. **\"Yes, and …\"** instead of \"No, but …\".\n\nIn everyday life this attitude makes you more spontaneous and relaxed. Instead of judging ideas right away, you play them forward. Conversations get livelier, brainstorms more productive, and humour appears almost by itself.",
-      "apply": "Today, answer a suggestion with \"Yes, and …\" and take it one step further.",
-      "more": "The principle goes back to improv teachers like Viola Spolin and Keith Johnstone. Companies like Pixar and Google use it in creative workshops. People who practise improv regularly often report less fear of spontaneous situations; studies on this are promising but still small.",
+      "example": "A friend: \"Let's do a bike trip sometime.\" \"No, but the weather …\" kills the idea. \"Yes, and we ride to the lake and grill there\" turns it into a plan.",
+      "act": "Today, answer a suggestion with \"Yes, and …\" and take it one step further.",
+      "deep": "The principle goes back to improv teachers like Viola Spolin and Keith Johnstone. Companies like Pixar and Google use it in creative workshops. People who practise improv regularly often report less fear of spontaneous situations; studies on this are promising but still small.",
       "source": "Keith Johnstone: Impro (1979)"
     }
   },
@@ -410,18 +439,19 @@
     "sub": "wirkung",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Streich die Weichmacher",
       "body": "\"Ich würde mal sagen, dass wir vielleicht eventuell früher anfangen könnten.\"\n\nJedes dieser Wörter schwächt deine Aussage: **würde, mal, vielleicht, eventuell, eigentlich, irgendwie, nur, ein bisschen**. Zusammen klingt es, als würdest du dich für deine eigene Meinung entschuldigen.\n\n\"Lass uns früher anfangen.\" Gleicher Inhalt, doppelte Wirkung. Höflich bleiben kannst du trotzdem, mit Ton und einem \"bitte\", nicht mit Unsicherheit.\n\nEin Mann, der meint, was er sagt, braucht keine Polster.",
-      "apply": "Lies deine letzte längere Nachricht und streich alle Weichmacher.",
-      "more": "Sprachforscher nennen solche Wörter \"Hedges\" (Absicherungen). In Studien zu Überzeugungskraft wurden Sprecher mit vielen Hedges als weniger kompetent und glaubwürdig bewertet. In der Wissenschaft sind sie dagegen oft angebracht, wenn etwas wirklich unsicher ist. Ehrliche Unsicherheit ist gut, gewohnheitsmässige nicht.",
+      "act": "Lies deine letzte längere Nachricht und streich alle Weichmacher.",
+      "deep": "Sprachforscher nennen solche Wörter \"Hedges\" (Absicherungen). In Studien zu Überzeugungskraft wurden Sprecher mit vielen Hedges als weniger kompetent und glaubwürdig bewertet. In der Wissenschaft sind sie dagegen oft angebracht, wenn etwas wirklich unsicher ist. Ehrliche Unsicherheit ist gut, gewohnheitsmässige nicht.",
       "source": "Blankenship & Holtgraves: The role of different markers of linguistic powerlessness in persuasion, Journal of Language and Social Psychology (2005)"
     },
     "en": {
       "title": "Cut the softeners",
       "body": "\"I would just kind of say that maybe we could possibly start a bit earlier.\"\n\nEach of these words weakens your statement: **would, just, kind of, maybe, possibly, actually, a bit**. Together it sounds as if you're apologising for your own opinion.\n\n\"Let's start earlier.\" Same content, twice the impact. You can still be polite, through tone and a \"please\", not through uncertainty.\n\nA man who means what he says needs no padding.",
-      "apply": "Reread your last long message and delete every softener.",
-      "more": "Linguists call these words \"hedges\". In persuasion studies, speakers who used many hedges were rated as less competent and credible. In science, hedges are often appropriate when something truly is uncertain. Honest uncertainty is good; habitual uncertainty isn't.",
+      "act": "Reread your last long message and delete every softener.",
+      "deep": "Linguists call these words \"hedges\". In persuasion studies, speakers who used many hedges were rated as less competent and credible. In science, hedges are often appropriate when something truly is uncertain. Honest uncertainty is good; habitual uncertainty isn't.",
       "source": "Blankenship & Holtgraves: The role of different markers of linguistic powerlessness in persuasion, Journal of Language and Social Psychology (2005)"
     }
   },
@@ -431,18 +461,19 @@
     "sub": "wirkung",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Der schönste Klang",
       "body": "Dale Carnegie schrieb: Der Name eines Menschen ist für ihn der süsseste und wichtigste Klang in jeder Sprache.\n\nWer sich Namen merkt und sie benutzt, zeigt Respekt und Aufmerksamkeit. Ein Trick dafür: **Wiederhole den Namen sofort** (\"Freut mich, Marco\"), verknüpf ihn mit einem Bild oder einer Person, die du kennst, und benutze ihn im Gespräch noch ein- oder zweimal. Nicht in jedem Satz, das wirkt aufgesetzt.",
-      "apply": "Merk dir heute den Namen der nächsten Person, die du neu kennenlernst, und sag ihn beim Abschied.",
-      "more": "Carnegies \"Wie man Freunde gewinnt\" (1936) gehört zu den meistverkauften Sachbüchern aller Zeiten. Hirnforschung zeigt, dass der eigene Name besondere Aufmerksamkeit auslöst, man hört ihn sogar in einem lauten Raum heraus (\"Cocktailparty-Effekt\").",
+      "act": "- Wiederhole den Namen sofort: \"Freut mich, Marco.\"\n- Verknüpf ihn mit einem Bild oder jemandem, den du kennst.\n- Sag ihn beim Abschied noch einmal.",
+      "deep": "Carnegies \"Wie man Freunde gewinnt\" (1936) gehört zu den meistverkauften Sachbüchern aller Zeiten. Hirnforschung zeigt, dass der eigene Name besondere Aufmerksamkeit auslöst, man hört ihn sogar in einem lauten Raum heraus (\"Cocktailparty-Effekt\").",
       "source": "Dale Carnegie: Wie man Freunde gewinnt (1936); Moray: Quarterly Journal of Experimental Psychology (1959)"
     },
     "en": {
       "title": "The sweetest sound",
       "body": "Dale Carnegie wrote that a person's name is, to that person, the sweetest and most important sound in any language.\n\nRemembering and using names shows respect and attention. A trick: **repeat the name right away** (\"Nice to meet you, Marco\"), link it to an image or someone you know, and use it once or twice more in the conversation. Not in every sentence; that feels fake.",
-      "apply": "Remember the name of the next new person you meet today and use it when you say goodbye.",
-      "more": "Carnegie's \"How to Win Friends and Influence People\" (1936) is one of the best-selling non-fiction books of all time. Brain research shows that our own name grabs attention in a special way; we even pick it out in a noisy room (the \"cocktail party effect\").",
+      "act": "- Repeat the name right away: \"Nice to meet you, Marco.\"\n- Link it to an image or someone you know.\n- Say it once more when you say goodbye.",
+      "deep": "Carnegie's \"How to Win Friends and Influence People\" (1936) is one of the best-selling non-fiction books of all time. Brain research shows that our own name grabs attention in a special way; we even pick it out in a noisy room (the \"cocktail party effect\").",
       "source": "Dale Carnegie: How to Win Friends and Influence People (1936); Moray: Quarterly Journal of Experimental Psychology (1959)"
     }
   },
@@ -452,18 +483,19 @@
     "sub": "wirkung",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Nachfragen macht sympathisch",
       "body": "Wer interessant wirken will, redet oft viel über sich. Die Forschung zeigt: Sympathischer wirkt, wer **Fragen stellt**, vor allem Nachfragen zu dem, was der andere gerade gesagt hat.\n\n\"Du warst in Japan? Was hat dich dort am meisten überrascht?\"\n\nNachfragen zeigen, dass du wirklich zugehört hast. In Speed-Dating-Studien bekamen Menschen, die mehr Nachfragen stellten, mehr Zusagen für ein zweites Date.",
-      "apply": "Stell im nächsten Gespräch mindestens zwei Nachfragen, bevor du von dir erzählst.",
-      "more": "Karen Huang und Kollegen an der Harvard Business School werteten Online-Chats und Speed-Dates aus (2017). Mehr Fragen führten zu mehr Sympathie, besonders Folgefragen. Interessant: Die Fragenden unterschätzten selbst, wie gut das ankam.",
+      "act": "Stell im nächsten Gespräch mindestens zwei Nachfragen, bevor du von dir erzählst.",
+      "deep": "Karen Huang und Kollegen an der Harvard Business School werteten Online-Chats und Speed-Dates aus (2017). Mehr Fragen führten zu mehr Sympathie, besonders Folgefragen. Interessant: Die Fragenden unterschätzten selbst, wie gut das ankam.",
       "source": "Huang et al.: It doesn't hurt to ask, Journal of Personality and Social Psychology (2017)"
     },
     "en": {
       "title": "Follow-up questions make you likeable",
       "body": "People who want to seem interesting often talk a lot about themselves. Research shows the more likeable ones are those who **ask questions**, especially follow-ups on what the other person just said.\n\n\"You were in Japan? What surprised you most there?\"\n\nFollow-up questions show you really listened. In speed-dating studies, people who asked more follow-ups got more yeses for a second date.",
-      "apply": "In your next conversation, ask at least two follow-up questions before talking about yourself.",
-      "more": "Karen Huang and colleagues at Harvard Business School analysed online chats and speed dates (2017). More questions led to more liking, especially follow-up questions. Interestingly, the askers themselves underestimated how well this went over.",
+      "act": "In your next conversation, ask at least two follow-up questions before talking about yourself.",
+      "deep": "Karen Huang and colleagues at Harvard Business School analysed online chats and speed dates (2017). More questions led to more liking, especially follow-up questions. Interestingly, the askers themselves underestimated how well this went over.",
       "source": "Huang et al.: It doesn't hurt to ask, Journal of Personality and Social Psychology (2017)"
     }
   },
@@ -473,18 +505,19 @@
     "sub": "rhetorik",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Übe laut, nicht im Kopf",
       "body": "Eine Rede im Kopf durchgehen fühlt sich wie Üben an, ist es aber kaum. Im Kopf klingt alles flüssig. Laut merkst du sofort, wo du stockst, wo ein Satz zu lang ist und wo der Übergang fehlt.\n\nDie besten Redner proben ihre wichtigen Auftritte **mehrmals laut**, idealerweise stehend und mit Zeitmessung, und mindestens einmal vor einem echten Menschen.\n\nSouveränität ist kein Talent. Sie ist das Ergebnis von Übung, die niemand sieht.",
-      "apply": "Sprich die ersten 60 Sekunden deines nächsten wichtigen Gesprächs einmal laut durch.",
-      "more": "Steve Jobs galt als spontaner Redner, probte seine Keynotes aber tagelang. In \"TED Talks\" schreibt Chris Anderson, dass fast alle herausragenden Talks auswendig gelernt und sehr oft geprobt wurden, bis sie wieder natürlich klangen.",
+      "act": "Sprich die ersten 60 Sekunden deines nächsten wichtigen Gesprächs einmal laut durch.",
+      "deep": "Steve Jobs galt als spontaner Redner, probte seine Keynotes aber tagelang. In \"TED Talks\" schreibt Chris Anderson, dass fast alle herausragenden Talks auswendig gelernt und sehr oft geprobt wurden, bis sie wieder natürlich klangen.",
       "source": "Carmine Gallo: The Presentation Secrets of Steve Jobs (2009); Chris Anderson: TED Talks (2016)"
     },
     "en": {
       "title": "Practise out loud, not in your head",
       "body": "Going through a speech in your head feels like practice but barely counts. In your head, everything flows. Out loud, you notice right away where you stumble, where a sentence is too long and where a transition is missing.\n\nThe best speakers rehearse important talks **out loud several times**, ideally standing and timed, and at least once in front of a real person.\n\nComposure isn't a talent. It's the result of practice nobody sees.",
-      "apply": "Say the first 60 seconds of your next important conversation out loud once.",
-      "more": "Steve Jobs was seen as a natural speaker, but he rehearsed his keynotes for days. In \"TED Talks\" Chris Anderson writes that nearly all outstanding talks were memorised and rehearsed many times until they sounded natural again.",
+      "act": "Say the first 60 seconds of your next important conversation out loud once.",
+      "deep": "Steve Jobs was seen as a natural speaker, but he rehearsed his keynotes for days. In \"TED Talks\" Chris Anderson writes that nearly all outstanding talks were memorised and rehearsed many times until they sounded natural again.",
       "source": "Carmine Gallo: The Presentation Secrets of Steve Jobs (2009); Chris Anderson: TED Talks (2016)"
     }
   },
@@ -494,18 +527,19 @@
     "sub": "rhetorik",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Fang nicht mit einer Entschuldigung an",
       "body": "\"Ich bin kein guter Redner, aber …\" \"Ich halte es kurz …\" \"Ich hatte nicht viel Zeit zur Vorbereitung …\"\n\nDie ersten Sekunden entscheiden, ob dir jemand zuhört. Wer mit einer Entschuldigung startet, sagt dem Publikum: Erwartet nicht viel.\n\nStarte stattdessen mit etwas, das sofort fesselt: **einer Frage, einer überraschenden Zahl oder einem Satz aus einer Geschichte**. \"Vor drei Jahren hätte ich fast alles verloren.\"\n\nWer sich vor dem ersten Satz kleinmacht, wird danach nicht grösser. Steh hin und fang stark an.",
-      "apply": "Formuliere für deinen nächsten Auftritt einen ersten Satz, der neugierig macht.",
-      "more": "Rednertrainer sprechen vom \"Hook\", dem Haken, der die Aufmerksamkeit fängt. Höfliche Floskeln und Dankesreden am Anfang sind nicht falsch, aber sie sollten kurz sein und nicht den Einstieg ersetzen.",
+      "act": "Formuliere für deinen nächsten Auftritt einen ersten Satz, der neugierig macht.",
+      "deep": "Rednertrainer sprechen vom \"Hook\", dem Haken, der die Aufmerksamkeit fängt. Höfliche Floskeln und Dankesreden am Anfang sind nicht falsch, aber sie sollten kurz sein und nicht den Einstieg ersetzen.",
       "source": "Nancy Duarte: Resonate (2010)"
     },
     "en": {
       "title": "Don't open with an apology",
       "body": "\"I'm not a great speaker, but …\" \"I'll keep it short …\" \"I didn't have much time to prepare …\"\n\nThe first seconds decide whether people listen. Start with an apology and you tell your audience: don't expect much.\n\nInstead, open with something that grabs attention immediately: **a question, a surprising number or a line from a story**. \"Three years ago I almost lost everything.\"\n\nIf you make yourself small before your first sentence, you won't grow after it. Stand tall and start strong.",
-      "apply": "Write an opening line for your next talk that makes people curious.",
-      "more": "Speaking coaches call it the \"hook\". Polite phrases and thank-yous at the start aren't wrong, but they should be brief and not replace the opening.",
+      "act": "Write an opening line for your next talk that makes people curious.",
+      "deep": "Speaking coaches call it the \"hook\". Polite phrases and thank-yous at the start aren't wrong, but they should be brief and not replace the opening.",
       "source": "Nancy Duarte: Resonate (2010)"
     }
   },
@@ -515,6 +549,7 @@
     "sub": "rhetorik",
     "style": "zitat",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Die Macht des Kontrasts",
       "quote": {
@@ -523,8 +558,9 @@
         "source": "Antrittsrede, 20. Januar 1961"
       },
       "body": "Einer der berühmtesten Sätze des 20. Jahrhunderts lebt von einer einfachen Figur: dem **Kontrast**. Zwei Satzhälften, fast gleich gebaut, mit umgekehrtem Sinn.\n\nKontraste machen Aussagen scharf und merkbar, weil das Gehirn den Unterschied sofort erkennt. \"Nicht X, sondern Y\" ist eine der stärksten Formen, eine Botschaft zu setzen.",
-      "apply": "Formuliere deine wichtigste Aussage dieser Woche als \"Nicht …, sondern …\".",
-      "more": "In der Rhetorik heisst diese Figur \"Antithese\", die Umkehrung der Wortreihenfolge \"Chiasmus\". Kennedys Redenschreiber Ted Sorensen setzte sie gezielt ein. Auch Martin Luther King nutzte Kontraste: Seine Kinder sollten nicht nach ihrer Hautfarbe, sondern nach ihrem Charakter beurteilt werden.",
+      "example": "Statt \"Wir sollten mehr auf Qualität achten\" sagst du: \"Wir verkaufen nicht das billigste Produkt, sondern das, das nicht zurückkommt.\"",
+      "act": "Formuliere deine wichtigste Aussage dieser Woche als \"Nicht …, sondern …\".",
+      "deep": "In der Rhetorik heisst diese Figur \"Antithese\", die Umkehrung der Wortreihenfolge \"Chiasmus\". Kennedys Redenschreiber Ted Sorensen setzte sie gezielt ein. Auch Martin Luther King nutzte Kontraste: Seine Kinder sollten nicht nach ihrer Hautfarbe, sondern nach ihrem Charakter beurteilt werden.",
       "source": "John F. Kennedy: Inaugural Address (1961), eigene Übersetzung"
     },
     "en": {
@@ -535,8 +571,9 @@
         "source": "Inaugural Address, 20 January 1961"
       },
       "body": "One of the most famous lines of the 20th century runs on a simple device: **contrast**. Two halves, built almost identically, with the meaning reversed.\n\nContrasts make statements sharp and memorable because the brain spots the difference instantly. \"Not X, but Y\" is one of the strongest ways to land a message.",
-      "apply": "Phrase your most important point this week as \"Not …, but …\".",
-      "more": "In rhetoric this figure is called \"antithesis\"; reversing the word order is called \"chiasmus\". Kennedy's speechwriter Ted Sorensen used it deliberately. Martin Luther King used contrast too: his children should be judged not by the colour of their skin but by the content of their character.",
+      "example": "Instead of \"We should focus more on quality\" you say: \"We don't sell the cheapest product, we sell the one that doesn't come back.\"",
+      "act": "Phrase your most important point this week as \"Not …, but …\".",
+      "deep": "In rhetoric this figure is called \"antithesis\"; reversing the word order is called \"chiasmus\". Kennedy's speechwriter Ted Sorensen used it deliberately. Martin Luther King used contrast too: his children should be judged not by the colour of their skin but by the content of their character.",
       "source": "John F. Kennedy: Inaugural Address (1961)"
     }
   },
@@ -546,18 +583,19 @@
     "sub": "rhetorik",
     "style": "geschichte",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Churchill und die Wiederholung",
       "body": "Juni 1940. Die britische Armee war gerade aus Dünkirchen evakuiert worden, Frankreich stand vor dem Fall. Winston Churchill trat vor das Parlament und wiederholte immer wieder dieselben drei Worte: **\"We shall fight\"**, auf den Stränden, an den Landeplätzen, auf den Feldern, in den Strassen, in den Hügeln. \"Wir werden uns niemals ergeben.\"\n\nDie Wiederholung am Satzanfang hämmert eine Botschaft ein, bis sie sitzt. Sie gab einem verängstigten Land eine Haltung.",
-      "apply": "Wiederhole die Kernbotschaft deines nächsten Gesprächs bewusst zwei- bis dreimal.",
-      "more": "Die Rede vom 4. Juni 1940 ist als \"We shall fight on the beaches\" bekannt. Die Figur heisst \"Anapher\": dieselben Worte am Anfang aufeinanderfolgender Sätze. Auch Martin Luther Kings \"I have a dream\" ist eine Anapher. Churchill erhielt 1953 den Literaturnobelpreis, unter anderem für seine Reden.",
+      "act": "Wiederhole die Kernbotschaft deines nächsten Gesprächs bewusst zwei- bis dreimal.",
+      "deep": "Die Rede vom 4. Juni 1940 ist als \"We shall fight on the beaches\" bekannt. Die Figur heisst \"Anapher\": dieselben Worte am Anfang aufeinanderfolgender Sätze. Auch Martin Luther Kings \"I have a dream\" ist eine Anapher. Churchill erhielt 1953 den Literaturnobelpreis, unter anderem für seine Reden.",
       "source": "Winston Churchill: Rede vor dem Unterhaus, 4. Juni 1940"
     },
     "en": {
       "title": "Churchill and repetition",
       "body": "June 1940. The British army had just been evacuated from Dunkirk; France was about to fall. Winston Churchill stood before Parliament and repeated the same three words again and again: **\"We shall fight\"**, on the beaches, on the landing grounds, in the fields, in the streets, in the hills. \"We shall never surrender.\"\n\nRepetition at the start of sentences hammers a message in until it sticks. It gave a frightened country a stance.",
-      "apply": "Deliberately repeat the core message of your next conversation two or three times.",
-      "more": "The speech of 4 June 1940 is known as \"We shall fight on the beaches\". The device is called \"anaphora\": the same words at the start of successive sentences. Martin Luther King's \"I have a dream\" is an anaphora too. Churchill received the 1953 Nobel Prize in Literature, partly for his speeches.",
+      "act": "Deliberately repeat the core message of your next conversation two or three times.",
+      "deep": "The speech of 4 June 1940 is known as \"We shall fight on the beaches\". The device is called \"anaphora\": the same words at the start of successive sentences. Martin Luther King's \"I have a dream\" is an anaphora too. Churchill received the 1953 Nobel Prize in Literature, partly for his speeches.",
       "source": "Winston Churchill: Speech to the House of Commons, 4 June 1940"
     }
   },
@@ -567,18 +605,19 @@
     "sub": "sprache",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Wer tut was?",
       "body": "\"Es wurde beschlossen, dass die Preise angepasst werden.\" Von wem? Wann? Warum?\n\nPassive Sätze verstecken, **wer handelt**. Das klingt bürokratisch und manchmal nach Ausrede. Aktive Sätze sind kürzer, klarer und übernehmen Verantwortung: \"Wir erhöhen die Preise ab März um 5 %.\"\n\nDazu passt: Starke Verben statt Hauptwörter. \"Wir entscheiden\" statt \"Wir treffen eine Entscheidung\".",
-      "apply": "Formuliere heute einen Passivsatz in deiner Arbeit aktiv um.",
-      "more": "Schreib-Ratgeber von Wolf Schneider bis George Orwell empfehlen das Aktiv. Orwell schrieb 1946 in \"Politics and the English Language\": Nimm nie das Passiv, wenn du das Aktiv nehmen kannst. Das Passiv ist nicht verboten: Es passt, wenn der Handelnde unwichtig oder unbekannt ist.",
+      "act": "Formuliere heute einen Passivsatz in deiner Arbeit aktiv um.",
+      "deep": "Schreib-Ratgeber von Wolf Schneider bis George Orwell empfehlen das Aktiv. Orwell schrieb 1946 in \"Politics and the English Language\": Nimm nie das Passiv, wenn du das Aktiv nehmen kannst. Das Passiv ist nicht verboten: Es passt, wenn der Handelnde unwichtig oder unbekannt ist.",
       "source": "Wolf Schneider: Deutsch für Profis (1982); George Orwell: Politics and the English Language (1946)"
     },
     "en": {
       "title": "Who does what?",
       "body": "\"It was decided that prices would be adjusted.\" By whom? When? Why?\n\nPassive sentences hide **who acts**. That sounds bureaucratic and sometimes like an excuse. Active sentences are shorter, clearer and take ownership: \"We're raising prices by 5% from March.\"\n\nRelated: strong verbs instead of nouns. \"We decide\" instead of \"We make a decision\".",
-      "apply": "Rewrite one passive sentence from your work in the active voice today.",
-      "more": "Writing guides from Wolf Schneider to George Orwell recommend the active voice. In \"Politics and the English Language\" (1946) Orwell wrote: never use the passive where you can use the active. The passive isn't forbidden: it fits when the actor is unimportant or unknown.",
+      "act": "Rewrite one passive sentence from your work in the active voice today.",
+      "deep": "Writing guides from Wolf Schneider to George Orwell recommend the active voice. In \"Politics and the English Language\" (1946) Orwell wrote: never use the passive where you can use the active. The passive isn't forbidden: it fits when the actor is unimportant or unknown.",
       "source": "George Orwell: Politics and the English Language (1946); Wolf Schneider: Deutsch für Profis (1982)"
     }
   },
@@ -588,18 +627,21 @@
     "sub": "sprache",
     "style": "tipp",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Das genaue Wort",
       "body": "\"Das war gut.\" Gut wie? Spannend, durchdacht, mutig, effizient, herzlich?\n\nEin grösserer Wortschatz heisst nicht, Fremdwörter zu benutzen. Er heisst, für jede Situation **das genaue Wort** zu haben. Genaue Wörter lassen dich klüger wirken, weil sie zeigen, dass du klar denkst, und sie machen Lob und Kritik viel wirksamer.\n\nMark Twain soll gesagt haben: Der Unterschied zwischen dem richtigen und dem fast richtigen Wort ist wie der zwischen Blitz und Glühwürmchen.",
-      "apply": "Ersetze heute dreimal \"gut\" oder \"schlecht\" durch ein genaueres Wort.",
-      "more": "Das Twain-Zitat stammt aus einem Brief von 1888 an George Bainton und lautet sinngemäss: \"The difference between the almost right word and the right word is really a large matter, 'tis the difference between the lightning-bug and the lightning.\" Gute Übung: Lies Texte von guten Schreibern und notiere Wörter, die du selbst nie benutzt.",
+      "example": "Statt \"Dein Vortrag war gut\" sagst du: \"Dein Einstieg mit der Zahl war packend, und die Grafik zum Schluss hat alles klar gemacht.\" Jetzt weiss er, was er wieder so machen soll.",
+      "act": "Ersetze heute dreimal \"gut\" oder \"schlecht\" durch ein genaueres Wort.",
+      "deep": "Das Twain-Zitat stammt aus einem Brief von 1888 an George Bainton und lautet sinngemäss: \"The difference between the almost right word and the right word is really a large matter, 'tis the difference between the lightning-bug and the lightning.\" Gute Übung: Lies Texte von guten Schreibern und notiere Wörter, die du selbst nie benutzt.",
       "source": "Mark Twain, Brief an George Bainton (1888)"
     },
     "en": {
       "title": "The exact word",
       "body": "\"That was good.\" Good how? Exciting, well thought out, brave, efficient, warm?\n\nA bigger vocabulary doesn't mean using fancy words. It means having **the exact word** for each situation. Precise words make you sound smarter because they show clear thinking, and they make praise and criticism far more effective.\n\nMark Twain wrote that the difference between the right word and the almost right word is the difference between lightning and a lightning bug.",
-      "apply": "Today, replace \"good\" or \"bad\" with a more precise word three times.",
-      "more": "The Twain line comes from an 1888 letter to George Bainton: \"The difference between the almost right word and the right word is really a large matter, 'tis the difference between the lightning-bug and the lightning.\" A good exercise: read good writers and note words you never use yourself.",
+      "example": "Instead of \"Your talk was good\" you say: \"Opening with that number grabbed me, and the chart at the end made everything clear.\" Now he knows what to do again.",
+      "act": "Today, replace \"good\" or \"bad\" with a more precise word three times.",
+      "deep": "The Twain line comes from an 1888 letter to George Bainton: \"The difference between the almost right word and the right word is really a large matter, 'tis the difference between the lightning-bug and the lightning.\" A good exercise: read good writers and note words you never use yourself.",
       "source": "Mark Twain, letter to George Bainton (1888)"
     }
   },
@@ -609,18 +651,19 @@
     "sub": "stimme",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Sprich langsamer, als du denkst",
       "body": "Unter Nervosität sprechen fast alle zu schnell. Für dich fühlt sich dein Tempo normal an, für die Zuhörer ist es gehetzt, und gehetzt wirkt unsicher.\n\nEin ruhiges Tempo signalisiert: **Ich habe Zeit, weil das, was ich sage, wichtig ist.** Es gibt dir ausserdem Raum zum Denken, und die Zuhörer können folgen.\n\nFaustregel: Wenn es sich für dich ein bisschen zu langsam anfühlt, ist es meistens genau richtig.",
-      "apply": "Sprich in deinem nächsten Telefonat bewusst etwas langsamer und achte darauf, wie der andere reagiert.",
-      "more": "Für Präsentationen gelten etwa 130 bis 150 Wörter pro Minute als angenehm, im lockeren Gespräch ist man oft schneller. Hörbücher werden meist mit rund 150 bis 160 Wörtern pro Minute gesprochen. Wichtiger als ein festes Tempo ist der Wechsel: langsamer bei wichtigen Stellen, etwas schneller bei Erzählungen.",
+      "act": "Sprich in deinem nächsten Telefonat bewusst etwas langsamer und achte darauf, wie der andere reagiert.",
+      "deep": "Für Präsentationen gelten etwa 130 bis 150 Wörter pro Minute als angenehm, im lockeren Gespräch ist man oft schneller. Hörbücher werden meist mit rund 150 bis 160 Wörtern pro Minute gesprochen. Wichtiger als ein festes Tempo ist der Wechsel: langsamer bei wichtigen Stellen, etwas schneller bei Erzählungen.",
       "source": "National Center for Voice and Speech; gängige Sprechtrainings"
     },
     "en": {
       "title": "Speak slower than you think",
       "body": "Under pressure almost everyone speaks too fast. Your pace feels normal to you, but to listeners it sounds rushed, and rushed sounds insecure.\n\nA calm pace signals: **I can take my time because what I'm saying matters.** It also gives you room to think, and your listeners can keep up.\n\nRule of thumb: if it feels a little too slow to you, it's usually just right.",
-      "apply": "On your next phone call, speak a bit slower on purpose and notice how the other person responds.",
-      "more": "For presentations, about 130 to 150 words per minute is considered comfortable; in casual conversation people are often faster. Audiobooks are usually narrated at around 150 to 160 words per minute. More important than a fixed pace is variation: slower at key points, a little faster in stories.",
+      "act": "On your next phone call, speak a bit slower on purpose and notice how the other person responds.",
+      "deep": "For presentations, about 130 to 150 words per minute is considered comfortable; in casual conversation people are often faster. Audiobooks are usually narrated at around 150 to 160 words per minute. More important than a fixed pace is variation: slower at key points, a little faster in stories.",
       "source": "National Center for Voice and Speech; common speech training"
     }
   },
@@ -630,18 +673,19 @@
     "sub": "koerpersprache",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Aufrecht sitzen hilft dir unter Druck",
       "body": "Deine Haltung sendet nicht nur Signale an andere. Sie wirkt auch auf dich.\n\nIn einer Studie in Neuseeland mussten Teilnehmer eine stressige Aufgabe lösen: eine Rede halten, die bewertet wird. Eine Gruppe sass dabei **aufrecht**, die andere **zusammengesackt**. Die Aufrechten berichteten mehr Selbstwert, bessere Stimmung und weniger Angst. Sie sprachen auch mehr.\n\nDie Effekte sind nicht riesig. Aber eine aufrechte Haltung kostet nichts und hilft dir, wenn es zählt.",
-      "apply": "Kontrolliere heute dreimal deine Haltung: Brust auf, Schultern locker, Kopf gerade. Halte sie zwei Minuten bewusst.",
-      "more": "Shwetha Nair und Kollegen veröffentlichten die Studie 2015. Im Unterschied zum umstrittenen \"Power-Posing\" geht es hier nicht um Hormone, sondern um Stimmung und Selbstwahrnehmung. Diese Effekte gelten als besser belegt.",
+      "act": "Stell dir eine Erinnerung für dreimal am Tag, eine Woche lang: Brust auf, Schultern locker, Kopf gerade, zwei Minuten halten. Bis es von selbst geht.",
+      "deep": "Shwetha Nair und Kollegen veröffentlichten die Studie 2015. Im Unterschied zum umstrittenen \"Power-Posing\" geht es hier nicht um Hormone, sondern um Stimmung und Selbstwahrnehmung. Diese Effekte gelten als besser belegt.",
       "source": "Nair, Sagar, Sollers, Consedine & Broadbent: Do slumped and upright postures affect stress responses? Health Psychology, 2015"
     },
     "en": {
       "title": "Sitting upright helps you under pressure",
       "body": "Your posture doesn't only send signals to others. It also works on you.\n\nIn a study in New Zealand, participants faced a stressful task: giving a speech that would be judged. One group sat **upright**, the other **slumped**. The upright group reported higher self-esteem, better mood and less fear. They also talked more.\n\nThe effects aren't huge. But upright posture costs nothing and helps you when it counts.",
-      "apply": "Check your posture three times today: chest open, shoulders loose, head level. Hold it consciously for two minutes.",
-      "more": "Shwetha Nair and colleagues published the study in 2015. Unlike the disputed \"power posing\", this isn't about hormones but about mood and self-perception. Those effects are considered better supported.",
+      "act": "Set a reminder three times a day for a week: chest open, shoulders loose, head straight, hold it for two minutes. Until it happens on its own.",
+      "deep": "Shwetha Nair and colleagues published the study in 2015. Unlike the disputed \"power posing\", this isn't about hormones but about mood and self-perception. Those effects are considered better supported.",
       "source": "Nair, Sagar, Sollers, Consedine & Broadbent: Do slumped and upright postures affect stress responses? Health Psychology, 2015"
     }
   },
@@ -651,18 +695,19 @@
     "sub": "schlagfertigkeit",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Reagans Antwort, die eine Wahl entschied",
       "body": "1984 war Ronald Reagan 73 Jahre alt, der älteste US-Präsident bis dahin. Im ersten Fernsehduell hatte er unsicher gewirkt. Alle fragten sich: Ist er zu alt?\n\nIm zweiten Duell kam die Frage direkt. Reagan antwortete ruhig: \"Ich werde das Alter in diesem Wahlkampf nicht zum Thema machen. Ich werde die **Jugend und Unerfahrenheit** meines Gegners nicht für politische Zwecke ausnutzen.\"\n\nDas Publikum lachte, sogar sein 56-jähriger Gegner Walter Mondale. Das Thema war erledigt. Reagan gewann 49 von 50 Staaten.",
-      "apply": "Überleg dir für eine Schwäche, auf die man dich oft anspricht, eine ruhige, humorvolle Antwort. Schreib sie auf.",
-      "more": "Mondale sagte später, er habe in diesem Moment gewusst, dass er die Wahl verloren hatte. Der Satz wirkte, weil er vorbereitet, kurz und gelassen war, und weil Reagan nicht verteidigte, sondern das Thema umdrehte.",
+      "act": "Überleg dir für eine Schwäche, auf die man dich oft anspricht, eine ruhige, humorvolle Antwort. Schreib sie auf.",
+      "deep": "Mondale sagte später, er habe in diesem Moment gewusst, dass er die Wahl verloren hatte. Der Satz wirkte, weil er vorbereitet, kurz und gelassen war, und weil Reagan nicht verteidigte, sondern das Thema umdrehte.",
       "source": "Zweites Präsidentschaftsduell Reagan–Mondale, 21. Oktober 1984, Commission on Presidential Debates"
     },
     "en": {
       "title": "Reagan's answer that decided an election",
       "body": "In 1984 Ronald Reagan was 73, the oldest US president up to then. In the first TV debate he had seemed shaky. Everyone wondered: is he too old?\n\nIn the second debate, the question came straight at him. Reagan answered calmly: \"I will not make age an issue of this campaign. I am not going to exploit, for political purposes, my opponent's **youth and inexperience**.\"\n\nThe audience laughed, even his 56-year-old opponent Walter Mondale. The issue was dead. Reagan won 49 of 50 states.",
-      "apply": "For a weakness people often bring up about you, think of a calm, humorous answer. Write it down.",
-      "more": "Mondale later said he knew in that moment he had lost the election. The line worked because it was prepared, short and relaxed, and because Reagan didn't defend but turned the issue around.",
+      "act": "For a weakness people often bring up about you, think of a calm, humorous answer. Write it down.",
+      "deep": "Mondale later said he knew in that moment he had lost the election. The line worked because it was prepared, short and relaxed, and because Reagan didn't defend but turned the issue around.",
       "source": "Second Reagan–Mondale presidential debate, 21 October 1984, Commission on Presidential Debates"
     }
   },
@@ -672,18 +717,19 @@
     "sub": "schlagfertigkeit",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Schlagfertigkeit ist vorbereitet",
       "body": "Mark Twain soll gesagt haben: \"Ich brauche meist mehr als drei Wochen, um eine gute Stegreifrede vorzubereiten.\"\n\nDas ist das Geheimnis schlagfertiger Menschen: Sie sind nicht schneller im Kopf. Sie haben **vorgedacht**. Die meisten Sticheleien, die du hörst, wiederholen sich: über dein Alter, deinen Job, deinen Glauben, deine Figur.\n\nSchreib sie auf. Überleg dir in Ruhe eine kurze, souveräne Antwort. Wenn der Satz das nächste Mal kommt, bist du bereit.",
-      "apply": "Schreib heute die drei Sprüche auf, die dich am häufigsten treffen, und zu jedem eine ruhige Antwort in einem Satz.",
-      "more": "Ob Twain den Satz genau so gesagt hat, ist nicht gesichert, er wird ihm aber seit über hundert Jahren zugeschrieben. Rhetoriktrainer empfehlen dasselbe Prinzip für Vorstellungsgespräche und Verhandlungen: Die schwierigsten Fragen vorher durchspielen.",
+      "act": "Schreib heute die drei Sprüche auf, die dich am häufigsten treffen, und zu jedem eine ruhige Antwort in einem Satz.",
+      "deep": "Ob Twain den Satz genau so gesagt hat, ist nicht gesichert, er wird ihm aber seit über hundert Jahren zugeschrieben. Rhetoriktrainer empfehlen dasselbe Prinzip für Vorstellungsgespräche und Verhandlungen: Die schwierigsten Fragen vorher durchspielen.",
       "source": "Mark Twain zugeschrieben; Matthias Pöhm: Nicht auf den Mund gefallen! (1998)"
     },
     "en": {
       "title": "Quick wit is prepared",
       "body": "Mark Twain is said to have remarked: \"It usually takes me more than three weeks to prepare a good impromptu speech.\"\n\nThat's the secret of quick-witted people: they aren't faster thinkers. They've **thought ahead**. Most of the jabs you hear repeat themselves: about your age, your job, your faith, your build.\n\nWrite them down. Calmly come up with a short, confident answer. Next time the line comes, you're ready.",
-      "apply": "Today, write down the three remarks that get to you most often, each with a calm one-sentence reply.",
-      "more": "Whether Twain said it exactly like that isn't certain, but it has been attributed to him for over a hundred years. Speaking coaches recommend the same principle for job interviews and negotiations: rehearse the hardest questions in advance.",
+      "act": "Today, write down the three remarks that get to you most often, each with a calm one-sentence reply.",
+      "deep": "Whether Twain said it exactly like that isn't certain, but it has been attributed to him for over a hundred years. Speaking coaches recommend the same principle for job interviews and negotiations: rehearse the hardest questions in advance.",
       "source": "Attributed to Mark Twain"
     }
   },
@@ -693,18 +739,19 @@
     "sub": "sprache",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Kurze Sätze werden verstanden",
       "body": "Je länger ein Satz, desto weniger Menschen verstehen ihn. Das klingt banal, aber die Zahlen sind deutlich.\n\nNach Untersuchungen des American Press Institute verstanden Leser Sätze mit **acht Wörtern** fast vollständig. Bei **14 Wörtern** waren es noch rund 90 %. Bei über **40 Wörtern** weniger als jeder Zehnte.\n\nKurze Sätze wirken nicht dumm. Sie wirken **klar**. Und Klarheit ist eine Form von Respekt vor dem Zuhörer.",
-      "apply": "Nimm die nächste wichtige Nachricht, die du schreibst, und teile jeden Satz mit mehr als 20 Wörtern in zwei.",
-      "more": "Der Journalist Wolf Schneider, Lehrer ganzer Generationen deutscher Journalisten, predigte dasselbe: Hauptsätze, kurze Wörter, das Verb früh. Auch beim Sprechen gilt: Wer in kurzen Sätzen redet, wirkt sicherer und wird besser behalten.",
+      "act": "Nimm die nächste wichtige Nachricht, die du schreibst, und teile jeden Satz mit mehr als 20 Wörtern in zwei.",
+      "deep": "Der Journalist Wolf Schneider, Lehrer ganzer Generationen deutscher Journalisten, predigte dasselbe: Hauptsätze, kurze Wörter, das Verb früh. Auch beim Sprechen gilt: Wer in kurzen Sätzen redet, wirkt sicherer und wird besser behalten.",
       "source": "American Press Institute, zitiert nach Ann Wylie; Wolf Schneider: Deutsch für Profis (1982)"
     },
     "en": {
       "title": "Short sentences get understood",
       "body": "The longer a sentence, the fewer people understand it. Sounds obvious, but the numbers are striking.\n\nAccording to research by the American Press Institute, readers understood sentences of **eight words** almost completely. At **14 words**, about 90%. At over **40 words**, fewer than one in ten.\n\nShort sentences don't sound stupid. They sound **clear**. And clarity is a form of respect for your listener.",
-      "apply": "Take the next important message you write and split every sentence over 20 words into two.",
-      "more": "Great editors have preached the same for generations: main clauses, short words, the verb early. When speaking too, short sentences make you sound more confident and get remembered better.",
+      "act": "Take the next important message you write and split every sentence over 20 words into two.",
+      "deep": "Great editors have preached the same for generations: main clauses, short words, the verb early. When speaking too, short sentences make you sound more confident and get remembered better.",
       "source": "American Press Institute, as cited by Ann Wylie"
     }
   },
@@ -714,18 +761,19 @@
     "sub": "sprache",
     "style": "fakt",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Dein Wortschatz wächst durch Lesen, nicht durch Reden",
       "body": "Wer gut sprechen will, muss lesen. Der Grund ist überraschend.\n\nForscher verglichen, wie viele **seltene Wörter** in verschiedenen Quellen vorkommen. Ergebnis: Selbst Kinderbücher enthalten mehr seltene Wörter als die meisten Fernsehsendungen für Erwachsene oder Gespräche unter gebildeten Erwachsenen. Zeitungen und Sachbücher liegen noch weit darüber.\n\nIm Alltag verwenden wir immer dieselben paar Tausend Wörter. Neue findest du fast nur auf Papier.",
-      "apply": "Lies heute 20 Minuten in einem anspruchsvollen Buch und schreib dir ein neues Wort heraus. Benutze es noch diese Woche.",
-      "more": "Anne Cunningham und Keith Stanovich fassten die Forschung 1998 im Artikel \"What reading does for the mind\" zusammen. Wer viel liest, baut über Jahre einen deutlich grösseren Wortschatz auf, und dieser Vorsprung wächst mit der Zeit.",
+      "act": "Lies jeden Tag 20 Minuten in einem anspruchsvollen Buch. Schreib dir pro Woche drei neue Wörter heraus und benutze jedes mindestens einmal im Gespräch.",
+      "deep": "Anne Cunningham und Keith Stanovich fassten die Forschung 1998 im Artikel \"What reading does for the mind\" zusammen. Wer viel liest, baut über Jahre einen deutlich grösseren Wortschatz auf, und dieser Vorsprung wächst mit der Zeit.",
       "source": "Cunningham & Stanovich: What reading does for the mind. American Educator, 1998"
     },
     "en": {
       "title": "Your vocabulary grows by reading, not talking",
       "body": "If you want to speak well, you have to read. The reason is surprising.\n\nResearchers compared how many **rare words** appear in different sources. Result: even children's books contain more rare words than most adult TV shows or conversations between educated adults. Newspapers and non-fiction are far higher still.\n\nIn daily life we use the same few thousand words. New ones you find almost only on paper.",
-      "apply": "Read a demanding book for 20 minutes today and note one new word. Use it this week.",
-      "more": "Anne Cunningham and Keith Stanovich summarised the research in 1998 in the article \"What reading does for the mind\". People who read a lot build a much larger vocabulary over the years, and the lead grows over time.",
+      "act": "Read a demanding book for 20 minutes a day. Each week, note three new words and use each one at least once in conversation.",
+      "deep": "Anne Cunningham and Keith Stanovich summarised the research in 1998 in the article \"What reading does for the mind\". People who read a lot build a much larger vocabulary over the years, and the lead grows over time.",
       "source": "Cunningham & Stanovich: What reading does for the mind. American Educator, 1998"
     }
   },
@@ -735,18 +783,19 @@
     "sub": "stimme",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Warum deine Stimme auf Aufnahmen fremd klingt",
       "body": "Fast jeder zuckt zusammen, wenn er seine Stimme auf einer Aufnahme hört. \"So klinge ich doch nicht!\" Doch, genau so hören dich alle anderen.\n\nWenn du sprichst, hörst du dich auf zwei Wegen: über die Luft und über die **Knochen deines Schädels**. Die Knochen leiten vor allem tiefe Töne. Darum klingt deine Stimme für dich voller und tiefer, als sie ist.\n\nDie Aufnahme ist die Wahrheit. Und genau darum ist sie das beste Trainingswerkzeug.",
-      "apply": "Nimm dich heute zwei Minuten lang auf, wie du etwas erklärst. Hör es dir an und achte auf Tempo, Füllwörter und Satzenden.",
-      "more": "Die Psychologen Philip Holzman und Clyde Rousey untersuchten das Phänomen schon 1966. Interessant: In einer späteren Studie bewerteten Menschen ihre eigene Stimme sogar positiver als fremde, wenn sie nicht wussten, dass es ihre war.",
+      "act": "Nimm dich heute zwei Minuten lang auf, wie du etwas erklärst. Hör es dir an und achte auf Tempo, Füllwörter und Satzenden.",
+      "deep": "Die Psychologen Philip Holzman und Clyde Rousey untersuchten das Phänomen schon 1966. Interessant: In einer späteren Studie bewerteten Menschen ihre eigene Stimme sogar positiver als fremde, wenn sie nicht wussten, dass es ihre war.",
       "source": "Holzman & Rousey: The voice as a percept. Journal of Personality and Social Psychology, 1966"
     },
     "en": {
       "title": "Why your voice sounds strange on recordings",
       "body": "Almost everyone cringes on hearing their voice on a recording. \"I don't sound like that!\" Yes you do. That's exactly how everyone else hears you.\n\nWhen you speak, you hear yourself two ways: through the air and through the **bones of your skull**. Bone carries mainly low tones. That's why your voice sounds fuller and deeper to you than it is.\n\nThe recording is the truth. And that's exactly why it's the best training tool.",
-      "apply": "Record yourself explaining something for two minutes today. Listen back and pay attention to pace, filler words and sentence endings.",
-      "more": "Psychologists Philip Holzman and Clyde Rousey studied the phenomenon back in 1966. Interestingly, in a later study people rated their own voice more positively than others' when they didn't know it was theirs.",
+      "act": "Record yourself explaining something for two minutes today. Listen back and pay attention to pace, filler words and sentence endings.",
+      "deep": "Psychologists Philip Holzman and Clyde Rousey studied the phenomenon back in 1966. Interestingly, in a later study people rated their own voice more positively than others' when they didn't know it was theirs.",
       "source": "Holzman & Rousey: The voice as a percept. Journal of Personality and Social Psychology, 1966"
     }
   },
@@ -756,18 +805,19 @@
     "sub": "stimme",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Eine starke Stimme kommt aus dem Bauch",
       "body": "Wenn du nervös bist, atmest du flach in die Brust. Die Stimme wird dünn, höher und bricht leichter.\n\nSänger, Schauspieler und Sprecher trainieren darum die **Zwerchfellatmung**: Beim Einatmen weitet sich der Bauch, die Schultern bleiben unten. So hast du mehr Luft, mehr Ruhe und eine Stimme, die tragen kann, ohne zu schreien.\n\nDer Test: Leg eine Hand auf den Bauch, eine auf die Brust. Beim Einatmen sollte sich vor allem die untere Hand bewegen.",
-      "apply": "Atme heute vor einem wichtigen Gespräch dreimal tief in den Bauch, vier Sekunden ein, sechs Sekunden aus.",
-      "more": "Das Zwerchfell ist der wichtigste Atemmuskel. Langsames Ausatmen beruhigt zusätzlich das Nervensystem. Stimmtrainer üben oft mit einem langen \"Sss\" auf einem Atemzug: Je länger du gleichmässig zischen kannst, desto besser kontrollierst du deinen Atem.",
+      "act": "Vor einem wichtigen Gespräch:\n- Hand auf den Bauch.\n- Vier Sekunden durch die Nase einatmen, der Bauch hebt die Hand.\n- Sechs Sekunden ausatmen.\n- Dreimal, dann sprechen.",
+      "deep": "Das Zwerchfell ist der wichtigste Atemmuskel. Langsames Ausatmen beruhigt zusätzlich das Nervensystem. Stimmtrainer üben oft mit einem langen \"Sss\" auf einem Atemzug: Je länger du gleichmässig zischen kannst, desto besser kontrollierst du deinen Atem.",
       "source": "Gängige Stimm- und Sprechausbildung; Deutsche Gesellschaft für Sprechwissenschaft und Sprecherziehung"
     },
     "en": {
       "title": "A strong voice comes from the belly",
       "body": "When you're nervous, you breathe shallowly into your chest. Your voice gets thin, higher and cracks more easily.\n\nSingers, actors and broadcasters therefore train **diaphragmatic breathing**: as you breathe in, your belly expands and your shoulders stay down. That gives you more air, more calm and a voice that carries without shouting.\n\nThe test: one hand on your belly, one on your chest. When you breathe in, mainly the lower hand should move.",
-      "apply": "Before an important conversation today, take three deep belly breaths: four seconds in, six seconds out.",
-      "more": "The diaphragm is the main breathing muscle. Slow exhaling also calms the nervous system. Voice coaches often practise with a long \"sss\" on one breath: the longer you can hiss evenly, the better your breath control.",
+      "act": "Before an important conversation:\n- Hand on your belly.\n- Breathe in through the nose for four seconds, the belly lifts your hand.\n- Breathe out for six seconds.\n- Three times, then speak.",
+      "deep": "The diaphragm is the main breathing muscle. Slow exhaling also calms the nervous system. Voice coaches often practise with a long \"sss\" on one breath: the longer you can hiss evenly, the better your breath control.",
       "source": "Standard voice and speech training"
     }
   },
@@ -777,18 +827,19 @@
     "sub": "storytelling",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Eine gute Geschichte synchronisiert Gehirne",
       "body": "Forscher der Princeton University massen die Hirnaktivität einer Frau, während sie eine Geschichte erzählte. Dann massen sie die Gehirne von Zuhörern, die die Aufnahme hörten.\n\nDas Ergebnis: Die Gehirnmuster der Zuhörer **folgten** denen der Erzählerin, mit kurzer Verzögerung. Je stärker diese Kopplung war, desto besser hatten die Zuhörer die Geschichte **verstanden**.\n\nMit Fakten informierst du. Mit einer Geschichte nimmst du Menschen mit, buchstäblich.",
-      "apply": "Erzähl beim nächsten Mal, wenn du jemanden überzeugen willst, zuerst eine kurze, wahre Geschichte und erst dann die Zahlen.",
-      "more": "Greg Stephens, Lauren Silbert und Uri Hasson veröffentlichten die Studie 2010. Bei Zuhörern, die eine Geschichte in einer fremden Sprache hörten, fand sich keine solche Kopplung. Es geht also um Verstehen, nicht um Klang.",
+      "act": "Erzähl beim nächsten Mal, wenn du jemanden überzeugen willst, zuerst eine kurze, wahre Geschichte und erst dann die Zahlen.",
+      "deep": "Greg Stephens, Lauren Silbert und Uri Hasson veröffentlichten die Studie 2010. Bei Zuhörern, die eine Geschichte in einer fremden Sprache hörten, fand sich keine solche Kopplung. Es geht also um Verstehen, nicht um Klang.",
       "source": "Stephens, Silbert & Hasson: Speaker–listener neural coupling underlies successful communication. PNAS, 2010"
     },
     "en": {
       "title": "A good story syncs brains",
       "body": "Princeton researchers measured a woman's brain activity while she told a story. Then they measured the brains of listeners hearing the recording.\n\nThe result: the listeners' brain patterns **followed** the speaker's, with a short delay. The stronger this coupling, the better the listeners had **understood** the story.\n\nWith facts you inform. With a story you take people along, literally.",
-      "apply": "Next time you want to persuade someone, tell a short true story first and only then the numbers.",
-      "more": "Greg Stephens, Lauren Silbert and Uri Hasson published the study in 2010. Listeners hearing a story in a language they didn't know showed no such coupling. So it's about understanding, not sound.",
+      "act": "Next time you want to persuade someone, tell a short true story first and only then the numbers.",
+      "deep": "Greg Stephens, Lauren Silbert and Uri Hasson published the study in 2010. Listeners hearing a story in a language they didn't know showed no such coupling. So it's about understanding, not sound.",
       "source": "Stephens, Silbert & Hasson: Speaker–listener neural coupling underlies successful communication. PNAS, 2010"
     }
   },
@@ -798,18 +849,19 @@
     "sub": "storytelling",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Fang mitten in der Szene an",
       "body": "\"Also, das war so, letztes Jahr im Sommer, ich glaube es war Juli...\" Bis die Geschichte beginnt, hören die Leute schon nicht mehr zu.\n\nDer römische Dichter Horaz lobte vor über 2'000 Jahren Erzähler, die **mitten ins Geschehen** springen: \"in medias res\". \"Der Motor ging aus. Wir standen auf dem Gotthard, minus 15 Grad, kein Netz.\" Jetzt will jeder wissen, wie es weitergeht.\n\nDen Hintergrund kannst du nachliefern. Die Aufmerksamkeit nicht.",
-      "apply": "Erzähl heute eine Geschichte aus deinem Leben und beginne sie mit dem spannendsten Moment.",
-      "more": "Horaz schrieb das in seiner \"Ars Poetica\" über Homer, dessen Ilias nicht mit dem Beginn des Trojanischen Krieges anfängt, sondern mitten in seinem zehnten Jahr. Filme und Serien nutzen das Prinzip bis heute in fast jeder Eröffnungsszene.",
+      "act": "Erzähl heute eine Geschichte aus deinem Leben und beginne sie mit dem spannendsten Moment.",
+      "deep": "Horaz schrieb das in seiner \"Ars Poetica\" über Homer, dessen Ilias nicht mit dem Beginn des Trojanischen Krieges anfängt, sondern mitten in seinem zehnten Jahr. Filme und Serien nutzen das Prinzip bis heute in fast jeder Eröffnungsszene.",
       "source": "Horaz: Ars Poetica (um 19 v. Chr.), Vers 148"
     },
     "en": {
       "title": "Start in the middle of the scene",
       "body": "\"So, it was like this, last summer, I think it was July...\" By the time the story starts, people have stopped listening.\n\nOver 2,000 years ago the Roman poet Horace praised storytellers who jump **into the middle of the action**: \"in medias res\". \"The engine died. We were stuck on the Gotthard Pass, minus 15 degrees, no signal.\" Now everyone wants to know what happened next.\n\nYou can fill in the background later. You can't get back their attention.",
-      "apply": "Tell a story from your life today and start it with the most exciting moment.",
-      "more": "Horace wrote this in his \"Ars Poetica\" about Homer, whose Iliad doesn't begin at the start of the Trojan War but in the middle of its tenth year. Films and series still use the principle in almost every opening scene.",
+      "act": "Tell a story from your life today and start it with the most exciting moment.",
+      "deep": "Horace wrote this in his \"Ars Poetica\" about Homer, whose Iliad doesn't begin at the start of the Trojan War but in the middle of its tenth year. Films and series still use the principle in almost every opening scene.",
       "source": "Horace: Ars Poetica (c. 19 BC), line 148"
     }
   },
@@ -819,18 +871,19 @@
     "sub": "wirkung",
     "style": "fakt",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Ein kleiner Fehler macht dich sympathischer",
       "body": "Der Psychologe Elliot Aronson spielte Studenten Tonbänder eines Kandidaten für ein Quiz vor. In einer Version war der Kandidat brillant und beantwortete fast alles richtig. In einer anderen war er genauso brillant, verschüttete aber am Ende **Kaffee über seinen Anzug**.\n\nDer brillante Kandidat mit dem Missgeschick wurde **sympathischer** bewertet als der perfekte.\n\nDie Lehre: Wer kompetent ist, muss nicht makellos wirken. Ein offen zugegebener kleiner Fehler macht dich menschlich. Aber Vorsicht: Der Effekt gilt nur, wenn die Kompetenz feststeht.",
-      "apply": "Wenn dir heute ein kleiner Fehler passiert: Steh mit einem Lächeln dazu, statt ihn zu vertuschen.",
-      "more": "Aronson nannte das den \"Pratfall-Effekt\", nach dem englischen Wort für einen Ausrutscher. Bei einem durchschnittlich kompetenten Kandidaten machte dasselbe Missgeschick ihn weniger sympathisch. Erst Können, dann Lockerheit.",
+      "act": "Wenn dir heute ein kleiner Fehler passiert: Steh mit einem Lächeln dazu, statt ihn zu vertuschen. Achte darauf, wie die anderen reagieren.",
+      "deep": "Aronson nannte das den \"Pratfall-Effekt\", nach dem englischen Wort für einen Ausrutscher. Bei einem durchschnittlich kompetenten Kandidaten machte dasselbe Missgeschick ihn weniger sympathisch. Erst Können, dann Lockerheit.",
       "source": "Aronson, Willerman & Floyd: The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 1966"
     },
     "en": {
       "title": "A small blunder makes you more likeable",
       "body": "Psychologist Elliot Aronson played students tapes of a quiz contestant. In one version the contestant was brilliant and answered almost everything correctly. In another he was just as brilliant but at the end **spilled coffee over his suit**.\n\nThe brilliant contestant with the mishap was rated **more likeable** than the flawless one.\n\nThe lesson: if you're competent, you don't need to seem perfect. An openly admitted small mistake makes you human. But careful: the effect only works when your competence is established.",
-      "apply": "If you make a small mistake today, own it with a smile instead of covering it up.",
-      "more": "Aronson called it the \"pratfall effect\". With an averagely competent contestant, the same mishap made him less likeable. First skill, then ease.",
+      "act": "When you make a small mistake today: own it with a smile instead of covering it up. Notice how people react.",
+      "deep": "Aronson called it the \"pratfall effect\". With an averagely competent contestant, the same mishap made him less likeable. First skill, then ease.",
       "source": "Aronson, Willerman & Floyd: The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 1966"
     }
   }

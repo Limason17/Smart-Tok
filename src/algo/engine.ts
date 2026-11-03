@@ -63,10 +63,12 @@ export interface SeenInfo {
   saved: boolean;
   /** When a saved card is next due for review (undefined: not saved or all reviews done). */
   due?: number;
+  /** When a card on the "Umsetzen" list is due for a check-in ("Hast du es umgesetzt?"). */
+  checkIn?: number;
 }
 
 export const TUNING = {
-  signals: { like: 2, save: 3, dislike: -3, more: 1, dwellLong: 0.5, quickSkip: -0.5 },
+  signals: { like: 2, save: 3, plan: 3, dislike: -3, more: 1, dwellLong: 0.5, quickSkip: -0.5 },
   featureWeight: { a: 1, s: 1, st: 0.6, f: 0.4, l: 0.4, d: 0.3 } as Record<string, number>,
   longScale: 0.12,
   longClamp: 8,
@@ -92,7 +94,39 @@ export const TUNING = {
   reviewDays: [1, 3, 7, 21],
   /** At least this many other cards between two due reviews, so reviews stay a small share. */
   reviewGap: 4,
+  /** Days until the check-ins of a card on the "Umsetzen" list: after 2, 5 and 10 more days. */
+  planDays: [2, 5, 10],
 };
+
+// ---------------------------------------------------------------- "Umsetzen" check-ins
+
+/** Fields of a card on the "Umsetzen" list. */
+export interface PlanFields {
+  planAt?: number;
+  planDone?: number;
+  planStep?: number;
+  planDue?: number;
+}
+
+/** When the next check-in is due after `step` check-ins, counted from `from` (undefined: no more check-ins). */
+export function nextPlanDue(step: number, from: number): number | undefined {
+  const days = TUNING.planDays[step];
+  return days === undefined ? undefined : from + days * 86_400_000;
+}
+
+/** A planned card that is not done yet and has a check-in waiting. */
+export function planDue(r: PlanFields): number | undefined {
+  if (!r.planAt || r.planDone) return undefined;
+  return r.planDue;
+}
+
+/** Seeing a due check-in counts as one; the next one is scheduled (answering "erledigt" ends them). */
+export function afterPlanView(r: PlanFields, now: number): Pick<PlanFields, 'planStep' | 'planDue'> {
+  const due = planDue(r);
+  if (due === undefined || now < due) return { planStep: r.planStep, planDue: r.planDue };
+  const step = (r.planStep ?? 0) + 1;
+  return { planStep: step, planDue: nextPlanDue(step, now) };
+}
 
 // ---------------------------------------------------------------- spaced review
 
@@ -154,6 +188,7 @@ const kind = (key: string) => key.slice(0, key.indexOf(':'));
 export type Signal =
   | { type: 'like'; on: boolean }
   | { type: 'save'; on: boolean }
+  | { type: 'plan'; on: boolean }
   | { type: 'dislike'; on: boolean }
   | { type: 'more' }
   | { type: 'dwell'; seconds: number };
@@ -166,6 +201,8 @@ export function signalValue(signal: Signal, card: Pick<Card, 'words'>): number {
       return signal.on ? v.like : -v.like;
     case 'save':
       return signal.on ? v.save : -v.save;
+    case 'plan':
+      return signal.on ? v.plan : -v.plan;
     case 'dislike':
       return signal.on ? v.dislike : -v.dislike;
     case 'more':
@@ -281,8 +318,10 @@ export interface FeedPick {
   explored: boolean;
   /** Older card shown again because nothing unread is left. */
   review: boolean;
-  /** Saved card that is due for its spaced review. */
+  /** Saved card that is due for its spaced review, or a planned card due for a check-in. */
   due?: boolean;
+  /** The due card is a check-in of the "Umsetzen" list. */
+  checkIn?: boolean;
 }
 
 function weightedChoice<T>(items: T[], weight: (t: T) => number, rng: () => number): T | undefined {
@@ -324,18 +363,23 @@ export function pickNext(ctx: PickContext): FeedPick | null {
   const eligible = ctx.cards.filter((c) => isEligible(c, prefs, now));
   if (!eligible.length) return null;
 
-  // Saved cards come back after 1, 3, 7 and 21 days, most overdue first, spaced out between other cards.
+  // Saved cards come back after 1, 3, 7 and 21 days, planned cards for check-ins after 2, 7 and 17 days;
+  // most overdue first, spaced out between other cards.
   if ((ctx.sinceReview ?? Infinity) >= TUNING.reviewGap) {
     let dueCard: Card | undefined;
     let dueAt = Infinity;
+    let checkIn = false;
     for (const c of eligible) {
-      const at = seen[c.id]?.due;
-      if (at !== undefined && at <= now && at < dueAt && !recent.has(c.id)) {
-        dueCard = c;
-        dueAt = at;
+      if (recent.has(c.id)) continue;
+      for (const [at, isCheckIn] of [[seen[c.id]?.checkIn, true], [seen[c.id]?.due, false]] as const) {
+        if (at !== undefined && at <= now && at < dueAt) {
+          dueCard = c;
+          dueAt = at;
+          checkIn = isCheckIn;
+        }
       }
     }
-    if (dueCard) return { card: dueCard, explored: false, review: true, due: true };
+    if (dueCard) return { card: dueCard, explored: false, review: true, due: true, checkIn };
   }
 
   const unread = eligible.filter((c) => !seen[c.id] && !recent.has(c.id));

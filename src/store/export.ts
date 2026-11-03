@@ -19,7 +19,7 @@ const iso = (t?: number) => (t ? new Date(t).toISOString() : '');
 export async function buildExport() {
   const s = getState();
   const history = Object.values(s.cards)
-    .filter((r) => r.views > 0 || r.saved || r.reaction !== 0)
+    .filter((r) => r.views > 0 || r.saved || r.planAt || r.reaction !== 0)
     .sort((a, b) => b.lastSeen - a.lastSeen)
     .map((r) => {
       const card = CARD_BY_ID[r.id];
@@ -37,6 +37,9 @@ export async function buildExport() {
         dwellSeconds: Math.round(r.dwellMs / 1000),
         reaction: r.reaction === 1 ? 'like' : r.reaction === -1 ? 'dislike' : '',
         saved: r.saved,
+        toApply: r.planAt ? (r.planDone ? 'done' : 'open') : '',
+        toApplySince: iso(r.planAt),
+        appliedAt: iso(r.planDone),
         moreOpened: r.more,
         shared: r.shared,
       };

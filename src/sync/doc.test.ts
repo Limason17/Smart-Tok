@@ -37,17 +37,28 @@ describe('account document', () => {
       suggestions: [{ id: 's1', text: 'Rhetorik', createdAt: 1, note: undefined }],
     });
     const doc = encodeDoc(local, 'Liam');
-    expect(doc.cards.a).toEqual([1000, 2000, 1, 5000, 1, 1, 1500, 0, 0, 'de', 2000, -1, 0]);
+    expect(doc.cards.a).toEqual([1000, 2000, 1, 5000, 1, 1, 1500, 0, 0, 'de', 2000, -1, 0, 0, 0, 0, 0]);
     expect(doc.cards.b).toBeUndefined();
     expect('note' in doc.suggestions[0]).toBe(false);
     const back = decodeDoc(doc, data());
     expect(back.cards.a).toEqual(local.cards.a);
   });
 
+  it('carries the "Umsetzen" list', () => {
+    const local = data({ cards: { a: rec('a', { planAt: 1200, planStep: 1, planDue: 7000 }), b: rec('b', { views: 0, planAt: 1300, planDone: 1400 }) } });
+    const doc = encodeDoc(local, 'Liam');
+    expect(doc.cards.a.slice(13)).toEqual([1200, 0, 1, 7000]);
+    expect(doc.cards.b).toBeDefined();
+    const back = decodeDoc(doc, data()).cards;
+    expect(back.a).toMatchObject({ planAt: 1200, planStep: 1, planDue: 7000 });
+    expect(back.a.planDone).toBeUndefined();
+    expect(back.b).toMatchObject({ planAt: 1300, planDone: 1400 });
+  });
+
   it('carries the review schedule and reads documents written before it existed', () => {
     const local = data({ cards: { a: rec('a', { saved: true, savedAt: 1500, reviewStep: 2, reviewDue: 9000 }) } });
     const doc = encodeDoc(local, 'Liam');
-    expect(doc.cards.a.slice(11)).toEqual([2, 9000]);
+    expect(doc.cards.a.slice(11, 13)).toEqual([2, 9000]);
     expect(decodeDoc(doc, data()).cards.a).toMatchObject({ reviewStep: 2, reviewDue: 9000 });
     const old = { ...doc, cards: { a: doc.cards.a.slice(0, 11) as typeof doc.cards.a } };
     const back = decodeDoc(old, data()).cards.a;

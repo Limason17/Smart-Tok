@@ -15,6 +15,9 @@ export interface AreaStats {
   likes: number;
   dislikes: number;
   saves: number;
+  /** Cards put on the "Umsetzen" list, and how many of them were marked done. */
+  plans?: number;
+  plansDone?: number;
   quickSkips: number;
 }
 
@@ -125,6 +128,10 @@ export function analyzeAccount(uid: string, doc: Partial<AccountDoc>, catalog: R
       a.dislikes++;
     }
     if (r.saved) a.saves++;
+    if (r.planAt) {
+      a.plans = (a.plans ?? 0) + 1;
+      if (r.planDone) a.plansDone = (a.plansDone ?? 0) + 1;
+    }
     const perView = r.dwellMs / 1000 / Math.max(1, r.views);
     if (perView < QUICK_SKIP_S && expectedSeconds(card) > QUICK_SKIP_S * 1.5 && r.reaction !== 1 && !r.saved) {
       quick++;

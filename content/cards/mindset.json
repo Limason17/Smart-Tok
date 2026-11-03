@@ -5,18 +5,21 @@
     "sub": "verantwortung",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Kreis des Einflusses",
       "body": "Stell dir zwei Kreise vor. Der grosse ist alles, was dich **beschäftigt**: Wirtschaft, Politik, was andere über dich denken. Der kleine darin ist alles, was du **beeinflussen** kannst: deine Arbeit, dein Training, wie du heute mit Menschen redest.\n\nWer seine Energie in den grossen Kreis steckt, wird zum Opfer der Umstände und fühlt sich ohnmächtig. Wer sie in den kleinen steckt, sieht ihn wachsen: Mehr Können, mehr Vertrauen, mehr Einfluss.\n\nDas ist der Unterschied zwischen einem Mann, der sich beklagt, und einem, der baut.",
-      "apply": "Schreib deine grösste Sorge auf, dann einen Schritt, der wirklich in deiner Hand liegt. Mach ihn heute, nicht morgen.",
-      "more": "Das Modell stammt aus Stephen Coveys erstem Weg der Effektivität: \"Proaktiv sein\". Proaktive Menschen konzentrieren sich auf das, was sie tun können. Reaktive Menschen konzentrieren sich auf die Schwächen anderer und auf Umstände, die sie nicht ändern können. Covey beobachtete, dass der Kreis des Einflusses wächst, wenn man in ihm arbeitet, und schrumpft, wenn man nur klagt.",
+      "example": "Gerüchte über Entlassungen in deiner Firma. Grosser Kreis: die Wirtschaftslage, die Entscheidung der Geschäftsleitung. Kleiner Kreis: deine Leistung diese Woche, ein Kurs, der dich wertvoller macht, ein aktueller Lebenslauf. Nur im kleinen Kreis bewegt sich etwas.",
+      "act": "Schreib deine grösste Sorge auf, dann einen Schritt, der wirklich in deiner Hand liegt. Mach ihn heute, nicht morgen.",
+      "deep": "Das Modell stammt aus Stephen Coveys erstem Weg der Effektivität: \"Proaktiv sein\". Proaktive Menschen konzentrieren sich auf das, was sie tun können. Reaktive Menschen konzentrieren sich auf die Schwächen anderer und auf Umstände, die sie nicht ändern können. Covey beobachtete, dass der Kreis des Einflusses wächst, wenn man in ihm arbeitet, und schrumpft, wenn man nur klagt.",
       "source": "Stephen R. Covey: Die 7 Wege zur Effektivität (1989), Weg 1"
     },
     "en": {
       "title": "Circle of influence",
       "body": "Picture two circles. The big one holds everything you **care about**: the economy, politics, what others think of you. The small one inside it holds what you can **actually affect**: your work, your training, how you talk to people today.\n\nPut your energy into the big circle and you become a victim of circumstances. Put it into the small one and you watch it grow: more skill, more trust, more influence.\n\nThat's the difference between a man who complains and a man who builds.",
-      "apply": "Write down your biggest worry, then one step that is truly in your hands. Take it today, not tomorrow.",
-      "more": "The model comes from Stephen Covey's first habit, \"Be proactive\". Proactive people focus on what they can do. Reactive people focus on the weaknesses of others and on circumstances they cannot change. Covey observed that the circle of influence grows when you work inside it and shrinks when you only complain.",
+      "example": "Rumours of layoffs at your company. Big circle: the economy, management's decision. Small circle: your work this week, a course that makes you more valuable, an up-to-date CV. Only the small circle moves.",
+      "act": "Write down your biggest worry, then one step that is truly in your hands. Take it today, not tomorrow.",
+      "deep": "The model comes from Stephen Covey's first habit, \"Be proactive\". Proactive people focus on what they can do. Reactive people focus on the weaknesses of others and on circumstances they cannot change. Covey observed that the circle of influence grows when you work inside it and shrinks when you only complain.",
       "source": "Stephen R. Covey: The 7 Habits of Highly Effective People (1989), Habit 1"
     }
   },
@@ -26,14 +29,17 @@
     "sub": "gewohnheiten",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Die 7 Wege zur Effektivität",
       "body": "Stephen Coveys Klassiker von 1989 wurde über 25 Millionen Mal verkauft. Seine Idee: Erfolg kommt nicht aus Tricks, sondern aus Charakter. Die ersten drei Wege machen dich unabhängig, die nächsten drei machen dich stark im Umgang mit anderen, der siebte hält alles am Laufen.",
+      "act": "Nimm dir jede Woche einen der sieben Wege vor und achte nur auf ihn. Nach sieben Wochen hast du jeden einmal bewusst trainiert.",
       "source": "Stephen R. Covey: Die 7 Wege zur Effektivität (1989)"
     },
     "en": {
       "title": "The 7 Habits of Highly Effective People",
       "body": "Stephen Covey's 1989 classic has sold more than 25 million copies. His idea: success does not come from tricks but from character. The first three habits make you independent, the next three make you strong with other people, and the seventh keeps everything running.",
+      "act": "Take one habit per week and focus only on it. After seven weeks you will have trained each one on purpose.",
       "source": "Stephen R. Covey: The 7 Habits of Highly Effective People (1989)"
     },
     "slides": [
@@ -100,13 +106,11 @@
       {
         "de": {
           "title": "7. Die Säge schärfen",
-          "body": "Ein Holzfäller, der nie seine Säge schärft, arbeitet immer härter für immer weniger. Pflege regelmässig Körper, Geist, Beziehungen und Seele. Das ist keine verlorene Zeit, sondern der Grund, warum alles andere funktioniert.",
-          "apply": "Wähle einen der sieben Wege und achte heute nur auf ihn."
+          "body": "Ein Holzfäller, der nie seine Säge schärft, arbeitet immer härter für immer weniger. Pflege regelmässig Körper, Geist, Beziehungen und Seele. Das ist keine verlorene Zeit, sondern der Grund, warum alles andere funktioniert."
         },
         "en": {
           "title": "7. Sharpen the saw",
-          "body": "A lumberjack who never sharpens his saw works ever harder for ever less. Regularly care for your body, mind, relationships and spirit. That is not lost time but the reason everything else works.",
-          "apply": "Pick one of the seven habits and focus only on it today."
+          "body": "A lumberjack who never sharpens his saw works ever harder for ever less. Regularly care for your body, mind, relationships and spirit. That is not lost time but the reason everything else works."
         }
       }
     ]
@@ -117,18 +121,21 @@
     "sub": "selbstvertrauen",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Selbstvertrauen ist gehaltenes Wort",
       "body": "Selbstvertrauen ist wörtlich Vertrauen in dich selbst. Und Vertrauen entsteht bei dir genau wie bei anderen Menschen: durch **gehaltene Versprechen**.\n\nJedes Mal, wenn du dir etwas vornimmst und es nicht tust, lernt dein Kopf: \"Auf den ist kein Verlass.\" Jedes Mal, wenn du es durchziehst, auch im Kleinen, sammelst du einen Beweis für das Gegenteil.\n\nDarum ist der Trick nicht, dir mehr vorzunehmen, sondern **weniger, und das dann sicher**.",
-      "apply": "Gib dir heute ein kleines Versprechen und halte es, auch wenn du keine Lust hast. Genau dann zählt es.",
-      "more": "Psychologen nennen den Glauben an die eigene Wirksamkeit \"Selbstwirksamkeit\" (Albert Bandura). Die stärkste Quelle dafür sind laut Bandura eigene Erfolgserlebnisse, also Situationen, in denen du etwas geschafft hast. Zuspruch von anderen wirkt deutlich schwächer.",
+      "example": "Statt \"Ab morgen jeden Tag eine Stunde Sport\" versprichst du dir: \"Zehn Liegestütze direkt nach dem Aufstehen.\" Klingt klein. Nach 30 Tagen hast du aber 30 Beweise, dass auf dich Verlass ist, statt einem gebrochenen Vorsatz.",
+      "act": "- Nimm dir für morgen genau eine Sache vor, die sicher machbar ist.\n- Zieh sie durch, auch ohne Lust. Genau dann zählt sie.\n- Steigere erst, wenn du eine Woche lang kein Versprechen gebrochen hast.",
+      "deep": "Psychologen nennen den Glauben an die eigene Wirksamkeit \"Selbstwirksamkeit\" (Albert Bandura). Die stärkste Quelle dafür sind laut Bandura eigene Erfolgserlebnisse, also Situationen, in denen du etwas geschafft hast. Zuspruch von anderen wirkt deutlich schwächer.",
       "source": "Albert Bandura: Self-Efficacy: The Exercise of Control (1997)"
     },
     "en": {
       "title": "Confidence is a kept promise",
       "body": "Self-confidence literally means trusting yourself. And that trust is built exactly like trust with other people: through **kept promises**.\n\nEvery time you plan something and don't do it, your mind learns: \"He can't be relied on.\" Every time you follow through, even in small things, you collect proof of the opposite.\n\nSo the trick is not to promise yourself more, but **less, and then deliver for sure**.",
-      "apply": "Make yourself one small promise today and keep it, even when you don't feel like it. That's when it counts.",
-      "more": "Psychologists call the belief in your own ability to act \"self-efficacy\" (Albert Bandura). According to Bandura, the strongest source of it is mastery experience: situations where you actually pulled something off. Encouragement from others is a much weaker source.",
+      "example": "Instead of \"an hour of exercise every day from tomorrow\", you promise yourself: \"Ten push-ups right after getting up.\" Sounds small. But after 30 days you have 30 pieces of proof that you can rely on yourself, instead of one broken resolution.",
+      "act": "- Promise yourself exactly one thing for tomorrow that you can surely do.\n- Follow through, even without wanting to. That's when it counts.\n- Only raise the bar after a full week without a broken promise.",
+      "deep": "Psychologists call the belief in your own ability to act \"self-efficacy\" (Albert Bandura). According to Bandura, the strongest source of it is mastery experience: situations where you actually pulled something off. Encouragement from others is a much weaker source.",
       "source": "Albert Bandura: Self-Efficacy: The Exercise of Control (1997)"
     }
   },
@@ -138,18 +145,19 @@
     "sub": "selbstvertrauen",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Sprich mit dir wie ein Trainer",
       "body": "Vor einer schwierigen Rede oder einem wichtigen Gespräch hilft ein überraschend einfacher Trick: Rede mit dir selbst nicht in der Ich-Form, sondern **mit deinem Namen oder in der Du-Form**. \"Lukas, du hast dich vorbereitet. Du schaffst das.\"\n\nIn Studien waren Menschen damit weniger ängstlich und wurden von anderen als souveräner erlebt. Der Abstand zu dir selbst lässt dich die Lage sehen wie ein Coach von aussen, statt mitten im Gefühl zu stecken.",
-      "apply": "Sag dir vor deiner nächsten Herausforderung einen Satz mit deinem eigenen Namen.",
-      "more": "Ethan Kross und Kollegen liessen Probanden vor einer Rede entweder in der Ich-Form oder mit dem eigenen Namen über ihre Gefühle nachdenken. Die zweite Gruppe hatte weniger Angst, grübelte danach weniger und hielt laut Beurteilern die bessere Rede. Kross nennt das \"distanziertes Selbstgespräch\".",
+      "act": "Sag dir vor deiner nächsten Herausforderung einen Satz mit deinem eigenen Namen.",
+      "deep": "Ethan Kross und Kollegen liessen Probanden vor einer Rede entweder in der Ich-Form oder mit dem eigenen Namen über ihre Gefühle nachdenken. Die zweite Gruppe hatte weniger Angst, grübelte danach weniger und hielt laut Beurteilern die bessere Rede. Kross nennt das \"distanziertes Selbstgespräch\".",
       "source": "Kross et al.: Self-talk as a regulatory mechanism, Journal of Personality and Social Psychology (2014)"
     },
     "en": {
       "title": "Talk to yourself like a coach",
       "body": "Before a tough speech or an important conversation, a surprisingly simple trick helps: talk to yourself not as \"I\" but **by your name or as \"you\"**. \"Luke, you prepared. You can do this.\"\n\nIn studies, people who did this were less anxious and came across as more composed. The distance lets you see the situation like a coach from the outside instead of being stuck inside the feeling.",
-      "apply": "Before your next challenge, say one sentence to yourself using your own name.",
-      "more": "Ethan Kross and colleagues had participants reflect on their feelings before a speech either as \"I\" or using their own name. The second group felt less anxious, ruminated less afterwards and, according to raters, gave the better speech. Kross calls this \"distanced self-talk\".",
+      "act": "Before your next challenge, say one sentence to yourself using your own name.",
+      "deep": "Ethan Kross and colleagues had participants reflect on their feelings before a speech either as \"I\" or using their own name. The second group felt less anxious, ruminated less afterwards and, according to raters, gave the better speech. Kross calls this \"distanced self-talk\".",
       "source": "Kross et al.: Self-talk as a regulatory mechanism, Journal of Personality and Social Psychology (2014)"
     }
   },
@@ -159,18 +167,19 @@
     "sub": "selbstvertrauen",
     "style": "fakt",
     "level": 2,
+    "actKind": "merke",
     "de": {
       "title": "Power-Posing: Was davon stimmt",
       "body": "Ein berühmter TED-Talk versprach: Zwei Minuten in einer \"Siegerpose\" erhöhen Testosteron, senken Stresshormone und machen mutiger. Millionen haben es geglaubt.\n\nDas Problem: Die Hormon-Effekte liessen sich in grösseren Studien **nicht bestätigen**. Sogar eine der Autorinnen der Originalstudie distanzierte sich später davon.\n\nWas bleibt: Eine aufrechte, offene Haltung kann dich **etwas selbstsicherer fühlen** lassen. Ein Zaubertrick ist es nicht. Echte Sicherheit kommt aus Vorbereitung und Erfahrung.",
-      "apply": "Investiere die zwei Minuten vor einem wichtigen Termin lieber in einen letzten Probelauf.",
-      "more": "Die Originalstudie von Carney, Cuddy und Yap (2010) hatte nur 42 Teilnehmer. Eine Wiederholung mit 200 Teilnehmern (Ranehill et al., 2015) fand keine Veränderung bei Testosteron oder Cortisol. 2016 schrieb Dana Carney öffentlich, sie glaube nicht mehr an die Effekte. Spätere Auswertungen fanden einen kleinen Effekt auf das subjektive Gefühl von Stärke.",
+      "act": "Eine aufrechte Haltung hilft ein wenig beim Gefühl. Sicherheit kommt aber aus Vorbereitung. Die zwei Minuten vor dem Termin gehören dem letzten Probelauf.",
+      "deep": "Die Originalstudie von Carney, Cuddy und Yap (2010) hatte nur 42 Teilnehmer. Eine Wiederholung mit 200 Teilnehmern (Ranehill et al., 2015) fand keine Veränderung bei Testosteron oder Cortisol. 2016 schrieb Dana Carney öffentlich, sie glaube nicht mehr an die Effekte. Spätere Auswertungen fanden einen kleinen Effekt auf das subjektive Gefühl von Stärke.",
       "source": "Ranehill et al., Psychological Science (2015); Dana Carney, Stellungnahme (2016)"
     },
     "en": {
       "title": "Power posing: what holds up",
       "body": "A famous TED talk promised that two minutes in a \"victory pose\" raise testosterone, lower stress hormones and make you bolder. Millions believed it.\n\nThe problem: the hormone effects **did not replicate** in larger studies. Even one of the original authors later distanced herself from them.\n\nWhat remains: an upright, open posture can make you **feel somewhat more confident**. It is not a magic trick. Real confidence comes from preparation and experience.",
-      "apply": "Spend the two minutes before an important meeting on one last practice run instead.",
-      "more": "The original study by Carney, Cuddy and Yap (2010) had only 42 participants. A replication with 200 participants (Ranehill et al., 2015) found no change in testosterone or cortisol. In 2016 Dana Carney publicly stated she no longer believes the effects are real. Later analyses found a small effect on the subjective feeling of power.",
+      "act": "Standing tall helps your feelings a little. Real confidence comes from preparation. The two minutes before the meeting belong to one last run-through.",
+      "deep": "The original study by Carney, Cuddy and Yap (2010) had only 42 participants. A replication with 200 participants (Ranehill et al., 2015) found no change in testosterone or cortisol. In 2016 Dana Carney publicly stated she no longer believes the effects are real. Later analyses found a small effect on the subjective feeling of power.",
       "source": "Ranehill et al., Psychological Science (2015); Dana Carney, public statement (2016)"
     }
   },
@@ -180,18 +189,21 @@
     "sub": "gewohnheiten",
     "style": "tipp",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Die Zwei-Minuten-Regel",
       "body": "Eine neue Gewohnheit scheitert meistens nicht am Willen, sondern am Start. Darum: Mach jede neue Gewohnheit so klein, dass sie **weniger als zwei Minuten** dauert.\n\n\"Jeden Tag lesen\" wird zu \"eine Seite lesen\". \"Trainieren\" wird zu \"Trainingsschuhe anziehen\". Klingt lächerlich, aber genau das ist der Punkt: Du trainierst zuerst, **aufzutauchen**. Eine Gewohnheit, die es nicht gibt, kann man nicht verbessern.",
-      "apply": "Schrumpfe eine Gewohnheit, die du seit Wochen aufschiebst, auf zwei Minuten und mach sie jetzt.",
-      "more": "James Clear beschreibt die Regel in \"Die 1%-Methode\" (Atomic Habits). Die Idee: Zuerst wird das Ritual zur Routine, danach steigerst du langsam. Eine ähnliche Regel kennt David Allen aus \"Getting Things Done\": Was weniger als zwei Minuten dauert, sofort erledigen.",
+      "example": "Du willst Spanisch lernen. Die Zwei-Minuten-Version: App öffnen und eine Lektion machen. Machst du danach weiter, gut. Wenn nicht, hast du trotzdem gewonnen: Du bist aufgetaucht, und morgen ist der Start schon leichter.",
+      "act": "- Wähle eine Gewohnheit, die du seit Wochen aufschiebst.\n- Schrumpf sie auf ihren ersten Zwei-Minuten-Schritt.\n- Mach nur das, jeden Tag, eine Woche lang.\n- Erst dann verlängerst du.",
+      "deep": "James Clear beschreibt die Regel in \"Die 1%-Methode\" (Atomic Habits). Die Idee: Zuerst wird das Ritual zur Routine, danach steigerst du langsam. Eine ähnliche Regel kennt David Allen aus \"Getting Things Done\": Was weniger als zwei Minuten dauert, sofort erledigen.",
       "source": "James Clear: Atomic Habits (2018), Kapitel 13"
     },
     "en": {
       "title": "The two-minute rule",
       "body": "A new habit rarely fails because of willpower. It fails at the start. So make every new habit so small that it takes **less than two minutes**.\n\n\"Read every day\" becomes \"read one page\". \"Work out\" becomes \"put on your training shoes\". It sounds silly, but that is the point: first you train **showing up**. You cannot improve a habit that does not exist.",
-      "apply": "Shrink a habit you've been putting off for weeks down to two minutes and do it now.",
-      "more": "James Clear describes the rule in \"Atomic Habits\". The idea: first the ritual becomes routine, then you slowly scale it up. David Allen has a related rule in \"Getting Things Done\": if something takes less than two minutes, do it right away.",
+      "example": "You want to learn Spanish. The two-minute version: open the app and do one lesson. If you keep going, good. If not, you still won: you showed up, and tomorrow starting is already easier.",
+      "act": "- Pick a habit you have been putting off for weeks.\n- Shrink it to its first two-minute step.\n- Do only that, every day, for one week.\n- Only then make it longer.",
+      "deep": "James Clear describes the rule in \"Atomic Habits\". The idea: first the ritual becomes routine, then you slowly scale it up. David Allen has a related rule in \"Getting Things Done\": if something takes less than two minutes, do it right away.",
       "source": "James Clear: Atomic Habits (2018), chapter 13"
     }
   },
@@ -201,18 +213,19 @@
     "sub": "gewohnheiten",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Werde der Typ, nicht nur das Ziel",
       "body": "Zwei Männer wollen mit dem Rauchen aufhören. Man bietet beiden eine Zigarette an. Der erste sagt: \"Nein danke, ich versuche aufzuhören.\" Der zweite sagt: \"Nein danke, ich rauche nicht.\"\n\nDer erste sieht sich noch als Raucher, der gegen sich kämpft. Der zweite hat seine **Identität** geändert. Er braucht keinen Willen mehr, er handelt einfach wie der, der er ist.\n\nJede Handlung ist eine Stimme für den Menschen, der du werden willst. Ein Training macht dich nicht fit, aber es ist eine Stimme für \"Ich bin einer, der trainiert\".\n\nDu wirst nicht als dieser Mann geboren. Du baust ihn, eine Handlung nach der anderen.",
-      "apply": "Formuliere dein Ziel als Identität: nicht \"Ich will 10 kg abnehmen\", sondern \"Ich bin einer, der auf seinen Körper achtet\".",
-      "more": "James Clear unterscheidet drei Ebenen der Veränderung: Ergebnisse (was du erreichst), Prozesse (was du tust) und Identität (was du glaubst). Die meisten setzen bei den Ergebnissen an. Dauerhafte Gewohnheiten entstehen laut Clear, wenn man bei der Identität beginnt.",
+      "act": "Frag dich diese Woche bei jeder kleinen Entscheidung: Was würde der Mann tun, der ich werden will? Jede Antwort, die du umsetzt, ist eine Stimme für ihn.",
+      "deep": "James Clear unterscheidet drei Ebenen der Veränderung: Ergebnisse (was du erreichst), Prozesse (was du tust) und Identität (was du glaubst). Die meisten setzen bei den Ergebnissen an. Dauerhafte Gewohnheiten entstehen laut Clear, wenn man bei der Identität beginnt.",
       "source": "James Clear: Atomic Habits (2018), Kapitel 2"
     },
     "en": {
       "title": "Become the type, not just the goal",
       "body": "Two men want to quit smoking. Both are offered a cigarette. The first says: \"No thanks, I'm trying to quit.\" The second says: \"No thanks, I don't smoke.\"\n\nThe first still sees himself as a smoker fighting himself. The second has changed his **identity**. He no longer needs willpower; he simply acts like who he is.\n\nEvery action is a vote for the person you want to become. One workout does not make you fit, but it is a vote for \"I'm someone who trains\".\n\nYou aren't born that man. You build him, one action at a time.",
-      "apply": "Rephrase your goal as an identity: not \"I want to lose 10 kg\" but \"I'm someone who takes care of his body\".",
-      "more": "James Clear distinguishes three layers of change: outcomes (what you get), processes (what you do) and identity (what you believe). Most people start with outcomes. According to Clear, lasting habits come from starting with identity.",
+      "act": "This week, ask yourself at every small decision: what would the man I want to become do? Every answer you act on is a vote for him.",
+      "deep": "James Clear distinguishes three layers of change: outcomes (what you get), processes (what you do) and identity (what you believe). Most people start with outcomes. According to Clear, lasting habits come from starting with identity.",
       "source": "James Clear: Atomic Habits (2018), chapter 2"
     }
   },
@@ -222,18 +235,21 @@
     "sub": "gewohnheiten",
     "style": "fakt",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Wenn-dann-Pläne verdoppeln die Chance",
       "body": "\"Ich will mehr trainieren\" ist ein Wunsch. \"**Wenn** ich am Montag um 18 Uhr nach Hause komme, **dann** ziehe ich sofort die Sportsachen an\" ist ein Plan.\n\nDer Unterschied ist riesig. Mit einem festen Auslöser (Zeit, Ort, Situation) muss dein Kopf im Moment nicht mehr entscheiden. Die Situation selbst startet die Handlung. Über viele Studien hinweg erhöhen solche Pläne die Chance deutlich, dass man ein Ziel wirklich umsetzt.",
-      "apply": "Schreib für dein wichtigstes Ziel einen Satz: Wenn [Situation], dann [Handlung].",
-      "more": "Der Psychologe Peter Gollwitzer nennt das \"Implementation Intentions\". Eine Meta-Analyse von 94 Studien (Gollwitzer und Sheeran, 2006) fand einen mittleren bis grossen Effekt auf das Erreichen von Zielen, zum Beispiel bei Sport, Ernährung und Vorsorgeuntersuchungen.",
+      "example": "\"Wenn ich nach dem Mittagessen an den Schreibtisch zurückkomme, dann arbeite ich 25 Minuten am Bericht, bevor ich Mails öffne.\" Oder: \"Wenn mir jemand eine Zigarette anbietet, dann sage ich: Ich rauche nicht.\"",
+      "act": "Schreib für dein wichtigstes Ziel einen Satz: **Wenn** [Zeit, Ort oder Situation], **dann** [konkrete Handlung]. Leg ihn dorthin, wo die Situation passiert.",
+      "deep": "Der Psychologe Peter Gollwitzer nennt das \"Implementation Intentions\". Eine Meta-Analyse von 94 Studien (Gollwitzer und Sheeran, 2006) fand einen mittleren bis grossen Effekt auf das Erreichen von Zielen, zum Beispiel bei Sport, Ernährung und Vorsorgeuntersuchungen.",
       "source": "Gollwitzer & Sheeran: Advances in Experimental Social Psychology (2006)"
     },
     "en": {
       "title": "If-then plans double your odds",
       "body": "\"I want to train more\" is a wish. \"**If** I get home on Monday at 6 pm, **then** I put my training clothes on right away\" is a plan.\n\nThe difference is huge. With a fixed trigger (time, place, situation) your mind no longer has to decide in the moment. The situation itself starts the action. Across many studies, such plans clearly raise the chance that you actually follow through.",
-      "apply": "Write one sentence for your most important goal: If [situation], then [action].",
-      "more": "Psychologist Peter Gollwitzer calls these \"implementation intentions\". A meta-analysis of 94 studies (Gollwitzer and Sheeran, 2006) found a medium-to-large effect on goal attainment, for example in exercise, diet and medical check-ups.",
+      "example": "\"If I get back to my desk after lunch, then I work on the report for 25 minutes before opening email.\" Or: \"If someone offers me a cigarette, then I say: I don't smoke.\"",
+      "act": "Write one sentence for your most important goal: **If** [time, place or situation], **then** [specific action]. Put it where the situation happens.",
+      "deep": "Psychologist Peter Gollwitzer calls these \"implementation intentions\". A meta-analysis of 94 studies (Gollwitzer and Sheeran, 2006) found a medium-to-large effect on goal attainment, for example in exercise, diet and medical check-ups.",
       "source": "Gollwitzer & Sheeran: Advances in Experimental Social Psychology (2006)"
     }
   },
@@ -243,18 +259,19 @@
     "sub": "gewohnheiten",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Umgebung schlägt Willenskraft",
       "body": "Menschen, die besonders diszipliniert wirken, haben oft gar nicht mehr Willenskraft. Sie haben ihr Umfeld so gebaut, dass sie sie **seltener brauchen**.\n\nDas Handy liegt beim Arbeiten im anderen Raum. Die Hantel steht neben dem Bett. Süsses wird gar nicht erst gekauft. Jede Hürde, die du zwischen dich und eine schlechte Gewohnheit stellst, und jede Abkürzung zu einer guten, wirkt jeden Tag automatisch.",
-      "apply": "Ändere heute eine Sache in deiner Wohnung, die eine gute Gewohnheit leichter oder eine schlechte schwerer macht.",
-      "more": "In Studien von Wendy Wood und anderen zeigte sich: Ein grosser Teil unserer täglichen Handlungen läuft gewohnheitsmässig, ausgelöst durch Ort und Situation. Menschen mit hoher Selbstkontrolle nutzen diese Automatik, statt ständig gegen Versuchungen anzukämpfen.",
+      "act": "Ändere heute eine Sache in deiner Wohnung, die eine gute Gewohnheit leichter oder eine schlechte schwerer macht.",
+      "deep": "In Studien von Wendy Wood und anderen zeigte sich: Ein grosser Teil unserer täglichen Handlungen läuft gewohnheitsmässig, ausgelöst durch Ort und Situation. Menschen mit hoher Selbstkontrolle nutzen diese Automatik, statt ständig gegen Versuchungen anzukämpfen.",
       "source": "Wendy Wood: Good Habits, Bad Habits (2019)"
     },
     "en": {
       "title": "Environment beats willpower",
       "body": "People who seem especially disciplined often don't have more willpower. They have built their surroundings so that they **need it less often**.\n\nThe phone is in another room while they work. The dumbbell sits next to the bed. Sweets never get bought in the first place. Every hurdle you place between yourself and a bad habit, and every shortcut to a good one, works automatically every single day.",
-      "apply": "Change one thing in your home today that makes a good habit easier or a bad one harder.",
-      "more": "Research by Wendy Wood and others shows that a large share of our daily actions run on habit, triggered by place and situation. People with high self-control use this autopilot instead of constantly fighting temptation.",
+      "act": "Change one thing in your home today that makes a good habit easier or a bad one harder.",
+      "deep": "Research by Wendy Wood and others shows that a large share of our daily actions run on habit, triggered by place and situation. People with high self-control use this autopilot instead of constantly fighting temptation.",
       "source": "Wendy Wood: Good Habits, Bad Habits (2019)"
     }
   },
@@ -264,18 +281,19 @@
     "sub": "fokus",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Deep Work: Die seltenste Fähigkeit",
       "body": "Konzentriert und ohne jede Ablenkung an einer schwierigen Sache arbeiten: Cal Newport nennt das **Deep Work**. Seine These: Diese Fähigkeit wird immer wertvoller und gleichzeitig immer seltener, weil fast alle dauernd zwischen Nachrichten, Mails und Feeds springen.\n\nWer sich tief konzentrieren kann, lernt schwierige Dinge schneller und liefert Arbeit auf einem Niveau, das andere nicht erreichen.\n\nNewport empfiehlt feste Blöcke von 60 bis 90 Minuten: Handy weg, ein Ziel, keine Unterbrechung.\n\nKonzentration ist ein Muskel. Wer ihn trainiert, hat einen Vorteil, den man nicht kaufen kann.",
-      "apply": "Plane morgen einen 60-Minuten-Block für deine schwierigste Aufgabe und schalte alles andere aus.",
-      "more": "Newport unterscheidet Deep Work von \"Shallow Work\": logistische Aufgaben, die man auch abgelenkt erledigen kann (Mails beantworten, Termine koordinieren). Shallow Work fühlt sich produktiv an, bringt aber selten echten Fortschritt. Anfänger schaffen oft nur eine Stunde Deep Work am Tag, Geübte bis zu vier.",
+      "act": "- Plane für morgen einen Block von 60 bis 90 Minuten für deine schwierigste Aufgabe.\n- Ein Ziel, ein Fenster, das Handy in einem anderen Raum.\n- Wiederhole das an mindestens drei Tagen pro Woche.",
+      "deep": "Newport unterscheidet Deep Work von \"Shallow Work\": logistische Aufgaben, die man auch abgelenkt erledigen kann (Mails beantworten, Termine koordinieren). Shallow Work fühlt sich produktiv an, bringt aber selten echten Fortschritt. Anfänger schaffen oft nur eine Stunde Deep Work am Tag, Geübte bis zu vier.",
       "source": "Cal Newport: Deep Work (2016)"
     },
     "en": {
       "title": "Deep work: the rarest skill",
       "body": "Working on something hard with full focus and zero distraction: Cal Newport calls it **deep work**. His thesis: this skill is becoming more valuable and rarer at the same time, because almost everyone keeps jumping between messages, emails and feeds.\n\nThose who can concentrate deeply learn hard things faster and produce work at a level others don't reach.\n\nNewport recommends fixed blocks of 60 to 90 minutes: phone away, one goal, no interruptions.\n\nFocus is a muscle. Train it, and you have an edge that money can't buy.",
-      "apply": "Plan a 60-minute block tomorrow for your hardest task and switch everything else off.",
-      "more": "Newport contrasts deep work with \"shallow work\": logistical tasks you can do while distracted (answering emails, scheduling). Shallow work feels productive but rarely creates real progress. Beginners often manage only one hour of deep work per day; trained people up to four.",
+      "act": "- Book a 60 to 90 minute block tomorrow for your hardest task.\n- One goal, one window, phone in another room.\n- Repeat it on at least three days a week.",
+      "deep": "Newport contrasts deep work with \"shallow work\": logistical tasks you can do while distracted (answering emails, scheduling). Shallow work feels productive but rarely creates real progress. Beginners often manage only one hour of deep work per day; trained people up to four.",
       "source": "Cal Newport: Deep Work (2016)"
     }
   },
@@ -285,18 +303,21 @@
     "sub": "fokus",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Warum kurz checken teuer ist",
       "body": "Du arbeitest, schaust nur kurz aufs Handy und machst weiter. Kein Problem? Doch.\n\nWenn du von Aufgabe A zu B wechselst, bleibt ein Teil deiner Aufmerksamkeit bei A hängen. Die Forscherin Sophie Leroy nennt das **Aufmerksamkeitsrest**. In ihren Versuchen arbeiteten Menschen nach einem Wechsel schlechter an der neuen Aufgabe, vor allem, wenn die alte unfertig war.\n\nJeder schnelle Blick auf Nachrichten lässt also Reste in deinem Kopf zurück, die dich danach bremsen.",
-      "apply": "Sammle Nachrichten und Mails und schau sie heute nur zu drei festen Zeiten an.",
-      "more": "Leroy liess Probanden eine Aufgabe unterbrechen und eine neue beginnen. Wer die erste Aufgabe nicht abschliessen konnte, dachte weiter daran und schnitt bei der zweiten schlechter ab. Ein kurzer Plan, wann man die unterbrochene Aufgabe fortsetzt, reduziert den Effekt.",
+      "example": "Du schreibst an einer Offerte und schaust kurz auf eine Nachricht vom Chef: \"Können wir morgen reden?\" Du antwortest nicht und schreibst weiter. Aber ein Teil von dir grübelt jetzt über das Gespräch, und die Offerte wird schlechter, ohne dass du es merkst.",
+      "act": "Sammle Nachrichten und Mails und schau sie heute nur zu drei festen Zeiten an.",
+      "deep": "Leroy liess Probanden eine Aufgabe unterbrechen und eine neue beginnen. Wer die erste Aufgabe nicht abschliessen konnte, dachte weiter daran und schnitt bei der zweiten schlechter ab. Ein kurzer Plan, wann man die unterbrochene Aufgabe fortsetzt, reduziert den Effekt.",
       "source": "Sophie Leroy: Organizational Behavior and Human Decision Processes (2009)"
     },
     "en": {
       "title": "Why a quick check is costly",
       "body": "You're working, glance at your phone for a second, and carry on. No harm done? Actually, there is.\n\nWhen you switch from task A to task B, part of your attention stays stuck on A. Researcher Sophie Leroy calls this **attention residue**. In her experiments, people performed worse on the new task after a switch, especially when the old one was unfinished.\n\nEvery quick look at messages leaves residue in your head that slows you down afterwards.",
-      "apply": "Batch your messages and email and check them at only three fixed times today.",
-      "more": "Leroy had participants interrupt one task and start another. Those who couldn't finish the first task kept thinking about it and performed worse on the second. Making a quick plan for when to resume the interrupted task reduces the effect.",
+      "example": "You are writing a proposal and glance at a message from your boss: \"Can we talk tomorrow?\" You don't reply and keep writing. But part of you is now chewing on that conversation, and the proposal gets worse without you noticing.",
+      "act": "Batch your messages and email and check them at only three fixed times today.",
+      "deep": "Leroy had participants interrupt one task and start another. Those who couldn't finish the first task kept thinking about it and performed worse on the second. Making a quick plan for when to resume the interrupted task reduces the effect.",
       "source": "Sophie Leroy: Organizational Behavior and Human Decision Processes (2009)"
     }
   },
@@ -306,18 +327,19 @@
     "sub": "fokus",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Das Handy auf dem Tisch kostet",
       "body": "Selbst ausgeschaltet und mit dem Display nach unten kann ein Handy in Sichtweite an deiner Konzentration nagen. Ein Teil deines Kopfes ist damit beschäftigt, **nicht** daran zu denken.\n\nIn einer bekannten Studie schnitten Teilnehmer bei Denkaufgaben am besten ab, wenn ihr Handy in einem anderen Raum lag. Spätere Studien fanden den Effekt nicht immer so stark, aber die Richtung ist klar: Aus den Augen hilft.",
-      "apply": "Leg dein Handy für die nächste Lern- oder Arbeitsstunde in einen anderen Raum.",
-      "more": "Ward, Duke, Gneezy und Bos (2017) testeten rund 800 Personen. Wer das Handy in einem anderen Raum hatte, schnitt bei Tests zu Arbeitsgedächtnis und Denkvermögen besser ab als wer es auf dem Tisch oder in der Tasche hatte. Einige Wiederholungsstudien fanden kleinere oder keine Effekte, deshalb gilt der Befund als plausibel, aber nicht endgültig gesichert.",
+      "act": "Leg dein Handy für die nächste Lern- oder Arbeitsstunde in einen anderen Raum.",
+      "deep": "Ward, Duke, Gneezy und Bos (2017) testeten rund 800 Personen. Wer das Handy in einem anderen Raum hatte, schnitt bei Tests zu Arbeitsgedächtnis und Denkvermögen besser ab als wer es auf dem Tisch oder in der Tasche hatte. Einige Wiederholungsstudien fanden kleinere oder keine Effekte, deshalb gilt der Befund als plausibel, aber nicht endgültig gesichert.",
       "source": "Ward et al.: Brain Drain, Journal of the Association for Consumer Research (2017)"
     },
     "en": {
       "title": "The phone on your desk costs you",
       "body": "Even switched off and face down, a phone in sight can chip away at your focus. Part of your mind is busy **not** thinking about it.\n\nIn a well-known study, participants did best on thinking tasks when their phone was in another room. Later studies did not always find the effect this strong, but the direction is clear: out of sight helps.",
-      "apply": "Put your phone in another room for your next hour of study or work.",
-      "more": "Ward, Duke, Gneezy and Bos (2017) tested about 800 people. Those whose phone was in another room scored better on working memory and reasoning tests than those with the phone on the desk or in a pocket. Some replications found smaller or no effects, so the finding is considered plausible but not settled.",
+      "act": "Put your phone in another room for your next hour of study or work.",
+      "deep": "Ward, Duke, Gneezy and Bos (2017) tested about 800 people. Those whose phone was in another room scored better on working memory and reasoning tests than those with the phone on the desk or in a pocket. Some replications found smaller or no effects, so the finding is considered plausible but not settled.",
       "source": "Ward et al.: Brain Drain, Journal of the Association for Consumer Research (2017)"
     }
   },
@@ -327,18 +349,21 @@
     "sub": "fokus",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Das 80/20-Prinzip",
       "body": "Oft bringt ein kleiner Teil deiner Arbeit den grössten Teil des Ergebnisses. Ein paar Kunden machen den meisten Umsatz, ein paar Übungen den meisten Muskelaufbau, ein paar Gewohnheiten den grössten Teil deiner Zufriedenheit.\n\nDie Zahl 80/20 ist eine Faustregel, kein Naturgesetz. Der Kern stimmt aber: **Nicht alles ist gleich wichtig.** Wer die wenigen entscheidenden Dinge findet und schützt, schafft mehr in weniger Zeit.",
-      "apply": "Schau auf deine To-do-Liste: Welche eine Aufgabe bringt am meisten? Mach sie zuerst.",
-      "more": "Der Ökonom Vilfredo Pareto stellte um 1900 fest, dass in Italien rund 80 % des Landes etwa 20 % der Bevölkerung gehörten. Der Qualitätsforscher Joseph Juran machte daraus später ein allgemeines Prinzip: \"die wenigen Wesentlichen und die vielen Nebensächlichen\".",
+      "example": "Ein Verkäufer schaut seine Zahlen an: 4 von 20 Kunden bringen zwei Drittel seines Umsatzes. Statt allen gleich viel Zeit zu geben, ruft er diese vier zuerst an und fragt, was sie als Nächstes brauchen.",
+      "act": "Schau auf deine To-do-Liste: Welche eine Aufgabe bringt am meisten? Mach sie zuerst.",
+      "deep": "Der Ökonom Vilfredo Pareto stellte um 1900 fest, dass in Italien rund 80 % des Landes etwa 20 % der Bevölkerung gehörten. Der Qualitätsforscher Joseph Juran machte daraus später ein allgemeines Prinzip: \"die wenigen Wesentlichen und die vielen Nebensächlichen\".",
       "source": "Richard Koch: Das 80/20-Prinzip (1997)"
     },
     "en": {
       "title": "The 80/20 principle",
       "body": "Often a small part of your work produces most of the result. A few customers bring most of the revenue, a few exercises most of the muscle, a few habits most of your satisfaction.\n\nThe 80/20 split is a rule of thumb, not a law of nature. But the core holds: **not everything matters equally.** Find and protect the few things that count, and you get more done in less time.",
-      "apply": "Look at your to-do list: which single task moves the needle most? Do it first.",
-      "more": "Around 1900, economist Vilfredo Pareto noticed that about 80% of the land in Italy was owned by roughly 20% of the population. Quality expert Joseph Juran later turned this into a general principle: \"the vital few and the trivial many\".",
+      "example": "A salesman looks at his numbers: 4 of his 20 customers bring in two thirds of his revenue. Instead of giving everyone the same time, he calls those four first and asks what they need next.",
+      "act": "Look at your to-do list: which single task moves the needle most? Do it first.",
+      "deep": "Around 1900, economist Vilfredo Pareto noticed that about 80% of the land in Italy was owned by roughly 20% of the population. Quality expert Joseph Juran later turned this into a general principle: \"the vital few and the trivial many\".",
       "source": "Richard Koch: The 80/20 Principle (1997)"
     }
   },
@@ -348,18 +373,19 @@
     "sub": "disziplin",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Iss den Frosch zuerst",
       "body": "Wenn du jeden Morgen einen lebenden Frosch essen müsstest, wäre das Schlimmste des Tages um 8 Uhr vorbei.\n\nDer Frosch ist deine **wichtigste und unangenehmste Aufgabe**. Erledigst du sie zuerst, hast du den grössten Fortschritt des Tages sicher, bevor Mails, Anrufe und Müdigkeit kommen. Und der Rest des Tages fühlt sich leicht an.",
-      "apply": "Bestimme heute Abend deinen Frosch für morgen früh.",
-      "more": "Bekannt wurde das Bild durch Brian Tracys Buch \"Eat That Frog!\" (2001). Oft wird der Spruch Mark Twain zugeschrieben, dafür gibt es aber keinen sicheren Beleg. Dahinter steckt ein solider Gedanke: Am Morgen sind Energie und Konzentration bei vielen Menschen am höchsten, und eine erledigte grosse Aufgabe motiviert für den Rest des Tages.",
+      "act": "Bestimme heute Abend deinen Frosch für morgen früh.",
+      "deep": "Bekannt wurde das Bild durch Brian Tracys Buch \"Eat That Frog!\" (2001). Oft wird der Spruch Mark Twain zugeschrieben, dafür gibt es aber keinen sicheren Beleg. Dahinter steckt ein solider Gedanke: Am Morgen sind Energie und Konzentration bei vielen Menschen am höchsten, und eine erledigte grosse Aufgabe motiviert für den Rest des Tages.",
       "source": "Brian Tracy: Eat That Frog! (2001)"
     },
     "en": {
       "title": "Eat the frog first",
       "body": "If you had to eat a live frog every morning, the worst part of your day would be over by 8 am.\n\nThe frog is your **most important and least pleasant task**. Do it first and you lock in the day's biggest progress before emails, calls and fatigue arrive. The rest of the day feels light.",
-      "apply": "Tonight, pick your frog for tomorrow morning.",
-      "more": "The image was popularised by Brian Tracy's book \"Eat That Frog!\" (2001). The saying is often attributed to Mark Twain, but there is no solid evidence for that. The idea behind it is sound: for many people, energy and focus peak in the morning, and a finished big task fuels the rest of the day.",
+      "act": "Tonight, pick your frog for tomorrow morning.",
+      "deep": "The image was popularised by Brian Tracy's book \"Eat That Frog!\" (2001). The saying is often attributed to Mark Twain, but there is no solid evidence for that. The idea behind it is sound: for many people, energy and focus peak in the morning, and a finished big task fuels the rest of the day.",
       "source": "Brian Tracy: Eat That Frog! (2001)"
     }
   },
@@ -369,18 +395,19 @@
     "sub": "disziplin",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Motivation kommt nach dem Anfangen",
       "body": "Viele warten darauf, motiviert zu sein, bevor sie anfangen. Meistens läuft es umgekehrt: **Erst die Handlung, dann die Motivation.**\n\nDie ersten fünf Minuten im Gym, die erste Seite eines Berichts, der erste Anruf sind die schwersten. Danach trägt dich der Schwung. Disziplin heisst nicht, dass du dich immer gut fühlst. Sie heisst, dass du anfängst, obwohl du keine Lust hast.",
-      "apply": "Nimm dir etwas vor, auf das du keine Lust hast, und versprich dir nur die ersten fünf Minuten. Fang jetzt an.",
-      "more": "Psychologen sprechen vom \"Zeigarnik-Effekt\": Angefangene Aufgaben bleiben im Kopf präsent und ziehen uns zurück, bis sie fertig sind. Wer anfängt, nutzt diesen Sog für sich. Auch in der Verhaltenstherapie gilt: Handeln verändert Gefühle oft schneller, als Nachdenken es tut.",
+      "act": "Nimm dir etwas vor, auf das du keine Lust hast, und versprich dir nur die ersten fünf Minuten. Fang jetzt an.",
+      "deep": "Psychologen sprechen vom \"Zeigarnik-Effekt\": Angefangene Aufgaben bleiben im Kopf präsent und ziehen uns zurück, bis sie fertig sind. Wer anfängt, nutzt diesen Sog für sich. Auch in der Verhaltenstherapie gilt: Handeln verändert Gefühle oft schneller, als Nachdenken es tut.",
       "source": "Bluma Zeigarnik (1927); Verhaltensaktivierung in der kognitiven Verhaltenstherapie"
     },
     "en": {
       "title": "Motivation comes after starting",
       "body": "Many people wait to feel motivated before they begin. Usually it works the other way round: **action first, motivation second.**\n\nThe first five minutes at the gym, the first page of a report, the first phone call are the hardest. After that, momentum carries you. Discipline doesn't mean you always feel good. It means you start even when you don't feel like it.",
-      "apply": "Pick something you don't feel like doing and commit to just the first five minutes. Start now.",
-      "more": "Psychologists speak of the \"Zeigarnik effect\": unfinished tasks stay present in the mind and pull us back until they're done. Starting puts that pull to work for you. Behavioural therapy relies on the same idea: action often changes feelings faster than thinking does.",
+      "act": "Pick something you don't feel like doing and commit to just the first five minutes. Start now.",
+      "deep": "Psychologists speak of the \"Zeigarnik effect\": unfinished tasks stay present in the mind and pull us back until they're done. Starting puts that pull to work for you. Behavioural therapy relies on the same idea: action often changes feelings faster than thinking does.",
       "source": "Bluma Zeigarnik (1927); behavioural activation in cognitive behavioural therapy"
     }
   },
@@ -390,18 +417,19 @@
     "sub": "disziplin",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Disziplin ist Freiheit",
       "body": "Disziplin klingt nach Zwang. Der ehemalige Navy-SEAL-Kommandant Jocko Willink sieht es umgekehrt: \"Disziplin ist gleich Freiheit.\"\n\nWer diszipliniert spart, hat finanzielle Freiheit. Wer diszipliniert trainiert, hat einen Körper, der ihm gehorcht. Wer diszipliniert plant, hat freie Zeit, statt dauernd hinterherzurennen. **Fehlende Disziplin macht dich abhängig**: von Laune, Zufall und anderen Menschen.",
-      "apply": "Such dir einen Bereich aus, in dem dir fehlende Disziplin gerade Freiheit kostet, und setz dort eine klare Regel.",
-      "more": "Willink führte im Irakkrieg die Task Unit Bruiser der Navy SEALs in Ramadi. Später schrieb er mit Leif Babin \"Extreme Ownership\" und allein \"Discipline Equals Freedom\". Er ist bekannt dafür, jeden Morgen um 4:30 Uhr aufzustehen und ein Foto seiner Uhr zu posten.",
+      "act": "Wähle einen Bereich, in dem dich fehlende Disziplin gerade unfrei macht, und setz dort eine klare Regel für die nächsten 30 Tage. Zum Beispiel: kein Handy nach 22 Uhr.",
+      "deep": "Willink führte im Irakkrieg die Task Unit Bruiser der Navy SEALs in Ramadi. Später schrieb er mit Leif Babin \"Extreme Ownership\" und allein \"Discipline Equals Freedom\". Er ist bekannt dafür, jeden Morgen um 4:30 Uhr aufzustehen und ein Foto seiner Uhr zu posten.",
       "source": "Jocko Willink: Discipline Equals Freedom (2017)"
     },
     "en": {
       "title": "Discipline is freedom",
       "body": "Discipline sounds like coercion. Former Navy SEAL commander Jocko Willink sees it the other way round: \"Discipline equals freedom.\"\n\nSave with discipline and you gain financial freedom. Train with discipline and you have a body that obeys you. Plan with discipline and you have free time instead of always running behind. **A lack of discipline makes you dependent**: on mood, chance and other people.",
-      "apply": "Pick one area where a lack of discipline is costing you freedom right now, and set one clear rule there.",
-      "more": "In the Iraq War, Willink led the Navy SEALs' Task Unit Bruiser in Ramadi. He later wrote \"Extreme Ownership\" with Leif Babin and \"Discipline Equals Freedom\" on his own. He is known for getting up at 4:30 every morning and posting a photo of his watch.",
+      "act": "Pick an area where a lack of discipline is costing you freedom, and set one clear rule there for the next 30 days. For example: no phone after 10 pm.",
+      "deep": "In the Iraq War, Willink led the Navy SEALs' Task Unit Bruiser in Ramadi. He later wrote \"Extreme Ownership\" with Leif Babin and \"Discipline Equals Freedom\" on his own. He is known for getting up at 4:30 every morning and posting a photo of his watch.",
       "source": "Jocko Willink: Discipline Equals Freedom (2017)"
     }
   },
@@ -411,28 +439,31 @@
     "sub": "stoizismus",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Was in deiner Macht steht",
-      "body": "Der Grundsatz der Stoiker in einem Satz: Manche Dinge stehen in unserer Macht, andere nicht.\n\n**In deiner Macht:** dein Urteil, deine Absicht, dein Handeln.\n**Nicht in deiner Macht:** dein Ruf, dein Besitz, das Wetter, was andere tun.\n\nUnglücklich wird, wer sein Glück an Dinge hängt, die er nicht kontrolliert. Ruhig und stark wird, wer seine Kraft dort einsetzt, wo sie wirkt, und den Rest gelassen nimmt.",
       "quote": {
         "text": "Von den Dingen stehen die einen in unserer Macht, die anderen nicht.",
         "author": "Epiktet",
         "source": "Handbüchlein der Moral, 1"
       },
-      "apply": "Sortiere deine nächste Sorge: Liegt sie in deiner Macht? Wenn nein, lass sie los. Wenn ja, handle.",
-      "more": "Epiktet war ein freigelassener Sklave, der im 1. und 2. Jahrhundert in Nikopolis eine Philosophenschule leitete. Sein Schüler Arrian schrieb seine Lehren auf. Das \"Handbüchlein\" (Enchiridion) beginnt mit genau diesem Gedanken. Die moderne kognitive Verhaltenstherapie beruft sich ausdrücklich auf ihn.",
+      "body": "Der Grundsatz der Stoiker in einem Satz: Manche Dinge stehen in unserer Macht, andere nicht.\n\n**In deiner Macht:** dein Urteil, deine Absicht, dein Handeln.\n**Nicht in deiner Macht:** dein Ruf, dein Besitz, das Wetter, was andere tun.\n\nUnglücklich wird, wer sein Glück an Dinge hängt, die er nicht kontrolliert. Ruhig und stark wird, wer seine Kraft dort einsetzt, wo sie wirkt, und den Rest gelassen nimmt.",
+      "example": "Du wartest auf die Zusage für eine Stelle. Ob sie dich nehmen, liegt nicht in deiner Macht. Wie gut du vorbereitet warst, wie du die Wartezeit nutzt und ob du parallel weitere Bewerbungen schickst, liegt ganz bei dir.",
+      "act": "- Nimm deine nächste Sorge.\n- Frag: Liegt das in meiner Macht?\n- Nein: Lass los und richte deine Kraft auf deine Reaktion.\n- Ja: Handle, noch heute.",
+      "deep": "Epiktet war ein freigelassener Sklave, der im 1. und 2. Jahrhundert in Nikopolis eine Philosophenschule leitete. Sein Schüler Arrian schrieb seine Lehren auf. Das \"Handbüchlein\" (Enchiridion) beginnt mit genau diesem Gedanken. Die moderne kognitive Verhaltenstherapie beruft sich ausdrücklich auf ihn.",
       "source": "Epiktet: Handbüchlein der Moral (um 125 n. Chr.), Kapitel 1"
     },
     "en": {
       "title": "What is in your power",
-      "body": "The Stoic principle in one sentence: some things are in our power, others are not.\n\n**In your power:** your judgement, your intentions, your actions.\n**Not in your power:** your reputation, your possessions, the weather, what others do.\n\nWhoever ties his happiness to things he doesn't control becomes miserable. Whoever puts his strength where it works, and takes the rest calmly, becomes steady and strong.",
       "quote": {
         "text": "Of things, some are in our power, and others are not.",
         "author": "Epictetus",
         "source": "Enchiridion, 1"
       },
-      "apply": "Sort your next worry: is it in your power? If not, let it go. If yes, act.",
-      "more": "Epictetus was a freed slave who ran a school of philosophy in Nicopolis in the 1st and 2nd centuries. His student Arrian wrote down his teachings. The \"Enchiridion\" (handbook) opens with exactly this idea. Modern cognitive behavioural therapy explicitly cites him as an influence.",
+      "body": "The Stoic principle in one sentence: some things are in our power, others are not.\n\n**In your power:** your judgement, your intentions, your actions.\n**Not in your power:** your reputation, your possessions, the weather, what others do.\n\nWhoever ties his happiness to things he doesn't control becomes miserable. Whoever puts his strength where it works, and takes the rest calmly, becomes steady and strong.",
+      "example": "You are waiting to hear about a job. Whether they hire you is not in your power. How well you prepared, how you use the waiting time and whether you send out more applications meanwhile is entirely up to you.",
+      "act": "- Take your next worry.\n- Ask: is this in my power?\n- No: let go and put your energy into how you respond.\n- Yes: act, today.",
+      "deep": "Epictetus was a freed slave who ran a school of philosophy in Nicopolis in the 1st and 2nd centuries. His student Arrian wrote down his teachings. The \"Enchiridion\" (handbook) opens with exactly this idea. Modern cognitive behavioural therapy explicitly cites him as an influence.",
       "source": "Epictetus: Enchiridion (c. 125 AD), chapter 1"
     }
   },
@@ -442,6 +473,7 @@
     "sub": "stoizismus",
     "style": "zitat",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Das Hindernis ist der Weg",
       "quote": {
@@ -450,8 +482,8 @@
         "source": "Selbstbetrachtungen 5,20"
       },
       "body": "Marc Aurel war der mächtigste Mann der Welt und schrieb diese Zeilen nur für sich selbst, mitten in Kriegen und einer Seuche.\n\nSein Gedanke: Jedes Hindernis ist eine Gelegenheit, eine Tugend zu üben. Ein schwieriger Kollege trainiert deine Geduld. Ein Rückschlag trainiert deine Ausdauer. Du kannst nicht wählen, was passiert, aber du kannst wählen, **was du daraus machst**.",
-      "apply": "Nimm dein aktuelles Problem, benenne die Stärke, die du genau daran trainieren kannst, und trainiere sie heute.",
-      "more": "Die \"Selbstbetrachtungen\" sind ein Tagebuch, das Marc Aurel (121 bis 180 n. Chr.) auf Griechisch führte, vermutlich während der Feldzüge an der Donau. Ryan Holiday machte den Gedanken mit seinem Buch \"The Obstacle Is the Way\" (2014) bei Sportlern und Unternehmern bekannt.",
+      "act": "Welche Stärke kann ich genau an meinem grössten Problem gerade trainieren? Benenne sie und übe sie heute einmal bewusst.",
+      "deep": "Die \"Selbstbetrachtungen\" sind ein Tagebuch, das Marc Aurel (121 bis 180 n. Chr.) auf Griechisch führte, vermutlich während der Feldzüge an der Donau. Ryan Holiday machte den Gedanken mit seinem Buch \"The Obstacle Is the Way\" (2014) bei Sportlern und Unternehmern bekannt.",
       "source": "Marc Aurel: Selbstbetrachtungen, Buch 5, 20 (eigene Übersetzung)"
     },
     "en": {
@@ -462,8 +494,8 @@
         "source": "Meditations 5.20"
       },
       "body": "Marcus Aurelius was the most powerful man in the world and wrote these lines only for himself, in the middle of wars and a plague.\n\nHis idea: every obstacle is a chance to practise a virtue. A difficult colleague trains your patience. A setback trains your endurance. You can't choose what happens, but you can choose **what you make of it**.",
-      "apply": "Take your current problem, name the strength you can train on exactly this, and train it today.",
-      "more": "The \"Meditations\" are a journal Marcus Aurelius (121 to 180 AD) kept in Greek, probably during the campaigns on the Danube. Ryan Holiday popularised the idea among athletes and entrepreneurs with his book \"The Obstacle Is the Way\" (2014).",
+      "act": "Which strength can my biggest problem train right now? Name it and practise it once, on purpose, today.",
+      "deep": "The \"Meditations\" are a journal Marcus Aurelius (121 to 180 AD) kept in Greek, probably during the campaigns on the Danube. Ryan Holiday popularised the idea among athletes and entrepreneurs with his book \"The Obstacle Is the Way\" (2014).",
       "source": "Marcus Aurelius: Meditations, Book 5, 20 (own translation)"
     }
   },
@@ -473,6 +505,7 @@
     "sub": "stoizismus",
     "style": "tipp",
     "level": 2,
+    "actKind": "so",
     "de": {
       "title": "Das Schlimmste vorher durchdenken",
       "body": "Die Stoiker hatten eine Übung, die erst einmal düster klingt: **Premeditatio malorum**, das Vorausdenken von Übeln. Bevor du etwas Wichtiges angehst, stellst du dir ruhig vor, was schiefgehen könnte.\n\nDas Ziel ist nicht Angst, sondern das Gegenteil. Was du durchdacht hast, kann dich nicht mehr überrumpeln. Du hast einen Plan B, und du merkst oft: Selbst das Schlimmste wäre zu überstehen.",
@@ -481,8 +514,9 @@
         "Wie kann ich das verhindern oder unwahrscheinlicher machen?",
         "Was mache ich, wenn es trotzdem passiert?"
       ],
-      "apply": "Geh dein nächstes wichtiges Vorhaben mit diesen drei Fragen durch.",
-      "more": "Seneca schreibt in seinen Briefen, man solle sich Verbannung, Krankheit und Verlust vorher vorstellen, damit sie einen nicht unvorbereitet treffen. Der Unternehmer Tim Ferriss hat daraus die Übung \"Fear Setting\" gemacht. In der Wirtschaft kennt man Ähnliches als \"Pre-Mortem\": Man stellt sich vor, das Projekt sei gescheitert, und sucht die Gründe.",
+      "example": "Vor einer Präsentation: Was, wenn der Beamer streikt? Du hast die Folien als PDF auf dem Handy und die drei Kernaussagen im Kopf. Was, wenn jemand dich hart unterbricht? Du sagst ruhig: \"Gute Frage, darauf komme ich gleich.\"",
+      "act": "Geh dein nächstes wichtiges Vorhaben schriftlich mit diesen drei Fragen durch. Fünf Minuten reichen.",
+      "deep": "Seneca schreibt in seinen Briefen, man solle sich Verbannung, Krankheit und Verlust vorher vorstellen, damit sie einen nicht unvorbereitet treffen. Der Unternehmer Tim Ferriss hat daraus die Übung \"Fear Setting\" gemacht. In der Wirtschaft kennt man Ähnliches als \"Pre-Mortem\": Man stellt sich vor, das Projekt sei gescheitert, und sucht die Gründe.",
       "source": "Seneca: Briefe an Lucilius, z. B. Brief 91; Gary Klein: Pre-Mortem, Harvard Business Review (2007)"
     },
     "en": {
@@ -493,8 +527,9 @@
         "How can I prevent it or make it less likely?",
         "What will I do if it happens anyway?"
       ],
-      "apply": "Run your next important project through these three questions.",
-      "more": "In his letters, Seneca advises imagining exile, illness and loss in advance so they don't strike you unprepared. Entrepreneur Tim Ferriss turned this into his \"fear setting\" exercise. Business has a similar tool, the \"pre-mortem\": imagine the project has failed and look for the reasons.",
+      "example": "Before a presentation: what if the projector fails? You have the slides as a PDF on your phone and the three key points in your head. What if someone cuts in hard? You calmly say: \"Good question, I'll get to that in a minute.\"",
+      "act": "Run your next important plan through these three questions, in writing. Five minutes is enough.",
+      "deep": "In his letters, Seneca advises imagining exile, illness and loss in advance so they don't strike you unprepared. Entrepreneur Tim Ferriss turned this into his \"fear setting\" exercise. Business has a similar tool, the \"pre-mortem\": imagine the project has failed and look for the reasons.",
       "source": "Seneca: Letters to Lucilius, e.g. Letter 91; Gary Klein: Pre-Mortem, Harvard Business Review (2007)"
     }
   },
@@ -504,28 +539,29 @@
     "sub": "mentalitaet",
     "style": "tipp",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Trainiere freiwilliges Unbehagen",
-      "body": "Seneca riet einem reichen Freund, sich ein paar Tage lang mit dem einfachsten Essen und grober Kleidung zu begnügen und sich dabei zu fragen: \"Ist es das, wovor ich mich gefürchtet habe?\"\n\nWer sich regelmässig **freiwillig** Unbequemem aussetzt, kalter Dusche, Fasten, Sport bei Regen, schwierigen Gesprächen, verliert die Angst davor. Härte im Kleinen macht dich ruhig, wenn das Leben im Grossen hart wird.",
       "quote": {
         "text": "Ist dies der Zustand, den ich gefürchtet habe?",
         "author": "Seneca",
         "source": "Briefe an Lucilius 18"
       },
-      "apply": "Wähle für diese Woche eine freiwillige Härte, etwa eine kalte Dusche am Morgen, und zieh sie dreimal durch. Ohne Ausnahme.",
-      "more": "Im 18. Brief an Lucilius schreibt Seneca, man solle gerade in guten Zeiten Armut üben, damit man in schlechten Zeiten gefasst ist. Die Idee taucht heute in Ansätzen wie \"Hormesis\" auf: Kleine, dosierte Belastungen machen Körper und Psyche widerstandsfähiger.",
+      "body": "Seneca riet einem reichen Freund, sich ein paar Tage lang mit dem einfachsten Essen und grober Kleidung zu begnügen und sich dabei zu fragen: \"Ist es das, wovor ich mich gefürchtet habe?\"\n\nWer sich regelmässig **freiwillig** Unbequemem aussetzt, kalter Dusche, Fasten, Sport bei Regen, schwierigen Gesprächen, verliert die Angst davor. Härte im Kleinen macht dich ruhig, wenn das Leben im Grossen hart wird.",
+      "act": "Wähle für diese Woche eine freiwillige Härte, etwa eine kalte Dusche am Morgen, und zieh sie dreimal durch. Ohne Ausnahme.",
+      "deep": "Im 18. Brief an Lucilius schreibt Seneca, man solle gerade in guten Zeiten Armut üben, damit man in schlechten Zeiten gefasst ist. Die Idee taucht heute in Ansätzen wie \"Hormesis\" auf: Kleine, dosierte Belastungen machen Körper und Psyche widerstandsfähiger.",
       "source": "Seneca: Briefe an Lucilius, Brief 18"
     },
     "en": {
       "title": "Train voluntary discomfort",
-      "body": "Seneca advised a wealthy friend to live for a few days on the plainest food and in rough clothes, asking himself: \"Is this the condition that I feared?\"\n\nIf you **voluntarily** expose yourself to discomfort on a regular basis, cold showers, fasting, training in the rain, hard conversations, you lose your fear of it. Toughness in small things keeps you calm when life gets hard in big ones.",
       "quote": {
         "text": "Is this the condition that I feared?",
         "author": "Seneca",
         "source": "Letters to Lucilius 18"
       },
-      "apply": "Choose one voluntary hardship for this week, such as a cold shower in the morning, and do it three times. No exceptions.",
-      "more": "In his 18th letter to Lucilius, Seneca writes that you should practise poverty precisely in good times so you stay composed in bad times. The idea shows up today in concepts like \"hormesis\": small, dosed stressors make body and mind more resilient.",
+      "body": "Seneca advised a wealthy friend to live for a few days on the plainest food and in rough clothes, asking himself: \"Is this the condition that I feared?\"\n\nIf you **voluntarily** expose yourself to discomfort on a regular basis, cold showers, fasting, training in the rain, hard conversations, you lose your fear of it. Toughness in small things keeps you calm when life gets hard in big ones.",
+      "act": "Choose one voluntary hardship for this week, such as a cold shower in the morning, and do it three times. No exceptions.",
+      "deep": "In his 18th letter to Lucilius, Seneca writes that you should practise poverty precisely in good times so you stay composed in bad times. The idea shows up today in concepts like \"hormesis\": small, dosed stressors make body and mind more resilient.",
       "source": "Seneca: Letters to Lucilius, Letter 18 (trans. R. M. Gummere, 1917)"
     }
   },
@@ -535,18 +571,19 @@
     "sub": "mentalitaet",
     "style": "fakt",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Herzklopfen ist Treibstoff",
       "body": "Vor einer Prüfung oder einem wichtigen Spiel schlägt dein Herz schneller, die Hände werden feucht. Die meisten deuten das als Zeichen von Versagen.\n\nStudien zeigen: Wer diese Signale als **Energie für die Leistung** deutet (\"Mein Körper macht sich bereit\"), schneidet oft besser ab und erholt sich schneller. Dein Körper reagiert bei Angst und bei Vorfreude sehr ähnlich. Was den Unterschied macht, ist die Deutung.",
-      "apply": "Sag dir beim nächsten Herzklopfen: \"Mein Körper gibt mir Energie für das hier.\"",
-      "more": "Jeremy Jamieson und Kollegen erklärten Studenten vor Prüfungen oder Stresstests, dass Erregung die Leistung unterstützen kann. Diese Gruppen hatten günstigere Herz-Kreislauf-Reaktionen und teils bessere Ergebnisse. Alison Wood Brooks fand Ähnliches: Wer vor einer Rede \"Ich bin aufgeregt\" statt \"Ich bin ruhig\" sagte, sprach überzeugender.",
+      "act": "Wenn dein Herz das nächste Mal vor etwas Wichtigem schneller schlägt: Bemerke es und sag dir \"Mein Körper macht sich bereit.\" Nicht beruhigen, umdeuten.",
+      "deep": "Jeremy Jamieson und Kollegen erklärten Studenten vor Prüfungen oder Stresstests, dass Erregung die Leistung unterstützen kann. Diese Gruppen hatten günstigere Herz-Kreislauf-Reaktionen und teils bessere Ergebnisse. Alison Wood Brooks fand Ähnliches: Wer vor einer Rede \"Ich bin aufgeregt\" statt \"Ich bin ruhig\" sagte, sprach überzeugender.",
       "source": "Jamieson et al.: Journal of Experimental Psychology: General (2012); Brooks: JEP: General (2014)"
     },
     "en": {
       "title": "A racing heart is fuel",
       "body": "Before an exam or a big game your heart beats faster and your hands get sweaty. Most people read that as a sign of failure.\n\nStudies show that people who interpret these signals as **energy for performance** (\"my body is getting ready\") often do better and recover faster. Your body reacts very similarly to fear and to excitement. What makes the difference is the interpretation.",
-      "apply": "Next time your heart races, tell yourself: \"My body is giving me energy for this.\"",
-      "more": "Jeremy Jamieson and colleagues told students before exams or stress tests that arousal can support performance. Those groups showed healthier cardiovascular responses and sometimes better results. Alison Wood Brooks found something similar: people who said \"I am excited\" rather than \"I am calm\" before a speech were more persuasive.",
+      "act": "Next time your heart races before something important: notice it and tell yourself \"My body is getting ready.\" Don't calm down, reframe.",
+      "deep": "Jeremy Jamieson and colleagues told students before exams or stress tests that arousal can support performance. Those groups showed healthier cardiovascular responses and sometimes better results. Alison Wood Brooks found something similar: people who said \"I am excited\" rather than \"I am calm\" before a speech were more persuasive.",
       "source": "Jamieson et al.: Journal of Experimental Psychology: General (2012); Brooks: JEP: General (2014)"
     }
   },
@@ -556,6 +593,7 @@
     "sub": "aura",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Aura beginnt mit Ruhe",
       "body": "Menschen mit starker Ausstrahlung haben selten die lauteste Stimme im Raum. Was sie ausstrahlen, ist **Ruhe**. Ein paar Dinge, die das sichtbar machen:",
@@ -566,8 +604,8 @@
         "**Blick halten.** Schau Menschen beim Reden ruhig an, ohne zu starren.",
         "**Weniger reagieren.** Nicht jede Provokation verdient eine Antwort."
       ],
-      "apply": "Achte heute in einem Gespräch nur darauf, langsamer zu sprechen und Pausen stehen zu lassen.",
-      "more": "Forschung zu Status und Dominanz zeigt, dass Menschen, die entspannt und raumgreifend wirken, als ranghöher wahrgenommen werden. Wichtig ist dabei Echtheit: Aufgesetzte Coolness wird schnell durchschaut. Echte Ruhe entsteht aus Kompetenz und dem Gefühl, nichts beweisen zu müssen.",
+      "act": "Achte heute in einem Gespräch nur darauf, langsamer zu sprechen und Pausen stehen zu lassen.",
+      "deep": "Forschung zu Status und Dominanz zeigt, dass Menschen, die entspannt und raumgreifend wirken, als ranghöher wahrgenommen werden. Wichtig ist dabei Echtheit: Aufgesetzte Coolness wird schnell durchschaut. Echte Ruhe entsteht aus Kompetenz und dem Gefühl, nichts beweisen zu müssen.",
       "source": "Cheng, Tracy et al.: Two ways to the top, Journal of Personality and Social Psychology (2013)"
     },
     "en": {
@@ -580,8 +618,8 @@
         "**Hold eye contact.** Look at people calmly while talking, without staring.",
         "**React less.** Not every provocation deserves an answer."
       ],
-      "apply": "In one conversation today, focus only on speaking more slowly and letting pauses stand.",
-      "more": "Research on status and dominance shows that people who appear relaxed and take up space are perceived as higher-ranking. Authenticity matters: put-on coolness is spotted quickly. Real calm comes from competence and from not needing to prove anything.",
+      "act": "In one conversation today, focus only on speaking more slowly and letting pauses stand.",
+      "deep": "Research on status and dominance shows that people who appear relaxed and take up space are perceived as higher-ranking. Authenticity matters: put-on coolness is spotted quickly. Real calm comes from competence and from not needing to prove anything.",
       "source": "Cheng, Tracy et al.: Two ways to the top, Journal of Personality and Social Psychology (2013)"
     }
   },
@@ -591,18 +629,19 @@
     "sub": "aura",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Zwei Wege zu Respekt",
       "body": "Forscher unterscheiden zwei Arten, wie Menschen in einer Gruppe nach oben kommen.\n\n**Dominanz:** durch Einschüchterung, Druck und Angst. Funktioniert kurzfristig, aber die Leute folgen nur, solange sie müssen.\n\n**Prestige:** durch Können, Wissen und Grosszügigkeit. Andere folgen freiwillig, weil sie von dir lernen wollen.\n\nBeide Wege führen zu Einfluss. Aber nur Prestige bringt echten Respekt, Loyalität und eine Aura, die auch dann wirkt, wenn du nicht im Raum bist.\n\nRespekt, den du dir mit Können verdienst, kann dir niemand nehmen.",
-      "apply": "Teile heute etwas, das du gut kannst, mit jemandem, ohne etwas dafür zu wollen.",
-      "more": "Joey Cheng und Jessica Tracy zeigten in Gruppenexperimenten, dass beide Strategien zu Einfluss führen. Dominante Personen wurden aber weniger gemocht. Prestige-Personen wurden als kompetent und angenehm erlebt, und ihr Rat wurde eher angenommen.",
+      "act": "Teile heute etwas, das du gut kannst, mit jemandem, ohne etwas dafür zu wollen.",
+      "deep": "Joey Cheng und Jessica Tracy zeigten in Gruppenexperimenten, dass beide Strategien zu Einfluss führen. Dominante Personen wurden aber weniger gemocht. Prestige-Personen wurden als kompetent und angenehm erlebt, und ihr Rat wurde eher angenommen.",
       "source": "Cheng, Tracy et al.: Journal of Personality and Social Psychology (2013)"
     },
     "en": {
       "title": "Two paths to respect",
       "body": "Researchers distinguish two ways people rise in a group.\n\n**Dominance:** through intimidation, pressure and fear. It works short term, but people only follow as long as they have to.\n\n**Prestige:** through skill, knowledge and generosity. Others follow freely because they want to learn from you.\n\nBoth paths lead to influence. But only prestige brings real respect, loyalty and a presence that works even when you're not in the room.\n\nRespect you earn through skill is respect no one can take from you.",
-      "apply": "Share something you're good at with someone today without wanting anything back.",
-      "more": "Joey Cheng and Jessica Tracy showed in group experiments that both strategies lead to influence. Dominant individuals, however, were liked less. Prestigious individuals were seen as competent and pleasant, and their advice was more readily taken.",
+      "act": "Share something you're good at with someone today without wanting anything back.",
+      "deep": "Joey Cheng and Jessica Tracy showed in group experiments that both strategies lead to influence. Dominant individuals, however, were liked less. Prestigious individuals were seen as competent and pleasant, and their advice was more readily taken.",
       "source": "Cheng, Tracy et al.: Journal of Personality and Social Psychology (2013)"
     }
   },
@@ -612,6 +651,7 @@
     "sub": "lernen",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Die Feynman-Technik",
       "body": "Ob du etwas wirklich verstanden hast, merkst du erst, wenn du es einfach erklären musst. Darauf baut diese Lernmethode auf, benannt nach dem Physiker Richard Feynman:",
@@ -621,8 +661,9 @@
         "Wo du stockst oder Fachwörter brauchst, hast du eine Lücke. Geh zurück zur Quelle.",
         "Vereinfache, bis die Erklärung glatt läuft, am besten mit einem Beispiel."
       ],
-      "apply": "Erkläre heute jemandem in drei Sätzen etwas, das du gerade lernst.",
-      "more": "Richard Feynman (1918 bis 1988) erhielt 1965 den Nobelpreis für Physik und war berühmt für seine verständlichen Vorlesungen. Die Methode in dieser Form hat er nicht selbst aufgeschrieben, sie wurde später aus seiner Art zu lernen abgeleitet. Die Forschung bestätigt das Prinzip: Selbsterklärung und Erklären für andere verbessern das Verständnis.",
+      "example": "Du hast gerade gelernt, wie der Zinseszins funktioniert. Erklär es deinem jüngeren Bruder: \"Du legst 100 hin und bekommst 7 dazu. Nächstes Jahr bekommst du auch auf diese 7 etwas.\" Stockst du bei der Frage, warum es immer schneller wächst, weisst du genau, wo du nachlesen musst.",
+      "act": "Erkläre heute jemandem in drei Sätzen etwas, das du gerade lernst.",
+      "deep": "Richard Feynman (1918 bis 1988) erhielt 1965 den Nobelpreis für Physik und war berühmt für seine verständlichen Vorlesungen. Die Methode in dieser Form hat er nicht selbst aufgeschrieben, sie wurde später aus seiner Art zu lernen abgeleitet. Die Forschung bestätigt das Prinzip: Selbsterklärung und Erklären für andere verbessern das Verständnis.",
       "source": "Dunlosky et al.: Improving Students' Learning, Psychological Science in the Public Interest (2013)"
     },
     "en": {
@@ -634,8 +675,9 @@
         "Wherever you get stuck or need jargon, you've found a gap. Go back to the source.",
         "Simplify until the explanation flows, ideally with an example."
       ],
-      "apply": "Explain something you're learning to someone today in three sentences.",
-      "more": "Richard Feynman (1918 to 1988) won the Nobel Prize in Physics in 1965 and was famous for his clear lectures. He didn't write the method down in this form himself; it was later derived from the way he learned. Research supports the principle: self-explanation and explaining to others improve understanding.",
+      "example": "You just learned how compound interest works. Explain it to your younger brother: \"You put in 100 and get 7 on top. Next year you also earn something on those 7.\" If you get stuck on why it grows faster and faster, you know exactly what to look up again.",
+      "act": "Explain something you're learning to someone today in three sentences.",
+      "deep": "Richard Feynman (1918 to 1988) won the Nobel Prize in Physics in 1965 and was famous for his clear lectures. He didn't write the method down in this form himself; it was later derived from the way he learned. Research supports the principle: self-explanation and explaining to others improve understanding.",
       "source": "Dunlosky et al.: Improving Students' Learning, Psychological Science in the Public Interest (2013)"
     }
   },
@@ -645,18 +687,19 @@
     "sub": "lernen",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Abfragen schlägt nochmals lesen",
       "body": "Die beliebteste Lernmethode ist, Texte nochmals zu lesen und zu markieren. Sie gehört zu den **schwächsten**.\n\nViel wirksamer: dich selbst **abfragen**. Buch zu, aufschreiben, was du noch weisst, dann vergleichen. Jedes Abrufen stärkt die Erinnerung, gerade weil es anstrengend ist. In einem bekannten Versuch erinnerten sich Studenten nach einer Woche deutlich besser an einen Text, wenn sie sich abgefragt hatten, statt ihn mehrmals zu lesen.",
-      "apply": "Schliess nach dieser Karte die Augen und sag die Kernaussage laut in einem Satz.",
-      "more": "Roediger und Karpicke (2006) liessen Studenten einen Text entweder viermal lesen oder einmal lesen und dreimal frei abrufen. Nach fünf Minuten lag die Lese-Gruppe vorne. Nach einer Woche erinnerte sich die Abruf-Gruppe an deutlich mehr. Eine grosse Übersicht von Dunlosky und Kollegen (2013) stuft Selbsttests als eine der wirksamsten Lerntechniken ein.",
+      "act": "Schliess nach dieser Karte die Augen und sag die Kernaussage laut in einem Satz.",
+      "deep": "Roediger und Karpicke (2006) liessen Studenten einen Text entweder viermal lesen oder einmal lesen und dreimal frei abrufen. Nach fünf Minuten lag die Lese-Gruppe vorne. Nach einer Woche erinnerte sich die Abruf-Gruppe an deutlich mehr. Eine grosse Übersicht von Dunlosky und Kollegen (2013) stuft Selbsttests als eine der wirksamsten Lerntechniken ein.",
       "source": "Roediger & Karpicke: Test-Enhanced Learning, Psychological Science (2006)"
     },
     "en": {
       "title": "Testing beats rereading",
       "body": "The most popular study method is rereading and highlighting. It is one of the **weakest**.\n\nFar more effective: **testing yourself**. Close the book, write down what you remember, then compare. Each retrieval strengthens memory, precisely because it's effortful. In a well-known experiment, students remembered a text much better after a week when they had tested themselves instead of rereading it several times.",
-      "apply": "After this card, close your eyes and say its key point out loud in one sentence.",
-      "more": "Roediger and Karpicke (2006) had students either read a text four times or read it once and freely recall it three times. After five minutes the rereading group was ahead. After one week the recall group remembered considerably more. A large review by Dunlosky and colleagues (2013) rates practice testing as one of the most effective learning techniques.",
+      "act": "After this card, close your eyes and say its key point out loud in one sentence.",
+      "deep": "Roediger and Karpicke (2006) had students either read a text four times or read it once and freely recall it three times. After five minutes the rereading group was ahead. After one week the recall group remembered considerably more. A large review by Dunlosky and colleagues (2013) rates practice testing as one of the most effective learning techniques.",
       "source": "Roediger & Karpicke: Test-Enhanced Learning, Psychological Science (2006)"
     }
   },
@@ -666,18 +709,19 @@
     "sub": "lernen",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Verteilen statt pauken",
       "body": "Eine Stunde Lernen am Stück bringt weniger als viermal 15 Minuten über mehrere Tage verteilt. Das ist einer der ältesten und sichersten Befunde der Gedächtnisforschung: der **Spacing-Effekt**.\n\nDer Grund: Wenn du kurz vor dem Vergessen wiederholst, muss dein Gehirn sich anstrengen und speichert das Wissen fester ab. Pauken am Vorabend fühlt sich produktiv an, ist aber nach einer Woche grösstenteils weg.",
-      "apply": "Wiederhole das, was du heute lernst, morgen, in drei Tagen und in einer Woche kurz.",
-      "more": "Hermann Ebbinghaus entdeckte 1885 in Selbstversuchen die \"Vergessenskurve\": Ohne Wiederholung vergessen wir einen grossen Teil neuer Informationen innerhalb von Tagen. Verteilte Wiederholungen flachen die Kurve ab. Auf diesem Prinzip beruhen Lernkarten-Apps wie Anki. Auch Smart-Tok wird gespeicherte Karten später nach diesem Muster wieder zeigen.",
+      "act": "Wiederhole, was du heute lernst, kurz morgen, in drei Tagen und in einer Woche. Trag dir die drei Termine jetzt gleich ein.",
+      "deep": "Hermann Ebbinghaus entdeckte 1885 in Selbstversuchen die \"Vergessenskurve\": Ohne Wiederholung vergessen wir einen grossen Teil neuer Informationen innerhalb von Tagen. Verteilte Wiederholungen flachen die Kurve ab. Auf diesem Prinzip beruhen Lernkarten-Apps wie Anki. Auch Smart-Tok wird gespeicherte Karten später nach diesem Muster wieder zeigen.",
       "source": "Hermann Ebbinghaus: Über das Gedächtnis (1885); Cepeda et al., Psychological Bulletin (2006)"
     },
     "en": {
       "title": "Space it out, don't cram",
       "body": "One hour of study in a row achieves less than four 15-minute sessions spread over several days. This is one of the oldest and most reliable findings in memory research: the **spacing effect**.\n\nThe reason: when you review just before forgetting, your brain has to work harder and stores the knowledge more firmly. Cramming the night before feels productive, but most of it is gone after a week.",
-      "apply": "Review what you learn today briefly tomorrow, in three days and in a week.",
-      "more": "In 1885 Hermann Ebbinghaus discovered the \"forgetting curve\" through experiments on himself: without review we forget much of new information within days. Spaced repetitions flatten the curve. Flashcard apps like Anki are built on this principle, and Smart-Tok will later bring saved cards back on this schedule too.",
+      "act": "Review what you learn today briefly tomorrow, in three days and in a week. Put the three reminders in your calendar right now.",
+      "deep": "In 1885 Hermann Ebbinghaus discovered the \"forgetting curve\" through experiments on himself: without review we forget much of new information within days. Spaced repetitions flatten the curve. Flashcard apps like Anki are built on this principle, and Smart-Tok will later bring saved cards back on this schedule too.",
       "source": "Hermann Ebbinghaus: Memory (1885); Cepeda et al., Psychological Bulletin (2006)"
     }
   },
@@ -687,18 +731,19 @@
     "sub": "lernen",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Growth Mindset, ehrlich betrachtet",
       "body": "Carol Dweck unterscheidet zwei Haltungen. Mit einem **statischen Selbstbild** glaubst du, Talent sei fest verteilt. Fehler beweisen dann, dass du nicht gut genug bist. Mit einem **dynamischen Selbstbild** glaubst du, dass Fähigkeiten durch Übung wachsen. Fehler sind dann Training.\n\nDie Idee ist stark, aber ehrlich gesagt: Kurze Schul-Programme, die das Mindset ändern sollen, wirken in grossen Studien nur **schwach**. Das Mindset allein macht dich nicht besser. Es hilft dir aber, dranzubleiben, bis die Übung wirkt.",
-      "apply": "Häng an deinen nächsten Gedanken \"Das kann ich nicht\" ein \"noch\" an.",
-      "more": "Dwecks Buch \"Mindset\" (2006) wurde ein Welterfolg. Eine Meta-Analyse von Sisk und Kollegen (2018) fand nur einen sehr kleinen Zusammenhang zwischen Mindset und Schulleistung. Eine grosse US-Studie (Yeager et al., 2019, Nature) zeigte aber, dass eine kurze Online-Intervention die Noten schwächerer Schüler leicht verbesserte. Fazit: echt, aber kleiner als oft behauptet.",
+      "act": "Achte auf den Satz \"Das kann ich nicht\" in deinem Kopf. Häng jedes Mal ein \"noch\" an und frag dich: Was wäre der nächste Übungsschritt?",
+      "deep": "Dwecks Buch \"Mindset\" (2006) wurde ein Welterfolg. Eine Meta-Analyse von Sisk und Kollegen (2018) fand nur einen sehr kleinen Zusammenhang zwischen Mindset und Schulleistung. Eine grosse US-Studie (Yeager et al., 2019, Nature) zeigte aber, dass eine kurze Online-Intervention die Noten schwächerer Schüler leicht verbesserte. Fazit: echt, aber kleiner als oft behauptet.",
       "source": "Sisk et al., Psychological Science (2018); Yeager et al., Nature (2019)"
     },
     "en": {
       "title": "Growth mindset, an honest look",
       "body": "Carol Dweck distinguishes two attitudes. With a **fixed mindset** you believe talent is handed out once and for all, so mistakes prove you're not good enough. With a **growth mindset** you believe abilities grow through practice, so mistakes are training.\n\nThe idea is powerful, but to be honest: short school programmes that try to change mindset show only **weak** effects in large studies. Mindset alone won't make you better. It does help you stick with it until practice pays off.",
-      "apply": "Add \"yet\" to your next thought of \"I can't do this\".",
-      "more": "Dweck's book \"Mindset\" (2006) became a global bestseller. A meta-analysis by Sisk and colleagues (2018) found only a very small link between mindset and academic achievement. A large US study (Yeager et al., 2019, Nature) did show that a short online intervention slightly improved grades among lower-achieving students. Bottom line: real, but smaller than often claimed.",
+      "act": "Watch for the thought \"I can't do this\". Add a \"yet\" every time and ask: what would the next practice step be?",
+      "deep": "Dweck's book \"Mindset\" (2006) became a global bestseller. A meta-analysis by Sisk and colleagues (2018) found only a very small link between mindset and academic achievement. A large US study (Yeager et al., 2019, Nature) did show that a short online intervention slightly improved grades among lower-achieving students. Bottom line: real, but smaller than often claimed.",
       "source": "Sisk et al., Psychological Science (2018); Yeager et al., Nature (2019)"
     }
   },
@@ -708,13 +753,16 @@
     "sub": "rueckschlaege",
     "style": "tipp",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Nach einem Rückschlag: 4 Schritte",
-      "body": "Absage, Niederlage, Fehler im Job. Wie du die nächsten Tage nutzt, entscheidet mehr als der Rückschlag selbst."
+      "body": "Absage, Niederlage, Fehler im Job. Wie du die nächsten Tage nutzt, entscheidet mehr als der Rückschlag selbst.",
+      "act": "Denk an deinen letzten Rückschlag: Welche eine Lektion steckt darin, und welcher eine Schritt folgt daraus?"
     },
     "en": {
       "title": "After a setback: 4 steps",
-      "body": "A rejection, a loss, a mistake at work. How you use the next few days matters more than the setback itself."
+      "body": "A rejection, a loss, a mistake at work. How you use the next few days matters more than the setback itself.",
+      "act": "Think of your last setback: what is the one lesson in it, and what is the one step that follows?"
     },
     "slides": [
       {
@@ -750,13 +798,11 @@
       {
         "de": {
           "title": "4. Schnell wieder in Bewegung",
-          "body": "Je länger du nach einem Rückschlag stillstehst, desto grösser wird er im Kopf. Mach innerhalb von 48 Stunden einen kleinen Schritt in die richtige Richtung. Bewegung ist das beste Mittel gegen Grübeln.",
-          "apply": "Denk an deinen letzten Rückschlag: Welche eine Lektion und welcher eine Schritt gehören dazu?"
+          "body": "Je länger du nach einem Rückschlag stillstehst, desto grösser wird er im Kopf. Mach innerhalb von 48 Stunden einen kleinen Schritt in die richtige Richtung. Bewegung ist das beste Mittel gegen Grübeln."
         },
         "en": {
           "title": "4. Get moving again fast",
-          "body": "The longer you stand still after a setback, the bigger it grows in your mind. Take one small step in the right direction within 48 hours. Movement is the best cure for brooding.",
-          "apply": "Think of your last setback: which one lesson and which one step belong to it?"
+          "body": "The longer you stand still after a setback, the bigger it grows in your mind. Take one small step in the right direction within 48 hours. Movement is the best cure for brooding."
         }
       }
     ]
@@ -767,18 +813,19 @@
     "sub": "rueckschlaege",
     "style": "geschichte",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "5'127 Prototypen",
       "body": "James Dyson wollte einen Staubsauger ohne Beutel bauen. Er baute einen Prototyp. Er funktionierte nicht. Er baute den nächsten. Über rund fünf Jahre wurden es **5'127 Prototypen**, bis einer gut genug war.\n\nKein Hersteller wollte die Erfindung. Also gründete er seine eigene Firma. Heute ist Dyson Milliardär.\n\nSein Blick auf Scheitern: Jeder Fehlversuch zeigt dir eine Sache, die nicht funktioniert. Das ist **Information**, keine Niederlage.",
-      "apply": "Betrachte deinen letzten Fehlschlag als Experiment: Was genau hast du damit herausgefunden?",
-      "more": "Dyson begann um 1979 mit der Entwicklung des Zyklon-Staubsaugers. Der erste Erfolg war der \"G-Force\", der ab 1986 in Japan verkauft wurde. 1993 brachte er mit dem DC01 sein erstes Gerät unter eigener Marke heraus. Er sagte später, er habe aus jedem der Fehlversuche etwas gelernt.",
+      "act": "Was genau hat dir dein letzter Fehlschlag gezeigt, das nicht funktioniert? Schreib es als Erkenntnis auf, nicht als Urteil über dich.",
+      "deep": "Dyson begann um 1979 mit der Entwicklung des Zyklon-Staubsaugers. Der erste Erfolg war der \"G-Force\", der ab 1986 in Japan verkauft wurde. 1993 brachte er mit dem DC01 sein erstes Gerät unter eigener Marke heraus. Er sagte später, er habe aus jedem der Fehlversuche etwas gelernt.",
       "source": "James Dyson: Against the Odds (Autobiografie, 1997); Dyson Unternehmensgeschichte"
     },
     "en": {
       "title": "5,127 prototypes",
       "body": "James Dyson wanted to build a vacuum cleaner without a bag. He built a prototype. It didn't work. He built the next one. Over about five years it added up to **5,127 prototypes** before one was good enough.\n\nNo manufacturer wanted the invention. So he founded his own company. Today Dyson is a billionaire.\n\nHis view of failure: every failed attempt shows you one thing that doesn't work. That's **information**, not defeat.",
-      "apply": "Look at your last failure as an experiment: what exactly did you find out from it?",
-      "more": "Dyson started developing the cyclone vacuum around 1979. His first success was the \"G-Force\", sold in Japan from 1986. In 1993 he launched the DC01, his first machine under his own brand. He later said he learned something from every one of the failed attempts.",
+      "act": "What exactly did your last failure show you that doesn't work? Write it down as a finding, not as a verdict on yourself.",
+      "deep": "Dyson started developing the cyclone vacuum around 1979. His first success was the \"G-Force\", sold in Japan from 1986. In 1993 he launched the DC01, his first machine under his own brand. He later said he learned something from every one of the failed attempts.",
       "source": "James Dyson: Against the Odds (autobiography, 1997); Dyson company history"
     }
   },
@@ -788,18 +835,19 @@
     "sub": "verantwortung",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Extreme Ownership",
       "body": "Bei einem Einsatz im Irak kam es zu einem Feuergefecht zwischen zwei eigenen Einheiten. Ein Soldat starb. Bei der Nachbesprechung suchten alle die Schuld bei anderen.\n\nDann stand der Kommandant Jocko Willink auf und sagte: **\"Es ist meine Schuld.\"** Als Führer war er für alles verantwortlich, was in seinem Bereich geschieht.\n\nStatt ihn abzusetzen, vertrauten ihm seine Vorgesetzten danach mehr. Wer Verantwortung übernimmt, statt Ausreden zu suchen, kann Probleme lösen. Wer Schuld verteilt, bleibt machtlos.",
-      "apply": "Übernimm heute bei einem Problem die volle Verantwortung für deinen Anteil. Ohne \"aber\", ohne Ausrede.",
-      "more": "Willink und Leif Babin beschreiben den Vorfall im ersten Kapitel von \"Extreme Ownership\" (2015). Der Kern: Es gibt keine schlechten Teams, nur schlechte Führung. Auch wer nicht Chef ist, kann Ownership leben: für seine Aufgaben, seine Fehler und seinen Einfluss auf andere.",
+      "act": "Übernimm heute bei einem Problem die volle Verantwortung für deinen Anteil. Ohne \"aber\", ohne Ausrede.",
+      "deep": "Willink und Leif Babin beschreiben den Vorfall im ersten Kapitel von \"Extreme Ownership\" (2015). Der Kern: Es gibt keine schlechten Teams, nur schlechte Führung. Auch wer nicht Chef ist, kann Ownership leben: für seine Aufgaben, seine Fehler und seinen Einfluss auf andere.",
       "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), Kapitel 1"
     },
     "en": {
       "title": "Extreme ownership",
       "body": "During an operation in Iraq, two friendly units ended up in a firefight with each other. A soldier died. In the debrief everyone looked for someone else to blame.\n\nThen commander Jocko Willink stood up and said: **\"It's my fault.\"** As the leader, he was responsible for everything in his area.\n\nInstead of removing him, his superiors trusted him more afterwards. Whoever takes ownership instead of making excuses can solve problems. Whoever hands out blame stays powerless.",
-      "apply": "With one problem today, take full ownership of your part. No \"but\", no excuse.",
-      "more": "Willink and Leif Babin describe the incident in the first chapter of \"Extreme Ownership\" (2015). The core message: there are no bad teams, only bad leaders. You don't have to be the boss to live ownership: for your tasks, your mistakes and your influence on others.",
+      "act": "With one problem today, take full ownership of your part. No \"but\", no excuse.",
+      "deep": "Willink and Leif Babin describe the incident in the first chapter of \"Extreme Ownership\" (2015). The core message: there are no bad teams, only bad leaders. You don't have to be the boss to live ownership: for your tasks, your mistakes and your influence on others.",
       "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), chapter 1"
     }
   },
@@ -809,18 +857,19 @@
     "sub": "verantwortung",
     "style": "tipp",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Ein Mann, ein Wort",
       "body": "Der alte Satz \"Ein Mann, ein Wort\" ist eine der einfachsten und stärksten Regeln für Charakter.\n\nWer pünktlich ist, Rückrufe macht, Geld zurückzahlt und Zusagen hält, wird schnell zu jemandem, auf den man zählt. Das ist seltener, als man denkt, und genau darum so wertvoll. Vertrauen baut sich langsam auf und bricht schnell.\n\nDie Kehrseite: **Sag weniger zu.** Ein ehrliches Nein ist besser als ein Ja, das du nicht halten kannst.",
-      "apply": "Geh deine offenen Zusagen durch: Halte eine noch heute oder sag sie ehrlich ab.",
-      "more": "Auch Jesus formuliert es in der Bergpredigt knapp: Euer Ja sei ein Ja, euer Nein ein Nein (Mt 5,37). In der Forschung zu Vertrauen gilt Verlässlichkeit, also das Einhalten von Zusagen über die Zeit, als eine der drei Grundlagen neben Kompetenz und Wohlwollen.",
+      "act": "Geh deine offenen Zusagen durch: Halte eine noch heute oder sag sie ehrlich ab.",
+      "deep": "Auch Jesus formuliert es in der Bergpredigt knapp: Euer Ja sei ein Ja, euer Nein ein Nein (Mt 5,37). In der Forschung zu Vertrauen gilt Verlässlichkeit, also das Einhalten von Zusagen über die Zeit, als eine der drei Grundlagen neben Kompetenz und Wohlwollen.",
       "source": "Mayer, Davis & Schoorman: An Integrative Model of Organizational Trust (1995); Mt 5,37"
     },
     "en": {
       "title": "A man of his word",
       "body": "The old idea of being \"a man of your word\" is one of the simplest and strongest rules of character.\n\nWhoever is on time, returns calls, pays back money and keeps promises quickly becomes someone people count on. That's rarer than you'd think, which is exactly why it's so valuable. Trust builds slowly and breaks fast.\n\nThe flip side: **promise less.** An honest no beats a yes you can't keep.",
-      "apply": "Go through your open commitments: deliver one today or cancel it honestly.",
-      "more": "Jesus puts it briefly in the Sermon on the Mount: let your yes mean yes and your no mean no (Mt 5:37). In research on trust, reliability, keeping commitments over time, counts as one of three foundations alongside competence and goodwill.",
+      "act": "Go through your open commitments: deliver one today or cancel it honestly.",
+      "deep": "Jesus puts it briefly in the Sermon on the Mount: let your yes mean yes and your no mean no (Mt 5:37). In research on trust, reliability, keeping commitments over time, counts as one of three foundations alongside competence and goodwill.",
       "source": "Mayer, Davis & Schoorman: An Integrative Model of Organizational Trust (1995); Mt 5:37"
     }
   },
@@ -830,28 +879,29 @@
     "sub": "stoizismus",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Memento mori",
-      "body": "\"Bedenke, dass du sterben wirst.\" Klingt düster, ist bei den Stoikern aber eine Übung für **mehr Leben**.\n\nWer sich bewusst macht, dass seine Zeit begrenzt ist, verschiebt weniger, streitet seltener über Kleinigkeiten und sagt Menschen eher, was sie ihm bedeuten. Marc Aurel ermahnte sich, jede Handlung so zu tun, als wäre sie die letzte seines Lebens.",
       "quote": {
         "text": "Du könntest jetzt gleich aus dem Leben scheiden. Danach richte jedes Tun, Reden und Denken.",
         "author": "Marc Aurel",
         "source": "Selbstbetrachtungen 2,11"
       },
-      "apply": "Schreib heute Abend eine Sache auf, die du bereuen würdest, wenn heute dein letzter Tag gewesen wäre, und erledige sie morgen.",
-      "more": "Der Ausdruck \"memento mori\" stammt aus späterer, christlicher Zeit, der Gedanke ist aber alt. Die Stoiker nutzten ihn nicht, um Angst zu machen, sondern um Prioritäten zu klären. Auch in der christlichen Tradition ist er verbreitet: Mönche grüssten sich angeblich mit diesem Satz.",
+      "body": "\"Bedenke, dass du sterben wirst.\" Klingt düster, ist bei den Stoikern aber eine Übung für **mehr Leben**.\n\nWer sich bewusst macht, dass seine Zeit begrenzt ist, verschiebt weniger, streitet seltener über Kleinigkeiten und sagt Menschen eher, was sie ihm bedeuten. Marc Aurel ermahnte sich, jede Handlung so zu tun, als wäre sie die letzte seines Lebens.",
+      "act": "Schreib heute Abend eine Sache auf, die du bereuen würdest, wenn heute dein letzter Tag gewesen wäre, und erledige sie morgen.",
+      "deep": "Der Ausdruck \"memento mori\" stammt aus späterer, christlicher Zeit, der Gedanke ist aber alt. Die Stoiker nutzten ihn nicht, um Angst zu machen, sondern um Prioritäten zu klären. Auch in der christlichen Tradition ist er verbreitet: Mönche grüssten sich angeblich mit diesem Satz.",
       "source": "Marc Aurel: Selbstbetrachtungen 2,11 (eigene Übersetzung)"
     },
     "en": {
       "title": "Memento mori",
-      "body": "\"Remember that you will die.\" It sounds grim, but for the Stoics it was an exercise in **living more**.\n\nWhoever stays aware that his time is limited postpones less, fights less over trivia and is quicker to tell people what they mean to him. Marcus Aurelius reminded himself to do every action as if it were the last of his life.",
       "quote": {
         "text": "You could leave life right now. Let that determine what you do and say and think.",
         "author": "Marcus Aurelius",
         "source": "Meditations 2.11"
       },
-      "apply": "Tonight, write down one thing you'd regret if today had been your last day, and do it tomorrow.",
-      "more": "The phrase \"memento mori\" comes from later, Christian times, but the idea is old. The Stoics didn't use it to create fear but to clarify priorities. It's common in Christian tradition too: monks are said to have greeted each other with it.",
+      "body": "\"Remember that you will die.\" It sounds grim, but for the Stoics it was an exercise in **living more**.\n\nWhoever stays aware that his time is limited postpones less, fights less over trivia and is quicker to tell people what they mean to him. Marcus Aurelius reminded himself to do every action as if it were the last of his life.",
+      "act": "Tonight, write down one thing you'd regret if today had been your last day, and do it tomorrow.",
+      "deep": "The phrase \"memento mori\" comes from later, Christian times, but the idea is old. The Stoics didn't use it to create fear but to clarify priorities. It's common in Christian tradition too: monks are said to have greeted each other with it.",
       "source": "Marcus Aurelius: Meditations 2.11 (own translation)"
     }
   },
@@ -861,18 +911,19 @@
     "sub": "verantwortung",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Du wirst nicht geboren, du wirst gebaut",
       "body": "Warum lieben so viele Männer Batman? Er hat keine Superkräfte. Superman wurde mit ihnen geboren, Thor ist ein Gott. Batman ist **nur ein Mann**.\n\nEr ist reich, aber dafür bewundert ihn niemand. Bewundert wird, was er sich selbst erarbeitet hat: **Mut, Disziplin, Wissen und mentale Härte**. Er hat seinen Schmerz in einen Auftrag verwandelt.\n\nGenau darin liegt die Botschaft: Du wirst nicht als der Mann geboren, der du sein willst. Du musst ihn bauen.",
-      "apply": "Schreib eine Eigenschaft auf, die der Mann haben soll, der du werden willst. Dann tu heute eine Sache, die genau diese Eigenschaft trainiert.",
-      "more": "Batman erschien zum ersten Mal 1939. Anders als die meisten Superhelden hat er keine übernatürlichen Fähigkeiten. Seine Stärke ist Training, Planung und ein Wille, der nicht bricht. Darum funktioniert er als Vorbild: Alles, was ihn ausmacht, ist im Prinzip für jeden erreichbar. Nicht in seiner Form, aber in seiner Haltung.",
+      "act": "Schreib eine Eigenschaft auf, die der Mann haben soll, der du werden willst. Dann tu heute eine Sache, die genau diese Eigenschaft trainiert.",
+      "deep": "Batman erschien zum ersten Mal 1939. Anders als die meisten Superhelden hat er keine übernatürlichen Fähigkeiten. Seine Stärke ist Training, Planung und ein Wille, der nicht bricht. Darum funktioniert er als Vorbild: Alles, was ihn ausmacht, ist im Prinzip für jeden erreichbar. Nicht in seiner Form, aber in seiner Haltung.",
       "source": "Batman: erstmals in Detective Comics #27 (1939)"
     },
     "en": {
       "title": "You aren't born, you're built",
       "body": "Why do so many men love Batman? He has no superpowers. Superman was born with them, Thor is a god. Batman is **just a man**.\n\nHe's wealthy, but that's not what anyone admires. What men admire is what he built himself: **courage, discipline, knowledge and mental toughness**. He turned his pain into purpose.\n\nThat's the message: you aren't born the man you want to become. You have to build him.",
-      "apply": "Write down one trait the man you want to become should have. Then do one thing today that trains exactly that trait.",
-      "more": "Batman first appeared in 1939. Unlike most superheroes, he has no supernatural abilities. His strength is training, planning and a will that does not break. That is why he works as a role model: everything that defines him is, in principle, within anyone's reach. Not in his form, but in his attitude.",
+      "act": "Write down one trait the man you want to become should have. Then do one thing today that trains exactly that trait.",
+      "deep": "Batman first appeared in 1939. Unlike most superheroes, he has no supernatural abilities. His strength is training, planning and a will that does not break. That is why he works as a role model: everything that defines him is, in principle, within anyone's reach. Not in his form, but in his attitude.",
       "source": "Batman: first appearance in Detective Comics #27 (1939)"
     }
   },
@@ -882,18 +933,19 @@
     "sub": "disziplin",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Selbstbeherrschung prägt dein ganzes Leben",
       "body": "Forscher in Neuseeland begleiteten rund **1'000 Kinder** von der Geburt bis zum Alter von 32 Jahren. Sie massen früh, wie gut sich die Kinder beherrschen konnten: warten, Impulse bremsen, dranbleiben.\n\nDas Ergebnis war deutlich: Wer als Kind mehr Selbstbeherrschung zeigte, war als Erwachsener **gesünder, hatte mehr Geld und geriet seltener mit dem Gesetz in Konflikt**. Und zwar auch dann, wenn man Intelligenz und Herkunft herausrechnete.\n\nDie gute Nachricht: Selbstbeherrschung ist kein Schicksal. Sie wächst mit jeder Entscheidung, bei der du das Richtige statt das Bequeme wählst.",
-      "apply": "Wähle heute einen Impuls, dem du sonst sofort nachgibst (Handy, Snack, Widerworte), und halte ihn einmal bewusst zurück.",
-      "more": "Die Dunedin-Studie gehört zu den gründlichsten Langzeitstudien der Welt. Auffällig war auch: Kinder, deren Selbstbeherrschung sich im Lauf der Jugend verbesserte, hatten als Erwachsene bessere Ergebnisse. Selbstbeherrschung lässt sich also verändern.",
+      "act": "Wähle heute einen Impuls, dem du sonst sofort nachgibst (Handy, Snack, Widerworte), und halte ihn einmal bewusst zurück.",
+      "deep": "Die Dunedin-Studie gehört zu den gründlichsten Langzeitstudien der Welt. Auffällig war auch: Kinder, deren Selbstbeherrschung sich im Lauf der Jugend verbesserte, hatten als Erwachsene bessere Ergebnisse. Selbstbeherrschung lässt sich also verändern.",
       "source": "Moffitt et al.: A gradient of childhood self-control predicts health, wealth, and public safety. PNAS, 2011"
     },
     "en": {
       "title": "Self-control shapes your whole life",
       "body": "Researchers in New Zealand followed about **1,000 children** from birth to age 32. Early on, they measured how well the children could control themselves: wait, curb impulses, keep going.\n\nThe result was clear: children with more self-control were, as adults, **healthier, wealthier and less often in trouble with the law**. That held even after accounting for intelligence and family background.\n\nThe good news: self-control isn't fate. It grows with every decision where you choose what's right over what's easy.",
-      "apply": "Pick one impulse today that you usually give in to straight away (phone, snack, talking back) and hold it back once, on purpose.",
-      "more": "The Dunedin study is one of the most thorough long-term studies in the world. Notably, children whose self-control improved during their teens had better outcomes as adults. Self-control can change.",
+      "act": "Pick one impulse today that you usually give in to straight away (phone, snack, talking back) and hold it back once, on purpose.",
+      "deep": "The Dunedin study is one of the most thorough long-term studies in the world. Notably, children whose self-control improved during their teens had better outcomes as adults. Self-control can change.",
       "source": "Moffitt et al.: A gradient of childhood self-control predicts health, wealth, and public safety. PNAS, 2011"
     }
   },
@@ -903,18 +955,19 @@
     "sub": "mentalitaet",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Wer durchhält, schlägt oft das Talent",
       "body": "Die Militärakademie West Point wählt ihre Kadetten mit einem aufwendigen Punktesystem aus: Noten, Fitness, Führungserfahrung. Trotzdem brechen manche schon im harten ersten Sommer ab.\n\nDie Psychologin Angela Duckworth fand: Wer durchhielt, liess sich mit einem einfachen Fragebogen zu **Ausdauer und Leidenschaft für langfristige Ziele** besser vorhersagen als mit dem offiziellen Auswahlwert. Sie nannte das **Grit**.\n\nEhrlich gesagt: Spätere grosse Auswertungen zeigen, dass Grit nicht alles erklärt. Aber eines bleibt: Wer weitermacht, wenn es hart wird, kommt weiter als viele, die mehr Talent hatten und aufgegeben haben.",
-      "apply": "Denk an ein Ziel, das du bei der ersten Schwierigkeit fallen gelassen hast. Nimm es heute wieder auf, mit einem kleinen Schritt.",
-      "more": "Duckworths Studien von 2007 umfassten auch Teilnehmer eines Buchstabier-Wettbewerbs und Studenten. Eine Meta-Analyse von Credé und Kollegen (2017) zeigte später, dass Grit stark mit Gewissenhaftigkeit zusammenhängt und Leistung nur mässig vorhersagt. Die Ausdauer-Komponente war dabei aussagekräftiger als die Leidenschaft.",
+      "act": "Denk an ein Ziel, das du bei der ersten Schwierigkeit fallen gelassen hast. Nimm es heute wieder auf, mit einem kleinen Schritt.",
+      "deep": "Duckworths Studien von 2007 umfassten auch Teilnehmer eines Buchstabier-Wettbewerbs und Studenten. Eine Meta-Analyse von Credé und Kollegen (2017) zeigte später, dass Grit stark mit Gewissenhaftigkeit zusammenhängt und Leistung nur mässig vorhersagt. Die Ausdauer-Komponente war dabei aussagekräftiger als die Leidenschaft.",
       "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017"
     },
     "en": {
       "title": "Persistence often beats talent",
       "body": "West Point selects its cadets with an elaborate scoring system: grades, fitness, leadership experience. Even so, some drop out in the gruelling first summer.\n\nPsychologist Angela Duckworth found that a short questionnaire on **perseverance and passion for long-term goals** predicted who stayed better than the official admission score. She called it **grit**.\n\nTo be honest: later large reviews show grit doesn't explain everything. But one thing stands: whoever keeps going when it gets hard gets further than many who had more talent and quit.",
-      "apply": "Think of a goal you dropped at the first obstacle. Pick it up again today with one small step.",
-      "more": "Duckworth's 2007 studies also included spelling bee contestants and students. A later meta-analysis by Credé and colleagues (2017) found that grit overlaps strongly with conscientiousness and predicts performance only moderately. The perseverance part was more telling than the passion part.",
+      "act": "Think of a goal you dropped at the first obstacle. Pick it up again today with one small step.",
+      "deep": "Duckworth's 2007 studies also included spelling bee contestants and students. A later meta-analysis by Credé and colleagues (2017) found that grit overlaps strongly with conscientiousness and predicts performance only moderately. The perseverance part was more telling than the passion part.",
       "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017"
     }
   },
@@ -924,18 +977,19 @@
     "sub": "rueckschlaege",
     "style": "erklaerung",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Mach aus Schmerz einen Auftrag",
       "body": "Verlust, Trennung, Krankheit, Scheitern: Schmerz trifft jeden Mann irgendwann. Die Frage ist nicht, ob er kommt, sondern **was du daraus machst**.\n\nPsychologen nennen es **posttraumatisches Wachstum**: Viele Menschen berichten nach schweren Krisen, dass sie stärker geworden sind, klarer wissen, was zählt, und tiefere Beziehungen haben. Das Leid war nicht gut. Aber sie haben es genutzt.\n\nDie Frage \"Warum ich?\" hält dich fest. Die Frage \"Wofür kann ich das einsetzen?\" bringt dich vorwärts.",
-      "apply": "Denk an einen Schmerz aus deiner Vergangenheit. Schreib einen Satz auf: Was kann ich wegen dieser Erfahrung heute besser als vorher?",
-      "more": "Der Begriff stammt von den Psychologen Richard Tedeschi und Lawrence Calhoun (1996). Wachstum heisst nicht, dass Schmerz verschwindet oder dass man ihn suchen sollte. Wer mit einer schweren Belastung kämpft, sollte sich Hilfe holen. Das ist keine Schwäche, sondern Verantwortung.",
+      "act": "Was kann ich wegen eines Schmerzes aus meiner Vergangenheit heute besser als vorher? Schreib die Antwort in einem Satz auf.",
+      "deep": "Der Begriff stammt von den Psychologen Richard Tedeschi und Lawrence Calhoun (1996). Wachstum heisst nicht, dass Schmerz verschwindet oder dass man ihn suchen sollte. Wer mit einer schweren Belastung kämpft, sollte sich Hilfe holen. Das ist keine Schwäche, sondern Verantwortung.",
       "source": "Tedeschi & Calhoun: The Posttraumatic Growth Inventory. Journal of Traumatic Stress, 1996"
     },
     "en": {
       "title": "Turn pain into purpose",
       "body": "Loss, breakup, illness, failure: pain hits every man at some point. The question isn't whether it comes, but **what you make of it**.\n\nPsychologists call it **post-traumatic growth**: after severe crises, many people report that they became stronger, see more clearly what matters and have deeper relationships. The suffering wasn't good. But they used it.\n\nThe question \"Why me?\" keeps you stuck. The question \"What can I use this for?\" moves you forward.",
-      "apply": "Think of a past pain. Write one sentence: what can I do better today because of that experience?",
-      "more": "The term comes from psychologists Richard Tedeschi and Lawrence Calhoun (1996). Growth doesn't mean the pain disappears or that you should seek it out. If you're struggling with something heavy, get help. That isn't weakness, it's responsibility.",
+      "act": "What can I do better today because of a past pain? Write the answer down in one sentence.",
+      "deep": "The term comes from psychologists Richard Tedeschi and Lawrence Calhoun (1996). Growth doesn't mean the pain disappears or that you should seek it out. If you're struggling with something heavy, get help. That isn't weakness, it's responsibility.",
       "source": "Tedeschi & Calhoun: The Posttraumatic Growth Inventory. Journal of Traumatic Stress, 1996"
     }
   },
@@ -945,18 +999,19 @@
     "sub": "verantwortung",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Wofür stehst du morgens auf?",
       "body": "Ein Mann ohne Ziel treibt. Ein Mann mit einem Auftrag hält Druck, Rückschläge und Müdigkeit aus.\n\nDas ist nicht nur ein Gefühl. In einer US-Studie mit über **6'000 Erwachsenen** hatten Menschen mit einem stärkeren Sinn im Leben über 14 Jahre ein **geringeres Sterberisiko**, unabhängig vom Alter.\n\nSinn muss nicht gross klingen. Deine Familie versorgen, in deinem Handwerk der Beste werden, für andere da sein: Wichtig ist, dass du ihn kennst und jeden Tag dafür arbeitest.",
-      "apply": "Schreib in einem Satz auf, wofür du lebst. Häng ihn dorthin, wo du ihn jeden Morgen siehst.",
-      "more": "Die Studie von Patrick Hill und Nicholas Turiano (2014) nutzte Daten der amerikanischen MIDUS-Studie. Der Zusammenhang blieb auch bestehen, wenn man andere Faktoren wie Stimmung und Gesundheit berücksichtigte. Ein Zusammenhang ist noch kein Beweis für eine Ursache, aber er passt zu vielen ähnlichen Befunden.",
+      "act": "Schreib in einem Satz auf, wofür du lebst. Häng ihn dorthin, wo du ihn jeden Morgen siehst.",
+      "deep": "Die Studie von Patrick Hill und Nicholas Turiano (2014) nutzte Daten der amerikanischen MIDUS-Studie. Der Zusammenhang blieb auch bestehen, wenn man andere Faktoren wie Stimmung und Gesundheit berücksichtigte. Ein Zusammenhang ist noch kein Beweis für eine Ursache, aber er passt zu vielen ähnlichen Befunden.",
       "source": "Hill & Turiano: Purpose in life as a predictor of mortality across adulthood. Psychological Science, 2014"
     },
     "en": {
       "title": "What gets you out of bed?",
       "body": "A man without a goal drifts. A man with a mission can handle pressure, setbacks and fatigue.\n\nThat's not just a feeling. In a US study of more than **6,000 adults**, people with a stronger sense of purpose had a **lower risk of dying** over 14 years, regardless of age.\n\nPurpose doesn't have to sound grand. Providing for your family, becoming the best at your craft, being there for others: what matters is that you know it and work for it every day.",
-      "apply": "Write down in one sentence what you live for. Put it where you'll see it every morning.",
-      "more": "The study by Patrick Hill and Nicholas Turiano (2014) used data from the US MIDUS study. The link held even when other factors such as mood and health were taken into account. A link is not proof of cause, but it fits many similar findings.",
+      "act": "Write down in one sentence what you live for. Put it where you'll see it every morning.",
+      "deep": "The study by Patrick Hill and Nicholas Turiano (2014) used data from the US MIDUS study. The link held even when other factors such as mood and health were taken into account. A link is not proof of cause, but it fits many similar findings.",
       "source": "Hill & Turiano: Purpose in life as a predictor of mortality across adulthood. Psychological Science, 2014"
     }
   },
@@ -966,18 +1021,19 @@
     "sub": "aura",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Wer nichts beweisen muss, hat Aura",
       "body": "Der laute Typ, der jedem erklärt, wie gut er ist, wirkt selten stark. Er wirkt, als hätte er etwas zu beweisen.\n\nForscher untersuchten Teams in Unternehmen. Anführer, die **Demut** zeigten, also eigene Grenzen zugaben, die Stärken anderer anerkannten und offen fürs Lernen waren, hatten Teams mit **mehr Engagement** und weniger Kündigungen.\n\nDemut ist nicht Schwäche. Sie ist das Zeichen eines Mannes, der so sicher ist, dass er nichts vorspielen muss.",
-      "apply": "Lobe heute vor anderen jemanden, der etwas besser kann als du. Ohne Einschränkung, ohne \"aber\".",
-      "more": "Bradley Owens und David Hekman beschreiben drei Kennzeichen demütiger Führung: Fehler zugeben, die Stärken anderer hervorheben und Lernbereitschaft vorleben. Demut wirkt besonders, wenn sie mit Kompetenz zusammenkommt.",
+      "act": "Lobe heute vor anderen jemanden, der etwas besser kann als du. Ohne Einschränkung, ohne \"aber\".",
+      "deep": "Bradley Owens und David Hekman beschreiben drei Kennzeichen demütiger Führung: Fehler zugeben, die Stärken anderer hervorheben und Lernbereitschaft vorleben. Demut wirkt besonders, wenn sie mit Kompetenz zusammenkommt.",
       "source": "Owens, Johnson & Mitchell: Expressed humility in organizations. Organization Science, 2013"
     },
     "en": {
       "title": "Not needing to prove anything is presence",
       "body": "The loud guy who tells everyone how good he is rarely seems strong. He seems like he has something to prove.\n\nResearchers studied teams in companies. Leaders who showed **humility**, admitting their limits, recognising others' strengths and staying open to learning, had teams with **more engagement** and fewer people quitting.\n\nHumility isn't weakness. It's the sign of a man so secure he has nothing to fake.",
-      "apply": "Praise someone today in front of others for something they do better than you. No qualifier, no \"but\".",
-      "more": "Bradley Owens and David Hekman describe three marks of humble leadership: admitting mistakes, spotlighting others' strengths and modelling teachability. Humility works best when it comes with competence.",
+      "act": "Praise someone today in front of others for something they do better than you. No qualifier, no \"but\".",
+      "deep": "Bradley Owens and David Hekman describe three marks of humble leadership: admitting mistakes, spotlighting others' strengths and modelling teachability. Humility works best when it comes with competence.",
       "source": "Owens, Johnson & Mitchell: Expressed humility in organizations. Organization Science, 2013"
     }
   },
@@ -987,18 +1043,19 @@
     "sub": "aura",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Kleide dich wie der Mann, der du sein willst",
       "body": "Kleidung verändert nicht nur, wie andere dich sehen. Sie verändert, wie du **auftrittst**.\n\nIn einem Experiment verhandelten Männer über den Verkauf einer Fabrik, einmal im **Anzug**, einmal in **Trainerhose und Plastiklatschen**. Die Männer im Anzug erzielten deutlich bessere Ergebnisse. Ihre Gegenüber gaben eher nach.\n\nEs geht nicht um teure Marken. Es geht darum, gepflegt und passend gekleidet zu sein. Wer sich ernst nimmt, wird ernst genommen.",
-      "apply": "Zieh dich morgen eine Stufe besser an, als es nötig wäre, und achte darauf, wie du dich bewegst und sprichst.",
-      "more": "Michael Kraus und Wendy Berry Mendes veröffentlichten die Studie 2014. Andere Forschung zeigt, dass formelle Kleidung auch abstraktes, strategisches Denken fördern kann. Die Effekte sind nicht riesig, aber im Alltag spürbar.",
+      "act": "Zieh dich morgen eine Stufe besser an, als es nötig wäre, und achte darauf, wie du dich bewegst und sprichst.",
+      "deep": "Michael Kraus und Wendy Berry Mendes veröffentlichten die Studie 2014. Andere Forschung zeigt, dass formelle Kleidung auch abstraktes, strategisches Denken fördern kann. Die Effekte sind nicht riesig, aber im Alltag spürbar.",
       "source": "Kraus & Mendes: Sartorial symbols of social class elicit class-consistent behavioral and physiological responses. Journal of Experimental Psychology: General, 2014"
     },
     "en": {
       "title": "Dress like the man you want to be",
       "body": "Clothes don't just change how others see you. They change how you **carry yourself**.\n\nIn an experiment, men negotiated the sale of a factory, once in a **suit**, once in **sweatpants and plastic sandals**. The men in suits got clearly better deals. Their counterparts were more likely to give in.\n\nIt's not about expensive brands. It's about being well-groomed and dressed for the occasion. Take yourself seriously and others will too.",
-      "apply": "Dress one level better than necessary tomorrow and notice how you move and speak.",
-      "more": "Michael Kraus and Wendy Berry Mendes published the study in 2014. Other research shows formal clothing can also encourage more abstract, strategic thinking. The effects aren't huge, but noticeable in daily life.",
+      "act": "Dress one level better than necessary tomorrow and notice how you move and speak.",
+      "deep": "Michael Kraus and Wendy Berry Mendes published the study in 2014. Other research shows formal clothing can also encourage more abstract, strategic thinking. The effects aren't huge, but noticeable in daily life.",
       "source": "Kraus & Mendes: Sartorial symbols of social class elicit class-consistent behavioral and physiological responses. Journal of Experimental Psychology: General, 2014"
     }
   },
@@ -1008,18 +1065,19 @@
     "sub": "aura",
     "style": "tipp",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Schau hin, wenn du sprichst",
       "body": "Die meisten Menschen schauen beim **Zuhören** mehr in die Augen als beim **Sprechen**. Beim Reden wandert der Blick weg, zur Seite, nach unten.\n\nForscher fanden: Menschen mit Macht und Status machen es anders. Sie halten den Blick beim Sprechen etwa genauso lang wie beim Zuhören. Beobachter schätzen sie dadurch als dominanter und sicherer ein.\n\nDas heisst nicht starren. Es heisst: Wenn du etwas sagst, das dir wichtig ist, steh mit deinem Blick dahinter.",
-      "apply": "Halte heute bei einem wichtigen Satz den Blickkontakt, bis der Satz zu Ende ist. Erst dann schau weg.",
-      "more": "John Dovidio und Steve Ellyson nannten das Verhältnis von Blick beim Sprechen zu Blick beim Zuhören die \"visuelle Dominanzrate\". Sie ist in vielen Studien ein verlässlicher Hinweis auf Status. Freundliche Mimik verhindert, dass der Blick bedrohlich wirkt.",
+      "act": "Achte heute bei einem wichtigen Satz darauf, wohin dein Blick geht. Halte den Blickkontakt, bis der Satz zu Ende ist. Erst dann schau weg.",
+      "deep": "John Dovidio und Steve Ellyson nannten das Verhältnis von Blick beim Sprechen zu Blick beim Zuhören die \"visuelle Dominanzrate\". Sie ist in vielen Studien ein verlässlicher Hinweis auf Status. Freundliche Mimik verhindert, dass der Blick bedrohlich wirkt.",
       "source": "Dovidio & Ellyson: Decoding visual dominance. Social Psychology Quarterly, 1982"
     },
     "en": {
       "title": "Look at them when you speak",
       "body": "Most people make more eye contact while **listening** than while **speaking**. When they talk, their eyes drift away, to the side, down.\n\nResearchers found that people with power and status do it differently. They hold eye contact about as long when speaking as when listening. Observers rate them as more dominant and confident.\n\nThat doesn't mean staring. It means: when you say something that matters to you, back it with your eyes.",
-      "apply": "When you say something important today, hold eye contact until the sentence is finished. Only then look away.",
-      "more": "John Dovidio and Steve Ellyson called the ratio of looking while speaking to looking while listening the \"visual dominance ratio\". In many studies it's a reliable cue to status. A friendly expression keeps the gaze from seeming threatening.",
+      "act": "Today, notice where your eyes go during an important sentence. Hold eye contact until the sentence is finished. Only then look away.",
+      "deep": "John Dovidio and Steve Ellyson called the ratio of looking while speaking to looking while listening the \"visual dominance ratio\". In many studies it's a reliable cue to status. A friendly expression keeps the gaze from seeming threatening.",
       "source": "Dovidio & Ellyson: Decoding visual dominance. Social Psychology Quarterly, 1982"
     }
   },
@@ -1029,18 +1087,19 @@
     "sub": "mentalitaet",
     "style": "geschichte",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Das Stockdale-Paradox: Glaub an den Sieg, sieh die Wahrheit",
       "body": "Admiral **James Stockdale** war über **sieben Jahre** in einem vietnamesischen Kriegsgefangenenlager, wurde gefoltert und hatte keine Ahnung, ob er je freikommen würde.\n\nGefragt, wer nicht überlebte, sagte er: **die Optimisten**. Sie sagten: \"Bis Weihnachten sind wir draussen.\" Weihnachten kam und ging. Dann Ostern. Sie starben an gebrochenem Herzen.\n\nStockdale überlebte mit einer doppelten Haltung: dem festen Glauben, dass er am Ende siegen würde, **und** der Disziplin, den brutalen Tatsachen der Gegenwart ins Auge zu sehen.",
-      "apply": "Schreib zu deiner grössten Herausforderung zwei Sätze: Woran glaubst du fest? Und was ist die harte Wahrheit, der du dich heute stellen musst?",
-      "more": "Der Autor Jim Collins sprach mit Stockdale für sein Buch \"Der Weg zu den Besten\" und machte die Haltung als \"Stockdale-Paradox\" bekannt. Stockdale hatte sich im Lager an der stoischen Philosophie von Epiktet festgehalten.",
+      "act": "Schreib zu deiner grössten Herausforderung zwei Sätze: Woran glaubst du fest? Und was ist die harte Wahrheit, der du dich heute stellen musst?",
+      "deep": "Der Autor Jim Collins sprach mit Stockdale für sein Buch \"Der Weg zu den Besten\" und machte die Haltung als \"Stockdale-Paradox\" bekannt. Stockdale hatte sich im Lager an der stoischen Philosophie von Epiktet festgehalten.",
       "source": "Jim Collins: Der Weg zu den Besten (Good to Great, 2001)"
     },
     "en": {
       "title": "The Stockdale Paradox: believe you'll win, face the truth",
       "body": "Admiral **James Stockdale** spent more than **seven years** in a Vietnamese prisoner-of-war camp, was tortured and had no idea whether he'd ever get out.\n\nAsked who didn't make it, he said: **the optimists**. They said: \"We'll be out by Christmas.\" Christmas came and went. Then Easter. They died of a broken heart.\n\nStockdale survived with a double stance: unwavering faith that he would prevail in the end, **and** the discipline to confront the brutal facts of his current reality.",
-      "apply": "Write two sentences about your biggest challenge: what do you firmly believe? And what hard truth do you need to face today?",
-      "more": "Author Jim Collins spoke with Stockdale for his book \"Good to Great\" and made the stance famous as the \"Stockdale Paradox\". In the camp, Stockdale had held on to the Stoic philosophy of Epictetus.",
+      "act": "Write two sentences about your biggest challenge: what do you firmly believe? And what hard truth do you need to face today?",
+      "deep": "Author Jim Collins spoke with Stockdale for his book \"Good to Great\" and made the stance famous as the \"Stockdale Paradox\". In the camp, Stockdale had held on to the Stoic philosophy of Epictetus.",
       "source": "Jim Collins: Good to Great (2001)"
     }
   },
@@ -1050,18 +1109,19 @@
     "sub": "mentalitaet",
     "style": "erklaerung",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Wenn du nicht mehr kannst, hast du noch Reserven",
       "body": "Der frühere Navy SEAL David Goggins spricht von einer **40-Prozent-Regel**: Wenn dein Kopf sagt \"Ich kann nicht mehr\", hast du erst etwa 40 % deiner Kraft verbraucht. Die Zahl ist kein Messwert, sondern ein Bild. Aber die Wissenschaft stützt den Kern.\n\nDer Sportphysiologe Tim Noakes beschreibt das Gehirn als **Schutzschalter**: Es meldet Erschöpfung, lange bevor die Muskeln wirklich am Ende sind. Darum können Läufer am Ende eines Rennens plötzlich wieder sprinten, wenn sie die Ziellinie sehen.\n\nDas Gefühl \"Ich kann nicht\" ist ein Vorschlag, kein Befehl.",
-      "apply": "Wenn du heute im Training aufhören willst: Mach noch eine Wiederholung, noch eine Minute, sauber und sicher.",
-      "more": "Noakes nennt das Modell \"zentraler Regulator\". Es ist unter Forschern umstritten, aber gut belegt ist, dass Motivation, Belohnung und sogar Mundspülungen mit Zuckerwasser die Leistung kurzfristig erhöhen können. Echte Warnsignale wie Schmerzen in Brust oder Gelenken solltest du nie ignorieren.",
+      "act": "Wenn du heute im Training aufhören willst: Mach noch eine Wiederholung, noch eine Minute, sauber und sicher.",
+      "deep": "Noakes nennt das Modell \"zentraler Regulator\". Es ist unter Forschern umstritten, aber gut belegt ist, dass Motivation, Belohnung und sogar Mundspülungen mit Zuckerwasser die Leistung kurzfristig erhöhen können. Echte Warnsignale wie Schmerzen in Brust oder Gelenken solltest du nie ignorieren.",
       "source": "Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can't Hurt Me (2018)"
     },
     "en": {
       "title": "When you think you're done, you have reserves",
       "body": "Former Navy SEAL David Goggins talks about a **40 percent rule**: when your mind says \"I can't go on\", you've only used about 40% of your capacity. The number isn't a measurement, it's an image. But science backs the core.\n\nExercise physiologist Tim Noakes describes the brain as a **safety switch**: it signals exhaustion long before the muscles are really finished. That's why runners can suddenly sprint at the end of a race when they see the finish line.\n\nThe feeling \"I can't\" is a suggestion, not a command.",
-      "apply": "When you want to stop training today, do one more rep, one more minute, clean and safe.",
-      "more": "Noakes calls the model the \"central governor\". It's debated among researchers, but it's well established that motivation, reward and even rinsing the mouth with a sugar drink can briefly raise performance. Never ignore real warning signs like chest or joint pain.",
+      "act": "When you want to stop training today, do one more rep, one more minute, clean and safe.",
+      "deep": "Noakes calls the model the \"central governor\". It's debated among researchers, but it's well established that motivation, reward and even rinsing the mouth with a sugar drink can briefly raise performance. Never ignore real warning signs like chest or joint pain.",
       "source": "Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can't Hurt Me (2018)"
     }
   },
@@ -1071,18 +1131,19 @@
     "sub": "rueckschlaege",
     "style": "geschichte",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Michael Jordan kam nicht ins Team",
       "body": "Mit 15 Jahren wollte **Michael Jordan** ins Basketball-Team seiner Highschool. Er schaffte es nicht in die erste Mannschaft. Der Trainer setzte einen grösseren Mitschüler ein, Jordan musste ins Juniorenteam.\n\nEr ging nach Hause, schloss sich in seinem Zimmer ein und weinte. Dann trainierte er, wie er noch nie trainiert hatte. Ein Jahr später war er in der ersten Mannschaft.\n\nJahre später sagte er in einer Werbung: \"Ich habe über **9'000 Würfe** verfehlt. Ich habe fast 300 Spiele verloren. Ich bin immer und immer wieder gescheitert. Und darum habe ich Erfolg.\"",
-      "apply": "Denk an eine Absage, die dich getroffen hat. Was ist der nächste Trainingsschritt, damit du beim nächsten Mal dabei bist?",
-      "more": "Die Geschichte wird oft übertrieben erzählt, als sei Jordan ganz aus dem Team geflogen. Tatsächlich kam er ins zweite Team. Doch er selbst sagte, die Enttäuschung habe ihn angetrieben. Er gewann später sechs NBA-Meisterschaften.",
+      "act": "Welche Absage hat dich zuletzt getroffen? Und was ist der nächste Trainingsschritt, damit du beim nächsten Mal dabei bist?",
+      "deep": "Die Geschichte wird oft übertrieben erzählt, als sei Jordan ganz aus dem Team geflogen. Tatsächlich kam er ins zweite Team. Doch er selbst sagte, die Enttäuschung habe ihn angetrieben. Er gewann später sechs NBA-Meisterschaften.",
       "source": "Nike-Werbespot \"Failure\" (1997); Roland Lazenby: Michael Jordan: The Life (2014)"
     },
     "en": {
       "title": "Michael Jordan didn't make the team",
       "body": "At 15, **Michael Jordan** tried out for his high school basketball team. He didn't make varsity. The coach picked a taller classmate, and Jordan had to play junior varsity.\n\nHe went home, locked himself in his room and cried. Then he trained like he never had before. A year later he was on varsity.\n\nYears later he said in an ad: \"I've missed more than **9,000 shots** in my career. I've lost almost 300 games. I've failed over and over and over again in my life. And that is why I succeed.\"",
-      "apply": "Think of a rejection that hit you. What's the next training step so you make it next time?",
-      "more": "The story is often exaggerated, as if Jordan was cut entirely. In fact he made the second team. But he himself said the disappointment drove him. He went on to win six NBA championships.",
+      "act": "Which rejection hit you last? And what is the next training step so you make it next time?",
+      "deep": "The story is often exaggerated, as if Jordan was cut entirely. In fact he made the second team. But he himself said the disappointment drove him. He went on to win six NBA championships.",
       "source": "Nike ad \"Failure\" (1997); Roland Lazenby: Michael Jordan: The Life (2014)"
     }
   },
@@ -1092,18 +1153,19 @@
     "sub": "rueckschlaege",
     "style": "geschichte",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Zwölf Verlage lehnten Harry Potter ab",
       "body": "Anfang der 1990er-Jahre war **J. K. Rowling** alleinerziehend, arbeitslos und lebte von Sozialhilfe. Nebenbei schrieb sie an einem Buch über einen jungen Zauberer.\n\n**Zwölf Verlage** lehnten das Manuskript ab. Der dreizehnte, Bloomsbury, nahm es 1997 an, mit einer kleinen Erstauflage. Heute sind die Bücher über **500 Millionen** Mal verkauft.\n\nIn einer Rede in Harvard sagte sie später: Der Tiefpunkt sei das **feste Fundament** geworden, auf dem sie ihr Leben neu aufbaute.",
-      "apply": "Wenn du gerade eine Absage bekommen hast: Schick dein Projekt heute an die nächste Adresse.",
-      "more": "Rowling sagte in ihrer Rede 2008, das Scheitern habe ihr alles Unwesentliche genommen. Sie habe aufgehört, so zu tun, als sei sie etwas anderes, und ihre ganze Energie in das gesteckt, was ihr wirklich wichtig war.",
+      "act": "Wenn du gerade eine Absage bekommen hast: Schick dein Projekt heute an die nächste Adresse.",
+      "deep": "Rowling sagte in ihrer Rede 2008, das Scheitern habe ihr alles Unwesentliche genommen. Sie habe aufgehört, so zu tun, als sei sie etwas anderes, und ihre ganze Energie in das gesteckt, was ihr wirklich wichtig war.",
       "source": "J. K. Rowling: The Fringe Benefits of Failure. Rede an der Harvard University, 2008"
     },
     "en": {
       "title": "Twelve publishers rejected Harry Potter",
       "body": "In the early 1990s, **J. K. Rowling** was a single mother, unemployed and living on welfare. On the side, she was writing a book about a young wizard.\n\n**Twelve publishers** turned down the manuscript. The thirteenth, Bloomsbury, accepted it in 1997, with a small first print run. Today the books have sold more than **500 million** copies.\n\nIn a speech at Harvard she later said rock bottom became the **solid foundation** on which she rebuilt her life.",
-      "apply": "If you've just been rejected, send your project to the next address today.",
-      "more": "In her 2008 speech, Rowling said failure stripped away everything inessential. She stopped pretending to be anything other than what she was and put all her energy into what really mattered to her.",
+      "act": "If you've just been rejected, send your project to the next address today.",
+      "deep": "In her 2008 speech, Rowling said failure stripped away everything inessential. She stopped pretending to be anything other than what she was and put all her energy into what really mattered to her.",
       "source": "J. K. Rowling: The Fringe Benefits of Failure. Harvard commencement speech, 2008"
     }
   },
@@ -1113,18 +1175,19 @@
     "sub": "selbstvertrauen",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Vergleich dich mit gestern, nicht mit anderen",
       "body": "Du scrollst durch Social Media und siehst nur die besten Momente anderer: den Body, das Auto, den Urlaub. Danach fühlst du dich kleiner.\n\nDas ist kein Zufall. In Studien senkten Vergleiche mit Menschen, die auf Social Media besser dastanden, das **Selbstwertgefühl** der Teilnehmer messbar.\n\nDer einzige faire Vergleich ist der mit dir selbst. Bist du heute stärker, klüger, disziplinierter als vor einem Jahr? Das ist die Frage, die zählt.",
-      "apply": "Schreib drei Dinge auf, in denen du heute besser bist als vor einem Jahr.",
-      "more": "Erin Vogel und Kollegen untersuchten 2014 die Nutzung von Facebook. Wer häufiger nach oben verglich, hatte ein tieferes Selbstwertgefühl. Andere Profile zeigen eine geschönte Auswahl, kein echtes Leben.",
+      "act": "Schreib heute drei Dinge auf, in denen du besser bist als vor einem Jahr. Wiederhole das jeden Monat und schau, wie die Liste wächst.",
+      "deep": "Erin Vogel und Kollegen untersuchten 2014 die Nutzung von Facebook. Wer häufiger nach oben verglich, hatte ein tieferes Selbstwertgefühl. Andere Profile zeigen eine geschönte Auswahl, kein echtes Leben.",
       "source": "Vogel, Rose, Roberts & Eckles: Social comparison, social media, and self-esteem. Psychology of Popular Media Culture, 2014"
     },
     "en": {
       "title": "Compare yourself to yesterday, not to others",
       "body": "You scroll through social media and see only other people's best moments: the body, the car, the holiday. Afterwards you feel smaller.\n\nThat's no accident. In studies, comparing yourself to people who looked better off on social media measurably lowered participants' **self-esteem**.\n\nThe only fair comparison is with yourself. Are you stronger, smarter, more disciplined today than a year ago? That's the question that counts.",
-      "apply": "Write down three things you're better at today than a year ago.",
-      "more": "Erin Vogel and colleagues studied Facebook use in 2014. Those who compared upward more often had lower self-esteem. Other profiles show a polished selection, not real life.",
+      "act": "Write down three things you do better today than a year ago. Repeat it every month and watch the list grow.",
+      "deep": "Erin Vogel and colleagues studied Facebook use in 2014. Those who compared upward more often had lower self-esteem. Other profiles show a polished selection, not real life.",
       "source": "Vogel, Rose, Roberts & Eckles: Social comparison, social media, and self-esteem. Psychology of Popular Media Culture, 2014"
     }
   },
@@ -1134,18 +1197,19 @@
     "sub": "selbstvertrauen",
     "style": "fakt",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Kleine Siege bauen grosses Selbstvertrauen",
       "body": "Harvard-Professorin Teresa Amabile liess Mitarbeiter in sieben Firmen jeden Abend ein kurzes Tagebuch führen. Am Ende hatte sie fast **12'000** Einträge.\n\nIhr wichtigster Befund: Nichts hob Stimmung, Motivation und Selbstvertrauen so stark wie das Gefühl, bei einer sinnvollen Aufgabe **vorangekommen** zu sein, auch nur ein kleines Stück.\n\nSelbstvertrauen entsteht nicht durch Sprüche vor dem Spiegel. Es entsteht durch Beweise. Und jeder kleine Sieg ist ein Beweis.",
-      "apply": "Schreib heute Abend auf, was du heute vorangebracht hast, auch wenn es klein war.",
-      "more": "Amabile und Steven Kramer nennen das das \"Fortschrittsprinzip\". Rückschläge wirkten in den Tagebüchern sogar stärker als Fortschritte. Darum lohnt es sich, grosse Ziele in kleine, erreichbare Schritte zu zerlegen.",
+      "act": "Schreib jeden Abend einen Satz auf: Was habe ich heute vorangebracht? Nach zwei Wochen liest du die ganze Liste durch.",
+      "deep": "Amabile und Steven Kramer nennen das das \"Fortschrittsprinzip\". Rückschläge wirkten in den Tagebüchern sogar stärker als Fortschritte. Darum lohnt es sich, grosse Ziele in kleine, erreichbare Schritte zu zerlegen.",
       "source": "Teresa Amabile & Steven Kramer: The Progress Principle (2011)"
     },
     "en": {
       "title": "Small wins build big confidence",
       "body": "Harvard professor Teresa Amabile had employees at seven companies keep a short diary every evening. In the end she had almost **12,000** entries.\n\nHer key finding: nothing lifted mood, motivation and confidence as much as the feeling of having **made progress** on meaningful work, even a little.\n\nConfidence doesn't come from slogans in the mirror. It comes from proof. And every small win is proof.",
-      "apply": "Tonight, write down what you moved forward today, even if it was small.",
-      "more": "Amabile and Steven Kramer call this the \"progress principle\". In the diaries, setbacks hit even harder than progress helped. That's why it pays to break big goals into small, reachable steps.",
+      "act": "Every evening, write one sentence: what did I move forward today? After two weeks, read the whole list.",
+      "deep": "Amabile and Steven Kramer call this the \"progress principle\". In the diaries, setbacks hit even harder than progress helped. That's why it pays to break big goals into small, reachable steps.",
       "source": "Teresa Amabile & Steven Kramer: The Progress Principle (2011)"
     }
   },
@@ -1155,18 +1219,19 @@
     "sub": "disziplin",
     "style": "fakt",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Eine Gewohnheit braucht im Schnitt 66 Tage",
       "body": "\"In 21 Tagen zur neuen Gewohnheit.\" Das liest man oft. Die Forschung sagt etwas anderes.\n\nIn einer Studie am University College London übten Teilnehmer eine neue Gewohnheit täglich ein, etwa ein Glas Wasser zum Frühstück oder 50 Sit-ups. Bis sie **automatisch** lief, dauerte es im Schnitt **66 Tage**. Je nach Person und Gewohnheit zwischen 18 und 254 Tagen.\n\nDie gute Nachricht: Ein verpasster Tag machte keinen Unterschied. Disziplin heisst nicht, perfekt zu sein. Es heisst, wieder anzufangen.",
-      "apply": "Markier dir heute in deinem Kalender den Tag in 66 Tagen. Bis dahin ziehst du deine wichtigste neue Gewohnheit durch.",
-      "more": "Phillippa Lally und Kollegen beobachteten 96 Teilnehmer über zwölf Wochen. Einfache Gewohnheiten wie Wasser trinken wurden schneller automatisch als anstrengende wie Sport.",
+      "act": "Markier dir heute in deinem Kalender den Tag in 66 Tagen. Bis dahin ziehst du deine wichtigste neue Gewohnheit durch.",
+      "deep": "Phillippa Lally und Kollegen beobachteten 96 Teilnehmer über zwölf Wochen. Einfache Gewohnheiten wie Wasser trinken wurden schneller automatisch als anstrengende wie Sport.",
       "source": "Lally et al.: How are habits formed. European Journal of Social Psychology, 2010"
     },
     "en": {
       "title": "A habit takes 66 days on average",
       "body": "\"A new habit in 21 days.\" You read that a lot. Research says something else.\n\nIn a study at University College London, participants practised a new habit every day, such as a glass of water with breakfast or 50 sit-ups. Until it ran **automatically** took **66 days** on average. Depending on person and habit, anywhere from 18 to 254 days.\n\nThe good news: missing one day made no difference. Discipline doesn't mean being perfect. It means starting again.",
-      "apply": "Mark the date 66 days from now in your calendar today. Until then, you stick to your most important new habit.",
-      "more": "Phillippa Lally and colleagues followed 96 participants over twelve weeks. Simple habits like drinking water became automatic faster than demanding ones like exercise.",
+      "act": "Mark the date 66 days from now in your calendar today. Until then, you stick to your most important new habit.",
+      "deep": "Phillippa Lally and colleagues followed 96 participants over twelve weeks. Simple habits like drinking water became automatic faster than demanding ones like exercise.",
       "source": "Lally et al.: How are habits formed. European Journal of Social Psychology, 2010"
     }
   },
@@ -1176,18 +1241,19 @@
     "sub": "fokus",
     "style": "fakt",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Multitasking macht dich schlechter in allem",
       "body": "Musik, drei Tabs, das Handy daneben, und nebenbei arbeiten. Viele halten das für effizient.\n\nForscher der Stanford University verglichen Menschen, die ständig mehrere Medien gleichzeitig nutzen, mit solchen, die das selten tun. Die Dauer-Multitasker waren **schlechter** darin, Unwichtiges auszublenden, und sogar langsamer beim Wechseln zwischen Aufgaben. Genau das, worin sie gut sein wollten.\n\nDein Gehirn kann nicht zwei anspruchsvolle Dinge gleichzeitig tun. Es springt nur hin und her, und jeder Sprung kostet.",
-      "apply": "Arbeite heute 45 Minuten an genau einer Aufgabe: ein Fenster offen, Handy in einem anderen Raum.",
-      "more": "Eyal Ophir, Clifford Nass und Anthony Wagner veröffentlichten die Studie 2009. Nass sagte danach: Multitasker seien \"Fans von Irrelevantem\". Spätere Studien bestätigten die Tendenz, wenn auch nicht alle gleich stark.",
+      "act": "Arbeite heute 45 Minuten an genau einer Aufgabe: ein Fenster offen, Handy in einem anderen Raum.",
+      "deep": "Eyal Ophir, Clifford Nass und Anthony Wagner veröffentlichten die Studie 2009. Nass sagte danach: Multitasker seien \"Fans von Irrelevantem\". Spätere Studien bestätigten die Tendenz, wenn auch nicht alle gleich stark.",
       "source": "Ophir, Nass & Wagner: Cognitive control in media multitaskers. PNAS, 2009"
     },
     "en": {
       "title": "Multitasking makes you worse at everything",
       "body": "Music, three tabs, phone on the desk, and work on the side. Many think that's efficient.\n\nStanford researchers compared people who constantly use several media at once with people who rarely do. The heavy multitaskers were **worse** at filtering out irrelevant information, and even slower at switching between tasks. Exactly what they thought they were good at.\n\nYour brain can't do two demanding things at once. It just jumps back and forth, and every jump costs.",
-      "apply": "Work on exactly one task for 45 minutes today: one window open, phone in another room.",
-      "more": "Eyal Ophir, Clifford Nass and Anthony Wagner published the study in 2009. Afterwards Nass said multitaskers are \"suckers for irrelevancy\". Later studies confirmed the trend, though not all as strongly.",
+      "act": "Work on exactly one task for 45 minutes today: one window open, phone in another room.",
+      "deep": "Eyal Ophir, Clifford Nass and Anthony Wagner published the study in 2009. Afterwards Nass said multitaskers are \"suckers for irrelevancy\". Later studies confirmed the trend, though not all as strongly.",
       "source": "Ophir, Nass & Wagner: Cognitive control in media multitaskers. PNAS, 2009"
     }
   },
@@ -1197,18 +1263,19 @@
     "sub": "lernen",
     "style": "fakt",
     "level": 2,
+    "actKind": "heute",
     "de": {
       "title": "Du lernst, während du schläfst",
       "body": "Wer die Nacht vor einer Prüfung durchlernt, sabotiert sich selbst.\n\nIm Schlaf spielt das Gehirn das Gelernte des Tages noch einmal ab und **verankert** es im Langzeitgedächtnis. Studien zeigen: Wer nach dem Lernen schläft, erinnert sich am nächsten Tag deutlich besser als jemand, der dieselbe Zeit wach bleibt. Besonders der Tiefschlaf festigt Fakten, der REM-Schlaf eher Fähigkeiten und Zusammenhänge.\n\nLernen am Abend, dann schlafen: Das ist kein Faulsein. Das ist die Methode.",
-      "apply": "Wiederhole heute Abend kurz vor dem Schlafen in fünf Minuten das Wichtigste, was du heute gelernt hast.",
-      "more": "Susanne Diekelmann und Jan Born fassten die Forschung 2010 zusammen. Schon ein kurzer Mittagsschlaf kann Gelerntes festigen. Schlafmangel dagegen verschlechtert sowohl das Aufnehmen als auch das Behalten.",
+      "act": "Wiederhole heute Abend kurz vor dem Schlafen in fünf Minuten das Wichtigste, was du heute gelernt hast.",
+      "deep": "Susanne Diekelmann und Jan Born fassten die Forschung 2010 zusammen. Schon ein kurzer Mittagsschlaf kann Gelerntes festigen. Schlafmangel dagegen verschlechtert sowohl das Aufnehmen als auch das Behalten.",
       "source": "Diekelmann & Born: The memory function of sleep. Nature Reviews Neuroscience, 2010"
     },
     "en": {
       "title": "You learn while you sleep",
       "body": "Pulling an all-nighter before an exam is self-sabotage.\n\nDuring sleep, the brain replays what you learned that day and **anchors** it in long-term memory. Studies show that people who sleep after learning remember much better the next day than those who stay awake for the same time. Deep sleep mainly locks in facts, REM sleep more skills and connections.\n\nStudy in the evening, then sleep: that's not laziness. That's the method.",
-      "apply": "Tonight, spend five minutes just before bed going over the most important thing you learned today.",
-      "more": "Susanne Diekelmann and Jan Born summarised the research in 2010. Even a short nap can consolidate learning. Sleep deprivation, on the other hand, impairs both taking in and keeping information.",
+      "act": "Tonight, spend five minutes just before bed going over the most important thing you learned today.",
+      "deep": "Susanne Diekelmann and Jan Born summarised the research in 2010. Even a short nap can consolidate learning. Sleep deprivation, on the other hand, impairs both taking in and keeping information.",
       "source": "Diekelmann & Born: The memory function of sleep. Nature Reviews Neuroscience, 2010"
     }
   },
@@ -1218,18 +1285,19 @@
     "sub": "stoizismus",
     "style": "tipp",
     "level": 1,
+    "actKind": "langfristig",
     "de": {
       "title": "Senecas Fragen vor dem Einschlafen",
       "body": "Jeden Abend, wenn das Licht gelöscht war und seine Frau schwieg, ging Seneca seinen Tag durch. Er stellte sich drei Fragen:\n\n**Welche Schwäche habe ich heute geheilt?** Welchem Fehler habe ich widerstanden? **Worin bin ich besser geworden?**\n\nEr verschwieg sich nichts. Wo er zu hart gesprochen hatte, nahm er sich vor, es morgen besser zu machen. Dann schlief er, wie er schreibt, ruhig und tief. Ein Mann, der sich jeden Abend ehrlich prüft, muss sich vor niemandem verstecken.",
-      "apply": "Stell dir heute Abend vor dem Einschlafen Senecas drei Fragen und beantworte sie ehrlich.",
-      "more": "Seneca übernahm die Übung von seinem Lehrer Sextius. Ganz ähnlich ist das Examen des heiligen Ignatius, ein christlicher Tagesrückblick vor Gott. Beide verbinden Ehrlichkeit mit dem Entschluss, morgen besser zu handeln.",
+      "act": "Stell dir heute Abend vor dem Einschlafen Senecas drei Fragen und beantworte sie ehrlich. Mach es eine Woche lang jeden Abend.",
+      "deep": "Seneca übernahm die Übung von seinem Lehrer Sextius. Ganz ähnlich ist das Examen des heiligen Ignatius, ein christlicher Tagesrückblick vor Gott. Beide verbinden Ehrlichkeit mit dem Entschluss, morgen besser zu handeln.",
       "source": "Seneca: Über den Zorn (De ira), Buch 3, 36"
     },
     "en": {
       "title": "Seneca's questions before sleep",
       "body": "Every evening, when the light was out and his wife had fallen silent, Seneca went through his day. He asked himself three questions:\n\n**What bad habit have I cured today?** What fault have I resisted? **In what way am I better?**\n\nHe hid nothing from himself. Where he had spoken too harshly, he resolved to do better tomorrow. Then he slept, as he writes, calmly and deeply. A man who examines himself honestly every evening has nothing to hide from anyone.",
-      "apply": "Ask yourself Seneca's three questions tonight before you fall asleep, and answer them honestly.",
-      "more": "Seneca took the practice from his teacher Sextius. The Examen of Saint Ignatius, a Christian review of the day before God, is very similar. Both combine honesty with the resolve to act better tomorrow.",
+      "act": "Tonight before sleep, ask yourself Seneca's three questions and answer them honestly. Do it every evening for a week.",
+      "deep": "Seneca took the practice from his teacher Sextius. The Examen of Saint Ignatius, a Christian review of the day before God, is very similar. Both combine honesty with the resolve to act better tomorrow.",
       "source": "Seneca: On Anger (De ira), Book 3, 36"
     }
   }

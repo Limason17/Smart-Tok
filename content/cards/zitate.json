@@ -5,6 +5,7 @@
     "sub": "stoiker",
     "style": "zitat",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Seneca über die Zeit",
       "quote": {
@@ -13,8 +14,8 @@
         "source": "Von der Kürze des Lebens, 1"
       },
       "body": "Alle klagen, das Leben sei zu kurz. Seneca dreht die Klage um: Das Leben ist lang genug, wenn man es nutzt. Wir verlieren es in Kleinigkeiten, in Warten, in Dingen, die uns nicht wichtig sind.",
-      "apply": "Schreib auf, wofür deine ersten zwei freien Stunden heute draufgehen, und ob du das so gewählt hättest.",
-      "more": "Seneca schrieb \"De brevitate vitae\" um das Jahr 49 an seinen Freund Paulinus, der für die Getreideversorgung Roms zuständig war. Er rät ihm, sich aus dem Getriebe der Ämter zurückzuziehen und Zeit für das Nachdenken über das Leben zu gewinnen.",
+      "act": "Wofür sind deine freien Stunden gestern draufgegangen? Hättest du das so gewählt, wenn du vorher entschieden hättest?",
+      "deep": "Seneca schrieb \"De brevitate vitae\" um das Jahr 49 an seinen Freund Paulinus, der für die Getreideversorgung Roms zuständig war. Er rät ihm, sich aus dem Getriebe der Ämter zurückzuziehen und Zeit für das Nachdenken über das Leben zu gewinnen.",
       "source": "Seneca: De brevitate vitae 1,3 (eigene Übersetzung)"
     },
     "en": {
@@ -25,8 +26,8 @@
         "source": "On the Shortness of Life, 1"
       },
       "body": "Everyone complains that life is too short. Seneca flips the complaint: life is long enough if you use it. We lose it in trivia, in waiting, in things that don't matter to us.",
-      "apply": "Write down where your first two free hours go today, and whether you would have chosen that.",
-      "more": "Seneca wrote \"De brevitate vitae\" around the year 49 to his friend Paulinus, who was in charge of Rome's grain supply. He advises him to withdraw from the grind of office and win back time to reflect on life.",
+      "act": "Where did your free hours go yesterday? Would you have chosen that if you'd decided in advance?",
+      "deep": "Seneca wrote \"De brevitate vitae\" around the year 49 to his friend Paulinus, who was in charge of Rome's grain supply. He advises him to withdraw from the grind of office and win back time to reflect on life.",
       "source": "Seneca: De brevitate vitae 1.3"
     }
   },
@@ -36,6 +37,7 @@
     "sub": "stoiker",
     "style": "zitat",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Epiktet über Urteile",
       "quote": {
@@ -44,8 +46,9 @@
         "source": "Handbüchlein der Moral, 5"
       },
       "body": "Ein Kollege grüsst dich nicht. Das Ereignis ist neutral. Ob du dich ärgerst, hängt an deinem Urteil: \"Der respektiert mich nicht.\" Vielleicht hat er dich einfach nicht gesehen.\n\nZwischen dem, was passiert, und dem, was du fühlst, liegt immer eine Deutung. Die kannst du prüfen und ändern.",
-      "apply": "Wenn dich heute etwas aufregt, trenne es in zwei Sätze: Was ist passiert? Und was ist nur deine Deutung? Reagiere nur auf das Erste.",
-      "more": "Dieser Satz ist einer der Grundsteine der kognitiven Verhaltenstherapie. Albert Ellis, einer ihrer Begründer, zitierte Epiktet ausdrücklich als Vorbild. Die Therapie arbeitet genau damit: belastende Gedanken erkennen und auf ihre Richtigkeit prüfen.",
+      "example": "Fakt: \"Er hat meine Nachricht seit zwei Stunden nicht beantwortet.\" Deutung: \"Er nimmt mich nicht ernst.\" Vielleicht sitzt er einfach in einer Sitzung.",
+      "act": "Wenn dich etwas aufregt, trenne es in zwei Sätze:\n- Was ist passiert? (nur Fakten)\n- Was ist meine Deutung?\n- Reagiere nur auf den ersten Satz.",
+      "deep": "Dieser Satz ist einer der Grundsteine der kognitiven Verhaltenstherapie. Albert Ellis, einer ihrer Begründer, zitierte Epiktet ausdrücklich als Vorbild. Die Therapie arbeitet genau damit: belastende Gedanken erkennen und auf ihre Richtigkeit prüfen.",
       "source": "Epiktet: Enchiridion 5 (eigene Übersetzung)"
     },
     "en": {
@@ -56,8 +59,9 @@
         "source": "Enchiridion, 5"
       },
       "body": "A colleague doesn't greet you. The event is neutral. Whether you get annoyed depends on your judgement: \"He doesn't respect me.\" Maybe he simply didn't see you.\n\nBetween what happens and what you feel, there's always an interpretation. You can examine it and change it.",
-      "apply": "When something upsets you today, split it into two sentences: what happened? And what is only your interpretation? React only to the first.",
-      "more": "This sentence is one of the cornerstones of cognitive behavioural therapy. Albert Ellis, one of its founders, explicitly cited Epictetus as an inspiration. The therapy works exactly this way: spotting distressing thoughts and testing whether they're accurate.",
+      "example": "Fact: \"He hasn't answered my message for two hours.\" Interpretation: \"He doesn't take me seriously.\" Maybe he's just in a meeting.",
+      "act": "When something upsets you, split it into two sentences:\n- What happened? (facts only)\n- What's my interpretation?\n- Respond only to the first sentence.",
+      "deep": "This sentence is one of the cornerstones of cognitive behavioural therapy. Albert Ellis, one of its founders, explicitly cited Epictetus as an inspiration. The therapy works exactly this way: spotting distressing thoughts and testing whether they're accurate.",
       "source": "Epictetus: Enchiridion 5 (trans. Elizabeth Carter, 1758)"
     }
   },
@@ -67,6 +71,7 @@
     "sub": "stoiker",
     "style": "zitat",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Seneca über die Angst",
       "quote": {
@@ -75,8 +80,8 @@
         "source": "Briefe an Lucilius 13,4"
       },
       "body": "Die meisten Katastrophen, die wir uns ausmalen, treten nie ein. Trotzdem erleben wir sie innerlich, manchmal dutzendfach.\n\nSeneca rät: Warte, bis etwas wirklich da ist, bevor du darunter leidest. Prüf, ob es Beweise gibt, oder nur Befürchtungen.",
-      "apply": "Schreib deine grösste aktuelle Sorge auf, schätze ehrlich, wie wahrscheinlich sie genau so eintritt, und tu dann das Nächstliegende.",
-      "more": "Im 13. Brief schreibt Seneca weiter: Manche Dinge quälen uns mehr, als sie sollten, manche, bevor sie sollten, und manche, die es gar nicht sollten. Eine Studie von LaFreniere und Newman (2020) fand, dass sich bei Menschen mit Angststörung rund 91 % der Sorgen nicht bewahrheiteten.",
+      "act": "- Schreib deine grösste Sorge auf.\n- Schätze ehrlich in Prozent, wie wahrscheinlich sie genau so eintritt.\n- Schreib den einen Schritt auf, den du heute tun kannst, und tu ihn.",
+      "deep": "Im 13. Brief schreibt Seneca weiter: Manche Dinge quälen uns mehr, als sie sollten, manche, bevor sie sollten, und manche, die es gar nicht sollten. Eine Studie von LaFreniere und Newman (2020) fand, dass sich bei Menschen mit Angststörung rund 91 % der Sorgen nicht bewahrheiteten.",
       "source": "Seneca: Epistulae morales 13,4 (eigene Übersetzung); LaFreniere & Newman, Behavior Therapy (2020)"
     },
     "en": {
@@ -87,8 +92,8 @@
         "source": "Letters to Lucilius 13.4"
       },
       "body": "Most of the disasters we picture never happen. Yet we live through them inside, sometimes dozens of times.\n\nSeneca advises: wait until something is actually here before suffering from it. Check whether there's evidence, or only fear.",
-      "apply": "Write down your biggest current worry, honestly estimate how likely it is to happen exactly like that, then do the next obvious thing.",
-      "more": "In the 13th letter Seneca goes on: some things torment us more than they should, some before they should, and some that shouldn't at all. A study published in 2020 (LaFreniere and Newman) found that about 91% of worries among people with anxiety disorder did not come true.",
+      "act": "- Write down your biggest worry.\n- Estimate honestly, in percent, how likely it is to happen exactly like that.\n- Write down the one step you can take today, and take it.",
+      "deep": "In the 13th letter Seneca goes on: some things torment us more than they should, some before they should, and some that shouldn't at all. A study published in 2020 (LaFreniere and Newman) found that about 91% of worries among people with anxiety disorder did not come true.",
       "source": "Seneca: Moral Letters 13.4 (trans. R. M. Gummere, 1917); LaFreniere & Newman, Behavior Therapy (2020)"
     }
   },
@@ -98,6 +103,7 @@
     "sub": "stoiker",
     "style": "zitat",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Marc Aurel über den guten Mann",
       "quote": {
@@ -106,8 +112,8 @@
         "source": "Selbstbetrachtungen 10,16"
       },
       "body": "Bücher über Charakter lesen, Videos über Disziplin schauen, über Werte diskutieren: Das alles kann helfen. Es kann aber auch ein bequemer Ersatz für das Tun werden.\n\nMarc Aurel, Kaiser und Philosoph, ermahnt sich selbst: Am Ende zählt nicht, was du über Tugend weisst, sondern was du heute tust.",
-      "apply": "Setz eine Sache, die du kürzlich gelernt hast, noch heute konkret um, statt die nächste Karte zu lesen.",
-      "more": "Die \"Selbstbetrachtungen\" waren nie zur Veröffentlichung gedacht. Marc Aurel schrieb sie als persönliche Übungen, oft mit dem Wort \"du\" an sich selbst gerichtet. Sie sind gemeinfrei und in vielen Übersetzungen erhältlich.",
+      "act": "Setz eine Sache, die du kürzlich gelernt hast, noch heute konkret um, statt die nächste Karte zu lesen.",
+      "deep": "Die \"Selbstbetrachtungen\" waren nie zur Veröffentlichung gedacht. Marc Aurel schrieb sie als persönliche Übungen, oft mit dem Wort \"du\" an sich selbst gerichtet. Sie sind gemeinfrei und in vielen Übersetzungen erhältlich.",
       "source": "Marc Aurel: Selbstbetrachtungen 10,16 (eigene Übersetzung)"
     },
     "en": {
@@ -118,8 +124,8 @@
         "source": "Meditations 10.16"
       },
       "body": "Reading books about character, watching videos on discipline, discussing values: all of that can help. It can also become a comfortable substitute for doing.\n\nMarcus Aurelius, emperor and philosopher, reminds himself: in the end it's not what you know about virtue that counts, but what you do today.",
-      "apply": "Put one thing you recently learned into practice today, instead of reading the next card.",
-      "more": "The \"Meditations\" were never meant for publication. Marcus wrote them as personal exercises, often addressing himself as \"you\". They're in the public domain and available in many translations.",
+      "act": "Put one thing you recently learned into practice today, instead of reading the next card.",
+      "deep": "The \"Meditations\" were never meant for publication. Marcus wrote them as personal exercises, often addressing himself as \"you\". They're in the public domain and available in many translations.",
       "source": "Marcus Aurelius: Meditations 10.16 (trans. George Long, 1862)"
     }
   },
@@ -129,6 +135,7 @@
     "sub": "stoiker",
     "style": "zitat",
     "level": 1,
+    "actKind": "achte",
     "de": {
       "title": "Marc Aurel über Rache",
       "quote": {
@@ -137,8 +144,8 @@
         "source": "Selbstbetrachtungen 6,6"
       },
       "body": "Wer dich verletzt, will oft genau eines: dass du reagierst, auf seiner Ebene. Wenn du zurückschlägst, hat er gewonnen, denn jetzt bestimmt er, wer du bist.\n\nDie stärkste Antwort ist, du selbst zu bleiben. Ruhig, anständig, unbeeindruckt.",
-      "apply": "Wenn dich heute jemand provoziert, antworte nicht auf seiner Ebene. Bleib ruhig und anständig. Das ist die beste Rache.",
-      "more": "Ein ähnlicher Gedanke findet sich bei Paulus: \"Lass dich nicht vom Bösen besiegen, sondern besiege das Böse durch das Gute\" (Röm 12,21). Stoiker und Christen kamen hier aus unterschiedlichen Gründen zu einer ähnlichen Haltung.",
+      "act": "Achte darauf, wenn dich jemand auf seine Ebene ziehen will. Bleib ruhig und anständig. Damit bestimmst du, wer du bist, nicht er.",
+      "deep": "Ein ähnlicher Gedanke findet sich bei Paulus: \"Lass dich nicht vom Bösen besiegen, sondern besiege das Böse durch das Gute\" (Röm 12,21). Stoiker und Christen kamen hier aus unterschiedlichen Gründen zu einer ähnlichen Haltung.",
       "source": "Marc Aurel: Selbstbetrachtungen 6,6 (eigene Übersetzung)"
     },
     "en": {
@@ -149,8 +156,8 @@
         "source": "Meditations 6.6"
       },
       "body": "Whoever hurts you often wants exactly one thing: for you to react, on his level. If you hit back, he's won, because now he decides who you are.\n\nThe strongest response is to stay yourself. Calm, decent, unimpressed.",
-      "apply": "When someone provokes you today, don't answer on their level. Stay calm and decent. That's the best revenge.",
-      "more": "Paul has a similar thought: \"Do not be conquered by evil but conquer evil with good\" (Rom 12:21). Stoics and Christians reached a similar attitude here for different reasons.",
+      "act": "Watch for the moment someone tries to drag you down to their level. Stay calm and decent. That way you decide who you are, not them.",
+      "deep": "Paul has a similar thought: \"Do not be conquered by evil but conquer evil with good\" (Rom 12:21). Stoics and Christians reached a similar attitude here for different reasons.",
       "source": "Marcus Aurelius: Meditations 6.6 (trans. George Long, 1862)"
     }
   },
@@ -160,6 +167,7 @@
     "sub": "denker",
     "style": "zitat",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Das berühmteste falsche Aristoteles-Zitat",
       "quote": {
@@ -168,8 +176,9 @@
         "source": "The Story of Philosophy (1926)"
       },
       "body": "Dieser Satz steht auf unzähligen Postern, fast immer mit \"Aristoteles\" darunter. Tatsächlich stammt er vom amerikanischen Historiker Will Durant, der damit Aristoteles' Gedanken **zusammenfasste**.\n\nDer Inhalt stimmt aber: Für Aristoteles entsteht Charakter durch Übung. Man wird mutig, indem man mutig handelt, und gerecht, indem man gerecht handelt. Tugend ist ein Training, kein Talent.",
-      "apply": "Wähle eine Eigenschaft, die du haben willst, und übe sie heute mit einer kleinen, konkreten Handlung.",
-      "more": "Bei Aristoteles heisst es in der Nikomachischen Ethik (Buch 2,1) sinngemäss: Wir werden gerecht, indem wir gerechte Handlungen vollbringen, besonnen durch besonnene, tapfer durch tapfere. Durants Buch \"The Story of Philosophy\" machte die Philosophiegeschichte für ein breites Publikum zugänglich.",
+      "example": "Du willst pünktlich sein: Jeden Tag fünf Minuten vor jedem Termin da. Du willst mutiger sein: Jeden Tag eine Sache ansprechen, die du sonst schlucken würdest.",
+      "act": "Wähle eine Eigenschaft, die du haben willst, und übe sie 30 Tage lang mit einer kleinen täglichen Handlung. So wird sie zur Gewohnheit, und dann zu dir.",
+      "deep": "Bei Aristoteles heisst es in der Nikomachischen Ethik (Buch 2,1) sinngemäss: Wir werden gerecht, indem wir gerechte Handlungen vollbringen, besonnen durch besonnene, tapfer durch tapfere. Durants Buch \"The Story of Philosophy\" machte die Philosophiegeschichte für ein breites Publikum zugänglich.",
       "source": "Will Durant: The Story of Philosophy (1926); Aristoteles: Nikomachische Ethik II,1"
     },
     "en": {
@@ -180,8 +189,9 @@
         "source": "The Story of Philosophy (1926)"
       },
       "body": "This line is on countless posters, almost always signed \"Aristotle\". In fact it comes from American historian Will Durant, who used it to **summarise** Aristotle's ideas.\n\nThe content holds, though: for Aristotle, character is built through practice. You become brave by acting bravely, just by acting justly. Virtue is training, not talent.",
-      "apply": "Pick one trait you want to have and practise it today with one small, concrete action.",
-      "more": "In the Nicomachean Ethics (Book 2.1) Aristotle writes, in substance: we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts. Durant's \"The Story of Philosophy\" made the history of philosophy accessible to a wide audience.",
+      "example": "You want to be punctual: be five minutes early to every appointment, every day. You want to be braver: every day, raise one thing you'd normally swallow.",
+      "act": "Choose a trait you want and practise it for 30 days with one small daily action. That's how it becomes a habit, and then part of you.",
+      "deep": "In the Nicomachean Ethics (Book 2.1) Aristotle writes, in substance: we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts. Durant's \"The Story of Philosophy\" made the history of philosophy accessible to a wide audience.",
       "source": "Will Durant: The Story of Philosophy (1926); Aristotle: Nicomachean Ethics II.1"
     }
   },
@@ -191,6 +201,7 @@
     "sub": "denker",
     "style": "zitat",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Sokrates vor Gericht",
       "quote": {
@@ -199,8 +210,8 @@
         "source": "Platon, Apologie 38a"
       },
       "body": "Sokrates sagt diesen Satz vor dem Gericht in Athen, das ihn zum Tod verurteilen wird. Man bietet ihm an, mit dem Philosophieren aufzuhören. Er lehnt ab.\n\nSeine Überzeugung: Wer nie fragt, warum er lebt, wie er lebt, lebt nach den Vorgaben anderer. Sich regelmässig zu prüfen, ist kein Luxus, sondern das, was ein Leben zu deinem eigenen macht.",
-      "apply": "Nimm dir heute fünf Minuten, prüf, ob du so lebst, wie du es für richtig hältst, und schreib eine Sache auf, die du ändern wirst.",
-      "more": "Sokrates wurde 399 v. Chr. wegen Gottlosigkeit und Verführung der Jugend angeklagt und trank den Schierlingsbecher. Er selbst schrieb nichts auf. Was wir von ihm wissen, stammt vor allem von seinem Schüler Platon.",
+      "act": "Lebst du so, wie du es selbst für richtig hältst? Was ist eine Sache, die du ändern würdest, wenn du ehrlich bist?",
+      "deep": "Sokrates wurde 399 v. Chr. wegen Gottlosigkeit und Verführung der Jugend angeklagt und trank den Schierlingsbecher. Er selbst schrieb nichts auf. Was wir von ihm wissen, stammt vor allem von seinem Schüler Platon.",
       "source": "Platon: Apologie des Sokrates 38a (eigene Übersetzung)"
     },
     "en": {
@@ -211,8 +222,8 @@
         "source": "Plato, Apology 38a"
       },
       "body": "Socrates says this before the Athenian court that will sentence him to death. He's offered a way out if he stops philosophising. He refuses.\n\nHis conviction: whoever never asks why he lives the way he does lives by other people's script. Examining yourself regularly isn't a luxury; it's what makes a life your own.",
-      "apply": "Take five minutes today to check whether you're living the way you think is right, and write down one thing you'll change.",
-      "more": "Socrates was charged in 399 BC with impiety and corrupting the youth, and drank the hemlock. He wrote nothing himself. What we know of him comes mostly from his student Plato.",
+      "act": "Are you living the way you yourself think is right? What's one thing you'd change if you're honest?",
+      "deep": "Socrates was charged in 399 BC with impiety and corrupting the youth, and drank the hemlock. He wrote nothing himself. What we know of him comes mostly from his student Plato.",
       "source": "Plato: Apology 38a"
     }
   },
@@ -222,6 +233,7 @@
     "sub": "denker",
     "style": "zitat",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Nietzsche über das Warum",
       "quote": {
@@ -230,8 +242,8 @@
         "source": "Götzen-Dämmerung, Sprüche und Pfeile 12"
       },
       "body": "Harte Arbeit, Verzicht, Schmerz: Mit einem klaren Grund kann ein Mensch erstaunlich viel ertragen. Ohne Grund wird schon wenig unerträglich.\n\nDer Psychiater Viktor Frankl überlebte mehrere Konzentrationslager. Er beobachtete, dass Häftlinge mit einer Aufgabe, die auf sie wartete, eher durchhielten. Er machte Nietzsches Satz zu einem Leitgedanken seiner Therapie.",
-      "apply": "Schreib in einem Satz auf, wofür du dich gerade anstrengst. Wenn dir nichts einfällt, ist das die wichtigste Aufgabe dieser Woche.",
-      "more": "Die \"Götzen-Dämmerung\" erschien 1889. Frankl zitierte den Satz in \"… trotzdem Ja zum Leben sagen\" (1946), auf Englisch \"Man's Search for Meaning\", einem der einflussreichsten Bücher des 20. Jahrhunderts. Seine Therapieform heisst Logotherapie, von griechisch logos: Sinn.",
+      "act": "Wofür strengst du dich gerade an? Kannst du es in einem Satz sagen? Wenn nicht, ist das die wichtigste Frage dieser Woche.",
+      "deep": "Die \"Götzen-Dämmerung\" erschien 1889. Frankl zitierte den Satz in \"… trotzdem Ja zum Leben sagen\" (1946), auf Englisch \"Man's Search for Meaning\", einem der einflussreichsten Bücher des 20. Jahrhunderts. Seine Therapieform heisst Logotherapie, von griechisch logos: Sinn.",
       "source": "Friedrich Nietzsche: Götzen-Dämmerung (1889); Viktor Frankl: … trotzdem Ja zum Leben sagen (1946)"
     },
     "en": {
@@ -242,8 +254,8 @@
         "source": "Twilight of the Idols, Maxims and Arrows 12"
       },
       "body": "Hard work, sacrifice, pain: with a clear reason, a person can bear an astonishing amount. Without one, even little becomes unbearable.\n\nPsychiatrist Viktor Frankl survived several concentration camps. He observed that prisoners who had a task waiting for them were more likely to hold on. He made Nietzsche's line a guiding idea of his therapy.",
-      "apply": "Write down in one sentence what you're working hard for right now. If nothing comes to mind, that's this week's most important task.",
-      "more": "\"Twilight of the Idols\" appeared in 1889. Frankl quoted the line in \"Man's Search for Meaning\" (1946), one of the most influential books of the 20th century. His form of therapy is called logotherapy, from the Greek logos: meaning.",
+      "act": "What are you working hard for right now? Can you say it in one sentence? If not, that's the most important question this week.",
+      "deep": "\"Twilight of the Idols\" appeared in 1889. Frankl quoted the line in \"Man's Search for Meaning\" (1946), one of the most influential books of the 20th century. His form of therapy is called logotherapy, from the Greek logos: meaning.",
       "source": "Friedrich Nietzsche: Twilight of the Idols (1889); Viktor Frankl: Man's Search for Meaning (1946)"
     }
   },
@@ -253,6 +265,7 @@
     "sub": "denker",
     "style": "zitat",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Pascal über das Alleinsein",
       "quote": {
@@ -261,8 +274,8 @@
         "source": "Gedanken (Pensées)"
       },
       "body": "Pascal schrieb das vor über 350 Jahren, ohne Handy, Netflix und Social Media. Seine Beobachtung: Menschen suchen ständig Ablenkung, um nicht über sich selbst nachdenken zu müssen.\n\nHeute ist die Ablenkung immer in der Hosentasche. Wer es aushält, ein paar Minuten nichts zu tun, gewinnt Klarheit, Ideen und Ruhe, die anderen fehlt.",
-      "apply": "Setz dich heute zehn Minuten ohne Handy, Musik oder Buch hin und lass die Gedanken kommen.",
-      "more": "In einer Studie von Timothy Wilson und Kollegen (2014) sollten Probanden 6 bis 15 Minuten allein mit ihren Gedanken in einem Raum sitzen. Viele empfanden das als unangenehm. 67 % der Männer und 25 % der Frauen gaben sich lieber selbst einen leichten Elektroschock, als nichts zu tun.",
+      "act": "Nimm dir eine Woche lang jeden Tag zehn Minuten ohne Handy, Musik oder Buch. Setz dich hin und lass die Gedanken kommen.",
+      "deep": "In einer Studie von Timothy Wilson und Kollegen (2014) sollten Probanden 6 bis 15 Minuten allein mit ihren Gedanken in einem Raum sitzen. Viele empfanden das als unangenehm. 67 % der Männer und 25 % der Frauen gaben sich lieber selbst einen leichten Elektroschock, als nichts zu tun.",
       "source": "Blaise Pascal: Pensées (1670), Fragment 139 (Brunschvicg); Wilson et al., Science (2014)"
     },
     "en": {
@@ -273,8 +286,8 @@
         "source": "Pensées"
       },
       "body": "Pascal wrote this more than 350 years ago, without phones, Netflix or social media. His observation: people constantly seek distraction so they don't have to think about themselves.\n\nToday distraction is always in your pocket. Whoever can stand doing nothing for a few minutes gains the clarity, ideas and calm others lack.",
-      "apply": "Sit for ten minutes today without phone, music or book, and let your thoughts come.",
-      "more": "In a study by Timothy Wilson and colleagues (2014), participants had to sit alone with their thoughts for 6 to 15 minutes. Many found it unpleasant. 67% of the men and 25% of the women chose to give themselves a mild electric shock rather than do nothing.",
+      "act": "For a week, take ten minutes a day without phone, music or book. Sit down and let your thoughts come.",
+      "deep": "In a study by Timothy Wilson and colleagues (2014), participants had to sit alone with their thoughts for 6 to 15 minutes. Many found it unpleasant. 67% of the men and 25% of the women chose to give themselves a mild electric shock rather than do nothing.",
       "source": "Blaise Pascal: Pensées (1670), fragment 139 (Brunschvicg); Wilson et al., Science (2014)"
     }
   },
@@ -284,6 +297,7 @@
     "sub": "denker",
     "style": "zitat",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Goethe über Wissen und Tun",
       "quote": {
@@ -292,8 +306,8 @@
         "source": "Wilhelm Meisters Wanderjahre"
       },
       "body": "Wissen ohne Anwendung ist wie ein Werkzeug im Schrank. Wollen ohne Tun ist ein Wunsch.\n\nGoethe war selbst Dichter, Minister, Naturforscher und Theaterleiter, ein Mann, der Ideen umsetzte. Seine Mahnung passt perfekt zu einer Lern-App: Jede Karte ist nur so viel wert wie das, was du daraus machst.",
-      "apply": "Such dir aus den letzten Karten, die du gespeichert hast, eine aus und setz sie heute um.",
-      "more": "Der Satz stammt aus den \"Betrachtungen im Sinne der Wanderer\", einer Spruchsammlung in \"Wilhelm Meisters Wanderjahre\" (1829). Goethe beschäftigte sich ausser mit Literatur auch mit Farbenlehre, Botanik und Geologie und leitete jahrzehntelang Aufgaben im Herzogtum Sachsen-Weimar.",
+      "act": "Öffne in deinem Profil die Liste \"Umsetzen\", nimm die älteste offene Karte und setz sie heute um.",
+      "deep": "Der Satz stammt aus den \"Betrachtungen im Sinne der Wanderer\", einer Spruchsammlung in \"Wilhelm Meisters Wanderjahre\" (1829). Goethe beschäftigte sich ausser mit Literatur auch mit Farbenlehre, Botanik und Geologie und leitete jahrzehntelang Aufgaben im Herzogtum Sachsen-Weimar.",
       "source": "Johann Wolfgang von Goethe: Wilhelm Meisters Wanderjahre (1829)"
     },
     "en": {
@@ -304,8 +318,8 @@
         "source": "Wilhelm Meister's Journeyman Years"
       },
       "body": "Knowledge without application is like a tool left in the cupboard. Willing without doing is a wish.\n\nGoethe was himself a poet, minister, naturalist and theatre director, a man who put ideas into practice. His reminder fits a learning app perfectly: every card is only worth what you make of it.",
-      "apply": "Pick one of the cards you've recently saved and put it into practice today.",
-      "more": "The line comes from \"Reflections in the Spirit of the Wanderers\", a collection of maxims in \"Wilhelm Meister's Journeyman Years\" (1829). Besides literature, Goethe studied colour theory, botany and geology and held government duties in the Duchy of Saxe-Weimar for decades.",
+      "act": "Open the \"To apply\" list in your profile, take the oldest open card and put it into practice today.",
+      "deep": "The line comes from \"Reflections in the Spirit of the Wanderers\", a collection of maxims in \"Wilhelm Meister's Journeyman Years\" (1829). Besides literature, Goethe studied colour theory, botany and geology and held government duties in the Duchy of Saxe-Weimar for decades.",
       "source": "Johann Wolfgang von Goethe: Wilhelm Meister's Journeyman Years (1829)"
     }
   },
@@ -315,6 +329,7 @@
     "sub": "denker",
     "style": "zitat",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Viktor Frankl über die letzte Freiheit",
       "quote": {
@@ -323,8 +338,8 @@
         "source": "… trotzdem Ja zum Leben sagen"
       },
       "body": "Frankl verlor im Holocaust seine Frau, seine Eltern und seinen Bruder. Er überlebte Auschwitz und Dachau. Was er dort sah: Selbst unter unmenschlichen Bedingungen entschieden manche Häftlinge, Brot zu teilen und andere zu trösten.\n\nDu kannst nicht immer wählen, was dir passiert. Aber du kannst immer wählen, **wie du dazu stehst**. Diese Freiheit kann dir niemand nehmen.",
-      "apply": "Such dir eine Situation, die du nicht ändern kannst, und entscheide bewusst, mit welcher Haltung du ihr begegnest.",
-      "more": "Viktor Frankl (1905 bis 1997) war ein Wiener Neurologe und Psychiater. Sein Buch erschien 1946 und wurde weltweit über 10 Millionen Mal verkauft. Er war überzeugt, dass der Wille zum Sinn eine Grundkraft des Menschen ist.",
+      "act": "Welche Situation kannst du gerade nicht ändern? Mit welcher Haltung willst du ihr begegnen?",
+      "deep": "Viktor Frankl (1905 bis 1997) war ein Wiener Neurologe und Psychiater. Sein Buch erschien 1946 und wurde weltweit über 10 Millionen Mal verkauft. Er war überzeugt, dass der Wille zum Sinn eine Grundkraft des Menschen ist.",
       "source": "Viktor E. Frankl: … trotzdem Ja zum Leben sagen (1946)"
     },
     "en": {
@@ -335,8 +350,8 @@
         "source": "Man's Search for Meaning"
       },
       "body": "Frankl lost his wife, his parents and his brother in the Holocaust. He survived Auschwitz and Dachau. What he saw there: even under inhuman conditions, some prisoners chose to share their bread and comfort others.\n\nYou can't always choose what happens to you. But you can always choose **how you stand towards it**. No one can take that freedom from you.",
-      "apply": "Pick one situation you can't change, and consciously decide what attitude you'll meet it with.",
-      "more": "Viktor Frankl (1905 to 1997) was a Viennese neurologist and psychiatrist. His book appeared in 1946 and has sold more than 10 million copies worldwide. He was convinced that the will to meaning is a fundamental human drive.",
+      "act": "Which situation can't you change right now? What attitude do you choose to meet it with?",
+      "deep": "Viktor Frankl (1905 to 1997) was a Viennese neurologist and psychiatrist. His book appeared in 1946 and has sold more than 10 million copies worldwide. He was convinced that the will to meaning is a fundamental human drive.",
       "source": "Viktor E. Frankl: Man's Search for Meaning (1946)"
     }
   },
@@ -346,6 +361,7 @@
     "sub": "macher",
     "style": "zitat",
     "level": 1,
+    "actKind": "merke",
     "de": {
       "title": "Buffetts zwei Regeln",
       "quote": {
@@ -353,8 +369,8 @@
         "author": "Warren Buffett"
       },
       "body": "Natürlich hat auch Buffett schon Geld verloren. Gemeint ist etwas anderes: **Vermeide grosse, dauerhafte Verluste.** Wer 50 % verliert, braucht danach 100 % Gewinn, nur um wieder bei null zu sein.\n\nDarum ist Vorsicht beim Investieren keine Feigheit, sondern Mathematik. Wer nicht pleitegeht, bleibt im Spiel, und wer im Spiel bleibt, profitiert vom Zinseszins.",
-      "apply": "Bevor du das nächste Mal Geld riskierst, schreib auf, was das Schlimmste wäre. Wenn du es nicht verkraften könntest, lass es.",
-      "more": "Buffett, geboren 1930, gilt als einer der erfolgreichsten Investoren der Geschichte. Seine Firma Berkshire Hathaway brachte von 1965 bis 2024 eine durchschnittliche jährliche Rendite von rund 20 %. Ende 2025 übergab er den Chefposten an Greg Abel. Das ist Wissen, keine Anlageberatung.",
+      "act": "Wer 50 % verliert, braucht 100 % Gewinn, um wieder bei null zu sein. Riskiere nie Geld, dessen Verlust du nicht verkraften könntest.",
+      "deep": "Buffett, geboren 1930, gilt als einer der erfolgreichsten Investoren der Geschichte. Seine Firma Berkshire Hathaway brachte von 1965 bis 2024 eine durchschnittliche jährliche Rendite von rund 20 %. Ende 2025 übergab er den Chefposten an Greg Abel. Das ist Wissen, keine Anlageberatung.",
       "source": "Warren Buffett, vielfach zitiert; Berkshire Hathaway, Brief an die Aktionäre 2024"
     },
     "en": {
@@ -364,8 +380,8 @@
         "author": "Warren Buffett"
       },
       "body": "Of course Buffett has lost money too. What he means is: **avoid large, permanent losses.** Lose 50% and you then need a 100% gain just to get back to zero.\n\nSo caution in investing isn't cowardice; it's maths. If you don't go broke, you stay in the game, and staying in the game is how compounding works for you.",
-      "apply": "Before you next put money at risk, write down the worst case. If you couldn't handle it, don't do it.",
-      "more": "Buffett, born in 1930, is considered one of the most successful investors in history. His company Berkshire Hathaway returned about 20% a year on average from 1965 to 2024. At the end of 2025 he handed the CEO role to Greg Abel. This is knowledge, not investment advice.",
+      "act": "Lose 50% and you need a 100% gain just to get back to zero. Never risk money you couldn't afford to lose.",
+      "deep": "Buffett, born in 1930, is considered one of the most successful investors in history. His company Berkshire Hathaway returned about 20% a year on average from 1965 to 2024. At the end of 2025 he handed the CEO role to Greg Abel. This is knowledge, not investment advice.",
       "source": "Warren Buffett, widely quoted; Berkshire Hathaway 2024 shareholder letter"
     }
   },
@@ -375,6 +391,7 @@
     "sub": "macher",
     "style": "zitat",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Buffett über Preis und Wert",
       "quote": {
@@ -383,8 +400,9 @@
         "source": "Brief an die Aktionäre 2008"
       },
       "body": "Etwas Billiges kann teuer sein, wenn es nichts taugt. Etwas Teures kann günstig sein, wenn es dir jahrelang dient.\n\nDas gilt für Aktien, aber auch für Schuhe, Werkzeug, eine Ausbildung oder ein gutes Buch. Die entscheidende Frage ist nie nur \"Was kostet es?\", sondern \"**Was bekomme ich dafür, und wie lange?**\"",
-      "apply": "Nimm deinen letzten Fehlkauf, schreib auf, ob das Problem der Preis oder der Wert war, und nutz die Antwort beim nächsten Kauf.",
-      "more": "Buffett schrieb den Satz im Februar 2009 im Brief zum Jahr 2008, mitten in der Finanzkrise, als viele Aktien stark gefallen waren. Er bezog sich auf seinen Lehrer Benjamin Graham, der zwischen dem Kurs einer Aktie und dem inneren Wert des Unternehmens unterschied.",
+      "example": "Schuhe für 60 Franken, die nach einem Jahr kaputt sind, gegen Schuhe für 250, die du acht Jahre trägst. Die billigen kosten 60 pro Jahr, die teuren gut 30.",
+      "act": "Nimm deinen letzten Fehlkauf, schreib auf, ob das Problem der Preis oder der Wert war, und nutz die Antwort beim nächsten Kauf.",
+      "deep": "Buffett schrieb den Satz im Februar 2009 im Brief zum Jahr 2008, mitten in der Finanzkrise, als viele Aktien stark gefallen waren. Er bezog sich auf seinen Lehrer Benjamin Graham, der zwischen dem Kurs einer Aktie und dem inneren Wert des Unternehmens unterschied.",
       "source": "Berkshire Hathaway, Brief an die Aktionäre 2008"
     },
     "en": {
@@ -395,8 +413,9 @@
         "source": "2008 shareholder letter"
       },
       "body": "Something cheap can be expensive if it's useless. Something expensive can be a bargain if it serves you for years.\n\nThat goes for stocks, but also for shoes, tools, training or a good book. The key question is never just \"What does it cost?\" but \"**What do I get for it, and for how long?**\"",
-      "apply": "Take your last bad purchase, write down whether the problem was the price or the value, and use the answer next time you buy.",
-      "more": "Buffett wrote this in February 2009 in his letter on 2008, in the middle of the financial crisis, when many shares had fallen sharply. He was drawing on his teacher Benjamin Graham, who distinguished between a stock's price and the intrinsic value of the business.",
+      "example": "Shoes for 60 francs that fall apart after a year, versus shoes for 250 you wear for eight years. The cheap ones cost 60 a year, the expensive ones just over 30.",
+      "act": "Take your last bad purchase, write down whether the problem was the price or the value, and use the answer next time you buy.",
+      "deep": "Buffett wrote this in February 2009 in his letter on 2008, in the middle of the financial crisis, when many shares had fallen sharply. He was drawing on his teacher Benjamin Graham, who distinguished between a stock's price and the intrinsic value of the business.",
       "source": "Berkshire Hathaway, 2008 shareholder letter"
     }
   },
@@ -406,6 +425,7 @@
     "sub": "macher",
     "style": "zitat",
     "level": 1,
+    "actKind": "achte",
     "de": {
       "title": "Buffett über deinen Ruf",
       "quote": {
@@ -413,8 +433,8 @@
         "author": "Warren Buffett"
       },
       "body": "Vertrauen wächst langsam: tausend kleine Momente, in denen du dein Wort gehalten hast. Und es bricht schnell: ein einziger Moment, in dem du betrogen, gelogen oder jemanden im Stich gelassen hast.\n\nBuffett fügt hinzu: Wenn du daran denkst, wirst du die Dinge anders machen. Die Frage vor einer heiklen Entscheidung lautet also: Könnte ich damit leben, wenn es morgen jeder wüsste?",
-      "apply": "Unterzieh heute eine Entscheidung dem Zeitungstest. Wenn du nicht stolz wärst, sie morgen auf der Titelseite zu lesen, lass es.",
-      "more": "Buffett formulierte für seine Manager den \"Zeitungstest\": Handle nur so, dass du nichts dagegen hättest, wenn ein kritischer Reporter darüber auf der Titelseite schreibt. 1991 rettete er die Investmentbank Salomon Brothers nach einem Skandal und sagte vor dem US-Kongress: Verliert Geld für die Firma, und ich werde verständnisvoll sein. Verliert einen Fetzen ihres Rufs, und ich werde gnadenlos sein.",
+      "act": "Unterzieh heute eine Entscheidung dem Zeitungstest. Wenn du nicht stolz wärst, sie morgen auf der Titelseite zu lesen, lass es.",
+      "deep": "Buffett formulierte für seine Manager den \"Zeitungstest\": Handle nur so, dass du nichts dagegen hättest, wenn ein kritischer Reporter darüber auf der Titelseite schreibt. 1991 rettete er die Investmentbank Salomon Brothers nach einem Skandal und sagte vor dem US-Kongress: Verliert Geld für die Firma, und ich werde verständnisvoll sein. Verliert einen Fetzen ihres Rufs, und ich werde gnadenlos sein.",
       "source": "Warren Buffett, vielfach zitiert; Aussage vor dem US-Kongress (1991)"
     },
     "en": {
@@ -424,8 +444,8 @@
         "author": "Warren Buffett"
       },
       "body": "Trust grows slowly: a thousand small moments in which you kept your word. And it breaks fast: one moment in which you cheated, lied or let someone down.\n\nBuffett adds: if you think about that, you'll do things differently. So before a delicate decision, ask: could I live with it if everyone knew tomorrow?",
-      "apply": "Put one decision through the newspaper test today. If you wouldn't be proud to read it on tomorrow's front page, don't do it.",
-      "more": "Buffett gave his managers the \"newspaper test\": only act in ways you wouldn't mind seeing written up on the front page by a critical reporter. In 1991 he rescued the investment bank Salomon Brothers after a scandal and told the US Congress: lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless.",
+      "act": "Put one decision through the newspaper test today. If you wouldn't be proud to read it on tomorrow's front page, don't do it.",
+      "deep": "Buffett gave his managers the \"newspaper test\": only act in ways you wouldn't mind seeing written up on the front page by a critical reporter. In 1991 he rescued the investment bank Salomon Brothers after a scandal and told the US Congress: lose money for the firm and I will be understanding; lose a shred of reputation for the firm and I will be ruthless.",
       "source": "Warren Buffett, widely quoted; testimony before the US Congress (1991)"
     }
   },
@@ -435,6 +455,7 @@
     "sub": "macher",
     "style": "zitat",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Steve Jobs über Fokus",
       "quote": {
@@ -443,8 +464,8 @@
         "source": "Apple Worldwide Developers Conference 1997"
       },
       "body": "Als Steve Jobs 1997 zu Apple zurückkehrte, stand die Firma kurz vor der Pleite und verkaufte Dutzende verschiedene Produkte. Jobs strich fast alles und liess nur vier übrig.\n\nFokus heisst nicht, Ja zu dem zu sagen, worauf man sich konzentriert. Es heisst, **Nein zu hundert anderen guten Ideen** zu sagen. Das ist schwer, weil viele davon wirklich gut sind.",
-      "apply": "Streich heute eine Sache von deiner Liste, die gut, aber nicht wichtig ist.",
-      "more": "Jobs zeichnete eine einfache Tabelle mit zwei Spalten (Privat, Profi) und zwei Zeilen (Desktop, tragbar): ein Produkt pro Feld. Apple kehrte 1998 in die Gewinnzone zurück. Später sagte er: Ich bin genauso stolz auf das, was wir nicht gemacht haben, wie auf das, was wir gemacht haben.",
+      "act": "Streich heute eine Sache von deiner Liste, die gut, aber nicht wichtig ist.",
+      "deep": "Jobs zeichnete eine einfache Tabelle mit zwei Spalten (Privat, Profi) und zwei Zeilen (Desktop, tragbar): ein Produkt pro Feld. Apple kehrte 1998 in die Gewinnzone zurück. Später sagte er: Ich bin genauso stolz auf das, was wir nicht gemacht haben, wie auf das, was wir gemacht haben.",
       "source": "Steve Jobs, WWDC 1997; Walter Isaacson: Steve Jobs (2011)"
     },
     "en": {
@@ -455,8 +476,8 @@
         "source": "Apple Worldwide Developers Conference 1997"
       },
       "body": "When Steve Jobs returned to Apple in 1997, the company was close to bankruptcy and selling dozens of different products. Jobs cut almost everything and kept only four.\n\nFocus doesn't mean saying yes to the thing you focus on. It means **saying no to a hundred other good ideas**. That's hard because many of them really are good.",
-      "apply": "Cross one thing off your list today that's good but not important.",
-      "more": "Jobs drew a simple grid with two columns (consumer, pro) and two rows (desktop, portable): one product per box. Apple returned to profit in 1998. He later said: I'm as proud of the things we haven't done as the things we have done.",
+      "act": "Cross one thing off your list today that's good but not important.",
+      "deep": "Jobs drew a simple grid with two columns (consumer, pro) and two rows (desktop, portable): one product per box. Apple returned to profit in 1998. He later said: I'm as proud of the things we haven't done as the things we have done.",
       "source": "Steve Jobs, WWDC 1997; Walter Isaacson: Steve Jobs (2011)"
     }
   },
@@ -466,6 +487,7 @@
     "sub": "macher",
     "style": "zitat",
     "level": 1,
+    "actKind": "frage",
     "de": {
       "title": "Stay hungry, stay foolish",
       "quote": {
@@ -474,8 +496,8 @@
         "source": "Rede an der Stanford University, 2005"
       },
       "body": "Jobs beendete seine berühmte Rede vor Absolventen mit diesen Worten. Er hatte sie selbst als junger Mann auf der Rückseite des letzten \"Whole Earth Catalog\" gelesen.\n\n**Hungrig** bleiben heisst: nie satt und selbstzufrieden werden. **Töricht** bleiben heisst: den Mut haben, Dinge zu versuchen, die andere für verrückt halten. Die meisten verlieren beides mit dem ersten Erfolg.",
-      "apply": "Schreib eine Sache auf, die du versuchen würdest, wenn dir die Meinung anderer egal wäre, und mach diese Woche den ersten Schritt.",
-      "more": "In derselben Rede erzählte Jobs drei Geschichten: wie er das Studium abbrach, wie er aus seiner eigenen Firma geworfen wurde und wie er von seiner Krebsdiagnose erfuhr. Die Rede wurde auf YouTube viele Millionen Mal angesehen. Jobs starb 2011.",
+      "act": "Was würdest du versuchen, wenn dir die Meinung anderer egal wäre? Was hält dich wirklich davon ab?",
+      "deep": "In derselben Rede erzählte Jobs drei Geschichten: wie er das Studium abbrach, wie er aus seiner eigenen Firma geworfen wurde und wie er von seiner Krebsdiagnose erfuhr. Die Rede wurde auf YouTube viele Millionen Mal angesehen. Jobs starb 2011.",
       "source": "Steve Jobs: Stanford Commencement Address, 12. Juni 2005"
     },
     "en": {
@@ -486,8 +508,8 @@
         "source": "Stanford commencement address, 2005"
       },
       "body": "Jobs ended his famous speech to graduates with these words. He had read them himself as a young man on the back cover of the final \"Whole Earth Catalog\".\n\nStaying **hungry** means never getting full and complacent. Staying **foolish** means having the nerve to try things others think are crazy. Most people lose both with their first success.",
-      "apply": "Write down one thing you'd try if you didn't care what others thought, and take the first step this week.",
-      "more": "In the same speech Jobs told three stories: about dropping out of college, being fired from his own company and learning of his cancer diagnosis. The speech has been watched many millions of times on YouTube. Jobs died in 2011.",
+      "act": "What would you try if other people's opinion didn't matter? What's really stopping you?",
+      "deep": "In the same speech Jobs told three stories: about dropping out of college, being fired from his own company and learning of his cancer diagnosis. The speech has been watched many millions of times on YouTube. Jobs died in 2011.",
       "source": "Steve Jobs: Stanford Commencement Address, 12 June 2005"
     }
   },
@@ -497,6 +519,7 @@
     "sub": "macher",
     "style": "zitat",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Bezos und die Frage mit 80",
       "quote": {
@@ -504,8 +527,8 @@
         "author": "Jeff Bezos"
       },
       "body": "1994 hatte Jeff Bezos einen sehr gut bezahlten Job an der Wall Street. Er wollte kündigen, um Bücher im Internet zu verkaufen. Sein Chef riet ihm, es sich gut zu überlegen.\n\nBezos stellte sich vor, er wäre 80 und blicke auf sein Leben zurück. Er nannte das sein **Rahmenwerk zur Minimierung des Bedauerns**. Mit 80 bereut man selten, etwas gewagt zu haben. Man bereut, was man nie versucht hat.",
-      "apply": "Stell dir vor, du bist 80. Nimm die Entscheidung, die du dann am meisten bereuen würdest, aufgeschoben zu haben, und mach diese Woche den ersten Schritt.",
-      "more": "Bezos erzählte die Geschichte unter anderem 2001 in einem Interview der Academy of Achievement. Amazon startete 1995 in seiner Garage in Seattle. Studien zu Bedauern (z. B. Gilovich und Medvec, 1995) zeigen: Kurzfristig bereuen Menschen eher Fehler, langfristig eher verpasste Chancen.",
+      "act": "Stell dir vor, du bist 80 und schaust zurück. Welche aufgeschobene Entscheidung würdest du am meisten bereuen?",
+      "deep": "Bezos erzählte die Geschichte unter anderem 2001 in einem Interview der Academy of Achievement. Amazon startete 1995 in seiner Garage in Seattle. Studien zu Bedauern (z. B. Gilovich und Medvec, 1995) zeigen: Kurzfristig bereuen Menschen eher Fehler, langfristig eher verpasste Chancen.",
       "source": "Jeff Bezos, Academy of Achievement Interview (2001); Gilovich & Medvec, Psychological Review (1995)"
     },
     "en": {
@@ -515,8 +538,8 @@
         "author": "Jeff Bezos"
       },
       "body": "In 1994 Jeff Bezos had a very well-paid job on Wall Street. He wanted to quit to sell books on the internet. His boss told him to think it over carefully.\n\nBezos imagined being 80 and looking back on his life. He called it his **regret minimisation framework**. At 80, people rarely regret having dared something. They regret what they never tried.",
-      "apply": "Imagine you're 80. Take the decision you'd most regret having put off, and make the first move this week.",
-      "more": "Bezos told the story in, among others, a 2001 Academy of Achievement interview. Amazon started in 1995 in his garage in Seattle. Research on regret (e.g. Gilovich and Medvec, 1995) shows that in the short term people regret mistakes more, but in the long run they regret missed chances.",
+      "act": "Imagine you're 80 and looking back. Which postponed decision would you regret most?",
+      "deep": "Bezos told the story in, among others, a 2001 Academy of Achievement interview. Amazon started in 1995 in his garage in Seattle. Research on regret (e.g. Gilovich and Medvec, 1995) shows that in the short term people regret mistakes more, but in the long run they regret missed chances.",
       "source": "Jeff Bezos, Academy of Achievement interview (2001); Gilovich & Medvec, Psychological Review (1995)"
     }
   },
@@ -526,6 +549,7 @@
     "sub": "strategen",
     "style": "zitat",
     "level": 1,
+    "actKind": "so",
     "de": {
       "title": "Sunzi über Selbsterkenntnis",
       "quote": {
@@ -534,8 +558,8 @@
         "source": "Die Kunst des Krieges, Kapitel 3"
       },
       "body": "Sunzi schrieb vor rund 2'500 Jahren über Krieg, doch seine Gedanken gelten in jedem Wettbewerb: Verhandlung, Sport, Bewerbung, Geschäft.\n\nDie meisten bereiten sich nur auf eine Hälfte vor. Entweder sie studieren die Gegenseite und überschätzen sich selbst, oder sie kennen ihre Stärken und unterschätzen den Gegner. Sieg verlangt **beides**.",
-      "apply": "Schreib vor deiner nächsten wichtigen Begegnung je drei Stärken und Schwächen auf: deine und die der Gegenseite.",
-      "more": "Sunzi fährt fort: Kennst du dich selbst, aber nicht den Feind, wirst du für jeden Sieg eine Niederlage erleiden. Kennst du weder den Feind noch dich selbst, wirst du in jeder Schlacht unterliegen. Das Buch ist gemeinfrei und wird bis heute an Militärakademien und in Wirtschaftskursen gelesen.",
+      "act": "Vor deiner nächsten wichtigen Begegnung:\n- Drei Stärken und drei Schwächen von dir.\n- Drei Stärken und drei Schwächen der Gegenseite.\n- Wo trifft deine Stärke auf ihre Schwäche?",
+      "deep": "Sunzi fährt fort: Kennst du dich selbst, aber nicht den Feind, wirst du für jeden Sieg eine Niederlage erleiden. Kennst du weder den Feind noch dich selbst, wirst du in jeder Schlacht unterliegen. Das Buch ist gemeinfrei und wird bis heute an Militärakademien und in Wirtschaftskursen gelesen.",
       "source": "Sunzi: Die Kunst des Krieges, Kapitel 3 (eigene Übersetzung)"
     },
     "en": {
@@ -546,8 +570,8 @@
         "source": "The Art of War, chapter 3"
       },
       "body": "Sun Tzu wrote about war around 2,500 years ago, but his ideas apply to any contest: negotiation, sport, job interviews, business.\n\nMost people prepare only one half. Either they study the other side and overrate themselves, or they know their strengths and underrate the opponent. Victory demands **both**.",
-      "apply": "Before your next important encounter, write down three strengths and three weaknesses: yours and the other side's.",
-      "more": "Sun Tzu continues: if you know yourself but not the enemy, for every victory you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle. The book is in the public domain and is still read at military academies and in business courses.",
+      "act": "Before your next important encounter:\n- Three strengths and three weaknesses of yours.\n- Three strengths and three weaknesses of the other side.\n- Where does your strength meet their weakness?",
+      "deep": "Sun Tzu continues: if you know yourself but not the enemy, for every victory you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle. The book is in the public domain and is still read at military academies and in business courses.",
       "source": "Sun Tzu: The Art of War, chapter 3 (trans. Lionel Giles, 1910)"
     }
   },
@@ -557,6 +581,7 @@
     "sub": "strategen",
     "style": "zitat",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Sunzi über den besten Sieg",
       "quote": {
@@ -565,8 +590,8 @@
         "source": "Die Kunst des Krieges, Kapitel 3"
       },
       "body": "Ein Kampf kostet immer, auch den Sieger. Darum ist für Sunzi der beste Sieg der, für den man gar nicht kämpfen muss: durch Vorbereitung, Stärke, kluge Bündnisse oder ein Angebot, das der andere nicht ablehnen will.\n\nIm Alltag heisst das: Nicht jeder Streit muss ausgetragen werden. Oft gewinnst du mehr, wenn du die Lage so gestaltest, dass der Konflikt gar nicht erst entsteht.",
-      "apply": "Such dir einen Konflikt, der sich anbahnt, und entschärfe ihn diese Woche mit guter Vorbereitung oder einem fairen Angebot, bevor er beginnt.",
-      "more": "Sunzi unterscheidet eine Rangfolge: Am besten ist es, die Pläne des Gegners zu durchkreuzen, dann seine Bündnisse zu stören, dann sein Heer anzugreifen. Am schlechtesten ist es, befestigte Städte zu belagern. Moderne Verhandlungsforschung sieht ähnlich die beste Position darin, eine starke Alternative zu haben.",
+      "act": "Such dir einen Konflikt, der sich anbahnt, und entschärfe ihn diese Woche mit guter Vorbereitung oder einem fairen Angebot, bevor er beginnt.",
+      "deep": "Sunzi unterscheidet eine Rangfolge: Am besten ist es, die Pläne des Gegners zu durchkreuzen, dann seine Bündnisse zu stören, dann sein Heer anzugreifen. Am schlechtesten ist es, befestigte Städte zu belagern. Moderne Verhandlungsforschung sieht ähnlich die beste Position darin, eine starke Alternative zu haben.",
       "source": "Sunzi: Die Kunst des Krieges, Kapitel 3 (eigene Übersetzung)"
     },
     "en": {
@@ -577,8 +602,8 @@
         "source": "The Art of War, chapter 3"
       },
       "body": "A fight always costs, even the winner. So for Sun Tzu the best victory is one you don't have to fight for at all: through preparation, strength, smart alliances or an offer the other side won't want to refuse.\n\nIn daily life that means not every dispute has to be fought out. Often you win more by shaping the situation so the conflict never starts.",
-      "apply": "Pick a conflict that's brewing and defuse it this week with good preparation or a fair offer, before it starts.",
-      "more": "Sun Tzu sets out an order: best is to thwart the enemy's plans, next to disrupt his alliances, then to attack his army. Worst is to besiege walled cities. Modern negotiation research similarly sees the strongest position in having a good alternative.",
+      "act": "Pick a conflict that's brewing and defuse it this week with good preparation or a fair offer, before it starts.",
+      "deep": "Sun Tzu sets out an order: best is to thwart the enemy's plans, next to disrupt his alliances, then to attack his army. Worst is to besiege walled cities. Modern negotiation research similarly sees the strongest position in having a good alternative.",
       "source": "Sun Tzu: The Art of War, chapter 3 (trans. Lionel Giles, 1910)"
     }
   },
@@ -588,6 +613,7 @@
     "sub": "strategen",
     "style": "zitat",
     "level": 1,
+    "actKind": "merke",
     "de": {
       "title": "Eisenhower über Pläne",
       "quote": {
@@ -596,8 +622,8 @@
         "source": "Rede, 1957"
       },
       "body": "Eisenhower plante als alliierter Oberbefehlshaber die Landung in der Normandie, die grösste Landungsoperation der Geschichte. Er wusste: Kein Plan überlebt den ersten Kontakt mit der Wirklichkeit.\n\nWarum dann planen? Weil du beim Planen die Lage **verstehst**. Wer gut geplant hat, kann improvisieren, wenn alles anders kommt, weil er weiss, worauf es ankommt.",
-      "apply": "Plane deinen morgigen Tag in fünf Minuten, und sei bereit, den Plan zu ändern.",
-      "more": "Eisenhower sagte den Satz 1957 als US-Präsident vor einer Konferenz zur Notfallplanung. Er wird ihm oft mit dem Zusatz zugeschrieben, er habe ihn \"in der Armee gehört\". Ein Verwandter des Gedankens ist Helmuth von Moltkes Satz, dass kein Operationsplan mit Sicherheit über das erste Zusammentreffen mit der feindlichen Hauptmacht hinausreicht.",
+      "act": "Der Plan selbst wird nicht halten. Aber wer geplant hat, kennt das Gelände und kann schnell umplanen.",
+      "deep": "Eisenhower sagte den Satz 1957 als US-Präsident vor einer Konferenz zur Notfallplanung. Er wird ihm oft mit dem Zusatz zugeschrieben, er habe ihn \"in der Armee gehört\". Ein Verwandter des Gedankens ist Helmuth von Moltkes Satz, dass kein Operationsplan mit Sicherheit über das erste Zusammentreffen mit der feindlichen Hauptmacht hinausreicht.",
       "source": "Dwight D. Eisenhower: Rede vor der National Defense Executive Reserve Conference, 14. November 1957"
     },
     "en": {
@@ -608,8 +634,8 @@
         "source": "Speech, 1957"
       },
       "body": "As Supreme Allied Commander, Eisenhower planned the Normandy landings, the largest amphibious operation in history. He knew: no plan survives first contact with reality.\n\nSo why plan? Because planning makes you **understand** the situation. If you've planned well, you can improvise when everything turns out differently, because you know what really matters.",
-      "apply": "Plan tomorrow in five minutes, and be ready to change the plan.",
-      "more": "Eisenhower said it in 1957 as US President at a conference on emergency planning, adding he had \"heard it long ago in the Army\". A related idea is Helmuth von Moltke's remark that no plan of operations extends with certainty beyond the first encounter with the enemy's main force.",
+      "act": "The plan itself won't hold. But whoever planned knows the ground and can re-plan fast.",
+      "deep": "Eisenhower said it in 1957 as US President at a conference on emergency planning, adding he had \"heard it long ago in the Army\". A related idea is Helmuth von Moltke's remark that no plan of operations extends with certainty beyond the first encounter with the enemy's main force.",
       "source": "Dwight D. Eisenhower: Remarks at the National Defense Executive Reserve Conference, 14 November 1957"
     }
   },
@@ -619,6 +645,7 @@
     "sub": "strategen",
     "style": "zitat",
     "level": 2,
+    "actKind": "achte",
     "de": {
       "title": "Der Mann in der Arena",
       "quote": {
@@ -627,8 +654,8 @@
         "source": "Rede an der Sorbonne, Paris, 1910"
       },
       "body": "Roosevelt spricht über die Menschen, die von der Tribüne aus erklären, was der Kämpfer hätte besser machen sollen. Ihre Meinung zählt wenig.\n\nWer etwas wagt, wird Fehler machen, scheitern und kritisiert werden. Aber selbst wenn er scheitert, so Roosevelt, scheitert er wenigstens \"unter grossem Wagnis\", und sein Platz wird nie bei den kalten, ängstlichen Seelen sein, die weder Sieg noch Niederlage kennen.",
-      "apply": "Wenn dich das nächste Mal jemand kritisiert, der selbst nichts wagt, nimm mit, was stimmt, und geh zurück in die Arena.",
-      "more": "Die Rede \"Citizenship in a Republic\" hielt der frühere US-Präsident am 23. April 1910 in Paris. Die Passage ist gemeinfrei und wurde unter anderem durch die Forscherin Brené Brown und ihr Buch \"Daring Greatly\" wieder bekannt, dessen Titel aus dieser Rede stammt.",
+      "act": "Wenn dich das nächste Mal jemand kritisiert, der selbst nichts wagt, nimm mit, was stimmt, und geh zurück in die Arena.",
+      "deep": "Die Rede \"Citizenship in a Republic\" hielt der frühere US-Präsident am 23. April 1910 in Paris. Die Passage ist gemeinfrei und wurde unter anderem durch die Forscherin Brené Brown und ihr Buch \"Daring Greatly\" wieder bekannt, dessen Titel aus dieser Rede stammt.",
       "source": "Theodore Roosevelt: Citizenship in a Republic (1910), eigene Übersetzung"
     },
     "en": {
@@ -639,8 +666,8 @@
         "source": "Speech at the Sorbonne, Paris, 1910"
       },
       "body": "Roosevelt is talking about the people in the stands who explain what the fighter should have done better. Their opinion counts for little.\n\nWhoever dares something will make mistakes, fail and be criticised. But even if he fails, Roosevelt says, he at least fails \"while daring greatly\", and his place shall never be with those cold and timid souls who know neither victory nor defeat.",
-      "apply": "Next time someone who dares nothing criticises you, take what's true and step back into the arena.",
-      "more": "The former US President gave the speech \"Citizenship in a Republic\" in Paris on 23 April 1910. The passage is in the public domain and was popularised again by researcher Brené Brown, whose book \"Daring Greatly\" takes its title from it.",
+      "act": "Next time someone who dares nothing criticises you, take what's true and step back into the arena.",
+      "deep": "The former US President gave the speech \"Citizenship in a Republic\" in Paris on 23 April 1910. The passage is in the public domain and was popularised again by researcher Brené Brown, whose book \"Daring Greatly\" takes its title from it.",
       "source": "Theodore Roosevelt: Citizenship in a Republic (1910)"
     }
   },
@@ -650,6 +677,7 @@
     "sub": "strategen",
     "style": "zitat",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Mike Tyson über Pläne",
       "quote": {
@@ -657,8 +685,8 @@
         "author": "Mike Tyson"
       },
       "body": "Vor einem Kampf wurde Tyson gefragt, ob ihm der Plan seines Gegners Sorgen mache. Seine Antwort ist seither ein Klassiker.\n\nDer Kern ist ernst: Was zählt, ist nicht der Plan, sondern wie du reagierst, wenn er zerbricht. Wer nur unter idealen Bedingungen funktioniert, ist nicht vorbereitet. Training heisst deshalb auch, **unter Druck klar zu bleiben**.",
-      "apply": "Schreib für dein nächstes wichtiges Vorhaben einen Plan B auf, für den Fall, dass der erste Schritt schiefgeht.",
-      "more": "Der Satz kursiert in mehreren Fassungen. Tyson erklärte ihn 2012 in einem Interview mit dem South Florida Sun-Sentinel. Tyson wurde 1986 mit 20 Jahren jüngster Schwergewichtsweltmeister der Geschichte. Eisenhower und Moltke sagten auf ihre Art dasselbe.",
+      "act": "Schreib für dein nächstes wichtiges Vorhaben einen Plan B auf, für den Fall, dass der erste Schritt schiefgeht.",
+      "deep": "Der Satz kursiert in mehreren Fassungen. Tyson erklärte ihn 2012 in einem Interview mit dem South Florida Sun-Sentinel. Tyson wurde 1986 mit 20 Jahren jüngster Schwergewichtsweltmeister der Geschichte. Eisenhower und Moltke sagten auf ihre Art dasselbe.",
       "source": "Mike Tyson, vielfach zitiert (u. a. South Florida Sun-Sentinel, 2012)"
     },
     "en": {
@@ -668,8 +696,8 @@
         "author": "Mike Tyson"
       },
       "body": "Before a fight, Tyson was asked whether his opponent's plan worried him. His reply has been a classic ever since.\n\nThe point is serious: what matters isn't the plan but how you react when it breaks. If you only function in ideal conditions, you're not prepared. So training also means **staying clear under pressure**.",
-      "apply": "Write down a plan B for your next important project, in case the first step goes wrong.",
-      "more": "The line circulates in several versions. Tyson explained it in a 2012 interview with the South Florida Sun-Sentinel. In 1986, at 20, Tyson became the youngest heavyweight champion in history. Eisenhower and Moltke said the same thing in their own ways.",
+      "act": "Write down a plan B for your next important project, in case the first step goes wrong.",
+      "deep": "The line circulates in several versions. Tyson explained it in a 2012 interview with the South Florida Sun-Sentinel. In 1986, at 20, Tyson became the youngest heavyweight champion in history. Eisenhower and Moltke said the same thing in their own ways.",
       "source": "Mike Tyson, widely quoted (e.g. South Florida Sun-Sentinel, 2012)"
     }
   },
@@ -679,6 +707,7 @@
     "sub": "glaube",
     "style": "zitat",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Augustinus über das unruhige Herz",
       "quote": {
@@ -687,8 +716,8 @@
         "source": "Bekenntnisse I,1"
       },
       "body": "Augustinus hatte alles ausprobiert: Karriere als Redner, Erfolg, Frauen, Philosophien, Sekten. Nichts füllte die Leere auf Dauer.\n\nSein berühmtester Satz erklärt, warum: Der Mensch ist auf Gott hin geschaffen. Alles andere, Geld, Anerkennung, Vergnügen, kann diese Sehnsucht kurz übertönen, aber nicht stillen. Die Unruhe ist kein Fehler, sondern ein **Wegweiser**.",
-      "apply": "Wenn du dich das nächste Mal rastlos fühlst, nimm dir zwei Minuten Stille vor Gott, statt zum Handy zu greifen.",
-      "more": "Augustinus (354 bis 430) wurde in Nordafrika geboren, bekehrte sich mit 32 Jahren in Mailand und wurde später Bischof von Hippo. Seine \"Bekenntnisse\" gelten als erste Autobiografie der Weltliteratur. Er ist einer der Kirchenlehrer und hat das westliche Christentum geprägt wie kaum ein anderer.",
+      "act": "Wenn du dich rastlos fühlst und zum Handy greifen willst: Nimm dir zwei Minuten Stille und sag Gott, was dich unruhig macht.",
+      "deep": "Augustinus (354 bis 430) wurde in Nordafrika geboren, bekehrte sich mit 32 Jahren in Mailand und wurde später Bischof von Hippo. Seine \"Bekenntnisse\" gelten als erste Autobiografie der Weltliteratur. Er ist einer der Kirchenlehrer und hat das westliche Christentum geprägt wie kaum ein anderer.",
       "source": "Augustinus: Bekenntnisse (Confessiones) I,1 (um 400)"
     },
     "en": {
@@ -699,8 +728,8 @@
         "source": "Confessions I.1"
       },
       "body": "Augustine had tried everything: a career as an orator, success, women, philosophies, sects. Nothing filled the emptiness for long.\n\nHis most famous line explains why: human beings are made for God. Everything else, money, recognition, pleasure, can drown out that longing for a while but cannot satisfy it. The restlessness isn't a defect; it's a **signpost**.",
-      "apply": "Next time you feel restless, take two minutes of silence before God instead of reaching for your phone.",
-      "more": "Augustine (354 to 430) was born in North Africa, converted at 32 in Milan and later became Bishop of Hippo. His \"Confessions\" are considered the first autobiography in world literature. He is a Doctor of the Church and shaped Western Christianity like few others.",
+      "act": "When you feel restless and reach for your phone: take two minutes of silence and tell God what's unsettling you.",
+      "deep": "Augustine (354 to 430) was born in North Africa, converted at 32 in Milan and later became Bishop of Hippo. His \"Confessions\" are considered the first autobiography in world literature. He is a Doctor of the Church and shaped Western Christianity like few others.",
       "source": "Augustine: Confessions I.1 (c. 400)"
     }
   },
@@ -710,6 +739,7 @@
     "sub": "glaube",
     "style": "zitat",
     "level": 2,
+    "actKind": "frage",
     "de": {
       "title": "Liebe, und tu, was du willst",
       "quote": {
@@ -718,8 +748,8 @@
         "source": "Predigt über den 1. Johannesbrief 7,8"
       },
       "body": "Klingt nach einem Freibrief, ist aber das Gegenteil. Augustinus meint: Wenn dein Handeln wirklich aus Liebe kommt, aus dem Willen zum Guten des anderen, dann wird auch das, was du tust, gut sein.\n\nManchmal sieht Liebe streng aus, etwa wenn ein Vater sein Kind zurechtweist. Manchmal sieht Härte nach Liebe aus und ist doch nur Stolz. Entscheidend ist nicht die äussere Form, sondern **die Wurzel**.",
-      "apply": "Prüf heute bei einer Entscheidung, warum du sie triffst. Wenn es nur Eigennutz ist, entscheide neu.",
-      "more": "Im lateinischen Original: \"Dilige, et quod vis fac.\" Augustinus fährt fort: Schweigst du, so schweige aus Liebe; rufst du, so rufe aus Liebe; tadelst du, so tadle aus Liebe; schonst du, so schone aus Liebe. Die Wurzel der Liebe sei innen, aus dieser Wurzel könne nur Gutes hervorgehen.",
+      "act": "Warum triffst du deine nächste Entscheidung? Aus Liebe zum Guten des anderen, oder nur aus Eigennutz?",
+      "deep": "Im lateinischen Original: \"Dilige, et quod vis fac.\" Augustinus fährt fort: Schweigst du, so schweige aus Liebe; rufst du, so rufe aus Liebe; tadelst du, so tadle aus Liebe; schonst du, so schone aus Liebe. Die Wurzel der Liebe sei innen, aus dieser Wurzel könne nur Gutes hervorgehen.",
       "source": "Augustinus: In epistulam Ioannis ad Parthos, Tractatus 7,8"
     },
     "en": {
@@ -730,8 +760,8 @@
         "source": "Homily on the First Letter of John 7.8"
       },
       "body": "It sounds like a blank cheque, but it's the opposite. Augustine means: if your actions truly come from love, from willing the good of the other, then what you do will be good too.\n\nSometimes love looks strict, as when a father corrects his child. Sometimes harshness looks like love and is really just pride. What matters isn't the outward form but **the root**.",
-      "apply": "Check why you're making one decision today. If it's only self-interest, decide again.",
-      "more": "In the Latin original: \"Dilige, et quod vis fac.\" Augustine continues: if you keep silent, keep silent out of love; if you cry out, cry out out of love; if you correct, correct out of love; if you spare, spare out of love. Let the root of love be within, for from that root nothing but good can grow.",
+      "act": "Why are you making your next decision? Out of love for the other person's good, or just self-interest?",
+      "deep": "In the Latin original: \"Dilige, et quod vis fac.\" Augustine continues: if you keep silent, keep silent out of love; if you cry out, cry out out of love; if you correct, correct out of love; if you spare, spare out of love. Let the root of love be within, for from that root nothing but good can grow.",
       "source": "Augustine: Homilies on the First Epistle of John, Tractate 7.8"
     }
   },
@@ -741,6 +771,7 @@
     "sub": "glaube",
     "style": "zitat",
     "level": 2,
+    "actKind": "gebet",
     "de": {
       "title": "Beten und arbeiten",
       "quote": {
@@ -749,8 +780,8 @@
         "source": "Scintillae Ignatianae (1705)"
       },
       "body": "Bekannter ist die vereinfachte Form: \"Bete, als hinge alles von Gott ab, und arbeite, als hinge alles von dir ab.\" Das Original ist kniffliger und dreht die Erwartung um.\n\nDer Sinn: Vertrauen auf Gott ist **keine Ausrede, nichts zu tun**, und harte Arbeit ist **keine Ausrede, nicht zu vertrauen**. Beides gehört zusammen. Wer nur betet, wird passiv. Wer nur arbeitet, wird verbissen.",
-      "apply": "Bring dein grösstes Projekt heute im Gebet zu Gott, und mach danach den nächsten konkreten Schritt.",
-      "more": "Der ungarische Jesuit Gábor Hevenesi sammelte 1705 Leitsätze im Geist des heiligen Ignatius. Der Satz wird oft direkt Ignatius zugeschrieben, ist aber in seinen eigenen Schriften so nicht belegt. Die Benediktiner fassen einen ähnlichen Gedanken seit Jahrhunderten in \"Ora et labora\": Bete und arbeite.",
+      "act": "Bring dein grösstes Vorhaben heute im Gebet zu Gott, so als hinge alles an dir. Und dann arbeite daran, so als hinge alles an ihm.",
+      "deep": "Der ungarische Jesuit Gábor Hevenesi sammelte 1705 Leitsätze im Geist des heiligen Ignatius. Der Satz wird oft direkt Ignatius zugeschrieben, ist aber in seinen eigenen Schriften so nicht belegt. Die Benediktiner fassen einen ähnlichen Gedanken seit Jahrhunderten in \"Ora et labora\": Bete und arbeite.",
       "source": "Gábor Hevenesi: Scintillae Ignatianae (1705)"
     },
     "en": {
@@ -761,8 +792,8 @@
         "source": "Scintillae Ignatianae (1705)"
       },
       "body": "The simplified version is better known: \"Pray as if everything depended on God, and work as if everything depended on you.\" The original is trickier and turns expectations around.\n\nThe point: trusting God is **no excuse for doing nothing**, and hard work is **no excuse for not trusting**. The two belong together. Pray only and you become passive. Work only and you become grim.",
-      "apply": "Bring your biggest project to God in prayer today, and then take the next concrete step.",
-      "more": "In 1705 the Hungarian Jesuit Gábor Hevenesi collected maxims in the spirit of St Ignatius. The saying is often credited directly to Ignatius but isn't documented in this form in his own writings. The Benedictines have long summed up a similar idea as \"Ora et labora\": pray and work.",
+      "act": "Bring your biggest undertaking to God in prayer today, as if everything depended on you. Then work on it as if everything depended on him.",
+      "deep": "In 1705 the Hungarian Jesuit Gábor Hevenesi collected maxims in the spirit of St Ignatius. The saying is often credited directly to Ignatius but isn't documented in this form in his own writings. The Benedictines have long summed up a similar idea as \"Ora et labora\": pray and work.",
       "source": "Gábor Hevenesi: Scintillae Ignatianae (1705)"
     }
   },
@@ -772,6 +803,7 @@
     "sub": "glaube",
     "style": "zitat",
     "level": 1,
+    "actKind": "gebet",
     "de": {
       "title": "Johannes Paul II.: Habt keine Angst",
       "quote": {
@@ -780,8 +812,8 @@
         "source": "Predigt zur Amtseinführung, 22. Oktober 1978"
       },
       "body": "Mit diesen Worten begann ein Pole sein Pontifikat, der unter den Nazis heimlich Theologie studiert und unter den Kommunisten als Bischof gewirkt hatte. Er wusste, was Angst ist.\n\n\"Habt keine Angst\" ist einer der häufigsten Sätze der ganzen Bibel. Johannes Paul II. machte ihn zum Programm. Elf Jahre später fiel die Berliner Mauer, und viele Historiker sehen in seinem Einfluss einen der Gründe.",
-      "apply": "Sprich heute vor Gott die Angst aus, die dich vom Richtigen abhält, und tu trotzdem einen Schritt.",
-      "more": "Karol Wojtyła (1920 bis 2005) war der erste nichtitalienische Papst seit über 450 Jahren. Bei seinem ersten Besuch als Papst in Polen 1979 kamen Millionen Menschen. Die Solidarność-Bewegung entstand im Jahr darauf. Er wurde 2014 heiliggesprochen.",
+      "act": "Sprich vor Gott die Angst aus, die dich vom Richtigen abhält. Dann tu trotzdem einen Schritt.",
+      "deep": "Karol Wojtyła (1920 bis 2005) war der erste nichtitalienische Papst seit über 450 Jahren. Bei seinem ersten Besuch als Papst in Polen 1979 kamen Millionen Menschen. Die Solidarność-Bewegung entstand im Jahr darauf. Er wurde 2014 heiliggesprochen.",
       "source": "Johannes Paul II.: Predigt zu Beginn des Pontifikats, 22. Oktober 1978"
     },
     "en": {
@@ -792,8 +824,8 @@
         "source": "Homily at the inauguration of his pontificate, 22 October 1978"
       },
       "body": "With these words a Pole began his pontificate, a man who had secretly studied theology under the Nazis and served as a bishop under the Communists. He knew what fear was.\n\n\"Be not afraid\" is one of the most frequent phrases in the whole Bible. John Paul II made it his programme. Eleven years later the Berlin Wall fell, and many historians count his influence among the reasons.",
-      "apply": "Name before God today the fear that keeps you from doing what's right, and take one step anyway.",
-      "more": "Karol Wojtyła (1920 to 2005) was the first non-Italian pope in more than 450 years. Millions turned out on his first papal visit to Poland in 1979. The Solidarity movement emerged the following year. He was canonised in 2014.",
+      "act": "Name before God the fear that keeps you from doing what's right. Then take a step anyway.",
+      "deep": "Karol Wojtyła (1920 to 2005) was the first non-Italian pope in more than 450 years. Millions turned out on his first papal visit to Poland in 1979. The Solidarity movement emerged the following year. He was canonised in 2014.",
       "source": "John Paul II: Homily for the inauguration of his pontificate, 22 October 1978"
     }
   },
@@ -803,6 +835,7 @@
     "sub": "glaube",
     "style": "zitat",
     "level": 2,
+    "actKind": "langfristig",
     "de": {
       "title": "Chesterton über das christliche Ideal",
       "quote": {
@@ -811,8 +844,8 @@
         "source": "What's Wrong with the World (1910)"
       },
       "body": "Viele lehnen das Christentum ab, weil Christen schlecht leben. Chesterton antwortet: Das beweist nicht, dass die Lehre falsch ist, sondern dass sie **anspruchsvoll** ist.\n\nFeinde lieben, vergeben ohne zu zählen, treu sein, die Wahrheit sagen, dienen statt herrschen: Das ist kein bequemer Weg. Die Frage an jeden Christen ist darum nicht nur \"Glaubst du das?\", sondern \"**Versuchst du es wirklich?**\"",
-      "apply": "Wähle eine Lehre Jesu, die du schwierig findest, und versuche sie diese Woche ernsthaft.",
-      "more": "Gilbert Keith Chesterton (1874 bis 1936) war ein englischer Schriftsteller, bekannt für seine Pater-Brown-Krimis und seine witzigen Paradoxe. 1922 trat er zur katholischen Kirche über. Für seine Seligsprechung gab es Bestrebungen, die bisher nicht eröffnet wurden.",
+      "act": "Wähle eine Lehre Jesu, die du schwierig findest: Feinde lieben, ohne Grenze vergeben, nicht urteilen. Versuche sie einen Monat lang ernsthaft.",
+      "deep": "Gilbert Keith Chesterton (1874 bis 1936) war ein englischer Schriftsteller, bekannt für seine Pater-Brown-Krimis und seine witzigen Paradoxe. 1922 trat er zur katholischen Kirche über. Für seine Seligsprechung gab es Bestrebungen, die bisher nicht eröffnet wurden.",
       "source": "G. K. Chesterton: What's Wrong with the World (1910), eigene Übersetzung"
     },
     "en": {
@@ -823,8 +856,8 @@
         "source": "What's Wrong with the World (1910)"
       },
       "body": "Many reject Christianity because Christians live badly. Chesterton replies: that doesn't prove the teaching is false, only that it's **demanding**.\n\nLoving enemies, forgiving without counting, being faithful, telling the truth, serving rather than ruling: that's no comfortable path. So the question for every Christian isn't only \"Do you believe this?\" but \"**Are you really trying?**\"",
-      "apply": "Pick one teaching of Jesus you find hard, and seriously try to live it this week.",
-      "more": "Gilbert Keith Chesterton (1874 to 1936) was an English writer known for his Father Brown detective stories and witty paradoxes. He converted to the Catholic Church in 1922. There have been efforts towards his beatification, which have not been formally opened so far.",
+      "act": "Choose a teaching of Jesus you find hard: love your enemies, forgive without limit, don't judge. Try it seriously for a month.",
+      "deep": "Gilbert Keith Chesterton (1874 to 1936) was an English writer known for his Father Brown detective stories and witty paradoxes. He converted to the Catholic Church in 1922. There have been efforts towards his beatification, which have not been formally opened so far.",
       "source": "G. K. Chesterton: What's Wrong with the World (1910)"
     }
   },
@@ -834,6 +867,7 @@
     "sub": "stoiker",
     "style": "zitat",
     "level": 1,
+    "actKind": "heute",
     "de": {
       "title": "Seneca über die grösste Macht",
       "quote": {
@@ -842,8 +876,8 @@
         "source": "Briefe an Lucilius, 113"
       },
       "body": "Seneca war einer der reichsten Männer Roms und Berater des Kaisers Nero. Er kannte Macht aus nächster Nähe, und er sah, wie sie Menschen zerstörte, die sich selbst nicht im Griff hatten.\n\nSein Schluss: Über andere zu herrschen ist wenig wert, wenn du von deinen Launen, deinem Zorn und deinen Gelüsten beherrscht wirst. Die grösste Macht ist die über dich selbst.",
-      "apply": "Wähle heute eine Gewohnheit, die dich beherrscht, und sag ihr einmal bewusst Nein.",
-      "more": "Der Satz steht im 113. Brief an seinen Freund Lucilius. Seneca schrieb die Briefe in seinen letzten Lebensjahren, nachdem er sich vom Hof Neros zurückgezogen hatte. 65 nach Christus zwang Nero ihn zum Selbstmord.",
+      "act": "Wähle heute eine Gewohnheit, die dich beherrscht, und sag ihr einmal bewusst Nein.",
+      "deep": "Der Satz steht im 113. Brief an seinen Freund Lucilius. Seneca schrieb die Briefe in seinen letzten Lebensjahren, nachdem er sich vom Hof Neros zurückgezogen hatte. 65 nach Christus zwang Nero ihn zum Selbstmord.",
       "source": "Seneca: Epistulae morales 113,30 (eigene Übersetzung)"
     },
     "en": {
@@ -854,8 +888,8 @@
         "source": "Letters to Lucilius, 113"
       },
       "body": "Seneca was one of the richest men in Rome and adviser to the emperor Nero. He knew power up close, and he saw how it destroyed people who had no control over themselves.\n\nHis conclusion: ruling others is worth little if you're ruled by your moods, your anger and your cravings. The greatest power is power over yourself.",
-      "apply": "Pick one habit that rules you and say no to it on purpose once today.",
-      "more": "The line is in the 113th letter to his friend Lucilius. Seneca wrote the letters in his last years, after withdrawing from Nero's court. In 65 AD Nero forced him to take his own life.",
+      "act": "Pick one habit that rules you and say no to it on purpose once today.",
+      "deep": "The line is in the 113th letter to his friend Lucilius. Seneca wrote the letters in his last years, after withdrawing from Nero's court. In 65 AD Nero forced him to take his own life.",
       "source": "Seneca: Moral Letters 113.30"
     }
   }

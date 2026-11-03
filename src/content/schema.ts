@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { NEWS_AREA, NEWS_ID, NEWS_MAX_DAYS } from './news';
-import { AREA_BY_ID, STYLES } from './taxonomy';
+import { ACT_KINDS, AREA_BY_ID, STYLES } from './taxonomy';
 
 const nonEmpty = z.string().trim().min(1);
 
@@ -14,14 +14,29 @@ const QuoteSchema = z.object({
 /** One language version of a card or a stack slide. */
 const TextSchema = z.object({
   title: nonEmpty.max(80),
-  /** Paragraphs separated by a blank line. `**bold**` is supported. */
+  /**
+   * Paragraphs separated by a blank line. `**bold**` is supported.
+   * A paragraph that is only `---` starts a new page (pages are swiped sideways).
+   * Pages are also split automatically, so a card never needs vertical scrolling.
+   */
   body: z.string().default(''),
-  /** Optional bullet list (shown as "Liste" presentation). */
+  /** Optional numbered list (shown as "Liste" presentation). */
   points: z.array(nonEmpty).optional(),
   quote: QuoteSchema.optional(),
-  /** One concrete sentence: what to do with it today. */
-  apply: z.string().optional(),
-  /** "Mehr erfahren": background, explanation, example. */
+  /** A worked example, shown in its own box ("Beispiel"). Paragraphs like body. */
+  example: z.string().optional(),
+  /**
+   * The closing section; its heading comes from the card's actKind
+   * (Heute anwenden, So wendest du es an, Achte darauf, Über längere Zeit, Merk dir, Frag dich, Im Gebet).
+   * Lines starting with "- " become steps.
+   */
+  act: z.string().optional(),
+  /**
+   * "Genauer betrachtet": depth for those who want it (research, history, nuance).
+   * Shown as the card's last page(s), after the closing section. Paragraphs like body.
+   */
+  deep: z.string().optional(),
+  /** "Mehr erfahren" sheet: background that does not need its own page. */
   more: z.string().optional(),
   source: z.string().optional(),
 });
@@ -35,6 +50,8 @@ const Base = z.object({
   style: z.enum(STYLES),
   /** 1 = easy, 2 = medium, 3 = deep. */
   level: z.union([z.literal(1), z.literal(2), z.literal(3)]).default(1),
+  /** What kind of closing section the card has (see act). */
+  actKind: z.enum(ACT_KINDS).optional(),
   de: TextSchema,
   en: TextSchema,
   /** A stack: the card itself is the cover, slides follow sideways. */
@@ -64,6 +81,21 @@ export const CardSchema = Base.superRefine((card, ctx) => {
   }
   if (!!card.de.points !== !!card.en.points || (card.de.points?.length ?? 0) !== (card.en.points?.length ?? 0)) {
     ctx.addIssue({ code: 'custom', message: 'de/en points differ in count', path: ['en', 'points'] });
+  }
+  if (!!card.de.act !== !!card.en.act) {
+    ctx.addIssue({ code: 'custom', message: 'act present in only one language', path: ['en', 'act'] });
+  }
+  if (card.de.act && !card.actKind) {
+    ctx.addIssue({ code: 'custom', message: 'card with act needs actKind', path: ['actKind'] });
+  }
+  if (!!card.de.deep !== !!card.en.deep) {
+    ctx.addIssue({ code: 'custom', message: 'deep present in only one language', path: ['en', 'deep'] });
+  }
+  if (!!card.de.example !== !!card.en.example) {
+    ctx.addIssue({ code: 'custom', message: 'example present in only one language', path: ['en', 'example'] });
+  }
+  for (const [i, slide] of (card.slides ?? []).entries()) {
+    if (slide.de.act || slide.en.act) ctx.addIssue({ code: 'custom', message: 'act belongs on the card, not on a slide', path: ['slides', i] });
   }
   if (!!card.de.quote !== !!card.en.quote) {
     ctx.addIssue({ code: 'custom', message: 'quote present in only one language', path: ['en', 'quote'] });
