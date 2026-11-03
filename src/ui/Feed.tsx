@@ -19,6 +19,7 @@ import {
 import { CardView } from './CardView';
 import { Icon } from './Icon';
 import { useDesktop } from './useDesktop';
+import { cardLink, clearCardLink, linkedCards } from './links';
 
 interface FeedEntry {
   key: string;
@@ -27,10 +28,16 @@ interface FeedEntry {
   due?: boolean;
   /** A card from the "Umsetzen" list, shown again to ask whether it was done. */
   checkIn?: boolean;
+  /** Opened from a shared link. */
+  shared?: boolean;
 }
 
 const BATCH = 3;
 let entryCounter = 0;
+
+function sharedEntries(ids: string[]): FeedEntry[] {
+  return ids.map((cardId) => ({ key: `${cardId}-${entryCounter++}`, cardId, shared: true }));
+}
 
 function nextEntries(existing: FeedEntry[], count: number): FeedEntry[] {
   const s = getState();
@@ -54,12 +61,18 @@ export interface FeedProps {
   onMore: (cardId: string) => void;
   onToast: (text: string) => void;
   onOpenTopics: () => void;
+  /** Only the cards from a shared link, before onboarding: no endless feed, a way in at the end. */
+  preview?: { onStart: () => void };
 }
 
-export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
+export function Feed({ onMore, onToast, onOpenTopics, preview }: FeedProps) {
   const tr = useT();
   const prefs = useStore((s) => s.prefs);
-  const [entries, setEntries] = useState<FeedEntry[]>(() => nextEntries([], BATCH + 1));
+  // A shared link (#k=…) puts its cards first; the normal feed follows.
+  const [entries, setEntries] = useState<FeedEntry[]>(() => {
+    const linked = sharedEntries(linkedCards());
+    return preview ? linked : [...linked, ...nextEntries(linked, linked.length ? BATCH : BATCH + 1)];
+  });
   const [active, setActive] = useState(0);
   const [burst, setBurst] = useState<{ x: number; y: number; id: number } | null>(null);
   const [pop, setPop] = useState<string | null>(null);
@@ -115,11 +128,30 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
 
   // --- endless: keep a few cards ahead of the active one
   useEffect(() => {
+    if (preview) return;
     if (active >= entries.length - 2) {
       const more = nextEntries(entries, BATCH);
       if (more.length) setEntries((prev) => [...prev, ...more]);
     }
-  }, [active, entries]);
+  }, [active, entries, preview]);
+
+  // --- a card link opened while the app is already open: show its cards next
+  useEffect(() => {
+    clearCardLink(); // read once at the start; a reload then shows the normal feed
+    const onHash = () => {
+      const ids = linkedCards();
+      clearCardLink();
+      if (!ids.length) return;
+      const at = activeIndex.current + 1;
+      setEntries((prev) => [...prev.slice(0, at), ...sharedEntries(ids), ...prev.slice(at)]);
+      requestAnimationFrame(() => {
+        const feed = feedRef.current;
+        if (feed) feed.scrollTo({ top: at * feed.clientHeight, behavior: 'smooth' });
+      });
+    };
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, []);
 
   // --- computer: arrow keys, Page Up/Down and j/k move between cards
   const desktop = useDesktop();
@@ -180,18 +212,16 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
   const share = useCallback(async (cardId: string) => {
     const card = CARD_BY_ID[cardId];
     const t = card[tr.lang];
-    const text = [t.title, t.body.replace(/^---$/gm, ''), t.quote ? `„${t.quote.text}“ — ${t.quote.author}` : '', t.act ?? '']
-      .filter(Boolean)
-      .join('\n\n')
-      .replace(/\*\*/g, '');
+    // A link to exactly this card: whoever opens it sees the card first.
+    const url = cardLink([cardId]);
     markShared(cardId);
     try {
       if (navigator.share) {
-        await navigator.share({ title: t.title, text: `${text}\n\nSmart-Tok` });
+        await navigator.share({ title: t.title, text: `${t.title} · Smart-Tok`, url });
         return;
       }
-      await navigator.clipboard.writeText(text);
-      onToast(tr('copied'));
+      await navigator.clipboard.writeText(`${t.title}\n${url}`);
+      onToast(tr('linkCopied'));
     } catch {
       /* user cancelled the share sheet */
     }
@@ -239,6 +269,17 @@ export function Feed({ onMore, onToast, onOpenTopics }: FeedProps) {
             )}
           </div>
         ))}
+        {preview && (
+          <div className="feed-item">
+            <div className="card preview-end">
+              <h2>{tr('previewEnd')}</h2>
+              <p>{tr('previewEndText')}</p>
+              <button className="btn" onClick={preview.onStart}>
+                {tr('previewStart')}
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {!scrolled && active === 0 && (
@@ -396,7 +437,7 @@ const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMor
       active={active}
       actions={actions}
       banner={banner}
-      badge={entry.due && !entry.checkIn ? tr('reviewBadge') : entry.checkIn ? tr('checkInBadge') : undefined}
+      badge={entry.shared ? tr('sharedBadge') : entry.due && !entry.checkIn ? tr('reviewBadge') : entry.checkIn ? tr('checkInBadge') : undefined}
     />
   );
 });

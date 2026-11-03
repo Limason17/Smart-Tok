@@ -1107,6 +1107,12 @@ input, textarea { font: inherit; color: inherit; }
   .feed-item { padding-top: calc(var(--safe-top) + 16px); padding-bottom: calc(var(--safe-bottom) + 16px); }
 }
 
+/* end of a shared-card preview for someone new */
+.preview-end { justify-content: center; padding: 32px var(--pad-x); gap: 12px; }
+.preview-end h2 { margin: 0; font-size: var(--fs-title); line-height: 1.15; letter-spacing: -0.015em; }
+.preview-end p { margin: 0 0 8px; font-size: 16px; line-height: 1.5; color: var(--text-2); }
+.preview-end .btn { align-self: flex-start; }
+
 /* ------------------------------------------------------------ computer */
 
 .page-prev,

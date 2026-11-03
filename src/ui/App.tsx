@@ -5,6 +5,7 @@ import { AccountSheet } from './AccountSheet';
 import { CardSheet, MoreSheet } from './CardSheet';
 import { Feed } from './Feed';
 import { Icon } from './Icon';
+import { linkedCards } from './links';
 import { Onboarding } from './Onboarding';
 import { AlgoSheet, ProfileSheet } from './ProfileSheet';
 import { SettingsSheet } from './SettingsSheet';
@@ -70,6 +71,8 @@ export function App() {
   const onboarded = useStore((s) => s.settings.onboarded);
   const [panel, setPanel] = useState<Panel>(null);
   const [toast, setToast] = useState<string | null>(null);
+  // Someone new opening a shared card sees it right away; the introduction comes after.
+  const [preview, setPreview] = useState(() => linkedCards().length > 0);
   useThemeAttributes();
 
   useEffect(() => {
@@ -90,6 +93,15 @@ export function App() {
 
   if (!ready) return null;
   // The feed is built after onboarding, so the first cards already follow the picked topics.
+  if (!onboarded && preview) {
+    return (
+      <>
+        <Feed onMore={onMore} onToast={setToast} onOpenTopics={openTopics} preview={{ onStart: () => setPreview(false) }} />
+        {panel?.kind === 'more' && <MoreSheet cardId={panel.cardId} onClose={close} />}
+        {toast && <div className="toast">{toast}</div>}
+      </>
+    );
+  }
   if (!onboarded) return <Onboarding />;
 
   return (
