@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CARDS } from '../content';
-import { cardBlocks, paginate, type Block } from './CardView';
+import { cardBlocks, paginate, shorten, textToBlocks, type Block } from './CardView';
 
 const p = (text = 'x'): Block => ({ k: 'p', text });
 const size = (h: number, mt = 10) => ({ h, mt });
@@ -34,14 +34,14 @@ describe('paginate', () => {
 });
 
 describe('cardBlocks', () => {
-  it('ends with the closing section, followed by the closer look on a new page', () => {
+  it('ends with the closing section, followed directly by the closer look', () => {
     const card = CARDS.find((c) => c.de.act && c.de.deep && c.actKind)!;
     const blocks = cardBlocks(card, 'de');
     const act = blocks.findIndex((b) => b.k === 'act');
     expect(act).toBeGreaterThan(0);
     expect(blocks[act]).toMatchObject({ kind: card.actKind });
-    expect(blocks[act + 1]).toEqual({ k: 'break' });
-    expect(blocks[act + 2]).toMatchObject({ k: 'title', deep: true });
+    expect(blocks[act + 1]).toMatchObject({ k: 'title', deep: true });
+    expect(blocks.some((b) => b.k === 'break')).toBe(card.de.body.includes('---'));
   });
 
   it('turns "---" in the body into a page break', () => {
@@ -54,5 +54,27 @@ describe('cardBlocks', () => {
     for (const card of CARDS.filter((c) => c.area === 'aktuelles')) {
       expect(cardBlocks(card, 'de').some((b) => b.k === 'act')).toBe(false);
     }
+  });
+});
+
+describe('textToBlocks', () => {
+  it('reads key sentences, bullet lists and subheadings', () => {
+    const blocks = textToBlocks('Einleitung.\n\n## Teil\n\n- eins\n- zwei\n\n> Merk dir das.');
+    expect(blocks).toEqual([
+      { k: 'p', text: 'Einleitung.' },
+      { k: 'title', text: 'Teil', sub: true },
+      { k: 'li', text: 'eins' },
+      { k: 'li', text: 'zwei' },
+      { k: 'key', text: 'Merk dir das.' },
+    ]);
+  });
+
+  it('splits long paragraphs at sentence ends', () => {
+    const sentence = 'Das ist ein ganz normaler Satz mit genau zwölf Wörtern drin, oder fast.';
+    const long = Array(5).fill(sentence).join(' ');
+    const parts = shorten(long);
+    expect(parts.length).toBeGreaterThan(1);
+    expect(parts.join(' ')).toBe(long);
+    expect(shorten(sentence)).toEqual([sentence]);
   });
 });

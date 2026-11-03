@@ -254,6 +254,8 @@ input, textarea { font: inherit; color: inherit; }
   text-transform: uppercase;
   color: var(--area-ink);
 }
+.blk-sub.deep { margin-top: 1.4em; }
+.blk-sub.deep:not(.first) { padding-top: 1.1em; border-top: 1px solid var(--line); }
 .blk-sub.deep + .blk { margin-top: 10px; }
 .blk-p, .blk-li, .blk-example p {
   font-family: var(--font-read);
@@ -261,12 +263,31 @@ input, textarea { font: inherit; color: inherit; }
   line-height: 1.55;
   text-wrap: pretty;
 }
-.blk-p { margin-top: 0.8em; }
+.blk-p { margin-top: 0.85em; }
 .blk-p.cont { margin-top: 0.2em; }
 :is(.blk-title, .blk-sub) + .blk { margin-top: 14px; }
 .blk strong { font-weight: 650; }
 
 .blk-li { margin-top: 0.6em; display: grid; grid-template-columns: 1.9em minmax(0, 1fr); line-height: 1.5; }
+.blk-li.bullet { margin-top: 0.4em; grid-template-columns: 1.3em minmax(0, 1fr); }
+.blk-li.bullet .li-n { width: 0.42em; height: 0.42em; margin: 0.62em 0 0 0.15em; background: var(--area); }
+.blk-li.bullet + .blk-p { margin-top: 1em; }
+
+/* Key sentence: the line to remember, set apart from the running text */
+.blk-key {
+  margin-top: 1em;
+  padding: 1px 0 1px 14px;
+  border-left: 3px solid var(--area);
+  font-family: var(--font-ui);
+  font-size: calc(var(--fs-read) * 1.0);
+  line-height: 1.38;
+  font-weight: 650;
+  letter-spacing: -0.005em;
+  color: var(--text);
+  text-wrap: pretty;
+}
+.blk-key + .blk-key { margin-top: 0.6em; }
+.blk-key + .blk-p, .blk-key + .blk-li { margin-top: 1em; }
 .blk-p + .blk-li { margin-top: 1em; }
 .li-n {
   width: 1.45em;
@@ -1075,6 +1096,11 @@ input, textarea { font: inherit; color: inherit; }
   .card-meta { padding-top: 58px; }
   .page, .pager-measure { padding-top: 10px; }
   .card-bar { padding: 4px 8px 6px; }
+  /* small screens (iPhone SE): a slightly smaller reading size, so a card needs fewer pages */
+  :root:not([data-font='s']):not([data-font='l']) { --fs-read: 17px; --fs-title: 24px; }
+  :root[data-font='l'] { --fs-read: 19px; --fs-title: 27px; }
+  :root[data-font='s'] { --fs-read: 15.5px; --fs-title: 22px; }
+  .blk-act { font-size: 14.5px; }
 }
 /* Large screens: keep the phone-shaped column */
 @media (min-width: 700px) {

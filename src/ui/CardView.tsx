@@ -57,20 +57,54 @@ type Quote = NonNullable<CardText['quote']>;
 export type Block =
   | { k: 'hero'; quote: Quote }
   | { k: 'title'; text: string; sub?: boolean; deep?: boolean }
+  /** `cont`: continues the paragraph before it (split to fit the page). */
   | { k: 'p'; text: string; cont?: boolean }
-  | { k: 'li'; text: string; n: number }
+  /** A list item: numbered (`n`) or a bullet (from `- ` lines in the text). */
+  | { k: 'li'; text: string; n?: number }
+  /** A key sentence (`> ` in the text), shown highlighted. */
+  | { k: 'key'; text: string }
   | { k: 'quote'; quote: Quote }
   | { k: 'example'; text: string; cont?: boolean }
   | { k: 'act'; kind: ActKind; text: string }
   | { k: 'break' };
 
-function textBlocks(t: CardText, sub: boolean, skipQuote: boolean): Block[] {
-  const out: Block[] = [{ k: 'title', text: t.title, sub }];
-  for (const part of t.body.split(/\n{2,}/).map((p) => p.trim())) {
+/** Paragraphs longer than this are split at a sentence end, so no block of text gets heavy. */
+const MAX_PARAGRAPH_WORDS = 42;
+
+function words(text: string): number {
+  return text.split(/\s+/).filter(Boolean).length;
+}
+
+/** Splits a long paragraph into shorter ones at sentence ends. */
+export function shorten(text: string): string[] {
+  if (words(text) <= MAX_PARAGRAPH_WORDS) return [text];
+  const halves = halve(text);
+  if (!halves || words(halves[0]) < 12 || words(halves[1]) < 12) return [text];
+  return [...shorten(halves[0]), ...shorten(halves[1])];
+}
+
+/**
+ * Text with simple structure:
+ * blank lines separate paragraphs, `---` starts a new page, `## ` is a subheading,
+ * `> ` a key sentence and lines starting with `- ` a bullet list.
+ */
+export function textToBlocks(text: string): Block[] {
+  const out: Block[] = [];
+  for (const part of text.split(/\n{2,}/).map((p) => p.trim())) {
+    if (!part) continue;
     if (part === '---') out.push({ k: 'break' });
     else if (part.startsWith('## ')) out.push({ k: 'title', text: part.slice(3), sub: true });
-    else if (part) out.push({ k: 'p', text: part });
+    else if (part.startsWith('> ')) out.push({ k: 'key', text: part.replace(/^> /gm, '').replace(/\n/g, ' ') });
+    else if (part.split('\n').every((l) => l.trim().startsWith('- ')))
+      for (const l of part.split('\n')) out.push({ k: 'li', text: l.trim().slice(2) });
+    else for (const p of shorten(part.replace(/\n/g, ' '))) out.push({ k: 'p', text: p });
   }
+  return out;
+}
+
+function textBlocks(t: CardText, sub: boolean, skipQuote: boolean): Block[] {
+  const out: Block[] = [{ k: 'title', text: t.title, sub }];
+  out.push(...textToBlocks(t.body));
   t.points?.forEach((text, i) => out.push({ k: 'li', text, n: i + 1 }));
   if (t.quote && !skipQuote) out.push({ k: 'quote', quote: t.quote });
   splitParagraphs(t.example ?? '').forEach((text, i) => out.push({ k: 'example', text, cont: i > 0 }));
@@ -89,10 +123,8 @@ export function cardBlocks(card: Card, lang: Lang): Block[] {
   }
   if (t.act) out.push({ k: 'act', kind: card.actKind ?? 'heute', text: t.act });
   // Depth comes last: the essentials and the closing section stay together up front.
-  if (t.deep) {
-    out.push({ k: 'break' }, { k: 'title', text: DEEP_LABEL[lang], sub: true, deep: true });
-    for (const text of splitParagraphs(t.deep)) out.push({ k: 'p', text });
-  }
+  // It follows right after; the page layout keeps its heading together with the first paragraph.
+  if (t.deep) out.push({ k: 'title', text: DEEP_LABEL[lang], sub: true, deep: true }, ...textToBlocks(t.deep));
   return out;
 }
 
@@ -156,11 +188,13 @@ function BlockView({ b, lang, exampleLabel, first }: { b: Block; lang: Lang; exa
       return <p className={`blk blk-p${b.cont ? ' cont' : ''}${cls}`}>{inline(b.text, lang)}</p>;
     case 'li':
       return (
-        <div className={`blk blk-li${cls}`}>
-          <span className="li-n">{b.n}</span>
+        <div className={`blk blk-li${b.n === undefined ? ' bullet' : ''}${cls}`}>
+          <span className="li-n">{b.n ?? ''}</span>
           <span>{inline(b.text, lang)}</span>
         </div>
       );
+    case 'key':
+      return <p className={`blk blk-key${cls}`}>{inline(b.text, lang)}</p>;
     case 'quote':
       return (
         <blockquote className={`blk blk-quote${cls}`}>
@@ -230,8 +264,21 @@ export function paginate(blocks: Block[], sizes: Measured[], avail: number): num
 }
 
 /** Splits a paragraph roughly in half at a sentence end. Returns null when it is a single sentence. */
+/** The sentences of a paragraph; a quotation in straight quotes is never cut apart. */
+function sentencesOf(text: string): string[] {
+  const raw = text.match(/[^.!?…]+(?:[.!?…]+["“”»«']?\s*|$)/g)?.map((s) => s.trim()).filter(Boolean) ?? [];
+  const out: string[] = [];
+  let open = false;
+  for (const piece of raw) {
+    if (open) out[out.length - 1] += ` ${piece}`;
+    else out.push(piece);
+    if ((piece.match(/"/g)?.length ?? 0) % 2 === 1) open = !open;
+  }
+  return out;
+}
+
 function halve(text: string): [string, string] | null {
-  const sentences = text.match(/[^.!?…]+(?:[.!?…]+["“”»«']?\s*|$)/g)?.map((s) => s.trim()).filter(Boolean) ?? [];
+  const sentences = sentencesOf(text);
   if (sentences.length < 2) return null;
   const mid = Math.ceil(sentences.length / 2);
   return [sentences.slice(0, mid).join(' '), sentences.slice(mid).join(' ')];
@@ -241,7 +288,8 @@ function usePages(source: Block[], fontKey: string) {
   const viewport = useRef<HTMLDivElement>(null);
   const measure = useRef<HTMLDivElement>(null);
   const [blocks, setBlocks] = useState(source);
-  const [pages, setPages] = useState<number[][] | null>(null);
+  // pages always come with the block list they index into, so a re-layout never mixes the two
+  const [layout, setLayout] = useState<{ blocks: Block[]; pages: number[][] } | null>(null);
   const [tick, setTick] = useState(0);
 
   const firstSource = useRef(source);
@@ -275,7 +323,35 @@ function usePages(source: Block[], fontKey: string) {
       return;
     }
     const next = paginate(blocks, sizes, avail);
-    setPages((prev) => (prev && JSON.stringify(prev) === JSON.stringify(next) ? prev : next));
+    // A page left half empty because the next paragraph didn't fit: start that paragraph here
+    // and continue it on the next page, so pages are full and cards no longer than they need to be.
+    for (let p = 0; p < next.length - 1; p++) {
+      const ids = next[p];
+      const first = next[p + 1][0];
+      const b = blocks[first];
+      if (!ids.length || b?.k !== 'p' || blocks[first - 1]?.k === 'break' || blocks[first - 1]?.k === 'title') continue;
+      const used = ids.reduce((sum, bi, j) => sum + sizes[bi].h + (j ? sizes[bi].mt : 0), 0);
+      const free = avail - used - sizes[first].mt;
+      if (free < avail * 0.22 || free < 60) continue;
+      const parts = sentencesOf(b.text);
+      const total = b.text.length;
+      let take = 0;
+      let chars = 0;
+      // estimate by text length, with a margin; a wrong guess only moves the piece to the next page
+      while (take < parts.length - 1 && ((chars + parts[take].length + 1) / total) * sizes[first].h <= free * 0.85) {
+        chars += parts[take].length + 1;
+        take++;
+      }
+      if (take === 0) continue;
+      setBlocks([
+        ...blocks.slice(0, first),
+        { ...b, text: parts.slice(0, take).join(' ') },
+        { ...b, text: parts.slice(take).join(' '), cont: true },
+        ...blocks.slice(first + 1),
+      ]);
+      return;
+    }
+    setLayout((prev) => (prev && prev.blocks === blocks && JSON.stringify(prev.pages) === JSON.stringify(next) ? prev : { blocks, pages: next }));
   }, [blocks, tick, fontKey]);
 
   // Re-measure when the size changes or the reading font has loaded.
@@ -302,7 +378,7 @@ function usePages(source: Block[], fontKey: string) {
     };
   }, [source]);
 
-  return { viewport, measure, blocks, pages };
+  return { viewport, measure, blocks, pages: layout?.pages ?? null, pageBlocks: layout?.blocks ?? blocks };
 }
 
 // ---------------------------------------------------------------- card
@@ -353,7 +429,7 @@ export function CardView({ card, active, actions, banner, badge, onPage }: CardV
     setSource(cardBlocks(card, tr.lang));
   }, [card, tr.lang]);
 
-  const { viewport, measure, blocks, pages } = usePages(source, `${fontSize}:${!!banner}`);
+  const { viewport, measure, blocks, pages, pageBlocks } = usePages(source, `${fontSize}:${!!banner}`);
   const track = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const count = pages?.length ?? 1;
@@ -418,9 +494,9 @@ export function CardView({ card, active, actions, banner, badge, onPage }: CardV
           <div className="pager-track" ref={track}>
             {pages.map((ids, p) => (
               <section className="page" key={p} aria-roledescription="page" aria-label={`${p + 1}/${count}`}>
-                <div className={`page-col ${count === 1 || ids.every((bi) => blocks[bi].k === 'act') ? 'center' : ''}`}>
+                <div className={`page-col ${count === 1 || ids.every((bi) => pageBlocks[bi].k === 'act') ? 'center' : ''}`}>
                   {ids.map((bi, j) => (
-                    <BlockView key={bi} b={blocks[bi]} lang={tr.lang} exampleLabel={exampleLabel} first={j === 0} />
+                    <BlockView key={bi} b={pageBlocks[bi]} lang={tr.lang} exampleLabel={exampleLabel} first={j === 0} />
                   ))}
                 </div>
                 {p > 0 && (

@@ -8,14 +8,14 @@
     "actKind": "heute",
     "de": {
       "title": "Der Zinseszins",
-      "body": "10'000 Franken, angelegt mit 7 % Rendite pro Jahr. Nach 10 Jahren hast du knapp 20'000. Nach 20 Jahren knapp 39'000. Nach 30 Jahren rund **76'000**.\n\nDas Geld wächst nicht gleichmässig, sondern immer schneller, weil auch die Erträge wieder Erträge bringen. Die letzten zehn Jahre bringen mehr als die ersten zwanzig zusammen.\n\nDarum ist die wichtigste Zutat beim Investieren nicht viel Geld, sondern **früh anfangen und Zeit**.",
+      "body": "10'000 Franken, angelegt mit 7 % Rendite pro Jahr. Nach 10 Jahren hast du knapp 20'000. Nach 20 Jahren knapp 39'000. Nach 30 Jahren rund **76'000**.\n\nDas Geld wächst nicht gleichmässig, sondern immer schneller, weil auch die Erträge wieder Erträge bringen. Die letzten zehn Jahre bringen mehr als die ersten zwanzig zusammen.\n\n> Darum ist die wichtigste Zutat beim Investieren nicht viel Geld, sondern **früh anfangen und Zeit**.",
       "act": "Rechne mit einem Online-Zinsrechner aus, was aus 200 Franken pro Monat in 30 Jahren werden könnte.",
       "deep": "Die 7 % sind ein Rechenbeispiel, keine Garantie. Breite Aktienmärkte brachten historisch langfristig im Schnitt etwa 5 bis 7 % pro Jahr nach Inflation, mit starken Schwankungen und Jahren mit Verlusten. Wer 300 Franken pro Monat 30 Jahre lang zu 6 % anlegt, zahlt 108'000 Franken ein und hat am Ende rund 300'000.",
       "source": "Eigene Berechnung; Dimson, Marsh & Staunton: UBS Global Investment Returns Yearbook"
     },
     "en": {
       "title": "Compound interest",
-      "body": "10,000 invested at a 7% annual return. After 10 years you have almost 20,000. After 20 years almost 39,000. After 30 years about **76,000**.\n\nThe money doesn't grow evenly but faster and faster, because the returns earn returns too. The last ten years bring more than the first twenty combined.\n\nThat's why the key ingredient in investing isn't a lot of money but **starting early and time**.",
+      "body": "10,000 invested at a 7% annual return. After 10 years you have almost 20,000. After 20 years almost 39,000. After 30 years about **76,000**.\n\nThe money doesn't grow evenly but faster and faster, because the returns earn returns too. The last ten years bring more than the first twenty combined.\n\n> That's why the key ingredient in investing isn't a lot of money but **starting early and time**.",
       "act": "Use an online calculator to see what 200 a month could become in 30 years.",
       "deep": "The 7% is an example, not a promise. Broad stock markets have historically returned about 5 to 7% a year after inflation over the long run, with big swings and losing years along the way. Investing 300 a month for 30 years at 6% means paying in 108,000 and ending up with about 300,000.",
       "source": "Own calculation; Dimson, Marsh & Staunton: UBS Global Investment Returns Yearbook"
@@ -74,7 +74,7 @@
     "actKind": "heute",
     "de": {
       "title": "Bezahl zuerst dich selbst",
-      "body": "Die meisten sparen, was am Monatsende übrig bleibt. Meistens bleibt nichts übrig.\n\nDreh die Reihenfolge um: **Am Tag, an dem der Lohn kommt**, geht automatisch ein fester Betrag auf ein Spar- oder Anlagekonto. Mit dem Rest lebst du. Weil du das Geld nie auf dem Alltagskonto siehst, vermisst du es kaum.\n\nAnfangen ist wichtiger als die Höhe. 5 % sind ein guter Start, 10 bis 20 % ein starkes Ziel.\n\nDas ist keine Rechenfrage, sondern Disziplin: Du entscheidest, bevor die Versuchung kommt.",
+      "body": "Die meisten sparen, was am Monatsende übrig bleibt. Meistens bleibt nichts übrig.\n\nDreh die Reihenfolge um: **Am Tag, an dem der Lohn kommt**, geht automatisch ein fester Betrag auf ein Spar- oder Anlagekonto. Mit dem Rest lebst du. Weil du das Geld nie auf dem Alltagskonto siehst, vermisst du es kaum.\n\nAnfangen ist wichtiger als die Höhe. 5 % sind ein guter Start, 10 bis 20 % ein starkes Ziel.\n\n> Das ist keine Rechenfrage, sondern Disziplin: Du entscheidest, bevor die Versuchung kommt.",
       "example": "Der Lohn von 5'000 Franken kommt am 25. Am selben Tag gehen per Dauerauftrag 500 auf das Anlagekonto. Du planst den Monat mit 4'500, als gäbe es die 500 gar nicht. Nach zehn Jahren sind das 60'000 Franken, ohne Rendite.",
       "act": "Richte heute einen Dauerauftrag ein, der am Zahltag einen festen Betrag weglegt.",
       "deep": "Der Grundsatz stammt aus George Clasons Klassiker \"Der reichste Mann von Babylon\" (1926): Ein Zehntel von allem, was du verdienst, gehört dir. Verhaltensökonomen wie Richard Thaler zeigten später, dass automatische Sparpläne viel besser funktionieren als gute Vorsätze.",
@@ -82,7 +82,7 @@
     },
     "en": {
       "title": "Pay yourself first",
-      "body": "Most people save whatever is left at the end of the month. Usually nothing is left.\n\nReverse the order: **on payday**, a fixed amount automatically goes into a savings or investment account. You live on the rest. Because you never see that money in your everyday account, you hardly miss it.\n\nStarting matters more than the amount. 5% is a good start; 10 to 20% a strong goal.\n\nThis isn't a maths problem, it's discipline: you decide before the temptation shows up.",
+      "body": "Most people save whatever is left at the end of the month. Usually nothing is left.\n\nReverse the order: **on payday**, a fixed amount automatically goes into a savings or investment account. You live on the rest. Because you never see that money in your everyday account, you hardly miss it.\n\nStarting matters more than the amount. 5% is a good start; 10 to 20% a strong goal.\n\n> This isn't a maths problem, it's discipline: you decide before the temptation shows up.",
       "example": "Your 5,000 franc salary arrives on the 25th. The same day, a standing order moves 500 to your investment account. You plan the month with 4,500, as if the 500 never existed. After ten years that's 60,000 francs, before returns.",
       "act": "Set up a standing order today that moves a fixed amount on payday.",
       "deep": "The principle comes from George Clason's classic \"The Richest Man in Babylon\" (1926): a part of all you earn is yours to keep, at least a tenth. Behavioural economists like Richard Thaler later showed that automatic savings plans work far better than good intentions.",
@@ -98,14 +98,14 @@
     "actKind": "heute",
     "de": {
       "title": "Zuerst der Notgroschen",
-      "body": "Bevor du investierst, brauchst du ein Polster für Unerwartetes: Autoreparatur, Zahnarzt, Jobverlust. Faustregel: **drei bis sechs Monatsausgaben** auf einem separaten Konto, jederzeit verfügbar.\n\nDer Notgroschen ist kein Investment, er bringt kaum Zins. Er ist eine Versicherung. Ohne ihn musst du im dümmsten Moment Aktien mit Verlust verkaufen oder Schulden machen. Mit ihm bleibst du ruhig, wenn etwas schiefgeht.\n\nEin Polster ist auch Verantwortung: Wenn etwas passiert, bist du vorbereitet und musst nicht gerettet werden.",
+      "body": "Bevor du investierst, brauchst du ein Polster für Unerwartetes: Autoreparatur, Zahnarzt, Jobverlust. Faustregel: **drei bis sechs Monatsausgaben** auf einem separaten Konto, jederzeit verfügbar.\n\nDer Notgroschen ist kein Investment, er bringt kaum Zins. Er ist eine Versicherung. Ohne ihn musst du im dümmsten Moment Aktien mit Verlust verkaufen oder Schulden machen. Mit ihm bleibst du ruhig, wenn etwas schiefgeht.\n\n> Ein Polster ist auch Verantwortung: Wenn etwas passiert, bist du vorbereitet und musst nicht gerettet werden.",
       "act": "Rechne aus, wie viel du im Monat zum Leben brauchst, und mal drei: Das ist dein erstes Sparziel.",
       "deep": "Wer einen unsicheren Job hat, selbstständig ist oder eine Familie versorgt, plant eher mit sechs Monaten oder mehr. Wer sehr sicher angestellt ist, kommt mit weniger aus. Wichtig ist, das Geld getrennt vom Alltagskonto zu halten, damit es nicht langsam im Konsum verschwindet.",
       "source": "Gängige Empfehlung von Verbraucherzentralen und Finanzplanern"
     },
     "en": {
       "title": "Emergency fund first",
-      "body": "Before you invest, you need a cushion for the unexpected: car repairs, the dentist, losing your job. Rule of thumb: **three to six months of expenses** in a separate account, available at any time.\n\nAn emergency fund isn't an investment; it earns little. It's insurance. Without it, you'll have to sell shares at a loss or take on debt at the worst moment. With it, you stay calm when something goes wrong.\n\nA cushion is also responsibility: when something happens, you're prepared and don't need rescuing.",
+      "body": "Before you invest, you need a cushion for the unexpected: car repairs, the dentist, losing your job. Rule of thumb: **three to six months of expenses** in a separate account, available at any time.\n\nAn emergency fund isn't an investment; it earns little. It's insurance. Without it, you'll have to sell shares at a loss or take on debt at the worst moment. With it, you stay calm when something goes wrong.\n\n> A cushion is also responsibility: when something happens, you're prepared and don't need rescuing.",
       "act": "Work out what you need per month to live and multiply by three: that's your first savings goal.",
       "deep": "If your job is insecure, you're self-employed or you support a family, plan for six months or more. Very secure employees can get by with less. Keep the money separate from your everyday account so it doesn't slowly disappear into spending.",
       "source": "Common recommendation of consumer advice centres and financial planners"
@@ -288,14 +288,14 @@
     "actKind": "heute",
     "de": {
       "title": "Der Millionär von nebenan",
-      "body": "Wie sieht ein Millionär aus? Sportwagen, Rolex, Villa? Die Forscher Thomas Stanley und William Danko befragten Tausende US-Millionäre und fanden meist das Gegenteil.\n\nViele fuhren gebrauchte Autos, lebten seit Jahrzehnten im gleichen Haus und gaben deutlich weniger aus, als sie verdienten. Wer reich **aussieht**, ist oft nur gut verdienend und hoch verschuldet. Wer reich **ist**, sieht oft unauffällig aus.\n\nVermögen ist das Geld, das du **nicht** ausgibst.\n\nEchter Wohlstand ist leise. Er entsteht aus Disziplin, nicht aus Show.",
+      "body": "Wie sieht ein Millionär aus? Sportwagen, Rolex, Villa? Die Forscher Thomas Stanley und William Danko befragten Tausende US-Millionäre und fanden meist das Gegenteil.\n\nViele fuhren gebrauchte Autos, lebten seit Jahrzehnten im gleichen Haus und gaben deutlich weniger aus, als sie verdienten. Wer reich **aussieht**, ist oft nur gut verdienend und hoch verschuldet. Wer reich **ist**, sieht oft unauffällig aus.\n\nVermögen ist das Geld, das du **nicht** ausgibst.\n\n> Echter Wohlstand ist leise. Er entsteht aus Disziplin, nicht aus Show.",
       "act": "Schieb deine nächste grössere Anschaffung eine Woche auf und kauf sie nur, wenn du sie auch ohne Publikum willst.",
       "deep": "\"The Millionaire Next Door\" erschien 1996 und wurde ein Bestseller. Eine ihrer Faustregeln: Dein erwartetes Nettovermögen ist dein Alter mal dein Jahreseinkommen geteilt durch 10. Wer deutlich darüber liegt, gehört zu den \"Vermögensaufbauern\", wer deutlich darunter liegt, zu den \"Vermögensverbrauchern\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
     },
     "en": {
       "title": "The millionaire next door",
-      "body": "What does a millionaire look like? Sports car, Rolex, mansion? Researchers Thomas Stanley and William Danko surveyed thousands of US millionaires and mostly found the opposite.\n\nMany drove used cars, had lived in the same house for decades and spent far less than they earned. People who **look** rich are often just high earners with high debt. People who **are** rich often look unremarkable.\n\nWealth is the money you **don't** spend.\n\nReal wealth is quiet. It comes from discipline, not from show.",
+      "body": "What does a millionaire look like? Sports car, Rolex, mansion? Researchers Thomas Stanley and William Danko surveyed thousands of US millionaires and mostly found the opposite.\n\nMany drove used cars, had lived in the same house for decades and spent far less than they earned. People who **look** rich are often just high earners with high debt. People who **are** rich often look unremarkable.\n\nWealth is the money you **don't** spend.\n\n> Real wealth is quiet. It comes from discipline, not from show.",
       "act": "Put off your next big purchase for a week and buy it only if you'd want it with no one watching.",
       "deep": "\"The Millionaire Next Door\" came out in 1996 and became a bestseller. One of its rules of thumb: your expected net worth is your age times your annual income divided by 10. Those well above it are \"prodigious accumulators of wealth\", those well below are \"under accumulators\".",
       "source": "Thomas J. Stanley & William D. Danko: The Millionaire Next Door (1996)"
@@ -310,14 +310,14 @@
     "actKind": "langfristig",
     "de": {
       "title": "Sparen hat eine Grenze, Verdienen nicht",
-      "body": "Beim Sparen gibt es eine Untergrenze: Irgendwann kannst du nicht mehr weniger ausgeben. Beim Einkommen gibt es nach oben viel mehr Spielraum.\n\nDie beste Investition in jungen Jahren ist oft nicht die Aktie, sondern **du selbst**: eine Fähigkeit, die gefragt und selten ist. Programmieren, Verkaufen, Führen, ein Handwerk auf Meisterniveau, eine Fremdsprache. Jede Stunde, die du in so eine Fähigkeit steckst, kann sich über Jahrzehnte auszahlen.\n\nDie beste Investition bist du selbst: Fähigkeiten, die dir niemand nehmen kann.",
+      "body": "Beim Sparen gibt es eine Untergrenze: Irgendwann kannst du nicht mehr weniger ausgeben. Beim Einkommen gibt es nach oben viel mehr Spielraum.\n\nDie beste Investition in jungen Jahren ist oft nicht die Aktie, sondern **du selbst**: eine Fähigkeit, die gefragt und selten ist. Programmieren, Verkaufen, Führen, ein Handwerk auf Meisterniveau, eine Fremdsprache. Jede Stunde, die du in so eine Fähigkeit steckst, kann sich über Jahrzehnte auszahlen.\n\n> Die beste Investition bist du selbst: Fähigkeiten, die dir niemand nehmen kann.",
       "act": "Wähle eine Fähigkeit, die dein Einkommen in fünf Jahren deutlich erhöhen könnte, und reserviere ihr jede Woche drei feste Stunden.",
       "deep": "Ökonomen sprechen von \"Humankapital\": dem Wert deines Wissens und Könnens. Für die meisten jungen Menschen ist es weit grösser als ihr Finanzvermögen. Wichtig ist beides: Einkommen steigern **und** einen Teil davon sparen, sonst greift die Lohnerhöhungsfalle.",
       "source": "Gary Becker: Human Capital (1964)"
     },
     "en": {
       "title": "Saving has a floor, earning doesn't",
-      "body": "Saving has a lower limit: at some point you can't spend any less. Income has far more room on the upside.\n\nThe best investment when you're young is often not a stock but **yourself**: a skill that's in demand and rare. Coding, selling, leading, a trade at master level, a foreign language. Every hour you put into such a skill can pay off for decades.\n\nThe best investment is you: skills no one can take from you.",
+      "body": "Saving has a lower limit: at some point you can't spend any less. Income has far more room on the upside.\n\nThe best investment when you're young is often not a stock but **yourself**: a skill that's in demand and rare. Coding, selling, leading, a trade at master level, a foreign language. Every hour you put into such a skill can pay off for decades.\n\n> The best investment is you: skills no one can take from you.",
       "act": "Pick one skill that could raise your income significantly within five years, and reserve three fixed hours a week for it.",
       "deep": "Economists call it \"human capital\": the value of your knowledge and skills. For most young people it's far larger than their financial wealth. Both matter: raise your income **and** save part of it, or the pay-rise trap kicks in.",
       "source": "Gary Becker: Human Capital (1964)"
@@ -332,14 +332,14 @@
     "actKind": "so",
     "de": {
       "title": "Teure Schulden zuerst weg",
-      "body": "Ein Konsumkredit für das neue Auto, ein offener Kreditkartensaldo, ein Leasing für das Handy: Solche Schulden kosten oft **10 % Zins und mehr** pro Jahr.\n\nKeine Geldanlage bringt dir sicher 10 % pro Jahr. Eine Schuld mit 10 % Zins abzuzahlen, ist aber genau das: eine **garantierte Rendite von 10 %**. Darum gilt: Teure Schulden zuerst tilgen, dann investieren.\n\nUnd für die Zukunft: Was du dir nicht leisten kannst, ohne Kredit zu nehmen, kannst du dir meistens nicht leisten.\n\nJeder Kredit für etwas, das du nicht brauchst, verkauft ein Stück deiner Freiheit.",
+      "body": "Ein Konsumkredit für das neue Auto, ein offener Kreditkartensaldo, ein Leasing für das Handy: Solche Schulden kosten oft **10 % Zins und mehr** pro Jahr.\n\nKeine Geldanlage bringt dir sicher 10 % pro Jahr. Eine Schuld mit 10 % Zins abzuzahlen, ist aber genau das: eine **garantierte Rendite von 10 %**. Darum gilt: Teure Schulden zuerst tilgen, dann investieren.\n\nUnd für die Zukunft: Was du dir nicht leisten kannst, ohne Kredit zu nehmen, kannst du dir meistens nicht leisten.\n\n> Jeder Kredit für etwas, das du nicht brauchst, verkauft ein Stück deiner Freiheit.",
       "act": "- Liste alle Schulden mit Zinssatz auf.\n- Zahl überall nur das Minimum, ausser bei der teuersten.\n- Alles Übrige geht auf die teuerste, bis sie weg ist.\n- Dann ist die nächste dran.",
       "deep": "In der Schweiz liegt der gesetzliche Höchstzins für Konsumkredite derzeit bei 10 %, für Kreditkarten-Überziehungen bei 12 %. In vielen anderen Ländern sind Kreditkartenzinsen von 20 % und mehr üblich. Bei Leasing wird der Zins oft im Kleingedruckten als \"effektiver Jahreszins\" angegeben.",
       "source": "Verordnung zum Konsumkreditgesetz (VKKG), Art. 1"
     },
     "en": {
       "title": "Pay off expensive debt first",
-      "body": "A consumer loan for the new car, an unpaid credit card balance, a lease on your phone: such debts often cost **10% interest or more** a year.\n\nNo investment reliably earns you 10% a year. Paying off a 10% debt is exactly that: a **guaranteed 10% return**. So: clear expensive debt first, then invest.\n\nAnd going forward: if you can't afford it without a loan, you usually can't afford it.\n\nEvery loan for something you don't need sells off a piece of your freedom.",
+      "body": "A consumer loan for the new car, an unpaid credit card balance, a lease on your phone: such debts often cost **10% interest or more** a year.\n\nNo investment reliably earns you 10% a year. Paying off a 10% debt is exactly that: a **guaranteed 10% return**. So: clear expensive debt first, then invest.\n\nAnd going forward: if you can't afford it without a loan, you usually can't afford it.\n\n> Every loan for something you don't need sells off a piece of your freedom.",
       "act": "- List all your debts with their interest rates.\n- Pay only the minimum everywhere except on the most expensive one.\n- Everything left goes to the most expensive debt until it's gone.\n- Then move to the next one.",
       "deep": "In Switzerland the legal maximum rate is currently 10% for consumer loans and 12% for credit card overdrafts. In many other countries credit card rates of 20% and more are common. With leases, the rate is often hidden in the small print as the \"effective annual rate\".",
       "source": "Swiss Consumer Credit Ordinance (VKKG), Art. 1"
@@ -424,14 +424,14 @@
     "actKind": "heute",
     "de": {
       "title": "Was es wirklich kostet",
-      "body": "Jede Entscheidung hat einen versteckten Preis: das, was du **stattdessen** hättest tun können. Ökonomen nennen das **Opportunitätskosten**.\n\nEin Auto für 40'000 Franken kostet nicht nur 40'000. Es kostet auch das, was dieses Geld in 20 Jahren investiert geworden wäre. Ein Abend vor Netflix kostet nicht nur Zeit, sondern das Buch, das Training oder das Gespräch, das nicht stattfand.\n\nWer so denkt, trifft nicht weniger Entscheidungen, aber bewusstere.",
+      "body": "Jede Entscheidung hat einen versteckten Preis: das, was du **stattdessen** hättest tun können. Ökonomen nennen das **Opportunitätskosten**.\n\nEin Auto für 40'000 Franken kostet nicht nur 40'000. Es kostet auch das, was dieses Geld in 20 Jahren investiert geworden wäre. Ein Abend vor Netflix kostet nicht nur Zeit, sondern das Buch, das Training oder das Gespräch, das nicht stattfand.\n\n> Wer so denkt, trifft nicht weniger Entscheidungen, aber bewusstere.",
       "act": "Schreib bei deiner nächsten grösseren Ausgabe die beste Alternative für dieses Geld daneben und entscheide erst dann.",
       "deep": "Der Begriff geht auf den österreichischen Ökonomen Friedrich von Wieser (1914) zurück. Studien zeigen, dass Menschen Opportunitätskosten oft vergessen, wenn man sie nicht ausdrücklich daran erinnert. Schon der Satz \"Du könntest das Geld auch für etwas anderes ausgeben\" verändert Kaufentscheidungen.",
       "source": "Frederick et al.: Opportunity cost neglect, Journal of Consumer Research (2009)"
     },
     "en": {
       "title": "What it really costs",
-      "body": "Every decision has a hidden price: what you could have done **instead**. Economists call it **opportunity cost**.\n\nA 40,000 car doesn't just cost 40,000. It also costs what that money would have become invested over 20 years. An evening of Netflix doesn't just cost time but the book, the workout or the conversation that didn't happen.\n\nThinking this way doesn't mean making fewer decisions, just more deliberate ones.",
+      "body": "Every decision has a hidden price: what you could have done **instead**. Economists call it **opportunity cost**.\n\nA 40,000 car doesn't just cost 40,000. It also costs what that money would have become invested over 20 years. An evening of Netflix doesn't just cost time but the book, the workout or the conversation that didn't happen.\n\n> Thinking this way doesn't mean making fewer decisions, just more deliberate ones.",
       "act": "For your next big expense, write down the best alternative use of that money next to it, and only then decide.",
       "deep": "The term goes back to Austrian economist Friedrich von Wieser (1914). Studies show people often ignore opportunity costs unless reminded. Simply saying \"you could also spend this money on something else\" changes purchase decisions.",
       "source": "Frederick et al.: Opportunity cost neglect, Journal of Consumer Research (2009)"
@@ -446,14 +446,14 @@
     "actKind": "frage",
     "de": {
       "title": "Die Falle der versunkenen Kosten",
-      "body": "\"Ich hab schon so viel investiert, jetzt kann ich nicht aufhören.\" Mit diesem Satz werden täglich schlechte Projekte, Aktien, Ausbildungen und Beziehungen weitergeführt.\n\nDas Geld und die Zeit sind aber schon weg, egal wie du dich jetzt entscheidest. Sie heissen **versunkene Kosten**. Die einzige sinnvolle Frage lautet: **Lohnt es sich ab heute**, weiterzumachen?\n\nAufhören ist kein Versagen, wenn die Fakten sich geändert haben. Es ist Klarheit.",
+      "body": "\"Ich hab schon so viel investiert, jetzt kann ich nicht aufhören.\" Mit diesem Satz werden täglich schlechte Projekte, Aktien, Ausbildungen und Beziehungen weitergeführt.\n\nDas Geld und die Zeit sind aber schon weg, egal wie du dich jetzt entscheidest. Sie heissen **versunkene Kosten**. Die einzige sinnvolle Frage lautet: **Lohnt es sich ab heute**, weiterzumachen?\n\n> Aufhören ist kein Versagen, wenn die Fakten sich geändert haben. Es ist Klarheit.",
       "act": "Woran hältst du nur fest, weil schon viel drinsteckt? Würdest du heute neu einsteigen, wenn du bei null anfangen würdest?",
       "deep": "Ein bekanntes Beispiel ist die Concorde: Britische und französische Regierungen finanzierten das Überschallflugzeug weiter, obwohl früh klar war, dass es nie profitabel würde. Darum heisst der Effekt im Englischen auch \"Concorde fallacy\". Arkes und Blumer zeigten 1985, dass schon kleine Vorab-Zahlungen Menschen zu schlechten Entscheidungen verleiten.",
       "source": "Arkes & Blumer: The psychology of sunk cost, Organizational Behavior and Human Decision Processes (1985)"
     },
     "en": {
       "title": "The sunk cost trap",
-      "body": "\"I've already invested so much, I can't stop now.\" With that sentence, bad projects, stocks, degrees and relationships are kept alive every day.\n\nBut the money and time are already gone, whatever you decide now. They're called **sunk costs**. The only sensible question is: **is it worth it from today on** to continue?\n\nStopping isn't failure when the facts have changed. It's clarity.",
+      "body": "\"I've already invested so much, I can't stop now.\" With that sentence, bad projects, stocks, degrees and relationships are kept alive every day.\n\nBut the money and time are already gone, whatever you decide now. They're called **sunk costs**. The only sensible question is: **is it worth it from today on** to continue?\n\n> Stopping isn't failure when the facts have changed. It's clarity.",
       "act": "What are you holding on to only because a lot has gone into it? Would you start it today if you were starting from zero?",
       "deep": "A famous example is Concorde: the British and French governments kept funding the supersonic jet even though it was clear early on it would never be profitable. That's why the effect is also called the \"Concorde fallacy\". Arkes and Blumer showed in 1985 that even small upfront payments lead people into bad decisions.",
       "source": "Arkes & Blumer: The psychology of sunk cost, Organizational Behavior and Human Decision Processes (1985)"
@@ -490,7 +490,7 @@
     "actKind": "heute",
     "de": {
       "title": "Niemand will einen Bohrer",
-      "body": "\"Die Leute wollen keinen 6-Millimeter-Bohrer kaufen. Sie wollen ein 6-Millimeter-Loch.\"\n\nKunden kaufen keine **Merkmale**, sondern **Ergebnisse**. Ein Fitness-Abo verkauft kein Gerät, sondern wie man sich im Spiegel fühlt. Eine Software verkauft keine Funktionen, sondern freie Abende.\n\nGute Verkäufer übersetzen darum jedes Merkmal in einen Nutzen: \"Das hat X, **das heisst für dich** Y.\"",
+      "body": "\"Die Leute wollen keinen 6-Millimeter-Bohrer kaufen. Sie wollen ein 6-Millimeter-Loch.\"\n\nKunden kaufen keine **Merkmale**, sondern **Ergebnisse**. Ein Fitness-Abo verkauft kein Gerät, sondern wie man sich im Spiegel fühlt. Eine Software verkauft keine Funktionen, sondern freie Abende.\n\n> Gute Verkäufer übersetzen darum jedes Merkmal in einen Nutzen: \"Das hat X, **das heisst für dich** Y.\"",
       "example": "Im Bewerbungsgespräch. Merkmal: \"Ich spreche Italienisch.\" Nutzen: \"Ich kann Ihre Kunden im Tessin direkt betreuen, ohne Übersetzer und ohne Umweg über die Zentrale.\"",
       "act": "Nimm etwas, das du anbietest (auch dich selbst im Bewerbungsgespräch), und formuliere drei Merkmale als Nutzen.",
       "deep": "Der Marketing-Professor Theodore Levitt von der Harvard Business School machte das Bohrer-Zitat bekannt. Er selbst schrieb es einem Werbefachmann namens Leo McGivena zu. Clayton Christensen baute später darauf seine \"Jobs to be done\"-Theorie: Kunden \"heuern\" Produkte an, um eine Aufgabe in ihrem Leben zu erledigen.",
@@ -498,7 +498,7 @@
     },
     "en": {
       "title": "Nobody wants a drill",
-      "body": "\"People don't want to buy a quarter-inch drill. They want a quarter-inch hole.\"\n\nCustomers don't buy **features**; they buy **outcomes**. A gym membership doesn't sell equipment but how you feel in the mirror. Software doesn't sell functions but free evenings.\n\nGood salespeople translate every feature into a benefit: \"It has X, **which means for you** Y.\"",
+      "body": "\"People don't want to buy a quarter-inch drill. They want a quarter-inch hole.\"\n\nCustomers don't buy **features**; they buy **outcomes**. A gym membership doesn't sell equipment but how you feel in the mirror. Software doesn't sell functions but free evenings.\n\n> Good salespeople translate every feature into a benefit: \"It has X, **which means for you** Y.\"",
       "example": "In a job interview. Feature: \"I speak Italian.\" Benefit: \"I can look after your customers in Italy directly, no translator, no detour through head office.\"",
       "act": "Take something you offer (even yourself in a job interview) and turn three features into benefits.",
       "deep": "Harvard Business School marketing professor Theodore Levitt popularised the drill quote; he credited it to an advertising man named Leo McGivena. Clayton Christensen later built his \"jobs to be done\" theory on it: customers \"hire\" products to get a job done in their lives.",
@@ -596,14 +596,14 @@
     "actKind": "frage",
     "de": {
       "title": "Besetze ein Wort im Kopf",
-      "body": "Volvo heisst Sicherheit. Red Bull heisst Energie. Rolex heisst Erfolg. Die stärksten Marken besitzen **ein einziges Wort** im Kopf der Kunden.\n\nAl Ries und Jack Trout nannten das **Positionierung**: Marketing ist kein Kampf der Produkte, sondern der Wahrnehmungen. Wer versucht, für alle alles zu sein, ist für niemanden etwas Besonderes.\n\nDas gilt auch für Menschen: Wofür sollen dich Kollegen, Kunden oder Freunde kennen?",
+      "body": "Volvo heisst Sicherheit. Red Bull heisst Energie. Rolex heisst Erfolg. Die stärksten Marken besitzen **ein einziges Wort** im Kopf der Kunden.\n\nAl Ries und Jack Trout nannten das **Positionierung**: Marketing ist kein Kampf der Produkte, sondern der Wahrnehmungen. Wer versucht, für alle alles zu sein, ist für niemanden etwas Besonderes.\n\n> Das gilt auch für Menschen: Wofür sollen dich Kollegen, Kunden oder Freunde kennen?",
       "act": "Für welches eine Wort willst du in deinem Beruf bekannt sein? Schreib es auf und prüf, ob deine letzte Arbeitswoche dazu gepasst hat.",
       "deep": "\"Positioning: The Battle for Your Mind\" erschien 1981 und gilt als Klassiker. Eine Kernidee: Es ist leichter, Erster in einer neuen Kategorie zu sein, als besser in einer bestehenden. Wer war der zweite Mensch auf dem Mond? Kaum jemand weiss es (Buzz Aldrin).",
       "source": "Al Ries & Jack Trout: Positioning (1981)"
     },
     "en": {
       "title": "Own one word in people's minds",
-      "body": "Volvo means safety. Red Bull means energy. Rolex means success. The strongest brands own **a single word** in customers' minds.\n\nAl Ries and Jack Trout called this **positioning**: marketing isn't a battle of products but of perceptions. If you try to be everything to everyone, you're nothing special to anyone.\n\nIt applies to people too: what should colleagues, customers or friends know you for?",
+      "body": "Volvo means safety. Red Bull means energy. Rolex means success. The strongest brands own **a single word** in customers' minds.\n\nAl Ries and Jack Trout called this **positioning**: marketing isn't a battle of products but of perceptions. If you try to be everything to everyone, you're nothing special to anyone.\n\n> It applies to people too: what should colleagues, customers or friends know you for?",
       "act": "Which one word do you want to be known for at work? Write it down and check whether your last working week matched it.",
       "deep": "\"Positioning: The Battle for Your Mind\" came out in 1981 and is a classic. One key idea: it's easier to be first in a new category than better in an existing one. Who was the second man on the moon? Hardly anyone knows (Buzz Aldrin).",
       "source": "Al Ries & Jack Trout: Positioning (1981)"
@@ -618,14 +618,14 @@
     "actKind": "heute",
     "de": {
       "title": "Wir tun, was andere tun",
-      "body": "Hotels bitten Gäste, Handtücher mehrmals zu benutzen. Forscher testeten zwei Schilder. Das eine sprach vom Umweltschutz. Das andere sagte: **\"Die Mehrheit der Gäste nutzt ihre Handtücher mehrmals.\"**\n\nDas zweite Schild wirkte deutlich besser: 44 % statt 35 % machten mit. Noch stärker war: \"Die meisten Gäste, **die in diesem Zimmer** übernachtet haben …\"\n\nUnsicher, was richtig ist, schauen wir auf andere. Darum funktionieren Bewertungen, Kundenzahlen und \"Bestseller\"-Etiketten.",
+      "body": "Hotels bitten Gäste, Handtücher mehrmals zu benutzen. Forscher testeten zwei Schilder. Das eine sprach vom Umweltschutz. Das andere sagte: **\"Die Mehrheit der Gäste nutzt ihre Handtücher mehrmals.\"**\n\nDas zweite Schild wirkte deutlich besser: 44 % statt 35 % machten mit. Noch stärker war: \"Die meisten Gäste, **die in diesem Zimmer** übernachtet haben …\"\n\n> Unsicher, was richtig ist, schauen wir auf andere. Darum funktionieren Bewertungen, Kundenzahlen und \"Bestseller\"-Etiketten.",
       "act": "Wenn du jemanden überzeugen willst, zeig, dass andere wie er es schon tun.",
       "deep": "Robert Cialdini nennt das Prinzip \"soziale Bewährtheit\" (social proof) und zählt es zu seinen sechs Prinzipien der Überzeugung. Die Handtuch-Studie von Goldstein, Cialdini und Griskevicius erschien 2008. Das Prinzip lässt sich auch missbrauchen, etwa mit gefälschten Bewertungen, darum lohnt sich ein kritischer Blick.",
       "source": "Goldstein, Cialdini & Griskevicius: Journal of Consumer Research (2008); Cialdini: Influence (1984)"
     },
     "en": {
       "title": "We do what others do",
-      "body": "Hotels ask guests to reuse their towels. Researchers tested two signs. One talked about protecting the environment. The other said: **\"The majority of guests reuse their towels.\"**\n\nThe second sign worked much better: 44% took part instead of 35%. Even stronger was: \"The majority of guests **who stayed in this room** …\"\n\nWhen unsure what's right, we look at others. That's why reviews, customer numbers and \"bestseller\" labels work.",
+      "body": "Hotels ask guests to reuse their towels. Researchers tested two signs. One talked about protecting the environment. The other said: **\"The majority of guests reuse their towels.\"**\n\nThe second sign worked much better: 44% took part instead of 35%. Even stronger was: \"The majority of guests **who stayed in this room** …\"\n\n> When unsure what's right, we look at others. That's why reviews, customer numbers and \"bestseller\" labels work.",
       "act": "When you want to persuade someone, show that people like them already do it.",
       "deep": "Robert Cialdini calls the principle \"social proof\" and counts it among his six principles of persuasion. The towel study by Goldstein, Cialdini and Griskevicius was published in 2008. The principle can be abused too, for example with fake reviews, so a critical eye pays off.",
       "source": "Goldstein, Cialdini & Griskevicius: Journal of Consumer Research (2008); Cialdini: Influence (1984)"
@@ -882,14 +882,14 @@
     "actKind": "heute",
     "de": {
       "title": "Spar zuerst bei den grossen Posten",
-      "body": "Viele Spartipps drehen sich um den Kaffee unterwegs. Der macht im Jahr vielleicht ein paar Hundert Franken aus. Das ist nicht nichts. Aber die grossen Hebel liegen woanders.\n\nIn der Schweiz geben Haushalte laut Bundesamt für Statistik vom Bruttoeinkommen am meisten für **Wohnen und Energie** aus, dahinter folgen Verkehr und Essen. Wer bei der Miete, beim Auto oder bei Versicherungen klug entscheidet, spart oft mehr als mit hundert kleinen Verzichten.\n\nDenk zuerst über die drei grössten Ausgaben nach. Dann über den Kaffee.",
+      "body": "Viele Spartipps drehen sich um den Kaffee unterwegs. Der macht im Jahr vielleicht ein paar Hundert Franken aus. Das ist nicht nichts. Aber die grossen Hebel liegen woanders.\n\nIn der Schweiz geben Haushalte laut Bundesamt für Statistik vom Bruttoeinkommen am meisten für **Wohnen und Energie** aus, dahinter folgen Verkehr und Essen. Wer bei der Miete, beim Auto oder bei Versicherungen klug entscheidet, spart oft mehr als mit hundert kleinen Verzichten.\n\n> Denk zuerst über die drei grössten Ausgaben nach. Dann über den Kaffee.",
       "act": "Liste heute deine drei grössten monatlichen Ausgaben auf und prüfe für jede, ob es eine günstigere, gleich gute Lösung gibt.",
       "deep": "Bei Versicherungen, Handyabos und Krankenkassen-Franchisen lohnt sich ein jährlicher Vergleich. Beim Auto zählen nicht nur der Kaufpreis, sondern auch Wertverlust, Versicherung, Unterhalt und Parkplatz.",
       "source": "Bundesamt für Statistik: Haushaltsbudgeterhebung (HABE)"
     },
     "en": {
       "title": "Save on the big items first",
-      "body": "Many saving tips focus on your takeaway coffee. That might add up to a few hundred a year. Not nothing. But the big levers are elsewhere.\n\nIn most households the largest share of income goes to **housing and energy**, followed by transport and food. Smart choices on rent, the car or insurance often save more than a hundred small sacrifices.\n\nThink about your three biggest expenses first. Then about the coffee.",
+      "body": "Many saving tips focus on your takeaway coffee. That might add up to a few hundred a year. Not nothing. But the big levers are elsewhere.\n\nIn most households the largest share of income goes to **housing and energy**, followed by transport and food. Smart choices on rent, the car or insurance often save more than a hundred small sacrifices.\n\n> Think about your three biggest expenses first. Then about the coffee.",
       "act": "List your three biggest monthly expenses today and check each for a cheaper, equally good option.",
       "deep": "Insurance, phone plans and health insurance deductibles are worth comparing every year. With a car, count not only the purchase price but also depreciation, insurance, maintenance and parking.",
       "source": "Swiss Federal Statistical Office: Household Budget Survey (HBS)"
@@ -904,14 +904,14 @@
     "actKind": "frage",
     "de": {
       "title": "Erfolgreiche Gründer sind im Schnitt 45",
-      "body": "Man stellt sich den typischen Gründer als 22-Jährigen im Kapuzenpulli vor, der das Studium abgebrochen hat.\n\nForscher werteten Daten von **2,7 Millionen** Firmengründern in den USA aus. Das Durchschnittsalter bei der Gründung der am schnellsten wachsenden Firmen lag bei **45 Jahren**. Ein 50-Jähriger hatte fast doppelt so hohe Chancen auf einen grossen Erfolg wie ein 30-Jähriger.\n\nErfahrung, Netzwerk und Branchenwissen zählen. Es ist nie zu spät, etwas aufzubauen.",
+      "body": "Man stellt sich den typischen Gründer als 22-Jährigen im Kapuzenpulli vor, der das Studium abgebrochen hat.\n\nForscher werteten Daten von **2,7 Millionen** Firmengründern in den USA aus. Das Durchschnittsalter bei der Gründung der am schnellsten wachsenden Firmen lag bei **45 Jahren**. Ein 50-Jähriger hatte fast doppelt so hohe Chancen auf einen grossen Erfolg wie ein 30-Jähriger.\n\n> Erfahrung, Netzwerk und Branchenwissen zählen. Es ist nie zu spät, etwas aufzubauen.",
       "act": "Welches Wissen aus deinem Beruf oder Leben könnte eine Firma oder ein Nebenprojekt tragen? Schreib drei Punkte auf.",
       "deep": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim und Javier Miranda veröffentlichten die Studie 2020. Besonders erfolgreich waren Gründer mit mehrjähriger Erfahrung in derselben Branche.",
       "source": "Azoulay, Jones, Kim & Miranda: Age and high-growth entrepreneurship. American Economic Review: Insights, 2020"
     },
     "en": {
       "title": "Successful founders are 45 on average",
-      "body": "We picture the typical founder as a 22-year-old college dropout in a hoodie.\n\nResearchers analysed data on **2.7 million** company founders in the US. The average age at founding of the fastest-growing companies was **45**. A 50-year-old was almost twice as likely to build a big success as a 30-year-old.\n\nExperience, network and industry knowledge count. It's never too late to build something.",
+      "body": "We picture the typical founder as a 22-year-old college dropout in a hoodie.\n\nResearchers analysed data on **2.7 million** company founders in the US. The average age at founding of the fastest-growing companies was **45**. A 50-year-old was almost twice as likely to build a big success as a 30-year-old.\n\n> Experience, network and industry knowledge count. It's never too late to build something.",
       "act": "What knowledge from your job or life could carry a business or side project? Write down three points.",
       "deep": "Pierre Azoulay, Benjamin Jones, J. Daniel Kim and Javier Miranda published the study in 2020. Founders with several years of experience in the same industry were especially successful.",
       "source": "Azoulay, Jones, Kim & Miranda: Age and high-growth entrepreneurship. American Economic Review: Insights, 2020"
@@ -948,14 +948,14 @@
     "actKind": "frage",
     "de": {
       "title": "Macht Geld glücklich? Die ehrliche Antwort",
-      "body": "Lange hiess es: Ab rund 75'000 Dollar Jahreseinkommen macht mehr Geld nicht glücklicher. Neuere Daten zeigen ein genaueres Bild.\n\nIn einer Studie mit über **33'000** berufstätigen Amerikanern stieg das Wohlbefinden mit dem Einkommen **weiter an**, auch über 75'000 Dollar hinaus. Nur bei den unglücklichsten Menschen flachte es ab: Ihnen half mehr Geld ab einem Punkt nicht mehr.\n\nGeld kann vieles leichter machen. Aber es repariert keine Beziehungen, keinen fehlenden Sinn und keinen Charakter.",
+      "body": "Lange hiess es: Ab rund 75'000 Dollar Jahreseinkommen macht mehr Geld nicht glücklicher. Neuere Daten zeigen ein genaueres Bild.\n\nIn einer Studie mit über **33'000** berufstätigen Amerikanern stieg das Wohlbefinden mit dem Einkommen **weiter an**, auch über 75'000 Dollar hinaus. Nur bei den unglücklichsten Menschen flachte es ab: Ihnen half mehr Geld ab einem Punkt nicht mehr.\n\n> Geld kann vieles leichter machen. Aber es repariert keine Beziehungen, keinen fehlenden Sinn und keinen Charakter.",
       "act": "Wofür willst du mehr Geld? Schreib es auf und prüf jeden Punkt: Löst Geld dieses Problem wirklich, oder nur scheinbar?",
       "deep": "Matthew Killingsworth und Daniel Kahneman, die zuvor zu unterschiedlichen Ergebnissen gekommen waren, werteten die Daten 2023 gemeinsam neu aus. Sie fanden: Für die meisten steigt das Glück mit dem Einkommen, für eine unglückliche Minderheit stösst es an eine Grenze.",
       "source": "Killingsworth, Kahneman & Mellers: Income and emotional well-being: A conflict resolved. PNAS, 2023"
     },
     "en": {
       "title": "Does money make you happy? The honest answer",
-      "body": "For a long time the line was: beyond about $75,000 a year, more money doesn't make you happier. Newer data show a sharper picture.\n\nIn a study of more than **33,000** working Americans, well-being **kept rising** with income, including beyond $75,000. Only among the unhappiest people did it level off: past a point, more money didn't help them.\n\nMoney can make many things easier. But it doesn't fix relationships, a lack of purpose or character.",
+      "body": "For a long time the line was: beyond about $75,000 a year, more money doesn't make you happier. Newer data show a sharper picture.\n\nIn a study of more than **33,000** working Americans, well-being **kept rising** with income, including beyond $75,000. Only among the unhappiest people did it level off: past a point, more money didn't help them.\n\n> Money can make many things easier. But it doesn't fix relationships, a lack of purpose or character.",
       "act": "What do you want more money for? Write it down and check each point: does money really solve this, or only seem to?",
       "deep": "Matthew Killingsworth and Daniel Kahneman, who had earlier reached different results, re-analysed the data together in 2023. They found that for most people happiness rises with income, while for an unhappy minority it hits a ceiling.",
       "source": "Killingsworth, Kahneman & Mellers: Income and emotional well-being: A conflict resolved. PNAS, 2023"
@@ -1058,14 +1058,14 @@
     "actKind": "langfristig",
     "de": {
       "title": "Die höchste Rendite von Geld ist Freiheit",
-      "body": "Wozu eigentlich Vermögen? Für Luxus? Morgan Housel gibt eine andere Antwort: Die höchste Dividende, die Geld zahlt, ist die Fähigkeit, **über deine Zeit selbst zu bestimmen**.\n\nEin Notgroschen heisst, dass du einen schlechten Job kündigen kannst. Ersparnisse heissen, dass du eine Chance packen kannst, ohne zu zittern. Vermögen heisst, dass du Nein sagen kannst.\n\nMillionäre im Kopf sparen nicht für Dinge. Sie sparen für Freiheit.",
+      "body": "Wozu eigentlich Vermögen? Für Luxus? Morgan Housel gibt eine andere Antwort: Die höchste Dividende, die Geld zahlt, ist die Fähigkeit, **über deine Zeit selbst zu bestimmen**.\n\nEin Notgroschen heisst, dass du einen schlechten Job kündigen kannst. Ersparnisse heissen, dass du eine Chance packen kannst, ohne zu zittern. Vermögen heisst, dass du Nein sagen kannst.\n\n> Millionäre im Kopf sparen nicht für Dinge. Sie sparen für Freiheit.",
       "act": "Rechne aus, wie viele Monate du ohne Einkommen leben könntest, und setz dir ein Ziel, diese Zahl dieses Jahr um einen Monat zu erhöhen.",
       "deep": "Housel verweist auf Forschung des Psychologen Angus Campbell: Das stärkste Merkmal für Wohlbefinden war nicht Einkommen oder Wohnort, sondern das Gefühl, das eigene Leben unter Kontrolle zu haben.",
       "source": "Morgan Housel: The Psychology of Money (2020), Kapitel 7; Angus Campbell: The Sense of Well-Being in America (1981)"
     },
     "en": {
       "title": "The highest return on money is freedom",
-      "body": "What's wealth actually for? Luxury? Morgan Housel gives another answer: the highest dividend money pays is the ability to **control your own time**.\n\nAn emergency fund means you can quit a bad job. Savings mean you can seize a chance without shaking. Wealth means you can say no.\n\nPeople with a millionaire mindset don't save for things. They save for freedom.",
+      "body": "What's wealth actually for? Luxury? Morgan Housel gives another answer: the highest dividend money pays is the ability to **control your own time**.\n\nAn emergency fund means you can quit a bad job. Savings mean you can seize a chance without shaking. Wealth means you can say no.\n\n> People with a millionaire mindset don't save for things. They save for freedom.",
       "act": "Work out how many months you could live without income, and set a goal to add one month to that this year.",
       "deep": "Housel points to research by psychologist Angus Campbell: the strongest predictor of well-being wasn't income or where people lived, but the sense of being in control of one's own life.",
       "source": "Morgan Housel: The Psychology of Money (2020), Chapter 7; Angus Campbell: The Sense of Well-Being in America (1981)"
@@ -1134,14 +1134,14 @@
     "actKind": "heute",
     "de": {
       "title": "Bezos dachte in Jahrzehnten, nicht in Quartalen",
-      "body": "1997, Amazon verkaufte noch fast nur Bücher und machte Verluste. In seinem ersten Brief an die Aktionäre schrieb Jeff Bezos einen Satz, den er jedes Jahr wieder beilegte: **Es geht nur um die lange Frist.**\n\nWährend andere Firmen den nächsten Quartalsgewinn jagten, investierte Amazon jahrelang alles in Kunden, Lager und Technik. Viele Analysten lachten. Heute gehört Amazon zu den wertvollsten Firmen der Welt.\n\nMilliardäre denken nicht schneller. Sie denken weiter.",
+      "body": "1997, Amazon verkaufte noch fast nur Bücher und machte Verluste. In seinem ersten Brief an die Aktionäre schrieb Jeff Bezos einen Satz, den er jedes Jahr wieder beilegte: **Es geht nur um die lange Frist.**\n\nWährend andere Firmen den nächsten Quartalsgewinn jagten, investierte Amazon jahrelang alles in Kunden, Lager und Technik. Viele Analysten lachten. Heute gehört Amazon zu den wertvollsten Firmen der Welt.\n\n> Milliardäre denken nicht schneller. Sie denken weiter.",
       "act": "Schreib auf, wo du in zehn Jahren stehen willst, und streich heute eine Gewohnheit, die nur dem kurzfristigen Gefühl dient.",
       "deep": "Bezos sagte später in einem Interview: Wenn alles, was du tust, sich in drei Jahren auszahlen muss, konkurrierst du mit vielen. Wenn du bereit bist, sieben Jahre zu warten, konkurrierst du nur noch mit wenigen.",
       "source": "Jeff Bezos: Brief an die Aktionäre (1997); Wired, 2011"
     },
     "en": {
       "title": "Bezos thought in decades, not quarters",
-      "body": "1997: Amazon still sold almost nothing but books and was losing money. In his first letter to shareholders Jeff Bezos wrote a line he attached again every year: **it's all about the long term.**\n\nWhile other companies chased next quarter's profit, Amazon spent years investing everything in customers, warehouses and technology. Many analysts laughed. Today Amazon is one of the most valuable companies in the world.\n\nBillionaires don't think faster. They think further.",
+      "body": "1997: Amazon still sold almost nothing but books and was losing money. In his first letter to shareholders Jeff Bezos wrote a line he attached again every year: **it's all about the long term.**\n\nWhile other companies chased next quarter's profit, Amazon spent years investing everything in customers, warehouses and technology. Many analysts laughed. Today Amazon is one of the most valuable companies in the world.\n\n> Billionaires don't think faster. They think further.",
       "act": "Write down where you want to be in ten years, and drop one habit today that only serves the short-term feeling.",
       "deep": "Bezos later said in an interview: if everything you do needs to work in three years, you're competing against a lot of people. If you're willing to wait seven years, you're competing against a fraction of them.",
       "source": "Jeff Bezos: Letter to shareholders (1997); Wired, 2011"
@@ -1183,7 +1183,7 @@
         "author": "Jensen Huang",
         "source": "Stanford, 2024"
       },
-      "body": "Jensen Huang kam als Kind aus Taiwan in die USA, landete in einem strengen Internat in Kentucky und putzte dort Toiletten. Als Teenager spülte er Geschirr bei der Restaurantkette Denny's. In einem Denny's gründete er 1993 mit zwei Partnern **Nvidia**, heute einer der wertvollsten Konzerne der Welt.\n\nVor Studenten in Stanford sagte er, Grösse entstehe aus **Charakter**, und Charakter entstehe nicht aus Klugheit, sondern aus Menschen, die gelitten haben.\n\nSchmerz ist kein Grund aufzugeben. Er ist das Material, aus dem du gebaut wirst.",
+      "body": "Jensen Huang kam als Kind aus Taiwan in die USA, landete in einem strengen Internat in Kentucky und putzte dort Toiletten. Als Teenager spülte er Geschirr bei der Restaurantkette Denny's. In einem Denny's gründete er 1993 mit zwei Partnern **Nvidia**, heute einer der wertvollsten Konzerne der Welt.\n\nVor Studenten in Stanford sagte er, Grösse entstehe aus **Charakter**, und Charakter entstehe nicht aus Klugheit, sondern aus Menschen, die gelitten haben.\n\n> Schmerz ist kein Grund aufzugeben. Er ist das Material, aus dem du gebaut wirst.",
       "act": "Nimm heute bewusst eine schwere Aufgabe an, der du sonst ausweichen würdest.",
       "deep": "Huang sprach im März 2024 an der Stanford Graduate School of Business. Er sagte auch, er wünsche den Studenten Rückschläge, weil hohe Erwartungen und wenig Belastbarkeit ein schlechter Mix seien. Nvidia war in den 1990er-Jahren mehrmals kurz vor dem Konkurs.",
       "source": "Jensen Huang: View From The Top, Stanford Graduate School of Business (2024)"
@@ -1195,7 +1195,7 @@
         "author": "Jensen Huang",
         "source": "Stanford, 2024"
       },
-      "body": "As a child Jensen Huang came from Taiwan to the US, ended up at a strict boarding school in Kentucky and cleaned toilets there. As a teenager he washed dishes at the restaurant chain Denny's. In a Denny's, in 1993, he and two partners founded **Nvidia**, today one of the most valuable companies in the world.\n\nSpeaking to students at Stanford, he said greatness comes from **character**, and character isn't formed out of smart people but out of people who have suffered.\n\nPain isn't a reason to quit. It's the material you're built from.",
+      "body": "As a child Jensen Huang came from Taiwan to the US, ended up at a strict boarding school in Kentucky and cleaned toilets there. As a teenager he washed dishes at the restaurant chain Denny's. In a Denny's, in 1993, he and two partners founded **Nvidia**, today one of the most valuable companies in the world.\n\nSpeaking to students at Stanford, he said greatness comes from **character**, and character isn't formed out of smart people but out of people who have suffered.\n\n> Pain isn't a reason to quit. It's the material you're built from.",
       "act": "Take on one hard task today that you'd normally avoid.",
       "deep": "Huang spoke at Stanford Graduate School of Business in March 2024. He also said he wished setbacks on the students, because high expectations and low resilience are a bad mix. Nvidia came close to bankruptcy several times in the 1990s.",
       "source": "Jensen Huang: View From The Top, Stanford Graduate School of Business (2024)"
@@ -1210,14 +1210,14 @@
     "actKind": "heute",
     "de": {
       "title": "Was hast du diese Woche nicht geschafft?",
-      "body": "Am Esstisch der Familie Blakely stellte der Vater jede Woche dieselbe Frage: **\"Woran bist du diese Woche gescheitert?\"** Hatten die Kinder nichts zu erzählen, war er enttäuscht. Scheitern hiess für ihn: Du hast es versucht.\n\nSara Blakely verkaufte danach sieben Jahre lang Faxgeräte an der Haustür und hörte täglich Nein. Mit 5000 Dollar Erspartem gründete sie **Spanx**. 2012 wurde sie die jüngste Selfmade-Milliardärin der Welt.\n\nWer Angst vor dem Scheitern verliert, gewinnt den Mut, Dinge zu versuchen.",
+      "body": "Am Esstisch der Familie Blakely stellte der Vater jede Woche dieselbe Frage: **\"Woran bist du diese Woche gescheitert?\"** Hatten die Kinder nichts zu erzählen, war er enttäuscht. Scheitern hiess für ihn: Du hast es versucht.\n\nSara Blakely verkaufte danach sieben Jahre lang Faxgeräte an der Haustür und hörte täglich Nein. Mit 5000 Dollar Erspartem gründete sie **Spanx**. 2012 wurde sie die jüngste Selfmade-Milliardärin der Welt.\n\n> Wer Angst vor dem Scheitern verliert, gewinnt den Mut, Dinge zu versuchen.",
       "act": "Versuch diese Woche bewusst etwas, bei dem du scheitern könntest, und erzähl jemandem davon, egal wie es ausgeht.",
       "deep": "Blakely erzählt die Geschichte in vielen Interviews. Sie sagt, die Frage ihres Vaters habe ihre Definition von Versagen verändert: Versagen heisst nicht, ein Ziel zu verfehlen, sondern es gar nicht zu versuchen. Das Magazin Forbes führte sie 2012 auf dem Titelblatt.",
       "source": "Forbes, März 2012; Sara Blakely in zahlreichen Interviews"
     },
     "en": {
       "title": "What did you fail at this week?",
-      "body": "At the Blakely family dinner table, the father asked the same question every week: **\"What did you fail at this week?\"** If the children had nothing to report, he was disappointed. To him, failing meant you had tried.\n\nSara Blakely went on to sell fax machines door to door for seven years, hearing no every day. With $5,000 of savings she founded **Spanx**. In 2012 she became the world's youngest self-made female billionaire.\n\nLose your fear of failure and you gain the courage to try things.",
+      "body": "At the Blakely family dinner table, the father asked the same question every week: **\"What did you fail at this week?\"** If the children had nothing to report, he was disappointed. To him, failing meant you had tried.\n\nSara Blakely went on to sell fax machines door to door for seven years, hearing no every day. With $5,000 of savings she founded **Spanx**. In 2012 she became the world's youngest self-made female billionaire.\n\n> Lose your fear of failure and you gain the courage to try things.",
       "act": "Deliberately try something this week where you might fail, and tell someone about it whatever the outcome.",
       "deep": "Blakely tells the story in many interviews. She says her father's question changed her definition of failure: failure isn't missing a goal, it's not trying. Forbes put her on its cover in 2012.",
       "source": "Forbes, March 2012; Sara Blakely in numerous interviews"

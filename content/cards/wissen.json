@@ -52,14 +52,14 @@
     "actKind": "langfristig",
     "de": {
       "title": "Du bestehst aus rund 37 Billionen Zellen",
-      "body": "Wie viele Zellen hat ein Mensch? Lange gab es nur grobe Schätzungen, von Milliarden bis Billiarden.\n\n2013 rechneten Forscher es Organ für Organ durch und kamen auf etwa **37 Billionen**, also 37'000 Milliarden. Den grössten Teil machen die **roten Blutkörperchen** aus. Und jeden Tag ersetzt dein Körper Hunderte Milliarden Zellen.\n\nDu bist nicht einfach da. Du wirst jeden Tag neu gebaut.",
+      "body": "Wie viele Zellen hat ein Mensch? Lange gab es nur grobe Schätzungen, von Milliarden bis Billiarden.\n\n2013 rechneten Forscher es Organ für Organ durch und kamen auf etwa **37 Billionen**, also 37'000 Milliarden. Den grössten Teil machen die **roten Blutkörperchen** aus. Und jeden Tag ersetzt dein Körper Hunderte Milliarden Zellen.\n\n> Du bist nicht einfach da. Du wirst jeden Tag neu gebaut.",
       "act": "Dein Körper baut sich laufend neu. Was du in den nächsten Monaten isst, wie du schläfst und trainierst, ist das Material dafür. Wähl eine Sache, die du ab dieser Woche dauerhaft besser machst.",
       "deep": "Eva Bianconi und Kollegen aus Italien kamen auf 3,72 mal 10 hoch 13 Zellen. Dazu kommen ungefähr gleich viele Bakterien, vor allem im Darm. Eine Studie von 2021 schätzte, dass der Körper täglich rund 330 Milliarden Zellen ersetzt.",
       "source": "Bianconi et al.: An estimation of the number of cells in the human body. Annals of Human Biology, 2013; Sender & Milo, Nature Medicine, 2021"
     },
     "en": {
       "title": "You're made of about 37 trillion cells",
-      "body": "How many cells does a human have? For a long time there were only rough guesses, from billions to quadrillions.\n\nIn 2013 researchers calculated it organ by organ and arrived at about **37 trillion**. Most of them are **red blood cells**. And every day your body replaces hundreds of billions of cells.\n\nYou don't just exist. You're being rebuilt every day.",
+      "body": "How many cells does a human have? For a long time there were only rough guesses, from billions to quadrillions.\n\nIn 2013 researchers calculated it organ by organ and arrived at about **37 trillion**. Most of them are **red blood cells**. And every day your body replaces hundreds of billions of cells.\n\n> You don't just exist. You're being rebuilt every day.",
       "act": "Your body keeps rebuilding itself. What you eat, how you sleep and train over the next months is the material. Pick one thing you'll do better from this week on, for good.",
       "deep": "Eva Bianconi and colleagues in Italy arrived at 3.72 × 10^13 cells. On top come roughly as many bacteria, mainly in the gut. A 2021 study estimated the body replaces about 330 billion cells a day.",
       "source": "Bianconi et al.: An estimation of the number of cells in the human body. Annals of Human Biology, 2013; Sender & Milo, Nature Medicine, 2021"
@@ -74,14 +74,14 @@
     "actKind": "frage",
     "de": {
       "title": "Wir kennen den Mond besser als den Meeresboden",
-      "body": "Rund **71 %** der Erdoberfläche sind Wasser. Doch wie der Boden darunter aussieht, wissen wir erstaunlich schlecht.\n\nDas internationale Projekt Seabed 2030 will bis 2030 den ganzen Meeresboden genau kartieren. Stand heute ist erst rund **ein Viertel** in hoher Auflösung vermessen. Die Oberfläche von Mond und Mars ist dagegen fast vollständig kartiert.\n\nAuf unserem eigenen Planeten gibt es noch riesige weisse Flecken. Die Zeit der Entdecker ist nicht vorbei.",
+      "body": "Rund **71 %** der Erdoberfläche sind Wasser. Doch wie der Boden darunter aussieht, wissen wir erstaunlich schlecht.\n\nDas internationale Projekt Seabed 2030 will bis 2030 den ganzen Meeresboden genau kartieren. Stand heute ist erst rund **ein Viertel** in hoher Auflösung vermessen. Die Oberfläche von Mond und Mars ist dagegen fast vollständig kartiert.\n\n> Auf unserem eigenen Planeten gibt es noch riesige weisse Flecken. Die Zeit der Entdecker ist nicht vorbei.",
       "act": "Welches Gebiet direkt vor deiner Nase kennst du kaum, obwohl es dich betrifft? Dein Körper, dein Geld, deine Gemeinde?",
       "deep": "Satelliten können den Meeresboden nur grob abschätzen, weil Wasser Radarwellen schluckt. Für genaue Karten braucht es Schiffe mit Echolot, und die Meere sind riesig. Viele Tiefseearten sind noch nicht beschrieben.",
       "source": "The Nippon Foundation-GEBCO Seabed 2030 Project; NOAA"
     },
     "en": {
       "title": "We know the moon better than the seafloor",
-      "body": "About **71%** of the earth's surface is water. Yet we know surprisingly little about what the floor beneath it looks like.\n\nThe international Seabed 2030 project aims to map the entire seafloor in detail by 2030. So far only about **a quarter** has been mapped at high resolution. The surfaces of the moon and Mars, by contrast, are almost fully mapped.\n\nOur own planet still has huge blank spots. The age of explorers isn't over.",
+      "body": "About **71%** of the earth's surface is water. Yet we know surprisingly little about what the floor beneath it looks like.\n\nThe international Seabed 2030 project aims to map the entire seafloor in detail by 2030. So far only about **a quarter** has been mapped at high resolution. The surfaces of the moon and Mars, by contrast, are almost fully mapped.\n\n> Our own planet still has huge blank spots. The age of explorers isn't over.",
       "act": "Which area right in front of you do you barely know, even though it affects you? Your body, your money, your town?",
       "deep": "Satellites can only roughly estimate the seafloor, because water absorbs radar waves. Detailed maps need ships with sonar, and the oceans are vast. Many deep-sea species have not yet been described.",
       "source": "The Nippon Foundation-GEBCO Seabed 2030 Project; NOAA"
@@ -164,14 +164,14 @@
     "actKind": "heute",
     "de": {
       "title": "Wer in der EU eigentlich entscheidet",
-      "body": "Die Europäische Union hat **27 Mitgliedstaaten** und mehrere Organe, die oft verwechselt werden.\n\nDie **Kommission** schlägt Gesetze vor und wacht über ihre Einhaltung. Das **Europäische Parlament**, direkt von den Bürgern gewählt, und der **Rat der EU**, in dem die Minister der Mitgliedstaaten sitzen, beschliessen die Gesetze gemeinsam. Der **Europäische Rat**, die Staats- und Regierungschefs, gibt die grosse Richtung vor.\n\nWer die EU versteht, versteht auch, warum Entscheidungen oft lange dauern: Viele müssen zustimmen.",
+      "body": "Die Europäische Union hat **27 Mitgliedstaaten** und mehrere Organe, die oft verwechselt werden.\n\nDie **Kommission** schlägt Gesetze vor und wacht über ihre Einhaltung. Das **Europäische Parlament**, direkt von den Bürgern gewählt, und der **Rat der EU**, in dem die Minister der Mitgliedstaaten sitzen, beschliessen die Gesetze gemeinsam. Der **Europäische Rat**, die Staats- und Regierungschefs, gibt die grosse Richtung vor.\n\n> Wer die EU versteht, versteht auch, warum Entscheidungen oft lange dauern: Viele müssen zustimmen.",
       "act": "Lies eine aktuelle Nachricht über die EU und finde heraus, welches der vier Organe gerade handelt.",
       "deep": "Daneben gibt es den Europäischen Gerichtshof und die Europäische Zentralbank. Die Schweiz ist nicht Mitglied, aber über bilaterale Verträge eng mit der EU verbunden, etwa beim freien Personenverkehr und beim Binnenmarkt.",
       "source": "Vertrag über die Europäische Union (Vertrag von Lissabon, 2007)"
     },
     "en": {
       "title": "Who actually decides in the EU",
-      "body": "The European Union has **27 member states** and several bodies that people often mix up.\n\nThe **Commission** proposes laws and makes sure they're followed. The **European Parliament**, elected directly by citizens, and the **Council of the EU**, where ministers of the member states sit, pass laws together. The **European Council**, the heads of state and government, sets the overall direction.\n\nUnderstand the EU and you understand why decisions often take long: many have to agree.",
+      "body": "The European Union has **27 member states** and several bodies that people often mix up.\n\nThe **Commission** proposes laws and makes sure they're followed. The **European Parliament**, elected directly by citizens, and the **Council of the EU**, where ministers of the member states sit, pass laws together. The **European Council**, the heads of state and government, sets the overall direction.\n\n> Understand the EU and you understand why decisions often take long: many have to agree.",
       "act": "Read a current news item about the EU and work out which of the four bodies is acting.",
       "deep": "There's also the Court of Justice and the European Central Bank. Switzerland isn't a member but is closely tied to the EU through bilateral agreements, for example on free movement of people and the single market.",
       "source": "Treaty on European Union (Treaty of Lisbon, 2007)"
@@ -208,14 +208,14 @@
     "actKind": "merke",
     "de": {
       "title": "Fünf Länder können die UNO blockieren",
-      "body": "Der **UNO-Sicherheitsrat** ist das mächtigste Gremium der Vereinten Nationen. Nur er kann für alle Mitglieder verbindliche Beschlüsse fassen, etwa Sanktionen oder Militäreinsätze.\n\nEr hat 15 Mitglieder. Zehn werden für **zwei Jahre** gewählt. Fünf sind **ständig** dabei und haben ein **Vetorecht**: die USA, Russland, China, Grossbritannien und Frankreich, die Siegermächte des Zweiten Weltkriegs.\n\nEin einziges Veto stoppt jeden Beschluss. Darum ist der Rat bei vielen Konflikten gelähmt.",
+      "body": "Der **UNO-Sicherheitsrat** ist das mächtigste Gremium der Vereinten Nationen. Nur er kann für alle Mitglieder verbindliche Beschlüsse fassen, etwa Sanktionen oder Militäreinsätze.\n\nEr hat 15 Mitglieder. Zehn werden für **zwei Jahre** gewählt. Fünf sind **ständig** dabei und haben ein **Vetorecht**: die USA, Russland, China, Grossbritannien und Frankreich, die Siegermächte des Zweiten Weltkriegs.\n\n> Ein einziges Veto stoppt jeden Beschluss. Darum ist der Rat bei vielen Konflikten gelähmt.",
       "act": "15 Mitglieder, 5 davon ständig und mit Veto: USA, Russland, China, Frankreich, Grossbritannien. Ein einziges Nein dieser fünf stoppt jeden Beschluss.",
       "deep": "Die Schweiz trat der UNO erst 2002 bei, nach einer Volksabstimmung. 2023 und 2024 sass sie zum ersten Mal als gewähltes Mitglied im Sicherheitsrat. Über eine Reform des Rates wird seit Jahrzehnten diskutiert.",
       "source": "Charta der Vereinten Nationen (1945), Kapitel V; Eidgenössisches Departement für auswärtige Angelegenheiten"
     },
     "en": {
       "title": "Five countries can block the UN",
-      "body": "The **UN Security Council** is the most powerful body of the United Nations. Only it can make decisions binding on all members, such as sanctions or military action.\n\nIt has 15 members. Ten are elected for **two years**. Five are **permanent** and have a **veto**: the US, Russia, China, the UK and France, the victors of the Second World War.\n\nA single veto stops any decision. That's why the council is paralysed in many conflicts.",
+      "body": "The **UN Security Council** is the most powerful body of the United Nations. Only it can make decisions binding on all members, such as sanctions or military action.\n\nIt has 15 members. Ten are elected for **two years**. Five are **permanent** and have a **veto**: the US, Russia, China, the UK and France, the victors of the Second World War.\n\n> A single veto stops any decision. That's why the council is paralysed in many conflicts.",
       "act": "15 members, 5 permanent with a veto: the US, Russia, China, France and the UK. A single no from these five stops any resolution.",
       "deep": "Switzerland only joined the UN in 2002, after a popular vote. In 2023 and 2024 it sat on the Security Council as an elected member for the first time. Reform of the council has been debated for decades.",
       "source": "Charter of the United Nations (1945), Chapter V; Swiss Federal Department of Foreign Affairs"
@@ -298,14 +298,14 @@
     "actKind": "so",
     "de": {
       "title": "Lange Passwörter schlagen komplizierte",
-      "body": "\"P@ssw0rt!\" sieht sicher aus. Für einen Computer ist es leicht zu knacken, weil solche Ersetzungen bekannt sind.\n\nDas US-Normungsinstitut NIST hat seine Empfehlungen 2017 grundlegend geändert: **Länge** zählt mehr als Sonderzeichen. Ein Satz aus mehreren zufälligen Wörtern ist stärker und leichter zu merken. Und Passwörter muss man nicht mehr regelmässig ändern, nur wenn sie gestohlen wurden.\n\nAm wichtigsten: Nutze **nie** dasselbe Passwort zweimal. Ein Passwortmanager nimmt dir die Arbeit ab.",
+      "body": "\"P@ssw0rt!\" sieht sicher aus. Für einen Computer ist es leicht zu knacken, weil solche Ersetzungen bekannt sind.\n\nDas US-Normungsinstitut NIST hat seine Empfehlungen 2017 grundlegend geändert: **Länge** zählt mehr als Sonderzeichen. Ein Satz aus mehreren zufälligen Wörtern ist stärker und leichter zu merken. Und Passwörter muss man nicht mehr regelmässig ändern, nur wenn sie gestohlen wurden.\n\n> Am wichtigsten: Nutze **nie** dasselbe Passwort zweimal. Ein Passwortmanager nimmt dir die Arbeit ab.",
       "act": "- Nimm vier zufällige Wörter: \"Kerze Velo Nebel Pinguin\".\n- Nutze für jedes wichtige Konto ein eigenes, am besten mit einem Passwortmanager.\n- Schalte bei E-Mail und Bank die Zwei-Faktor-Anmeldung ein.",
       "deep": "Die Richtlinie heisst NIST Special Publication 800-63B. Sie empfiehlt auch, neue Passwörter mit Listen bereits gestohlener Passwörter abzugleichen. Die Zwei-Faktor-Anmeldung schützt selbst dann, wenn ein Passwort in falsche Hände gerät.",
       "source": "National Institute of Standards and Technology: Digital Identity Guidelines, SP 800-63B (2017)"
     },
     "en": {
       "title": "Long passwords beat complicated ones",
-      "body": "\"P@ssw0rd!\" looks secure. For a computer it's easy to crack, because such substitutions are well known.\n\nThe US standards institute NIST changed its guidance fundamentally in 2017: **length** matters more than special characters. A phrase of several random words is stronger and easier to remember. And you no longer need to change passwords regularly, only when they've been stolen.\n\nMost important: **never** use the same password twice. A password manager does the work for you.",
+      "body": "\"P@ssw0rd!\" looks secure. For a computer it's easy to crack, because such substitutions are well known.\n\nThe US standards institute NIST changed its guidance fundamentally in 2017: **length** matters more than special characters. A phrase of several random words is stronger and easier to remember. And you no longer need to change passwords regularly, only when they've been stolen.\n\n> Most important: **never** use the same password twice. A password manager does the work for you.",
       "act": "- Take four random words: \"candle bike fog penguin\".\n- Use a different one for every important account, ideally with a password manager.\n- Turn on two-factor sign-in for email and banking.",
       "deep": "The guideline is NIST Special Publication 800-63B. It also recommends checking new passwords against lists of already stolen ones. Two-factor sign-in protects you even if a password falls into the wrong hands.",
       "source": "National Institute of Standards and Technology: Digital Identity Guidelines, SP 800-63B (2017)"
@@ -388,14 +388,14 @@
     "actKind": "frage",
     "de": {
       "title": "Was das BIP misst und was nicht",
-      "body": "Das **Bruttoinlandprodukt (BIP)** ist der Wert aller Waren und Dienstleistungen, die ein Land in einem Jahr herstellt. Es ist die wichtigste Zahl, um Wirtschaften zu vergleichen. Wächst es, geht es der Wirtschaft meist gut.\n\nAber das BIP hat blinde Flecken. Ein Autounfall erhöht es, weil Reparaturen bezahlt werden. Ein Vater, der seine Kinder selbst erzieht, zählt nicht. Ein gesunder Wald zählt nicht, ein abgeholzter schon.\n\nDas BIP misst Aktivität, nicht Glück. Ein wichtiger Unterschied.",
+      "body": "Das **Bruttoinlandprodukt (BIP)** ist der Wert aller Waren und Dienstleistungen, die ein Land in einem Jahr herstellt. Es ist die wichtigste Zahl, um Wirtschaften zu vergleichen. Wächst es, geht es der Wirtschaft meist gut.\n\nAber das BIP hat blinde Flecken. Ein Autounfall erhöht es, weil Reparaturen bezahlt werden. Ein Vater, der seine Kinder selbst erzieht, zählt nicht. Ein gesunder Wald zählt nicht, ein abgeholzter schon.\n\n> Das BIP misst Aktivität, nicht Glück. Ein wichtiger Unterschied.",
       "act": "Was hat in deinem Leben grossen Wert, taucht aber in keiner Statistik auf? Wie viel Zeit gibst du dem?",
       "deep": "Der Ökonom Simon Kuznets, der das Konzept in den 1930er-Jahren für die USA entwickelte, warnte selbst davor, das BIP mit Wohlstand gleichzusetzen. Robert Kennedy sagte 1968, es messe alles, ausser dem, was das Leben lebenswert macht.",
       "source": "Simon Kuznets: National Income, 1929–1932. Bericht an den US-Senat, 1934"
     },
     "en": {
       "title": "What GDP measures and what it doesn't",
-      "body": "**Gross domestic product (GDP)** is the value of all goods and services a country produces in a year. It's the key number for comparing economies. When it grows, the economy is usually doing well.\n\nBut GDP has blind spots. A car crash raises it, because repairs get paid for. A father raising his own children doesn't count. A healthy forest doesn't count, a felled one does.\n\nGDP measures activity, not happiness. An important difference.",
+      "body": "**Gross domestic product (GDP)** is the value of all goods and services a country produces in a year. It's the key number for comparing economies. When it grows, the economy is usually doing well.\n\nBut GDP has blind spots. A car crash raises it, because repairs get paid for. A father raising his own children doesn't count. A healthy forest doesn't count, a felled one does.\n\n> GDP measures activity, not happiness. An important difference.",
       "act": "What has great value in your life but shows up in no statistic? How much time do you give it?",
       "deep": "Economist Simon Kuznets, who developed the concept for the US in the 1930s, himself warned against equating GDP with welfare. Robert Kennedy said in 1968 that it measures everything except that which makes life worthwhile.",
       "source": "Simon Kuznets: National Income, 1929–1932. Report to the US Senate, 1934"
@@ -410,7 +410,7 @@
     "actKind": "heute",
     "de": {
       "title": "Handel lohnt sich sogar für den Besseren",
-      "body": "England und Portugal stellen Tuch und Wein her. Portugal kann **beides** günstiger. Lohnt sich Handel trotzdem? Ja, sagt der Ökonom David Ricardo 1817.\n\nEntscheidend ist nicht, wer etwas absolut besser kann, sondern wer **relativ** am wenigsten aufgibt. Portugal ist beim Wein besonders stark, England beim Tuch nur etwas schwächer. Spezialisiert sich jedes Land auf seine relative Stärke und beide tauschen, haben **beide mehr**.\n\nDas gilt auch für dich: Mach selbst, was du relativ am besten kannst, und überlass anderen den Rest.",
+      "body": "England und Portugal stellen Tuch und Wein her. Portugal kann **beides** günstiger. Lohnt sich Handel trotzdem? Ja, sagt der Ökonom David Ricardo 1817.\n\nEntscheidend ist nicht, wer etwas absolut besser kann, sondern wer **relativ** am wenigsten aufgibt. Portugal ist beim Wein besonders stark, England beim Tuch nur etwas schwächer. Spezialisiert sich jedes Land auf seine relative Stärke und beide tauschen, haben **beide mehr**.\n\n> Das gilt auch für dich: Mach selbst, was du relativ am besten kannst, und überlass anderen den Rest.",
       "example": "Eine Anwältin tippt schneller als ihre Assistentin. Trotzdem lohnt es sich, dass die Assistentin tippt: In derselben Stunde verdient die Anwältin mit Beratung ein Vielfaches.",
       "act": "Schreib eine Aufgabe auf, die du gut kannst, die dich aber von deiner grössten Stärke abhält. Wer könnte sie für dich übernehmen?",
       "deep": "Ricardos Theorie des komparativen Vorteils gilt als eine der wenigen Ideen der Ökonomie, die zugleich wahr und nicht offensichtlich sind, wie der Nobelpreisträger Paul Samuelson sagte. Sie erklärt, warum Arbeitsteilung und Handel den Wohlstand steigern.",
@@ -418,7 +418,7 @@
     },
     "en": {
       "title": "Trade pays off even for the better one",
-      "body": "England and Portugal make cloth and wine. Portugal can make **both** more cheaply. Is trade still worth it? Yes, said economist David Ricardo in 1817.\n\nWhat matters isn't who is absolutely better, but who gives up the **least** relatively. Portugal is especially strong in wine, England only slightly weaker in cloth. If each specialises in its relative strength and they trade, **both have more**.\n\nThis applies to you too: do what you're relatively best at yourself, and leave the rest to others.",
+      "body": "England and Portugal make cloth and wine. Portugal can make **both** more cheaply. Is trade still worth it? Yes, said economist David Ricardo in 1817.\n\nWhat matters isn't who is absolutely better, but who gives up the **least** relatively. Portugal is especially strong in wine, England only slightly weaker in cloth. If each specialises in its relative strength and they trade, **both have more**.\n\n> This applies to you too: do what you're relatively best at yourself, and leave the rest to others.",
       "example": "A lawyer types faster than her assistant. It still pays for the assistant to type: in that same hour the lawyer earns many times more advising clients.",
       "act": "Write down a task you're good at that keeps you from your greatest strength. Who could take it over?",
       "deep": "Ricardo's theory of comparative advantage is one of the few ideas in economics that is both true and not obvious, as Nobel laureate Paul Samuelson put it. It explains why division of labour and trade raise prosperity.",
@@ -500,14 +500,14 @@
     "actKind": "achte",
     "de": {
       "title": "Placebos wirken sogar, wenn man es weiss",
-      "body": "Ein Placebo ist eine Scheinbehandlung ohne Wirkstoff. Dass es trotzdem wirken kann, weil man daran glaubt, ist bekannt. Aber was, wenn man weiss, dass es ein Placebo ist?\n\nForscher in Harvard gaben Patienten mit Reizdarm Pillen und sagten ihnen offen: **Das sind Zuckerpillen.** Nach drei Wochen ging es diesen Patienten deutlich besser als einer Gruppe ohne Behandlung.\n\nErwartung, Ritual und Zuwendung beeinflussen den Körper messbar. Der Kopf ist kein Zuschauer.",
+      "body": "Ein Placebo ist eine Scheinbehandlung ohne Wirkstoff. Dass es trotzdem wirken kann, weil man daran glaubt, ist bekannt. Aber was, wenn man weiss, dass es ein Placebo ist?\n\nForscher in Harvard gaben Patienten mit Reizdarm Pillen und sagten ihnen offen: **Das sind Zuckerpillen.** Nach drei Wochen ging es diesen Patienten deutlich besser als einer Gruppe ohne Behandlung.\n\n> Erwartung, Ritual und Zuwendung beeinflussen den Körper messbar. Der Kopf ist kein Zuschauer.",
       "act": "Achte heute darauf, mit welcher Erwartung du an eine schwierige Aufgabe gehst. Sie färbt das Ergebnis.",
       "deep": "Ted Kaptchuk und Kollegen untersuchten 80 Patienten. Placebos wirken vor allem auf Beschwerden wie Schmerzen, Übelkeit oder Müdigkeit, nicht auf Tumore oder Infektionen. Sie ersetzen keine echte Behandlung.",
       "source": "Kaptchuk et al.: Placebos without deception. PLoS ONE, 2010"
     },
     "en": {
       "title": "Placebos work even when you know",
-      "body": "A placebo is a fake treatment with no active ingredient. It's well known that it can work because people believe in it. But what if they know it's a placebo?\n\nHarvard researchers gave patients with irritable bowel syndrome pills and told them openly: **these are sugar pills.** After three weeks, these patients were clearly better off than a group with no treatment.\n\nExpectation, ritual and care affect the body measurably. The mind isn't a bystander.",
+      "body": "A placebo is a fake treatment with no active ingredient. It's well known that it can work because people believe in it. But what if they know it's a placebo?\n\nHarvard researchers gave patients with irritable bowel syndrome pills and told them openly: **these are sugar pills.** After three weeks, these patients were clearly better off than a group with no treatment.\n\n> Expectation, ritual and care affect the body measurably. The mind isn't a bystander.",
       "act": "Notice today what expectation you bring to a hard task. It colours the result.",
       "deep": "Ted Kaptchuk and colleagues studied 80 patients. Placebos work mainly on symptoms like pain, nausea or fatigue, not on tumours or infections. They don't replace real treatment.",
       "source": "Kaptchuk et al.: Placebos without deception. PLoS ONE, 2010"
@@ -544,14 +544,14 @@
     "actKind": "langfristig",
     "de": {
       "title": "Londoner Taxifahrer haben ein anderes Gehirn",
-      "body": "Wer in London ein schwarzes Taxi fahren will, muss \"The Knowledge\" bestehen: rund **25'000 Strassen** und Tausende Orte auswendig kennen. Die Vorbereitung dauert oft drei bis vier Jahre.\n\nForscher untersuchten die Gehirne dieser Fahrer im MRI. Ein Teil des **Hippocampus**, der für räumliches Gedächtnis zuständig ist, war bei ihnen grösser als bei anderen Männern. Und je länger einer Taxi fuhr, desto grösser war er.\n\nDein Gehirn ist kein fertiges Organ. Es baut sich um, je nachdem, was du von ihm verlangst.",
+      "body": "Wer in London ein schwarzes Taxi fahren will, muss \"The Knowledge\" bestehen: rund **25'000 Strassen** und Tausende Orte auswendig kennen. Die Vorbereitung dauert oft drei bis vier Jahre.\n\nForscher untersuchten die Gehirne dieser Fahrer im MRI. Ein Teil des **Hippocampus**, der für räumliches Gedächtnis zuständig ist, war bei ihnen grösser als bei anderen Männern. Und je länger einer Taxi fuhr, desto grösser war er.\n\n> Dein Gehirn ist kein fertiges Organ. Es baut sich um, je nachdem, was du von ihm verlangst.",
       "act": "Lern einen Monat lang jede Woche etwas auswendig: einen Bibelvers, ein Gedicht, einen Weg ohne Navi. Dein Gehirn wächst mit dem, was du ihm abverlangst.",
       "deep": "Eleanor Maguire und Kollegen veröffentlichten die Studie im Jahr 2000. Eine spätere Studie begleitete angehende Fahrer über Jahre: Nur bei denen, die die Prüfung bestanden, wuchs der Hippocampus. Fachleute nennen diese Anpassungsfähigkeit Neuroplastizität.",
       "source": "Maguire et al.: Navigation-related structural change in the hippocampi of taxi drivers. PNAS, 2000"
     },
     "en": {
       "title": "London taxi drivers have different brains",
-      "body": "To drive a black cab in London, you have to pass \"The Knowledge\": memorising about **25,000 streets** and thousands of places. Preparation often takes three to four years.\n\nResearchers scanned these drivers' brains. Part of the **hippocampus**, which handles spatial memory, was larger in them than in other men. And the longer someone had driven a taxi, the larger it was.\n\nYour brain isn't a finished organ. It rebuilds itself according to what you demand of it.",
+      "body": "To drive a black cab in London, you have to pass \"The Knowledge\": memorising about **25,000 streets** and thousands of places. Preparation often takes three to four years.\n\nResearchers scanned these drivers' brains. Part of the **hippocampus**, which handles spatial memory, was larger in them than in other men. And the longer someone had driven a taxi, the larger it was.\n\n> Your brain isn't a finished organ. It rebuilds itself according to what you demand of it.",
       "act": "For a month, learn something by heart every week: a verse, a poem, a route without GPS. Your brain grows with what you demand of it.",
       "deep": "Eleanor Maguire and colleagues published the study in 2000. A later study followed trainee drivers for years: only in those who passed the exam did the hippocampus grow. Experts call this adaptability neuroplasticity.",
       "source": "Maguire et al.: Navigation-related structural change in the hippocampi of taxi drivers. PNAS, 2000"
@@ -566,14 +566,14 @@
     "actKind": "merke",
     "de": {
       "title": "Was ein Sprachmodell eigentlich tut",
-      "body": "Chatbots wie ChatGPT oder Gemini wirken, als würden sie denken. Im Kern machen sie etwas überraschend Einfaches: Sie sagen das **nächste Wortstück** voraus.\n\nSie wurden mit riesigen Mengen Text trainiert und haben dabei Muster gelernt: Grammatik, Fakten, Argumente, Stil. Bei jeder Antwort berechnen sie, welches Wortstück am wahrscheinlichsten folgt, dann das nächste, und so weiter.\n\nAus diesem einfachen Prinzip entstehen erstaunliche Fähigkeiten. Aber auch Fehler: Was plausibel klingt, muss nicht stimmen.",
+      "body": "Chatbots wie ChatGPT oder Gemini wirken, als würden sie denken. Im Kern machen sie etwas überraschend Einfaches: Sie sagen das **nächste Wortstück** voraus.\n\nSie wurden mit riesigen Mengen Text trainiert und haben dabei Muster gelernt: Grammatik, Fakten, Argumente, Stil. Bei jeder Antwort berechnen sie, welches Wortstück am wahrscheinlichsten folgt, dann das nächste, und so weiter.\n\n> Aus diesem einfachen Prinzip entstehen erstaunliche Fähigkeiten. Aber auch Fehler: Was plausibel klingt, muss nicht stimmen.",
       "act": "Eine KI sagt das wahrscheinlichste nächste Wort voraus, nicht das wahrste. Klingt eine Antwort sicher, ist sie deshalb noch nicht richtig.",
       "deep": "Die Wortstücke heissen Tokens. Die Modelle beruhen auf der Transformer-Architektur, die Google-Forscher 2017 vorstellten. Nach dem Grundtraining werden sie mit menschlichem Feedback weiter trainiert, damit sie hilfreicher und sicherer antworten.",
       "source": "Vaswani et al.: Attention Is All You Need (2017)"
     },
     "en": {
       "title": "What a language model actually does",
-      "body": "Chatbots like ChatGPT or Gemini seem to think. At their core they do something surprisingly simple: they predict the **next piece of a word**.\n\nThey were trained on huge amounts of text and learned patterns along the way: grammar, facts, arguments, style. For each answer they calculate which piece is most likely to come next, then the next one, and so on.\n\nAmazing abilities emerge from this simple principle. But so do mistakes: what sounds plausible isn't necessarily true.",
+      "body": "Chatbots like ChatGPT or Gemini seem to think. At their core they do something surprisingly simple: they predict the **next piece of a word**.\n\nThey were trained on huge amounts of text and learned patterns along the way: grammar, facts, arguments, style. For each answer they calculate which piece is most likely to come next, then the next one, and so on.\n\n> Amazing abilities emerge from this simple principle. But so do mistakes: what sounds plausible isn't necessarily true.",
       "act": "An AI predicts the most likely next word, not the truest one. A confident-sounding answer isn't right because of that.",
       "deep": "The word pieces are called tokens. The models are based on the transformer architecture Google researchers introduced in 2017. After the base training, they're trained further with human feedback to make their answers more helpful and safer.",
       "source": "Vaswani et al.: Attention Is All You Need (2017)"
@@ -632,14 +632,14 @@
     "actKind": "frage",
     "de": {
       "title": "Zug 37: Als eine Maschine kreativ wurde",
-      "body": "Im März 2016 spielte das Programm **AlphaGo** in Seoul gegen Lee Sedol, einen der besten Go-Spieler der Welt. Go galt als zu komplex für Computer: Es gibt mehr mögliche Stellungen als Atome im Universum.\n\nIm zweiten Spiel machte AlphaGo seinen **37. Zug** an einer Stelle, die kein Profi gewählt hätte. Kommentatoren hielten ihn für einen Fehler. Er entschied die Partie. AlphaGo gewann 4 zu 1.\n\nDas Programm hatte Go nicht aus Regeln gelernt, sondern aus Millionen Partien und Spielen gegen sich selbst.",
+      "body": "Im März 2016 spielte das Programm **AlphaGo** in Seoul gegen Lee Sedol, einen der besten Go-Spieler der Welt. Go galt als zu komplex für Computer: Es gibt mehr mögliche Stellungen als Atome im Universum.\n\nIm zweiten Spiel machte AlphaGo seinen **37. Zug** an einer Stelle, die kein Profi gewählt hätte. Kommentatoren hielten ihn für einen Fehler. Er entschied die Partie. AlphaGo gewann 4 zu 1.\n\n> Das Programm hatte Go nicht aus Regeln gelernt, sondern aus Millionen Partien und Spielen gegen sich selbst.",
       "act": "Welche Gewohnheit in deinem Fach machen alle so, ohne dass jemand fragt, warum? Ist das wirklich der beste Zug?",
       "deep": "AlphaGo wurde von DeepMind entwickelt. Nach eigener Berechnung schätzte es die Wahrscheinlichkeit, dass ein Mensch Zug 37 spielt, auf 1 zu 10'000. Lee Sedol gewann das vierte Spiel mit einem genialen Zug, den man später \"Gottes Zug\" nannte.",
       "source": "Silver et al.: Mastering the game of Go with deep neural networks and tree search. Nature, 2016"
     },
     "en": {
       "title": "Move 37: when a machine became creative",
-      "body": "In March 2016 the program **AlphaGo** played Lee Sedol in Seoul, one of the best Go players in the world. Go was considered too complex for computers: there are more possible positions than atoms in the universe.\n\nIn the second game, AlphaGo played its **37th move** in a spot no professional would have chosen. Commentators thought it was a mistake. It decided the game. AlphaGo won 4 to 1.\n\nThe program hadn't learned Go from rules, but from millions of games and games against itself.",
+      "body": "In March 2016 the program **AlphaGo** played Lee Sedol in Seoul, one of the best Go players in the world. Go was considered too complex for computers: there are more possible positions than atoms in the universe.\n\nIn the second game, AlphaGo played its **37th move** in a spot no professional would have chosen. Commentators thought it was a mistake. It decided the game. AlphaGo won 4 to 1.\n\n> The program hadn't learned Go from rules, but from millions of games and games against itself.",
       "act": "Which habit in your field does everyone follow without asking why? Is it really the best move?",
       "deep": "AlphaGo was developed by DeepMind. By its own estimate, the chance of a human playing move 37 was 1 in 10,000. Lee Sedol won the fourth game with a brilliant move later dubbed \"God's move\".",
       "source": "Silver et al.: Mastering the game of Go with deep neural networks and tree search. Nature, 2016"
@@ -654,7 +654,7 @@
     "actKind": "heute",
     "de": {
       "title": "KI macht dich besser, bis sie dich schlechter macht",
-      "body": "Harvard-Forscher gaben **758 Beratern** der Boston Consulting Group realistische Aufgaben, mit und ohne KI.\n\nBei Aufgaben, die die KI gut beherrschte, erledigten die Berater mit KI **12 % mehr** Aufgaben, **25 % schneller** und mit **über 40 % besserer** Qualität. Bei einer Aufgabe knapp ausserhalb ihrer Fähigkeiten lagen sie mit KI dagegen deutlich **öfter falsch** als ohne.\n\nKI ist ein starkes Werkzeug. Aber nur, wer selbst denkt, merkt, wann es versagt.",
+      "body": "Harvard-Forscher gaben **758 Beratern** der Boston Consulting Group realistische Aufgaben, mit und ohne KI.\n\nBei Aufgaben, die die KI gut beherrschte, erledigten die Berater mit KI **12 % mehr** Aufgaben, **25 % schneller** und mit **über 40 % besserer** Qualität. Bei einer Aufgabe knapp ausserhalb ihrer Fähigkeiten lagen sie mit KI dagegen deutlich **öfter falsch** als ohne.\n\n> KI ist ein starkes Werkzeug. Aber nur, wer selbst denkt, merkt, wann es versagt.",
       "example": "Du schreibst eine Bewerbung. Schreib zuerst selbst eine Version, frag dann die KI nach Verbesserungen. Umgekehrt übernimmst du schnell ihren glatten, austauschbaren Text und merkst nicht, was fehlt.",
       "act": "Lös heute eine Aufgabe zuerst selbst, und frag erst dann die KI. Vergleiche die Antworten.",
       "deep": "Fabrizio Dell'Acqua und Kollegen nannten das die \"zackige Grenze\" der KI: Sie ist bei manchen Aufgaben brillant und bei ähnlich schweren überraschend schwach. Am meisten profitierten die schwächeren Berater.",
@@ -662,7 +662,7 @@
     },
     "en": {
       "title": "AI makes you better, until it makes you worse",
-      "body": "Harvard researchers gave **758 consultants** at Boston Consulting Group realistic tasks, with and without AI.\n\nOn tasks the AI handled well, consultants with AI completed **12% more** tasks, **25% faster** and at **over 40% higher** quality. But on a task just outside its abilities, they were clearly **wrong more often** with AI than without.\n\nAI is a powerful tool. But only someone who thinks for himself notices when it fails.",
+      "body": "Harvard researchers gave **758 consultants** at Boston Consulting Group realistic tasks, with and without AI.\n\nOn tasks the AI handled well, consultants with AI completed **12% more** tasks, **25% faster** and at **over 40% higher** quality. But on a task just outside its abilities, they were clearly **wrong more often** with AI than without.\n\n> AI is a powerful tool. But only someone who thinks for himself notices when it fails.",
       "example": "You're writing a job application. Write your own version first, then ask the AI for improvements. The other way round, you quickly adopt its smooth, generic text and don't notice what's missing.",
       "act": "Solve a task yourself first today, and only then ask the AI. Compare the answers.",
       "deep": "Fabrizio Dell'Acqua and colleagues called this AI's \"jagged frontier\": brilliant at some tasks and surprisingly weak at others of similar difficulty. The weaker consultants benefited most.",
@@ -678,14 +678,14 @@
     "actKind": "achte",
     "de": {
       "title": "Nil oder Amazonas: Welcher Fluss ist länger?",
-      "body": "In fast jedem Schulbuch steht: Der **Nil** ist mit rund **6'650 km** der längste Fluss der Welt. Doch Forscher streiten darüber.\n\nDas Problem ist die **Quelle**. Wo genau ein Fluss beginnt, ist schwer festzulegen: Welcher Bach im Gebirge zählt? Brasilianische Forscher massen den Amazonas 2007 neu und kamen auf rund **6'800 km**. Andere halten an den alten Zahlen fest.\n\nSicher ist: Der Amazonas führt mit Abstand **am meisten Wasser**, mehr als die nächsten sieben Flüsse zusammen.",
+      "body": "In fast jedem Schulbuch steht: Der **Nil** ist mit rund **6'650 km** der längste Fluss der Welt. Doch Forscher streiten darüber.\n\nDas Problem ist die **Quelle**. Wo genau ein Fluss beginnt, ist schwer festzulegen: Welcher Bach im Gebirge zählt? Brasilianische Forscher massen den Amazonas 2007 neu und kamen auf rund **6'800 km**. Andere halten an den alten Zahlen fest.\n\n> Sicher ist: Der Amazonas führt mit Abstand **am meisten Wasser**, mehr als die nächsten sieben Flüsse zusammen.",
       "act": "Achte bei der nächsten Zahl, die als sicher gilt, darauf: Wer hat sie gemessen, und wie? Oft steckt eine Definition dahinter.",
       "deep": "Auch die Länge von Küsten ist schwer zu messen: Je genauer man misst, desto länger werden sie. Der Mathematiker Benoît Mandelbrot beschrieb dieses Küstenparadoxon 1967.",
       "source": "Encyclopaedia Britannica; Instituto Nacional de Pesquisas Espaciais (Brasilien), 2007"
     },
     "en": {
       "title": "Nile or Amazon: which river is longer?",
-      "body": "Almost every school book says the **Nile**, at about **6,650 km**, is the longest river in the world. But researchers disagree.\n\nThe problem is the **source**. Where exactly a river begins is hard to pin down: which mountain stream counts? Brazilian researchers re-measured the Amazon in 2007 and got about **6,800 km**. Others stick with the old figures.\n\nWhat's certain: the Amazon carries by far **the most water**, more than the next seven rivers combined.",
+      "body": "Almost every school book says the **Nile**, at about **6,650 km**, is the longest river in the world. But researchers disagree.\n\nThe problem is the **source**. Where exactly a river begins is hard to pin down: which mountain stream counts? Brazilian researchers re-measured the Amazon in 2007 and got about **6,800 km**. Others stick with the old figures.\n\n> What's certain: the Amazon carries by far **the most water**, more than the next seven rivers combined.",
       "act": "Next time a number is presented as certain, ask: who measured it, and how? There's often a definition behind it.",
       "deep": "Coastlines are hard to measure too: the more precisely you measure, the longer they get. Mathematician Benoît Mandelbrot described this coastline paradox in 1967.",
       "source": "Encyclopaedia Britannica; Brazilian National Institute for Space Research, 2007"
@@ -700,14 +700,14 @@
     "actKind": "heute",
     "de": {
       "title": "Die Schweiz in fünf Zahlen",
-      "body": "**26** Kantone, jeder mit eigener Verfassung, Regierung und Steuern.\n\n**4** Landessprachen: Deutsch, Französisch, Italienisch und Rätoromanisch.\n\n**4'634 m**: die Dufourspitze im Monte-Rosa-Massiv, der höchste Punkt des Landes. Der tiefste liegt am Lago Maggiore auf **193 m**.\n\n**1848**: Gründung des modernen Bundesstaates.\n\n**Rund 9 Millionen** Einwohner, davon gut ein Viertel ohne Schweizer Pass.\n\nEin kleines Land, das zeigt, wie Vielfalt, Föderalismus und direkte Demokratie zusammen funktionieren können.",
+      "body": "**26** Kantone, jeder mit eigener Verfassung, Regierung und Steuern.\n\n**4** Landessprachen: Deutsch, Französisch, Italienisch und Rätoromanisch.\n\n**4'634 m**: die Dufourspitze im Monte-Rosa-Massiv, der höchste Punkt des Landes. Der tiefste liegt am Lago Maggiore auf **193 m**.\n\n**1848**: Gründung des modernen Bundesstaates.\n\n**Rund 9 Millionen** Einwohner, davon gut ein Viertel ohne Schweizer Pass.\n\n> Ein kleines Land, das zeigt, wie Vielfalt, Föderalismus und direkte Demokratie zusammen funktionieren können.",
       "act": "Nenn aus dem Kopf alle 26 Kantone. Welche fehlen dir?",
       "deep": "Die Schweiz hat keine offizielle Hauptstadt. Bern ist \"Bundesstadt\", Sitz von Regierung und Parlament. Rund 60 % der Fläche sind Alpen. Seit 1815 ist die Schweiz international als neutral anerkannt.",
       "source": "Bundesamt für Statistik; swisstopo"
     },
     "en": {
       "title": "Switzerland in five numbers",
-      "body": "**26** cantons, each with its own constitution, government and taxes.\n\n**4** national languages: German, French, Italian and Romansh.\n\n**4,634 m**: the Dufourspitze in the Monte Rosa massif, the country's highest point. The lowest is at Lake Maggiore, **193 m**.\n\n**1848**: founding of the modern federal state.\n\n**About 9 million** people, a good quarter of them without a Swiss passport.\n\nA small country that shows how diversity, federalism and direct democracy can work together.",
+      "body": "**26** cantons, each with its own constitution, government and taxes.\n\n**4** national languages: German, French, Italian and Romansh.\n\n**4,634 m**: the Dufourspitze in the Monte Rosa massif, the country's highest point. The lowest is at Lake Maggiore, **193 m**.\n\n**1848**: founding of the modern federal state.\n\n**About 9 million** people, a good quarter of them without a Swiss passport.\n\n> A small country that shows how diversity, federalism and direct democracy can work together.",
       "act": "Name all 26 cantons from memory. Which ones are you missing?",
       "deep": "Switzerland has no official capital. Bern is the \"federal city\", seat of government and parliament. About 60% of the land is Alps. Since 1815 Switzerland has been internationally recognised as neutral.",
       "source": "Swiss Federal Statistical Office; swisstopo"
@@ -722,14 +722,14 @@
     "actKind": "merke",
     "de": {
       "title": "Ein Schweizer am tiefsten Punkt der Erde",
-      "body": "Der **Marianengraben** im Pazifik ist an seiner tiefsten Stelle, dem Challenger-Tief, fast **11'000 Meter** tief. Würde man den Mount Everest hineinstellen, lägen über seinem Gipfel noch zwei Kilometer Wasser.\n\nAm 23. Januar 1960 tauchten der Schweizer **Jacques Piccard** und der Amerikaner Don Walsh mit dem Tauchboot Trieste hinab. Der Abstieg dauerte fast fünf Stunden. Unterwegs zersprang eine Scheibe. Sie tauchten weiter.\n\nUnten blieben sie 20 Minuten. Erst 52 Jahre später gelang wieder einem Menschen dieser Tauchgang.",
+      "body": "Der **Marianengraben** im Pazifik ist an seiner tiefsten Stelle, dem Challenger-Tief, fast **11'000 Meter** tief. Würde man den Mount Everest hineinstellen, lägen über seinem Gipfel noch zwei Kilometer Wasser.\n\nAm 23. Januar 1960 tauchten der Schweizer **Jacques Piccard** und der Amerikaner Don Walsh mit dem Tauchboot Trieste hinab. Der Abstieg dauerte fast fünf Stunden. Unterwegs zersprang eine Scheibe. Sie tauchten weiter.\n\n> Unten blieben sie 20 Minuten. Erst 52 Jahre später gelang wieder einem Menschen dieser Tauchgang.",
       "act": "Piccard und Walsh tauchten weiter, obwohl eine Scheibe gesprungen war. Mut heisst nicht, dass nichts knackt. Es heisst, ruhig zu prüfen und den nächsten Schritt zu machen.",
       "deep": "Die Trieste wurde von Jacques Piccards Vater Auguste konstruiert, der schon 1931 als erster Mensch mit einem Ballon in die Stratosphäre aufgestiegen war. 2012 tauchte der Regisseur James Cameron allein ins Challenger-Tief.",
       "source": "NOAA; Jacques Piccard & Robert Dietz: Seven Miles Down (1961)"
     },
     "en": {
       "title": "A Swiss man at the deepest point on earth",
-      "body": "The **Mariana Trench** in the Pacific is almost **11,000 metres** deep at its deepest point, the Challenger Deep. Put Mount Everest in it and there'd still be two kilometres of water above the summit.\n\nOn 23 January 1960, Swiss **Jacques Piccard** and American Don Walsh descended in the submersible Trieste. The dive took almost five hours. On the way down, a window cracked. They kept going.\n\nThey stayed at the bottom for 20 minutes. Only 52 years later did another person make that dive.",
+      "body": "The **Mariana Trench** in the Pacific is almost **11,000 metres** deep at its deepest point, the Challenger Deep. Put Mount Everest in it and there'd still be two kilometres of water above the summit.\n\nOn 23 January 1960, Swiss **Jacques Piccard** and American Don Walsh descended in the submersible Trieste. The dive took almost five hours. On the way down, a window cracked. They kept going.\n\n> They stayed at the bottom for 20 minutes. Only 52 years later did another person make that dive.",
       "act": "Piccard and Walsh kept descending even though a window had cracked. Courage doesn't mean nothing cracks. It means checking calmly and taking the next step.",
       "deep": "The Trieste was designed by Jacques Piccard's father Auguste, who in 1931 had become the first person to reach the stratosphere in a balloon. In 2012 film director James Cameron dived solo to the Challenger Deep.",
       "source": "NOAA; Jacques Piccard & Robert Dietz: Seven Miles Down (1961)"
@@ -744,14 +744,14 @@
     "actKind": "merke",
     "de": {
       "title": "Indien hat China überholt",
-      "body": "Über Jahrhunderte war China das bevölkerungsreichste Land der Erde. 2023 hat **Indien** es überholt, nach Schätzungen der Vereinten Nationen mit über **1,4 Milliarden** Menschen.\n\nDer Unterschied liegt im Alter: In Indien ist rund die Hälfte der Menschen unter 30. Chinas Bevölkerung schrumpft dagegen bereits, auch eine Folge der Ein-Kind-Politik von 1980 bis 2015.\n\nInsgesamt leben heute über **8 Milliarden** Menschen auf der Erde. Die Marke wurde im November 2022 überschritten.",
+      "body": "Über Jahrhunderte war China das bevölkerungsreichste Land der Erde. 2023 hat **Indien** es überholt, nach Schätzungen der Vereinten Nationen mit über **1,4 Milliarden** Menschen.\n\nDer Unterschied liegt im Alter: In Indien ist rund die Hälfte der Menschen unter 30. Chinas Bevölkerung schrumpft dagegen bereits, auch eine Folge der Ein-Kind-Politik von 1980 bis 2015.\n\n> Insgesamt leben heute über **8 Milliarden** Menschen auf der Erde. Die Marke wurde im November 2022 überschritten.",
       "act": "Indien hat seit 2023 die meisten Menschen der Welt und eine junge Bevölkerung. Wer die Welt von morgen verstehen will, muss Indien kennen.",
       "deep": "Laut UNO wird die Weltbevölkerung voraussichtlich in den 2080er-Jahren mit rund 10,3 Milliarden ihren Höhepunkt erreichen. In vielen Ländern, auch in Europa, liegt die Geburtenrate längst unter den rund 2,1 Kindern pro Frau, die es für eine stabile Bevölkerung braucht.",
       "source": "UN Department of Economic and Social Affairs: World Population Prospects 2022 und 2024"
     },
     "en": {
       "title": "India has overtaken China",
-      "body": "For centuries China was the most populous country on earth. In 2023 **India** overtook it, with more than **1.4 billion** people according to UN estimates.\n\nThe difference is age: in India about half the people are under 30. China's population is already shrinking, partly a result of the one-child policy from 1980 to 2015.\n\nIn total, more than **8 billion** people now live on earth. The mark was passed in November 2022.",
+      "body": "For centuries China was the most populous country on earth. In 2023 **India** overtook it, with more than **1.4 billion** people according to UN estimates.\n\nThe difference is age: in India about half the people are under 30. China's population is already shrinking, partly a result of the one-child policy from 1980 to 2015.\n\n> In total, more than **8 billion** people now live on earth. The mark was passed in November 2022.",
       "act": "Since 2023 India has the world's largest population, and a young one. Anyone who wants to understand tomorrow's world needs to know India.",
       "deep": "According to the UN, world population is expected to peak in the 2080s at about 10.3 billion. In many countries, including in Europe, the birth rate has long been below the roughly 2.1 children per woman needed for a stable population.",
       "source": "UN Department of Economic and Social Affairs: World Population Prospects 2022 and 2024"
@@ -924,14 +924,14 @@
     "actKind": "merke",
     "de": {
       "title": "Oxford ist älter als das Aztekenreich",
-      "body": "An der Universität Oxford wird seit **1096** unterrichtet. Die Azteken gründeten ihre Hauptstadt Tenochtitlan erst **1325**, über 200 Jahre später.\n\nWir denken bei den Azteken an eine uralte, fremde Welt und bei Oxford an Studenten mit Laptops. Dabei war Oxford schon eine alte Institution, als das Aztekenreich entstand.\n\nGeschichte verläuft nicht ordentlich nacheinander. Vieles passiert gleichzeitig.",
+      "body": "An der Universität Oxford wird seit **1096** unterrichtet. Die Azteken gründeten ihre Hauptstadt Tenochtitlan erst **1325**, über 200 Jahre später.\n\nWir denken bei den Azteken an eine uralte, fremde Welt und bei Oxford an Studenten mit Laptops. Dabei war Oxford schon eine alte Institution, als das Aztekenreich entstand.\n\n> Geschichte verläuft nicht ordentlich nacheinander. Vieles passiert gleichzeitig.",
       "act": "Geschichte läuft parallel, nicht nacheinander. Wenn du ein Ereignis lernst, frag: Was geschah zur gleichen Zeit anderswo?",
       "deep": "Tenochtitlan lag auf einer Insel im Texcoco-See, wo heute Mexiko-Stadt steht. 1521 eroberten die Spanier unter Hernán Cortés die Stadt. Oxford gilt als älteste Universität im englischsprachigen Raum.",
       "source": "University of Oxford: Introduction and history; Encyclopaedia Britannica: Tenochtitlan"
     },
     "en": {
       "title": "Oxford is older than the Aztec Empire",
-      "body": "Teaching has existed at Oxford since **1096**. The Aztecs founded their capital Tenochtitlan only in **1325**, more than 200 years later.\n\nWe think of the Aztecs as an ancient, distant world and of Oxford as students with laptops. Yet Oxford was already an old institution when the Aztec Empire arose.\n\nHistory doesn't run neatly in sequence. Much of it happens at the same time.",
+      "body": "Teaching has existed at Oxford since **1096**. The Aztecs founded their capital Tenochtitlan only in **1325**, more than 200 years later.\n\nWe think of the Aztecs as an ancient, distant world and of Oxford as students with laptops. Yet Oxford was already an old institution when the Aztec Empire arose.\n\n> History doesn't run neatly in sequence. Much of it happens at the same time.",
       "act": "History runs in parallel, not in sequence. When you learn about an event, ask: what was happening elsewhere at the same time?",
       "deep": "Tenochtitlan stood on an island in Lake Texcoco, where Mexico City is today. In 1521 the Spanish under Hernán Cortés conquered the city. Oxford is the oldest university in the English-speaking world.",
       "source": "University of Oxford: Introduction and history; Encyclopaedia Britannica: Tenochtitlan"
@@ -1012,14 +1012,14 @@
     "actKind": "merke",
     "de": {
       "title": "Bananen sind Beeren, Erdbeeren nicht",
-      "body": "Botanisch ist eine **Beere** eine Frucht, die aus einem einzigen Fruchtknoten entsteht und deren Samen im Fruchtfleisch sitzen. Nach dieser Definition sind Bananen, Tomaten, Gurken und sogar Kürbisse Beeren.\n\nDie **Erdbeere** dagegen ist keine Beere. Die kleinen gelben Punkte auf ihrer Oberfläche sind die eigentlichen Früchte, kleine Nüsschen. Das Rote ist der aufgeblähte Blütenboden.\n\nAlltagssprache und Wissenschaft benennen die Welt oft verschieden. Wer genau hinschaut, entdeckt mehr.",
+      "body": "Botanisch ist eine **Beere** eine Frucht, die aus einem einzigen Fruchtknoten entsteht und deren Samen im Fruchtfleisch sitzen. Nach dieser Definition sind Bananen, Tomaten, Gurken und sogar Kürbisse Beeren.\n\nDie **Erdbeere** dagegen ist keine Beere. Die kleinen gelben Punkte auf ihrer Oberfläche sind die eigentlichen Früchte, kleine Nüsschen. Das Rote ist der aufgeblähte Blütenboden.\n\n> Alltagssprache und Wissenschaft benennen die Welt oft verschieden. Wer genau hinschaut, entdeckt mehr.",
       "act": "Eine Beere entsteht aus einem einzigen Fruchtknoten, die Samen sitzen im Fruchtfleisch. Banane, Tomate, Kürbis: Beere. Erdbeere, Himbeere: keine.",
       "deep": "Auch Himbeeren und Brombeeren sind botanisch keine Beeren, sondern Sammelsteinfrüchte. Zu den echten Beeren zählen dagegen Heidelbeeren, Trauben und Peperoni.",
       "source": "Encyclopaedia Britannica: Berry (plant reproductive body)"
     },
     "en": {
       "title": "Bananas are berries, strawberries aren't",
-      "body": "Botanically, a **berry** is a fruit that develops from a single ovary with its seeds inside the flesh. By that definition bananas, tomatoes, cucumbers and even pumpkins are berries.\n\nThe **strawberry**, on the other hand, isn't a berry. The little yellow dots on its surface are the actual fruits, tiny nuts. The red part is the swollen base of the flower.\n\nEveryday language and science often name the world differently. Look closely and you discover more.",
+      "body": "Botanically, a **berry** is a fruit that develops from a single ovary with its seeds inside the flesh. By that definition bananas, tomatoes, cucumbers and even pumpkins are berries.\n\nThe **strawberry**, on the other hand, isn't a berry. The little yellow dots on its surface are the actual fruits, tiny nuts. The red part is the swollen base of the flower.\n\n> Everyday language and science often name the world differently. Look closely and you discover more.",
       "act": "A berry grows from a single ovary with the seeds inside the flesh. Banana, tomato, pumpkin: berry. Strawberry, raspberry: not.",
       "deep": "Raspberries and blackberries aren't true berries either: they're aggregate fruits. Real berries include blueberries, grapes and peppers.",
       "source": "Encyclopaedia Britannica: Berry (plant reproductive body)"
@@ -1034,14 +1034,14 @@
     "actKind": "heute",
     "de": {
       "title": "Die Schweiz hat Bunker für alle",
-      "body": "Kein Land der Welt ist so gut auf den Ernstfall vorbereitet: Die Schweiz hat über **360'000 Schutzräume** in Häusern, Schulen und Spitälern, genug Plätze für die gesamte Bevölkerung.\n\nSeit 1963 verlangt das Gesetz, dass für jeden Einwohner ein Schutzplatz in der Nähe seines Wohnorts bereitsteht. Viele Keller in Schweizer Häusern sind darum mit dicken Betonwänden und schweren Stahltüren gebaut.\n\nVorsorge ist unspektakulär. Aber wer vorbereitet ist, muss im Ernstfall nicht in Panik geraten.",
+      "body": "Kein Land der Welt ist so gut auf den Ernstfall vorbereitet: Die Schweiz hat über **360'000 Schutzräume** in Häusern, Schulen und Spitälern, genug Plätze für die gesamte Bevölkerung.\n\nSeit 1963 verlangt das Gesetz, dass für jeden Einwohner ein Schutzplatz in der Nähe seines Wohnorts bereitsteht. Viele Keller in Schweizer Häusern sind darum mit dicken Betonwänden und schweren Stahltüren gebaut.\n\n> Vorsorge ist unspektakulär. Aber wer vorbereitet ist, muss im Ernstfall nicht in Panik geraten.",
       "act": "Finde heute heraus, wo dein zugewiesener Schutzraum ist. Deine Gemeinde gibt dir Auskunft.",
       "deep": "Die Schutzräume sind gegen Druckwellen, Trümmer und radioaktiven Niederschlag ausgelegt. Viele dienen im Alltag als Keller oder Lagerräume. Das Bundesamt für Bevölkerungsschutz BABS ist für das System zuständig.",
       "source": "Bundesamt für Bevölkerungsschutz BABS: Schutzräume"
     },
     "en": {
       "title": "Switzerland has shelters for everyone",
-      "body": "No country is better prepared for an emergency: Switzerland has more than **360,000 shelters** in homes, schools and hospitals, with enough places for the entire population.\n\nSince 1963 the law has required a shelter place for every resident near where they live. That's why many cellars in Swiss houses have thick concrete walls and heavy steel doors.\n\nPreparation is unspectacular. But if you're prepared, you don't have to panic when it counts.",
+      "body": "No country is better prepared for an emergency: Switzerland has more than **360,000 shelters** in homes, schools and hospitals, with enough places for the entire population.\n\nSince 1963 the law has required a shelter place for every resident near where they live. That's why many cellars in Swiss houses have thick concrete walls and heavy steel doors.\n\n> Preparation is unspectacular. But if you're prepared, you don't have to panic when it counts.",
       "act": "Find out today where your assigned shelter is. Your local council can tell you.",
       "deep": "The shelters are designed to withstand blast waves, debris and radioactive fallout. Many serve as cellars or storerooms in daily life. The Federal Office for Civil Protection (FOCP) is responsible for the system.",
       "source": "Swiss Federal Office for Civil Protection (FOCP): Shelters"
@@ -1056,14 +1056,14 @@
     "actKind": "merke",
     "de": {
       "title": "Honig verdirbt fast nie",
-      "body": "In ägyptischen Gräbern fanden Archäologen Töpfe mit Honig, der Tausende Jahre alt war und noch immer nicht verdorben.\n\nDer Grund: Honig enthält sehr **wenig Wasser** und sehr viel Zucker. Bakterien wird darin regelrecht das Wasser entzogen. Dazu ist Honig sauer, und ein Enzym der Bienen erzeugt kleine Mengen **Wasserstoffperoxid**, ein natürliches Desinfektionsmittel.\n\nRichtig verschlossen hält Honig praktisch unbegrenzt. Wenn er fest wird, ist er nicht schlecht, nur kristallisiert.",
+      "body": "In ägyptischen Gräbern fanden Archäologen Töpfe mit Honig, der Tausende Jahre alt war und noch immer nicht verdorben.\n\nDer Grund: Honig enthält sehr **wenig Wasser** und sehr viel Zucker. Bakterien wird darin regelrecht das Wasser entzogen. Dazu ist Honig sauer, und ein Enzym der Bienen erzeugt kleine Mengen **Wasserstoffperoxid**, ein natürliches Desinfektionsmittel.\n\n> Richtig verschlossen hält Honig praktisch unbegrenzt. Wenn er fest wird, ist er nicht schlecht, nur kristallisiert.",
       "act": "Fester Honig ist nicht verdorben, nur kristallisiert. Im warmen Wasserbad (nicht über 40 °C) wird er wieder flüssig.",
       "deep": "Für ein Kilo Honig fliegen Bienen zusammen eine Strecke, die mehrere Erdumrundungen entspricht, und besuchen Millionen Blüten. Wegen seiner keimhemmenden Wirkung wurde Honig schon im alten Ägypten auf Wunden gestrichen.",
       "source": "Smithsonian Magazine: The Science Behind Honey's Eternal Shelf Life (2013)"
     },
     "en": {
       "title": "Honey almost never spoils",
-      "body": "In Egyptian tombs, archaeologists found pots of honey thousands of years old that still hadn't spoiled.\n\nThe reason: honey contains very **little water** and a lot of sugar. It literally draws the water out of bacteria. On top of that honey is acidic, and an enzyme from the bees produces small amounts of **hydrogen peroxide**, a natural disinfectant.\n\nSealed properly, honey keeps practically forever. If it goes solid, it isn't bad, just crystallised.",
+      "body": "In Egyptian tombs, archaeologists found pots of honey thousands of years old that still hadn't spoiled.\n\nThe reason: honey contains very **little water** and a lot of sugar. It literally draws the water out of bacteria. On top of that honey is acidic, and an enzyme from the bees produces small amounts of **hydrogen peroxide**, a natural disinfectant.\n\n> Sealed properly, honey keeps practically forever. If it goes solid, it isn't bad, just crystallised.",
       "act": "Solid honey isn't spoiled, just crystallised. In a warm water bath (no hotter than 40 °C) it turns liquid again.",
       "deep": "To make a kilo of honey, bees together fly a distance equal to several trips around the Earth and visit millions of flowers. Because it inhibits germs, honey was already spread on wounds in ancient Egypt.",
       "source": "Smithsonian Magazine: The Science Behind Honey's Eternal Shelf Life (2013)"
@@ -1124,14 +1124,14 @@
     "actKind": "frage",
     "de": {
       "title": "Du hast etwa 4000 Wochen",
-      "body": "Wenn du 80 Jahre alt wirst, lebst du rund **4170 Wochen**. Mit 25 hast du schon über 1300 davon hinter dir.\n\nIn Jahren klingt das Leben lang. In Wochen wird es greifbar, fast erschreckend. Der Autor Oliver Burkeman machte daraus ein Buch: Du wirst nie alles schaffen. Darum musst du entscheiden, was **wirklich zählt**, und den Rest bewusst liegen lassen.\n\nDas ist kein Grund für Angst, sondern für Klarheit.",
+      "body": "Wenn du 80 Jahre alt wirst, lebst du rund **4170 Wochen**. Mit 25 hast du schon über 1300 davon hinter dir.\n\nIn Jahren klingt das Leben lang. In Wochen wird es greifbar, fast erschreckend. Der Autor Oliver Burkeman machte daraus ein Buch: Du wirst nie alles schaffen. Darum musst du entscheiden, was **wirklich zählt**, und den Rest bewusst liegen lassen.\n\n> Das ist kein Grund für Angst, sondern für Klarheit.",
       "act": "Wenn du die nächste Woche als eine von nur 4000 siehst: Wofür willst du sie einsetzen? Schreib eine Sache auf.",
       "deep": "Burkemans Buch \"Four Thousand Weeks\" erschien 2021. Ähnliche Gedanken finden sich schon bei Seneca: Nicht das Leben ist kurz, wir machen es kurz. Viele Menschen hängen sich ein Raster mit ihren Lebenswochen auf und streichen jede vergangene Woche durch.",
       "source": "Oliver Burkeman: Four Thousand Weeks (2021)"
     },
     "en": {
       "title": "You have about 4,000 weeks",
-      "body": "If you live to 80, you get about **4,170 weeks**. At 25 you've already used more than 1,300 of them.\n\nIn years, life sounds long. In weeks it becomes tangible, almost frightening. Author Oliver Burkeman turned this into a book: you'll never get everything done. So you have to decide what **really matters** and deliberately let the rest go.\n\nThat's not a reason for fear, but for clarity.",
+      "body": "If you live to 80, you get about **4,170 weeks**. At 25 you've already used more than 1,300 of them.\n\nIn years, life sounds long. In weeks it becomes tangible, almost frightening. Author Oliver Burkeman turned this into a book: you'll never get everything done. So you have to decide what **really matters** and deliberately let the rest go.\n\n> That's not a reason for fear, but for clarity.",
       "act": "If you see next week as one of only 4,000: what do you want to spend it on? Write one thing down.",
       "deep": "Burkeman's \"Four Thousand Weeks\" came out in 2021. Seneca had similar thoughts: life isn't short, we make it short. Many people put up a grid of their life in weeks and cross off each one that passes.",
       "source": "Oliver Burkeman: Four Thousand Weeks (2021)"
@@ -1146,14 +1146,14 @@
     "actKind": "so",
     "de": {
       "title": "Wer sich etwas vornimmt, schafft es zehnmal öfter",
-      "body": "Neujahrsvorsätze gelten als Witz: Alle nehmen sich etwas vor, niemand hält durch. Die Forschung sieht das anders.\n\nDer Psychologe John Norcross begleitete Menschen, die etwas an sich ändern wollten. Nach **sechs Monaten** waren von denen, die sich einen klaren Vorsatz gesetzt hatten, **46 %** noch erfolgreich. Von denen, die es nur \"irgendwann\" ändern wollten, waren es **4 %**.\n\nEin bewusster Entschluss ist kein Garant. Aber er verzehnfacht deine Chance.",
+      "body": "Neujahrsvorsätze gelten als Witz: Alle nehmen sich etwas vor, niemand hält durch. Die Forschung sieht das anders.\n\nDer Psychologe John Norcross begleitete Menschen, die etwas an sich ändern wollten. Nach **sechs Monaten** waren von denen, die sich einen klaren Vorsatz gesetzt hatten, **46 %** noch erfolgreich. Von denen, die es nur \"irgendwann\" ändern wollten, waren es **4 %**.\n\n> Ein bewusster Entschluss ist kein Garant. Aber er verzehnfacht deine Chance.",
       "act": "- Schreib einen Vorsatz konkret auf: was, wann, wie oft.\n- Setz ein Startdatum.\n- Sag ihn einem Menschen, der nachfragen wird.\n- Plane, was du bei einem Ausrutscher tust.",
       "deep": "Die Studie erschien 2002 im Journal of Clinical Psychology. Am erfolgreichsten waren Teilnehmer, die mit Rückfällen rechneten und danach sofort weitermachten, statt aufzugeben.",
       "source": "Norcross, Mrykalo & Blagys: Auld lang syne. Journal of Clinical Psychology (2002)"
     },
     "en": {
       "title": "Making a resolution makes success ten times likelier",
-      "body": "New Year's resolutions are a joke: everyone makes one, no one sticks with it. Research sees it differently.\n\nPsychologist John Norcross followed people who wanted to change something about themselves. After **six months**, **46%** of those who had set a clear resolution were still succeeding. Of those who only meant to change \"someday\", it was **4%**.\n\nA deliberate decision is no guarantee. But it multiplies your chances tenfold.",
+      "body": "New Year's resolutions are a joke: everyone makes one, no one sticks with it. Research sees it differently.\n\nPsychologist John Norcross followed people who wanted to change something about themselves. After **six months**, **46%** of those who had set a clear resolution were still succeeding. Of those who only meant to change \"someday\", it was **4%**.\n\n> A deliberate decision is no guarantee. But it multiplies your chances tenfold.",
       "act": "- Write one resolution down concretely: what, when, how often.\n- Set a start date.\n- Tell someone who will ask about it.\n- Plan what you'll do after a slip.",
       "deep": "The study appeared in the Journal of Clinical Psychology in 2002. The most successful participants expected slip-ups and carried on right away instead of giving up.",
       "source": "Norcross, Mrykalo & Blagys: Auld lang syne. Journal of Clinical Psychology (2002)"
@@ -1190,14 +1190,14 @@
     "actKind": "langfristig",
     "de": {
       "title": "Kalt duschen: was es wirklich bringt",
-      "body": "In den Niederlanden machten über **3000 Menschen** einen Versuch: 30 Tage lang beendeten sie ihre warme Dusche mit 30, 60 oder 90 Sekunden **kaltem Wasser**.\n\nDas Ergebnis: Sie meldeten sich danach rund **29 % weniger krank** bei der Arbeit. Interessant: Krank waren sie ungefähr gleich oft. Aber sie fühlten sich weniger eingeschränkt und gingen trotzdem arbeiten.\n\nDie kalte Dusche ist keine Wunderwaffe. Aber sie ist ein tägliches Training, etwas Unangenehmes freiwillig zu tun.",
+      "body": "In den Niederlanden machten über **3000 Menschen** einen Versuch: 30 Tage lang beendeten sie ihre warme Dusche mit 30, 60 oder 90 Sekunden **kaltem Wasser**.\n\nDas Ergebnis: Sie meldeten sich danach rund **29 % weniger krank** bei der Arbeit. Interessant: Krank waren sie ungefähr gleich oft. Aber sie fühlten sich weniger eingeschränkt und gingen trotzdem arbeiten.\n\n> Die kalte Dusche ist keine Wunderwaffe. Aber sie ist ein tägliches Training, etwas Unangenehmes freiwillig zu tun.",
       "act": "Beende 30 Tage lang jede Dusche mit 30 Sekunden kaltem Wasser. Atme ruhig, zähl mit. Steigere auf 60 Sekunden, wenn es leicht wird.",
       "deep": "Die Studie von Geert Buijze und Kollegen erschien 2016 in PLOS ONE. Die Dauer der kalten Dusche spielte keine grosse Rolle: 30 Sekunden wirkten ähnlich wie 90. Wer Herzprobleme hat, sollte vorher ärztlichen Rat einholen.",
       "source": "Buijze et al.: The effect of cold showering on health and work. PLOS ONE (2016)"
     },
     "en": {
       "title": "Cold showers: what they really do",
-      "body": "In the Netherlands more than **3,000 people** took part in a trial: for 30 days they ended their warm shower with 30, 60 or 90 seconds of **cold water**.\n\nThe result: they took about **29% fewer sick days** from work. Interestingly, they were ill about as often. But they felt less held back and went to work anyway.\n\nA cold shower isn't a miracle cure. But it's daily training in doing something uncomfortable by choice.",
+      "body": "In the Netherlands more than **3,000 people** took part in a trial: for 30 days they ended their warm shower with 30, 60 or 90 seconds of **cold water**.\n\nThe result: they took about **29% fewer sick days** from work. Interestingly, they were ill about as often. But they felt less held back and went to work anyway.\n\n> A cold shower isn't a miracle cure. But it's daily training in doing something uncomfortable by choice.",
       "act": "For 30 days, end every shower with 30 seconds of cold water. Breathe calmly, count. Go up to 60 seconds once it's easy.",
       "deep": "The study by Geert Buijze and colleagues appeared in PLOS ONE in 2016. The length of the cold shower didn't matter much: 30 seconds worked about as well as 90. If you have heart problems, get medical advice first.",
       "source": "Buijze et al.: The effect of cold showering on health and work. PLOS ONE (2016)"
