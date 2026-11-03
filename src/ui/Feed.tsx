@@ -174,14 +174,15 @@ export function Feed({ onMore, onToast, onOpenTopics, preview }: FeedProps) {
   }, [step]);
 
   // --- topic changes apply right away to the cards after the current one
-  const firstPrefs = useRef(true);
+  // (cards from a shared link stay in place; a sync that brings the same settings changes nothing)
+  const lastPrefs = useRef(JSON.stringify(prefs));
   useEffect(() => {
-    if (firstPrefs.current) {
-      firstPrefs.current = false;
-      return;
-    }
+    const key = JSON.stringify(prefs);
+    if (key === lastPrefs.current) return;
+    lastPrefs.current = key;
     setEntries((prev) => {
-      const keep = prev.slice(0, activeIndex.current + 1);
+      const at = activeIndex.current + 1;
+      const keep = [...prev.slice(0, at), ...prev.slice(at).filter((e) => e.shared)];
       return [...keep, ...nextEntries(keep, BATCH)];
     });
   }, [prefs]);
