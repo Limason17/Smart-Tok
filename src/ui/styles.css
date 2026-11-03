@@ -157,6 +157,39 @@ input, textarea { font: inherit; color: inherit; }
 
 .card-meta .chip-badge { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
 
+/* a card about a person: avatar and name, tapping opens the profile */
+.person-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.person-chip:disabled { cursor: default; }
+.person-chip .crumb { text-transform: none; letter-spacing: 0; font-size: 13px; }
+.person-chip b { font-weight: 650; color: var(--text); }
+@media (hover: hover) { .person-chip:not(:disabled):hover b { text-decoration: underline; text-underline-offset: 3px; } }
+.avatar {
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  color: var(--area);
+  background: color-mix(in srgb, var(--area) 20%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--area) 40%, transparent);
+}
+:root[data-theme='light'] .avatar { color: color-mix(in srgb, var(--area) 62%, #1c1b19); }
+
 /* ------------------------------------------------------------ pages
    A card never scrolls vertically: its blocks are laid out into pages that fit
    the screen (CardView.paginate) and longer cards continue sideways. */
@@ -916,6 +949,28 @@ input, textarea { font: inherit; color: inherit; }
 
 .detail { margin-top: 4px; }
 .detail .card-meta { padding: 0 0 14px; }
+
+/* personalities: list and profile */
+.topbar-right { display: flex; gap: 10px; }
+.person-row { gap: 14px; }
+.person-progress { display: block; height: 3px; margin-top: 7px; border-radius: 3px; background: var(--line); overflow: hidden; max-width: 220px; }
+.person-progress i { display: block; height: 100%; border-radius: 3px; background: var(--area); }
+.person-count { flex: none; font-size: 13px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+.person-count b { color: var(--text); font-size: 15px; }
+.person-head { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 6px 0 2px; }
+.person-head .avatar { box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--area) 55%, transparent); }
+.person-head h3 { margin: 12px 0 4px; font-size: 22px; letter-spacing: -0.01em; }
+.person-role { margin: 0; font-size: 14.5px; color: var(--text-2); line-height: 1.4; max-width: 30em; }
+.person-meta { margin: 4px 0 0; font-size: 12.5px; color: var(--text-3); }
+.person-facts { margin: 2px 0 20px; }
+.person-facts > div { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.person-facts dt { font-size: 11px; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); }
+.person-facts dd { margin: 3px 0 0; font-size: 14.5px; line-height: 1.45; }
+.person-facts dd p { margin: 0; }
+.row.pinned .row-icon { color: var(--accent); background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.row.pinned .row-sub { color: var(--accent); }
+.row-flags .flag-read { color: #6fc59a; }
+.unread-dot { width: 7px; height: 7px; margin: 4px; border-radius: 50%; background: var(--accent); }
 .detail .page-col { max-width: none; padding-bottom: 8px; }
 .detail .blk-sub { margin-top: 1.6em; padding-top: 1.2em; border-top: 1px solid var(--line); }
 .detail-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }

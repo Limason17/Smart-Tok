@@ -43,14 +43,14 @@ export function MoreSheet({ cardId, onClose }: { cardId: string; onClose: () => 
 }
 
 /** A card opened from the profile: full text, reactions and background in one sheet. */
-export function CardSheet({ cardId, onClose }: { cardId: string; onClose: () => void }) {
+export function CardSheet({ cardId, onClose, onPerson }: { cardId: string; onClose: () => void; onPerson?: (personId: string) => void }) {
   const tr = useT();
   const card = CARD_BY_ID[cardId];
   const record = useStore((s) => s.cards[cardId]);
   if (!card) return null;
   return (
     <Sheet title={AREA_BY_ID[card.area].label[tr.lang]} onClose={onClose}>
-      <CardDetail card={card} />
+      <CardDetail card={card} onPerson={onPerson} />
       <div className="detail-actions">
         <button className={`pill ${record?.reaction === 1 ? 'on-like' : ''}`} aria-pressed={record?.reaction === 1} onClick={() => toggleLike(cardId)}>
           <Icon name="heart" filled={record?.reaction === 1} size={18} />

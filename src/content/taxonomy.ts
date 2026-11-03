@@ -196,7 +196,7 @@ export function subtopicLabel(areaId: string, subId: string, lang: Lang): string
   return sub ? sub.label[lang] : subId;
 }
 
-export const STYLES = ['fakt', 'tipp', 'zitat', 'geschichte', 'bibelvers', 'erklaerung'] as const;
+export const STYLES = ['fakt', 'tipp', 'zitat', 'geschichte', 'bibelvers', 'erklaerung', 'portraet'] as const;
 export type Style = (typeof STYLES)[number];
 
 export const STYLE_LABELS: Record<Style, Label> = {
@@ -206,4 +206,5 @@ export const STYLE_LABELS: Record<Style, Label> = {
   geschichte: { de: 'Geschichte', en: 'Story' },
   bibelvers: { de: 'Bibelvers', en: 'Bible verse' },
   erklaerung: { de: 'Erklärung', en: 'Explainer' },
+  portraet: { de: 'Porträt', en: 'Profile' },
 };

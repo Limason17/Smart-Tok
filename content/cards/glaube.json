@@ -6,6 +6,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "langfristig",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Seid mutig, seid stark",
       "quote": {
@@ -38,6 +41,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Nicht ein Geist der Verzagtheit",
       "quote": {
@@ -70,6 +76,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Grösse heisst dienen",
       "quote": {
@@ -102,6 +111,9 @@
     "style": "bibelvers",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Lieben wie Christus",
       "quote": {
@@ -134,6 +146,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Wem viel gegeben wurde",
       "quote": {
@@ -234,6 +249,9 @@
     "style": "bibelvers",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Die Seligpreisungen",
       "quote": {
@@ -266,6 +284,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Die Goldene Regel",
       "quote": {
@@ -298,6 +319,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Sorgt euch nicht um morgen",
       "quote": {
@@ -330,6 +354,9 @@
     "style": "erklaerung",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Liebe ist ein Tun",
       "quote": {
@@ -362,6 +389,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Besiege das Böse durch das Gute",
       "quote": {
@@ -394,6 +424,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "petrus"
+    ],
     "de": {
       "title": "Petrus: Vom Verleugner zum Fels",
       "body": "Petrus war Fischer, impulsiv, mutig mit dem Mund. Beim letzten Abendmahl schwört er, er werde Jesus nie verlassen. Wenige Stunden später sagt er dreimal: \"Ich kenne diesen Menschen nicht.\" Dann kräht der Hahn, und Petrus weint bitterlich.\n\nNach der Auferstehung fragt Jesus ihn am See **dreimal**: \"Liebst du mich?\" Dreimal antwortet Petrus mit Ja. Jesus macht genau diesen Mann, der versagt hat, zum Hirten seiner Kirche.\n\n> Dein schlimmster Fehler ist nicht das Ende deiner Geschichte.",
@@ -416,6 +449,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Paulus: Der Verfolger wird Apostel",
       "body": "Saulus war ein hochgebildeter, strenggläubiger Jude und verfolgte die ersten Christen mit voller Überzeugung. Er war dabei, als Stephanus gesteinigt wurde.\n\nAuf dem Weg nach Damaskus, wo er weitere Christen verhaften wollte, umstrahlt ihn ein Licht. Er stürzt zu Boden und hört: \"Saul, Saul, warum verfolgst du mich?\" Drei Tage ist er blind.\n\nDanach wird der grösste Gegner der Kirche ihr grösster Missionar. Er reist Tausende Kilometer, gründet Gemeinden und schreibt fast die Hälfte der Bücher des Neuen Testaments.",
@@ -438,6 +474,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "josef-von-nazaret"
+    ],
     "de": {
       "title": "Josef: Der Mann ohne ein Wort",
       "body": "In der ganzen Bibel ist kein einziger Satz von Josef überliefert. Und doch ist er einer der grössten Männer der Heilsgeschichte.\n\nAls Maria schwanger ist, will er sie nicht blossstellen. Ein Engel spricht im Traum zu ihm, und er **handelt**: nimmt Maria zu sich, flieht nachts mit dem Kind nach Ägypten, kehrt zurück, arbeitet als Handwerker und zieht Jesus gross.\n\nJosef zeigt: Ein Mann Gottes beweist sich nicht durch grosse Worte, sondern durch Treue, Schutz und tägliche Arbeit.",
@@ -462,6 +501,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "maria"
+    ],
     "de": {
       "title": "Marias Ja",
       "quote": {
@@ -494,6 +536,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "langfristig",
+    "people": [
+      "apostel-thomas"
+    ],
     "de": {
       "title": "Thomas: Zweifel ist erlaubt",
       "body": "Die anderen Apostel erzählen Thomas, dass sie den auferstandenen Jesus gesehen haben. Thomas glaubt es nicht: Erst wenn er die Wunden mit eigenen Händen berührt, will er glauben.\n\nEine Woche später steht Jesus wieder da und sagt zu ihm: Streck deine Hand aus. Jesus schimpft nicht, er **kommt dem Zweifler entgegen**. Und Thomas spricht das stärkste Bekenntnis der Evangelien: \"Mein Herr und mein Gott!\"\n\n> Ehrliche Fragen trennen dich nicht von Gott. Sie können der Weg zu einem tieferen Glauben sein.",
@@ -538,6 +583,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Der verlorene Sohn",
       "quote": {
@@ -570,6 +618,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Vergrab dein Talent nicht",
       "body": "Ein Mann geht auf Reisen und vertraut drei Dienern sein Vermögen an: dem ersten fünf Talente, dem zweiten zwei, dem dritten eines. Ein Talent war ein Vermögen, etwa der Lohn von 20 Jahren Arbeit.\n\nDie ersten beiden handeln damit und verdoppeln das Geld. Der dritte hat Angst, vergräbt sein Talent und gibt es unversehrt zurück. Genau er wird hart getadelt.\n\nDie Botschaft: Gott erwartet nicht, dass du gleich viel hast wie andere. Er erwartet, dass du **mit dem arbeitest, was du hast**, statt es aus Angst zu verstecken.",
@@ -592,6 +643,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Wer ist mein Nächster?",
       "body": "Ein Gesetzeslehrer fragt Jesus, wen er denn lieben müsse. Jesus erzählt: Ein Mann wird auf dem Weg von Jerusalem nach Jericho überfallen und halb tot liegen gelassen. Ein Priester kommt vorbei und geht weiter. Ein Levit auch.\n\nDann kommt ein **Samariter**, einer aus einem Volk, das die Juden verachteten. Er hält an, verbindet die Wunden, bringt den Mann in eine Herberge und bezahlt für ihn.\n\n> Jesus dreht die Frage um: Nicht \"Wer ist mein Nächster?\", sondern \"**Wem werde ich zum Nächsten?**\"",
@@ -614,6 +668,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Das Haus auf dem Felsen",
       "body": "Am Ende der Bergpredigt erzählt Jesus von zwei Männern, die je ein Haus bauen. Der eine baut auf **Felsen**, der andere auf **Sand**. Von aussen sehen beide Häuser gleich aus.\n\nDann kommen Regen, Fluten und Sturm. Das Haus auf dem Fels bleibt stehen. Das andere stürzt ein, \"und sein Einsturz war gewaltig\".\n\nDer Fels ist nicht, Jesu Worte zu hören, sondern **danach zu handeln**. Wie stark dein Fundament ist, zeigt sich nicht an ruhigen Tagen, sondern im Sturm.",
@@ -636,6 +693,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "langfristig",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Das Senfkorn",
       "body": "Jesus vergleicht das Reich Gottes mit einem Senfkorn, dem kleinsten Samen, den seine Zuhörer kannten. Daraus wächst eine Pflanze, so gross, dass Vögel in ihren Zweigen nisten.\n\nGottes Wirken beginnt oft **unscheinbar**: zwölf einfache Männer in einer Provinz am Rand des Römischen Reiches. Heute bekennen sich über zwei Milliarden Menschen zu Christus.\n\nDas gilt auch für dein Leben: Ein kleines tägliches Gebet, eine gute Gewohnheit, ein ehrliches Gespräch können über Jahre zu etwas Grossem wachsen.",
@@ -690,6 +750,9 @@
     "style": "tipp",
     "level": 2,
     "actKind": "langfristig",
+    "people": [
+      "ignatius-von-loyola"
+    ],
     "de": {
       "title": "Das Tagesgebet des Ignatius",
       "body": "Der heilige Ignatius von Loyola, ein ehemaliger Soldat und Gründer der Jesuiten, hielt eine Übung für so wichtig, dass seine Brüder sie nie auslassen sollten: das **Examen**, ein Rückblick auf den Tag mit Gott. Es dauert 10 bis 15 Minuten:",
@@ -726,6 +789,9 @@
     "style": "bibelvers",
     "level": 2,
     "actKind": "gebet",
+    "people": [
+      "paulus"
+    ],
     "de": {
       "title": "Betet ohne Unterlass",
       "quote": {
@@ -780,6 +846,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Der Geist ist willig",
       "quote": {
@@ -866,6 +935,9 @@
     "style": "bibelvers",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "jesus"
+    ],
     "de": {
       "title": "Die Wahrheit wird euch befreien",
       "quote": {

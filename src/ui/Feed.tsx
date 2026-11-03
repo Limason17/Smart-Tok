@@ -2,6 +2,7 @@ import { memo, useCallback, useEffect, useRef, useState, type PointerEvent as RP
 import type { Card } from '../content/card';
 import { CARD_BY_ID, CARDS } from '../content';
 import { pickNext } from '../algo/engine';
+import { introId } from '../content/people';
 import { useT } from '../i18n/strings';
 import {
   getState,
@@ -30,13 +31,38 @@ interface FeedEntry {
   checkIn?: boolean;
   /** Opened from a shared link. */
   shared?: boolean;
+  /** Introduction of a person, placed before a card from a shared link: stays in place like it. */
+  keep?: boolean;
 }
 
 const BATCH = 3;
 let entryCounter = 0;
 
-function sharedEntries(ids: string[]): FeedEntry[] {
-  return ids.map((cardId) => ({ key: `${cardId}-${entryCounter++}`, cardId, shared: true }));
+/**
+ * The introduction a card needs first: the main person's introduction card,
+ * unless it was already read or is already in the feed.
+ */
+function introFor(cardId: string, seen: Record<string, unknown>, inFeed: Set<string>): string | null {
+  const person = CARD_BY_ID[cardId]?.people?.[0];
+  if (!person) return null;
+  const intro = introId(person);
+  return intro === cardId || seen[intro] || inFeed.has(intro) || !CARD_BY_ID[intro] ? null : intro;
+}
+
+function sharedEntries(ids: string[], existing: FeedEntry[] = []): FeedEntry[] {
+  const seen = seenMap(getState().cards);
+  const inFeed = new Set([...existing.map((e) => e.cardId), ...ids]);
+  const out: FeedEntry[] = [];
+  for (const cardId of ids) {
+    // Someone you don't know yet is introduced first, even in a shared link.
+    const intro = introFor(cardId, seen, inFeed);
+    if (intro) {
+      inFeed.add(intro);
+      out.push({ key: `${intro}-${entryCounter++}`, cardId: intro, keep: true });
+    }
+    out.push({ key: `${cardId}-${entryCounter++}`, cardId, shared: true });
+  }
+  return out;
 }
 
 function nextEntries(existing: FeedEntry[], count: number): FeedEntry[] {
@@ -50,6 +76,11 @@ function nextEntries(existing: FeedEntry[], count: number): FeedEntry[] {
   for (let i = 0; i < count; i++) {
     const pick = pickNext({ cards: CARDS, seen, prefs: s.prefs, algo: s.algo, recent, sinceReview, now: Date.now() });
     if (!pick) break;
+    const intro = introFor(pick.card.id, seen, new Set(recent));
+    if (intro) {
+      recent.push(intro);
+      out.push({ key: `${intro}-${entryCounter++}`, cardId: intro });
+    }
     recent.push(pick.card.id);
     sinceReview = pick.due ? 0 : sinceReview + 1;
     out.push({ key: `${pick.card.id}-${entryCounter++}`, cardId: pick.card.id, due: pick.due, checkIn: pick.checkIn });
@@ -59,13 +90,15 @@ function nextEntries(existing: FeedEntry[], count: number): FeedEntry[] {
 
 export interface FeedProps {
   onMore: (cardId: string) => void;
+  /** Open a person's profile (from the name on a card). */
+  onPerson?: (personId: string) => void;
   onToast: (text: string) => void;
   onOpenTopics: () => void;
   /** Only the cards from a shared link, before onboarding: no endless feed, a way in at the end. */
   preview?: { onStart: () => void };
 }
 
-export function Feed({ onMore, onToast, onOpenTopics, preview }: FeedProps) {
+export function Feed({ onMore, onPerson, onToast, onOpenTopics, preview }: FeedProps) {
   const tr = useT();
   const prefs = useStore((s) => s.prefs);
   // A shared link (#k=…) puts its cards first; the normal feed follows.
@@ -143,7 +176,7 @@ export function Feed({ onMore, onToast, onOpenTopics, preview }: FeedProps) {
       clearCardLink();
       if (!ids.length) return;
       const at = activeIndex.current + 1;
-      setEntries((prev) => [...prev.slice(0, at), ...sharedEntries(ids), ...prev.slice(at)]);
+      setEntries((prev) => [...prev.slice(0, at), ...sharedEntries(ids, prev.slice(0, at)), ...prev.slice(at)]);
       requestAnimationFrame(() => {
         const feed = feedRef.current;
         if (feed) feed.scrollTo({ top: at * feed.clientHeight, behavior: 'smooth' });
@@ -182,7 +215,7 @@ export function Feed({ onMore, onToast, onOpenTopics, preview }: FeedProps) {
     lastPrefs.current = key;
     setEntries((prev) => {
       const at = activeIndex.current + 1;
-      const keep = [...prev.slice(0, at), ...prev.slice(at).filter((e) => e.shared)];
+      const keep = [...prev.slice(0, at), ...prev.slice(at).filter((e) => e.shared || e.keep)];
       return [...keep, ...nextEntries(keep, BATCH)];
     });
   }, [prefs]);
@@ -262,6 +295,7 @@ export function Feed({ onMore, onToast, onOpenTopics, preview }: FeedProps) {
                 pop={i === active ? pop : null}
                 onPop={setPop}
                 onMore={onMore}
+                onPerson={onPerson}
                 onShare={share}
                 onPlan={onPlan}
               />
@@ -316,12 +350,13 @@ interface FeedCardProps {
   pop: string | null;
   onPop: (what: string) => void;
   onMore: (cardId: string) => void;
+  onPerson?: (personId: string) => void;
   onShare: (cardId: string) => Promise<void>;
   onPlan: (cardId: string) => void;
 }
 
 /** One card in the feed with its own action bar. */
-const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMore, onShare, onPlan }: FeedCardProps) {
+const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMore, onPerson, onShare, onPlan }: FeedCardProps) {
   const tr = useT();
   const record = useStore((s) => s.cards[card.id]);
   const [checkIn, setCheckIn] = useState<'ask' | 'done' | 'later' | null>(entry.checkIn ? 'ask' : null);
@@ -438,6 +473,7 @@ const FeedCard = memo(function FeedCard({ card, entry, active, pop, onPop, onMor
       active={active}
       actions={actions}
       banner={banner}
+      onPerson={onPerson}
       badge={entry.shared ? tr('sharedBadge') : entry.due && !entry.checkIn ? tr('reviewBadge') : entry.checkIn ? tr('checkInBadge') : undefined}
     />
   );

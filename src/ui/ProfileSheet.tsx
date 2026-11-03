@@ -32,9 +32,10 @@ export interface ProfileSheetProps {
   onOpenTopics: () => void;
   onOpenAccount: () => void;
   onOpenAlgo: () => void;
+  onOpenPeople: () => void;
 }
 
-export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics, onOpenAccount, onOpenAlgo }: ProfileSheetProps) {
+export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics, onOpenAccount, onOpenAlgo, onOpenPeople }: ProfileSheetProps) {
   const tr = useT();
   const [tab, setTab] = useState<Tab>(lastTab);
   useEffect(() => {
@@ -61,7 +62,13 @@ export function ProfileSheet({ onClose, onOpenCard, onOpenSettings, onOpenTopics
         onChange={setTab}
       />
       {tab === 'overview' && (
-        <Overview onOpenCard={onOpenCard} onOpenSettings={onOpenSettings} onOpenTopics={onOpenTopics} onOpenAlgo={onOpenAlgo} />
+        <Overview
+          onOpenCard={onOpenCard}
+          onOpenSettings={onOpenSettings}
+          onOpenTopics={onOpenTopics}
+          onOpenAlgo={onOpenAlgo}
+          onOpenPeople={onOpenPeople}
+        />
       )}
       {tab === 'plan' && <Plans onOpenCard={onOpenCard} />}
       {tab === 'saved' && <Saved onOpenCard={onOpenCard} />}
@@ -130,11 +137,13 @@ function Overview({
   onOpenSettings,
   onOpenTopics,
   onOpenAlgo,
+  onOpenPeople,
 }: {
   onOpenCard: (id: string) => void;
   onOpenSettings: () => void;
   onOpenTopics: () => void;
   onOpenAlgo: () => void;
+  onOpenPeople: () => void;
 }) {
   const tr = useT();
   const cards = useStore((s) => s.cards);
@@ -159,6 +168,7 @@ function Overview({
       {day && <DayCards date={day} onOpenCard={onOpenCard} />}
 
       <div className="menu">
+        <MenuRow icon="people" title={tr('people')} sub={tr('menuPeopleSub')} onClick={onOpenPeople} />
         <MenuRow icon="steps" title={tr('menuAlgo')} sub={tr('menuAlgoSub')} onClick={onOpenAlgo} />
         <MenuRow icon="layers" title={tr('menuTopics')} sub={tr('menuTopicsSub')} onClick={onOpenTopics} />
         <MenuRow icon="settings" title={tr('menuSettings')} sub={tr('menuSettingsSub')} onClick={onOpenSettings} />

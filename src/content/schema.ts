@@ -56,6 +56,11 @@ const Base = z.object({
   en: TextSchema,
   /** A stack: the card itself is the cover, slides follow sideways. */
   slides: z.array(SlideSchema).min(1).optional(),
+  /**
+   * People the card is about (ids from content/people.json), main person first.
+   * Before a card about someone, the feed shows that person's introduction once.
+   */
+  people: z.array(z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).min(1).optional(),
   /** News cards: ISO dates. The card fades out and is removed at expiresAt. */
   publishedAt: z.string().optional(),
   expiresAt: z.string().optional(),
@@ -123,6 +128,33 @@ function checkNews(card: z.infer<typeof Base>, ctx: z.RefinementCtx) {
   }
 }
 
+/** One language version of a person's profile. */
+const PersonTextSchema = z.object({
+  /** What the person is known as, e.g. "Ex-Navy-SEAL, Ultraläufer, Autor". */
+  role: nonEmpty,
+  /** Short line under the name, e.g. "geb. 1975 · USA". */
+  meta: nonEmpty,
+  /** Who, what, where, when: the introduction card's text. Paragraphs like a card body. */
+  bio: nonEmpty,
+  /** "Auf einen Blick": label and value pairs, shown on the introduction card and the profile. */
+  facts: z.array(z.tuple([nonEmpty, nonEmpty])).min(2),
+  source: z.string().optional(),
+});
+
+/** A personality with a profile and an introduction card that comes before their other cards. */
+export const PersonSchema = z.object({
+  id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'id must be kebab-case'),
+  name: nonEmpty,
+  /** Living people get "Wer ist …?", others "Wer war …?". */
+  alive: z.boolean(),
+  /** Where the introduction card belongs in the feed. */
+  area: nonEmpty,
+  sub: nonEmpty,
+  de: PersonTextSchema,
+  en: PersonTextSchema,
+});
+
+export type PersonData = z.output<typeof PersonSchema>;
 export type CardInput = z.input<typeof CardSchema>;
 export type CardData = z.output<typeof CardSchema>;
 export type CardText = CardData['de'];

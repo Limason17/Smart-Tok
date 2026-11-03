@@ -18,6 +18,26 @@ describe('paginate', () => {
     expect(pages).toEqual([[0], [1, 2]]);
   });
 
+  it('moves a subheading with its whole list to the next page when the list would be cut', () => {
+    const li = (text: string): Block => ({ k: 'li', text });
+    const blocks: Block[] = [p(), { k: 'title', text: 'Auf einen Blick', sub: true }, li('a'), li('b'), li('c')];
+    // without the rule the third item would sit alone on page 2
+    expect(paginate(blocks, [size(150), size(30), size(30), size(30), size(30)], 300)).toEqual([[0], [1, 2, 3, 4]]);
+  });
+
+  it('still splits a list that is taller than a page', () => {
+    const li = (text: string): Block => ({ k: 'li', text });
+    const blocks: Block[] = [{ k: 'title', text: 'Liste', sub: true }, li('a'), li('b'), li('c')];
+    // the greedy cut would leave item c alone, so b moves along with it
+    expect(paginate(blocks, [size(30), size(100), size(100), size(100)], 250)).toEqual([[0, 1], [2, 3]]);
+  });
+
+  it('gives a lone bullet on the next page a companion', () => {
+    const li = (text: string): Block => ({ k: 'li', text });
+    const blocks: Block[] = [{ k: 'title', text: 'Liste', sub: true }, li('a'), li('b'), li('c'), li('d')];
+    expect(paginate(blocks, [size(30), size(70), size(70), size(70), size(70)], 280)).toEqual([[0, 1, 2], [3, 4]]);
+  });
+
   it('starts a new page at a break', () => {
     const blocks: Block[] = [p(), { k: 'break' }, p()];
     expect(paginate(blocks, blocks.map(() => size(10)), 500)).toEqual([[0], [2]]);

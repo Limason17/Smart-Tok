@@ -1,7 +1,8 @@
 // Validates every card file. A broken card stops the build instead of the app.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { CardSchema } from '../src/content/schema';
+import { CardSchema, PersonSchema, type PersonData } from '../src/content/schema';
+import { introCard } from '../src/content/people';
 import { deriveCard, type Card } from '../src/content/card';
 import { NEWS_AREA, newsMonth } from '../src/content/news';
 
@@ -53,6 +54,37 @@ for (const { file, path, archive } of files) {
   });
 }
 
+// People: each gets an introduction card (built from the profile, validated like any card).
+const people = new Map<string, PersonData>();
+let rawPeople: unknown = [];
+try {
+  rawPeople = JSON.parse(readFileSync(join(dir, '..', 'people.json'), 'utf8'));
+} catch (e) {
+  errors.push(`people.json: invalid JSON (${(e as Error).message})`);
+}
+(Array.isArray(rawPeople) ? rawPeople : []).forEach((item, i) => {
+  const res = PersonSchema.safeParse(item);
+  const label = `people.json[${i}]${(item as { id?: string })?.id ? ` ${(item as { id: string }).id}` : ''}`;
+  if (!res.success) {
+    for (const issue of res.error.issues) errors.push(`${label}: ${issue.path.join('.')} ${issue.message}`);
+    return;
+  }
+  if (people.has(res.data.id)) errors.push(`${label}: duplicate person id`);
+  people.set(res.data.id, res.data);
+  const intro = CardSchema.safeParse(introCard(res.data));
+  if (!intro.success) {
+    for (const issue of intro.error.issues) errors.push(`${label} (introduction card): ${issue.path.join('.')} ${issue.message}`);
+    return;
+  }
+  if (ids.has(intro.data.id)) errors.push(`${label}: introduction id ${intro.data.id} already used by a card`);
+  ids.set(intro.data.id, 'people.json');
+  cards.push(deriveCard(intro.data));
+});
+for (const c of cards) {
+  for (const p of c.people ?? []) if (!people.has(p)) errors.push(`${c.id}: unknown person "${p}"`);
+  if (new Set(c.people ?? []).size !== (c.people ?? []).length) errors.push(`${c.id}: person listed twice`);
+}
+
 if (errors.length) {
   console.error(`Content validation failed (${errors.length}):\n- ${errors.join('\n- ')}`);
   process.exit(1);
@@ -62,7 +94,7 @@ const count = (key: (c: Card) => string) =>
   Object.entries(cards.reduce<Record<string, number>>((m, c) => ((m[key(c)] = (m[key(c)] ?? 0) + 1), m), {}))
     .map(([k, v]) => `${k} ${v}`)
     .join(', ');
-console.log(`✓ ${cards.length} cards valid${archivedCount ? ` (+${archivedCount} archived news)` : ''}`);
+console.log(`✓ ${cards.length} cards valid, ${people.size} people${archivedCount ? ` (+${archivedCount} archived news)` : ''}`);
 console.log(`  areas:   ${count((c) => c.area)}`);
 console.log(`  styles:  ${count((c) => c.style)}`);
 console.log(`  formats: ${count((c) => c.format)}`);

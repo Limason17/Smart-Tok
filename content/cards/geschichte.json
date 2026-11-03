@@ -6,6 +6,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "merke",
+    "people": [
+      "dwight-eisenhower"
+    ],
     "de": {
       "title": "Der Zettel, den Eisenhower vor dem D-Day schrieb",
       "body": "Am **6. Juni 1944** landeten rund **156'000** alliierte Soldaten an der Küste der Normandie. Es war die grösste Landungsoperation der Geschichte, und niemand wusste, ob sie gelingen würde.\n\nAm Abend davor schrieb der Oberbefehlshaber **Dwight D. Eisenhower** eine kurze Notiz für den Fall des Scheiterns: Die Truppen hätten tapfer gekämpft. \"Wenn irgendeine Schuld oder ein Fehler an diesem Versuch haftet, so ist es **allein meiner**.\"\n\nDie Landung gelang, der Zettel wurde nie gebraucht. Aber er zeigt, was ein Anführer ist: einer, der die Verantwortung trägt, bevor er weiss, wie es ausgeht.",
@@ -94,6 +97,9 @@
     "style": "erklaerung",
     "level": 2,
     "actKind": "merke",
+    "people": [
+      "martin-luther"
+    ],
     "de": {
       "title": "1517: Wie ein Mönch Europa veränderte",
       "body": "Am **31. Oktober 1517** schickte der Mönch **Martin Luther** in Wittenberg 95 Thesen gegen den Ablasshandel an seinen Bischof. Er wollte eine Debatte, keine neue Kirche.\n\nDoch dank des Buchdrucks verbreiteten sich seine Schriften in wenigen Wochen in ganz Deutschland. In Zürich predigte ab **1519 Huldrych Zwingli**, in Genf später Johannes Calvin. Die westliche Christenheit spaltete sich.\n\nDie katholische Kirche antwortete mit einer eigenen Erneuerung, dem **Konzil von Trient** (1545–1563). Die Folgen prägen Europa bis heute, auch die Schweiz mit ihren katholischen und reformierten Kantonen.",
@@ -226,6 +232,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "nelson-mandela"
+    ],
     "de": {
       "title": "27 Jahre Gefängnis, ohne Hass herauszukommen",
       "body": "**Nelson Mandela** kämpfte gegen die Apartheid in Südafrika, die Rassentrennung. 1964 wurde er zu lebenslanger Haft verurteilt. 18 Jahre davon verbrachte er auf der Gefängnisinsel Robben Island: harte Arbeit im Steinbruch, eine winzige Zelle, ein Besuch alle sechs Monate.\n\nIm Gefängnis las er seinen Mitgefangenen das Gedicht \"Invictus\" vor: \"Ich bin der Meister meines Schicksals, ich bin der Kapitän meiner Seele.\"\n\n1990 kam er nach **27 Jahren** frei. Statt Rache suchte er Versöhnung und wurde 1994 der erste schwarze Präsident Südafrikas.",
@@ -248,6 +257,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "langfristig",
+    "people": [
+      "leonardo-da-vinci"
+    ],
     "de": {
       "title": "Leonardos To-do-Liste: Beschreibe die Zunge des Spechts",
       "body": "**Leonardo da Vinci** malte die Mona Lisa und das Abendmahl. Aber sein grösstes Talent war vielleicht etwas anderes: grenzenlose **Neugier**.\n\nIn seinen Notizbüchern, von denen über **7'000 Seiten** erhalten sind, stehen To-do-Listen wie: \"Beschreibe die Zunge des Spechts.\" \"Frag einen Wasserbauer, wie man eine Schleuse repariert.\" \"Miss Mailand und seine Vororte.\"\n\nEr sezierte Leichen, um Muskeln zu verstehen, und studierte Wasser, Vögel und Licht. Genie war bei ihm keine Gabe. Es war Fragen, Beobachten und Aufschreiben, jeden Tag.",
@@ -272,6 +284,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "alexander-der-grosse"
+    ],
     "de": {
       "title": "Alexander und der unlösbare Knoten",
       "body": "In der Stadt Gordion hing ein Streitwagen, festgebunden mit einem riesigen, verschlungenen Knoten. Eine Weissagung sagte: Wer ihn löst, wird **Herr über Asien**. Viele hatten es versucht. Alle waren gescheitert.\n\n**333 v. Chr.** kam der junge makedonische König **Alexander**. Er betrachtete den Knoten, zog sein Schwert und **durchschlug ihn** mit einem Hieb.\n\nOb die Geschichte genau so passiert ist, wissen wir nicht. Aber sie lebt, weil sie wahr ist: Manche Probleme löst man nicht, indem man sich in den Regeln verheddert, sondern indem man sie neu denkt.",
@@ -294,6 +309,9 @@
     "style": "geschichte",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "bruder-klaus"
+    ],
     "de": {
       "title": "Bruder Klaus: Der Einsiedler, der die Schweiz rettete",
       "body": "**Niklaus von Flüe** war Bauer, Soldat, Richter und Vater von **zehn Kindern** in Obwalden. Mit rund 50 Jahren verliess er, mit dem Einverständnis seiner Frau Dorothea, seine Familie und lebte als Einsiedler in der Ranftschlucht, nur wenige Minuten von seinem Hof entfernt.\n\n1481 standen die Eidgenossen in Stans kurz vor einem Bürgerkrieg. Ein Priester eilte zu Bruder Klaus und kehrte mit seinem Rat zurück. Die Versammlung einigte sich noch am selben Tag im **Stanser Verkommnis**.\n\n> Ein Mann, der schwieg und betete, hatte durch wenige Worte den Frieden bewahrt.",
@@ -316,6 +334,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "henry-dunant"
+    ],
     "de": {
       "title": "Was ein Genfer Geschäftsmann auf dem Schlachtfeld sah",
       "body": "Im Juni 1859 reiste der Genfer **Henry Dunant** geschäftlich nach Norditalien. Bei **Solferino** geriet er in die Folgen einer der blutigsten Schlachten des Jahrhunderts: Zehntausende Verwundete lagen ohne Hilfe in der Hitze.\n\nDunant blieb. Er organisierte mit Frauen aus dem Dorf Wasser, Verbände und Pflege, für **alle** Verwundeten, egal welcher Armee.\n\nDaraus schrieb er ein Buch, und daraus entstand 1863 in Genf das **Rote Kreuz**. 1901 erhielt Dunant den ersten Friedensnobelpreis. Da lebte er verarmt in einem Spital in Heiden.",
@@ -448,6 +469,9 @@
     "style": "erklaerung",
     "level": 1,
     "actKind": "langfristig",
+    "people": [
+      "johannes-gutenberg"
+    ],
     "de": {
       "title": "Gutenberg machte Wissen für alle zugänglich",
       "body": "Vor **Johannes Gutenberg** wurden Bücher von Hand abgeschrieben. Eine Bibel zu kopieren dauerte Monate, und nur Klöster, Fürsten und Reiche konnten sich Bücher leisten.\n\nUm **1450** entwickelte Gutenberg in Mainz den Druck mit **beweglichen Metallbuchstaben**. Um 1455 war seine Bibel fertig, in rund 180 Exemplaren.\n\nBis 1500 wurden in Europa schätzungsweise **20 Millionen** Bücher gedruckt. Wissen, Ideen und der Glaube konnten sich plötzlich in Wochen statt in Generationen verbreiten. Kaum eine Erfindung hat die Welt so verändert.",
@@ -470,6 +494,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "alexander-fleming"
+    ],
     "de": {
       "title": "Ein unaufgeräumtes Labor rettete Millionen Leben",
       "body": "Im **September 1928** kam der schottische Arzt **Alexander Fleming** aus den Ferien in sein Labor in London zurück. Auf einer Schale mit Bakterien, die er vergessen hatte, war ein Schimmelpilz gewachsen. Rund um den Schimmel waren die Bakterien **verschwunden**.\n\nViele hätten die Schale weggeworfen. Fleming schaute genau hin. Der Pilz produzierte einen Stoff, den er **Penicillin** nannte.\n\nErst über zehn Jahre später machten Howard Florey und Ernst Chain daraus ein Medikament. Antibiotika haben seither Hunderte Millionen Leben gerettet.",
@@ -492,6 +519,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "thomas-edison"
+    ],
     "de": {
       "title": "Edison testete über 6'000 Materialien",
       "body": "Die Glühbirne hat nicht Thomas Edison erfunden. Andere hatten schon vor ihm Lampen gebaut. Aber sie brannten nur kurz durch oder waren zu teuer.\n\nEdison und sein Team suchten den perfekten **Glühfaden**. Sie testeten Tausende Materialien, darunter über **6'000 Pflanzenfasern**. 1879 brannte ein Faden aus verkohltem Baumwollgarn rund 13 Stunden. Später hielten Fäden aus Bambus über **1'000 Stunden**.\n\n> Der Erfolg kam nicht durch einen Geistesblitz, sondern durch systematisches, geduldiges Ausprobieren.",
@@ -514,6 +544,9 @@
     "style": "geschichte",
     "level": 2,
     "actKind": "so",
+    "people": [
+      "james-watt"
+    ],
     "de": {
       "title": "Die Idee kam beim Sonntagsspaziergang",
       "body": "Dampfmaschinen gab es schon vor **James Watt**. Aber sie verschwendeten riesige Mengen Kohle, weil der Zylinder bei jedem Hub abgekühlt und wieder aufgeheizt werden musste.\n\nWatt, ein Instrumentenbauer an der Universität Glasgow, grübelte monatelang darüber. Die Lösung kam ihm 1765 bei einem Spaziergang: ein **separater Kondensator**, damit der Zylinder heiss bleiben kann. 1769 liess er sie patentieren.\n\nSeine Maschine brauchte rund **75 % weniger Kohle**. Sie trieb Fabriken, Bergwerke und später Lokomotiven an. Die Industrielle Revolution kam ins Rollen.",
@@ -536,6 +569,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "merke",
+    "people": [
+      "tim-berners-lee"
+    ],
     "de": {
       "title": "Das Web wurde in der Schweiz erfunden",
       "body": "Im **März 1989** reichte der britische Informatiker **Tim Berners-Lee** am CERN in Genf einen Vorschlag ein: ein System, mit dem Forscher Dokumente über **Links** miteinander verbinden können. Sein Chef schrieb auf das Blatt: \"Vage, aber spannend.\"\n\nBerners-Lee baute den ersten Webbrowser und den ersten Webserver. 1991 ging die erste Website online. Am **30. April 1993** gab das CERN das Web für alle frei, ohne Patente und ohne Gebühren.\n\nEr hätte damit unermesslich reich werden können. Er entschied sich, es der Welt zu schenken.",

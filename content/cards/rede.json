@@ -550,6 +550,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "john-f-kennedy"
+    ],
     "de": {
       "title": "Die Macht des Kontrasts",
       "quote": {
@@ -584,6 +587,9 @@
     "style": "geschichte",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "winston-churchill"
+    ],
     "de": {
       "title": "Churchill und die Wiederholung",
       "body": "Juni 1940. Die britische Armee war gerade aus Dünkirchen evakuiert worden, Frankreich stand vor dem Fall. Winston Churchill trat vor das Parlament und wiederholte immer wieder dieselben drei Worte: **\"We shall fight\"**, auf den Stränden, an den Landeplätzen, auf den Feldern, in den Strassen, in den Hügeln. \"Wir werden uns niemals ergeben.\"\n\nDie Wiederholung am Satzanfang hämmert eine Botschaft ein, bis sie sitzt. Sie gab einem verängstigten Land eine Haltung.",
@@ -696,6 +702,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "ronald-reagan"
+    ],
     "de": {
       "title": "Reagans Antwort, die eine Wahl entschied",
       "body": "1984 war Ronald Reagan 73 Jahre alt, der älteste US-Präsident bis dahin. Im ersten Fernsehduell hatte er unsicher gewirkt. Alle fragten sich: Ist er zu alt?\n\nIm zweiten Duell kam die Frage direkt. Reagan antwortete ruhig: \"Ich werde das Alter in diesem Wahlkampf nicht zum Thema machen. Ich werde die **Jugend und Unerfahrenheit** meines Gegners nicht für politische Zwecke ausnutzen.\"\n\nDas Publikum lachte, sogar sein 56-jähriger Gegner Walter Mondale. Das Thema war erledigt. Reagan gewann 49 von 50 Staaten.",

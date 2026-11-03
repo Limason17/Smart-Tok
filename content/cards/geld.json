@@ -1012,6 +1012,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "ronald-read"
+    ],
     "de": {
       "title": "Der Hausmeister mit acht Millionen",
       "body": "Ronald Read arbeitete 25 Jahre an einer Tankstelle und 17 Jahre als Hausmeister in einem Kaufhaus in Vermont. Er fuhr einen alten Toyota und hackte sein eigenes Brennholz.\n\nAls er 2014 mit 92 Jahren starb, staunte die ganze Stadt: Er hinterliess über **8 Millionen Dollar**. 6 Millionen davon vermachte er dem örtlichen Spital und der Bibliothek.\n\nKein Erbe, kein Lottogewinn. Er sparte, kaufte solide Aktien und behielt sie jahrzehntelang. Geduld schlug Talent.",
@@ -1100,6 +1103,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "naval-ravikant"
+    ],
     "de": {
       "title": "Mit vermieteter Zeit wirst du nicht reich",
       "quote": {
@@ -1132,6 +1138,9 @@
     "style": "geschichte",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "jeff-bezos"
+    ],
     "de": {
       "title": "Bezos dachte in Jahrzehnten, nicht in Quartalen",
       "body": "1997, Amazon verkaufte noch fast nur Bücher und machte Verluste. In seinem ersten Brief an die Aktionäre schrieb Jeff Bezos einen Satz, den er jedes Jahr wieder beilegte: **Es geht nur um die lange Frist.**\n\nWährend andere Firmen den nächsten Quartalsgewinn jagten, investierte Amazon jahrelang alles in Kunden, Lager und Technik. Viele Analysten lachten. Heute gehört Amazon zu den wertvollsten Firmen der Welt.\n\n> Milliardäre denken nicht schneller. Sie denken weiter.",
@@ -1154,6 +1163,9 @@
     "style": "fakt",
     "level": 1,
     "actKind": "merke",
+    "people": [
+      "warren-buffett"
+    ],
     "de": {
       "title": "Buffett wurde fast nur nach 50 reich",
       "body": "Warren Buffett gilt als bester Investor der Geschichte. Sein wahres Geheimnis ist aber nicht nur Können. Es ist **Zeit**.\n\nMorgan Housel rechnete nach: Von Buffetts damals 84,5 Milliarden Dollar Vermögen entstanden **84,2 Milliarden nach seinem 50. Geburtstag**. Über 81 Milliarden kamen erst, nachdem er Mitte 60 war.\n\nBuffett begann mit 11 Jahren zu investieren und hörte nie auf. Der Zinseszins braucht Jahrzehnte, um zu explodieren. Wer früh anfängt und nie unterbricht, hat den grössten Hebel überhaupt.",
@@ -1176,6 +1188,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "jensen-huang"
+    ],
     "de": {
       "title": "Jensen Huang wünscht dir Schmerz",
       "quote": {
@@ -1208,6 +1223,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "sara-blakely"
+    ],
     "de": {
       "title": "Was hast du diese Woche nicht geschafft?",
       "body": "Am Esstisch der Familie Blakely stellte der Vater jede Woche dieselbe Frage: **\"Woran bist du diese Woche gescheitert?\"** Hatten die Kinder nichts zu erzählen, war er enttäuscht. Scheitern hiess für ihn: Du hast es versucht.\n\nSara Blakely verkaufte danach sieben Jahre lang Faxgeräte an der Haustür und hörte täglich Nein. Mit 5000 Dollar Erspartem gründete sie **Spanx**. 2012 wurde sie die jüngste Selfmade-Milliardärin der Welt.\n\n> Wer Angst vor dem Scheitern verliert, gewinnt den Mut, Dinge zu versuchen.",
@@ -1230,6 +1248,10 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "bill-gates",
+      "warren-buffett"
+    ],
     "de": {
       "title": "Ein Wort, zwei Milliardäre",
       "body": "1991 trafen sich Bill Gates und Warren Buffett zum ersten Mal, bei einem Essen bei Gates' Eltern. Der Gastgeber, Bill Gates senior, fragte alle am Tisch: Was war der wichtigste Faktor für euren Erfolg?\n\nBuffett und Gates antworteten mit **demselben Wort: Fokus.**\n\nNicht Talent, nicht Glück, nicht Kontakte. Die Fähigkeit, sich auf eine Sache zu konzentrieren und tausend andere gute Ideen liegen zu lassen.",
@@ -1252,6 +1274,9 @@
     "style": "tipp",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "bill-gates"
+    ],
     "de": {
       "title": "Die Denkwoche des Bill Gates",
       "body": "Zweimal im Jahr zog sich Bill Gates eine Woche lang allein in ein einfaches Holzhaus zurück. Keine Familie, keine Meetings, keine Ablenkung. Nur Lesen und Nachdenken: Fachartikel, Bücher, Ideen seiner Mitarbeiter.\n\nAus diesen **\"Think Weeks\"** kamen einige der wichtigsten Entscheidungen von Microsoft, etwa 1995 die Wende hin zum Internet.\n\nDie meisten Menschen sind zu beschäftigt, um nachzudenken. Wer sich bewusst Zeit zum Denken nimmt, trifft bessere Entscheidungen als jemand, der nur reagiert.",
@@ -1265,6 +1290,92 @@
       "act": "Block two hours this week with no phone, just a book, paper and pen, and think about your most important question.",
       "deep": "Gates reportedly read up to 100 papers in a think week. His famous memo \"The Internet Tidal Wave\" of May 1995 came out of this period of reflection. Many leaders now take similar retreats.",
       "source": "The Wall Street Journal, March 2005; Bill Gates: The Internet Tidal Wave (memo, 1995)"
+    }
+  },
+  {
+    "id": "hormozi-wertgleichung",
+    "area": "geld",
+    "sub": "sales",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "so",
+    "people": [
+      "alex-hormozi"
+    ],
+    "de": {
+      "title": "Die Wertgleichung: Warum Kunden Ja sagen",
+      "body": "Als Alex Hormozi seine ersten Fitnessstudios führte, verkaufte er wie alle: eine Mitgliedschaft für einen Monatspreis. Und wie alle kämpfte er ums Überleben. Bis er aufhörte, über den Preis nachzudenken, und anfing, über den **Wert** nachzudenken.\n\nEr fasst es in einer einfachen Gleichung zusammen. Ein Angebot ist umso wertvoller, je grösser oben und je kleiner unten:\n\n- **Oben:** Wie gross ist das Ergebnis, das sich der Kunde erträumt? Und wie sicher glaubt er, dass er es mit dir erreicht?\n- **Unten:** Wie lange muss er darauf warten? Und wie viel Mühe und Verzicht kostet es ihn?\n\nDie meisten Verkäufer drehen nur an einem Rad: Sie senken den Preis. Hormozi dreht an allen vier. Er macht das Ergebnis konkreter, gibt eine Garantie, zeigt schnelle erste Erfolge und nimmt dem Kunden Arbeit ab.\n\n## Niemand kauft ein Fitnessstudio\n\nNiemand will eine Mitgliedschaft. Er will in den Spiegel schauen und stolz sein. Ein Studio, das \"50 Franken im Monat\" verkauft, konkurriert mit allen anderen über den Preis. Ein Studio, das \"In sechs Wochen sichtbar fitter, mit Plan, Coach und Geld-zurück-Garantie\" verkauft, hat kaum Konkurrenz.\n\n> Wenn du über den Preis streitest, hast du den Wert nicht klar gemacht.",
+      "example": "Du gibst Nachhilfe für 40 Franken pro Stunde. Neu bietest du an: \"Bis zur Prüfung in acht Wochen mindestens eine Note besser, mit wöchentlichem Plan für zu Hause. Sonst gibt es die letzten vier Stunden gratis.\" Gleiche Arbeit, ganz anderes Angebot.",
+      "act": "Nimm etwas, das du verkaufst oder anbietest, auch dich selbst bei einer Bewerbung, und geh die vier Fragen durch.\n- Welches Ergebnis will der andere wirklich?\n- Wie mache ich glaubhaft, dass er es mit mir erreicht?\n- Wie kann es schneller gehen?\n- Welche Mühe kann ich ihm abnehmen?",
+      "deep": "Hormozi beschreibt die Wertgleichung in seinem Buch \"$100M Offers\" (2021). Im Original: Dream Outcome mal Perceived Likelihood of Achievement, geteilt durch Time Delay mal Effort and Sacrifice.\n\nDie Gleichung ist kein exaktes Rechenmodell, sondern eine Denkhilfe. Sie passt zu dem, was die Verkaufsforschung seit Langem sagt: Kunden kaufen Ergebnisse und Sicherheit, nicht Merkmale. Siehe auch die Karte \"Niemand will einen Bohrer\".",
+      "source": "Alex Hormozi: $100M Offers (2021)"
+    },
+    "en": {
+      "title": "The value equation: why customers say yes",
+      "body": "When Alex Hormozi ran his first gyms, he sold like everyone else: a membership for a monthly price. And like everyone else, he struggled to survive. Until he stopped thinking about price and started thinking about **value**.\n\nHe sums it up in a simple equation. An offer is more valuable the bigger the top and the smaller the bottom:\n\n- **Top:** how big is the result the customer dreams of? And how sure is he that he'll get it with you?\n- **Bottom:** how long does he have to wait? And how much effort and sacrifice does it cost him?\n\nMost sellers turn only one dial: they lower the price. Hormozi turns all four. He makes the result more concrete, gives a guarantee, shows quick early wins and takes work off the customer's hands.\n\n## No one buys a gym\n\nNo one wants a membership. He wants to look in the mirror and be proud. A gym that sells \"50 a month\" competes with everyone else on price. A gym that sells \"visibly fitter in six weeks, with a plan, a coach and a money-back guarantee\" has hardly any competition.\n\n> If you're arguing about price, you haven't made the value clear.",
+      "example": "You tutor for 40 an hour. Now you offer: \"At least one grade better by the exam in eight weeks, with a weekly plan for home. Otherwise the last four hours are free.\" Same work, a completely different offer.",
+      "act": "Take something you sell or offer, even yourself in a job application, and go through the four questions.\n- What result does the other person really want?\n- How do I make it believable that he will get it with me?\n- How can it happen faster?\n- What effort can I take off his hands?",
+      "deep": "Hormozi describes the value equation in his book \"$100M Offers\" (2021). In the original: dream outcome times perceived likelihood of achievement, divided by time delay times effort and sacrifice.\n\nThe equation is not an exact model but a thinking tool. It fits what sales research has long said: customers buy results and certainty, not features. See also the card \"Nobody wants a drill\".",
+      "source": "Alex Hormozi: $100M Offers (2021)"
+    }
+  },
+  {
+    "id": "hormozi-regel-100",
+    "area": "geld",
+    "sub": "unternehmertum",
+    "style": "tipp",
+    "level": 1,
+    "actKind": "langfristig",
+    "people": [
+      "alex-hormozi"
+    ],
+    "de": {
+      "title": "Die Regel von 100",
+      "body": "Viele, die ein Geschäft starten, warten auf die perfekte Idee, die perfekte Webseite, den perfekten Moment. Alex Hormozi hält dagegen mit einer einfachen Regel: **100 Handlungen am Tag, 100 Tage lang**.\n\nWer Kunden sucht, schreibt zum Beispiel jeden Tag 100 Menschen an. Oder ruft 100 Nummern an. Oder verbringt 100 Minuten damit, Inhalte zu machen. Jeden Tag, ohne Ausnahme, 100 Tage lang.\n\nSein Satz dazu: Menge schlägt Glück. Wer genug Versuche macht, braucht kein Glück mehr. Und wer 100 Tage lang jeden Tag dasselbe tut, wird darin zwangsläufig besser.\n\n## Die Töpferklasse\n\nIm Buch \"Art & Fear\" wird von einem Töpferlehrer erzählt, der seine Klasse teilte. Die eine Hälfte wurde nach der Menge benotet: Je mehr Kilo Töpfe, desto besser die Note. Die andere Hälfte nach der Qualität: Sie musste nur einen einzigen, möglichst perfekten Topf abgeben.\n\nAm Ende kamen die schönsten Töpfe ausgerechnet aus der Mengen-Gruppe. Sie hatten geübt und aus Fehlern gelernt, während die anderen über Perfektion nachdachten. Ob es genau so geschah, ist nicht belegt. Aber jeder Handwerker kennt die Wahrheit dahinter.\n\n> Menge schlägt Perfektion. Wer mehr versucht, lernt schneller.",
+      "example": "Du willst als Fotograf Aufträge. Statt monatelang an der Webseite zu feilen, schreibst du 100 Tage lang jeden Tag 20 Firmen an und machst 80 Minuten Fotos für dein Portfolio. Nach 100 Tagen hast du 2000 Anfragen verschickt und Hunderte Bilder gemacht.",
+      "act": "Wähle eine Handlung, die dein Ziel direkt voranbringt, und eine Zahl, die dich fordert. Mach sie die nächsten 30 Tage jeden Tag und hake jeden Tag ab.",
+      "deep": "Hormozi beschreibt die Regel in \"$100M Leads\" (2023). Er betont, dass die Zahl 100 kein Naturgesetz ist. Es geht darum, so viel zu tun, dass Zufall keine Rolle mehr spielt.\n\nDie Geschichte der Töpferklasse stammt aus \"Art & Fear\" von David Bayles und Ted Orland (1993). Die Autoren haben sie nach eigener Aussage aus einer wahren Begebenheit abgewandelt.",
+      "source": "Alex Hormozi: $100M Leads (2023); David Bayles & Ted Orland: Art & Fear (1993)"
+    },
+    "en": {
+      "title": "The rule of 100",
+      "body": "Many people starting a business wait for the perfect idea, the perfect website, the perfect moment. Alex Hormozi counters with a simple rule: **100 actions a day, for 100 days**.\n\nIf you're looking for customers, you might message 100 people every day. Or call 100 numbers. Or spend 100 minutes making content. Every day, no exceptions, for 100 days.\n\nHis line: volume beats luck. Whoever makes enough attempts no longer needs luck. And whoever does the same thing every day for 100 days will inevitably get better at it.\n\n## The pottery class\n\nThe book \"Art & Fear\" tells of a pottery teacher who split his class. One half was graded on quantity: the more kilos of pots, the better the grade. The other half on quality: they only had to hand in one single pot, as perfect as possible.\n\nIn the end, the best pots all came from the quantity group. They had practised and learned from mistakes, while the others theorised about perfection. Whether it happened exactly this way is not documented. But every craftsman knows the truth behind it.\n\n> Volume beats perfection. Whoever tries more learns faster.",
+      "example": "You want work as a photographer. Instead of polishing your website for months, you contact 20 companies every day for 100 days and spend 80 minutes taking portfolio photos. After 100 days you have sent 2,000 enquiries and taken hundreds of pictures.",
+      "act": "Pick one action that directly moves your goal forward and a number that challenges you. Do it every day for the next 30 days and tick off each day.",
+      "deep": "Hormozi describes the rule in \"$100M Leads\" (2023). He stresses that 100 is not a law of nature. The point is to do so much that chance no longer matters.\n\nThe pottery class story comes from \"Art & Fear\" by David Bayles and Ted Orland (1993). The authors say they adapted it from a true event.",
+      "source": "Alex Hormozi: $100M Leads (2023); David Bayles & Ted Orland: Art & Fear (1993)"
+    }
+  },
+  {
+    "id": "was-habe-ich-davon",
+    "area": "geld",
+    "sub": "sales",
+    "style": "zitat",
+    "level": 1,
+    "actKind": "frage",
+    "de": {
+      "title": "Die Frage hinter jeder Entscheidung",
+      "quote": {
+        "text": "Es gibt nur eine Regel auf dieser Welt: eine kleine Frage, die allen Erfolg antreibt. Errätst du die Frage, Mr. Green? Was habe ich davon?",
+        "author": "Macha (Ray Liotta)",
+        "source": "im Film „Revolver“ (2005) von Guy Ritchie"
+      },
+      "body": "In Guy Ritchies Film \"Revolver\" sagt das der Casinoboss Macha zu Jake Green, dem Helden. Macha ist der Bösewicht. Trotzdem steckt in seinem Satz eine harte Wahrheit über Menschen.\n\nJeder, mit dem du sprichst, stellt sich diese Frage, meist ohne es zu merken: Was habe ich davon? Der Kunde, der Chef, der Freund, der Gegner.\n\n## Zeig mir den Anreiz\n\nCharlie Munger, der jahrzehntelange Partner von Warren Buffett, erzählte, wie die Firma FedEx nachts ein Problem hatte: Die Pakete wurden zu langsam umgeladen. Appelle halfen nichts. Dann bezahlte man die Arbeiter nicht mehr pro Stunde, sondern pro Schicht, und liess sie gehen, sobald alles fertig war. Das Problem verschwand über Nacht.\n\nMungers Satz dazu: \"Zeig mir den Anreiz, und ich zeige dir das Ergebnis.\"\n\n## Wo Macha falsch liegt\n\nWer andere verstehen, führen oder überzeugen will, muss ihre Frage beantworten, bevor sie sie stellen. Aber wer nur noch diese Frage stellt, wird wie Macha: mächtig, misstrauisch und allein.\n\nJesus dreht die Frage um: \"Wer bei euch gross sein will, der soll euer Diener sein.\" Die stärksten Männer kennen die Frage der anderen genau und fragen für sich selbst eine andere: Was kann ich geben?\n\n> Beantworte die Frage der anderen. Aber lebe nicht nur nach ihr.",
+      "act": "Denk an ein Gespräch, das du bald führen musst. Was hat der andere davon, wenn er dir zustimmt? Und was gibst du, ohne etwas zurückzuerwarten?",
+      "deep": "\"Revolver\" (2005) ist ein Thriller von Guy Ritchie mit Jason Statham als Jake Green und Ray Liotta als Dorothy Macha. Der Film handelt von Ego, Angst und Manipulation. Machas Regel wird darin als Denkweise des Gegners gezeigt, nicht als Ideal.\n\nMunger erzählte die FedEx-Geschichte 1995 in seiner berühmten Rede \"The Psychology of Human Misjudgment\" in Harvard.\n\nDer Satz von Jesus steht in Markus 10,43. Siehe auch die Karte \"Grösse heisst dienen\".",
+      "source": "Revolver (2005), Regie Guy Ritchie; Charlie Munger: The Psychology of Human Misjudgment (1995); Markus 10,43"
+    },
+    "en": {
+      "title": "The question behind every decision",
+      "quote": {
+        "text": "There's only one rule in this world: a small question that drives all success. Can you guess what that question is, Mr. Green? What's in it for me?",
+        "author": "Macha (Ray Liotta)",
+        "source": "in the film “Revolver” (2005) by Guy Ritchie"
+      },
+      "body": "In Guy Ritchie's film \"Revolver\", the casino boss Macha says this to Jake Green, the hero. Macha is the villain. Still, his line holds a hard truth about people.\n\nEveryone you talk to asks himself this question, usually without noticing: what's in it for me? The customer, the boss, the friend, the opponent.\n\n## Show me the incentive\n\nCharlie Munger, Warren Buffett's partner for decades, told how FedEx had a problem at night: packages were being transferred too slowly. Appeals didn't help. Then they stopped paying the workers by the hour and paid them per shift, letting them go home as soon as everything was done. The problem disappeared overnight.\n\nMunger's line: \"Show me the incentive and I will show you the outcome.\"\n\n## Where Macha is wrong\n\nWhoever wants to understand, lead or persuade others must answer their question before they ask it. But whoever asks only this question becomes like Macha: powerful, suspicious and alone.\n\nJesus turns the question around: \"Whoever wants to become great among you must be your servant.\" The strongest men know exactly what others are asking, and ask themselves something else: what can I give?\n\n> Answer other people's question. But don't live by it alone.",
+      "act": "Think of a conversation you will have soon. What does the other person get out of agreeing with you? And what will you give without expecting anything back?",
+      "deep": "\"Revolver\" (2005) is a thriller by Guy Ritchie with Jason Statham as Jake Green and Ray Liotta as Dorothy Macha. The film is about ego, fear and manipulation. Macha's rule is shown as the opponent's way of thinking, not as an ideal.\n\nMunger told the FedEx story in 1995 in his famous Harvard talk \"The Psychology of Human Misjudgment\".\n\nJesus' words are in Mark 10:43. See also the card \"Greatness means serving\".",
+      "source": "Revolver (2005), directed by Guy Ritchie; Charlie Munger: The Psychology of Human Misjudgment (1995); Mark 10:43"
     }
   }
 ]

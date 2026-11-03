@@ -432,6 +432,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "langfristig",
+    "people": [
+      "adam-smith"
+    ],
     "de": {
       "title": "Zehn Männer, 48'000 Nadeln am Tag",
       "body": "1776 beschrieb Adam Smith in seinem Werk \"Der Wohlstand der Nationen\" eine kleine Fabrik für Stecknadeln.\n\nEin einzelner Arbeiter, der alles selbst macht, schafft vielleicht **eine Nadel** am Tag, höchstens 20. In der Fabrik teilten sich **zehn Männer** die Arbeit in rund 18 Schritte auf: Einer zieht den Draht, einer schneidet, einer spitzt. Zusammen machten sie rund **48'000 Nadeln** pro Tag.\n\nDas ist **Arbeitsteilung**, und sie ist der Motor unseres Wohlstands. Wer sich spezialisiert und übt, wird schneller und besser.",
@@ -454,6 +457,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "eratosthenes"
+    ],
     "de": {
       "title": "Wie ein Grieche mit einem Stab die Erde vermass",
       "body": "Um **240 v. Chr.** hörte Eratosthenes, der Leiter der Bibliothek von Alexandria, von einem Brunnen in Syene, dem heutigen Assuan. Am Mittag des längsten Tages schien die Sonne dort senkrecht hinein.\n\nIn Alexandria, weiter nördlich, warf ein senkrechter Stab zur selben Zeit einen kleinen Schatten: rund **7 Grad**, etwa ein Fünfzigstel eines Kreises. Also, folgerte er, ist der Erdumfang **fünfzigmal** die Strecke zwischen den Städten.\n\nSein Ergebnis lag je nach Umrechnung nur wenige Prozent neben dem heutigen Wert von rund **40'000 km**. Mit einem Stab, Geometrie und klarem Denken.",
@@ -586,6 +592,9 @@
     "style": "geschichte",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "alan-turing"
+    ],
     "de": {
       "title": "Die Frage, die Alan Turing 1950 stellte",
       "body": "\"Können Maschinen denken?\" Mit dieser Frage beginnt ein Aufsatz, den der britische Mathematiker **Alan Turing** 1950 veröffentlichte.\n\nWeil \"denken\" schwer zu definieren ist, schlug er einen Test vor, das **Imitationsspiel**: Ein Mensch chattet schriftlich mit einem Menschen und einer Maschine. Kann er nicht zuverlässig sagen, wer wer ist, hat die Maschine bestanden.\n\nTuring hatte im Zweiten Weltkrieg geholfen, die deutsche Enigma-Verschlüsselung zu knacken. Er gilt als einer der Väter der Informatik.",
@@ -764,6 +773,9 @@
     "style": "geschichte",
     "level": 2,
     "actKind": "langfristig",
+    "people": [
+      "alfred-wegener"
+    ],
     "de": {
       "title": "Der Mann, den alle auslachten",
       "body": "1912 stellte der deutsche Meteorologe **Alfred Wegener** eine verrückte Idee vor: Die Kontinente **wandern**. Einst waren sie ein einziger Urkontinent, den er Pangäa nannte. Als Beweis zeigte er, wie die Küsten von Südamerika und Afrika zusammenpassen, und dass auf beiden dieselben Fossilien liegen.\n\nDie Fachwelt lachte. Wegener konnte nicht erklären, was die Kontinente antreibt. Er starb 1930 auf einer Grönlandexpedition.\n\nErst in den 1960er-Jahren bewies die Plattentektonik, dass er recht hatte. Der Atlantik wird jedes Jahr um rund **2,5 cm** breiter.",
@@ -786,6 +798,9 @@
     "style": "erklaerung",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "platon"
+    ],
     "de": {
       "title": "Platons Höhle: Was, wenn du nur Schatten siehst?",
       "body": "Platon beschreibt Menschen, die seit ihrer Geburt in einer Höhle gefesselt sind. Sie sehen nur eine Wand, auf die Schatten von Gegenständen fallen. Für sie sind die **Schatten** die ganze Wirklichkeit.\n\nEiner wird befreit. Zuerst blendet ihn das Licht, es tut weh. Dann sieht er die echte Welt draussen. Als er zurückkehrt, um die anderen zu befreien, lachen sie ihn aus und wollen ihn töten.\n\nDie Frage an dich: Welche Schatten hältst du für die Wirklichkeit? Und hast du den Mut, ans Licht zu gehen, auch wenn es zuerst wehtut?",
@@ -808,6 +823,9 @@
     "style": "erklaerung",
     "level": 2,
     "actKind": "heute",
+    "people": [
+      "aristoteles"
+    ],
     "de": {
       "title": "Mut liegt zwischen zwei Fehlern",
       "body": "Für Aristoteles ist jede Tugend eine **Mitte zwischen zwei Extremen**. Mut liegt zwischen **Feigheit** (zu viel Angst) und **Tollkühnheit** (zu wenig Angst). Grosszügigkeit liegt zwischen Geiz und Verschwendung.\n\nDiese Mitte ist kein lauwarmer Kompromiss. Sie ist das **Richtige** in der jeweiligen Lage: zur richtigen Zeit, gegenüber den richtigen Menschen, aus dem richtigen Grund.\n\nUnd man findet sie nicht durch Nachdenken allein, sondern durch Übung. Mutig wird man, indem man mutig handelt.",
@@ -832,6 +850,9 @@
     "style": "erklaerung",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "immanuel-kant"
+    ],
     "de": {
       "title": "Kants Test für jede Entscheidung",
       "body": "Immanuel Kant suchte eine Regel, die für **jeden** Menschen gilt, egal welche Gefühle oder Wünsche er hat. 1785 formulierte er den **kategorischen Imperativ**.\n\nVereinfacht: Handle nur so, dass du wollen kannst, dass **alle** so handeln. Darf ich lügen, um mir einen Vorteil zu verschaffen? Wenn alle das täten, würde niemand mehr einem Wort glauben. Also nein.\n\nEine zweite Form: Behandle Menschen **nie nur als Mittel** zum Zweck, sondern immer auch als Zweck an sich. Benutze niemanden.",
@@ -878,6 +899,9 @@
     "style": "geschichte",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "rene-descartes"
+    ],
     "de": {
       "title": "Ich denke, also bin ich",
       "body": "René Descartes wollte wissen, worauf er sich **ganz sicher** verlassen kann. Also zweifelte er an allem: an seinen Sinnen, die ihn täuschen können, an der Welt, die ein Traum sein könnte, sogar an der Mathematik.\n\nAm Ende blieb eine Sache übrig, an der er nicht zweifeln konnte: dass **er** es war, der zweifelte. Wer zweifelt, denkt. Wer denkt, existiert. \"Ich denke, also bin ich.\"\n\nVon diesem einen festen Punkt aus baute er sein Denken neu auf. So geht Klarheit: alles prüfen, bis man festen Boden findet.",

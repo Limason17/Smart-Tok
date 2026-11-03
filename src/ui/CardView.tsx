@@ -9,6 +9,7 @@ import {
   type ReactNode,
 } from 'react';
 import type { Card, CardText } from '../content/card';
+import { initials, PERSON_BY_ID } from '../content/people';
 import { ACT_LABELS, AREA_BY_ID, STYLE_LABELS, subtopicLabel, type ActKind, type Lang } from '../content/taxonomy';
 import { useT } from '../i18n/strings';
 import { useStore } from '../store/store';
@@ -255,11 +256,30 @@ export function paginate(blocks: Block[], sizes: Measured[], avail: number): num
     const next = i + 1 < blocks.length && blocks[i + 1].k !== 'break' ? i + 1 : -1;
     const keepWithNext = (b.k === 'title' || b.k === 'hero') && next >= 0;
     if (keepWithNext) need += cost(next, false);
+    // a subheading with a list under it stays on one page when the whole list fits there,
+    // so no single bullet is left alone on the next page
+    if (b.k === 'title' && b.sub && next >= 0 && blocks[next].k === 'li') {
+      let run = cost(i, !page.length);
+      let j = next;
+      while (j < blocks.length && blocks[j].k === 'li') run += cost(j++, false);
+      if (run - (page.length ? sizes[i].mt : 0) <= avail) need = Math.max(need, run);
+    }
     if (page.length && used + need > avail) flush();
     page.push(i);
     used += cost(i, page.length === 1);
   }
   flush();
+  // a list cut across pages never leaves a single bullet alone at the top of the next page
+  for (let p = 1; p < pages.length; p++) {
+    const prev = pages[p - 1];
+    const cur = pages[p];
+    const lone = blocks[cur[0]]?.k === 'li' && blocks[cur[1]]?.k !== 'li';
+    const a = prev[prev.length - 1];
+    const b = prev[prev.length - 2];
+    if (!lone || blocks[a]?.k !== 'li' || blocks[b]?.k !== 'li' || a !== cur[0] - 1) continue;
+    const height = [a, ...cur].reduce((sum, bi, j) => sum + cost(bi, j === 0), 0);
+    if (height <= avail) pages[p] = [prev.pop()!, ...cur];
+  }
   return pages.length ? pages : [[]];
 }
 
@@ -383,15 +403,45 @@ function usePages(source: Block[], fontKey: string) {
 
 // ---------------------------------------------------------------- card
 
-function Meta({ card, badge }: { card: Card; badge?: string }) {
+/** Round avatar with a person's initials, in the colour of the person's area. */
+export function Avatar({ personId, size = 22 }: { personId: string; size?: number }) {
+  const p = PERSON_BY_ID[personId];
+  if (!p) return null;
+  const color = AREA_BY_ID[p.area]?.color;
+  return (
+    <span className="avatar" style={{ '--area': color, width: size, height: size, fontSize: size * 0.4 } as CSSProperties} aria-hidden="true">
+      {initials(p.name)}
+    </span>
+  );
+}
+
+function Meta({ card, badge, onPerson }: { card: Card; badge?: string; onPerson?: (personId: string) => void }) {
   const tr = useT();
   const area = AREA_BY_ID[card.area];
+  const person = card.people?.[0] ? PERSON_BY_ID[card.people[0]] : undefined;
   return (
     <header className="card-meta">
-      <Icon name={area.icon} size={16} />
-      <span className="crumb">
-        {area.label[tr.lang]} <span>· {subtopicLabel(card.area, card.sub, tr.lang)}</span>
-      </span>
+      {person ? (
+        // A card about someone shows who it is about; tapping opens the person's profile.
+        <button
+          className="person-chip"
+          disabled={!onPerson}
+          onClick={() => onPerson?.(person.id)}
+          aria-label={`${person.name}: ${tr('openProfile')}`}
+        >
+          <Avatar personId={person.id} />
+          <span className="crumb">
+            <b>{person.name}</b> <span>· {area.label[tr.lang]}</span>
+          </span>
+        </button>
+      ) : (
+        <>
+          <Icon name={area.icon} size={16} />
+          <span className="crumb">
+            {area.label[tr.lang]} <span>· {subtopicLabel(card.area, card.sub, tr.lang)}</span>
+          </span>
+        </>
+      )}
       <span className={`chip ${badge ? 'chip-badge' : ''}`}>
         {badge ??
           (card.publishedAt
@@ -413,10 +463,12 @@ export interface CardViewProps {
   banner?: ReactNode;
   /** Small label instead of the style chip (e.g. "Wiederholung"). */
   badge?: string;
+  /** Open the profile of the person the card is about. */
+  onPerson?: (personId: string) => void;
   onPage?: (index: number, count: number) => void;
 }
 
-export function CardView({ card, active, actions, banner, badge, onPage }: CardViewProps) {
+export function CardView({ card, active, actions, banner, badge, onPerson, onPage }: CardViewProps) {
   const tr = useT();
   const fontSize = useStore((s) => s.settings.fontSize);
   const area = AREA_BY_ID[card.area];
@@ -468,7 +520,7 @@ export function CardView({ card, active, actions, banner, badge, onPage }: CardV
 
   return (
     <article className={`card card--${card.format}`} style={style} data-card={card.id}>
-      <Meta card={card} badge={badge} />
+      <Meta card={card} badge={badge} onPerson={onPerson} />
       {banner}
       <div className={`pager-progress ${count > 1 ? '' : 'single'}`} aria-label={`${index + 1} ${tr('of')} ${count}`}>
         {count > 1 && (
@@ -524,13 +576,13 @@ export function CardView({ card, active, actions, banner, badge, onPage }: CardV
 // ---------------------------------------------------------------- detail
 
 /** A whole card in one column, for the profile (saved cards, history, "Umsetzen"). */
-export function CardDetail({ card }: { card: Card }) {
+export function CardDetail({ card, onPerson }: { card: Card; onPerson?: (personId: string) => void }) {
   const tr = useT();
   const area = AREA_BY_ID[card.area];
   const blocks = cardBlocks(card, tr.lang);
   return (
     <article className={`detail card--${card.format}`} style={{ '--area': area.color } as CSSProperties}>
-      <Meta card={card} />
+      <Meta card={card} onPerson={onPerson} />
       <div className="page-col">
         {blocks.map((b, i) =>
           b.k === 'break' ? null : <BlockView key={i} b={b} lang={tr.lang} exampleLabel={tr('example')} first={i === 0} />,

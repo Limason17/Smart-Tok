@@ -7,6 +7,7 @@ import { Feed } from './Feed';
 import { Icon } from './Icon';
 import { linkedCards } from './links';
 import { Onboarding } from './Onboarding';
+import { PeopleSheet, PersonSheet } from './PeopleSheet';
 import { AlgoSheet, ProfileSheet } from './ProfileSheet';
 import { SettingsSheet } from './SettingsSheet';
 import { TopicSheet } from './TopicSheet';
@@ -17,7 +18,9 @@ type Panel =
   | { kind: 'profile' }
   | { kind: 'algo' }
   | { kind: 'account' }
-  | { kind: 'card'; cardId: string }
+  | { kind: 'people'; fromProfile?: boolean }
+  | { kind: 'person'; personId: string; back?: Panel }
+  | { kind: 'card'; cardId: string; back?: Panel }
   | { kind: 'more'; cardId: string }
   | null;
 
@@ -90,6 +93,7 @@ export function App() {
   const openTopics = useCallback(() => setPanel({ kind: 'topics' }), []);
   const onMore = useCallback((cardId: string) => setPanel({ kind: 'more', cardId }), []);
   const openProfile = useCallback(() => setPanel({ kind: 'profile' }), []);
+  const openPerson = useCallback((personId: string) => setPanel({ kind: 'person', personId }), []);
 
   if (!ready) return null;
   // The feed is built after onboarding, so the first cards already follow the picked topics.
@@ -106,15 +110,20 @@ export function App() {
 
   return (
     <>
-      <Feed onMore={onMore} onToast={setToast} onOpenTopics={openTopics} />
+      <Feed onMore={onMore} onPerson={openPerson} onToast={setToast} onOpenTopics={openTopics} />
       <div className="topbar">
         <div className="topbar-inner">
           <button className="glass-btn" aria-label={tr('topics')} onClick={openTopics}>
             <Icon name="layers" size={20} />
           </button>
-          <button className="glass-btn" aria-label={tr('profile')} onClick={openProfile}>
-            <Icon name="user" size={20} />
-          </button>
+          <span className="topbar-right">
+            <button className="glass-btn" aria-label={tr('people')} onClick={() => setPanel({ kind: 'people' })}>
+              <Icon name="people" size={20} />
+            </button>
+            <button className="glass-btn" aria-label={tr('profile')} onClick={openProfile}>
+              <Icon name="user" size={20} />
+            </button>
+          </span>
         </div>
       </div>
       {panel?.kind === 'topics' && <TopicSheet onClose={panel.fromProfile ? openProfile : close} />}
@@ -127,13 +136,33 @@ export function App() {
           onOpenTopics={() => setPanel({ kind: 'topics', fromProfile: true })}
           onOpenAccount={() => setPanel({ kind: 'account' })}
           onOpenAlgo={() => setPanel({ kind: 'algo' })}
+          onOpenPeople={() => setPanel({ kind: 'people', fromProfile: true })}
+        />
+      )}
+      {panel?.kind === 'people' && (
+        <PeopleSheet
+          onClose={panel.fromProfile ? openProfile : close}
+          onOpenPerson={(personId) => setPanel({ kind: 'person', personId, back: panel })}
+        />
+      )}
+      {panel?.kind === 'person' && (
+        <PersonSheet
+          personId={panel.personId}
+          onClose={() => setPanel(panel.back ?? null)}
+          onOpenCard={(cardId) => setPanel({ kind: 'card', cardId, back: panel })}
         />
       )}
       {panel?.kind === 'algo' && (
         <AlgoSheet onClose={openProfile} onOpenTopics={() => setPanel({ kind: 'topics', fromProfile: true })} onToast={setToast} />
       )}
       {panel?.kind === 'account' && <AccountSheet onClose={openProfile} onToast={setToast} />}
-      {panel?.kind === 'card' && <CardSheet cardId={panel.cardId} onClose={openProfile} />}
+      {panel?.kind === 'card' && (
+        <CardSheet
+          cardId={panel.cardId}
+          onClose={() => (panel.back ? setPanel(panel.back) : openProfile())}
+          onPerson={(personId) => setPanel({ kind: 'person', personId, back: panel.back?.kind === 'person' ? panel.back.back : panel })}
+        />
+      )}
       {panel?.kind === 'more' && <MoreSheet cardId={panel.cardId} onClose={close} />}
       <InstallHint />
       {toast && <div className="toast">{toast}</div>}

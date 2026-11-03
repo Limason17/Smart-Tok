@@ -6,6 +6,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "seneca"
+    ],
     "de": {
       "title": "Seneca über die Zeit",
       "quote": {
@@ -38,6 +41,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "so",
+    "people": [
+      "epiktet"
+    ],
     "de": {
       "title": "Epiktet über Urteile",
       "quote": {
@@ -72,6 +78,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "so",
+    "people": [
+      "seneca"
+    ],
     "de": {
       "title": "Seneca über die Angst",
       "quote": {
@@ -104,6 +113,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "marc-aurel"
+    ],
     "de": {
       "title": "Marc Aurel über den guten Mann",
       "quote": {
@@ -136,6 +148,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "marc-aurel"
+    ],
     "de": {
       "title": "Marc Aurel über Rache",
       "quote": {
@@ -168,6 +183,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "langfristig",
+    "people": [
+      "aristoteles"
+    ],
     "de": {
       "title": "Das berühmteste falsche Aristoteles-Zitat",
       "quote": {
@@ -202,6 +220,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "sokrates"
+    ],
     "de": {
       "title": "Sokrates vor Gericht",
       "quote": {
@@ -234,6 +255,10 @@
     "style": "zitat",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "friedrich-nietzsche",
+      "viktor-frankl"
+    ],
     "de": {
       "title": "Nietzsche über das Warum",
       "quote": {
@@ -266,6 +291,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "langfristig",
+    "people": [
+      "blaise-pascal"
+    ],
     "de": {
       "title": "Pascal über das Alleinsein",
       "quote": {
@@ -298,6 +326,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "goethe"
+    ],
     "de": {
       "title": "Goethe über Wissen und Tun",
       "quote": {
@@ -330,6 +361,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "viktor-frankl"
+    ],
     "de": {
       "title": "Viktor Frankl über die letzte Freiheit",
       "quote": {
@@ -362,6 +396,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "merke",
+    "people": [
+      "warren-buffett"
+    ],
     "de": {
       "title": "Buffetts zwei Regeln",
       "quote": {
@@ -392,6 +429,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "warren-buffett"
+    ],
     "de": {
       "title": "Buffett über Preis und Wert",
       "quote": {
@@ -426,6 +466,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "achte",
+    "people": [
+      "warren-buffett"
+    ],
     "de": {
       "title": "Buffett über deinen Ruf",
       "quote": {
@@ -456,6 +499,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "steve-jobs"
+    ],
     "de": {
       "title": "Steve Jobs über Fokus",
       "quote": {
@@ -488,6 +534,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "frage",
+    "people": [
+      "steve-jobs"
+    ],
     "de": {
       "title": "Stay hungry, stay foolish",
       "quote": {
@@ -520,6 +569,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "jeff-bezos"
+    ],
     "de": {
       "title": "Bezos und die Frage mit 80",
       "quote": {
@@ -550,6 +602,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "so",
+    "people": [
+      "sunzi"
+    ],
     "de": {
       "title": "Sunzi über Selbsterkenntnis",
       "quote": {
@@ -582,6 +637,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "langfristig",
+    "people": [
+      "sunzi"
+    ],
     "de": {
       "title": "Sunzi über den besten Sieg",
       "quote": {
@@ -614,6 +672,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "merke",
+    "people": [
+      "dwight-eisenhower"
+    ],
     "de": {
       "title": "Eisenhower über Pläne",
       "quote": {
@@ -646,6 +707,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "achte",
+    "people": [
+      "theodore-roosevelt"
+    ],
     "de": {
       "title": "Der Mann in der Arena",
       "quote": {
@@ -678,6 +742,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "mike-tyson"
+    ],
     "de": {
       "title": "Mike Tyson über Pläne",
       "quote": {
@@ -708,6 +775,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "augustinus"
+    ],
     "de": {
       "title": "Augustinus über das unruhige Herz",
       "quote": {
@@ -740,6 +810,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "frage",
+    "people": [
+      "augustinus"
+    ],
     "de": {
       "title": "Liebe, und tu, was du willst",
       "quote": {
@@ -772,6 +845,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "gebet",
+    "people": [
+      "ignatius-von-loyola"
+    ],
     "de": {
       "title": "Beten und arbeiten",
       "quote": {
@@ -804,6 +880,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "gebet",
+    "people": [
+      "johannes-paul-ii"
+    ],
     "de": {
       "title": "Johannes Paul II.: Habt keine Angst",
       "quote": {
@@ -836,6 +915,9 @@
     "style": "zitat",
     "level": 2,
     "actKind": "langfristig",
+    "people": [
+      "gk-chesterton"
+    ],
     "de": {
       "title": "Chesterton über das christliche Ideal",
       "quote": {
@@ -868,6 +950,9 @@
     "style": "zitat",
     "level": 1,
     "actKind": "heute",
+    "people": [
+      "seneca"
+    ],
     "de": {
       "title": "Seneca über die grösste Macht",
       "quote": {
