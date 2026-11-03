@@ -3329,5 +3329,60 @@
       ],
       "source": "G. K. Chesterton: Orthodoxy (1908); Maisie Ward: Gilbert Keith Chesterton (1943)"
     }
+  },
+  {
+    "id": "brandon-clark",
+    "name": "Brandon Clark",
+    "alive": true,
+    "area": "koerper",
+    "sub": "training",
+    "de": {
+      "role": "Fitnesscoach und Creator",
+      "meta": "geb. um 2000 · Fitness, Glaube, Mindset",
+      "bio": "Brandon Clark ist ein Fitnesscoach, den viele von TikTok, Instagram und YouTube kennen. Mit 14 fing er in der Highschool an, Gewichte zu heben. Einen Trainer hatte er nicht. Er lernte durch Versuch und Irrtum und machte nach eigenen Worten fast jeden Fehler, den man machen kann.\n\nKurz vor dem Lockdown 2020 kaufte er Geräte für seine Garage. Er sah, dass seine Schwestern TikTok nutzten und dort kaum jemand über Fitness sprach. Also fing er an, Videos zu machen. Ein Podcast nannte ihn später den \"Zufalls-Influencer\".\n\nHeute coacht er Menschen online bei Training und Ernährung. Seit 2025 hat er einen eigenen Podcast für Männer, die besser werden wollen: über Glaube, Fitness, Finanzen und Mindset.",
+      "facts": [
+        [
+          "Geboren",
+          "um 2000 (Anfang 2023 war er 22)"
+        ],
+        [
+          "Bekannt als",
+          "Fitnesscoach und Creator auf YouTube, TikTok und Instagram (@brandon_c_clark)"
+        ],
+        [
+          "Angefangen",
+          "mit 14, Krafttraining in der Highschool"
+        ],
+        [
+          "Podcast",
+          "\"Brandon Clark\" (seit 2025): Glaube, Fitness, Finanzen, Mindset"
+        ]
+      ],
+      "source": "The T-Mac Impact Show, Folge 4: Accidental Fitness Influencer (2023); brandonclarkfitness.com; Podcast \"Brandon Clark\""
+    },
+    "en": {
+      "role": "Fitness coach and creator",
+      "meta": "born around 2000 · fitness, faith, mindset",
+      "bio": "Brandon Clark is a fitness coach many people know from TikTok, Instagram and YouTube. At 14, in high school, he started lifting weights. He had no coach. He learned by trial and error and, in his own words, made nearly every mistake in the book.\n\nJust before the 2020 lockdown he bought equipment for his garage. He saw his sisters using TikTok and noticed that hardly anyone there talked about fitness. So he started making videos. A podcast later called him the \"accidental fitness influencer\".\n\nToday he coaches people online in training and nutrition. Since 2025 he has had his own podcast for men who want to become better: about faith, fitness, finances and mindset.",
+      "facts": [
+        [
+          "Born",
+          "around 2000 (he was 22 in early 2023)"
+        ],
+        [
+          "Known as",
+          "fitness coach and creator on YouTube, TikTok and Instagram (@brandon_c_clark)"
+        ],
+        [
+          "Started",
+          "at 14, strength training in high school"
+        ],
+        [
+          "Podcast",
+          "\"Brandon Clark\" (since 2025): faith, fitness, finances, mindset"
+        ]
+      ],
+      "source": "The T-Mac Impact Show, Ep. 4: Accidental Fitness Influencer (2023); brandonclarkfitness.com; podcast \"Brandon Clark\""
+    }
   }
 ]
