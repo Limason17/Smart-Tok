@@ -45,7 +45,7 @@ Das Leitbild: Batman hat keine Superkräfte. Er ist reich, aber dafür bewundert
 
 Die App teilt jede Karte in Seiten, die ohne Scrollen auf den Bildschirm passen; weiter geht es mit einem Wisch zur Seite. Es gibt keine feste Länge: Ein Fakt passt auf eine Seite, eine Geschichte mit Hintergrund braucht drei bis fünf, ein Grundlagenthema (z. B. „Die Komfort-Falle“) auch sechs bis acht. Ziel ist Lernen, nicht Länge: kurz, wo kurz reicht, ausführlich, wo es mehr Erklärung oder Beispiele braucht.
 
-**Geschichte, Parallele, Prinzip**: Eine starke Form ist eine überraschende wahre Geschichte (Alcatraz, Biosphere 2), dann eine Parallele aus Mythos, Bibel oder Geschichte (Odysseus bei Kalypso), dann das Prinzip in einem Kernsatz. Legenden werden als solche benannt („erzählt man sich“, „ist nicht belegt“).
+**Geschichte, Parallele, Prinzip**: Eine starke Form ist eine überraschende wahre Geschichte (Alcatraz, Biosphere 2), dann eine Parallele aus Mythos, Bibel oder Geschichte (Odysseus bei Kalypso), dann das Prinzip in einem Kernsatz. Legenden werden als solche benannt („erzählt man sich“, „ist nicht belegt“). Diese Form ist der Standard für Karten über Haltung, Charakter und Glauben: wo es eine starke wahre Geschichte gibt, wird sie erzählt. Reine Fakten- und Tipp-Karten dürfen kurz bleiben.
 
 Was der Leser umsetzen will, legt er mit „Umsetzen“ auf seine Liste. Die App fragt nach 2, 7 und 17 Tagen nach, ob er es getan hat. Der Abschluss soll darum so formuliert sein, dass man ihn wirklich tun und abhaken kann.
 

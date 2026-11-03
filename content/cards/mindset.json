@@ -257,22 +257,24 @@
     "id": "umgebung-schlaegt-willen",
     "area": "mindset",
     "sub": "gewohnheiten",
-    "style": "tipp",
+    "style": "geschichte",
     "level": 1,
     "actKind": "heute",
     "de": {
-      "title": "Umgebung schlägt Willenskraft",
-      "body": "Menschen, die besonders diszipliniert wirken, haben oft gar nicht mehr Willenskraft. Sie haben ihr Umfeld so gebaut, dass sie sie **seltener brauchen**.\n\nDas Handy liegt beim Arbeiten im anderen Raum. Die Hantel steht neben dem Bett. Süsses wird gar nicht erst gekauft. Jede Hürde, die du zwischen dich und eine schlechte Gewohnheit stellst, und jede Abkürzung zu einer guten, wirkt jeden Tag automatisch.",
+      "title": "Warum die Soldaten aus Vietnam clean wurden",
+      "body": "1971 kehren zwei US-Abgeordnete aus Vietnam zurück und melden etwas, das Washington schockiert: **10 bis 15 Prozent** der Soldaten dort sind heroinabhängig. Präsident Nixon erklärt Drogen zum \"Staatsfeind Nummer eins\".\n\nAlle rechnen mit dem Schlimmsten. Denn wer in den USA wegen Heroin behandelt wurde, war meist bald wieder abhängig, oft neun von zehn.\n\nDie Psychiaterin **Lee Robins** begleitet die Heimkehrer. Was sie findet, glaubt ihr zuerst niemand: Von den Männern, die in Vietnam abhängig waren, werden im ersten Jahr zu Hause nur **etwa 5 Prozent** wieder rückfällig.\n\nDer Grund war nicht stärkerer Wille. In Vietnam war alles da, was die Sucht auslöste: Angst, Langeweile, billiges Heroin an jeder Ecke, Kameraden, die auch nahmen. Zu Hause war das alles weg. Anderer Ort, andere Menschen, kein Händler um die Ecke.\n\n## Die Disziplinierten kämpfen weniger\n\nForscher gaben Menschen einen Pieper, der sie mehrmals am Tag fragte: Hast du gerade eine Versuchung? Wehrst du dich?\n\nDas Ergebnis überraschte: Menschen mit viel Selbstbeherrschung wehrten sich **nicht öfter**. Sie hatten schlicht **weniger Versuchungen**. Ihr Alltag war so gebaut, dass sie selten kämpfen mussten.\n\n> Willenskraft ist der Notfallplan. Deine Umgebung ist der Alltag.\n\nJede Hürde zwischen dir und einer schlechten Gewohnheit wirkt jeden Tag, ohne dass du daran denken musst. Genauso jede Abkürzung zu einer guten.",
+      "example": "Das Handy liegt beim Arbeiten im anderen Raum. Die Trainingskleider liegen am Abend schon bereit. Süsses wird gar nicht erst gekauft. Die Gitarre steht im Wohnzimmer statt im Schrank. Nichts davon braucht Disziplin, wenn es einmal eingerichtet ist.",
       "act": "Ändere heute eine Sache in deiner Wohnung, die eine gute Gewohnheit leichter oder eine schlechte schwerer macht.",
-      "deep": "In Studien von Wendy Wood und anderen zeigte sich: Ein grosser Teil unserer täglichen Handlungen läuft gewohnheitsmässig, ausgelöst durch Ort und Situation. Menschen mit hoher Selbstkontrolle nutzen diese Automatik, statt ständig gegen Versuchungen anzukämpfen.",
-      "source": "Wendy Wood: Good Habits, Bad Habits (2019)"
+      "deep": "Lee Robins befragte Hunderte Heimkehrer. Fast die Hälfte hatte in Vietnam Heroin oder Opium probiert, rund ein Fünftel berichtete von Abhängigkeit. Nach drei Jahren lag die Rückfallquote der Abhängigen bei etwa 12 Prozent. Robins selbst warnte davor, daraus zu schliessen, Heroin sei harmlos: Entscheidend war, dass die Männer ihre gesamte Umgebung verliessen.\n\nDie Pieper-Studie stammt von Wilhelm Hofmann und Kollegen (2012). Die Psychologin Wendy Wood fand ausserdem, dass ein grosser Teil unserer täglichen Handlungen gewohnheitsmässig abläuft, ausgelöst durch Ort und Situation.",
+      "source": "Lee N. Robins: Vietnam veterans’ rapid recovery from heroin addiction. Addiction, 1993; Hofmann et al.: Everyday temptations. Journal of Personality and Social Psychology, 2012; Wendy Wood: Good Habits, Bad Habits (2019)"
     },
     "en": {
-      "title": "Environment beats willpower",
-      "body": "People who seem especially disciplined often don't have more willpower. They have built their surroundings so that they **need it less often**.\n\nThe phone is in another room while they work. The dumbbell sits next to the bed. Sweets never get bought in the first place. Every hurdle you place between yourself and a bad habit, and every shortcut to a good one, works automatically every single day.",
+      "title": "Why the soldiers came home from Vietnam clean",
+      "body": "In 1971, two US congressmen return from Vietnam with news that shocks Washington: **10 to 15 percent** of the soldiers there are addicted to heroin. President Nixon declares drug abuse \"public enemy number one\".\n\nEveryone expects the worst. Back home, most people treated for heroin soon relapsed, often nine out of ten.\n\nPsychiatrist **Lee Robins** follows the returning men. What she finds, no one believes at first: of the men who were addicted in Vietnam, only **about 5 percent** relapse in their first year at home.\n\nThe reason was not stronger will. In Vietnam, everything that fed the addiction was there: fear, boredom, cheap heroin on every corner, comrades who used too. At home, all of it was gone. Different place, different people, no dealer around the corner.\n\n## The disciplined fight less\n\nResearchers gave people a pager that asked them several times a day: are you facing a temptation right now? Are you resisting?\n\nThe result was surprising: people with high self-control did **not resist more often**. They simply had **fewer temptations**. Their days were built so they rarely had to fight.\n\n> Willpower is the emergency plan. Your environment is everyday life.\n\nEvery hurdle between you and a bad habit works every day without you thinking about it. So does every shortcut to a good one.",
+      "example": "Your phone stays in another room while you work. Your training clothes are laid out the night before. Sweets never get bought in the first place. The guitar stands in the living room, not in the cupboard. None of it needs discipline once it’s set up.",
       "act": "Change one thing in your home today that makes a good habit easier or a bad one harder.",
-      "deep": "Research by Wendy Wood and others shows that a large share of our daily actions run on habit, triggered by place and situation. People with high self-control use this autopilot instead of constantly fighting temptation.",
-      "source": "Wendy Wood: Good Habits, Bad Habits (2019)"
+      "deep": "Lee Robins interviewed hundreds of returning soldiers. Almost half had tried heroin or opium in Vietnam, and about a fifth reported being addicted. After three years, the relapse rate among the addicted was around 12 percent. Robins herself warned against concluding that heroin is harmless: what mattered was that the men left their entire environment behind.\n\nThe pager study is by Wilhelm Hofmann and colleagues (2012). Psychologist Wendy Wood also found that a large share of our daily actions run on habit, triggered by place and situation.",
+      "source": "Lee N. Robins: Vietnam veterans’ rapid recovery from heroin addiction. Addiction, 1993; Hofmann et al.: Everyday temptations. Journal of Personality and Social Psychology, 2012; Wendy Wood: Good Habits, Bad Habits (2019)"
     }
   },
   {
@@ -471,98 +473,72 @@
     "id": "das-hindernis-ist-der-weg",
     "area": "mindset",
     "sub": "stoizismus",
-    "style": "zitat",
+    "style": "geschichte",
     "level": 2,
     "actKind": "frage",
     "de": {
-      "title": "Das Hindernis ist der Weg",
-      "quote": {
-        "text": "Was dem Handeln im Weg steht, fördert das Handeln. Was im Weg steht, wird zum Weg.",
-        "author": "Marc Aurel",
-        "source": "Selbstbetrachtungen 5,20"
-      },
-      "body": "Marc Aurel war der mächtigste Mann der Welt und schrieb diese Zeilen nur für sich selbst, mitten in Kriegen und einer Seuche.\n\nSein Gedanke: Jedes Hindernis ist eine Gelegenheit, eine Tugend zu üben. Ein schwieriger Kollege trainiert deine Geduld. Ein Rückschlag trainiert deine Ausdauer. Du kannst nicht wählen, was passiert, aber du kannst wählen, **was du daraus machst**.",
-      "act": "Welche Stärke kann ich genau an meinem grössten Problem gerade trainieren? Benenne sie und übe sie heute einmal bewusst.",
-      "deep": "Die \"Selbstbetrachtungen\" sind ein Tagebuch, das Marc Aurel (121 bis 180 n. Chr.) auf Griechisch führte, vermutlich während der Feldzüge an der Donau. Ryan Holiday machte den Gedanken mit seinem Buch \"The Obstacle Is the Way\" (2014) bei Sportlern und Unternehmern bekannt.",
-      "source": "Marc Aurel: Selbstbetrachtungen, Buch 5, 20 (eigene Übersetzung)"
+      "title": "Edison sah sein Lebenswerk brennen",
+      "body": "Am Abend des **9. Dezember 1914** bricht in Thomas Edisons Fabrik in West Orange, New Jersey, ein Feuer aus. Filmrollen und Chemikalien brennen wie Zunder. Am Ende ist ein grosser Teil des Werks zerstört.\n\nEdison ist 67 Jahre alt. Der Schaden liegt bei fast einer Million Dollar, versichert ist nur ein Bruchteil davon.\n\nSein Sohn Charles sucht ihn und findet ihn ruhig vor dem Feuer stehen. Edison sagt: \"Hol deine Mutter und all ihre Freundinnen. So ein Feuer sehen sie nie wieder.\"\n\nEinem Reporter sagt er: \"Ich bin zwar über 67, aber morgen fange ich von vorne an.\" Wenige Wochen später läuft die Produktion wieder.\n\n## Der Kaiser im Feldlager\n\nRund 1700 Jahre früher sitzt Marc Aurel in einem Feldlager an der Donau. Er ist der mächtigste Mann der Welt, und trotzdem läuft fast nichts nach Plan: Jahre voller Krieg an der Grenze, dazu eine Seuche, die das ganze Reich verwüstet.\n\nAbends schreibt er in ein Tagebuch, das nie für andere gedacht war:\n\n> Was dem Handeln im Weg steht, fördert das Handeln. Was im Weg steht, wird zum Weg.\n\nSein Gedanke: Jedes Hindernis ist eine Gelegenheit, eine Stärke zu üben. Ein Verlust trainiert Gelassenheit. Ein Rückschlag trainiert Ausdauer. Ein schwieriger Mensch trainiert Geduld.\n\nEdison konnte nicht wählen, ob seine Fabrik brennt. Marc Aurel konnte die Seuche nicht aufhalten. Beide wählten, was danach kam.\n\n> Du wählst nicht, was passiert. Du wählst, was du daraus baust.",
+      "example": "Du verletzt dich und kannst sechs Wochen nicht ins Training. Das ist die Zeit, Technik, Beweglichkeit und Ernährung in Ordnung zu bringen, wofür sonst nie Zeit war. Ein Chef, der dich ständig unterbricht, ist dein Training für ruhige, klare Worte.",
+      "act": "Was ist gerade dein grösstes Hindernis? Und welche Stärke kannst du genau daran trainieren, die du ohne es nie trainieren würdest?",
+      "deep": "Das Feuer begann in einem Gebäude, in dem Filme bearbeitet wurden. Der Schaden wurde auf rund 900'000 Dollar geschätzt, nach heutigem Wert über 20 Millionen. Versichert war nur etwa ein Viertel. Die Szene mit der Mutter erzählte Charles Edison Jahrzehnte später, die Zeitungen berichteten schon damals von Edisons Gelassenheit und seinem Plan, sofort neu aufzubauen.\n\nMarc Aurel (121 bis 180 n. Chr.) schrieb die \"Selbstbetrachtungen\" auf Griechisch, vermutlich während der Kriege gegen die Markomannen. Die Antoninische Pest, wohl eine Pockenepidemie, tötete in diesen Jahren Millionen Menschen im Römischen Reich.\n\nRyan Holiday machte den Satz mit seinem Buch \"The Obstacle Is the Way\" (2014) bei Sportlern und Unternehmern bekannt.",
+      "source": "Marc Aurel: Selbstbetrachtungen 5,20 (eigene Übersetzung); The New York Times, 10. Dezember 1914; Ryan Holiday: The Obstacle Is the Way (2014)"
     },
     "en": {
-      "title": "The obstacle is the way",
-      "quote": {
-        "text": "What stands in the way of action advances action. What stands in the way becomes the way.",
-        "author": "Marcus Aurelius",
-        "source": "Meditations 5.20"
-      },
-      "body": "Marcus Aurelius was the most powerful man in the world and wrote these lines only for himself, in the middle of wars and a plague.\n\nHis idea: every obstacle is a chance to practise a virtue. A difficult colleague trains your patience. A setback trains your endurance. You can't choose what happens, but you can choose **what you make of it**.",
-      "act": "Which strength can my biggest problem train right now? Name it and practise it once, on purpose, today.",
-      "deep": "The \"Meditations\" are a journal Marcus Aurelius (121 to 180 AD) kept in Greek, probably during the campaigns on the Danube. Ryan Holiday popularised the idea among athletes and entrepreneurs with his book \"The Obstacle Is the Way\" (2014).",
-      "source": "Marcus Aurelius: Meditations, Book 5, 20 (own translation)"
+      "title": "Edison watched his life’s work burn",
+      "body": "On the evening of **9 December 1914**, a fire breaks out at Thomas Edison’s factory in West Orange, New Jersey. Film reels and chemicals burn like tinder. By the end, much of the plant is destroyed.\n\nEdison is 67. The damage comes to almost a million dollars, and only a fraction is insured.\n\nHis son Charles goes looking for him and finds him standing calmly in front of the fire. Edison says: \"Go get your mother and all her friends. They’ll never see a fire like this again.\"\n\nHe tells a reporter: \"Although I am over 67 years old, I’ll start all over again tomorrow.\" A few weeks later, production is running again.\n\n## The emperor in the army camp\n\nSome 1,700 years earlier, Marcus Aurelius sits in an army camp on the Danube. He is the most powerful man in the world, and still almost nothing goes to plan: years of war on the frontier, and a plague ravaging the whole empire.\n\nIn the evenings he writes in a journal that was never meant for anyone else:\n\n> What stands in the way of action advances action. What stands in the way becomes the way.\n\nHis idea: every obstacle is a chance to practise a strength. A loss trains calm. A setback trains endurance. A difficult person trains patience.\n\nEdison couldn’t choose whether his factory burned. Marcus couldn’t stop the plague. Both chose what came next.\n\n> You don’t choose what happens. You choose what you build from it.",
+      "example": "You get injured and can’t train for six weeks. That’s the time to sort out technique, mobility and nutrition, which you never had time for. A boss who keeps interrupting you is your training for calm, clear words.",
+      "act": "What is your biggest obstacle right now? And which strength can you train on exactly that, one you would never train without it?",
+      "deep": "The fire started in a building where film was processed. The damage was estimated at about $900,000, more than $20 million in today’s money. Only about a quarter was insured. Charles Edison told the scene with his mother decades later; newspapers at the time already reported Edison’s calm and his plan to rebuild at once.\n\nMarcus Aurelius (121 to 180 AD) wrote the \"Meditations\" in Greek, probably during the wars against the Marcomanni. The Antonine Plague, probably smallpox, killed millions across the Roman Empire in those years.\n\nRyan Holiday made the line famous among athletes and entrepreneurs with his book \"The Obstacle Is the Way\" (2014).",
+      "source": "Marcus Aurelius: Meditations 5.20; The New York Times, 10 December 1914; Ryan Holiday: The Obstacle Is the Way (2014)"
     }
   },
   {
     "id": "premeditatio-malorum",
     "area": "mindset",
     "sub": "stoizismus",
-    "style": "tipp",
+    "style": "geschichte",
     "level": 2,
     "actKind": "so",
     "de": {
-      "title": "Das Schlimmste vorher durchdenken",
-      "body": "Die Stoiker hatten eine Übung, die erst einmal düster klingt: **Premeditatio malorum**, das Vorausdenken von Übeln. Bevor du etwas Wichtiges angehst, stellst du dir ruhig vor, was schiefgehen könnte.\n\nDas Ziel ist nicht Angst, sondern das Gegenteil. Was du durchdacht hast, kann dich nicht mehr überrumpeln. Du hast einen Plan B, und du merkst oft: Selbst das Schlimmste wäre zu überstehen.",
-      "points": [
-        "Was könnte konkret schiefgehen?",
-        "Wie kann ich das verhindern oder unwahrscheinlicher machen?",
-        "Was mache ich, wenn es trotzdem passiert?"
-      ],
-      "example": "Vor einer Präsentation: Was, wenn der Beamer streikt? Du hast die Folien als PDF auf dem Handy und die drei Kernaussagen im Kopf. Was, wenn jemand dich hart unterbricht? Du sagst ruhig: \"Gute Frage, darauf komme ich gleich.\"",
-      "act": "Geh dein nächstes wichtiges Vorhaben schriftlich mit diesen drei Fragen durch. Fünf Minuten reichen.",
-      "deep": "Seneca schreibt in seinen Briefen, man solle sich Verbannung, Krankheit und Verlust vorher vorstellen, damit sie einen nicht unvorbereitet treffen. Der Unternehmer Tim Ferriss hat daraus die Übung \"Fear Setting\" gemacht. In der Wirtschaft kennt man Ähnliches als \"Pre-Mortem\": Man stellt sich vor, das Projekt sei gescheitert, und sucht die Gründe.",
-      "source": "Seneca: Briefe an Lucilius, z. B. Brief 91; Gary Klein: Pre-Mortem, Harvard Business Review (2007)"
+      "title": "Blind im Weltall, und trotzdem ruhig",
+      "body": "April 2001, 400 Kilometer über der Erde. Der kanadische Astronaut **Chris Hadfield** arbeitet ausserhalb der Raumstation ISS. Plötzlich brennt sein linkes Auge.\n\nEs tränt, aber in der Schwerelosigkeit fliessen Tränen nicht ab. Sie bilden eine Kugel, die immer grösser wird, bis sie über die Nase ins andere Auge läuft. Jetzt ist er **auf beiden Augen blind**, draussen im All.\n\nHadfield gerät nicht in Panik. Er meldet sich ruhig, geht mit der Bodenkontrolle durch, was zu tun ist, und lässt etwas Sauerstoff aus dem Anzug, bis die Tränen verdunstet sind und er wieder sieht. Dann arbeitet er weiter.\n\nWarum er ruhig blieb, erklärt er später: Astronauten üben jahrelang, was alles schiefgehen kann. Immer wieder, bis ein Notfall sich nicht mehr wie ein Schock anfühlt, sondern wie eine Aufgabe.\n\n## Die Stadt, die in einer Nacht verschwand\n\nFast 2000 Jahre früher brennt Lugdunum, das heutige Lyon, in einer einzigen Nacht nieder. Seneca schreibt seinem Freund Lucilius: Zwischen einer grossen Stadt und keiner lag eine einzige Nacht.\n\nSein Rat ist eine Übung, die die Stoiker **Premeditatio malorum** nannten, das Vorausdenken von Übeln. Stell dir in Ruhe vor, was alles geschehen kann: Verlust, Krankheit, Scheitern. Was du erwartet hast, trifft dich weniger hart.\n\nDas Ziel ist nicht Angst, sondern das Gegenteil. Du hast einen Plan B, und du merkst oft: Selbst das Schlimmste wäre zu überstehen.\n\n> Was du vorher durchdacht hast, kann dich nicht mehr überrumpeln.",
+      "example": "Vor einer Präsentation: Was, wenn der Beamer streikt? Du hast die Folien als PDF auf dem Handy und die drei Kernaussagen im Kopf. Was, wenn dich jemand hart unterbricht? Du sagst ruhig: \"Gute Frage, darauf komme ich gleich.\"",
+      "act": "Nimm dein nächstes wichtiges Vorhaben und geh es schriftlich durch. Fünf Minuten reichen.\n- Was könnte konkret schiefgehen?\n- Wie kann ich das verhindern oder unwahrscheinlicher machen?\n- Was mache ich, wenn es trotzdem passiert?",
+      "deep": "Hadfields Aussenbordeinsatz fand während der Mission STS-100 statt, bei der der Roboterarm Canadarm2 an der ISS montiert wurde. Ein Antibeschlagmittel aus seinem Helm war ins Auge geraten. Er beschreibt den Vorfall in seinem Buch \"An Astronaut’s Guide to Life on Earth\" und schreibt dort auch: Es gibt kein Problem, das so schlimm ist, dass du es nicht noch schlimmer machen kannst.\n\nDer Brand von Lugdunum geschah um 64 oder 65 n. Chr. Seneca schreibt darüber im 91. Brief an Lucilius.\n\nDer Unternehmer Tim Ferriss hat aus der stoischen Übung \"Fear Setting\" gemacht. In der Wirtschaft kennt man Ähnliches als \"Pre-Mortem\": Man stellt sich vor, das Projekt sei gescheitert, und sucht die Gründe.",
+      "source": "Chris Hadfield: An Astronaut’s Guide to Life on Earth (2013); Seneca: Briefe an Lucilius, Brief 91; Gary Klein: Performing a Project Premortem. Harvard Business Review (2007)"
     },
     "en": {
-      "title": "Think through the worst first",
-      "body": "The Stoics had an exercise that sounds gloomy at first: **premeditatio malorum**, the premeditation of evils. Before taking on something important, you calmly imagine what could go wrong.\n\nThe goal isn't fear but the opposite. What you have thought through can no longer catch you off guard. You have a plan B, and you often realise: even the worst case would be survivable.",
-      "points": [
-        "What exactly could go wrong?",
-        "How can I prevent it or make it less likely?",
-        "What will I do if it happens anyway?"
-      ],
-      "example": "Before a presentation: what if the projector fails? You have the slides as a PDF on your phone and the three key points in your head. What if someone cuts in hard? You calmly say: \"Good question, I'll get to that in a minute.\"",
-      "act": "Run your next important plan through these three questions, in writing. Five minutes is enough.",
-      "deep": "In his letters, Seneca advises imagining exile, illness and loss in advance so they don't strike you unprepared. Entrepreneur Tim Ferriss turned this into his \"fear setting\" exercise. Business has a similar tool, the \"pre-mortem\": imagine the project has failed and look for the reasons.",
-      "source": "Seneca: Letters to Lucilius, e.g. Letter 91; Gary Klein: Pre-Mortem, Harvard Business Review (2007)"
+      "title": "Blind in space, and still calm",
+      "body": "April 2001, 400 kilometres above the Earth. Canadian astronaut **Chris Hadfield** is working outside the International Space Station. Suddenly his left eye starts to burn.\n\nIt waters, but in weightlessness tears don’t run off. They form a ball that grows and grows, until it spills over his nose into the other eye. Now he is **blind in both eyes**, out in space.\n\nHadfield doesn’t panic. He reports calmly, works through the steps with mission control and vents some oxygen from his suit until the tears evaporate and he can see again. Then he gets back to work.\n\nWhy he stayed calm, he explains later: astronauts spend years practising everything that can go wrong. Again and again, until an emergency no longer feels like a shock but like a task.\n\n## The city that vanished in one night\n\nAlmost 2,000 years earlier, Lugdunum, today’s Lyon, burns to the ground in a single night. Seneca writes to his friend Lucilius: a single night lay between a great city and none.\n\nHis advice is an exercise the Stoics called **premeditatio malorum**, the premeditation of evils. Calmly imagine everything that can happen: loss, illness, failure. What you have expected hits you less hard.\n\nThe goal isn’t fear but the opposite. You have a plan B, and you often realise: even the worst case would be survivable.\n\n> What you have thought through can no longer catch you off guard.",
+      "example": "Before a presentation: what if the projector fails? You have the slides as a PDF on your phone and the three key points in your head. What if someone cuts in hard? You calmly say: \"Good question, I’ll get to that in a minute.\"",
+      "act": "Take your next important plan and go through it in writing. Five minutes is enough.\n- What exactly could go wrong?\n- How can I prevent it or make it less likely?\n- What will I do if it happens anyway?",
+      "deep": "Hadfield’s spacewalk took place during mission STS-100, which installed the Canadarm2 robotic arm on the ISS. Anti-fog solution from his helmet had got into his eye. He describes the incident in his book \"An Astronaut’s Guide to Life on Earth\", where he also writes: there is no problem so bad that you can’t make it worse.\n\nThe fire of Lugdunum happened around 64 or 65 AD. Seneca writes about it in his 91st letter to Lucilius.\n\nEntrepreneur Tim Ferriss turned the Stoic exercise into \"fear setting\". Business has a similar tool, the \"pre-mortem\": imagine the project has failed and look for the reasons.",
+      "source": "Chris Hadfield: An Astronaut’s Guide to Life on Earth (2013); Seneca: Letters to Lucilius, Letter 91; Gary Klein: Performing a Project Premortem. Harvard Business Review (2007)"
     }
   },
   {
     "id": "freiwilliges-unbehagen",
     "area": "mindset",
     "sub": "mentalitaet",
-    "style": "tipp",
+    "style": "geschichte",
     "level": 1,
     "actKind": "langfristig",
     "de": {
-      "title": "Trainiere freiwilliges Unbehagen",
-      "quote": {
-        "text": "Ist dies der Zustand, den ich gefürchtet habe?",
-        "author": "Seneca",
-        "source": "Briefe an Lucilius 18"
-      },
-      "body": "Seneca riet einem reichen Freund, sich ein paar Tage lang mit dem einfachsten Essen und grober Kleidung zu begnügen und sich dabei zu fragen: \"Ist es das, wovor ich mich gefürchtet habe?\"\n\nWer sich regelmässig **freiwillig** Unbequemem aussetzt, kalter Dusche, Fasten, Sport bei Regen, schwierigen Gesprächen, verliert die Angst davor. Härte im Kleinen macht dich ruhig, wenn das Leben im Grossen hart wird.",
+      "title": "Der reichste Philosoph Roms übte Armut",
+      "body": "**Seneca** gehörte zu den reichsten Männern Roms. Villen, Ländereien, ein Vermögen, über das schon seine Zeitgenossen spotteten. Und ausgerechnet er schrieb einem Freund einen seltsamen Rat.\n\nNimm dir ein paar Tage, schreibt er, an denen du mit dem einfachsten Essen auskommst und grobe, schäbige Kleidung trägst. Und frag dich dabei:\n\n> Ist es das, wovor ich mich gefürchtet habe?\n\nSein Punkt: Wer nur Komfort kennt, lebt in ständiger Angst, ihn zu verlieren. Wer Armut schon geübt hat, verliert diese Angst. Darum soll man sie gerade dann üben, wenn es einem gut geht.\n\n## Barfuss durch Rom\n\nEin Römer aus der Zeit vor ihm, **Cato der Jüngere**, ging noch weiter. Plutarch erzählt, dass Cato sich bewusst an Hitze und Kälte gewöhnte, ohne Kopfbedeckung durch Regen und Sonne ging und auf Reisen zu Fuss lief, während seine Freunde ritten.\n\nCato war kein armer Mann. Er wählte die Härte freiwillig. Und gerade er galt in Rom später als der Mann, den nichts erschüttern konnte.\n\nHärte im Kleinen macht dich ruhig, wenn das Leben im Grossen hart wird. Kalte Dusche, Fasten, Sport bei Regen, das schwierige Gespräch: Wer sich regelmässig freiwillig Unbequemem aussetzt, merkt, dass er mehr aushält, als er dachte.\n\n> Wer die Härte freiwillig wählt, muss sie nicht mehr fürchten.",
+      "example": "Du hast Angst davor, deinen Job zu verlieren, und klammerst dich deshalb an alles. Lebe einen Monat lang so, als hättest du nur das halbe Einkommen. Du merkst: Es geht. Und plötzlich verhandelst du ruhiger.",
       "act": "Wähle für diese Woche eine freiwillige Härte, etwa eine kalte Dusche am Morgen, und zieh sie dreimal durch. Ohne Ausnahme.",
-      "deep": "Im 18. Brief an Lucilius schreibt Seneca, man solle gerade in guten Zeiten Armut üben, damit man in schlechten Zeiten gefasst ist. Die Idee taucht heute in Ansätzen wie \"Hormesis\" auf: Kleine, dosierte Belastungen machen Körper und Psyche widerstandsfähiger.",
-      "source": "Seneca: Briefe an Lucilius, Brief 18"
+      "deep": "Der Rat steht im 18. Brief an Lucilius. Seneca schlägt dort drei oder vier Tage vor, manchmal mehr, und betont: Es soll kein Spiel sein, sondern eine echte Probe.\n\nCato der Jüngere (95 bis 46 v. Chr.) war ein römischer Senator und Stoiker. Seine Lebensbeschreibung stammt von Plutarch.\n\nDie Idee taucht heute in Ansätzen wie \"Hormesis\" auf: Kleine, dosierte Belastungen wie Kälte, Hitze oder Training machen Körper und Psyche widerstandsfähiger. Siehe auch die Karte \"Der Käfig mit der warmen Dusche\".",
+      "source": "Seneca: Briefe an Lucilius, Brief 18 (eigene Übersetzung); Plutarch: Cato der Jüngere, Kapitel 5"
     },
     "en": {
-      "title": "Train voluntary discomfort",
-      "quote": {
-        "text": "Is this the condition that I feared?",
-        "author": "Seneca",
-        "source": "Letters to Lucilius 18"
-      },
-      "body": "Seneca advised a wealthy friend to live for a few days on the plainest food and in rough clothes, asking himself: \"Is this the condition that I feared?\"\n\nIf you **voluntarily** expose yourself to discomfort on a regular basis, cold showers, fasting, training in the rain, hard conversations, you lose your fear of it. Toughness in small things keeps you calm when life gets hard in big ones.",
-      "act": "Choose one voluntary hardship for this week, such as a cold shower in the morning, and do it three times. No exceptions.",
-      "deep": "In his 18th letter to Lucilius, Seneca writes that you should practise poverty precisely in good times so you stay composed in bad times. The idea shows up today in concepts like \"hormesis\": small, dosed stressors make body and mind more resilient.",
-      "source": "Seneca: Letters to Lucilius, Letter 18 (trans. R. M. Gummere, 1917)"
+      "title": "Rome’s richest philosopher practised poverty",
+      "body": "**Seneca** was one of the richest men in Rome. Villas, estates, a fortune his contemporaries already mocked him for. And he, of all people, gave a friend some strange advice.\n\nSet aside a few days, he writes, on which you make do with the plainest food and wear coarse, shabby clothes. And ask yourself:\n\n> Is this the condition I feared?\n\nHis point: whoever knows only comfort lives in constant fear of losing it. Whoever has practised poverty loses that fear. That’s why you should practise it precisely when things are going well.\n\n## Barefoot through Rome\n\nA generation earlier, **Cato the Younger** went even further. Plutarch tells how Cato deliberately accustomed himself to heat and cold, went bareheaded through rain and sun, and walked on journeys while his friends rode.\n\nCato was not a poor man. He chose the hardship freely. And he, of all people, was later remembered in Rome as the man nothing could shake.\n\nHardship in small things makes you calm when life gets hard in big things. A cold shower, fasting, training in the rain, the difficult conversation: whoever regularly seeks out discomfort finds he can take more than he thought.\n\n> Whoever chooses hardship freely no longer has to fear it.",
+      "example": "You’re afraid of losing your job, so you cling to everything. Live for one month as if you had only half your income. You realise: it works. And suddenly you negotiate more calmly.",
+      "act": "Pick one voluntary hardship for this week, such as a cold shower in the morning, and see it through three times. No exceptions.",
+      "deep": "The advice is in the 18th letter to Lucilius. Seneca suggests three or four days, sometimes more, and stresses: it should not be a game but a real test.\n\nCato the Younger (95 to 46 BC) was a Roman senator and Stoic. His life was written by Plutarch.\n\nThe idea appears today in concepts like \"hormesis\": small, measured stresses such as cold, heat or training make body and mind more resilient. See also the card \"The cage with the hot shower\".",
+      "source": "Seneca: Letters to Lucilius, Letter 18; Plutarch: Cato the Younger, Chapter 5"
     }
   },
   {
@@ -816,39 +792,43 @@
     "actKind": "frage",
     "de": {
       "title": "5'127 Prototypen",
-      "body": "James Dyson wollte einen Staubsauger ohne Beutel bauen. Er baute einen Prototyp. Er funktionierte nicht. Er baute den nächsten. Über rund fünf Jahre wurden es **5'127 Prototypen**, bis einer gut genug war.\n\nKein Hersteller wollte die Erfindung. Also gründete er seine eigene Firma. Heute ist Dyson Milliardär.\n\n> Sein Blick auf Scheitern: Jeder Fehlversuch zeigt dir eine Sache, die nicht funktioniert. Das ist **Information**, keine Niederlage.",
+      "body": "Ende der 1970er-Jahre ärgert sich **James Dyson** über seinen Staubsauger: Der Beutel verstopft, die Saugkraft lässt nach. Er will einen bauen, der ohne Beutel auskommt.\n\nEr baut einen Prototyp. Er funktioniert nicht. Er baut den nächsten. Und den nächsten. Über rund fünf Jahre werden es **5'127 Prototypen**. Das Geld wird knapp, seine Frau hält die Familie mit Kunstunterricht über Wasser, die Schulden wachsen.\n\nAls er endlich ein funktionierendes Gerät hat, will es kein Hersteller. Also gründet er seine eigene Firma. Heute ist Dyson Milliardär.\n\nSpäter sagt er: \"Ich habe 5'127 Prototypen gebaut. Das sind 5'126 Fehlschläge. Aber aus jedem habe ich gelernt.\"\n\n## Siebenmal fallen\n\nIn der Bibel steht ein Satz, der fast 3000 Jahre alt ist: \"Siebenmal fällt der Gerechte und steht wieder auf.\"\n\nEr sagt nicht, dass der Gerechte nicht fällt. Er sagt, dass er fällt, oft, und dass ihn genau das Aufstehen ausmacht. Der Unterschied zwischen dem, der es schafft, und dem, der es nicht schafft, liegt selten im ersten Versuch.\n\n> Jeder Fehlversuch zeigt dir eine Sache, die nicht funktioniert. Das ist Information, keine Niederlage.",
+      "example": "Dein erstes Bewerbungsgespräch geht schief, weil du bei der Frage nach deinen Schwächen ins Stottern kommst. Das ist kein Urteil über dich. Das ist eine Information: Diese Frage musst du vorbereiten. Beim nächsten Mal sitzt die Antwort.",
       "act": "Was genau hat dir dein letzter Fehlschlag gezeigt, das nicht funktioniert? Schreib es als Erkenntnis auf, nicht als Urteil über dich.",
-      "deep": "Dyson begann um 1979 mit der Entwicklung des Zyklon-Staubsaugers. Der erste Erfolg war der \"G-Force\", der ab 1986 in Japan verkauft wurde. 1993 brachte er mit dem DC01 sein erstes Gerät unter eigener Marke heraus. Er sagte später, er habe aus jedem der Fehlversuche etwas gelernt.",
-      "source": "James Dyson: Against the Odds (Autobiografie, 1997); Dyson Unternehmensgeschichte"
+      "deep": "Dyson begann um 1979 mit der Entwicklung des Zyklon-Staubsaugers. Der erste Erfolg war der \"G-Force\", der ab 1986 in Japan verkauft wurde. 1993 brachte er mit dem DC01 sein erstes Gerät unter eigener Marke heraus. Er beschreibt die Jahre in seiner Autobiografie \"Against the Odds\".\n\nDer Vers stammt aus dem Buch der Sprichwörter, Kapitel 24. Die Zahl sieben steht in der Bibel oft für Vollständigkeit: nicht genau sieben Mal, sondern so oft es eben nötig ist.",
+      "source": "James Dyson: Against the Odds (Autobiografie, 1997); Sprichwörter 24,16"
     },
     "en": {
       "title": "5,127 prototypes",
-      "body": "James Dyson wanted to build a vacuum cleaner without a bag. He built a prototype. It didn't work. He built the next one. Over about five years it added up to **5,127 prototypes** before one was good enough.\n\nNo manufacturer wanted the invention. So he founded his own company. Today Dyson is a billionaire.\n\n> His view of failure: every failed attempt shows you one thing that doesn't work. That's **information**, not defeat.",
-      "act": "What exactly did your last failure show you that doesn't work? Write it down as a finding, not as a verdict on yourself.",
-      "deep": "Dyson started developing the cyclone vacuum around 1979. His first success was the \"G-Force\", sold in Japan from 1986. In 1993 he launched the DC01, his first machine under his own brand. He later said he learned something from every one of the failed attempts.",
-      "source": "James Dyson: Against the Odds (autobiography, 1997); Dyson company history"
+      "body": "In the late 1970s, **James Dyson** gets fed up with his vacuum cleaner: the bag clogs, the suction drops. He wants to build one that needs no bag.\n\nHe builds a prototype. It doesn’t work. He builds the next one. And the next. Over about five years, it adds up to **5,127 prototypes**. Money runs short, his wife keeps the family afloat by teaching art, the debts grow.\n\nWhen he finally has a working machine, no manufacturer wants it. So he founds his own company. Today Dyson is a billionaire.\n\nHe said later: \"I made 5,127 prototypes. That’s 5,126 failures. But I learned from each one.\"\n\n## Falling seven times\n\nThe Bible has a line that is almost 3,000 years old: \"Though the righteous fall seven times, they rise again.\"\n\nIt doesn’t say the righteous don’t fall. It says they fall, often, and that rising again is exactly what defines them. The difference between the one who makes it and the one who doesn’t rarely lies in the first attempt.\n\n> Every failed attempt shows you one thing that doesn’t work. That is information, not defeat.",
+      "example": "Your first job interview goes badly because you stumble over the question about your weaknesses. That is not a verdict on you. It is information: you need to prepare that question. Next time the answer is ready.",
+      "act": "What exactly did your last failure show you that doesn’t work? Write it down as a lesson, not as a verdict on yourself.",
+      "deep": "Dyson began developing the cyclone vacuum around 1979. His first success was the \"G-Force\", sold in Japan from 1986. In 1993 he launched the DC01, his first machine under his own brand. He describes those years in his autobiography \"Against the Odds\".\n\nThe verse is from the Book of Proverbs, chapter 24. In the Bible, the number seven often stands for completeness: not exactly seven times, but as often as it takes.",
+      "source": "James Dyson: Against the Odds (autobiography, 1997); Proverbs 24:16"
     }
   },
   {
     "id": "extreme-ownership",
     "area": "mindset",
     "sub": "verantwortung",
-    "style": "erklaerung",
+    "style": "geschichte",
     "level": 1,
     "actKind": "heute",
     "de": {
-      "title": "Extreme Ownership",
-      "body": "Bei einem Einsatz im Irak kam es zu einem Feuergefecht zwischen zwei eigenen Einheiten. Ein Soldat starb. Bei der Nachbesprechung suchten alle die Schuld bei anderen.\n\nDann stand der Kommandant Jocko Willink auf und sagte: **\"Es ist meine Schuld.\"** Als Führer war er für alles verantwortlich, was in seinem Bereich geschieht.\n\nStatt ihn abzusetzen, vertrauten ihm seine Vorgesetzten danach mehr. Wer Verantwortung übernimmt, statt Ausreden zu suchen, kann Probleme lösen. Wer Schuld verteilt, bleibt machtlos.",
+      "title": "\"Es ist meine Schuld\": Extreme Ownership",
+      "body": "Ramadi, Irak, 2006. Im Nebel eines Einsatzes beschiessen sich zwei Einheiten der eigenen Seite gegenseitig. Ein irakischer Soldat stirbt, mehrere Männer werden verletzt, auch ein Navy SEAL.\n\nBei der Nachbesprechung sitzen die Vorgesetzten im Raum. Alle wissen, dass jemand dafür geradestehen muss. Jeder hat Gründe, warum es nicht seine Schuld war: der Funker, der Zugführer, die irakischen Soldaten.\n\nDann steht der Kommandant **Jocko Willink** auf und sagt: **\"Es ist meine Schuld.\"** Er war der Führer. Alles, was in seinem Bereich geschah, war seine Verantwortung.\n\nEr rechnete damit, abgesetzt zu werden. Stattdessen vertrauten ihm seine Vorgesetzten danach mehr als vorher.\n\n## Zwei Könige, zwei Antworten\n\nDie Bibel erzählt dieselbe Lektion an zwei Königen. Saul handelt gegen Gottes Befehl. Als der Prophet Samuel ihn zur Rede stellt, zeigt Saul auf andere: **Das Volk** habe es so gewollt. Er verliert sein Königtum.\n\nDavid tut etwas viel Schlimmeres. Er nimmt einem seiner Soldaten die Frau und lässt den Mann im Krieg sterben. Der Prophet Natan erzählt ihm von einem Reichen, der einem Armen sein einziges Lamm stiehlt. David wird wütend: Dieser Mann verdient den Tod! Natan antwortet: **\"Du bist der Mann.\"**\n\nDavid sucht keine Ausrede. Er sagt nur: \"Ich habe gegen den Herrn gesündigt.\" Er trägt die Folgen, aber er bleibt König, und er bleibt der Mann, den Gott einen Mann nach seinem Herzen nennt.\n\n> Wer Schuld verteilt, bleibt machtlos. Wer die Verantwortung übernimmt, kann es ändern.",
+      "example": "Dein Projekt kommt zu spät, weil ein Kollege seinen Teil nicht geliefert hat. Die Ausrede liegt bereit. Extreme Ownership heisst: \"Ich hätte früher nachfragen und den Engpass sehen müssen. Das nächste Mal prüfe ich den Stand jede Woche.\" Plötzlich hast du etwas in der Hand.",
       "act": "Übernimm heute bei einem Problem die volle Verantwortung für deinen Anteil. Ohne \"aber\", ohne Ausrede.",
-      "deep": "Willink und Leif Babin beschreiben den Vorfall im ersten Kapitel von \"Extreme Ownership\" (2015). Der Kern: Es gibt keine schlechten Teams, nur schlechte Führung. Auch wer nicht Chef ist, kann Ownership leben: für seine Aufgaben, seine Fehler und seinen Einfluss auf andere.",
-      "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), Kapitel 1"
+      "deep": "Willink und Leif Babin beschreiben den Vorfall im ersten Kapitel von \"Extreme Ownership\" (2015). Ihr Kern: Es gibt keine schlechten Teams, nur schlechte Führung. Auch wer nicht Chef ist, kann so leben: für seine Aufgaben, seine Fehler und seinen Einfluss auf andere.\n\nDie Geschichte von Saul steht in 1 Samuel 15, die von David und Natan in 2 Samuel 11 und 12. Davids Busspsalm, Psalm 51, wird mit diesem Moment verbunden.",
+      "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), Kapitel 1; 1 Samuel 15; 2 Samuel 12,1–13"
     },
     "en": {
-      "title": "Extreme ownership",
-      "body": "During an operation in Iraq, two friendly units ended up in a firefight with each other. A soldier died. In the debrief everyone looked for someone else to blame.\n\nThen commander Jocko Willink stood up and said: **\"It's my fault.\"** As the leader, he was responsible for everything in his area.\n\nInstead of removing him, his superiors trusted him more afterwards. Whoever takes ownership instead of making excuses can solve problems. Whoever hands out blame stays powerless.",
-      "act": "With one problem today, take full ownership of your part. No \"but\", no excuse.",
-      "deep": "Willink and Leif Babin describe the incident in the first chapter of \"Extreme Ownership\" (2015). The core message: there are no bad teams, only bad leaders. You don't have to be the boss to live ownership: for your tasks, your mistakes and your influence on others.",
-      "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), chapter 1"
+      "title": "\"It’s my fault\": Extreme Ownership",
+      "body": "Ramadi, Iraq, 2006. In the fog of an operation, two units on the same side open fire on each other. An Iraqi soldier is killed and several men are wounded, including a Navy SEAL.\n\nAt the debrief, the senior officers are in the room. Everyone knows someone has to answer for it. Everyone has reasons why it wasn’t their fault: the radio operator, the platoon commander, the Iraqi soldiers.\n\nThen the commander, **Jocko Willink**, stands up and says: **\"It’s my fault.\"** He was the leader. Everything that happened in his area was his responsibility.\n\nHe expected to be relieved of command. Instead, his superiors trusted him more than before.\n\n## Two kings, two answers\n\nThe Bible tells the same lesson through two kings. Saul acts against God’s command. When the prophet Samuel confronts him, Saul points at others: **the people** wanted it that way. He loses his kingship.\n\nDavid does something far worse. He takes the wife of one of his soldiers and has the man killed in battle. The prophet Nathan tells him about a rich man who steals a poor man’s only lamb. David is furious: that man deserves to die! Nathan replies: **\"You are the man.\"**\n\nDavid offers no excuse. He only says: \"I have sinned against the Lord.\" He bears the consequences, but he remains king, and he remains the one God calls a man after his own heart.\n\n> Whoever hands out blame stays powerless. Whoever takes responsibility can change it.",
+      "example": "Your project is late because a colleague didn’t deliver his part. The excuse is ready. Extreme ownership means: \"I should have checked in earlier and seen the bottleneck. Next time I’ll check progress every week.\" Suddenly you have something you can act on.",
+      "act": "Today, take full responsibility for your part in a problem. No \"but\", no excuse.",
+      "deep": "Willink and Leif Babin describe the incident in the first chapter of \"Extreme Ownership\" (2015). Their core idea: there are no bad teams, only bad leaders. Even if you aren’t the boss, you can live this way: for your tasks, your mistakes and your influence on others.\n\nSaul’s story is in 1 Samuel 15, David and Nathan in 2 Samuel 11 and 12. David’s psalm of repentance, Psalm 51, is linked to this moment.",
+      "source": "Jocko Willink & Leif Babin: Extreme Ownership (2015), Chapter 1; 1 Samuel 15; 2 Samuel 12:1–13"
     }
   },
   {
@@ -877,32 +857,24 @@
     "id": "memento-mori",
     "area": "mindset",
     "sub": "stoizismus",
-    "style": "erklaerung",
+    "style": "geschichte",
     "level": 1,
     "actKind": "heute",
     "de": {
-      "title": "Memento mori",
-      "quote": {
-        "text": "Du könntest jetzt gleich aus dem Leben scheiden. Danach richte jedes Tun, Reden und Denken.",
-        "author": "Marc Aurel",
-        "source": "Selbstbetrachtungen 2,11"
-      },
-      "body": "\"Bedenke, dass du sterben wirst.\" Klingt düster, ist bei den Stoikern aber eine Übung für **mehr Leben**.\n\nWer sich bewusst macht, dass seine Zeit begrenzt ist, verschiebt weniger, streitet seltener über Kleinigkeiten und sagt Menschen eher, was sie ihm bedeuten. Marc Aurel ermahnte sich, jede Handlung so zu tun, als wäre sie die letzte seines Lebens.",
+      "title": "Der Satz, den man dem Sieger zuflüsterte",
+      "body": "Wenn ein römischer Feldherr nach einem grossen Sieg im Triumphzug durch Rom fuhr, war er für einen Tag fast ein Gott. Purpurgewand, Lorbeerkranz, das Gesicht rot bemalt wie die Statue Jupiters. Die ganze Stadt jubelte ihm zu.\n\nHinter ihm auf dem Wagen, so berichten antike Autoren, stand ein Sklave. Er hielt einen goldenen Kranz über seinen Kopf und erinnerte ihn immer wieder: \"Schau hinter dich. Denk daran, dass du ein Mensch bist.\"\n\nWie genau das ablief, ist nicht sicher belegt. Aber die Römer wussten: Gerade auf dem Höhepunkt vergisst ein Mann am leichtesten, dass er sterblich ist.\n\n## Die Frage vor dem Spiegel\n\n2005 spricht Steve Jobs vor Absolventen in Stanford, ein Jahr nach seiner Krebsdiagnose. Er erzählt, dass er sich seit seinem 17. Lebensjahr jeden Morgen im Spiegel fragt: \"Wenn heute der letzte Tag meines Lebens wäre, würde ich tun wollen, was ich heute vorhabe?\"\n\nWenn die Antwort zu viele Tage hintereinander Nein war, wusste er, dass er etwas ändern musste.\n\n## Zähle deine Tage\n\nIn der Bibel betet der Psalmist: \"Unsere Tage zu zählen, lehre uns! Dann gewinnen wir ein weises Herz.\" Und Marc Aurel ermahnt sich: \"Du könntest jetzt gleich aus dem Leben scheiden. Danach richte jedes Tun, Reden und Denken.\"\n\nDas klingt düster, ist aber eine Übung für **mehr Leben**. Wer weiss, dass seine Zeit begrenzt ist, verschiebt weniger, streitet seltener über Kleinigkeiten und sagt Menschen eher, was sie ihm bedeuten.\n\n> Der Gedanke an den Tod nimmt dir nichts. Er zeigt dir, was zählt.",
+      "example": "Seit Jahren willst du deinem Vater sagen, wofür du ihm dankbar bist. Es ist nie der richtige Moment. Stell dir vor, du erfährst nächste Woche, dass es keinen Moment mehr gibt. Plötzlich ist heute Abend der richtige.",
       "act": "Schreib heute Abend eine Sache auf, die du bereuen würdest, wenn heute dein letzter Tag gewesen wäre, und erledige sie morgen.",
-      "deep": "Der Ausdruck \"memento mori\" stammt aus späterer, christlicher Zeit, der Gedanke ist aber alt. Die Stoiker nutzten ihn nicht, um Angst zu machen, sondern um Prioritäten zu klären. Auch in der christlichen Tradition ist er verbreitet: Mönche grüssten sich angeblich mit diesem Satz.",
-      "source": "Marc Aurel: Selbstbetrachtungen 2,11 (eigene Übersetzung)"
+      "deep": "Vom Sklaven im Triumphwagen berichtet unter anderem der Kirchenschriftsteller Tertullian um 200 n. Chr.: \"Respice post te! Hominem te memento!\" Der Ausdruck \"memento mori\" selbst stammt aus späterer, christlicher Zeit. Dass sich Mönche damit grüssten, wird oft erzählt, ist aber nicht belegt.\n\nJobs hielt die Rede am 12. Juni 2005. Er nannte den Gedanken an den eigenen Tod das wichtigste Werkzeug, das ihm je begegnet sei, um die grossen Entscheidungen im Leben zu treffen.\n\nDer Vers stammt aus Psalm 90, der Mose zugeschrieben wird.",
+      "source": "Tertullian: Apologeticum 33; Steve Jobs: Stanford Commencement Address (2005); Psalm 90,12; Marc Aurel: Selbstbetrachtungen 2,11 (eigene Übersetzung)"
     },
     "en": {
-      "title": "Memento mori",
-      "quote": {
-        "text": "You could leave life right now. Let that determine what you do and say and think.",
-        "author": "Marcus Aurelius",
-        "source": "Meditations 2.11"
-      },
-      "body": "\"Remember that you will die.\" It sounds grim, but for the Stoics it was an exercise in **living more**.\n\nWhoever stays aware that his time is limited postpones less, fights less over trivia and is quicker to tell people what they mean to him. Marcus Aurelius reminded himself to do every action as if it were the last of his life.",
-      "act": "Tonight, write down one thing you'd regret if today had been your last day, and do it tomorrow.",
-      "deep": "The phrase \"memento mori\" comes from later, Christian times, but the idea is old. The Stoics didn't use it to create fear but to clarify priorities. It's common in Christian tradition too: monks are said to have greeted each other with it.",
-      "source": "Marcus Aurelius: Meditations 2.11 (own translation)"
+      "title": "The words whispered to the victor",
+      "body": "When a Roman general rode through Rome in a triumph after a great victory, he was almost a god for a day. Purple robe, laurel wreath, his face painted red like the statue of Jupiter. The whole city cheered him.\n\nBehind him in the chariot, ancient writers report, stood a slave. He held a golden crown over the general’s head and kept reminding him: \"Look behind you. Remember that you are a man.\"\n\nExactly how this worked is not reliably documented. But the Romans knew: it is at the peak that a man most easily forgets he is mortal.\n\n## The question in the mirror\n\nIn 2005, Steve Jobs speaks to graduates at Stanford, a year after his cancer diagnosis. He tells them that since he was 17, he has asked himself every morning in the mirror: \"If today were the last day of my life, would I want to do what I am about to do today?\"\n\nWhenever the answer was no for too many days in a row, he knew he needed to change something.\n\n## Number your days\n\nIn the Bible, the psalmist prays: \"Teach us to number our days, that we may gain a heart of wisdom.\" And Marcus Aurelius reminds himself: \"You could leave life right now. Let that determine what you do and say and think.\"\n\nIt sounds dark, but it is an exercise for **more life**. Whoever knows his time is limited postpones less, argues less over trifles and is quicker to tell people what they mean to him.\n\n> Thinking of death takes nothing from you. It shows you what matters.",
+      "example": "For years you have meant to tell your father what you are grateful for. It’s never the right moment. Imagine learning next week that there will be no more moments. Suddenly tonight is the right one.",
+      "act": "Tonight, write down one thing you would regret if today had been your last day, and do it tomorrow.",
+      "deep": "The slave in the triumphal chariot is mentioned, among others, by the church writer Tertullian around 200 AD: \"Respice post te! Hominem te memento!\" The phrase \"memento mori\" itself comes from later, Christian times. That monks greeted each other with it is often told but not documented.\n\nJobs gave the speech on 12 June 2005. He called the thought of his own death the most important tool he had ever encountered for making the big choices in life.\n\nThe verse is from Psalm 90, attributed to Moses.",
+      "source": "Tertullian: Apologeticum 33; Steve Jobs: Stanford Commencement Address (2005); Psalm 90:12; Marcus Aurelius: Meditations 2.11"
     }
   },
   {
@@ -953,22 +925,24 @@
     "id": "durchhalten-west-point",
     "area": "mindset",
     "sub": "mentalitaet",
-    "style": "fakt",
+    "style": "geschichte",
     "level": 2,
     "actKind": "heute",
     "de": {
       "title": "Wer durchhält, schlägt oft das Talent",
-      "body": "Die Militärakademie West Point wählt ihre Kadetten mit einem aufwendigen Punktesystem aus: Noten, Fitness, Führungserfahrung. Trotzdem brechen manche schon im harten ersten Sommer ab.\n\nDie Psychologin Angela Duckworth fand: Wer durchhielt, liess sich mit einem einfachen Fragebogen zu **Ausdauer und Leidenschaft für langfristige Ziele** besser vorhersagen als mit dem offiziellen Auswahlwert. Sie nannte das **Grit**.\n\nEhrlich gesagt: Spätere grosse Auswertungen zeigen, dass Grit nicht alles erklärt. Aber eines bleibt: Wer weitermacht, wenn es hart wird, kommt weiter als viele, die mehr Talent hatten und aufgegeben haben.",
+      "body": "Die Militärakademie **West Point** wählt ihre Kadetten mit einem aufwendigen Punktesystem aus: Noten, Fitness, Führungserfahrung. Nur die Besten kommen rein. Und trotzdem brechen manche schon im ersten Sommer ab, in einem wochenlangen Drill, den die Kadetten \"Beast Barracks\" nennen.\n\nDie Psychologin **Angela Duckworth** wollte wissen, wer durchhält. Das Ergebnis: Ein kurzer Fragebogen zu **Ausdauer und Leidenschaft für langfristige Ziele** sagte es besser vorher als der offizielle Auswahlwert. Sie nannte das **Grit**.\n\n## Niemals nachgeben\n\nOktober 1941. Grossbritannien hat über ein Jahr fast allein gegen Hitler gestanden. **Winston Churchill** besucht seine alte Schule Harrow, an der er einst in der untersten Klasse sass.\n\nEr sagt den Jungen: \"Gebt niemals nach, niemals, niemals, niemals, in nichts, ob gross oder klein, ausser vor der Überzeugung von Ehre und Vernunft.\"\n\nDer Nachsatz ist wichtig. Durchhalten heisst nicht, stur gegen jede Vernunft weiterzumachen. Es heisst, nicht aufzugeben, nur weil es schwer wird.\n\nEhrlich gesagt: Spätere grosse Auswertungen zeigen, dass Grit nicht alles erklärt. Aber eines bleibt: Wer weitermacht, wenn es hart wird, kommt weiter als viele, die mehr Talent hatten und aufgegeben haben.\n\n> Talent bestimmt, wo du anfängst. Ausdauer bestimmt, wie weit du kommst.",
+      "example": "Zwei Männer beginnen gleichzeitig mit dem Training. Der eine ist begabter und macht in den ersten Wochen schnellere Fortschritte. Dann kommt das erste Plateau. Er hört auf. Der andere macht weiter, ohne Begeisterung, einfach weil er es sich vorgenommen hat. Nach zwei Jahren ist er der Stärkere.",
       "act": "Denk an ein Ziel, das du bei der ersten Schwierigkeit fallen gelassen hast. Nimm es heute wieder auf, mit einem kleinen Schritt.",
-      "deep": "Duckworths Studien von 2007 umfassten auch Teilnehmer eines Buchstabier-Wettbewerbs und Studenten. Eine Meta-Analyse von Credé und Kollegen (2017) zeigte später, dass Grit stark mit Gewissenhaftigkeit zusammenhängt und Leistung nur mässig vorhersagt. Die Ausdauer-Komponente war dabei aussagekräftiger als die Leidenschaft.",
-      "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017"
+      "deep": "Duckworths Studien von 2007 umfassten auch Teilnehmer eines Buchstabier-Wettbewerbs und Studenten. Eine Meta-Analyse von Credé und Kollegen (2017) zeigte später, dass Grit stark mit Gewissenhaftigkeit zusammenhängt und Leistung nur mässig vorhersagt. Die Ausdauer-Komponente war dabei aussagekräftiger als die Leidenschaft.\n\nChurchill sprach am 29. Oktober 1941 in Harrow. Der Satz wird oft auf \"Never give up\" verkürzt, im Original heisst er \"Never give in\".",
+      "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017; Winston Churchill: Rede in der Harrow School, 29. Oktober 1941"
     },
     "en": {
-      "title": "Persistence often beats talent",
-      "body": "West Point selects its cadets with an elaborate scoring system: grades, fitness, leadership experience. Even so, some drop out in the gruelling first summer.\n\nPsychologist Angela Duckworth found that a short questionnaire on **perseverance and passion for long-term goals** predicted who stayed better than the official admission score. She called it **grit**.\n\nTo be honest: later large reviews show grit doesn't explain everything. But one thing stands: whoever keeps going when it gets hard gets further than many who had more talent and quit.",
-      "act": "Think of a goal you dropped at the first obstacle. Pick it up again today with one small step.",
-      "deep": "Duckworth's 2007 studies also included spelling bee contestants and students. A later meta-analysis by Credé and colleagues (2017) found that grit overlaps strongly with conscientiousness and predicts performance only moderately. The perseverance part was more telling than the passion part.",
-      "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017"
+      "title": "Those who persevere often beat talent",
+      "body": "The **West Point** military academy selects its cadets with an elaborate scoring system: grades, fitness, leadership experience. Only the best get in. And still some drop out in the very first summer, during weeks of drill the cadets call \"Beast Barracks\".\n\nPsychologist **Angela Duckworth** wanted to know who sticks it out. The result: a short questionnaire on **perseverance and passion for long-term goals** predicted it better than the official selection score. She called it **grit**.\n\n## Never give in\n\nOctober 1941. Britain has stood almost alone against Hitler for over a year. **Winston Churchill** visits his old school, Harrow, where he was once put in the lowest form.\n\nHe tells the boys: \"Never give in, never, never, never, in nothing, great or small, large or petty, never give in except to convictions of honour and good sense.\"\n\nThe last part matters. Perseverance doesn’t mean stubbornly carrying on against all reason. It means not quitting just because it gets hard.\n\nTo be honest: later large analyses show that grit doesn’t explain everything. But one thing remains: whoever keeps going when it gets hard gets further than many who had more talent and gave up.\n\n> Talent decides where you start. Perseverance decides how far you get.",
+      "example": "Two men start training at the same time. One is more gifted and progresses faster in the first weeks. Then comes the first plateau. He quits. The other keeps going, without enthusiasm, simply because he decided to. Two years later, he is the stronger one.",
+      "act": "Think of a goal you dropped at the first difficulty. Pick it up again today with one small step.",
+      "deep": "Duckworth’s 2007 studies also included spelling bee contestants and students. A meta-analysis by Credé and colleagues (2017) later showed that grit overlaps strongly with conscientiousness and only moderately predicts performance. The perseverance component was more telling than the passion component.\n\nChurchill spoke at Harrow on 29 October 1941. The line is often shortened to \"Never give up\", but the original says \"Never give in\".",
+      "source": "Duckworth et al.: Grit. Journal of Personality and Social Psychology, 2007; Credé et al., 2017; Winston Churchill: Speech at Harrow School, 29 October 1941"
     }
   },
   {
@@ -1090,39 +1064,43 @@
     "actKind": "frage",
     "de": {
       "title": "Das Stockdale-Paradox: Glaub an den Sieg, sieh die Wahrheit",
-      "body": "Admiral **James Stockdale** war über **sieben Jahre** in einem vietnamesischen Kriegsgefangenenlager, wurde gefoltert und hatte keine Ahnung, ob er je freikommen würde.\n\nGefragt, wer nicht überlebte, sagte er: **die Optimisten**. Sie sagten: \"Bis Weihnachten sind wir draussen.\" Weihnachten kam und ging. Dann Ostern. Sie starben an gebrochenem Herzen.\n\nStockdale überlebte mit einer doppelten Haltung: dem festen Glauben, dass er am Ende siegen würde, **und** der Disziplin, den brutalen Tatsachen der Gegenwart ins Auge zu sehen.",
+      "body": "9. September 1965. Über Nordvietnam wird das Flugzeug von **James Stockdale** abgeschossen. Am Fallschirm, auf dem Weg nach unten, sagt er sich: Ich verlasse die Welt der Technik und betrete die Welt von **Epiktet**, dem Philosophen, der selbst als Sklave gelebt hatte.\n\nEs werden **über sieben Jahre** Gefangenschaft. Folter, Jahre in Einzelhaft, keine Ahnung, ob er je freikommt.\n\nGefragt, wer nicht überlebte, sagte er später: **die Optimisten**. Sie sagten: \"Bis Weihnachten sind wir draussen.\" Weihnachten kam und ging. Dann Ostern. Dann wieder Weihnachten. Sie starben an gebrochenem Herzen.\n\n## Weihnachten im Lager\n\nDer Psychiater **Viktor Frankl** sah dasselbe in den Konzentrationslagern der Nazis. Zwischen Weihnachten 1944 und Neujahr starben in seinem Lager so viele Häftlinge wie nie zuvor. Der Lagerarzt erklärte es so: Viele hatten fest gehofft, an Weihnachten zu Hause zu sein. Als es nicht geschah, verloren sie den Mut, und mit dem Mut die Kraft.\n\nFrankl überlebte mit etwas anderem als Hoffnung auf ein Datum: mit einem **Warum**. Er wollte seine Frau wiedersehen und sein Buch neu schreiben, dessen Manuskript ihm abgenommen worden war.\n\nStockdale hielt beides zugleich fest: den unerschütterlichen Glauben an das Ende und den nüchternen Blick auf das Heute.\n\n> Verwechsle nie den Glauben, dass du am Ende siegst, mit der Disziplin, der harten Wahrheit ins Auge zu sehen.",
+      "example": "Dein Geschäft läuft schlecht. Der falsche Optimist sagt: \"Nächsten Monat wird es besser\" und ändert nichts. Der Pessimist gibt auf. Stockdale würde sagen: \"Wir schaffen das. Und jetzt schauen wir uns ehrlich an, warum die Zahlen so schlecht sind.\"",
       "act": "Schreib zu deiner grössten Herausforderung zwei Sätze: Woran glaubst du fest? Und was ist die harte Wahrheit, der du dich heute stellen musst?",
-      "deep": "Der Autor Jim Collins sprach mit Stockdale für sein Buch \"Der Weg zu den Besten\" und machte die Haltung als \"Stockdale-Paradox\" bekannt. Stockdale hatte sich im Lager an der stoischen Philosophie von Epiktet festgehalten.",
-      "source": "Jim Collins: Der Weg zu den Besten (Good to Great, 2001)"
+      "deep": "Stockdale war von 1965 bis 1973 im Gefängnis Hoa Lo in Hanoi, das die Gefangenen \"Hanoi Hilton\" nannten. Als ranghöchster Marineoffizier organisierte er den Widerstand der Gefangenen. Später beschrieb er, wie ihm Epiktets Lehre half: Unterscheide, was in deiner Macht steht, und was nicht.\n\nDer Autor Jim Collins sprach mit Stockdale für sein Buch \"Der Weg zu den Besten\" und machte die Haltung als \"Stockdale-Paradox\" bekannt.\n\nFrankl beschreibt die Weihnachtstage im Lager in \"... trotzdem Ja zum Leben sagen\" (1946). Er zitiert dort Nietzsche: \"Wer ein Warum zum Leben hat, erträgt fast jedes Wie.\"",
+      "source": "Jim Collins: Der Weg zu den Besten (Good to Great, 2001); James Stockdale: Courage Under Fire (1993); Viktor Frankl: ... trotzdem Ja zum Leben sagen (1946)"
     },
     "en": {
-      "title": "The Stockdale Paradox: believe you'll win, face the truth",
-      "body": "Admiral **James Stockdale** spent more than **seven years** in a Vietnamese prisoner-of-war camp, was tortured and had no idea whether he'd ever get out.\n\nAsked who didn't make it, he said: **the optimists**. They said: \"We'll be out by Christmas.\" Christmas came and went. Then Easter. They died of a broken heart.\n\nStockdale survived with a double stance: unwavering faith that he would prevail in the end, **and** the discipline to confront the brutal facts of his current reality.",
-      "act": "Write two sentences about your biggest challenge: what do you firmly believe? And what hard truth do you need to face today?",
-      "deep": "Author Jim Collins spoke with Stockdale for his book \"Good to Great\" and made the stance famous as the \"Stockdale Paradox\". In the camp, Stockdale had held on to the Stoic philosophy of Epictetus.",
-      "source": "Jim Collins: Good to Great (2001)"
+      "title": "The Stockdale Paradox: believe you’ll win, face the truth",
+      "body": "9 September 1965. Over North Vietnam, **James Stockdale**’s plane is shot down. Hanging from his parachute on the way down, he tells himself: I am leaving the world of technology and entering the world of **Epictetus**, the philosopher who had himself lived as a slave.\n\nIt turns into **more than seven years** of captivity. Torture, years in solitary confinement, no idea whether he will ever get out.\n\nAsked later who didn’t survive, he said: **the optimists**. They said: \"We’ll be out by Christmas.\" Christmas came and went. Then Easter. Then Christmas again. They died of a broken heart.\n\n## Christmas in the camp\n\nPsychiatrist **Viktor Frankl** saw the same thing in the Nazi concentration camps. Between Christmas 1944 and New Year, more prisoners died in his camp than ever before. The camp doctor explained it this way: many had firmly hoped to be home by Christmas. When it didn’t happen, they lost courage, and with it their strength.\n\nFrankl survived with something other than hope for a date: with a **why**. He wanted to see his wife again and to rewrite his book, whose manuscript had been taken from him.\n\nStockdale held both at once: unshakeable faith in the end, and a sober view of today.\n\n> Never confuse faith that you will prevail in the end with the discipline to confront the brutal facts.",
+      "example": "Your business is doing badly. The false optimist says \"next month will be better\" and changes nothing. The pessimist gives up. Stockdale would say: \"We will make it. And now let’s look honestly at why the numbers are this bad.\"",
+      "act": "Write two sentences about your biggest challenge: what do you firmly believe? And what is the hard truth you need to face today?",
+      "deep": "Stockdale was held from 1965 to 1973 in Hoa Lo prison in Hanoi, which the prisoners called the \"Hanoi Hilton\". As the senior naval officer, he organised the prisoners’ resistance. He later described how Epictetus helped him: distinguish what is in your power from what is not.\n\nAuthor Jim Collins spoke with Stockdale for his book \"Good to Great\" and made the attitude famous as the \"Stockdale Paradox\".\n\nFrankl describes the Christmas days in the camp in \"Man’s Search for Meaning\" (1946). There he quotes Nietzsche: \"He who has a why to live can bear almost any how.\"",
+      "source": "Jim Collins: Good to Great (2001); James Stockdale: Courage Under Fire (1993); Viktor Frankl: Man’s Search for Meaning (1946)"
     }
   },
   {
     "id": "du-hast-mehr-im-tank",
     "area": "mindset",
     "sub": "mentalitaet",
-    "style": "erklaerung",
+    "style": "geschichte",
     "level": 2,
     "actKind": "heute",
     "de": {
       "title": "Wenn du nicht mehr kannst, hast du noch Reserven",
-      "body": "Der frühere Navy SEAL David Goggins spricht von einer **40-Prozent-Regel**: Wenn dein Kopf sagt \"Ich kann nicht mehr\", hast du erst etwa 40 % deiner Kraft verbraucht. Die Zahl ist kein Messwert, sondern ein Bild. Aber die Wissenschaft stützt den Kern.\n\nDer Sportphysiologe Tim Noakes beschreibt das Gehirn als **Schutzschalter**: Es meldet Erschöpfung, lange bevor die Muskeln wirklich am Ende sind. Darum können Läufer am Ende eines Rennens plötzlich wieder sprinten, wenn sie die Ziellinie sehen.\n\n> Das Gefühl \"Ich kann nicht\" ist ein Vorschlag, kein Befehl.",
+      "body": "Jahrzehntelang lief niemand eine Meile unter vier Minuten. Man erzählt sich, Ärzte hätten gewarnt, der Körper halte das nicht aus. Das ist wohl übertrieben, aber die Grenze galt als Mauer.\n\nAm **6. Mai 1954** läuft der Medizinstudent **Roger Bannister** in Oxford 3:59,4. Und dann passiert das Erstaunliche: Nur **46 Tage später** ist der Australier John Landy noch schneller. Bald folgen weitere. Heute haben weit über tausend Männer die Mauer durchbrochen.\n\nIhre Beine waren 1954 nicht plötzlich stärker geworden. Was sich verändert hatte, war die Grenze im Kopf.\n\n## Der Schutzschalter\n\nDer Sportphysiologe **Tim Noakes** beschreibt das Gehirn als Schutzschalter: Es meldet Erschöpfung, lange bevor die Muskeln wirklich am Ende sind. Darum können Läufer am Ende eines Rennens plötzlich wieder sprinten, wenn sie die Ziellinie sehen.\n\nDer frühere Navy SEAL **David Goggins** nennt das die 40-Prozent-Regel: Wenn dein Kopf sagt \"Ich kann nicht mehr\", hast du erst etwa 40 Prozent gegeben. Die Zahl ist kein Messwert, sondern ein Bild. Aber der Kern stimmt.\n\n> Das Gefühl \"Ich kann nicht\" ist ein Vorschlag, kein Befehl.",
+      "example": "Beim letzten Satz Liegestütze sagt dein Kopf nach acht Wiederholungen: Schluss. Du machst trotzdem noch zwei, sauber. Beim nächsten Mal sagt er es erst bei zehn. So verschiebt sich die Grenze, Woche für Woche.",
       "act": "Wenn du heute im Training aufhören willst: Mach noch eine Wiederholung, noch eine Minute, sauber und sicher.",
-      "deep": "Noakes nennt das Modell \"zentraler Regulator\". Es ist unter Forschern umstritten, aber gut belegt ist, dass Motivation, Belohnung und sogar Mundspülungen mit Zuckerwasser die Leistung kurzfristig erhöhen können. Echte Warnsignale wie Schmerzen in Brust oder Gelenken solltest du nie ignorieren.",
-      "source": "Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can't Hurt Me (2018)"
+      "deep": "Bannister lief auf der Iffley Road in Oxford, Chris Brasher und Chris Chataway machten für ihn das Tempo. Landy lief am 21. Juni 1954 in Turku 3:58,0.\n\nNoakes nennt sein Modell \"zentraler Regulator\". Es ist unter Forschern umstritten, aber gut belegt ist, dass Motivation, Belohnung und sogar Mundspülungen mit Zuckerwasser die Leistung kurzfristig erhöhen können.\n\nEchte Warnsignale wie Schmerzen in Brust oder Gelenken, Schwindel oder Atemnot solltest du nie ignorieren. Es geht um den Kopf, der zu früh aufgibt, nicht um einen Körper, der wirklich Hilfe braucht.",
+      "source": "Roger Bannister: The First Four Minutes (1955); Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can’t Hurt Me (2018)"
     },
     "en": {
-      "title": "When you think you're done, you have reserves",
-      "body": "Former Navy SEAL David Goggins talks about a **40 percent rule**: when your mind says \"I can't go on\", you've only used about 40% of your capacity. The number isn't a measurement, it's an image. But science backs the core.\n\nExercise physiologist Tim Noakes describes the brain as a **safety switch**: it signals exhaustion long before the muscles are really finished. That's why runners can suddenly sprint at the end of a race when they see the finish line.\n\n> The feeling \"I can't\" is a suggestion, not a command.",
-      "act": "When you want to stop training today, do one more rep, one more minute, clean and safe.",
-      "deep": "Noakes calls the model the \"central governor\". It's debated among researchers, but it's well established that motivation, reward and even rinsing the mouth with a sugar drink can briefly raise performance. Never ignore real warning signs like chest or joint pain.",
-      "source": "Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can't Hurt Me (2018)"
+      "title": "When you can’t go on, you still have reserves",
+      "body": "For decades, no one ran a mile in under four minutes. The story goes that doctors warned the body couldn’t take it. That is probably exaggerated, but the barrier was seen as a wall.\n\nOn **6 May 1954**, medical student **Roger Bannister** runs 3:59.4 in Oxford. And then something remarkable happens: just **46 days later**, the Australian John Landy is even faster. Others soon follow. Today, well over a thousand men have broken through the wall.\n\nTheir legs hadn’t suddenly got stronger in 1954. What had changed was the limit in their heads.\n\n## The safety switch\n\nExercise physiologist **Tim Noakes** describes the brain as a safety switch: it signals exhaustion long before the muscles are truly finished. That’s why runners can suddenly sprint again at the end of a race when they see the finish line.\n\nFormer Navy SEAL **David Goggins** calls it the 40 percent rule: when your mind says \"I can’t go on\", you have only given about 40 percent. The number isn’t a measurement but an image. The core, though, is right.\n\n> The feeling \"I can’t\" is a suggestion, not an order.",
+      "example": "On your last set of push-ups, your mind says stop after eight. You do two more anyway, clean. Next time it says stop at ten. That’s how the limit moves, week by week.",
+      "act": "When you want to stop training today: do one more rep, one more minute, clean and safe.",
+      "deep": "Bannister ran at Iffley Road in Oxford, with Chris Brasher and Chris Chataway setting the pace. Landy ran 3:58.0 in Turku on 21 June 1954.\n\nNoakes calls his model the \"central governor\". It is debated among researchers, but it is well established that motivation, reward and even rinsing the mouth with sugar water can boost performance in the short term.\n\nNever ignore real warning signs such as chest or joint pain, dizziness or shortness of breath. This is about a mind that quits too early, not a body that really needs help.",
+      "source": "Roger Bannister: The First Four Minutes (1955); Noakes: Fatigue is a brain-derived emotion. Frontiers in Physiology, 2012; David Goggins: Can’t Hurt Me (2018)"
     }
   },
   {
