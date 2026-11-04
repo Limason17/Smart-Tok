@@ -1400,5 +1400,149 @@
       "deep": "There are limits. Banks need capital, must follow rules and only earn when loans are repaid. The central bank uses the interest rate to steer how expensive loans are and how many are granted. The Bank of England explained the process in a widely read report in 2014. In Switzerland, the sovereign money initiative of 2018 wanted to ban banks from creating money. Voters rejected it with about 76% against.",
       "source": "McLeay, Radia & Thomas: Money creation in the modern economy. Bank of England Quarterly Bulletin (2014)"
     }
+  },
+  {
+    "id": "so-entsteht-ein-gesetz",
+    "area": "wissen",
+    "sub": "politik",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Wie in der Schweiz ein Gesetz entsteht",
+      "body": "Ein neues Bundesgesetz braucht meist ein bis mehrere Jahre. Das ist kein Zufall: Fast jeder darf mitreden.\n\n- **Idee:** Sie kommt vom Bundesrat, aus dem Parlament oder von einem Kanton.\n- **Vernehmlassung:** Kantone, Parteien und Verbände nehmen zum Entwurf Stellung.\n- **Botschaft:** Der Bundesrat überarbeitet den Entwurf und schickt ihn ans Parlament.\n- **Parlament:** Nationalrat und Ständerat beraten nacheinander. Beide müssen genau denselben Text beschliessen.\n- **Referendum:** Wer 50'000 Unterschriften in 100 Tagen sammelt, erzwingt eine Volksabstimmung.\n\n> Bei jedem Bundesgesetz hat das Volk das letzte Wort, wenn genug Leute es verlangen.\n\n[[fig:gesetz-schweiz|full|Der Weg eines Bundesgesetzes]]",
+      "deep": "Sind sich die beiden Kammern nicht einig, geht der Text hin und her (Differenzbereinigung). Nach drei Runden pro Kammer entscheidet eine Einigungskonferenz aus Mitgliedern beider Räte. Lehnt danach eine Kammer deren Vorschlag ab, ist das ganze Gesetz gescheitert. Das Referendum können statt 50'000 Stimmberechtigten auch acht Kantone verlangen.",
+      "source": "Bundesverfassung Art. 141; ch.ch und parlament.ch: Der Weg der Gesetzgebung"
+    },
+    "en": {
+      "title": "How a law is made in Switzerland",
+      "body": "A new federal law usually takes one to several years. That is no accident: almost everyone gets a say.\n\n- **Idea:** it comes from the Federal Council, from parliament or from a canton.\n- **Consultation:** cantons, parties and associations comment on the draft.\n- **Dispatch:** the Federal Council revises the draft and sends it to parliament.\n- **Parliament:** the National Council and the Council of States debate it in turn. Both must pass exactly the same text.\n- **Referendum:** anyone who collects 50,000 signatures in 100 days forces a popular vote.\n\n> For every federal law, the people have the last word if enough of them ask for it.\n\n[[fig:gesetz-schweiz|full|The path of a federal law]]",
+      "deep": "If the two chambers disagree, the text goes back and forth. After three rounds in each chamber, a conciliation committee of members from both chambers decides. If either chamber then rejects its proposal, the whole law fails. Instead of 50,000 voters, eight cantons can also call a referendum.",
+      "source": "Federal Constitution Art. 141; ch.ch and parlament.ch: the legislative process"
+    }
+  },
+  {
+    "id": "so-funktioniert-passwort-hash",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "heute",
+    "de": {
+      "title": "Wie Webseiten dein Passwort prüfen, ohne es zu kennen",
+      "body": "Eine gute Webseite speichert dein Passwort nicht. Sie speichert einen **Hash**: Das Passwort geht durch eine Rechenformel, die eine lange Zeichenkette ausspuckt. Die Formel funktioniert nur in eine Richtung. Aus dem Ergebnis kommt man nicht zurück zum Passwort.\n\n[[fig:passwort-hash]]\n\nBeim Anmelden schickt die Seite deine Eingabe durch dieselbe Formel und vergleicht nur die Ergebnisse. Stimmen sie überein, bist du drin.\n\nGute Seiten mischen vorher noch eine zufällige Zeichenfolge pro Nutzer dazu, ein „Salt“. So sehen zwei gleiche Passwörter in der Datenbank völlig verschieden aus.\n\n> Speichert eine schlecht gebaute Seite dein Passwort im Klartext und wird gehackt, liegt es offen. Benutzt du es überall, sind alle deine Konten offen.",
+      "act": "Gib deinem wichtigsten Konto, deiner E-Mail, ein Passwort, das du nirgends sonst benutzt.",
+      "source": "OWASP Password Storage Cheat Sheet"
+    },
+    "en": {
+      "title": "How websites check your password without knowing it",
+      "body": "A good website does not store your password. It stores a **hash**: the password goes through a formula that produces a long string of characters. The formula only works one way. There is no way back from the result to the password.\n\n[[fig:passwort-hash]]\n\nWhen you sign in, the site runs what you typed through the same formula and only compares the results. If they match, you are in.\n\nGood sites first mix in a random string per user, a \"salt\". That way two identical passwords look completely different in the database.\n\n> If a badly built site stores your password in plain text and gets hacked, it is out in the open. If you use it everywhere, all your accounts are open.",
+      "act": "Give your most important account, your email, a password you use nowhere else.",
+      "source": "OWASP Password Storage Cheat Sheet"
+    }
+  },
+  {
+    "id": "so-bremst-die-nationalbank",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "merke",
+    "de": {
+      "title": "Wie die Nationalbank die Preise bremst",
+      "body": "Steigen die Preise zu schnell, kann die Schweizerische Nationalbank (SNB) keinen einzigen Preis direkt senken. Sie hat im Kern einen Hebel: den Leitzins. Ihr Auftrag ist Preisstabilität, für sie heisst das eine Teuerung zwischen 0 und 2 Prozent pro Jahr.\n\nErhöht sie den Leitzins, beginnt eine Kette:\n\n[[fig:snb-leitzins]]\n\n> Die Nationalbank bremst nicht die Preise. Sie bremst die Nachfrage, und die Preise folgen.\n\nDer Haken ist die Verzögerung. Die volle Wirkung kommt oft erst nach ein bis zwei Jahren. Die SNB muss heute entscheiden, wie die Wirtschaft in zwei Jahren aussieht. Bremst sie zu stark, rutscht das Land in eine Rezession. Bremst sie zu spät, frisst sich die Teuerung fest.\n\nSenkt sie den Zins, läuft alles umgekehrt: Geld wird billiger, es wird mehr gekauft und investiert.",
+      "act": "Der Leitzins ist der Preis für Geld. Bewegt er sich, bewegt sich früher oder später alles: Hypotheken, Mieten, Sparzinsen, Aktienkurse.",
+      "deep": "Die SNB hat einen zweiten Hebel: Sie kann Devisen kaufen oder verkaufen, um den Franken zu schwächen oder zu stärken. Von 2011 bis 2015 verteidigte sie so einen Mindestkurs von 1.20 Franken pro Euro. Und Vertrauen wirkt wie ein eigener Hebel: Glauben alle, dass die Nationalbank die Teuerung im Griff hat, verlangen Firmen und Angestellte keine grossen Preis- und Lohnaufschläge. Dann bleibt die Teuerung tatsächlich tief.",
+      "source": "Schweizerische Nationalbank, Geldpolitische Strategie (snb.ch); SNB-Medienmitteilungen vom 6.9.2011 und 15.1.2015"
+    },
+    "en": {
+      "title": "How the central bank slows down prices",
+      "body": "When prices rise too fast, the Swiss National Bank (SNB) cannot lower a single price directly. At its core it has one lever: the policy rate. Its mandate is price stability, which for the SNB means inflation between 0 and 2 percent a year.\n\nWhen it raises the policy rate, a chain begins:\n\n[[fig:snb-leitzins]]\n\n> The central bank does not slow prices. It slows demand, and prices follow.\n\nThe catch is the delay. The full effect often arrives only after one to two years. The SNB has to decide today what the economy will look like in two years. Brake too hard and the country slides into recession. Brake too late and inflation digs in.\n\nWhen it cuts the rate, everything runs the other way: money gets cheaper, people buy and invest more.",
+      "act": "The policy rate is the price of money. When it moves, sooner or later everything moves: mortgages, rents, savings rates, share prices.",
+      "deep": "The SNB has a second lever: it can buy or sell foreign currency to weaken or strengthen the franc. From 2011 to 2015 it used this to defend a minimum rate of 1.20 francs per euro. And trust works as a lever of its own: if everyone believes the central bank has inflation under control, companies and employees do not demand large price and wage rises. Then inflation really does stay low.",
+      "source": "Swiss National Bank, Monetary policy strategy (snb.ch); SNB press releases of 6 Sep 2011 and 15 Jan 2015"
+    }
+  },
+  {
+    "id": "warum-flugzeuge-fliegen",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "merke",
+    "de": {
+      "title": "Warum Flugzeuge fliegen und das Schulbuch irrt",
+      "body": "In vielen Schulbüchern steht: Die Oberseite des Flügels ist gewölbt, die Luft oben hat einen längeren Weg. Weil sie gleichzeitig mit der Luft unten hinten ankommen muss, ist sie schneller. Schnellere Luft hat weniger Druck, also entsteht Auftrieb.\n\nKlingt logisch. Der Haken: Nichts zwingt die Luft, gleichzeitig anzukommen. Im Windkanal sieht man es deutlich: Die Luft oben ist viel schneller und kommt lange vor der unteren hinten an. Und wäre die Wölbung entscheidend, könnte kein Kunstflieger auf dem Rücken fliegen.\n\n**Was wirklich passiert:** Der Flügel ist leicht schräg angestellt und lenkt eine riesige Menge Luft nach unten. Wer Luft nach unten drückt, wird nach oben gedrückt. Du kennst das von deiner Hand aus dem Autofenster, wenn du sie leicht anwinkelst.\n\nDabei entsteht über dem Flügel Unterdruck und darunter Überdruck. Druckunterschied und Luft nach unten sind keine zwei Theorien. Es sind zwei Beschreibungen desselben Vorgangs.\n\n> Ein Flugzeug fliegt, weil es jede Sekunde tonnenweise Luft nach unten wirft.",
+      "act": "Eine Erklärung, die logisch klingt, ist noch nicht richtig. Frag bei jeder: Was genau zwingt die Dinge, so zu sein?",
+      "deep": "Warum ist die Luft oben schneller? Der Unterdruck über dem Flügel saugt sie an und beschleunigt sie. Fachleute erklären Auftrieb mit dem ganzen Druckfeld rund um den Flügel, und das passt in keinen einzelnen Satz. Selbst Lehrbücher streiten, welche Kurzfassung die beste ist. Falsch ist nur die Annahme, dass die Luft gleichzeitig ankommen muss. Bernoullis Gesetz selbst stimmt.",
+      "source": "NASA Glenn Research Center, Incorrect Lift Theory; Babinsky, How do wings work?, Physics Education 2003; McLean, Understanding Aerodynamics (2012)"
+    },
+    "en": {
+      "title": "Why planes fly and the textbook gets it wrong",
+      "body": "Many school textbooks say: the top of the wing is curved, so the air on top has a longer way to go. Because it has to reach the back at the same time as the air below, it moves faster. Faster air has lower pressure, so you get lift.\n\nSounds logical. The catch: nothing forces the air to arrive at the same time. In a wind tunnel you can see it clearly: the air on top is much faster and reaches the back long before the air below. And if the curve were what mattered, no aerobatic pilot could fly upside down.\n\n**What really happens:** the wing is tilted slightly and deflects a huge amount of air downwards. Whatever pushes air down gets pushed up. You know this from your hand out of a car window when you tilt it a little.\n\nThis creates low pressure above the wing and high pressure below. The pressure difference and the air pushed down are not two theories. They are two descriptions of the same thing.\n\n> A plane flies because every second it throws tonnes of air downwards.",
+      "act": "An explanation that sounds logical is not yet right. Ask of every one: what exactly forces things to be this way?",
+      "deep": "Why is the air on top faster? The low pressure above the wing pulls it in and speeds it up. Experts explain lift with the whole pressure field around the wing, and that fits in no single sentence. Even textbooks argue about which short version is best. The only false part is the idea that the air must arrive at the same time. Bernoulli's law itself is correct.",
+      "source": "NASA Glenn Research Center, Incorrect Lift Theory; Babinsky, How do wings work?, Physics Education 2003; McLean, Understanding Aerodynamics (2012)"
+    }
+  },
+  {
+    "id": "so-funktioniert-kernkraftwerk",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Wie ein Kernkraftwerk Strom macht",
+      "body": "Ein Kernkraftwerk ist im Grunde eine Dampfmaschine. Besonders ist nur, wie es das Wasser heiss macht.\n\nIm Brennstoff steckt Uran. Trifft ein Neutron einen Uran-235-Kern, zerplatzt dieser in zwei kleinere Teile. Dabei werden enorm viel Wärme und zwei bis drei neue Neutronen frei. Die treffen die nächsten Kerne: eine Kettenreaktion.\n\n[[fig:kernkraftwerk]]\n\nDie Kunst ist das Gleichgewicht. Jede Spaltung soll genau eine weitere auslösen, nicht mehr und nicht weniger. Dafür fahren **Steuerstäbe** zwischen die Brennstäbe und schlucken überzählige Neutronen. Ganz eingefahren stoppen sie die Kettenreaktion.\n\n> Ein Brennstoff-Pellet, so gross wie eine Fingerkuppe, liefert etwa so viel Energie wie eine Tonne Kohle.\n\nIn der Schweiz laufen vier Reaktoren an drei Standorten: Beznau I und II, Gösgen und Leibstadt.",
+      "deep": "Das Wasser im Reaktor bremst die Neutronen, und nur langsame Neutronen spalten Uran-235 gut. Verdampft das Wasser, fehlt diese Bremse, und die Kettenreaktion wird schwächer. Diese Sicherheit ist eingebaut. Das eigentliche Risiko ist die Nachwärme: Auch nach dem Abschalten erzeugen die Spaltprodukte noch tagelang Wärme. Fällt die Kühlung aus, schmilzt der Kern, wie 2011 in Fukushima, wo der Tsunami die Notstromversorgung zerstörte.",
+      "source": "ENSI, Funktionsweise von Kernkraftwerken; Nuclear Energy Institute, Fuel pellet facts; IAEA, Fukushima-Bericht (2015)"
+    },
+    "en": {
+      "title": "How a nuclear power plant makes electricity",
+      "body": "A nuclear power plant is basically a steam engine. The only special thing is how it heats the water.\n\nThe fuel contains uranium. When a neutron hits a uranium-235 nucleus, the nucleus bursts into two smaller pieces. That releases an enormous amount of heat and two or three new neutrons. They hit the next nuclei: a chain reaction.\n\n[[fig:kernkraftwerk]]\n\nThe art is the balance. Each fission should trigger exactly one more, no more and no less. For this, **control rods** slide in between the fuel rods and absorb surplus neutrons. Fully inserted, they stop the chain reaction.\n\n> A fuel pellet the size of a fingertip gives about as much energy as a tonne of coal.\n\nSwitzerland runs four reactors at three sites: Beznau I and II, Gösgen and Leibstadt.",
+      "deep": "The water in the reactor slows the neutrons down, and only slow neutrons split uranium-235 well. If the water boils away, this brake is missing and the chain reaction weakens. That safety is built in. The real risk is decay heat: even after shutdown, the fission products keep producing heat for days. If cooling fails, the core melts, as in Fukushima in 2011, where the tsunami destroyed the emergency power.",
+      "source": "ENSI, How nuclear power plants work; Nuclear Energy Institute, Fuel pellet facts; IAEA, Fukushima report (2015)"
+    }
+  },
+  {
+    "id": "wie-resistenzen-entstehen",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "achte",
+    "de": {
+      "title": "Wie Bakterien gegen Antibiotika immun werden",
+      "body": "Bakterien lernen nicht, Antibiotika zu überleben. Sie werden ausgesiebt.\n\nIn einer Infektion stecken Milliarden Bakterien. Bei jeder Teilung passieren kleine Kopierfehler. Ganz selten macht so ein Fehler ein Bakterium zufällig unempfindlich gegen ein bestimmtes Antibiotikum.\n\n[[fig:resistenz-auslese]]\n\nDas Antibiotikum tötet alle anderen und räumt dem Überlebenden damit den Platz frei. Unter guten Bedingungen teilt er sich alle 20 bis 30 Minuten. Nach wenigen Tagen sind die Resistenten in der Überzahl.\n\nDazu kommt etwas Unheimliches: Bakterien können Resistenzen untereinander weitergeben, als kleine Erbgut-Ringe, sogar an andere Arten.\n\n> Jedes Antibiotikum ist ein Sieb. Übrig bleiben genau die Bakterien, gegen die es nichts mehr ausrichtet.\n\n2019 starben weltweit rund 1,27 Millionen Menschen direkt an Infektionen mit resistenten Bakterien.",
+      "act": "- Antibiotika wirken nur gegen Bakterien. Gegen Erkältung und Grippe (Viren) helfen sie nicht.\n- Nimm sie genau so, wie sie dir verschrieben wurden.\n- Nimm nie alte Reste und gib sie nicht weiter.",
+      "source": "WHO, Faktenblatt Antimicrobial resistance; Antimicrobial Resistance Collaborators, The Lancet 2022"
+    },
+    "en": {
+      "title": "How bacteria become immune to antibiotics",
+      "body": "Bacteria don't learn to survive antibiotics. They get sifted.\n\nAn infection holds billions of bacteria. Every time they divide, small copying errors happen. Very rarely, such an error happens to make one bacterium insensitive to a particular antibiotic.\n\n[[fig:resistenz-auslese]]\n\nThe antibiotic kills all the others and so clears the field for the survivor. Under good conditions it divides every 20 to 30 minutes. Within a few days the resistant ones are in the majority.\n\nThen there is something eerie: bacteria can pass resistance to each other as small rings of genetic material, even to other species.\n\n> Every antibiotic is a sieve. What remains are exactly the bacteria it can no longer touch.\n\nIn 2019, around 1.27 million people worldwide died directly from infections with resistant bacteria.",
+      "act": "- Antibiotics only work against bacteria. They do nothing against colds and flu (viruses).\n- Take them exactly as prescribed.\n- Never take old leftovers and never pass them on.",
+      "source": "WHO, Antimicrobial resistance fact sheet; Antimicrobial Resistance Collaborators, The Lancet 2022"
+    }
+  },
+  {
+    "id": "so-funktioniert-dein-feed",
+    "area": "wissen",
+    "sub": "ki",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "heute",
+    "de": {
+      "title": "Wie dein Feed weiss, was du sehen willst",
+      "body": "Netflix, YouTube und TikTok zeigen dir nie alles. Ein Empfehlungssystem wählt aus Millionen Inhalten die wenigen aus, bei denen du am wahrscheinlichsten bleibst. Fast immer stecken drei Ideen dahinter.\n\n**1. Leute wie du.** Das System sucht Nutzer, die bisher dasselbe mochten wie du. Was sie zusätzlich mochten, bekommst du als Nächstes.\n\n[[fig:feed-aehnliche]]\n\n**2. Was du tust, nicht was du sagst.** Gezählt wird vor allem, wie lange du hinschaust, ob du zurückspulst, teilst oder sofort weiterwischst. Ein Video, bei dem du kurz zögerst, ist ein Signal, auch wenn du es nie likest.\n\n**3. Ab und zu etwas Neues.** Würde das System nur zeigen, was sicher funktioniert, sähest du immer dasselbe. Darum testet es laufend Unbekanntes und schaut, wie du reagierst.\n\n> Dein Feed ist ein Spiegel deines Verhaltens, nicht deiner Absichten.\n\nDas Ziel der meisten grossen Plattformen ist nicht, dass du klüger wirst, sondern dass du bleibst. Darum zeigt dir dein Feed vor allem das, wofür du schwach bist.",
+      "act": "Achte heute beim Scrollen darauf, wo du hängen bleibst. Das ist es, was dein Feed über dich glaubt. Wisch weiter, wo du nicht hinwillst, auch wenn es reizt.",
+      "deep": "Smart-Tok nutzt dieselben Ideen, zählt aber bewusste Signale viel stärker als blosse Zeit: Like, Speichern und Daumen runter. Unter Profil → Mein Algorithmus siehst du, was er über dich gelernt hat, und kannst es ändern.",
+      "source": "Koren, Bell und Volinsky, Matrix Factorization Techniques for Recommender Systems, IEEE Computer 2009; Covington et al., Deep Neural Networks for YouTube Recommendations (2016)"
+    },
+    "en": {
+      "title": "How your feed knows what you want to see",
+      "body": "Netflix, YouTube and TikTok never show you everything. A recommender system picks, out of millions of items, the few you are most likely to stay for. Almost always, three ideas are behind it.\n\n**1. People like you.** The system looks for users who liked the same things as you so far. Whatever else they liked, you get next.\n\n[[fig:feed-aehnliche]]\n\n**2. What you do, not what you say.** What counts most is how long you look, whether you rewind, share or swipe away at once. A video where you hesitate for a moment is a signal, even if you never like it.\n\n**3. Something new now and then.** If the system only showed what surely works, you would always see the same things. So it keeps testing the unknown and watches how you react.\n\n> Your feed is a mirror of your behaviour, not of your intentions.\n\nMost big platforms do not aim to make you smarter, but to make you stay. That is why your feed mostly shows you what you are weak for.",
+      "act": "Today, notice where you get stuck while scrolling. That is what your feed believes about you. Swipe on where you don't want to go, even when it tempts you.",
+      "deep": "Smart-Tok uses the same ideas but counts deliberate signals far more than mere time: like, save and thumbs down. Under Profile → My algorithm you can see what it has learned about you and change it.",
+      "source": "Koren, Bell and Volinsky, Matrix Factorization Techniques for Recommender Systems, IEEE Computer 2009; Covington et al., Deep Neural Networks for YouTube Recommendations (2016)"
+    }
   }
 ]

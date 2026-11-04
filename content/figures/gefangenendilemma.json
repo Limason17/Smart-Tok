@@ -1,0 +1,6 @@
+{"type":"compare",
+ "title":"Jahre im Gefängnis: du / er|Years in prison: you / him",
+ "cols":[
+  {"head":"Du schweigst|You stay silent","items":[{"t":"er schweigt|he stays silent","v":"1 / 1","acc":true},{"t":"er verrät dich|he betrays you","v":"10 / 0"}]},
+  {"head":"Du verrätst|You betray","items":[{"t":"er schweigt|he stays silent","v":"0 / 10"},{"t":"er verrät dich|he betrays you","v":"5 / 5"}]}],
+ "footer":["Egal was er tut, Verraten ist für dich besser. Zusammen landet ihr bei 5 statt 1.|Whatever he does, betraying is better for you. Together you end up with 5 instead of 1."]}

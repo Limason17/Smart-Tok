@@ -58,6 +58,17 @@ export interface Report {
 }
 
 /** Removes control characters, links and markup; shortens. For quoting user text in reports. */
+// One topic wish as a quoted line: the text, plus the optional note and the day it was sent.
+function suggestionLine(input: unknown): string {
+  const s = (input ?? {}) as { text?: unknown; note?: unknown; createdAt?: unknown };
+  const text = cleanText(s.text, 80);
+  if (!text) return '';
+  const note = cleanText(s.note, 200);
+  const day = typeof s.createdAt === 'number' && s.createdAt > 1e12 ? new Date(s.createdAt).toISOString().slice(0, 10) : '';
+  const extra = [note && `Notiz: ${note}`, day].filter(Boolean).join(', ');
+  return extra ? `${text} (${extra})` : text;
+}
+
 export function cleanText(input: unknown, max: number): string {
   if (typeof input !== 'string') return '';
   return input
@@ -196,7 +207,7 @@ export function analyzeAccount(uid: string, doc: Partial<AccountDoc>, catalog: R
         .map(([k]) => cleanText(k, 60)),
       adjusted: Object.keys(adjust).length,
     },
-    suggestions: (Array.isArray(doc.suggestions) ? doc.suggestions : []).slice(-20).map((s) => cleanText((s as { text?: unknown })?.text, 80)).filter(Boolean),
+    suggestions: (Array.isArray(doc.suggestions) ? doc.suggestions : []).slice(-20).map(suggestionLine).filter(Boolean),
     flags: [],
   };
 

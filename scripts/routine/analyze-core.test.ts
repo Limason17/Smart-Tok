@@ -50,6 +50,12 @@ describe('account analysis', () => {
     expect(JSON.stringify(report)).not.toContain('abc');
   });
 
+  it('quotes the note and the day of a topic wish', () => {
+    const wish = { ...doc, suggestions: [{ text: 'Stoizismus', note: 'eher praktisch', createdAt: Date.UTC(2026, 10, 4) }] };
+    const a = analyze([{ uid: 'w', doc: wish as never }], catalog, NOW).perAccount[0];
+    expect(a.suggestions).toEqual(['Stoizismus (Notiz: eher praktisch, 2026-11-04)']);
+  });
+
   it('ignores malformed documents instead of failing', () => {
     const report = analyze([{ uid: 'x', doc: { cards: { 'bad id!': [1], ok: 'nope' }, days: 'x', prefs: null } as never }], catalog, NOW);
     expect(report.perAccount[0].cardsRead).toBe(0);

@@ -49,6 +49,21 @@ Die App teilt jede Karte in Seiten, die ohne Scrollen auf den Bildschirm passen;
 
 Was der Leser umsetzen will, legt er mit „Umsetzen“ auf seine Liste. Die App fragt nach 2, 7 und 17 Tagen nach, ob er es getan hat. Der Abschluss soll darum so formuliert sein, dass man ihn wirklich tun und abhaken kann.
 
+## Grafiken
+
+Wo ein Bild schneller erklärt als ein Absatz (Abläufe, Kreisläufe, Kurven, Vergleiche, Aufbau), bekommt die Karte eine Grafik. Sonst nicht.
+
+Es gibt zwei Arten:
+
+- **Diagramme aus Vorlagen** (Abläufe, Ketten, Vergleiche, Zahlen, Kurven): `content/figures/<name>.json` mit `type` `flow` (Ablauf mit Abzweigung), `chain` (Prozesskette in Zeilen), `compare` (Spalten nebeneinander), `bars` (Zahlen vergleichen), `timeline` (Daten der Reihe nach) oder `curve` (Verlauf über Zeit). `npm run figures` zeichnet daraus die SVG. Beispiele: `gesetz-schweiz.json`, `passwort-hash.json`, `anleihe-zins.json`, `muskel-aufbau.json`. Texte als `"Deutsch|English"`. Im Text: `[[fig:name]]`.
+- **Illustrationen aus Code** (Wellen, Himmel, Erdachse, Punkteraster, Schlösser): in `src/figures/index.ts` aus den Bausteinen in `src/figures/kit.ts`, dürfen sich bewegen, wo Bewegung etwas erklärt. Im Text: `[[grafik:id]]`.
+- Zuerst eine Vorlage prüfen, sie ist am günstigsten. Eine Illustration nur, wenn kein Diagramm passt.
+- Clean und übersichtlich: eine Aussage pro Grafik, wenige Wörter, nichts doppelt, was der Text schon sagt.
+- Ein Absatz `[[fig:name]]` oder `[[grafik:id]]` setzt die Grafik an diese Stelle im Text, direkt nach dem Absatz, den sie zeigt. `[[fig:name|full|Bildunterschrift]]` (oder eine Illustration allein zwischen zwei `---`) gibt ihr eine eigene Seite (für grosse Abläufe; dann am Ende des Textes, nach dem Kernsatz).
+- Farben nur über die Klassen `fg-*` und `t-*` (siehe `src/ui/styles.css`), damit hell, dunkel und die Themenfarbe stimmen. Feste Farben nur für Bedeutung (kalt blau `#5b9bd5`, heiss rot `#e0735a`).
+- Diagramme: Beschriftungen auf Deutsch, die englische Version im Attribut `data-en`. Breite 360, Schrift ab 10.5, wenige Wörter.
+- `npm run validate` prüft: Datei vorhanden, in beiden Sprachen gleich gesetzt, keine Skripte, Bilder oder externen Links, jede Beschriftung übersetzt.
+
 ## Grenzen
 
 - Fakten gehen vor Wirkung. Lieber eine nüchterne wahre Karte als eine packende falsche.

@@ -1,0 +1,10 @@
+{"type":"flow",
+ "steps":[
+  {"t":"1 Idee|1 Idea","s":"Bundesrat, Parlament oder Kanton|Federal Council, parliament or canton"},
+  {"t":"2 Vernehmlassung|2 Consultation","s":"Kantone, Parteien, Verbände|Cantons, parties, associations"},
+  {"t":"3 Botschaft|3 Dispatch","s":"Bundesrat an Parlament|Federal Council to parliament"},
+  {"pair":[{"t":"Nationalrat|National Council","acc":true},{"t":"Ständerat|Council of States","acc":true}],"note":"4 Parlament: hin und her, bis beide denselben Text wollen|4 Parliament: back and forth until both want the same text"},
+  {"t":"5 Referendum ergriffen?|5 Referendum called?","s":"50'000 Unterschriften in 100 Tagen|50,000 signatures in 100 days"}],
+ "fork":[
+  {"label":"nein|no","box":{"t":"Gesetz tritt in Kraft|Law comes into force","acc":true}},
+  {"label":"ja|yes","box":{"t":"Volksabstimmung|Popular vote","s":"Ja: in Kraft, Nein: fällt weg|Yes: in force, no: dropped"}}]}

@@ -97,6 +97,11 @@ describe('textToBlocks', () => {
     expect(parts.join(' ')).toBe(long);
     expect(shorten(sentence)).toEqual([sentence]);
   });
+
+  it('never splits a number like 1.20 apart', () => {
+    const sentence = 'Die Nationalbank hielt den Kurs bei 1.20 Franken pro Euro, und zwar mehrere Jahre lang.';
+    for (const part of shorten(Array(4).fill(sentence).join(' '))) expect(part).not.toMatch(/1\.$|^20/);
+  });
 });
 
 describe('textToBlocks lists', () => {

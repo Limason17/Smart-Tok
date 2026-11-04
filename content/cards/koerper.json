@@ -774,5 +774,86 @@
       "deep": "Ben Singh and colleagues at the University of South Australia published the work in 2023. Exercise doesn't replace treatment for serious mental illness, but it's a strong addition. If you're in a crisis, get help as well.",
       "source": "Singh et al.: Effectiveness of physical activity interventions for improving depression, anxiety and distress. British Journal of Sports Medicine, 2023"
     }
+  },
+  {
+    "id": "so-waechst-muskel",
+    "area": "koerper",
+    "sub": "training",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "achte",
+    "de": {
+      "title": "Was im Muskel passiert, wenn du trainierst",
+      "body": "**Während dem Training:** Schwere Sätze setzen die Muskelfasern unter hohe Spannung. Das ist das Signal an den Körper: „Das reicht nicht, wir brauchen mehr.“ Direkt danach bist du nicht stärker, sondern müder.\n\n**In den Stunden danach:** Der Körper baut mehr Eiweiss in die Fasern ein als sonst. Nach einem harten Training ist dieser Aufbau etwa einen Tag später ungefähr doppelt so hoch wie normal und nach rund anderthalb Tagen fast zurück.\n\n[[fig:muskel-aufbau]]\n\n**In den ersten Wochen:** Du wirst schneller stärker, als du wächst. Das Nervensystem lernt, mehr Fasern gleichzeitig anzusteuern. Sichtbare Muskeln brauchen eher Monate.\n\n> Das Training ist der Reiz. Wachsen tust du in der Pause.",
+      "act": "Wer jeden Tag bis zur Erschöpfung trainiert und schlecht schläft, gibt dem Körper den Reiz, aber nie die Zeit, darauf zu antworten. Genug Eiweiss und Schlaf sind Teil des Trainings.",
+      "source": "MacDougall et al., Canadian Journal of Applied Physiology 1995; Moritani & deVries, American Journal of Physical Medicine 1979"
+    },
+    "en": {
+      "title": "What happens in your muscles when you train",
+      "body": "**During training:** heavy sets put the muscle fibres under high tension. That is the signal to your body: \"This is not enough, we need more.\" Right afterwards you are not stronger, just more tired.\n\n**In the hours after:** your body builds more protein into the fibres than usual. After a hard session this building is roughly twice the normal rate about a day later, and almost back to normal after a day and a half.\n\n[[fig:muskel-aufbau]]\n\n**In the first weeks:** you get stronger faster than you grow. Your nervous system learns to fire more fibres at once. Visible muscle takes months.\n\n> Training is the signal. You grow during the break.",
+      "act": "If you train to exhaustion every day and sleep badly, you give your body the signal but never the time to answer it. Enough protein and sleep are part of training.",
+      "source": "MacDougall et al., Canadian Journal of Applied Physiology 1995; Moritani & deVries, American Journal of Physical Medicine 1979"
+    }
+  },
+  {
+    "id": "testosteron-regelkreis",
+    "area": "koerper",
+    "sub": "hormone",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "achte",
+    "de": {
+      "title": "Wie dein Körper sein Testosteron regelt",
+      "body": "Dein Testosteron wird nicht einfach hergestellt. Es wird geregelt, wie die Wärme in einem Haus mit Thermostat.\n\nDas Gehirn misst laufend den Spiegel. Ist er tief, schickt es über die Hypophyse den Botenstoff LH ins Blut. LH weckt in den Hoden bestimmte Zellen, und die stellen Testosteron her. Ist genug da, drosselt das Gehirn das Signal.\n\n[[fig:testosteron-regelkreis]]\n\n**Und jetzt das, was viele nicht wissen:** Spritzt sich jemand Testosteron oder Steroide, sieht das Gehirn einen hohen Spiegel und schaltet das Signal fast ganz ab. Die Hoden bekommen keinen Auftrag mehr. Sie stellen kaum noch selbst etwas her, schrumpfen, und die Spermienbildung bricht ein.\n\nHört er auf, fehlt plötzlich beides: das fremde Testosteron und das eigene. Bis der Regelkreis wieder anläuft, dauert es oft Monate. Manchmal erholt er sich nie ganz.\n\n> Wer den Thermostat überlistet, legt die eigene Heizung still.\n\nWas den Regelkreis natürlich stützt, ist unspektakulär: genug Schlaf, wenig Bauchfett, genug Essen und hartes Training mit echter Erholung.",
+      "act": "Wer dir ein Mittel für mehr Testosteron verkauft, muss erklären können, was es mit diesem Regelkreis macht. Kann er das nicht, lass die Finger davon.",
+      "deep": "Auch Bauchfett greift ein: Fettgewebe wandelt mit dem Enzym Aromatase Testosteron in Östrogen um. Auch Östrogen meldet dem Gehirn genug, und es drosselt das Signal. Ein zweiter Botenstoff der Hypophyse, FSH, steuert zusammen mit dem Testosteron die Spermienbildung. Darum machen Steroide oft lange unfruchtbar.",
+      "source": "Endotext, Physiology of Testicular Function; Rahnema et al., Anabolic steroid-induced hypogonadism, Fertility and Sterility 2014"
+    },
+    "en": {
+      "title": "How your body regulates its testosterone",
+      "body": "Your testosterone is not simply produced. It is regulated, like the heat in a house with a thermostat.\n\nThe brain keeps measuring the level. When it is low, it sends the messenger LH into the blood via the pituitary gland. LH wakes up certain cells in the testes, and they produce testosterone. When there is enough, the brain turns the signal down.\n\n[[fig:testosteron-regelkreis]]\n\n**And here is what many don't know:** when someone injects testosterone or steroids, the brain sees a high level and switches the signal almost completely off. The testes get no more orders. They barely produce anything themselves, shrink, and sperm production collapses.\n\nWhen he stops, both are suddenly missing: the outside testosterone and his own. It often takes months for the loop to start up again. Sometimes it never fully recovers.\n\n> Trick the thermostat and you shut down your own heating.\n\nWhat supports the loop naturally is unspectacular: enough sleep, little belly fat, enough food and hard training with real recovery.",
+      "act": "Anyone who sells you something for more testosterone must be able to explain what it does to this loop. If they can't, keep your hands off it.",
+      "deep": "Belly fat interferes too: fat tissue uses the enzyme aromatase to turn testosterone into oestrogen. Oestrogen also tells the brain there is enough, and it turns the signal down. A second messenger from the pituitary, FSH, controls sperm production together with testosterone. That is why steroids often cause infertility for a long time.",
+      "source": "Endotext, Physiology of Testicular Function; Rahnema et al., Anabolic steroid-induced hypogonadism, Fertility and Sterility 2014"
+    }
+  },
+  {
+    "id": "wohin-das-fett-geht",
+    "area": "koerper",
+    "sub": "ernaehrung",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Wohin dein Fett verschwindet, wenn du abnimmst",
+      "body": "Frag zehn Leute, wohin das Fett beim Abnehmen geht. Die meisten sagen: Es wird zu Energie, oder es wird ausgeschieden. Beides trifft es nicht.\n\nFett besteht aus Kohlenstoff, Wasserstoff und Sauerstoff. Verbrennt dein Körper es, entstehen Kohlendioxid und Wasser. Das Kohlendioxid atmest du aus.\n\n[[fig:fett-weg]]\n\n> Du atmest dein Fett aus.\n\nSchneller atmen hilft trotzdem nicht. Fett wird nur verbrannt, wenn dein Körper die Energie wirklich braucht. Mehr davon ausatmen kannst du nur mit mehr Bewegung oder weniger Essen.",
+      "source": "Meerman und Brown, When somebody loses weight, where does the fat go?, BMJ 2014"
+    },
+    "en": {
+      "title": "Where your fat goes when you lose weight",
+      "body": "Ask ten people where fat goes when you lose weight. Most say it turns into energy, or it gets excreted. Neither quite gets it.\n\nFat is made of carbon, hydrogen and oxygen. When your body burns it, it becomes carbon dioxide and water. You breathe the carbon dioxide out.\n\n[[fig:fett-weg]]\n\n> You breathe your fat out.\n\nBreathing faster still won't help. Fat is only burned when your body really needs the energy. The only way to breathe more of it out is to move more or eat less.",
+      "source": "Meerman and Brown, When somebody loses weight, where does the fat go?, BMJ 2014"
+    }
+  },
+  {
+    "id": "drei-energiesysteme",
+    "area": "koerper",
+    "sub": "ausdauer",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "so",
+    "de": {
+      "title": "Woher deine Muskeln ihre Energie nehmen",
+      "body": "Muskeln laufen nur mit einem Treibstoff: ATP. Davon liegt im Muskel aber nur so viel bereit, dass es für zwei bis drei Sekunden Vollgas reicht. Danach muss er nachliefern. Dafür hat er drei Systeme, die nacheinander die Führung übernehmen:\n\n[[fig:energiesysteme]]\n\n**Der Sprint:** Kreatinphosphat liefert sofort, aber nur für rund zehn Sekunden. Darum hält niemand einen echten Maximalsprint über 400 Meter durch.\n\n**Die harte Minute:** Dann baut der Muskel Zucker ohne Sauerstoff ab. Das geht schnell, ist aber begrenzt. Säure sammelt sich an, und es beginnt zu brennen. Genau das spürst du am Ende einer langen Serie.\n\n**Alles, was länger dauert:** Ab etwa zwei Minuten führt die Verbrennung mit Sauerstoff, aus Zucker und Fett. Sie ist langsam, reicht aber für Stunden.\n\n> Alle drei laufen immer gleichzeitig. Wie lange und wie hart du arbeitest, entscheidet, welches führt.",
+      "act": "Trainiere passend zu deinem Ziel:\n- Kraft und Schnelligkeit: kurze, harte Sätze mit zwei bis drei Minuten Pause, damit das Kreatinphosphat wieder voll ist.\n- Durchhalten, wenn es brennt: Intervalle von 30 bis 90 Sekunden.\n- Ausdauer und Erholung: lange, ruhige Einheiten, bei denen du noch sprechen kannst.",
+      "deep": "Laktat ist kein Abfall und nicht schuld am Muskelkater. Es wird innert etwa einer Stunde abgebaut und sogar als Treibstoff weiterverwendet, zum Beispiel vom Herz. Muskelkater entsteht durch winzige Verletzungen in den Fasern und kommt erst nach ein bis zwei Tagen.",
+      "source": "Gastin, Energy system interaction and relative contribution during maximal exercise, Sports Medicine 2001; Brooks, The Science and Translation of Lactate Shuttle Theory, Cell Metabolism 2018"
+    },
+    "en": {
+      "title": "Where your muscles get their energy",
+      "body": "Muscles run on a single fuel: ATP. But a muscle only keeps enough of it on hand for two to three seconds of full effort. After that it has to resupply. It has three systems for this, which take the lead one after another:\n\n[[fig:energiesysteme]]\n\n**The sprint:** creatine phosphate delivers instantly, but only for about ten seconds. That is why nobody can hold a true all-out sprint for 400 metres.\n\n**The hard minute:** next, the muscle breaks down sugar without oxygen. It is fast but limited. Acid builds up and it starts to burn. That is exactly what you feel at the end of a long set.\n\n**Anything longer:** from about two minutes, burning with oxygen takes the lead, from sugar and fat. It is slow but lasts for hours.\n\n> All three always run at the same time. How long and how hard you work decides which one leads.",
+      "act": "Train to match your goal:\n- Strength and speed: short, hard sets with two to three minutes of rest so creatine phosphate can refill.\n- Holding on when it burns: intervals of 30 to 90 seconds.\n- Endurance and recovery: long, easy sessions where you can still talk.",
+      "deep": "Lactate is not waste and does not cause muscle soreness. It is cleared within about an hour and even reused as fuel, by the heart for example. Soreness comes from tiny injuries in the fibres and arrives one to two days later.",
+      "source": "Gastin, Energy system interaction and relative contribution during maximal exercise, Sports Medicine 2001; Brooks, The Science and Translation of Lactate Shuttle Theory, Cell Metabolism 2018"
+    }
   }
 ]

@@ -586,5 +586,25 @@
       "deep": "The internet as a network of computers already existed. The World Wide Web is a service on top of it: web pages, links and browsers. The first website, info.cern.ch, is back online today.",
       "source": "CERN: The birth of the Web; Tim Berners-Lee: Information Management: A Proposal (1989)"
     }
+  },
+  {
+    "id": "enigma-geknackt",
+    "area": "geschichte",
+    "sub": "erfindungen",
+    "style": "geschichte",
+    "level": 3,
+    "actKind": "frage",
+    "de": {
+      "title": "Wie die Enigma geknackt wurde",
+      "body": "Die Deutschen hielten ihre Enigma für unknackbar, und auf dem Papier hatten sie recht. Die Maschine sah aus wie eine Schreibmaschine. Bei jedem Tastendruck drehten sich Walzen weiter, sodass derselbe Buchstabe jedes Mal anders verschlüsselt wurde. Die Heeresversion hatte rund 159 Trillionen mögliche Einstellungen, und jeden Tag galt eine neue.\n\nAlles durchzuprobieren war unmöglich. Geknackt wurde sie trotzdem, und zwar nicht an der Mathematik, sondern an Menschen.\n\n**Polen, 1932.** Der junge Mathematiker Marian Rejewski rekonstruiert die Verdrahtung der Walzen, mit Mathematik und mit Unterlagen, die ein deutscher Beamter an Frankreich verkauft hatte. Er nutzt eine Schwäche im Verfahren: Die Funker schicken den Schlüssel jeder Nachricht zweimal hintereinander.\n\n**Juli 1939,** wenige Wochen vor dem Krieg, übergeben die Polen alles, was sie wissen, an Briten und Franzosen.\n\n**Bletchley Park, England.** Alan Turing und Gordon Welchman bauen die „Bombe“, eine Maschine, die falsche Einstellungen in Stunden statt Jahren aussortiert. Sie braucht nur einen Anhaltspunkt: ein Wort, das sicher in der Nachricht steht.\n\nDiesen Anhaltspunkt lieferten die Deutschen selbst. Wetterstationen funkten jeden Morgen „WETTERVORHERSAGE“. Einheiten meldeten täglich „Keine besonderen Ereignisse“. Manche Funker wählten als Schlüssel die Initialen ihrer Freundin oder drei Tasten nebeneinander. Dazu kam ein Konstruktionsfehler: Die Enigma verschlüsselte nie einen Buchstaben als sich selbst. Schon das schloss riesige Mengen an Möglichkeiten aus.\n\n> Die Maschine war stark. Die Gewohnheiten der Menschen, die sie bedienten, waren es nicht.\n\nDer Historiker Harry Hinsley, selbst in Bletchley Park, schätzte, dass dieses Wissen den Krieg um mindestens zwei Jahre verkürzt hat. Bis 1974 blieb alles geheim.",
+      "act": "Wo machst du dich durch Bequemlichkeit angreifbar: dasselbe Passwort überall, dieselbe Ausrede, dieselbe Abkürzung? Die stärkste Ausrüstung nützt nichts, wenn die Disziplin dahinter fehlt.",
+      "source": "Rejewski, How Polish Mathematicians Deciphered the Enigma (1981); Hinsley, British Intelligence in the Second World War; Bletchley Park Trust"
+    },
+    "en": {
+      "title": "How the Enigma was cracked",
+      "body": "The Germans considered their Enigma unbreakable, and on paper they were right. The machine looked like a typewriter. With every key press, rotors moved on, so the same letter was encrypted differently each time. The army version had about 159 quintillion possible settings, and a new one applied every day.\n\nTrying them all was impossible. It was cracked anyway, not through the mathematics but through people.\n\n**Poland, 1932.** The young mathematician Marian Rejewski reconstructs the wiring of the rotors, with mathematics and with documents a German official had sold to France. He exploits a weakness in the procedure: operators send the key of every message twice in a row.\n\n**July 1939,** a few weeks before the war, the Poles hand everything they know to the British and the French.\n\n**Bletchley Park, England.** Alan Turing and Gordon Welchman build the \"Bombe\", a machine that rules out wrong settings in hours instead of years. It needs just one foothold: a word that is certainly in the message.\n\nThe Germans supplied that foothold themselves. Weather stations radioed \"WETTERVORHERSAGE\" (weather forecast) every morning. Units reported \"nothing special to report\" every day. Some operators chose their girlfriend's initials or three keys side by side as their key. On top came a design flaw: the Enigma never encrypted a letter as itself. That alone ruled out huge numbers of possibilities.\n\n> The machine was strong. The habits of the people operating it were not.\n\nThe historian Harry Hinsley, who worked at Bletchley Park himself, estimated that this knowledge shortened the war by at least two years. It all stayed secret until 1974.",
+      "act": "Where does comfort make you vulnerable: the same password everywhere, the same excuse, the same shortcut? The best equipment is useless without the discipline behind it.",
+      "source": "Rejewski, How Polish Mathematicians Deciphered the Enigma (1981); Hinsley, British Intelligence in the Second World War; Bletchley Park Trust"
+    }
   }
 ]

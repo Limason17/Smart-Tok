@@ -1,0 +1,5 @@
+{"type":"chain",
+ "rows":[
+  {"label":"REGISTRIEREN|SIGN UP","items":[{"t":"MeinHund2024|MyDog2024"},{"t":"Hash-Formel|Hash formula","acc":true,"pill":true},{"t":"a3f9…7c21","s":"gespeichert|stored","mono":true}]},
+  {"label":"ANMELDEN|SIGN IN","items":[{"t":"MeinHund2024|MyDog2024"},{"t":"gleiche Formel|Same formula","acc":true,"pill":true},{"t":"a3f9…7c21","s":"gleich? Dann bist du drin|Equal? Then you're in","mono":true}]}],
+ "footer":["Die Formel geht nur in eine Richtung. Die Webseite vergleicht nur Ergebnisse und muss dein Passwort nie kennen.|The formula only works one way. The site only compares results and never needs to know your password."]}

@@ -1,0 +1,4 @@
+{"type":"chain",
+ "rows":[
+  {"items":[{"t":"Spaltung|Fission","s":"Uran zerplatzt|uranium splits","acc":true},{"t":"Wärme|Heat","s":"Wasser kocht|water boils"},{"t":"Dampf|Steam","s":"dreht die Turbine|spins the turbine"},{"t":"Strom|Power","s":"aus dem Generator|from the generator","acc":true}]}],
+ "footer":["Steuerstäbe schlucken Neutronen und halten die Kettenreaktion im Gleichgewicht.|Control rods absorb neutrons and keep the chain reaction in balance."]}

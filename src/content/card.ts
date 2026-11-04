@@ -17,7 +17,8 @@ export interface Card extends CardData {
 
 /** A figure takes about as long to read as this many words. */
 const FIGURE_WORDS = 12;
-const FIGURE_LINES = /^\[\[grafik:[a-z0-9-]+\]\]$/gm;
+/** Illustrations (`[[grafik:id]]`, src/figures) and diagrams (`[[fig:name]]`, content/figures). */
+const FIGURE_LINES = /^\[\[(?:grafik|fig):[^\]]+\]\]$/gm;
 
 export function countWords(t: CardText): number {
   const figures = (t.body.match(FIGURE_LINES)?.length ?? 0) + (t.example?.match(FIGURE_LINES)?.length ?? 0);

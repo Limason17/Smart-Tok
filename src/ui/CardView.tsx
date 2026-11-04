@@ -2,6 +2,7 @@ import {
   Fragment,
   useCallback,
   useEffect,
+  useId,
   useLayoutEffect,
   useMemo,
   useRef,
@@ -10,6 +11,7 @@ import {
   type ReactNode,
 } from 'react';
 import type { Card, CardText } from '../content/card';
+import { figureSvg as diagramSvg, parseFigure as parseDiagram } from '../content/figures';
 import { initials, PERSON_BY_ID } from '../content/people';
 import { FIGURE_LINE, figureSvg } from '../figures';
 import { ACT_LABELS, AREA_BY_ID, STYLE_LABELS, subtopicLabel, type ActKind, type Lang } from '../content/taxonomy';
@@ -71,6 +73,8 @@ export type Block =
   | { k: 'act'; kind: ActKind; text: string }
   /** A figure (`[[grafik:id]]` in the text), see src/figures. */
   | { k: 'fig'; id: string }
+  /** A diagram from content/figures (`[[fig:name]]` in the text); `full` gives it a page of its own. */
+  | { k: 'diagram'; name: string; full?: boolean; caption?: string }
   | { k: 'break' };
 
 /** Paragraphs longer than this are split at a sentence end, so no block of text gets heavy. */
@@ -91,14 +95,19 @@ export function shorten(text: string): string[] {
 /**
  * Text with simple structure:
  * blank lines separate paragraphs, `---` starts a new page, `## ` is a subheading,
- * `> ` a key sentence, lines starting with `- ` a bullet list, `1. ` a numbered list and `[[grafik:id]]` a figure.
+ * `> ` a key sentence, lines starting with `- ` a bullet list, `1. ` a numbered list, `[[grafik:id]]` an illustration from src/figures
+ * and `[[fig:name]]` a diagram from content/figures (`[[fig:name|full|caption]]` on a page of its own).
  */
 export function textToBlocks(text: string): Block[] {
   const out: Block[] = [];
   for (const part of text.split(/\n{2,}/).map((p) => p.trim())) {
     if (!part) continue;
     const fig = FIGURE_LINE.exec(part);
-    if (part === '---') out.push({ k: 'break' });
+    const diagram = parseDiagram(part);
+    if (diagram) {
+      if (diagram.full) out.push({ k: 'break' }, { k: 'diagram', ...diagram }, { k: 'break' });
+      else out.push({ k: 'diagram', ...diagram });
+    } else if (part === '---') out.push({ k: 'break' });
     else if (fig) out.push({ k: 'fig', id: fig[1] });
     else if (part.startsWith('## ')) out.push({ k: 'title', text: part.slice(3), sub: true });
     else if (part.startsWith('> ')) out.push({ k: 'key', text: part.replace(/^> /gm, '').replace(/\n/g, ' ') });
@@ -234,9 +243,26 @@ function BlockView({ b, lang, exampleLabel, first }: { b: Block; lang: Lang; exa
       );
     case 'fig':
       return <Figure id={b.id} lang={lang} cls={cls} />;
+    case 'diagram':
+      return <Diagram b={b} lang={lang} cls={cls} />;
     case 'break':
       return null;
   }
+}
+
+function Diagram({ b, lang, cls }: { b: Extract<Block, { k: 'diagram' }>; lang: Lang; cls: string }) {
+  // A figure is drawn twice (measuring column and page) and several can share marker ids,
+  // so every copy gets its own id prefix; otherwise arrowheads point at the hidden copy.
+  const uid = useId().replace(/[^a-zA-Z0-9]/g, '');
+  const raw = diagramSvg(b.name, lang);
+  if (!raw) return null;
+  const svg = raw.replace(/\bid="([^"]+)"/g, `id="${uid}-$1"`).replace(/url\(#([^)]+)\)/g, `url(#${uid}-$1)`);
+  return (
+    <figure className={`blk blk-diagram${b.full ? ' full' : ''}${cls}`}>
+      <div className="fig-art" dangerouslySetInnerHTML={{ __html: svg }} />
+      {b.caption && <figcaption>{inline(b.caption, lang)}</figcaption>}
+    </figure>
+  );
 }
 
 // ---------------------------------------------------------------- pagination
@@ -301,7 +327,8 @@ export function paginate(blocks: Block[], sizes: Measured[], avail: number): num
 /** Splits a paragraph roughly in half at a sentence end. Returns null when it is a single sentence. */
 /** The sentences of a paragraph; a quotation in straight quotes is never cut apart. */
 function sentencesOf(text: string): string[] {
-  const raw = text.match(/[^.!?…]+(?:[.!?…]+["“”»«']?\s*|$)/g)?.map((s) => s.trim()).filter(Boolean) ?? [];
+  // a sentence ends at . ! ? … followed by a space, so numbers like 1.20 stay whole
+  const raw = text.split(/(?<=[.!?…]["“”»«']?)\s+/).map((s) => s.trim()).filter(Boolean);
   const out: string[] = [];
   let open = false;
   for (const piece of raw) {

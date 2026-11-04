@@ -1,0 +1,7 @@
+{"type":"compare",
+ "title":"Zinsen steigen von 2 auf 4 Prozent|Rates rise from 2 to 4 percent",
+ "cols":[
+  {"head":"Deine alte Anleihe|Your old bond","items":[{"t":"Zins pro Jahr|Interest per year","v":"20"},{"t":"Preis heute|Price today","v":"838","acc":true}]},
+  {"head":"Neue Anleihe|New bond","items":[{"t":"Zins pro Jahr|Interest per year","v":"40"},{"t":"Preis|Price","v":"1000"}]}],
+ "badge":{"col":0,"t":"−16 %"},
+ "footer":["Bei 838 lohnen sich beide gleich (in Franken, 10 Jahre Laufzeit).|At 838 both pay the same (in francs, 10-year term)."]}

@@ -11,6 +11,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "validate": "tsx scripts/validate-content.ts",
+    "figures": "tsx scripts/figures.ts",
     "icons": "node scripts/render-icons.mjs",
     "screenshots": "node scripts/screenshots.mjs"
   },

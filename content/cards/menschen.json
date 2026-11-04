@@ -1034,5 +1034,25 @@
       "deep": "Asch also found something encouraging: as soon as one other participant gave the right answer, conformity dropped sharply. A man who tells the truth gives others the courage to do the same.",
       "source": "Solomon Asch: Effects of group pressure upon the modification and distortion of judgments (1951)"
     }
+  },
+  {
+    "id": "gefangenendilemma",
+    "area": "menschen",
+    "sub": "psychologie",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "so",
+    "de": {
+      "title": "Das Gefangenendilemma: Warum Fairness langfristig gewinnt",
+      "body": "Zwei Komplizen werden gefasst und getrennt verhört. Jeder bekommt dasselbe Angebot: Verrätst du den anderen und er schweigt, kommst du frei, und er sitzt 10 Jahre. Schweigt ihr beide, gibt es je 1 Jahr. Verratet ihr euch gegenseitig, je 5 Jahre.\n\n[[fig:gefangenendilemma]]\n\nDenk wie einer der beiden. Schweigt der andere, ist Verraten für dich besser: 0 statt 1 Jahr. Verrät er, ist Verraten auch besser: 5 statt 10. Also verrätst du. Er denkt genauso. Am Ende sitzen beide 5 Jahre, obwohl Schweigen nur 1 Jahr gekostet hätte.\n\n> Wenn jeder nur für sich das Beste wählt, landen alle beim Schlechteren.\n\n**Die Wende:** 1980 liess der Politologe Robert Axelrod Computerprogramme in einem Turnier gegeneinander antreten. Sie spielten dieses Spiel immer wieder gegen dieselben Gegner. Es gewann das einfachste Programm, „Wie du mir, so ich dir“: Fang fair an, und mach danach immer, was der andere zuletzt getan hat. In einer zweiten Runde mit über 60 Programmen gewann es wieder.\n\nEinmal gespielt lohnt sich Verrat. Wer sich wiedersieht, gewinnt mit Fairness, die sich nicht ausnutzen lässt.",
+      "act": "- Fang fair an. Gib den ersten Vertrauensvorschuss.\n- Reagiere auf Unfairness sofort, nicht erst beim dritten Mal.\n- Vergib, sobald der andere wieder fair ist. Trag nichts nach.\n- Sei berechenbar. Andere sollen wissen, woran sie bei dir sind.",
+      "source": "Axelrod, The Evolution of Cooperation (1984)"
+    },
+    "en": {
+      "title": "The prisoner's dilemma: why fairness wins long-term",
+      "body": "Two accomplices are caught and questioned separately. Each gets the same offer: if you betray the other and he stays silent, you go free and he gets 10 years. If you both stay silent, you each get 1 year. If you betray each other, 5 years each.\n\n[[fig:gefangenendilemma]]\n\nThink like one of them. If the other stays silent, betraying is better for you: 0 instead of 1 year. If he betrays, betraying is still better: 5 instead of 10. So you betray. He thinks the same way. In the end both serve 5 years, although silence would have cost only 1.\n\n> When everyone picks what is best for himself, everyone ends up worse off.\n\n**The twist:** in 1980 the political scientist Robert Axelrod pitted computer programs against each other in a tournament. They played this game again and again against the same opponents. The simplest program won, \"tit for tat\": start fair, then always do what the other did last. In a second round with more than 60 programs, it won again.\n\nPlayed once, betrayal pays. When you meet again, fairness that cannot be exploited wins.",
+      "act": "- Start fair. Give the first bit of trust.\n- Respond to unfairness at once, not the third time.\n- Forgive as soon as the other is fair again. Hold no grudges.\n- Be predictable. People should know where they stand with you.",
+      "source": "Axelrod, The Evolution of Cooperation (1984)"
+    }
   }
 ]

@@ -6,6 +6,8 @@ import { introCard } from '../src/content/people';
 import { deriveCard, type Card } from '../src/content/card';
 import { NEWS_AREA, newsMonth } from '../src/content/news';
 import { LEGAL, OWNER } from '../src/content/legal';
+import { parseFigure } from '../src/content/figure-mark';
+import { renderFigure, type FigureSpec } from '../src/content/figure-kit';
 
 const dir = join(import.meta.dirname, '..', 'content', 'cards');
 const archiveDir = join(import.meta.dirname, '..', 'public', 'news-archive');
@@ -86,6 +88,52 @@ for (const c of cards) {
   if (new Set(c.people ?? []).size !== (c.people ?? []).length) errors.push(`${c.id}: person listed twice`);
 }
 
+// Figures: every [[fig:name]] exists, is used in both languages, and is a safe, self-contained SVG.
+const figDir = join(import.meta.dirname, '..', 'content', 'figures');
+const figFiles = new Set(existsSync(figDir) ? readdirSync(figDir).filter((f) => f.endsWith('.svg')).map((f) => f.slice(0, -4)) : []);
+const usedFigures = new Set<string>();
+const figuresIn = (text: string | undefined) =>
+  (text ?? '')
+    .split(/\n{2,}/)
+    .map((p) => parseFigure(p))
+    .filter((f): f is NonNullable<typeof f> => !!f)
+    .map((f) => f.name);
+for (const c of cards) {
+  const texts = [c, ...(c.slides ?? [])];
+  for (const t of texts) {
+    const de = [...figuresIn(t.de.body), ...figuresIn(t.de.deep)];
+    const en = [...figuresIn(t.en.body), ...figuresIn(t.en.deep)];
+    if (de.join() !== en.join()) errors.push(`${c.id}: figures differ between de and en (${de.join() || '–'} / ${en.join() || '–'})`);
+    for (const f of de) {
+      usedFigures.add(f);
+      if (!figFiles.has(f)) errors.push(`${c.id}: figure "${f}" not found in content/figures`);
+    }
+  }
+  const stray = JSON.stringify([c.de, c.en]).match(/\[\[fig[^\]]*\]\]/g)?.filter((m) => !parseFigure(m)) ?? [];
+  if (stray.length) errors.push(`${c.id}: malformed figure mark ${stray[0]} (use [[fig:name]] alone in its paragraph)`);
+}
+for (const name of figFiles) {
+  const svg = readFileSync(join(figDir, `${name}.svg`), 'utf8');
+  const label = `content/figures/${name}.svg`;
+  if (!usedFigures.has(name)) errors.push(`${label}: not used by any card`);
+  const specPath = join(figDir, `${name}.json`);
+  if (existsSync(specPath)) {
+    try {
+      if (renderFigure(JSON.parse(readFileSync(specPath, 'utf8')) as FigureSpec, `${name}.json`) !== svg) errors.push(`${label}: out of date, run npm run figures`);
+    } catch (e) {
+      errors.push(`content/figures/${name}.json: ${(e as Error).message}`);
+    }
+  }
+  if (!/^\s*(<\?xml[^>]*>\s*)?<svg[^>]*\sviewBox="[^"]+"/.test(svg)) errors.push(`${label}: must start with <svg ... viewBox="...">`);
+  if (/<script|<foreignObject|<image|\son[a-z]+\s*=|javascript:|(?:xlink:)?href\s*=\s*"(?!#)|url\((?!#)|@import/i.test(svg))
+    errors.push(`${label}: scripts, event handlers, images and external references are not allowed`);
+  if (/\s(width|height)="[^"]*"[^>]*>/.test(svg.slice(0, svg.indexOf('>') + 1))) errors.push(`${label}: no width/height on <svg>, the card sizes it`);
+  for (const m of svg.matchAll(/<(text|tspan)\b([^>]*)>([^<]*)</g)) {
+    if (/\p{L}{2,}/u.test(m[3]) && !/\sdata-en="[^"]+"/.test(m[2])) errors.push(`${label}: label "${m[3].trim()}" needs data-en`);
+  }
+  if (svg.length > 12_000) errors.push(`${label}: larger than 12 KB, keep figures simple`);
+}
+
 // Privacy notice: a real contact person and both languages complete.
 if (OWNER.name.includes('{{') || !OWNER.name.trim()) errors.push('src/content/legal.ts: OWNER.name is not filled in');
 if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(OWNER.email)) errors.push('src/content/legal.ts: OWNER.email is not a valid email address');
@@ -105,3 +153,4 @@ console.log(`  areas:   ${count((c) => c.area)}`);
 console.log(`  styles:  ${count((c) => c.style)}`);
 console.log(`  formats: ${count((c) => c.format)}`);
 console.log(`  length:  ${count((c) => c.length)}`);
+if (figFiles.size) console.log(`  figures: ${figFiles.size}`);

@@ -1,0 +1,9 @@
+{"type":"flow",
+ "steps":[
+  {"t":"Gehirn (Hypothalamus)|Brain (hypothalamus)","s":"sendet das Startsignal GnRH|sends the start signal GnRH"},
+  {"t":"Hypophyse|Pituitary gland","s":"schickt LH ins Blut|releases LH into the blood"},
+  {"t":"Hoden|Testes","s":"stellen Testosteron her|produce testosterone","acc":true},
+  {"t":"Gehirn misst den Spiegel|Brain checks the level"}],
+ "fork":[
+  {"label":"zu tief|too low","box":{"t":"Mehr Signal|More signal"}},
+  {"label":"genug|enough","box":{"t":"Weniger Signal|Less signal","acc":true}}]}

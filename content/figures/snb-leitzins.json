@@ -1,0 +1,7 @@
+{"type":"flow",
+ "steps":[
+  {"t":"Leitzins steigt|Policy rate rises","acc":true},
+  {"t":"Geld wird teurer|Money gets dearer","s":"Kredite und Hypotheken kosten mehr|Loans and mortgages cost more"},
+  {"t":"Franken wird stärker|Franc gets stronger","s":"Importe werden billiger|Imports get cheaper"},
+  {"t":"Weniger Nachfrage|Less demand","s":"weniger gekauft und investiert|less bought and invested"},
+  {"t":"Teuerung sinkt|Inflation falls","s":"nach 1 bis 2 Jahren|after 1 to 2 years","acc":true}]}

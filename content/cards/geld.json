@@ -1401,5 +1401,25 @@
       "deep": "The formula: gain needed = loss ÷ (1 − loss). For a 30% loss: 0.3 ÷ 0.7 = 43%. Spreading your money widely protects you from a single company wiping it out. It does not prevent the whole market falling: the MSCI World index lost more than 50% in the 2007 to 2009 financial crisis.",
       "source": "Own calculation; MSCI"
     }
+  },
+  {
+    "id": "anleihen-und-zinsen",
+    "area": "geld",
+    "sub": "investment",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "merke",
+    "de": {
+      "title": "Warum Anleihen fallen, wenn die Zinsen steigen",
+      "body": "Eine Anleihe ist ein Kredit, den du einem Staat oder einer Firma gibst. Du zahlst zum Beispiel 1000 Franken, bekommst zehn Jahre lang 2 Prozent Zins, also 20 Franken pro Jahr, und am Ende deine 1000 zurück. Klingt sicher. Trotzdem kann ihr Kurs einbrechen.\n\nAngenommen, die Zinsen steigen auf 4 Prozent. Neue Anleihen zahlen jetzt 40 Franken pro Jahr. Willst du deine alte verkaufen, zahlt dir niemand 1000 Franken für 20 Franken Zins, wenn er nebenan 40 bekommt. Du musst sie billiger anbieten, bis sich beide gleich lohnen.\n\n[[fig:anleihe-zins]]\n\n> Der Zins einer Anleihe ist fest. Darum bewegt sich ihr Preis.\n\nJe länger die Laufzeit, desto stärker der Effekt, weil der Käufer länger auf dem schlechteren Zins sitzt. Als die Zinsen 2022 so schnell stiegen wie seit Jahrzehnten nicht, verloren sehr lange Staatsanleihen teils mehr als die Hälfte ihres Werts.\n\nHältst du die Anleihe bis zum Ende, bekommst du deine 1000 trotzdem zurück. Dein Verlust ist dann der Zins, den du anderswo bekommen hättest.",
+      "act": "Sicher heisst bei Anleihen: Der Schuldner zahlt wahrscheinlich zurück. Es heisst nicht, dass der Kurs stillsteht. Wer das Geld in wenigen Jahren braucht, achtet auf kurze Laufzeiten.",
+      "source": "Eigene Beispielrechnung (Barwert bei 4 Prozent Rendite, jährliche Zahlungen); Financial Times und Bloomberg zu den Anleiheverlusten 2022"
+    },
+    "en": {
+      "title": "Why bonds fall when interest rates rise",
+      "body": "A bond is a loan you give to a government or a company. Say you pay 1,000 francs, get 2 percent interest for ten years, so 20 francs a year, and your 1,000 back at the end. Sounds safe. Yet its price can collapse.\n\nSuppose rates rise to 4 percent. New bonds now pay 40 francs a year. If you want to sell your old one, nobody pays 1,000 francs for 20 francs of interest when they can get 40 next door. You have to offer it cheaper until both pay the same.\n\n[[fig:anleihe-zins]]\n\n> A bond's interest is fixed. That is why its price moves.\n\nThe longer the term, the stronger the effect, because the buyer is stuck with the worse rate for longer. When rates rose faster in 2022 than in decades, very long government bonds lost more than half their value in some cases.\n\nIf you hold the bond to the end, you still get your 1,000 back. Your loss is then the interest you could have earned elsewhere.",
+      "act": "With bonds, safe means the borrower will probably pay you back. It does not mean the price stands still. If you need the money within a few years, look for short terms.",
+      "source": "Own worked example (present value at a 4 percent yield, annual payments); Financial Times and Bloomberg on the 2022 bond losses"
+    }
   }
 ]
