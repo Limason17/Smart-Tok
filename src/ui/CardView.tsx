@@ -3,6 +3,7 @@ import {
   useCallback,
   useEffect,
   useLayoutEffect,
+  useMemo,
   useRef,
   useState,
   type CSSProperties,
@@ -10,6 +11,7 @@ import {
 } from 'react';
 import type { Card, CardText } from '../content/card';
 import { initials, PERSON_BY_ID } from '../content/people';
+import { FIGURE_LINE, figureSvg } from '../figures';
 import { ACT_LABELS, AREA_BY_ID, STYLE_LABELS, subtopicLabel, type ActKind, type Lang } from '../content/taxonomy';
 import { useT } from '../i18n/strings';
 import { useStore } from '../store/store';
@@ -67,6 +69,8 @@ export type Block =
   | { k: 'quote'; quote: Quote }
   | { k: 'example'; text: string; cont?: boolean }
   | { k: 'act'; kind: ActKind; text: string }
+  /** A figure (`[[grafik:id]]` in the text), see src/figures. */
+  | { k: 'fig'; id: string }
   | { k: 'break' };
 
 /** Paragraphs longer than this are split at a sentence end, so no block of text gets heavy. */
@@ -87,17 +91,21 @@ export function shorten(text: string): string[] {
 /**
  * Text with simple structure:
  * blank lines separate paragraphs, `---` starts a new page, `## ` is a subheading,
- * `> ` a key sentence and lines starting with `- ` a bullet list.
+ * `> ` a key sentence, lines starting with `- ` a bullet list, `1. ` a numbered list and `[[grafik:id]]` a figure.
  */
 export function textToBlocks(text: string): Block[] {
   const out: Block[] = [];
   for (const part of text.split(/\n{2,}/).map((p) => p.trim())) {
     if (!part) continue;
+    const fig = FIGURE_LINE.exec(part);
     if (part === '---') out.push({ k: 'break' });
+    else if (fig) out.push({ k: 'fig', id: fig[1] });
     else if (part.startsWith('## ')) out.push({ k: 'title', text: part.slice(3), sub: true });
     else if (part.startsWith('> ')) out.push({ k: 'key', text: part.replace(/^> /gm, '').replace(/\n/g, ' ') });
     else if (part.split('\n').every((l) => l.trim().startsWith('- ')))
       for (const l of part.split('\n')) out.push({ k: 'li', text: l.trim().slice(2) });
+    else if (part.split('\n').every((l) => /^\d+\. /.test(l.trim())))
+      for (const l of part.split('\n')) out.push({ k: 'li', text: l.trim().replace(/^\d+\. /, ''), n: parseInt(l, 10) });
     else for (const p of shorten(part.replace(/\n/g, ' '))) out.push({ k: 'p', text: p });
   }
   return out;
@@ -151,6 +159,11 @@ function ActBox({ kind, text, lang }: { kind: ActKind; text: string; lang: Lang 
       )}
     </>
   );
+}
+
+function Figure({ id, lang, cls }: { id: string; lang: Lang; cls: string }) {
+  const html = useMemo(() => figureSvg(id, lang), [id, lang]);
+  return html ? <figure className={`blk blk-fig${cls}`} dangerouslySetInnerHTML={{ __html: html }} /> : null;
 }
 
 const ACT_ICONS: Record<ActKind, string> = {
@@ -219,6 +232,8 @@ function BlockView({ b, lang, exampleLabel, first }: { b: Block; lang: Lang; exa
           <ActBox kind={b.kind} text={b.text} lang={lang} />
         </div>
       );
+    case 'fig':
+      return <Figure id={b.id} lang={lang} cls={cls} />;
     case 'break':
       return null;
   }

@@ -15,9 +15,15 @@ export interface Card extends CardData {
   words: number;
 }
 
+/** A figure takes about as long to read as this many words. */
+const FIGURE_WORDS = 12;
+const FIGURE_LINES = /^\[\[grafik:[a-z0-9-]+\]\]$/gm;
+
 export function countWords(t: CardText): number {
-  const parts = [t.title, t.body.replace(/^---$/gm, ''), ...(t.points ?? []), t.quote?.text ?? '', t.example ?? '', t.act ?? ''];
-  return parts.join(' ').split(/\s+/).filter(Boolean).length;
+  const figures = (t.body.match(FIGURE_LINES)?.length ?? 0) + (t.example?.match(FIGURE_LINES)?.length ?? 0);
+  const body = t.body.replace(/^---$/gm, '').replace(FIGURE_LINES, '');
+  const parts = [t.title, body, ...(t.points ?? []), t.quote?.text ?? '', (t.example ?? '').replace(FIGURE_LINES, ''), t.act ?? ''];
+  return parts.join(' ').split(/\s+/).filter(Boolean).length + figures * FIGURE_WORDS;
 }
 
 export function deriveCard(data: CardData): Card {

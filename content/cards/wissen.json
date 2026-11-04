@@ -8,14 +8,14 @@
     "actKind": "so",
     "de": {
       "title": "Warum der Himmel blau ist",
-      "body": "Sonnenlicht sieht weiss aus, enthält aber alle Farben des Regenbogens. Wenn es durch die Luft fällt, stösst es auf winzige Teilchen, vor allem Stickstoff und Sauerstoff.\n\nDiese Teilchen **streuen** kurzwelliges, blaues Licht viel stärker als langwelliges, rotes. Das blaue Licht wird kreuz und quer über den ganzen Himmel verteilt und kommt aus allen Richtungen zu deinem Auge.\n\nBeim Sonnenuntergang muss das Licht einen viel längeren Weg durch die Luft nehmen. Das Blau ist dann schon weggestreut, und übrig bleiben **Orange und Rot**.",
+      "body": "Sonnenlicht sieht weiss aus, enthält aber alle Farben des Regenbogens. Wenn es durch die Luft fällt, stösst es auf winzige Teilchen, vor allem Stickstoff und Sauerstoff.\n\nDiese Teilchen **streuen** kurzwelliges, blaues Licht viel stärker als langwelliges, rotes. Das blaue Licht wird kreuz und quer über den ganzen Himmel verteilt und kommt aus allen Richtungen zu deinem Auge.\n\nBeim Sonnenuntergang muss das Licht einen viel längeren Weg durch die Luft nehmen. Das Blau ist dann schon weggestreut, und übrig bleiben **Orange und Rot**.\n\n[[grafik:himmel-streuung]]",
       "act": "Erklär es in drei Schritten:\n- Sonnenlicht enthält alle Farben.\n- Die Luft streut kurzwelliges Blau viel stärker als Rot.\n- Am Abend ist der Weg durch die Luft lang, das Blau ist weggestreut, übrig bleibt Rot.",
       "deep": "Der Effekt heisst Rayleigh-Streuung, nach dem britischen Physiker Lord Rayleigh, der ihn 1871 beschrieb. Dass der Himmel nicht violett ist, obwohl Violett noch stärker gestreut wird, liegt daran, dass das Sonnenlicht weniger Violett enthält und unsere Augen dafür weniger empfindlich sind.",
       "source": "Lord Rayleigh: On the light from the sky. Philosophical Magazine, 1871"
     },
     "en": {
       "title": "Why the sky is blue",
-      "body": "Sunlight looks white but contains every colour of the rainbow. As it passes through the air, it hits tiny particles, mainly nitrogen and oxygen.\n\nThese particles **scatter** short-wave blue light much more strongly than long-wave red light. The blue light gets spread all over the sky and reaches your eye from every direction.\n\nAt sunset, light has to travel a much longer path through the air. By then the blue has been scattered away, leaving **orange and red**.",
+      "body": "Sunlight looks white but contains every colour of the rainbow. As it passes through the air, it hits tiny particles, mainly nitrogen and oxygen.\n\nThese particles **scatter** short-wave blue light much more strongly than long-wave red light. The blue light gets spread all over the sky and reaches your eye from every direction.\n\nAt sunset, light has to travel a much longer path through the air. By then the blue has been scattered away, leaving **orange and red**.\n\n[[grafik:himmel-streuung]]",
       "act": "Explain it in three steps:\n- Sunlight contains every colour.\n- Air scatters short-wave blue far more than red.\n- In the evening the path through the air is long, the blue is scattered away, red is what's left.",
       "deep": "The effect is called Rayleigh scattering, after British physicist Lord Rayleigh, who described it in 1871. The sky isn't violet, even though violet scatters even more, because sunlight contains less violet and our eyes are less sensitive to it.",
       "source": "Lord Rayleigh: On the light from the sky. Philosophical Magazine, 1871"
@@ -1225,6 +1225,180 @@
       "act": "For 30 days, end every shower with 30 seconds of cold water. Breathe calmly, count. Go up to 60 seconds once it's easy.",
       "deep": "The study by Geert Buijze and colleagues appeared in PLOS ONE in 2016. The length of the cold shower didn't matter much: 30 seconds worked about as well as 90. If you have heart problems, get medical advice first.",
       "source": "Buijze et al.: The effect of cold showering on health and work. PLOS ONE (2016)"
+    }
+  },
+  {
+    "id": "mikrowelle-von-aussen",
+    "area": "wissen",
+    "sub": "allgemein",
+    "style": "erklaerung",
+    "level": 1,
+    "actKind": "so",
+    "de": {
+      "title": "Die Mikrowelle kocht nicht von innen",
+      "body": "Der Rand ist heiss, die Mitte noch kalt. Das hat einen Grund.\n\nMikrowellen sind Funkwellen. Sie bringen die **Wassermoleküle** im Essen dazu, sich milliardenfach pro Sekunde hin und her zu drehen. Dabei stossen sie aneinander, und das erzeugt Wärme.\n\nDie Wellen dringen aber nur **wenige Zentimeter** tief ein. Den Kern erreicht die Wärme erst, wenn sie von aussen nach innen wandert.\n\n[[grafik:mikrowelle-waerme]]",
+      "act": "- Grosse Portionen flach und breit verteilen.\n- Nach der Hälfte der Zeit umrühren.\n- Eine Minute stehen lassen, damit die Wärme bis in die Mitte kommt.",
+      "source": "Encyclopaedia Britannica: Microwave oven"
+    },
+    "en": {
+      "title": "The microwave doesn't cook from the inside",
+      "body": "The edge is hot, the middle still cold. There is a reason for that.\n\nMicrowaves are radio waves. They make the **water molecules** in food twist back and forth billions of times a second. They bump into each other as they do, and that creates heat.\n\nBut the waves only reach **a few centimetres** deep. The heat gets to the core only by moving from the outside in.\n\n[[grafik:mikrowelle-waerme]]",
+      "act": "- Spread large portions flat and wide.\n- Stir halfway through.\n- Let it stand for a minute so the heat reaches the middle.",
+      "source": "Encyclopaedia Britannica: Microwave oven"
+    }
+  },
+  {
+    "id": "gegenschall",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "merke",
+    "de": {
+      "title": "So löscht dein Kopfhörer Lärm aus",
+      "body": "Gegen Lärm hilft hier kein Abdichten, sondern ein zweiter Lärm.\n\nSchall ist eine Welle aus Druckschwankungen in der Luft. Treffen zwei Wellen genau gegeneinander, **Berg auf Tal**, heben sie sich auf. Physiker nennen das destruktive Interferenz.\n\n[[grafik:gegenschall]]\n\nGenau das macht **aktive Geräuschunterdrückung**: Kleine Mikrofone hören das Geräusch von aussen, ein Chip berechnet die gespiegelte Welle, und der Lautsprecher spielt sie im selben Moment ab. In deinem Ohr bleibt wenig übrig.\n\n## Wo es an Grenzen stösst\n\nAm besten klappt das bei gleichmässigen, tiefen Tönen wie dem Brummen im Flugzeug. Stimmen, Klirren und Klicks ändern sich zu schnell: Bis die Gegenwelle berechnet ist, ist der Ton schon ein anderer. Dagegen hilft nur das Polster, das die Ohren abdichtet.",
+      "act": "Noise-Cancelling bekämpft Schall mit Schall. Es wirkt am besten gegen gleichmässiges, tiefes Brummen.",
+      "deep": "Die Idee ist alt: Der deutsche Physiker Paul Lueg liess sie sich 1936 in den USA patentieren. Brauchbar wurde sie erst mit schneller Elektronik, zuerst in Kopfhörern für Piloten in den 1980er-Jahren. Hohe Töne sind schwierig, weil ihre Wellen so kurz sind, dass schon ein winziger Abstand zwischen Mikrofon und Ohr die Gegenwelle aus dem Takt bringt.",
+      "source": "Paul Lueg: Process of silencing sound oscillations, US-Patent 2,043,416 (1936)"
+    },
+    "en": {
+      "title": "How your headphones cancel noise",
+      "body": "Sealing your ears isn't the trick here. A second noise is.\n\nSound is a wave of pressure changes in the air. When two waves meet exactly out of step, **peak on trough**, they cancel out. Physicists call it destructive interference.\n\n[[grafik:gegenschall]]\n\nThat is what **active noise cancelling** does: small microphones pick up the noise outside, a chip works out the mirrored wave, and the speaker plays it at the same moment. Little is left in your ear.\n\n## Where it reaches its limits\n\nIt works best on steady, low sounds like the hum on a plane. Voices, clinks and clicks change too fast: by the time the anti-wave is computed, the sound has moved on. Against those, only the cushion sealing your ears helps.",
+      "act": "Noise cancelling fights sound with sound. It works best against a steady, low hum.",
+      "deep": "The idea is old: the German physicist Paul Lueg patented it in the US in 1936. It only became practical with fast electronics, first in pilot headsets in the 1980s. High sounds are hard because their waves are so short that even a tiny gap between microphone and ear throws the anti-wave out of step.",
+      "source": "Paul Lueg: Process of silencing sound oscillations, US patent 2,043,416 (1936)"
+    }
+  },
+  {
+    "id": "kuehlschrank-waermepumpe",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "achte",
+    "de": {
+      "title": "Kühlschrank und Wärmepumpe: Wärme bergauf pumpen",
+      "body": "Halte die Hand hinten an den Kühlschrank. Dort ist es warm. Ein Kühlschrank macht nicht kalt. Er **schafft Wärme raus**.\n\nVon selbst fliesst Wärme immer vom Warmen zum Kalten. Um sie vom kalten Innenraum in die warme Küche zu bringen, braucht es Arbeit. Die erledigt ein Kältemittel, das in einem geschlossenen Kreislauf fliesst.\n\n---\n\n## Der Kreislauf\n\n[[grafik:kuehlschrank-kreislauf]]\n\n1. Im Innenraum verdampft das Kältemittel bei tiefer Temperatur und nimmt dabei Wärme auf.\n2. Der Kompressor, das Brummen, presst das Gas zusammen. Dabei wird es heiss.\n3. Im Gitter hinten gibt es die Wärme an die Küche ab und wird wieder flüssig.\n4. Eine Engstelle senkt den Druck, das Mittel kühlt stark ab und fliesst zurück.\n\n## Dasselbe, nur umgedreht\n\nEine **Wärmepumpe** fürs Haus ist ein Kühlschrank, der die Aussenluft kühlt und das Haus heizt. Selbst in kalter Luft steckt noch Wärme, und die pumpt sie herauf.\n\nDer Trick: Für eine Kilowattstunde Strom liefert sie oft **drei bis vier Kilowattstunden Wärme**. Sie erzeugt die Wärme nicht, sie verschiebt sie. Eine Elektroheizung macht aus einer Kilowattstunde Strom genau eine Kilowattstunde Wärme.\n\n> Kälte kann man nicht machen. Man kann nur Wärme wegschaffen.",
+      "act": "Ist das Gitter hinten verstaubt oder steht der Kühlschrank direkt an der Wand, kann die Wärme schlecht weg. Dann läuft er länger und braucht mehr Strom. Ein paar Zentimeter Abstand und einmal im Jahr abstauben helfen.",
+      "deep": "Dass Wärme von selbst nur vom Warmen zum Kalten fliesst, ist der zweite Hauptsatz der Thermodynamik, formuliert von Rudolf Clausius in den 1850er-Jahren. Das Verhältnis von gelieferter Wärme zu eingesetztem Strom heisst Leistungszahl. Je kleiner der Temperaturunterschied, desto höher ist sie. Darum arbeitet eine Wärmepumpe mit Bodenheizung, die nur lauwarmes Wasser braucht, besonders sparsam.",
+      "source": "Rudolf Clausius (1850er-Jahre); Bundesamt für Energie: Wärmepumpen"
+    },
+    "en": {
+      "title": "Fridges and heat pumps: pumping heat uphill",
+      "body": "Put your hand on the back of the fridge. It's warm there. A fridge doesn't make cold. It **moves heat out**.\n\nOn its own, heat always flows from warm to cold. Getting it from the cold inside into the warm kitchen takes work. A refrigerant flowing in a closed loop does that work.\n\n---\n\n## The loop\n\n[[grafik:kuehlschrank-kreislauf]]\n\n1. Inside, the refrigerant evaporates at a low temperature and takes up heat.\n2. The compressor, the hum you hear, squeezes the gas. That makes it hot.\n3. In the grid at the back it gives the heat off to the kitchen and turns liquid again.\n4. A narrow point drops the pressure, the refrigerant cools down sharply and flows back.\n\n## The same thing, reversed\n\nA **heat pump** for a house is a fridge that cools the outside air and heats the house. Even cold air still holds heat, and the pump lifts it up.\n\nThe trick: for one kilowatt-hour of electricity it often delivers **three to four kilowatt-hours of heat**. It doesn't make the heat, it moves it. An electric heater turns one kilowatt-hour of electricity into exactly one kilowatt-hour of heat.\n\n> You can't make cold. You can only move heat away.",
+      "act": "If the grid at the back is dusty or the fridge stands right against the wall, the heat can't get away. It then runs longer and uses more power. A few centimetres of space and dusting once a year help.",
+      "deep": "That heat only flows from warm to cold by itself is the second law of thermodynamics, stated by Rudolf Clausius in the 1850s. The ratio of heat delivered to electricity used is called the coefficient of performance. The smaller the temperature difference, the higher it is. That is why a heat pump with underfloor heating, which only needs lukewarm water, is especially efficient.",
+      "source": "Rudolf Clausius (1850s); Swiss Federal Office of Energy: heat pumps"
+    }
+  },
+  {
+    "id": "gps-zeitmessung",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "merke",
+    "de": {
+      "title": "So findet dein Handy dich per GPS",
+      "body": "Kein Satellit weiss, wo du bist. Dein Handy rechnet es selbst aus, und zwar mit **Zeit**.\n\nRund 30 GPS-Satelliten kreisen in etwa 20 000 km Höhe. Jeder hat Atomuhren an Bord und sendet ständig zwei Dinge: wo er gerade ist und wie spät es genau ist.\n\nDein Handy vergleicht die Zeit im Signal mit der Zeit beim Empfang. Das Signal reist mit Lichtgeschwindigkeit, also ergibt die Laufzeit den **Abstand** zum Satelliten.\n\n---\n\n## Wo sich die Kreise treffen, bist du\n\n[[grafik:gps-kreise]]\n\n---\n\nEin Abstand allein sagt nur: Du bist irgendwo auf einer Kugel um diesen Satelliten. Mit drei Satelliten bleibt nur ein Punkt übrig, der auf der Erde liegt.\n\nDas Problem: Die Uhr im Handy ist ungenau. Eine Tausendstelsekunde Fehler macht schon **300 km** aus. Darum braucht es einen **vierten Satelliten**. Mit ihm rechnet das Handy den Fehler seiner eigenen Uhr heraus.\n\n> GPS ist Zeitmessung. Die Position ergibt sich aus der Laufzeit der Signale.",
+      "act": "GPS misst Zeit, nicht Ort. Es braucht vier Satelliten: drei für die Position, einen für die Uhr.",
+      "deep": "Die Uhren in den Satelliten gehen wegen der Relativitätstheorie anders als auf der Erde. Weil sie schnell fliegen, gehen sie pro Tag rund 7 Mikrosekunden langsamer. Weil die Schwerkraft dort oben schwächer ist, gehen sie rund 45 Mikrosekunden schneller. Zusammen sind es etwa 38 Mikrosekunden pro Tag. Ohne Korrektur läge GPS schon nach einem Tag rund 10 km daneben. Deshalb werden die Satellitenuhren schon vor dem Start leicht verlangsamt.",
+      "source": "GPS.gov; Neil Ashby: Relativity in the Global Positioning System. Living Reviews in Relativity (2003)"
+    },
+    "en": {
+      "title": "How your phone finds you with GPS",
+      "body": "No satellite knows where you are. Your phone works it out itself, using **time**.\n\nAbout 30 GPS satellites orbit at roughly 20,000 km. Each carries atomic clocks and keeps sending two things: where it is right now and exactly what time it is.\n\nYour phone compares the time in the signal with the time it arrives. The signal travels at the speed of light, so the travel time gives the **distance** to the satellite.\n\n---\n\n## Where the circles meet, you are\n\n[[grafik:gps-kreise]]\n\n---\n\nOne distance only says you are somewhere on a sphere around that satellite. With three satellites, only one point is left that lies on Earth.\n\nThe catch: your phone's clock is inaccurate. An error of a thousandth of a second already means **300 km**. That's why a **fourth satellite** is needed. With it, the phone calculates the error of its own clock and removes it.\n\n> GPS is timekeeping. Your position follows from how long the signals travel.",
+      "act": "GPS measures time, not place. It takes four satellites: three for the position, one for the clock.",
+      "deep": "Because of relativity, the clocks on the satellites run differently from clocks on Earth. Because they move fast, they lose about 7 microseconds a day. Because gravity is weaker up there, they gain about 45 microseconds. Together that is about 38 microseconds a day. Without a correction, GPS would be about 10 km off after a single day. That is why the satellite clocks are slowed down slightly before launch.",
+      "source": "GPS.gov; Neil Ashby: Relativity in the Global Positioning System. Living Reviews in Relativity (2003)"
+    }
+  },
+  {
+    "id": "jahreszeiten-achse",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "merke",
+    "de": {
+      "title": "Im Winter ist die Erde der Sonne näher",
+      "body": "Die meisten glauben: Im Sommer ist die Erde der Sonne näher. Das Gegenteil stimmt. Anfang Januar ist sie ihr am nächsten, mit rund **147 Millionen Kilometern**. Anfang Juli ist sie am weitesten weg, mit rund 152 Millionen.\n\nDie Jahreszeiten kommen von etwas anderem: Die Erdachse ist um **23,4 Grad** geneigt, und sie zeigt das ganze Jahr in dieselbe Richtung.\n\n[[grafik:jahreszeiten-achse]]\n\nIm Juni ist die Nordhalbkugel zur Sonne geneigt. Die Sonne steht hoch, die Tage sind lang. Im Dezember ist sie abgewandt: Die Sonne steht tief, die Tage sind kurz.\n\n## Warum der Winkel so viel ausmacht\n\nHalte eine Taschenlampe senkrecht auf den Tisch: ein kleiner, heller Fleck. Kipp sie schräg: Derselbe Strahl verteilt sich auf eine grössere Fläche, und jede Stelle wird schwächer beleuchtet. Genau so trifft die Wintersonne den Boden.\n\n> Nicht die Entfernung macht den Sommer, sondern der Winkel.",
+      "act": "Jahreszeiten entstehen durch die geneigte Erdachse. Auf der Südhalbkugel ist es genau umgekehrt: Dort ist im Dezember Sommer.",
+      "deep": "Der Abstand zur Sonne schwankt nur um gut 3 Prozent, die Einstrahlung dadurch um rund 7 Prozent. Der Winkel wirkt viel stärker: In Zürich steht die Sonne mittags im Juni rund 66 Grad hoch, im Dezember nur rund 19 Grad. Dazu kommt die Tageslänge: fast 16 Stunden im Juni, nicht einmal 8½ im Dezember.",
+      "source": "NASA: What causes the seasons?"
+    },
+    "en": {
+      "title": "In winter the Earth is closer to the sun",
+      "body": "Most people think the Earth is closer to the sun in summer. The opposite is true. In early January it is closest, at about **147 million kilometres**. In early July it is furthest away, at about 152 million.\n\nThe seasons come from something else: the Earth's axis is tilted by **23.4 degrees**, and it points the same way all year.\n\n[[grafik:jahreszeiten-achse]]\n\nIn June the northern hemisphere leans towards the sun. The sun stands high, the days are long. In December it leans away: the sun stands low, the days are short.\n\n## Why the angle matters so much\n\nPoint a torch straight down at a table: a small, bright spot. Tilt it: the same beam spreads over a larger area, and every spot gets less light. That is how the winter sun hits the ground.\n\n> It isn't the distance that makes summer. It's the angle.",
+      "act": "The seasons come from the tilted axis. In the southern hemisphere it is the other way round: December is summer there.",
+      "deep": "The distance to the sun varies by only about 3 percent, the sunlight by about 7 percent. The angle matters far more: in Zurich the noon sun stands about 66 degrees high in June and only about 19 degrees in December. Add the length of the day: almost 16 hours in June, not even 8½ in December.",
+      "source": "NASA: What causes the seasons?"
+    }
+  },
+  {
+    "id": "test-positiv-bayes",
+    "area": "wissen",
+    "sub": "wissenschaft",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "achte",
+    "de": {
+      "title": "Positiv getestet heisst nicht krank",
+      "body": "Eine Krankheit trifft 1 von 100 Menschen. Ein Test erkennt **90 %** der Kranken. Bei Gesunden schlägt er in **9 %** der Fälle fälschlich an. Dein Test ist positiv. Wie wahrscheinlich bist du krank?\n\nDie meisten sagen: etwa 90 %. Auch viele Ärzte. Die richtige Antwort ist: **etwa 9 %**.\n\n---\n\n## Rechne mit Menschen statt mit Prozenten\n\nStell dir 1000 Menschen vor. 10 sind krank, davon erkennt der Test 9. Von den 990 Gesunden schlägt er bei 9 % falsch an, also bei 89.\n\n[[grafik:test-1000-menschen]]\n\n---\n\nPositiv sind also 98 Menschen. Krank sind davon nur 9. Das sind rund 9 %.\n\nDer Test ist nicht schlecht. Aber die Krankheit ist **selten**. Darum gibt es so viele Gesunde, dass ihre wenigen Fehlalarme die echten Treffer weit übertreffen.\n\n> Wie selten etwas ist, zählt so viel wie die Genauigkeit des Tests.",
+      "act": "Wenn dir jemand eine Trefferquote nennt, frag zuerst: Wie häufig ist die Sache überhaupt? Und dann rechne mit 1000 Menschen statt mit Prozenten.",
+      "deep": "Die Rechnung folgt dem Satz von Bayes, benannt nach dem englischen Pfarrer Thomas Bayes (gestorben 1761). Der Psychologe Gerd Gigerenzer legte genau diese Aufgabe rund 160 Frauenärzten vor, als Frage zur Mammografie. Nur gut 20 % wählten die richtige Antwort. Nach einer kurzen Schulung mit Häufigkeiten wie „9 von 98“ fanden die meisten die Lösung. Darum folgt auf einen positiven Befund oft ein zweiter, anderer Test.",
+      "source": "Gigerenzer et al.: Helping Doctors and Patients Make Sense of Health Statistics. Psychological Science in the Public Interest (2007)"
+    },
+    "en": {
+      "title": "Testing positive doesn't mean you're ill",
+      "body": "A disease affects 1 in 100 people. A test detects **90%** of those who have it. In healthy people it wrongly goes off **9%** of the time. Your test is positive. How likely are you to be ill?\n\nMost people say about 90%. So do many doctors. The right answer is **about 9%**.\n\n---\n\n## Count people instead of percentages\n\nPicture 1,000 people. 10 are ill, and the test catches 9 of them. Of the 990 healthy people, it wrongly goes off for 9%, which is 89.\n\n[[grafik:test-1000-menschen]]\n\n---\n\nSo 98 people test positive. Only 9 of them are ill. That is about 9%.\n\nThe test isn't bad. But the disease is **rare**. So there are so many healthy people that their few false alarms far outnumber the real hits.\n\n> How rare something is counts as much as how accurate the test is.",
+      "act": "When someone quotes you a hit rate, first ask: how common is the thing at all? Then count with 1,000 people instead of percentages.",
+      "deep": "The calculation follows Bayes' theorem, named after the English minister Thomas Bayes (died 1761). The psychologist Gerd Gigerenzer gave exactly this problem to about 160 gynaecologists, as a question about mammography. Only just over 20% chose the right answer. After a short training with frequencies like \"9 out of 98\", most of them found it. That is why a positive result is often followed by a second, different test.",
+      "source": "Gigerenzer et al.: Helping Doctors and Patients Make Sense of Health Statistics. Psychological Science in the Public Interest (2007)"
+    }
+  },
+  {
+    "id": "oeffentlicher-schluessel",
+    "area": "wissen",
+    "sub": "informatik",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "merke",
+    "de": {
+      "title": "Wie zwei Fremde ein Geheimnis teilen",
+      "body": "Du schickst deine Kartendaten an einen Onlineshop, den du nie getroffen hast. Über Leitungen, die andere mitlesen können. Trotzdem kann unterwegs niemand etwas damit anfangen. Wie geht das, ohne dass ihr je einen Schlüssel ausgetauscht habt?\n\nDie Antwort ist eine Idee aus den 1970er-Jahren: **zwei verschiedene Schlüssel**. Einer zum Abschliessen, der öffentlich sein darf. Einer zum Öffnen, der geheim bleibt. In der Kryptografie heissen die beiden Beteiligten traditionell Alice und Bob.\n\n[[grafik:schloss-und-schluessel]]\n\n## Die Mathematik dahinter\n\nDas bekannteste Verfahren, RSA, beruht auf einer Einbahnstrasse der Mathematik: Zwei Primzahlen zu multiplizieren ist leicht. Aus dem Ergebnis die beiden Zahlen zurückzufinden, ist extrem schwer.\n\n61 × 53 = 3233 rechnest du in einer Minute aus. Aber welche zwei Primzahlen ergeben 3233? Das dauert schon länger. RSA nutzt Zahlen mit über **600 Stellen**. Sie zu zerlegen ist nach heutigem Wissen selbst für alle Computer der Welt zusammen aussichtslos.\n\nDas Produkt steckt im öffentlichen Schlüssel. Die beiden Primzahlen sind das Geheimnis zum Öffnen.\n\n> Abschliessen kann jeder. Öffnen kann nur, wer das Geheimnis kennt.",
+      "act": "Öffentlicher Schlüssel: zum Abschliessen, darf jeder haben. Privater Schlüssel: zum Öffnen, bleibt geheim. Das Schloss im Browser zeigt, dass eine Verbindung so abgesichert wurde.",
+      "deep": "Whitfield Diffie und Martin Hellman veröffentlichten die Idee 1976, Ron Rivest, Adi Shamir und Leonard Adleman 1977 das RSA-Verfahren. Beim britischen Geheimdienst GCHQ hatten James Ellis, Clifford Cocks und Malcolm Williamson es schon einige Jahre früher entdeckt, es blieb aber bis 1997 geheim. In der Praxis vereinbaren Computer mit diesen Verfahren nur einen gemeinsamen Schlüssel und prüfen, ob der Server echt ist. Die eigentlichen Daten laufen danach mit diesem schnelleren Schlüssel. Quantencomputer könnten RSA eines Tages knacken, darum werden bereits neue Verfahren eingeführt.",
+      "source": "Diffie & Hellman: New Directions in Cryptography (1976); Rivest, Shamir & Adleman (1978)"
+    },
+    "en": {
+      "title": "How two strangers share a secret",
+      "body": "You send your card details to an online shop you've never met. Over lines that others can read. Still, nobody along the way can do anything with them. How is that possible when you never exchanged a key?\n\nThe answer is an idea from the 1970s: **two different keys**. One for locking, which may be public. One for opening, which stays secret. In cryptography the two parties are traditionally called Alice and Bob.\n\n[[grafik:schloss-und-schluessel]]\n\n## The maths behind it\n\nThe best-known method, RSA, rests on a one-way street in mathematics: multiplying two primes is easy. Getting the two numbers back from the result is extremely hard.\n\n61 × 53 = 3233 takes you a minute. But which two primes make 3233? That takes longer. RSA uses numbers with more than **600 digits**. As far as anyone knows, splitting them is hopeless even for all the world's computers combined.\n\nThe product sits in the public key. The two primes are the secret for opening.\n\n> Anyone can lock. Only whoever knows the secret can open.",
+      "act": "Public key: for locking, anyone may have it. Private key: for opening, stays secret. The padlock in your browser shows a connection was secured this way.",
+      "deep": "Whitfield Diffie and Martin Hellman published the idea in 1976, Ron Rivest, Adi Shamir and Leonard Adleman the RSA method in 1977. At the British intelligence agency GCHQ, James Ellis, Clifford Cocks and Malcolm Williamson had found it a few years earlier, but it stayed secret until 1997. In practice, computers use these methods only to agree on a shared key and to check the server is genuine. The actual data then travels with that faster shared key. Quantum computers could one day break RSA, which is why new methods are already being rolled out.",
+      "source": "Diffie & Hellman: New Directions in Cryptography (1976); Rivest, Shamir & Adleman (1978)"
+    }
+  },
+  {
+    "id": "banken-schaffen-geld",
+    "area": "wissen",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 3,
+    "actKind": "merke",
+    "de": {
+      "title": "Banken verleihen nicht dein Erspartes",
+      "body": "Die meisten stellen sich eine Bank so vor: Sparer bringen Geld, die Bank verleiht es weiter. So funktioniert es nicht.\n\nWenn eine Bank dir einen Kredit gibt, nimmt sie das Geld nicht aus einem Tresor. Sie schreibt dir den Betrag einfach **auf dein Konto**. In diesem Moment entsteht neues Geld.\n\n[[grafik:bank-bilanz]]\n\n## Was dabei passiert\n\nDie Bank bucht zwei Dinge gleichzeitig: Links steht der Kredit, den du ihr zurückzahlen musst. Rechts steht das Guthaben auf deinem Konto, das sie dir schuldet. Beide Seiten wachsen um denselben Betrag.\n\nMit dem Guthaben bezahlst du wie mit jedem anderen Geld. Zahlst du den Kredit zurück, passiert das Umgekehrte: Das Geld verschwindet wieder.\n\nDer grösste Teil des Geldes, mit dem wir bezahlen, ist so entstanden: als **Guthaben bei Banken**, nicht als Noten der Nationalbank.\n\n> Kredite schaffen Guthaben, nicht umgekehrt.",
+      "act": "Wenn eine Bank einen Kredit vergibt, entsteht neues Geld. Wird er zurückgezahlt, verschwindet es wieder.",
+      "deep": "Unbegrenzt geht das nicht. Banken brauchen Eigenkapital, müssen Vorschriften einhalten und verdienen nur, wenn Kredite zurückgezahlt werden. Die Nationalbank steuert über den Zins, wie teuer Kredite sind und wie viele vergeben werden. Die Bank of England erklärte den Ablauf 2014 in einem viel beachteten Bericht. In der Schweiz wollte die Vollgeld-Initiative 2018 den Banken das Schaffen von Geld verbieten. Das Volk lehnte sie mit rund 76 % Nein ab.",
+      "source": "McLeay, Radia & Thomas: Money creation in the modern economy. Bank of England Quarterly Bulletin (2014)"
+    },
+    "en": {
+      "title": "Banks don't lend out your savings",
+      "body": "Most people picture a bank like this: savers bring money, the bank lends it on. That isn't how it works.\n\nWhen a bank gives you a loan, it doesn't take the money from a vault. It simply writes the amount **into your account**. At that moment, new money is created.\n\n[[grafik:bank-bilanz]]\n\n## What happens\n\nThe bank books two things at once: on the left, the loan you have to pay back. On the right, the balance in your account, which it owes you. Both sides grow by the same amount.\n\nYou pay with that balance like any other money. When you repay the loan, the reverse happens: the money disappears again.\n\nMost of the money we pay with came about this way: as **balances at banks**, not as the central bank's notes.\n\n> Loans create deposits, not the other way round.",
+      "act": "When a bank grants a loan, new money is created. When the loan is repaid, it disappears again.",
+      "deep": "There are limits. Banks need capital, must follow rules and only earn when loans are repaid. The central bank uses the interest rate to steer how expensive loans are and how many are granted. The Bank of England explained the process in a widely read report in 2014. In Switzerland, the sovereign money initiative of 2018 wanted to ban banks from creating money. Voters rejected it with about 76% against.",
+      "source": "McLeay, Radia & Thomas: Money creation in the modern economy. Bank of England Quarterly Bulletin (2014)"
     }
   }
 ]

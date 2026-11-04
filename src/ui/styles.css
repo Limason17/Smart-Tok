@@ -15,6 +15,10 @@
   --glass-line: rgba(255, 255, 255, 0.1);
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
   --area: var(--accent);
+  /* figures: heat, cold and sunlight */
+  --fig-warm: #ef8c5c;
+  --fig-cold: #6fb2e6;
+  --fig-sun: #f3d27a;
 
   --font-ui: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-read: 'Literata Variable', Georgia, 'Times New Roman', serif;
@@ -43,6 +47,9 @@
   --glass: rgba(251, 249, 245, 0.72);
   --glass-line: rgba(20, 18, 14, 0.1);
   --shadow: 0 10px 30px rgba(40, 30, 10, 0.12);
+  --fig-warm: #c75f2c;
+  --fig-cold: #2c79b8;
+  --fig-sun: #d9a520;
   color-scheme: light;
 }
 
@@ -409,6 +416,32 @@ input, textarea { font: inherit; color: inherit; }
 .blk-act ol { margin: 6px 0 0; padding-left: 1.2em; }
 .blk-act li { margin-top: 3px; padding-left: 2px; }
 .blk-act li::marker { color: var(--area-ink); font-weight: 700; }
+
+/* Figures (src/figures): SVG drawn from the theme tokens; labels get a halo in the card colour so lines never cut through them. */
+.blk-fig { margin-top: 1.1em; }
+.blk-fig svg { display: block; width: 100%; height: auto; max-height: 62vh; overflow: visible; }
+.blk-fig text {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  fill: var(--text-2);
+  paint-order: stroke;
+  stroke: var(--card);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+.blk-fig text.b { font-weight: 600; }
+.blk-fig text.s { font-size: 9.5px; fill: var(--text-3); }
+.blk-fig text.h { fill: var(--text); font-weight: 600; }
+.blk-fig text.n { stroke: none; }
+.blk-fig + .blk { margin-top: 1.1em; }
+@media (prefers-reduced-motion: no-preference) {
+  .fig-drift { animation: fig-drift 2.6s linear infinite; }
+  .fig-flow { animation: fig-flow 1.4s linear infinite; }
+  .fig-pulse { animation: fig-pulse 2.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+}
+@keyframes fig-drift { to { transform: translateX(-76px); } }
+@keyframes fig-flow { to { stroke-dashoffset: -16; } }
+@keyframes fig-pulse { from { transform: scale(0.4); opacity: 0.9; } to { transform: scale(2.4); opacity: 0; } }
 :root[data-font='l'] .blk-act { font-size: 17px; }
 :root[data-font='s'] .blk-act { font-size: 14.5px; }
 

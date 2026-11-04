@@ -52,14 +52,14 @@
     "actKind": "frage",
     "de": {
       "title": "Der stille Dieb",
-      "body": "Inflation heisst: Die Preise steigen, und dein Geld kauft jedes Jahr etwas weniger. Bei 2 % Inflation ist die Kaufkraft von 100 Franken nach 35 Jahren **halbiert**.\n\nDas heisst auch: Geld, das nur auf dem Konto liegt und weniger Zins bringt als die Inflation, verliert jedes Jahr still an Wert, obwohl die Zahl gleich bleibt.\n\nGegen Inflation schützen Werte, die mitwachsen können: Unternehmensanteile, Immobilien und vor allem deine eigenen Fähigkeiten und dein Einkommen.",
+      "body": "Inflation heisst: Die Preise steigen, und dein Geld kauft jedes Jahr etwas weniger. Bei 2 % Inflation ist die Kaufkraft von 100 Franken nach 35 Jahren **halbiert**.\n\n[[grafik:inflation-kaufkraft]]\n\nDas heisst auch: Geld, das nur auf dem Konto liegt und weniger Zins bringt als die Inflation, verliert jedes Jahr still an Wert, obwohl die Zahl gleich bleibt.\n\nGegen Inflation schützen Werte, die mitwachsen können: Unternehmensanteile, Immobilien und vor allem deine eigenen Fähigkeiten und dein Einkommen.",
       "act": "Wie viel Geld liegt bei dir länger als ein Jahr ungenutzt auf dem Konto? Und wie viel Kaufkraft verliert es dort jedes Jahr?",
       "deep": "Notenbanken wie die Schweizerische Nationalbank oder die EZB streben Preisstabilität an, die SNB definiert sie als Teuerung unter 2 % pro Jahr. Nach der Corona-Zeit stieg die Inflation in vielen Ländern stark an: im Euroraum 2022 auf über 10 %, in der Schweiz auf rund 3,5 %.",
       "source": "Schweizerische Nationalbank; Eurostat"
     },
     "en": {
       "title": "The silent thief",
-      "body": "Inflation means prices rise and your money buys a little less each year. At 2% inflation, the purchasing power of 100 is **halved** after 35 years.\n\nIt also means money that just sits in an account earning less than inflation quietly loses value every year, even though the number stays the same.\n\nWhat protects you are assets that can grow along: company shares, property and above all your own skills and income.",
+      "body": "Inflation means prices rise and your money buys a little less each year. At 2% inflation, the purchasing power of 100 is **halved** after 35 years.\n\n[[grafik:inflation-kaufkraft]]\n\nIt also means money that just sits in an account earning less than inflation quietly loses value every year, even though the number stays the same.\n\nWhat protects you are assets that can grow along: company shares, property and above all your own skills and income.",
       "act": "How much of your money has sat unused in your account for over a year? And how much buying power does it lose there every year?",
       "deep": "Central banks like the Swiss National Bank or the ECB aim for price stability; the SNB defines it as inflation below 2% a year. After the pandemic, inflation jumped in many countries: above 10% in the euro area in 2022 and about 3.5% in Switzerland.",
       "source": "Swiss National Bank; Eurostat"
@@ -1376,6 +1376,30 @@
       "act": "Think of a conversation you will have soon. What does the other person get out of agreeing with you? And what will you give without expecting anything back?",
       "deep": "\"Revolver\" (2005) is a thriller by Guy Ritchie with Jason Statham as Jake Green and Ray Liotta as Dorothy Macha. The film is about ego, fear and manipulation. Macha's rule is shown as the opponent's way of thinking, not as an ideal.\n\nMunger told the FedEx story in 1995 in his famous Harvard talk \"The Psychology of Human Misjudgment\".\n\nJesus' words are in Mark 10:43. See also the card \"Greatness means serving\".",
       "source": "Revolver (2005), directed by Guy Ritchie; Charlie Munger: The Psychology of Human Misjudgment (1995); Mark 10:43"
+    }
+  },
+  {
+    "id": "verlust-aufholen",
+    "area": "geld",
+    "sub": "finanzen",
+    "style": "erklaerung",
+    "level": 2,
+    "actKind": "frage",
+    "de": {
+      "title": "Minus 50 Prozent braucht plus 100 Prozent",
+      "body": "Deine Anlage fällt um 50 %. Im nächsten Jahr steigt sie um 50 %. Bist du wieder dort, wo du angefangen hast? Nein. Dir fehlt immer noch ein Viertel.\n\nDer Grund: Der Gewinn wird auf einen **kleineren Betrag** gerechnet. Aus 100 werden 50. Plus 50 % von 50 sind 25. Ergibt 75.\n\n[[grafik:verlust-aufholen]]\n\nJe grösser der Verlust, desto steiler wird der Weg zurück:\n\n- −10 % braucht +11 %\n- −20 % braucht +25 %\n- −50 % braucht +100 %\n- −90 % braucht +900 %\n\n> Grosse Verluste zu vermeiden ist wichtiger, als jeden Gewinn mitzunehmen.",
+      "example": "Zwei Anlagen, zwei Jahre, je 100 Franken. A macht +10 % und nochmals +10 %: Am Ende hast du 121. B macht +40 % und dann −20 %: Am Ende hast du nur 112. Dabei haben beide im Schnitt 10 % pro Jahr gemacht.",
+      "act": "Wie viel Minus würdest du aushalten, ohne in Panik zu verkaufen? Passt deine Anlage zu dieser Zahl?",
+      "deep": "Die Formel: Nötiger Gewinn = Verlust ÷ (1 − Verlust). Bei 30 % Verlust: 0,3 ÷ 0,7 = 43 %. Breite Streuung schützt davor, dass eine einzelne Firma dein Geld vernichtet. Einbrüche des ganzen Marktes verhindert sie nicht: Der Weltaktienindex MSCI World verlor in der Finanzkrise 2007 bis 2009 über 50 %.",
+      "source": "Eigene Rechnung; MSCI"
+    },
+    "en": {
+      "title": "Minus 50 percent takes plus 100 percent",
+      "body": "Your investment drops 50%. The next year it rises 50%. Are you back where you started? No. You're still a quarter short.\n\nThe reason: the gain is calculated on a **smaller amount**. 100 becomes 50. Plus 50% of 50 is 25. That makes 75.\n\n[[grafik:verlust-aufholen]]\n\nThe bigger the loss, the steeper the way back:\n\n- −10% takes +11%\n- −20% takes +25%\n- −50% takes +100%\n- −90% takes +900%\n\n> Avoiding big losses matters more than catching every gain.",
+      "example": "Two investments, two years, 100 each. A makes +10% and then +10% again: you end with 121. B makes +40% and then −20%: you end with only 112. Yet both averaged 10% a year.",
+      "act": "How big a drop could you sit through without selling in a panic? Does your investment match that number?",
+      "deep": "The formula: gain needed = loss ÷ (1 − loss). For a 30% loss: 0.3 ÷ 0.7 = 43%. Spreading your money widely protects you from a single company wiping it out. It does not prevent the whole market falling: the MSCI World index lost more than 50% in the 2007 to 2009 financial crisis.",
+      "source": "Own calculation; MSCI"
     }
   }
 ]

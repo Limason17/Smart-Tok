@@ -98,3 +98,12 @@ describe('textToBlocks', () => {
     expect(shorten(sentence)).toEqual([sentence]);
   });
 });
+
+describe('textToBlocks lists', () => {
+  it('numbers lines that start with "1. "', () => {
+    expect(textToBlocks('1. Eins\n2. Zwei')).toEqual([
+      { k: 'li', text: 'Eins', n: 1 },
+      { k: 'li', text: 'Zwei', n: 2 },
+    ]);
+  });
+});

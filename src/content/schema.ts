@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { FIGURE_IDS, figuresIn } from '../figures';
 import { NEWS_AREA, NEWS_ID, NEWS_MAX_DAYS } from './news';
 import { ACT_KINDS, AREA_BY_ID, STYLES } from './taxonomy';
 
@@ -101,6 +102,13 @@ export const CardSchema = Base.superRefine((card, ctx) => {
   }
   for (const [i, slide] of (card.slides ?? []).entries()) {
     if (slide.de.act || slide.en.act) ctx.addIssue({ code: 'custom', message: 'act belongs on the card, not on a slide', path: ['slides', i] });
+  }
+  const figs = (lang: 'de' | 'en') => [card[lang].body, card[lang].example, card[lang].deep].flatMap(figuresIn);
+  for (const id of figs('de')) {
+    if (!FIGURE_IDS.includes(id)) ctx.addIssue({ code: 'custom', message: `unknown figure "${id}"`, path: ['de', 'body'] });
+  }
+  if (figs('de').join() !== figs('en').join()) {
+    ctx.addIssue({ code: 'custom', message: 'de/en place different figures', path: ['en', 'body'] });
   }
   if (!!card.de.quote !== !!card.en.quote) {
     ctx.addIssue({ code: 'custom', message: 'quote present in only one language', path: ['en', 'quote'] });
