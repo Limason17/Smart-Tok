@@ -576,8 +576,14 @@ input, textarea { font: inherit; color: inherit; }
   inset: 0;
   z-index: 40;
   background: rgba(0, 0, 0, 0.5);
+  opacity: var(--dim, 1);
+  transition: opacity 0.3s ease;
   animation: fade 0.2s ease;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
 }
+.sheet-backdrop.dragging { transition: none; }
+.sheet-backdrop.closing { opacity: 0; transition-duration: 0.22s; animation: none; }
 .sheet {
   position: fixed;
   z-index: 41;
@@ -595,6 +601,16 @@ input, textarea { font: inherit; color: inherit; }
   border-radius: 24px 24px 0 0;
   box-shadow: var(--shadow);
   animation: rise 0.28s cubic-bezier(0.2, 0.9, 0.3, 1);
+  /* --drag: how far the header is being pulled down (set while dragging, see Sheet.tsx) */
+  transform: translateY(var(--drag, 0px));
+  transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+.sheet.dragging { transition: none; }
+.sheet.closing {
+  transform: translateY(calc(100% + 32px));
+  transition: transform 0.22s cubic-bezier(0.4, 0, 1, 1);
+  animation: none;
+  pointer-events: none;
 }
 .sheet-head {
   display: flex;
@@ -602,7 +618,14 @@ input, textarea { font: inherit; color: inherit; }
   justify-content: space-between;
   padding: 10px 14px 6px 22px;
   position: relative;
+  /* The header is the grip: pulling it down closes the sheet, so the browser must not scroll or zoom here. */
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: grab;
 }
+.sheet.dragging .sheet-head { cursor: grabbing; }
+.sheet-close { cursor: pointer; }
 .sheet-head::before {
   content: '';
   position: absolute;
@@ -1236,6 +1259,12 @@ input, textarea { font: inherit; color: inherit; }
     border-bottom: 1px solid var(--line);
     border-radius: 24px;
     animation: dialog-in 0.22s cubic-bezier(0.2, 0.9, 0.3, 1);
+    transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.2s ease;
+  }
+  .sheet.closing {
+    transform: translateY(calc(var(--drag, 0px) + 18px)) scale(0.98);
+    opacity: 0;
+    transition: transform 0.2s ease-in, opacity 0.2s ease-in;
   }
   .sheet-head { padding-top: 16px; }
   .sheet-head::before { display: none; }
