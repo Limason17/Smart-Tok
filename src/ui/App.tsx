@@ -112,7 +112,13 @@ export function App() {
 
   return (
     <>
-      <Feed onMore={onMore} onPerson={openPerson} onToast={setToast} onOpenTopics={openTopics} />
+      <Feed
+        onMore={onMore}
+        onPerson={openPerson}
+        onToast={setToast}
+        onOpenTopics={openTopics}
+        paused={!!panel && panel.kind !== 'more'}
+      />
       <div className="topbar">
         <div className="topbar-inner">
           <button className="glass-btn" aria-label={tr('topics')} onClick={openTopics}>

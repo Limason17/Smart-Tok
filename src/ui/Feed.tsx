@@ -16,6 +16,7 @@ import {
   togglePlan,
   toggleSave,
   useStore,
+  VIEW_MIN_MS,
 } from '../store/store';
 import { CardView } from './CardView';
 import { Icon } from './Icon';
@@ -96,9 +97,11 @@ export interface FeedProps {
   onOpenTopics: () => void;
   /** Only the cards from a shared link, before onboarding: no endless feed, a way in at the end. */
   preview?: { onStart: () => void };
+  /** A panel covers the feed: the time spent there does not count for the card underneath. */
+  paused?: boolean;
 }
 
-export function Feed({ onMore, onPerson, onToast, onOpenTopics, preview }: FeedProps) {
+export function Feed({ onMore, onPerson, onToast, onOpenTopics, preview, paused = false }: FeedProps) {
   const tr = useT();
   const prefs = useStore((s) => s.prefs);
   // A shared link (#k=…) puts its cards first; the normal feed follows.
@@ -112,18 +115,33 @@ export function Feed({ onMore, onPerson, onToast, onOpenTopics, preview }: FeedP
   const [scrolled, setScrolled] = useState(false);
   const feedRef = useRef<HTMLDivElement>(null);
   const activeSince = useRef(performance.now());
+  /** Reading time of the active card from before a panel covered it. */
+  const banked = useRef(0);
+  const pausedRef = useRef(paused);
+  const hiddenRef = useRef(false);
   const activeIndex = useRef(0);
   const entriesRef = useRef(entries);
   entriesRef.current = entries;
 
 
   // --- dwell tracking: the active card is the one crossing the middle of the screen
-  const flushDwell = useCallback(() => {
+  const flushDwell = useCallback((minMs = 0) => {
     const entry = entriesRef.current[activeIndex.current];
     const now = performance.now();
-    if (entry) recordView(entry.cardId, now - activeSince.current);
+    const dwell = banked.current + (pausedRef.current || hiddenRef.current ? 0 : now - activeSince.current);
+    if (entry && dwell > 0 && dwell >= minMs) recordView(entry.cardId, dwell);
+    banked.current = 0;
     activeSince.current = now;
   }, []);
+
+  // A sheet over the feed (profile, a person, another card...) stops the clock; it runs on after closing.
+  useEffect(() => {
+    if (paused === pausedRef.current) return;
+    const now = performance.now();
+    if (paused && !hiddenRef.current) banked.current += now - activeSince.current;
+    activeSince.current = now;
+    pausedRef.current = paused;
+  }, [paused]);
 
   useEffect(() => {
     const root = feedRef.current;
@@ -148,14 +166,22 @@ export function Feed({ onMore, onPerson, onToast, onOpenTopics, preview }: FeedP
 
   useEffect(() => {
     const onVis = () => {
-      if (document.visibilityState === 'hidden') flushDwell();
-      else activeSince.current = performance.now();
+      if (document.visibilityState === 'hidden') {
+        flushDwell();
+        hiddenRef.current = true;
+      } else {
+        hiddenRef.current = false;
+        activeSince.current = performance.now();
+      }
     };
+    const onHide = () => flushDwell();
     document.addEventListener('visibilitychange', onVis);
-    window.addEventListener('pagehide', flushDwell);
+    window.addEventListener('pagehide', onHide);
     return () => {
       document.removeEventListener('visibilitychange', onVis);
-      window.removeEventListener('pagehide', flushDwell);
+      window.removeEventListener('pagehide', onHide);
+      // Leaving the feed (e.g. "Los geht's" after a shared link) still counts the card on screen.
+      flushDwell(VIEW_MIN_MS);
     };
   }, [flushDwell]);
 

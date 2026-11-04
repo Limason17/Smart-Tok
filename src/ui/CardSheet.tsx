@@ -1,7 +1,8 @@
+import { useEffect } from 'react';
 import { CARD_BY_ID } from '../content';
 import { AREA_BY_ID } from '../content/taxonomy';
 import { useT } from '../i18n/strings';
-import { setPlanDone, toggleDislike, toggleLike, togglePlan, toggleSave, useStore } from '../store/store';
+import { recordView, setPlanDone, toggleDislike, toggleLike, togglePlan, toggleSave, useStore, VIEW_MIN_MS } from '../store/store';
 import { CardDetail, Paragraphs } from './CardView';
 import { Icon } from './Icon';
 import { Sheet } from './Sheet';
@@ -42,11 +43,44 @@ export function MoreSheet({ cardId, onClose }: { cardId: string; onClose: () => 
   );
 }
 
-/** A card opened from the profile: full text, reactions and background in one sheet. */
+/**
+ * Reading a card in a sheet counts like reading it in the feed: history, "gelesen", reviews,
+ * Umsetzen check-backs and the algorithm all see it. Time in the background does not count,
+ * and a sheet closed within a moment (a mis-tap) is not counted at all.
+ */
+export function useSheetView(cardId: string) {
+  useEffect(() => {
+    let since: number | null = document.visibilityState === 'hidden' ? null : performance.now();
+    let dwell = 0;
+    const pause = () => {
+      if (since !== null) dwell += performance.now() - since;
+      since = null;
+    };
+    const flush = () => {
+      pause();
+      if (dwell >= VIEW_MIN_MS) recordView(cardId, dwell);
+      dwell = 0;
+    };
+    const onVis = () => {
+      if (document.visibilityState === 'hidden') flush();
+      else if (since === null) since = performance.now();
+    };
+    document.addEventListener('visibilitychange', onVis);
+    window.addEventListener('pagehide', flush);
+    return () => {
+      document.removeEventListener('visibilitychange', onVis);
+      window.removeEventListener('pagehide', flush);
+      flush();
+    };
+  }, [cardId]);
+}
+
+/** A card opened outside the feed (profile lists, a person's profile): full text, reactions and background in one sheet. */
 export function CardSheet({ cardId, onClose, onPerson }: { cardId: string; onClose: () => void; onPerson?: (personId: string) => void }) {
   const tr = useT();
   const card = CARD_BY_ID[cardId];
   const record = useStore((s) => s.cards[cardId]);
+  useSheetView(cardId);
   if (!card) return null;
   return (
     <Sheet title={AREA_BY_ID[card.area].label[tr.lang]} onClose={onClose}>
