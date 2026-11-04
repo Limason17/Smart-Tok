@@ -5,6 +5,7 @@ import { CardSchema, PersonSchema, type PersonData } from '../src/content/schema
 import { introCard } from '../src/content/people';
 import { deriveCard, type Card } from '../src/content/card';
 import { NEWS_AREA, newsMonth } from '../src/content/news';
+import { LEGAL, OWNER } from '../src/content/legal';
 
 const dir = join(import.meta.dirname, '..', 'content', 'cards');
 const archiveDir = join(import.meta.dirname, '..', 'public', 'news-archive');
@@ -84,6 +85,11 @@ for (const c of cards) {
   for (const p of c.people ?? []) if (!people.has(p)) errors.push(`${c.id}: unknown person "${p}"`);
   if (new Set(c.people ?? []).size !== (c.people ?? []).length) errors.push(`${c.id}: person listed twice`);
 }
+
+// Privacy notice: a real contact person and both languages complete.
+if (OWNER.name.includes('{{') || !OWNER.name.trim()) errors.push('src/content/legal.ts: OWNER.name is not filled in');
+if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(OWNER.email)) errors.push('src/content/legal.ts: OWNER.email is not a valid email address');
+if (LEGAL.de.length !== LEGAL.en.length) errors.push('src/content/legal.ts: German and English have a different number of sections');
 
 if (errors.length) {
   console.error(`Content validation failed (${errors.length}):\n- ${errors.join('\n- ')}`);

@@ -82,13 +82,13 @@ function SyncLine() {
 
 type Mode = 'signin' | 'signup' | 'reset';
 
-export function AccountSheet({ onClose, onToast }: { onClose: () => void; onToast: (t: string) => void }) {
+export function AccountSheet({ onClose, onToast, onOpenLegal }: { onClose: () => void; onToast: (t: string) => void; onOpenLegal: () => void }) {
   const tr = useT();
   const account = useStore((s) => s.account);
-  return <Sheet title={tr('account')} onClose={onClose}>{account ? <SignedIn onClose={onClose} onToast={onToast} /> : <AuthForm />}</Sheet>;
+  return <Sheet title={tr('account')} onClose={onClose}>{account ? <SignedIn onClose={onClose} onToast={onToast} /> : <AuthForm onOpenLegal={onOpenLegal} />}</Sheet>;
 }
 
-function AuthForm() {
+function AuthForm({ onOpenLegal }: { onOpenLegal: () => void }) {
   const tr = useT();
   const [mode, setMode] = useState<Mode>('signin');
   const [name, setName] = useState('');
@@ -166,7 +166,14 @@ function AuthForm() {
           {mode === 'signup' && <small>{tr('passwordHint')}</small>}
         </label>
       )}
-      {mode === 'signup' && <p className="hint">{tr('dataNote')}</p>}
+      {mode === 'signup' && (
+        <p className="hint">
+          {tr('dataNote')}{' '}
+          <button type="button" className="inline-link" onClick={onOpenLegal}>
+            {tr('legalMore')}
+          </button>
+        </p>
+      )}
       {error && (
         <p className="form-error" role="alert">
           {error}

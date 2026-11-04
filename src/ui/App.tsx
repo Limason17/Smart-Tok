@@ -7,6 +7,7 @@ import { Feed } from './Feed';
 import { Icon } from './Icon';
 import { linkedCards } from './links';
 import { Onboarding } from './Onboarding';
+import { LegalSheet } from './LegalSheet';
 import { PeopleSheet, PersonSheet } from './PeopleSheet';
 import { AlgoSheet, ProfileSheet } from './ProfileSheet';
 import { SettingsSheet } from './SettingsSheet';
@@ -18,6 +19,7 @@ type Panel =
   | { kind: 'profile' }
   | { kind: 'algo' }
   | { kind: 'account' }
+  | { kind: 'legal'; back: Panel }
   | { kind: 'people'; fromProfile?: boolean }
   | { kind: 'person'; personId: string; back?: Panel }
   | { kind: 'card'; cardId: string; back?: Panel }
@@ -127,7 +129,9 @@ export function App() {
         </div>
       </div>
       {panel?.kind === 'topics' && <TopicSheet onClose={panel.fromProfile ? openProfile : close} />}
-      {panel?.kind === 'settings' && <SettingsSheet onClose={panel.fromProfile ? openProfile : close} />}
+      {panel?.kind === 'settings' && (
+        <SettingsSheet onClose={panel.fromProfile ? openProfile : close} onOpenLegal={() => setPanel({ kind: 'legal', back: panel })} />
+      )}
       {panel?.kind === 'profile' && (
         <ProfileSheet
           onClose={close}
@@ -155,7 +159,10 @@ export function App() {
       {panel?.kind === 'algo' && (
         <AlgoSheet onClose={openProfile} onOpenTopics={() => setPanel({ kind: 'topics', fromProfile: true })} onToast={setToast} />
       )}
-      {panel?.kind === 'account' && <AccountSheet onClose={openProfile} onToast={setToast} />}
+      {panel?.kind === 'account' && (
+        <AccountSheet onClose={openProfile} onToast={setToast} onOpenLegal={() => setPanel({ kind: 'legal', back: panel })} />
+      )}
+      {panel?.kind === 'legal' && <LegalSheet onClose={() => setPanel(panel.back)} />}
       {panel?.kind === 'card' && (
         <CardSheet
           cardId={panel.cardId}

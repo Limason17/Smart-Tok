@@ -6,7 +6,7 @@ import { push } from '../sync/account';
 import type { Lang } from '../content/taxonomy';
 import { Segmented, Sheet, Switch } from './Sheet';
 
-export function SettingsSheet({ onClose }: { onClose: () => void }) {
+export function SettingsSheet({ onClose, onOpenLegal }: { onClose: () => void; onOpenLegal: () => void }) {
   const tr = useT();
   const settings = useStore((s) => s.settings);
   const [resetOpen, setResetOpen] = useState(false);
@@ -99,6 +99,11 @@ export function SettingsSheet({ onClose }: { onClose: () => void }) {
       <p className="hint" style={{ marginTop: 0 }}>
         {tr('aboutText')}
       </p>
+      <div className="btn-row">
+        <button className="btn ghost" onClick={onOpenLegal}>
+          {tr('legal')}
+        </button>
+      </div>
       <p className="hint">
         {tr('version')} {__APP_VERSION__}
       </p>
