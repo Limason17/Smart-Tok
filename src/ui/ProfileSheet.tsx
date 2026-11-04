@@ -298,16 +298,28 @@ function DayCards({ date, onOpenCard }: { date: string; onOpenCard: (id: string)
     };
   }, [date]);
 
+  // The detailed log stays on this device; cards read on another device (or before a reset) still show up
+  // through the date they were first or last read.
+  const all = useMemo(() => {
+    if (!ids) return null;
+    const extra = Object.values(records)
+      .filter((r) => r.views > 0 && CARD_BY_ID[r.id] && !ids.includes(r.id))
+      .filter((r) => (r.firstSeen && localDate(r.firstSeen) === date) || (r.lastSeen && localDate(r.lastSeen) === date))
+      .sort((a, b) => a.lastSeen - b.lastSeen)
+      .map((r) => r.id);
+    return [...ids, ...extra];
+  }, [ids, records, date]);
+
   const [y, m, d] = date.split('-').map(Number);
   const label = new Date(y, m - 1, d).toLocaleDateString(tr.lang, { weekday: 'long', day: 'numeric', month: 'long' });
   return (
     <div className="day-cards">
       <div className="day-head">
         {label}
-        {ids && <small>{countLabel(ids.length, tr)}</small>}
+        {all && <small>{countLabel(all.length, tr)}</small>}
       </div>
-      {ids && ids.length === 0 && <p className="hint">{tr('dayEmpty')}</p>}
-      {ids?.map((id) => <CardRow key={id} cardId={id} record={records[id]} onOpen={onOpenCard} />)}
+      {all && all.length === 0 && <p className="hint">{tr('dayEmpty')}</p>}
+      {all?.map((id) => <CardRow key={id} cardId={id} record={records[id]} onOpen={onOpenCard} />)}
     </div>
   );
 }

@@ -274,13 +274,14 @@ export function Feed({ onMore, onPerson, onToast, onOpenTopics, preview, paused 
     const t = card[tr.lang];
     // A link to exactly this card: whoever opens it sees the card first.
     const url = cardLink([cardId]);
-    markShared(cardId);
     try {
       if (navigator.share) {
         await navigator.share({ title: t.title, text: `${t.title} · Smart-Tok`, url });
+        markShared(cardId);
         return;
       }
       await navigator.clipboard.writeText(`${t.title}\n${url}`);
+      markShared(cardId);
       onToast(tr('linkCopied'));
     } catch {
       /* user cancelled the share sheet */

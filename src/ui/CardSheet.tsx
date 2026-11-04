@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react';
 import { CARD_BY_ID } from '../content';
 import { AREA_BY_ID } from '../content/taxonomy';
 import { useT } from '../i18n/strings';
-import { recordView, setPlanDone, toggleDislike, toggleLike, togglePlan, toggleSave, useStore, VIEW_MIN_MS } from '../store/store';
+import { countsAsView, recordView, setPlanDone, toggleDislike, toggleLike, togglePlan, toggleSave, useStore } from '../store/store';
 import { CardDetail, Paragraphs } from './CardView';
 import { Icon } from './Icon';
 import { Sheet, SheetLevel } from './Sheet';
@@ -46,9 +46,9 @@ export function MoreSheet({ cardId, onClose }: { cardId: string; onClose: () => 
 /**
  * Reading a card in a sheet counts like reading it in the feed: history, "gelesen", reviews,
  * Umsetzen check-backs and the algorithm all see it. Time in the background does not count,
- * and a sheet closed within a moment (a mis-tap) is not counted at all. While another sheet lies
- * on top of it (e.g. a person opened from the card), the view is closed and a new one starts when it
- * is uncovered, as if the card had been opened again.
+ * and a sheet closed within a moment (a mis-tap) is not counted unless the card got a reaction.
+ * While another sheet lies on top of it (e.g. a person opened from the card), the view is closed
+ * and a new one starts when it is uncovered, as if the card had been opened again.
  */
 export function useSheetView(cardId: string, active = true) {
   useEffect(() => {
@@ -61,7 +61,7 @@ export function useSheetView(cardId: string, active = true) {
     };
     const flush = () => {
       pause();
-      if (dwell >= VIEW_MIN_MS) recordView(cardId, dwell);
+      if (countsAsView(cardId, dwell)) recordView(cardId, dwell);
       dwell = 0;
     };
     const onVis = () => {

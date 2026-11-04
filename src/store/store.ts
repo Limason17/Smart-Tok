@@ -14,6 +14,7 @@ import {
   foldSession,
   nextReviewDue,
   reviewDue,
+  TUNING,
   type Adjust,
   type AlgoState,
   type Prefs,
@@ -231,7 +232,7 @@ export function seenMap(cards: Record<string, CardRecord>): Record<string, SeenI
   const out: Record<string, SeenInfo> = {};
   for (const [id, r] of Object.entries(cards)) {
     // A card saved or planned before its view was counted (the view is recorded on leaving it) still comes back.
-    if (r.views > 0 || r.saved || r.planAt) out[id] = { lastSeen: r.lastSeen, views: r.views, reaction: r.reaction, saved: r.saved, due: reviewDue(r), checkIn: planDue(r) };
+    if (r.views > 0 || r.saved || r.planAt || r.reaction !== 0) out[id] = { lastSeen: r.lastSeen, views: r.views, reaction: r.reaction, saved: r.saved, due: reviewDue(r), checkIn: planDue(r) };
   }
   return out;
 }
@@ -268,12 +269,21 @@ function signal(card: Card, s: Signal) {
 /** Called when a card leaves the screen (or the app is hidden). */
 export function recordView(cardId: string, dwellMs: number) {
   const card = CARD_BY_ID[cardId];
-  if (!card || dwellMs < VIEW_MIN_MS) {
-    if (card && dwellMs > 0) signal(card, { type: 'dwell', seconds: dwellMs / 1000 });
+  if (!card) return;
+  const old = state.cards[cardId];
+  // A quick like, dislike, save or "Umsetzen" means the card was seen, even when it was left right away.
+  const reacted = !!old && (old.reaction !== 0 || old.saved || !!old.planAt);
+  // ...and a card someone liked, saved or planned is not a quick skip.
+  const positive = !!old && (old.reaction === 1 || old.saved || !!old.planAt);
+  const dwell = () => {
+    if (dwellMs > 0 && !(positive && dwellMs < TUNING.quickSkipSeconds * 1000)) signal(card, { type: 'dwell', seconds: dwellMs / 1000 });
+  };
+  if (dwellMs < VIEW_MIN_MS && !(reacted && !old.views)) {
+    dwell();
     return;
   }
   const now = Date.now();
-  const prev = state.cards[cardId] ?? blankRecord(cardId, now);
+  const prev = old ?? blankRecord(cardId, now);
   const today = localDate(now);
   const firstToday = !prev.lastSeen || localDate(prev.lastSeen) !== today;
   writeCard({
@@ -293,7 +303,13 @@ export function recordView(cardId: string, dwellMs: number) {
     void safe(() => db.days.put({ date: today, count }));
   }
   logEvent(cardId, 'view', Math.round(dwellMs / 100) / 10);
-  signal(card, { type: 'dwell', seconds: dwellMs / 1000 });
+  dwell();
+}
+
+/** Whether leaving this card now should be recorded (see recordView): read long enough, or reacted to before its first view. */
+export function countsAsView(cardId: string, dwellMs: number): boolean {
+  const r = state.cards[cardId];
+  return dwellMs >= VIEW_MIN_MS || (!!r && !r.views && (r.reaction !== 0 || r.saved || !!r.planAt));
 }
 
 function updateCard(cardId: string, fn: (r: CardRecord) => Partial<CardRecord>) {

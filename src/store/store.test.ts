@@ -1,7 +1,7 @@
 import 'fake-indexeddb/auto';
 import { describe, expect, it } from 'vitest';
 import { CARDS } from '../content';
-import { addSuggestion, getState, localDate, resetAll, sanitizeText, seenMap, setAdjust, setPlanDone, streak, toggleLike, togglePlan, toggleSave } from './store';
+import { addSuggestion, countsAsView, getState, localDate, recordView, resetAll, sanitizeText, seenMap, setAdjust, setPlanDone, streak, toggleDislike, toggleLike, togglePlan, toggleSave } from './store';
 
 describe('topic suggestions', () => {
   it('strips control characters, links and markup and caps the length', () => {
@@ -101,5 +101,20 @@ describe('"Umsetzen" list', () => {
     togglePlan(id);
     await resetAll(true);
     expect(getState().cards[id]?.planAt).toBeGreaterThan(0);
+  });
+});
+
+describe('views', () => {
+  it('counts a card that got a reaction even when it was left right away', () => {
+    const [a, b] = CARDS.filter((c) => !getState().cards[c.id]).slice(0, 2);
+    recordView(a.id, 500);
+    expect(getState().cards[a.id]?.views ?? 0).toBe(0);
+    toggleDislike(b.id);
+    expect(countsAsView(b.id, 500)).toBe(true);
+    recordView(b.id, 500);
+    expect(getState().cards[b.id].views).toBe(1);
+    expect(seenMap(getState().cards)[b.id]).toBeDefined();
+    // only the first time: later quick passes do not add views
+    expect(countsAsView(b.id, 500)).toBe(false);
   });
 });
