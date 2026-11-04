@@ -1,23 +1,23 @@
 [
   {
-    "id": "news-2026-11-02-us-zwischenwahlen",
+    "id": "news-2026-11-04-us-kongress",
     "area": "aktuelles",
-    "sub": "termine",
+    "sub": "welt",
     "style": "erklaerung",
     "level": 1,
-    "publishedAt": "2026-11-02T17:00:00Z",
-    "expiresAt": "2026-11-05T17:00:00Z",
+    "publishedAt": "2026-11-04T17:30:00Z",
+    "expiresAt": "2026-11-07T17:00:00Z",
     "de": {
-      "title": "USA wählen am Dienstag den Kongress neu",
-      "body": "Am 3. November sind in den USA Zwischenwahlen. Gewählt werden **alle 435 Sitze** im Repräsentantenhaus, 35 der 100 Senatssitze und 36 Gouverneure.\n\nWarum es wichtig ist: Im Senat haben die Republikaner derzeit 53 zu 47 Sitze, im Repräsentantenhaus eine knappe Mehrheit. Gewinnen die Demokraten eine der beiden Kammern, kann der Präsident Gesetze kaum noch ohne sie durchbringen. Bei knappen Rennen kann das Endergebnis mehrere Tage dauern.",
-      "more": "Zwischenwahlen (Midterms) finden in der Mitte der vierjährigen Amtszeit des Präsidenten statt. Das Repräsentantenhaus wird alle zwei Jahre komplett neu gewählt, der Senat jeweils zu einem Drittel. Im Senat brauchen die Demokraten einen Nettogewinn von vier Sitzen für die Mehrheit. Bis zum 30. Oktober wurden laut AP schon über 43 Millionen Stimmen vorzeitig abgegeben.",
-      "source": "Vanderbilt Report und Fulcrum Macro, 2. November 2026"
+      "title": "Demokraten erobern beide Kammern des US-Kongresses",
+      "body": "Die Demokraten haben bei den Zwischenwahlen am Dienstag **beide Kammern des Kongresses** gewonnen: das Repräsentantenhaus und den Senat. Das melden übereinstimmend CBS News, NBC News und Time. Einzelne Rennen sind noch nicht ausgezählt.\n\nWarum es wichtig ist: Präsident Trump kann ab Januar kaum noch ein Gesetz ohne die Demokraten durchbringen. Der Senat muss seine Kandidaten für Ministerien und Gerichte bestätigen, und das Repräsentantenhaus kann Untersuchungen gegen die Regierung einleiten. Trump wiederum kann Gesetze der Demokraten mit seinem Veto stoppen.\n\nWie es weitergeht: Der neue Kongress tritt Anfang Januar 2027 zusammen.",
+      "more": "Vor der Wahl hielten die Republikaner 53 der 100 Senatssitze und 218 der 435 Sitze im Repräsentantenhaus. Die Demokraten brauchten in beiden Kammern einen Nettogewinn von vier Sitzen. Dass die Partei des Präsidenten bei Zwischenwahlen Sitze verliert, ist in den USA die Regel; beide Kammern auf einmal zu verlieren, ist seltener.",
+      "source": "CBS News, NBC News und Time, 4. November 2026"
     },
     "en": {
-      "title": "The US elects a new Congress on Tuesday",
-      "body": "The US holds its midterm elections on November 3. On the ballot: **all 435 seats** in the House, 35 of the 100 Senate seats and 36 governorships.\n\nWhy it matters: Republicans currently hold the Senate 53 to 47 and a narrow House majority. If Democrats win either chamber, the president can hardly pass laws without them. In close races the final result can take several days.",
-      "more": "Midterms fall in the middle of the president's four-year term. The whole House is elected every two years, the Senate a third at a time. Democrats need a net gain of four seats to control the Senate. By October 30, more than 43 million early ballots had been cast, according to AP.",
-      "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
+      "title": "Democrats win both chambers of the US Congress",
+      "body": "Democrats won **both chambers of Congress** in Tuesday's midterm elections: the House and the Senate. CBS News, NBC News and Time all report the result. Some races are still being counted.\n\nWhy it matters: from January, President Trump can hardly pass a law without Democrats. The Senate must confirm his picks for cabinet posts and the courts, and the House can open investigations into the administration. Trump, in turn, can stop Democratic bills with his veto.\n\nWhat comes next: the new Congress convenes in early January 2027.",
+      "more": "Before the election, Republicans held 53 of the 100 Senate seats and 218 of the 435 House seats. Democrats needed a net gain of four seats in each chamber. The president's party usually loses seats in midterms; losing both chambers at once is rarer.",
+      "source": "CBS News, NBC News and Time, November 4, 2026"
     }
   },
   {
