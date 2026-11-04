@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react';
 import { useT } from '../i18n/strings';
 import { Icon } from './Icon';
 
@@ -6,6 +6,12 @@ import { Icon } from './Icon';
 const CLOSE_MS = 220;
 /** Movement (px) before a press on the header counts as a drag and not as a tap. */
 const DRAG_SLOP = 6;
+
+/**
+ * Where a sheet sits when several are stacked (e.g. Profil → Einstellungen → Datenschutz):
+ * only the top one is active; the ones below wait unchanged until it is closed.
+ */
+export const SheetLevel = createContext({ level: 0, top: true });
 
 interface Drag {
   id: number;
@@ -33,6 +39,7 @@ function releaseSpeed(samples: { y: number; t: number }[], now: number): number 
  */
 export function Sheet({ title, onClose, children }: { title: string; onClose: () => void; children: ReactNode }) {
   const tr = useT();
+  const { level, top } = useContext(SheetLevel);
   const ref = useRef<HTMLDivElement>(null);
   const backdropRef = useRef<HTMLDivElement>(null);
   const onCloseRef = useRef(onClose);
@@ -55,15 +62,15 @@ export function Sheet({ title, onClose, children }: { title: string; onClose: ()
   }, []);
 
   useEffect(() => {
+    if (!top) return;
+    // Focus moves here when the sheet opens and again when the sheet above it closes.
+    ref.current?.focus({ preventScroll: true });
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && requestClose();
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [requestClose]);
+  }, [top, requestClose]);
 
-  useEffect(() => {
-    ref.current?.focus({ preventScroll: true });
-    return () => window.clearTimeout(timer.current);
-  }, []);
+  useEffect(() => () => window.clearTimeout(timer.current), []);
 
   const setOffset = (dy: number, dragging: boolean) => {
     const sheet = ref.current;
@@ -130,8 +137,24 @@ export function Sheet({ title, onClose, children }: { title: string; onClose: ()
 
   return (
     <>
-      <div ref={backdropRef} className={`sheet-backdrop${closing ? ' closing' : ''}`} onClick={requestClose} aria-hidden="true" />
-      <div className={`sheet${closing ? ' closing' : ''}`} role="dialog" aria-modal="true" aria-label={title} ref={ref} tabIndex={-1}>
+      <div
+        ref={backdropRef}
+        className={`sheet-backdrop${level > 0 ? ' stacked' : ''}${closing ? ' closing' : ''}`}
+        style={{ zIndex: 40 + level * 2 }}
+        onClick={requestClose}
+        aria-hidden="true"
+      />
+      <div
+        className={`sheet${closing ? ' closing' : ''}`}
+        style={{ zIndex: 41 + level * 2 }}
+        role="dialog"
+        aria-modal={top}
+        aria-hidden={top ? undefined : true}
+        inert={!top}
+        aria-label={title}
+        ref={ref}
+        tabIndex={-1}
+      >
         <div
           className="sheet-head"
           onPointerDown={onPointerDown}

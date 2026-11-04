@@ -582,6 +582,8 @@ input, textarea { font: inherit; color: inherit; }
   touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
+/* A sheet opened from another sheet only dims a little more, so the stack does not turn black. */
+.sheet-backdrop.stacked { background: rgba(0, 0, 0, 0.28); }
 .sheet-backdrop.dragging { transition: none; }
 .sheet-backdrop.closing { opacity: 0; transition-duration: 0.22s; animation: none; }
 .sheet {
@@ -1250,6 +1252,7 @@ input, textarea { font: inherit; color: inherit; }
   .feed-nav .glass-btn:last-child svg { transform: rotate(90deg); }
 
   .sheet-backdrop { -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
+  .sheet-backdrop.stacked { -webkit-backdrop-filter: none; backdrop-filter: none; }
   .sheet {
     inset: 0;
     margin: auto;

@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { CARD_BY_ID } from '../content';
 import { AREA_BY_ID } from '../content/taxonomy';
 import { useT } from '../i18n/strings';
 import { recordView, setPlanDone, toggleDislike, toggleLike, togglePlan, toggleSave, useStore, VIEW_MIN_MS } from '../store/store';
 import { CardDetail, Paragraphs } from './CardView';
 import { Icon } from './Icon';
-import { Sheet } from './Sheet';
+import { Sheet, SheetLevel } from './Sheet';
 
 /** Background text and sources of a card (and of every slide of a stack). */
 export function MoreContent({ cardId }: { cardId: string }) {
@@ -46,10 +46,13 @@ export function MoreSheet({ cardId, onClose }: { cardId: string; onClose: () => 
 /**
  * Reading a card in a sheet counts like reading it in the feed: history, "gelesen", reviews,
  * Umsetzen check-backs and the algorithm all see it. Time in the background does not count,
- * and a sheet closed within a moment (a mis-tap) is not counted at all.
+ * and a sheet closed within a moment (a mis-tap) is not counted at all. While another sheet lies
+ * on top of it (e.g. a person opened from the card), the view is closed and a new one starts when it
+ * is uncovered, as if the card had been opened again.
  */
-export function useSheetView(cardId: string) {
+export function useSheetView(cardId: string, active = true) {
   useEffect(() => {
+    if (!active) return;
     let since: number | null = document.visibilityState === 'hidden' ? null : performance.now();
     let dwell = 0;
     const pause = () => {
@@ -72,7 +75,7 @@ export function useSheetView(cardId: string) {
       window.removeEventListener('pagehide', flush);
       flush();
     };
-  }, [cardId]);
+  }, [cardId, active]);
 }
 
 /** A card opened outside the feed (profile lists, a person's profile): full text, reactions and background in one sheet. */
@@ -80,7 +83,7 @@ export function CardSheet({ cardId, onClose, onPerson }: { cardId: string; onClo
   const tr = useT();
   const card = CARD_BY_ID[cardId];
   const record = useStore((s) => s.cards[cardId]);
-  useSheetView(cardId);
+  useSheetView(cardId, useContext(SheetLevel).top);
   if (!card) return null;
   return (
     <Sheet title={AREA_BY_ID[card.area].label[tr.lang]} onClose={onClose}>
