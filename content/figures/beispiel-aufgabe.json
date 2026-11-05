@@ -1,0 +1,6 @@
+{"type":"compare",
+ "title":"Wofür der Kopf Platz hat|What your head has room for",
+ "cols":[
+  {"head":"Anfänger|Beginner","items":[{"t":"mit Beispiel|With an example","s":"Platz fürs Verstehen|room to understand","acc":true},{"t":"mit Aufgabe|With a problem","s":"Platz geht fürs Suchen drauf|room goes on searching"}]},
+  {"head":"Fortgeschrittene|Advanced","items":[{"t":"mit Beispiel|With an example","s":"wenig Neues|little new"},{"t":"mit Aufgabe|With a problem","s":"übt das Anwenden|trains applying","acc":true}]}],
+ "footer":["Was dem Anfänger hilft, bremst den Könner.|What helps the beginner slows the expert."]}

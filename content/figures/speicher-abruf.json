@@ -1,0 +1,6 @@
+{"type":"compare",
+ "title":"Zwei Wege, dasselbe zu lernen|Two ways to learn the same thing",
+ "cols":[
+  {"head":"Nochmals lesen|Reread","items":[{"t":"Abruf: leicht|Recall: easy","s":"fühlt sich sicher an|feels solid"},{"t":"Speicher wächst kaum|Storage barely grows"}]},
+  {"head":"Selbst abfragen|Test yourself","items":[{"t":"Abruf: mühsam|Recall: effortful","s":"fühlt sich unsicher an|feels shaky"},{"t":"Speicher wächst stark|Storage grows a lot","acc":true}]}],
+ "footer":["Das Gefühl misst den Abruf, nicht den Speicher.|The feeling measures recall, not storage."]}

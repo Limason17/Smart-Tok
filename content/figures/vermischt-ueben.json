@@ -1,0 +1,8 @@
+{"type":"bars",
+ "title":"Richtige Antworten|Correct answers",
+ "items":[
+  {"t":"Beim Üben, in Blöcken|During practice, blocked","v":89,"show":"89 %"},
+  {"t":"Beim Üben, gemischt|During practice, mixed","v":60,"show":"60 %"},
+  {"t":"Test nach einer Woche, in Blöcken|Test a week later, blocked","v":20,"show":"20 %"},
+  {"t":"Test nach einer Woche, gemischt|Test a week later, mixed","v":63,"show":"63 %","acc":true}],
+ "footer":["Rohrer und Taylor 2007, Mathematikaufgaben|Rohrer and Taylor 2007, maths problems"]}
