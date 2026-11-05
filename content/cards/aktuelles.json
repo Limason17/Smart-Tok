@@ -115,5 +115,47 @@
     },
     "publishedAt": "2026-11-05T05:00:00Z",
     "expiresAt": "2026-11-12T05:00:00Z"
+  },
+  {
+    "id": "news-2026-11-05-bvg-mindestzins",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Pensionskassen müssen ab 2027 mindestens 2 Prozent zahlen",
+      "body": "Der Bundesrat hat am Mittwoch den **BVG-Mindestzins von 1,25 auf 2 Prozent erhöht**, gültig ab 1. Januar 2027. Das ist der grösste Schritt seit Einführung des BVG. Die BVG-Kommission hatte 1,75 Prozent empfohlen. Der Bundesrat begründet die Erhöhung mit der soliden Lage der Pensionskassen und den guten Renditen bei Aktien und Immobilien.\n\nWarum es wichtig ist: Der Mindestzins bestimmt, wie stark das Alterskapital im obligatorischen Teil mindestens wächst. Der Arbeitgeberverband nennt den Entscheid fahrlässig. Am stärksten betroffen sind Kassen, die kaum mehr als das Minimum versichern.\n\nWie es weitergeht: Der neue Satz gilt ab 2027. Viele Kassen verzinsen bereits heute höher.",
+      "more": "Laut Bundesamt für Sozialversicherungen erzielten die Pensionskassen 2025 im Schnitt 6,1 Prozent Rendite und 2026 bis Ende August 5,4 Prozent. Der Deckungsgrad der Kassen ohne Staatsgarantie lag Ende August bei durchschnittlich 122,5 Prozent. Laut Arbeitgeberverband verzinsten die Kassen 2025 im Schnitt mit 4,6 Prozent. Der Mindestzins gilt nur für das Obligatorium, nicht für überobligatorische Guthaben.",
+      "source": "cash.ch (AWP), moneycab und investrends, 4. November 2026"
+    },
+    "en": {
+      "title": "Swiss pension funds must pay at least 2 percent",
+      "body": "On Wednesday the Federal Council **raised the BVG minimum interest rate from 1.25 to 2 percent**, effective 1 January 2027. It is the biggest step since the BVG was introduced. The BVG commission had recommended 1.75 percent. The government cites the solid position of pension funds and good returns on shares and real estate.\n\nWhy it matters: the minimum rate sets how much retirement savings in the mandatory part must grow at the least. The employers' association calls the decision reckless. Funds that insure little beyond the minimum are hit hardest.\n\nWhat's next: the new rate applies from 2027. Many funds already pay more today.",
+      "more": "According to the Federal Social Insurance Office, pension funds returned 6.1 percent on average in 2025 and 5.4 percent in 2026 up to the end of August. The average funding ratio of funds without a state guarantee was 122.5 percent at the end of August. According to the employers' association, funds paid 4.6 percent interest on average in 2025. The minimum rate only applies to the mandatory part, not to extra-mandatory savings.",
+      "source": "cash.ch (AWP), moneycab and investrends, 4 November 2026"
+    },
+    "publishedAt": "2026-11-05T17:30:00Z",
+    "expiresAt": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "news-2026-11-05-chikungunya-tessin",
+    "area": "aktuelles",
+    "sub": "welt",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Chikungunya erstmals in der Schweiz übertragen",
+      "body": "Im Tessin haben sich **vier Personen in der Schweiz mit dem Chikungunya-Virus angesteckt**, das gab der Kanton am Mittwoch bekannt. Es ist die erste lokale Übertragung im Land. Die Betroffenen wohnen in der Magadinoebene und waren nicht in Gebieten gereist, in denen das Virus vorkommt. Übertragen wird es von der Tigermücke, nicht von Mensch zu Mensch. Den vier geht es gut, einige haben noch Gelenkschmerzen.\n\nWarum es wichtig ist: Die Tigermücke ist im Tessin fest angesiedelt. Ähnliche Fälle gab es schon in Italien und Frankreich.\n\nWie es weitergeht: Der Kanton bekämpft die Mücken im betroffenen Gebiet. Kanton und Bund schätzen das Risiko als sehr gering ein, weil die Mückensaison zu Ende geht.",
+      "more": "Chikungunya verursacht meist hohes Fieber und starke Gelenk- und Muskelschmerzen, selten halten die Beschwerden Wochen bis Monate an. Für die Bevölkerung gelten nur die üblichen Empfehlungen gegen Mückenstiche. Seit April 2026 ist in der Schweiz ein Impfstoff für Reisende zugelassen.",
+      "source": "watson und nau.ch (Keystone-SDA), 4. November 2026; BAG"
+    },
+    "en": {
+      "title": "Chikungunya transmitted in Switzerland for the first time",
+      "body": "In Ticino **four people caught the chikungunya virus inside Switzerland**, the canton announced on Wednesday. It is the first local transmission in the country. Those affected live in the Magadino plain and had not travelled to areas where the virus circulates. It is spread by the tiger mosquito, not from person to person. All four are doing well, some still have joint pain.\n\nWhy it matters: the tiger mosquito is firmly established in Ticino. Similar cases have occurred in Italy and France.\n\nWhat's next: the canton is fighting the mosquitoes in the affected area. Canton and federal authorities rate the risk as very low because the mosquito season is ending.",
+      "more": "Chikungunya usually causes high fever and strong joint and muscle pain; rarely the symptoms last weeks to months. For the public only the usual advice against mosquito bites applies. A vaccine for travellers has been approved in Switzerland since April 2026.",
+      "source": "watson and nau.ch (Keystone-SDA), 4 November 2026; Swiss Federal Office of Public Health"
+    },
+    "publishedAt": "2026-11-05T17:30:00Z",
+    "expiresAt": "2026-11-08T17:00:00Z"
   }
 ]
