@@ -52,5 +52,68 @@
       "more": "The US jobs report is often called the most important economic number in the world: it shows how many jobs were added and shapes what the Federal Reserve does in December. The Bank of England publishes its Monetary Policy Report together with the decision.",
       "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
     }
+  },
+  {
+    "id": "news-2026-11-05-smi-rekord",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "SMI erstmals über 15'000 Punkten",
+      "body": "Die Schweizer Börse hat am Mittwoch einen Rekord erreicht: Der Leitindex **SMI stieg erstmals über 15'000 Punkte**, ein Plus von rund 2 Prozent. In New York legte der Dow Jones um mehr als 1000 Punkte zu. Auslöser war der Ausgang der US-Zwischenwahlen, bei denen die Demokraten beide Kammern des Kongresses gewonnen haben. Dazu fiel der Ölpreis deutlich.\n\nWarum es wichtig ist: Laut Marktberichten hat das Wahlergebnis Unsicherheit aus dem Markt genommen, Anleger schauen wieder auf die Firmenergebnisse. Ein höherer SMI betrifft auch Pensionskassen, die einen Teil der Vorsorgegelder in Schweizer Aktien anlegen.\n\nWie es weitergeht: Ob die Rekordlaune hält, hängt von den nächsten Quartalszahlen und Zinsentscheiden ab.",
+      "more": "Der SMI umfasst die 20 grössten börsenkotierten Schweizer Firmen, darunter Nestlé, Novartis, Roche und UBS. Am Mittwoch stiegen UBS um 4,4 und Logitech um 8,4 Prozent.",
+      "source": "cash.ch (AWP), CNN und ABC News, 4. November 2026"
+    },
+    "en": {
+      "title": "Swiss SMI tops 15,000 points for the first time",
+      "body": "The Swiss stock market hit a record on Wednesday: the benchmark **SMI rose above 15,000 points for the first time**, a gain of about 2 percent. In New York, the Dow Jones climbed more than 1,000 points. The trigger was the result of the US midterm elections, in which the Democrats won both chambers of Congress. Oil prices also fell sharply.\n\nWhy it matters: according to market reports, the result took uncertainty out of the market and investors are focusing on company results again. A higher SMI also affects pension funds, which invest part of people's retirement savings in Swiss shares.\n\nWhat's next: whether the record mood lasts depends on the next quarterly results and interest rate decisions.",
+      "more": "The SMI covers the 20 largest listed Swiss companies, including Nestlé, Novartis, Roche and UBS. On Wednesday UBS rose 4.4 percent and Logitech 8.4 percent.",
+      "source": "cash.ch (AWP), CNN and ABC News, 4 November 2026"
+    },
+    "publishedAt": "2026-11-05T05:00:00Z",
+    "expiresAt": "2026-11-07T17:00:00Z"
+  },
+  {
+    "id": "news-2026-11-05-iv-reform",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Bundesrat will höhere Lohnbeiträge für die IV",
+      "body": "Der Bundesrat hat am Mittwoch eine Reform der Invalidenversicherung (IV) in die Vernehmlassung geschickt. Kern: Die **Lohnbeiträge sollen um 0,2 Prozentpunkte steigen**, je 0,1 für Arbeitgeber und Angestellte. Das brächte 2030 rund 980 Millionen Franken mehr. Eine volle Rente gäbe es für neue Renten erst ab 80 Prozent Invalidität statt wie heute ab 70 Prozent. Junge Menschen unter 25 mit schweren psychischen Erkrankungen sollen statt einer Rente eine Integrationsleistung mit Begleitung erhalten.\n\nWarum es wichtig ist: Die IV gibt seit Anfang der 1990er-Jahre meist mehr aus, als sie einnimmt. Zwischen 2019 und 2024 kamen 9600 Rentnerinnen und Rentner dazu, jeder zehnte ist unter 30.\n\nWie es weitergeht: Parteien, Kantone und Verbände nehmen nun Stellung, danach entscheidet das Parlament.",
+      "more": "Weitere Punkte: Das Taggeld für Menschen ohne Unterhaltspflichten soll von 80 auf 70 Prozent des letzten Lohns sinken, mit Ausnahmen für tiefe Einkommen. Ab 2030 soll auch die Spielbankenabgabe in die IV fliessen, rund 60 Millionen Franken pro Jahr.",
+      "source": "watson (SDA) und cash.ch (AWP), 4. November 2026"
+    },
+    "en": {
+      "title": "Swiss government wants higher wage contributions for disability insurance",
+      "body": "On Wednesday the Federal Council put a reform of disability insurance (IV) out for consultation. At its core, **wage contributions would rise by 0.2 percentage points**, 0.1 each for employers and employees. That would bring in about 980 million francs more in 2030. A full pension would only be granted from 80 percent disability for new pensions, instead of 70 percent today. Young people under 25 with severe mental illness would receive an integration benefit with support instead of a pension.\n\nWhy it matters: since the early 1990s the IV has mostly spent more than it takes in. Between 2019 and 2024 the number of pensioners grew by 9,600, and one in ten is under 30.\n\nWhat's next: parties, cantons and associations now give their views, then parliament decides.",
+      "more": "Other points: the daily allowance for people without maintenance obligations would fall from 80 to 70 percent of the last wage, with exceptions for low incomes. From 2030 the casino levy would also go to the IV, about 60 million francs a year.",
+      "source": "watson (SDA) and cash.ch (AWP), 4 November 2026"
+    },
+    "publishedAt": "2026-11-05T05:00:00Z",
+    "expiresAt": "2026-11-10T17:00:00Z"
+  },
+  {
+    "id": "news-2026-11-05-abstimmung-29-november",
+    "area": "aktuelles",
+    "sub": "termine",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Am 29. November stimmt die Schweiz viermal ab",
+      "body": "In gut drei Wochen entscheidet die Schweiz über vier Vorlagen:\n\n- **13. AHV-Rente:** Die Mehrwertsteuer soll um 0,4 Prozentpunkte steigen, um sie mitzufinanzieren.\n- **Kriegsmaterialgesetz:** Waffenexporte sollen einfacher werden, an 36 aufgelistete Staaten auch dann, wenn sie Krieg führen.\n- **Ehepaare:** Eine Initiative der Mitte will, dass Verheiratete bei der Bundessteuer nicht mehr bezahlen als Unverheiratete.\n- **Feuerwerk:** Eine Initiative will lautes Feuerwerk verbieten, mit Ausnahmen für grosse Anlässe.\n\nWarum es wichtig ist: Laut der zweiten SRG-Umfrage sind die AHV-Finanzierung und das Kriegsmaterialgesetz knapp, die Feuerwerks-Initiative liegt klar vorn.\n\nWie es weitergeht: Abgestimmt wird am Sonntag, 29. November. Brieflich kann man schon vorher abstimmen.",
+      "more": "Die 13. AHV-Rente hat das Volk 2024 angenommen, offen blieb die Finanzierung. Die Mehrwertsteuer-Erhöhung würde laut Republik etwa die Hälfte davon decken.",
+      "source": "Republik, 4. November 2026; SRG-Trendumfrage (gfs.bern) laut CH Media und Moneycab"
+    },
+    "en": {
+      "title": "Switzerland votes on four proposals on 29 November",
+      "body": "In just over three weeks, Switzerland decides on four proposals:\n\n- **13th AHV pension:** VAT would rise by 0.4 percentage points to help pay for it.\n- **War Material Act:** arms exports would become easier, to 36 listed countries even when they are at war.\n- **Married couples:** an initiative by the Centre party wants married people to pay no more federal tax than unmarried people.\n- **Fireworks:** an initiative wants to ban loud fireworks, with exceptions for major events.\n\nWhy it matters: according to the second SRG poll, the AHV financing and the War Material Act are close, while the fireworks initiative is clearly ahead.\n\nWhat's next: the vote is on Sunday, 29 November. Postal voting is possible beforehand.",
+      "more": "Voters approved the 13th AHV pension in 2024, but its financing was left open. According to Republik, the VAT increase would cover about half of it.",
+      "source": "Republik, 4 November 2026; SRG trend poll (gfs.bern) as reported by CH Media and Moneycab"
+    },
+    "publishedAt": "2026-11-05T05:00:00Z",
+    "expiresAt": "2026-11-12T05:00:00Z"
   }
 ]
