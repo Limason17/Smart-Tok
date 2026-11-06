@@ -19,5 +19,38 @@
       "more": "Midterms fall in the middle of the president's four-year term. The whole House is elected every two years, the Senate a third at a time. Democrats need a net gain of four seats to control the Senate. By October 30, more than 43 million early ballots had been cast, according to AP.",
       "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
     }
+  },
+  {
+    "id": "news-2026-11-02-zinswoche",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "fakt",
+    "level": 2,
+    "publishedAt": "2026-11-02T17:00:00Z",
+    "expiresAt": "2026-11-06T04:50:00Z",
+    "de": {
+      "title": "Eine Woche voller Zinsentscheide",
+      "body": "Diese Woche entscheiden mehrere Notenbanken über ihre Leitzinsen. Warum es wichtig ist: Leitzinsen bestimmen, was Kredite kosten und was Sparen bringt, und sie bewegen Währungen und Aktienkurse weit über das jeweilige Land hinaus.",
+      "points": [
+        "Dienstag: Australien (RBA)",
+        "Mittwoch: Schweden (Riksbank) und Brasilien",
+        "Donnerstag: Bank of England, Norwegen und Mexiko",
+        "Freitag: US-Arbeitsmarktbericht für Oktober"
+      ],
+      "more": "Der US-Arbeitsmarktbericht gilt als wichtigste Konjunkturzahl der Welt: Er zeigt, wie viele Stellen neu entstanden sind, und beeinflusst, wie die US-Notenbank im Dezember entscheidet. Die Bank of England legt zusammen mit dem Entscheid ihren Bericht zur Geldpolitik vor.",
+      "source": "Vanderbilt Report und Fulcrum Macro, 2. November 2026"
+    },
+    "en": {
+      "title": "A week full of rate decisions",
+      "body": "Several central banks set their interest rates this week. Why it matters: policy rates decide what loans cost and what saving earns, and they move currencies and stock prices far beyond the country itself.",
+      "points": [
+        "Tuesday: Australia (RBA)",
+        "Wednesday: Sweden (Riksbank) and Brazil",
+        "Thursday: Bank of England, Norway and Mexico",
+        "Friday: US jobs report for October"
+      ],
+      "more": "The US jobs report is often called the most important economic number in the world: it shows how many jobs were added and shapes what the Federal Reserve does in December. The Bank of England publishes its Monetary Policy Report together with the decision.",
+      "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
+    }
   }
 ]

@@ -21,39 +21,6 @@
     }
   },
   {
-    "id": "news-2026-11-02-zinswoche",
-    "area": "aktuelles",
-    "sub": "wirtschaft",
-    "style": "fakt",
-    "level": 2,
-    "publishedAt": "2026-11-02T17:00:00Z",
-    "expiresAt": "2026-11-07T17:00:00Z",
-    "de": {
-      "title": "Eine Woche voller Zinsentscheide",
-      "body": "Diese Woche entscheiden mehrere Notenbanken über ihre Leitzinsen. Warum es wichtig ist: Leitzinsen bestimmen, was Kredite kosten und was Sparen bringt, und sie bewegen Währungen und Aktienkurse weit über das jeweilige Land hinaus.",
-      "points": [
-        "Dienstag: Australien (RBA)",
-        "Mittwoch: Schweden (Riksbank) und Brasilien",
-        "Donnerstag: Bank of England, Norwegen und Mexiko",
-        "Freitag: US-Arbeitsmarktbericht für Oktober"
-      ],
-      "more": "Der US-Arbeitsmarktbericht gilt als wichtigste Konjunkturzahl der Welt: Er zeigt, wie viele Stellen neu entstanden sind, und beeinflusst, wie die US-Notenbank im Dezember entscheidet. Die Bank of England legt zusammen mit dem Entscheid ihren Bericht zur Geldpolitik vor.",
-      "source": "Vanderbilt Report und Fulcrum Macro, 2. November 2026"
-    },
-    "en": {
-      "title": "A week full of rate decisions",
-      "body": "Several central banks set their interest rates this week. Why it matters: policy rates decide what loans cost and what saving earns, and they move currencies and stock prices far beyond the country itself.",
-      "points": [
-        "Tuesday: Australia (RBA)",
-        "Wednesday: Sweden (Riksbank) and Brazil",
-        "Thursday: Bank of England, Norway and Mexico",
-        "Friday: US jobs report for October"
-      ],
-      "more": "The US jobs report is often called the most important economic number in the world: it shows how many jobs were added and shapes what the Federal Reserve does in December. The Bank of England publishes its Monetary Policy Report together with the decision.",
-      "source": "Vanderbilt Report and Fulcrum Macro, November 2, 2026"
-    }
-  },
-  {
     "id": "news-2026-11-05-smi-rekord",
     "area": "aktuelles",
     "sub": "wirtschaft",
@@ -157,5 +124,68 @@
     },
     "publishedAt": "2026-11-05T17:30:00Z",
     "expiresAt": "2026-11-08T17:00:00Z"
+  },
+  {
+    "id": "news-2026-11-06-bank-of-england",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "erklaerung",
+    "level": 2,
+    "de": {
+      "title": "Bank of England erhöht erstmals seit 2023 den Zins",
+      "body": "Die britische Notenbank hat am Donnerstag ihren **Leitzins von 3,75 auf 4 Prozent erhöht**, zum ersten Mal seit August 2023. Acht von neun Mitgliedern stimmten dafür, eines wollte einen grösseren Schritt. Grund sind die Energiepreise seit dem Krieg mit Iran: Die Inflation in Grossbritannien lag im September bei 3,5 Prozent, die Notenbank erwartet bis Mitte 2027 rund 5 Prozent.\n\nWarum es wichtig ist: Nach Jahren sinkender Zinsen steigt nun eine grosse Notenbank wieder. Höhere Zinsen verteuern Kredite und Hypotheken, sollen aber die Teuerung bremsen.\n\nWie es weitergeht: Gouverneur Andrew Bailey sagt, es sei nicht der Anfang einer langen Serie, aber ohne Ende des Konflikts wohl nicht die letzte Erhöhung. Nächster Entscheid am 17. Dezember.",
+      "more": "Der Ölpreis stieg von rund 70 Dollar vor dem Konflikt Ende Februar auf zuletzt rund 96 Dollar. Neue Hypotheken kosten in Grossbritannien im Schnitt 5,89 Prozent, so viel wie seit November 2023 nicht mehr. Die Notenbank hob gleichzeitig ihre Wachstumsprognose an, auch wegen Investitionen rund um künstliche Intelligenz.",
+      "source": "AFP (via Manila Times) und MoneyWeek, 5. November 2026"
+    },
+    "en": {
+      "title": "Bank of England raises rates, first time since 2023",
+      "body": "On Thursday the British central bank **raised its key rate from 3.75 to 4 percent**, the first increase since August 2023. Eight of nine members voted for it, one wanted a bigger step. The reason is energy prices since the war with Iran: UK inflation was 3.5 percent in September, and the bank expects around 5 percent by mid-2027.\n\nWhy it matters: after years of falling rates, a major central bank is raising again. Higher rates make loans and mortgages more expensive but are meant to slow inflation.\n\nWhat's next: Governor Andrew Bailey says it is not the start of a long series, but without an end to the conflict probably not the last increase either. Next decision on 17 December.",
+      "more": "Oil rose from about 70 dollars before the conflict at the end of February to about 96 dollars recently. New mortgages in the UK now cost 5.89 percent on average, the highest since November 2023. The bank also raised its growth forecast, partly because of investment linked to artificial intelligence.",
+      "source": "AFP (via Manila Times) and MoneyWeek, 5 November 2026"
+    },
+    "publishedAt": "2026-11-06T05:30:00Z",
+    "expiresAt": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "news-2026-11-06-ki-aktien-einbruch",
+    "area": "aktuelles",
+    "sub": "wirtschaft",
+    "style": "fakt",
+    "level": 2,
+    "de": {
+      "title": "Chip-Aktien stürzen ab, Nasdaq in der Korrektur",
+      "body": "Nach dem Wahlsieg der Demokraten sind die US-Börsen am Donnerstag eingebrochen. Der **Nasdaq fiel um 5,5 Prozent**, der S&P 500 um 4,4 Prozent, so stark wie seit April 2025 nicht mehr. Besonders hart traf es Chip-Hersteller: AMD verlor 17 Prozent, Nvidia 9 Prozent. Anleger fürchten strengere Regeln für künstliche Intelligenz und langsamer gebaute Rechenzentren, weil in mehreren Staaten mit Widerstand gegen solche Anlagen die Demokraten gewonnen haben.\n\nWarum es wichtig ist: Der Nasdaq liegt nun über 10 Prozent unter seinem Rekord von Anfang Oktober. Das nennt man eine Korrektur. KI-Firmen haben die Börsen zuletzt stark getragen.\n\nWie es weitergeht: In Asien fiel am Freitag auch der koreanische Kospi stark. Heute folgen die US-Arbeitsmarktzahlen.",
+      "more": "Die Grossbank UBS schätzt, dass rund 30 Prozent der für 2028 geplanten neuen Rechenzentren nun in Frage stehen. Konkrete Gesetzesvorschläge gibt es noch nicht, es geht um Erwartungen. Am Mittwoch, direkt nach der Wahl, waren die Kurse noch gestiegen.",
+      "source": "Reuters (via Yahoo Finance und Star-Advertiser) und CNBC (via Stocktitan), 5. November 2026"
+    },
+    "en": {
+      "title": "Chip stocks crash, Nasdaq enters correction",
+      "body": "After the Democrats' election win, US stock markets slumped on Thursday. The **Nasdaq fell 5.5 percent** and the S&P 500 4.4 percent, the biggest drop since April 2025. Chipmakers were hit hardest: AMD lost 17 percent, Nvidia 9 percent. Investors fear stricter rules for artificial intelligence and slower data-centre construction, because Democrats won in several states with opposition to such facilities.\n\nWhy it matters: the Nasdaq is now more than 10 percent below its early-October record. That is called a correction. AI companies have recently carried the markets.\n\nWhat's next: in Asia, Korea's Kospi also fell sharply on Friday. US jobs figures follow today.",
+      "more": "The bank UBS estimates that about 30 percent of the new data centres planned for 2028 are now in question. There are no concrete bills yet; it is about expectations. On Wednesday, right after the election, prices had still risen.",
+      "source": "Reuters (via Yahoo Finance and Star-Advertiser) and CNBC (via Stocktitan), 5 November 2026"
+    },
+    "publishedAt": "2026-11-06T05:30:00Z",
+    "expiresAt": "2026-11-09T17:00:00Z"
+  },
+  {
+    "id": "news-2026-11-06-hitzesommer-tote",
+    "area": "aktuelles",
+    "sub": "welt",
+    "style": "fakt",
+    "level": 1,
+    "de": {
+      "title": "Hitzesommer 2026 forderte rund 1260 Todesopfer",
+      "body": "Im Sommer 2026 sind in der Schweiz nach einer ersten Schätzung **rund 1260 Menschen wegen der Hitze gestorben**. Das zeigt eine Auswertung des Schweizerischen Tropen- und Public-Health-Instituts im Auftrag des Bundesamts für Gesundheit für Mai bis August. Rund 85 Prozent der Toten waren 75 Jahre oder älter. Sieben von zehn Todesfällen fielen auf Tage mit einer Durchschnittstemperatur von mindestens 25 Grad.\n\nWarum es wichtig ist: Das ist ähnlich viel wie im Hitzesommer 2003 und 5,5 Prozent aller Todesfälle in dieser Zeit. Hitze trifft vor allem alte und kranke Menschen.\n\nWie es weitergeht: Die endgültigen Zahlen, auch nach Kantonen, folgen im Frühling 2027.",
+      "more": "Grundlage sind die Tagestemperaturen von MeteoSchweiz und vorläufige Todesfallzahlen des Bundesamts für Statistik. Ein direkter Vergleich mit 2003 ist noch nicht möglich, weil frühere Zahlen bis Ende September reichen.",
+      "source": "SRF und nau.ch (Keystone-SDA), 5. November 2026"
+    },
+    "en": {
+      "title": "Summer heat killed about 1,260 people in Switzerland",
+      "body": "In summer 2026, according to a first estimate, **about 1,260 people in Switzerland died because of the heat**. That is the finding of an analysis by the Swiss Tropical and Public Health Institute for the Federal Office of Public Health, covering May to August. About 85 percent of the dead were 75 or older. Seven in ten deaths fell on days with an average temperature of at least 25 degrees.\n\nWhy it matters: that is similar to the 2003 heat summer and 5.5 percent of all deaths in that period. Heat hits old and sick people hardest.\n\nWhat's next: final figures, including by canton, follow in spring 2027.",
+      "more": "The basis is daily temperatures from MeteoSwiss and provisional death figures from the Federal Statistical Office. A direct comparison with 2003 is not yet possible because earlier figures run until the end of September.",
+      "source": "SRF and nau.ch (Keystone-SDA), 5 November 2026"
+    },
+    "publishedAt": "2026-11-06T05:30:00Z",
+    "expiresAt": "2026-11-12T17:00:00Z"
   }
 ]
